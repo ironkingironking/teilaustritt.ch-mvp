@@ -1,27 +1,24 @@
-# teilaustritt.ch – Static Site
+# teilaustritt.ch – Static Site mit PDF‑Formulargenerator
 
-Mini-Landing-Page, gebaut mit **reinem HTML & CSS**.
+Mini‑Landing‑Page, gebaut mit **HTML, CSS & etwas JS**  
+Erstellt ein personalisiertes PDF‑Gesuch für den Teilaustritt aus der Kirche.
 
 ## Struktur
 
 ```
-index.html         # Hauptseite
-css/style.css      # zentrales Stylesheet
+index.html         # Hauptseite mit Formular
+css/style.css      # Stylesheet
+js/generator.js    # JS-Logik für PDF-Erzeugung
 ```
 
 ## Lokale Vorschau
 
-```bash
-git clone https://github.com/DEIN-NAME/teilaustritt.git
-cd teilaustritt
-open index.html          # macOS
-xdg-open index.html      # Linux
-```
+Einfach `index.html` im Browser öffnen (Internetverbindung nötig für CDN‑Libs).
 
-## Deployment-Ideen
+## Deployment‑Ideen
 
-* **GitHub Pages** – Branch `gh-pages` oder GitHub Actions  
-* **Netlify / Vercel**  – Build-Befehl: none, Publish dir: /
+* **GitHub Pages**  
+* **Netlify / Vercel**
 
 ---
 
