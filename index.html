@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Teilaustritt | Kirchensteuer reduzieren</title>
+  <meta name="description" content="Wir helfen dir, deine Kirchensteuer in der Schweiz durch einen Teilaustritt zu senken – einfach, transparent und kostenlos." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="container flex between center">
+      <a class="brand" href="#">teilaustritt<span>.ch</span></a>
+      <ul class="nav-links">
+        <li><a href="#ablauf">Ablauf</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container text-center">
+      <h1>Kirchensteuer senken – so einfach geht’s</h1>
+      <p>Mit Teilaustritt .ch reduzierst du deinen Beitrag, ohne ganz aus der Kirche auszutreten.</p>
+      <a href="#ablauf" class="btn-primary">Jetzt starten</a>
+    </div>
+  </section>
+
+  <section id="ablauf" class="steps container">
+    <h2>So funktioniert’s</h2>
+    <div class="step-grid">
+      <div class="step">
+        <span class="step-number">1</span>
+        <h3>Formular ausfüllen</h3>
+        <p>Beantworte wenige Fragen – 2 Minuten reichen.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <h3>Dokument herunterladen</h3>
+        <p>Wir generieren dein offizielles Gesuch als PDF – kostenlos.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <h3>Unterschreiben & abschicken</h3>
+        <p>Ab die Post an dein Pfarramt – fertig!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>Häufige Fragen</h2>
+      <details>
+        <summary>Muss ich ganz aus der Kirche austreten?</summary>
+        <p>Nein. Du bleibst Mitglied, verzichtest aber freiwillig auf gewisse kirchliche Dienstleistungen und zahlst entsprechend weniger.</p>
+      </details>
+      <details>
+        <summary>Kostet der Service etwas?</summary>
+        <p>Unser Service ist 100 % gratis. Wir finanzieren uns über freiwillige Spenden.</p>
+      </details>
+      <details>
+        <summary>In welchen Kantonen funktioniert ein Teilaustritt?</summary>
+        <p>Aktuell unterstützen die meisten deutschsprachigen Kantone Teil­aus­tritte. Eine vollständige Liste findest du bald hier.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="kontakt" class="kontakt container">
+    <h2>Kontakt</h2>
+    <p>Fragen offen? Schreib uns unter <a href="mailto:hallo@teilaustritt.ch">hallo@teilaustritt.ch</a>.</p>
+  </section>
+
+  <footer>
+    <div class="container flex between center">
+      <small>© <span id="year"></span> teilaustritt.ch – alle Rechte vorbehalten</small>
+      <a href="#top">▲ Nach oben</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
