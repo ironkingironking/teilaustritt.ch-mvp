@@ -1,0 +1,28 @@
+{
+  "name": "teilaustritt.ch-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.1",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "react-hook-form": "^7.45.2",
+    "@hookform/resolvers": "^3.0.0",
+    "yup": "^1.2.0",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.0",
+    "@types/react": "^18.2.41",
+    "@types/node": "^20.11.18"
+  }
+}
