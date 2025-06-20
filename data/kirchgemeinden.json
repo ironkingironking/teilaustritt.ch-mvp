@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ZH_8001",
+    "kanton": "ZH",
+    "gemeinde": "Zürich",
+    "kirchgemeinde": "Pfarrei Grossmünster (Beispiel)",
+    "anschrift": "Zwingliplatz 4, 8001 Zürich"
+  },
+  {
+    "id": "BE_3011",
+    "kanton": "BE",
+    "gemeinde": "Bern",
+    "kirchgemeinde": "Pfarrei St. Peter und Paul (Beispiel)",
+    "anschrift": "Breitenrainstrasse 60, 3011 Bern"
+  }
+]
