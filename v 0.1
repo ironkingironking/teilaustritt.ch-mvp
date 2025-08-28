@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teilaustritt.ch · Teilaustritt aus der öffentlich‑rechtlichen Kirche – katholisch bleiben</title>
+  <meta name="description" content="Teilaustritt.ch: Informationen, Generator und Vorlagen für den Teilaustritt aus der öffentlich‑rechtlichen Kirche in der Schweiz – bei fortbestehender Zugehörigkeit zur römisch‑katholischen Kirche als Glaubensgemeinschaft." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23094' d='M32 6a6 6 0 0 1 6 6v10h10a6 6 0 0 1 0 12H38v18a6 6 0 0 1-12 0V34H16a6 6 0 1 1 0-12h10V12a6 6 0 0 1 6-6z'/%3E%3C/svg%3E" />
+  <style>
+    *,*::before,*::after{box-sizing:border-box}
+    html:focus-within{scroll-behavior:smooth}
+    body{margin:0;line-height:1.6;-webkit-font-smoothing:antialiased}
+    img,picture,video,canvas,svg{display:block;max-width:100%}
+    input,button,textarea,select{font:inherit}
+    :root{--bg:#0b0d10;--bg-alt:#101419;--text:#e9eef2;--muted:#b8c0cc;--primary:#3b82f6;--accent:#10b981;--danger:#ef4444;--card:#141a22;--border:#1f2937;--shadow:0 10px 30px rgba(0,0,0,.25);--radius:18px;--maxw:1180px}
+    @media (prefers-color-scheme: light){:root{--bg:#f7fafc;--bg-alt:#ffffff;--text:#0f172a;--muted:#334155;--card:#ffffff;--border:#e2e8f0;--shadow:0 10px 30px rgba(2,8,23,.08)}}
+    body{background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,'Helvetica Neue',Arial}
+    a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+    .container{max-width:var(--maxw);margin-inline:auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:50;background:color-mix(in srgb, var(--bg-alt) 85%, transparent);backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--border)}
+    .nav{display:flex;align-items:center;gap:22px;justify-content:space-between;height:64px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700}
+    .brand-logo{width:28px;height:28px}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{padding:8px 10px;border-radius:10px}
+    nav a.active, nav a:focus-visible{background:color-mix(in srgb, var(--primary) 16%, transparent);outline:none}
+    .btn{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--border);background:var(--primary);color:#fff;padding:12px 16px;border-radius:14px;font-weight:600;box-shadow:var(--shadow)}
+    .btn.secondary{background:transparent;color:var(--text)}
+    .btn.ghost{background:transparent;border-color:var(--primary);color:var(--primary)}
+    .btn:where(:hover,:focus-visible){filter:brightness(1.05)}
+    .hero{position:relative;overflow:hidden;padding:72px 0 44px;background:radial-gradient(1200px 600px at 10% -10%, color-mix(in srgb, var(--primary) 20%, transparent), transparent),radial-gradient(1000px 500px at 90% 0%, color-mix(in srgb, var(--accent) 15%, transparent), transparent)}
+    .hero h1{font-size:clamp(28px,4vw,46px);line-height:1.15;margin:0 0 12px}
+    .hero p{max-width:780px;margin:0 0 22px;color:var(--muted)}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+    .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--border);background:var(--card);padding:8px 12px;border-radius:999px;color:var(--muted);font-size:14px;margin-bottom:10px}
+    section{padding:48px 0;border-top:1px solid var(--border)}
+    h2{font-size:clamp(22px,3.2vw,34px);margin:.2em 0 .6em}
+    h3{font-size:clamp(18px,2.4vw,24px);margin:1em 0 .4em}
+    p.lead{color:var(--muted);max-width:80ch}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(1,minmax(0,1fr))}
+    @media(min-width:780px){.grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:var(--shadow)}
+    .muted{color:var(--muted)}
+    .tag{display:inline-block;font-size:12px;padding:4px 8px;border:1px solid var(--border);border-radius:999px;color:var(--muted)}
+    .form-grid{display:grid;gap:14px}
+    @media(min-width:880px){.form-grid{grid-template-columns:1fr 1fr}}
+    label{font-weight:600}
+    input,select,textarea{width:100%;padding:12px 12px;border-radius:12px;border:1px solid var(--border);background:var(--bg-alt);color:var(--text)}
+    textarea{min-height:180px}
+    .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+    .tab{padding:8px 12px;border-radius:10px;border:1px solid var(--border);cursor:pointer;background:var(--bg-alt)}
+    .tab[aria-selected="true"]{background:color-mix(in srgb, var(--primary) 16%, transparent);border-color:var(--primary)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    .preview{white-space:pre-wrap;background:var(--bg-alt);padding:14px;border-radius:12px;border:1px solid var(--border);min-height:240px}
+    .two-col{display:grid;gap:16px}
+    @media(min-width:980px){.two-col{grid-template-columns:1.1fr .9fr}}
+    .notice{background:color-mix(in srgb, var(--accent) 14%, transparent);border-left:3px solid var(--accent);padding:12px;border-radius:12px}
+    .danger{background:color-mix(in srgb, var(--danger) 14%, transparent);border-left:3px solid var(--danger)}
+    .canton-board{display:grid;gap:14px;grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media(min-width:780px){.canton-board{grid-template-columns:repeat(4,minmax(0,1fr))}}
+    .canton-card{padding:14px;border-radius:14px;border:1px solid var(--border);background:var(--card);cursor:pointer}
+    .canton-card:hover{outline:2px solid color-mix(in srgb, var(--primary) 35%, transparent)}
+    .legal small{display:block;opacity:.9}
+    @media print{header,.hero,nav,.no-print,footer{display:none!important}#generator{border-top:none;padding-top:0}.preview{border:none;padding:0}body{background:#fff;color:#000}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand" aria-label="Teilaustritt.ch">
+        <svg class="brand-logo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M32 6a6 6 0 0 1 6 6v10h10a6 6 0 0 1 0 12H38v18a6 6 0 0 1-12 0V34H16a6 6 0 1 1 0-12h10V12a6 6 0 0 1 6-6z"/></svg>
+        <span>Teilaustritt.ch</span>
+      </div>
+      <nav aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#how" class="nav-link">Ablauf</a></li>
+          <li><a href="#generator" class="nav-link">Vorlagen‑Generator</a></li>
+          <li><a href="#cantons" class="nav-link">Kantone</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+      <a class="btn ghost no-print" href="#contact">Kontakt</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="pill">Projekt · unabhängig · nicht amtlich</span>
+      <h1>Teilaustritt aus der öffentlich‑rechtlichen Kirche – <span class="muted">katholisch bleiben.</span></h1>
+      <p class="lead">Infos, Generator und Checklisten für den Teilaustritt aus der öffentlich‑rechtlichen Kirchenkörperschaft – bei fortbestehendem Bekenntnis zur römisch‑katholischen Kirche. <em>Verfahren kantonal verschieden.</em></p>
+      <div class="cta-row no-print">
+        <a class="btn" href="#generator">Generator starten</a>
+        <a class="btn secondary" href="#how">Ablauf ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="container">
+      <h2>So gehen Sie vor</h2>
+      <p class="lead">Vier Schritte – kantonale Lage prüfen, entscheiden, schreiben, nachfassen.</p>
+      <div class="grid cols-3">
+        <div class="card"><div class="tag">1</div><h3>Prüfen</h3><p>Kantonale Rechtslage, Zuständigkeiten und Fristen ermitteln. Zuständige <strong>röm.-kath. Kirchgemeinde</strong> notieren.</p></div>
+        <div class="card"><div class="tag">2</div><h3>Entscheiden</h3><p>Nichtzugehörigkeit zur <em>öffentlich‑rechtlichen Körperschaft</em> bei fortbestehendem kirchlichem Bekenntnis.</p></div>
+        <div class="card"><div class="tag">3</div><h3>Schreiben</h3><p>Schreiben an die <strong>Kirchgemeinde</strong> mit dem Generator erstellen. Per Einschreiben versenden.</p></div>
+        <div class="card"><div class="tag">4</div><h3>Nachfassen</h3><p>Schriftliche Bestätigung verlangen. Steuerverfügungen prüfen.</p></div>
+      </div>
+      <div class="notice" role="note"><strong>Hinweis:</strong> Keine Rechtsberatung; Inhalte allgemein und kantonal zu verifizieren.</div>
+    </div>
+  </section>
+
+  <section id="generator">
+    <div class="container two-col">
+      <div>
+        <h2>Vorlagen‑Generator</h2>
+        <p class="lead">Briefe: <strong>(A)</strong> an die <strong>röm.-kath. Kirchgemeinde (öffentlich‑rechtliche Körperschaft)</strong> und <strong>(B)</strong> optionale Mitteilung an die <strong>kantonale Kirchenverwaltung/Steueramt</strong>. Mit Auto‑Vorschlag via <strong>PLZ</strong>.</p>
+        <div class="card">
+          <div class="form-grid">
+            <div>
+              <label for="name">Voller Name</label>
+              <input id="name" placeholder="Vor- und Nachname" autocomplete="name" />
+            </div>
+            <div>
+              <label for="dob">Geburtsdatum <span class="muted">(optional)</span></label>
+              <input id="dob" type="date" />
+            </div>
+            <div>
+              <label for="address">Adresse</label>
+              <input id="address" placeholder="Strasse Nr., PLZ Ort" autocomplete="street-address" />
+            </div>
+            <div>
+              <label for="zip">PLZ</label>
+              <input id="zip" inputmode="numeric" placeholder="z. B. 4051" />
+            </div>
+            <div>
+              <label for="email">E‑Mail <span class="muted">(für Rückfragen)</span></label>
+              <input id="email" type="email" placeholder="name@example.ch" autocomplete="email" />
+            </div>
+            <div>
+              <label for="canton">Kanton</label>
+              <select id="canton" aria-label="Kanton">
+                <option value="">Bitte wählen …</option>
+                <option>AI</option><option>AR</option><option>BE</option><option>BL</option><option>BS</option>
+                <option>FR</option><option>GE</option><option>GL</option><option>GR</option><option>JU</option><option>LU</option>
+                <option>NE</option><option>NW</option><option>OW</option><option>SG</option><option>SH</option><option>SZ</option>
+                <option>SO</option><option>TG</option><option>TI</option><option>UR</option><option>VD</option><option>VS</option>
+                <option>ZG</option><option>ZH</option>
+              </select>
+            </div>
+            <div>
+              <label for="parish">Römisch‑katholische Kirchgemeinde</label>
+              <input id="parish" placeholder="Name der Kirchgemeinde, Ort" />
+            </div>
+            <div>
+              <label for="place">Ort</label>
+              <input id="place" placeholder="z. B. Basel" />
+            </div>
+            <div>
+              <label for="date">Datum</label>
+              <input id="date" type="date" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="tabs" role="tablist" aria-label="Vorlagentyp">
+            <button class="tab" role="tab" id="tabA" aria-selected="true" aria-controls="panelA">(A) Kirchgemeinde</button>
+            <button class="tab" role="tab" id="tabB" aria-selected="false" aria-controls="panelB">(B) Verwaltung/Steueramt</button>
+          </div>
+
+          <div id="panelA" role="tabpanel" aria-labelledby="tabA">
+            <div class="actions no-print">
+              <button class="btn" id="btn-generate-a">Text erstellen</button>
+              <button class="btn secondary" id="btn-copy-a" title="In die Zwischenablage kopieren">Kopieren</button>
+              <button class="btn ghost" id="btn-doc-a" title="Als .doc herunterladen">Als .doc herunterladen</button>
+              <button class="btn ghost" onclick="window.print()" title="Diesen Brief drucken">Drucken</button>
+            </div>
+            <div id="previewA" class="preview" aria-live="polite" aria-label="Vorschau Schreiben A"></div>
+          </div>
+
+          <div id="panelB" role="tabpanel" aria-labelledby="tabB" hidden>
+            <div class="actions no-print">
+              <button class="btn" id="btn-generate-b">Text erstellen</button>
+              <button class="btn secondary" id="btn-copy-b" title="In die Zwischenablage kopieren">Kopieren</button>
+              <button class="btn ghost" id="btn-doc-b" title="Als .doc herunterladen">Als .doc herunterladen</button>
+              <button class="btn ghost" onclick="window.print()" title="Diesen Brief drucken">Drucken</button>
+            </div>
+            <div id="previewB" class="preview" aria-live="polite" aria-label="Vorschau Schreiben B"></div>
+          </div>
+
+          <p class="muted" style="margin-top:10px">Tipp: Senden Sie die Schreiben per <strong>Einschreiben</strong>. Legen Sie bei Bedarf Kopien (ID, Taufbestätigung) bei.</p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Kantonale Hinweise (allgemein)</h3>
+          <p class="muted">Zuständigkeiten unterscheiden sich. Prüfen Sie die Webseiten der kantonalen Kirchenverwaltung und der Kirchgemeinde. Allgemeine Tipps:</p>
+          <ul>
+            <li><strong>Klar</strong> formulieren: Nichtzugehörigkeit zur <em>öffentlich‑rechtlichen Kirchenkörperschaft</em>, aber fortbestehende Zugehörigkeit zur römisch‑katholischen Kirche.</li>
+            <li><strong>Bestätigung</strong> innert Frist (z. B. 30 Tage) verlangen.</li>
+            <li><strong>Belege</strong> (Einwurf, Rückschein, Antwort) aufbewahren.</li>
+            <li><strong>Steuerveranlagung</strong> prüfen.</li>
+          </ul>
+          <div class="notice danger" role="note"><strong>Wichtig:</strong> Teilaustritt ist kantonal unterschiedlich geregelt. Im Zweifel Rechtsauskunft einholen.</div>
+        </div>
+
+        <div class="card">
+          <h3>Kirchgemeinde‑Verzeichnis</h3>
+          <p class="muted">Geben Sie Ihre <strong>PLZ</strong> ein. Der Generator schlägt – sofern im Verzeichnis vorhanden – die zugehörige Kirchgemeinde vor und füllt Felder automatisch. <em>Kanton Aargau (AG) ist ausgeschlossen.</em></p>
+          <div class="form-grid">
+            <div>
+              <label for="zipSearch">PLZ suchen</label>
+              <input id="zipSearch" inputmode="numeric" placeholder="z. B. 4051" />
+            </div>
+          </div>
+          <div id="zipResults" class="muted" style="margin-top:10px"></div>
+        </div>
+
+        <div class="card">
+          <h3>Kanton wählen</h3>
+          <div class="canton-board" id="cantonBoard"></div>
+          <div id="cantonNote" class="muted" style="margin-top:12px"></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="cantons">
+    <div class="container">
+      <h2>Schweizer Kantone</h2>
+      <p class="lead">Klicken Sie auf Ihren Kanton, um Hinweise einzublenden. Nutzen Sie den Generator, um die Adressaten zu personalisieren.</p>
+      <div class="grid cols-3" id="cantonCards"></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="grid cols-3">
+        <details class="card"><summary><strong>Was bedeutet „Teilaustritt“?</strong></summary>
+          <p>Nichtzugehörigkeit zur öffentlich‑rechtlichen Kirchenkörperschaft (keine Kirchensteuer), bei fortbestehender Zugehörigkeit zur römisch‑katholischen Kirche als Glaubensgemeinschaft. Praxis kantonal verschieden.</p>
+        </details>
+        <details class="card"><summary><strong>Bin ich danach noch katholisch?</strong></summary>
+          <p>Die Frage berührt kirchliches (kanonisches) und staatliches Recht. Ziel ist, das Bekenntnis nicht zu berühren; klären Sie dies im Zweifel mit Ihrer Kirchgemeinde.</p>
+        </details>
+        <details class="card"><summary><strong>Zahle ich weiterhin Kirchensteuer?</strong></summary>
+          <p>Kirchensteuerpflicht ist kantonal geregelt. Prüfen Sie Ihre Veranlagung und lassen Sie Korrekturen bestätigen.</p>
+        </details>
+        <details class="card"><summary><strong>Gibt es Fristen?</strong></summary>
+          <p>Teilweise Stichtage (z. B. Steuerperiode). Zuständige Stelle anfragen, schriftliche Auskunft verlangen.</p>
+        </details>
+        <details class="card"><summary><strong>Welche Nachweise brauche ich?</strong></summary>
+          <p>Üblich sind Identitätsnachweis und Adresse. Mancherorts ist eine Taufbestätigung hilfreich.</p>
+        </details>
+        <details class="card"><summary><strong>Brauche ich einen Anwalt?</strong></summary>
+          <p>Nicht zwingend. Bei unklarer Rechtslage, ausbleibender Reaktion oder Ablehnung kann Beratung sinnvoll sein.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Kontakt</h2>
+      <div class="two-col">
+        <form class="card" onsubmit="contactSubmit(event)">
+          <div class="form-grid">
+            <div>
+              <label for="cName">Ihr Name</label>
+              <input id="cName" required placeholder="Name" />
+            </div>
+            <div>
+              <label for="cMail">Ihre E‑Mail</label>
+              <input id="cMail" type="email" required placeholder="name@example.ch" />
+            </div>
+            <div style="grid-column:1/-1">
+              <label for="cMsg">Nachricht</label>
+              <textarea id="cMsg" required placeholder="Ihr Anliegen…"></textarea>
+            </div>
+          </div>
+          <label style="display:flex;gap:10px;align-items:center;margin:10px 0">
+            <input type="checkbox" id="cConsent" required />
+            <span class="muted">Ich bin einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage verarbeitet werden.</span>
+          </label>
+          <button class="btn">Nachricht senden</button>
+          <p id="cStatus" class="muted" aria-live="polite"></p>
+        </form>
+        <div class="card legal">
+          <h3>Impressum & Datenschutz</h3>
+          <small>Verantwortlich: <em>Teilaustritt.ch (Projektinitiative)</em> · Schweiz</small>
+          <small>Haftungsausschluss: Keine Rechtsberatung. Alle Angaben ohne Gewähr. Prüfen Sie kantonale Bestimmungen.</small>
+          <small>Datenschutz: Es werden keine Cookies gesetzt. Formulardaten werden nur zur Beantwortung Ihrer Anfrage verwendet.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap">
+      <div>© <span id="year"></span> Teilaustritt.ch</div>
+      <div class="muted">Version 0.3 · Entwurf mit Kirchgemeinde‑Verzeichnis (AG ausgeschlossen)</div>
+    </div>
+  </footer>
+
+  <script>
+    const $ = (sel, root=document) => root.querySelector(sel);
+    const $$ = (sel, root=document) => [...root.querySelectorAll(sel)];
+
+    // Nav active link
+    const links = $$('.nav-link');
+    const sections = links.map(a => $(a.getAttribute('href'))).filter(Boolean);
+    document.addEventListener('scroll', () => {
+      const y = window.scrollY + 120;
+      for (const [i,sec] of sections.entries()){
+        const next = sections[i+1];
+        if (y >= sec.offsetTop && (!next || y < next.offsetTop)){
+          links.forEach(l=>l.classList.remove('active'));
+          links[i].classList.add('active');
+          break;
+        }
+      }
+    }, {passive:true});
+
+    // Year
+    $('#year').textContent = new Date().getFullYear();
+
+    // Tabs
+    const tabA = $('#tabA'), tabB=$('#tabB');
+    const panelA = $('#panelA'), panelB = $('#panelB');
+    function selectTab(which){ if(which==='A'){ tabA.setAttribute('aria-selected','true'); tabB.setAttribute('aria-selected','false'); panelA.hidden=false; panelB.hidden=true;} else { tabA.setAttribute('aria-selected','false'); tabB.setAttribute('aria-selected','true'); panelA.hidden=true; panelB.hidden=false; } }
+    tabA?.addEventListener('click',()=>selectTab('A'));
+    tabB?.addEventListener('click',()=>selectTab('B'));
+
+    // Cantons + notes (AG bewusst ausgelassen)
+    const CANTONS = ['AI','AR','BE','BL','BS','FR','GE','GL','GR','JU','LU','NE','NW','OW','SG','SH','SZ','SO','TG','TI','UR','VD','VS','ZG','ZH'];
+    const notes = Object.fromEntries(CANTONS.map(k=>[k,`Hinweis zu ${k}: Verfahren und Zuständigkeit kantonal reglementiert. Erfragen Sie schriftlich Zuständigkeit (Kirchenverwaltung/Kirchgemeinde), allfällige Fristen/Stichtage und Bestätigung des Status.`]));
+
+    // === Röm.-kath. Kirchgemeinden (Auszug, AG ausgeschlossen). Mehr Einträge leicht ergänzbar. ===
+    // Struktur: { plz: '4051', canton: 'BS', kirchgemeinde: 'Röm.-kath. Kirchgemeinde St. Peter und Paul Basel', ort: 'Basel' }
+    const PARISH_DB = [
+      // Basel‑Stadt (BS)
+      {plz:'4001',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Marien Basel',ort:'Basel'},
+      {plz:'4051',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Peter und Paul Basel',ort:'Basel'},
+      {plz:'4052',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Antonius Basel',ort:'Basel'},
+      {plz:'4053',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde Dreifaltigkeit Basel',ort:'Basel'},
+      {plz:'4055',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Theresia Basel',ort:'Basel'},
+      {plz:'4056',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Joseph Basel',ort:'Basel'},
+      {plz:'4057',canton:'BS',kirchgemeinde:'Röm.-kath. Kirchgemeinde Heiliggeist Basel',ort:'Basel'},
+      // Basel‑Landschaft (BL)
+      {plz:'4102',canton:'BL',kirchgemeinde:'Röm.-kath. Kirchgemeinde Reinach BL',ort:'Reinach'},
+      {plz:'4132',canton:'BL',kirchgemeinde:'Röm.-kath. Kirchgemeinde Muttenz',ort:'Muttenz'},
+      {plz:'4142',canton:'BL',kirchgemeinde:'Röm.-kath. Kirchgemeinde Münchenstein',ort:'Münchenstein'},
+      {plz:'4410',canton:'BL',kirchgemeinde:'Röm.-kath. Kirchgemeinde Liestal',ort:'Liestal'},
+      // Zürich (ZH)
+      {plz:'8001',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde City (St. Peter & Paul)',ort:'Zürich'},
+      {plz:'8003',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Felix und Regula',ort:'Zürich'},
+      {plz:'8004',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Josef',ort:'Zürich'},
+      {plz:'8005',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde Herz Jesu',ort:'Zürich'},
+      {plz:'8008',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Anton',ort:'Zürich'},
+      {plz:'8038',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Franziskus',ort:'Zürich'},
+      {plz:'8050',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde Heilig Geist Oerlikon',ort:'Zürich'},
+      {plz:'8057',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Gallus',ort:'Zürich'},
+      {plz:'8400',canton:'ZH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Peter und Paul Winterthur',ort:'Winterthur'},
+      // Bern (BE)
+      {plz:'3001',canton:'BE',kirchgemeinde:'Röm.-kath. Kirchgemeinde Dreifaltigkeit Bern',ort:'Bern'},
+      {plz:'3011',canton:'BE',kirchgemeinde:'Röm.-kath. Kirchgemeinde Dreifaltigkeit Bern',ort:'Bern'},
+      {plz:'2502',canton:'BE',kirchgemeinde:'Röm.-kath. Kirchgemeinde Bruder Klaus Biel',ort:'Biel/Bienne'},
+      {plz:'3600',canton:'BE',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Marien Thun',ort:'Thun'},
+      // Luzern (LU)
+      {plz:'6003',canton:'LU',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Leodegar (Hofkirche)',ort:'Luzern'},
+      {plz:'6005',canton:'LU',kirchgemeinde:'Röm.-kath. Kirchgemeinde Matthäus',ort:'Luzern'},
+      // Solothurn (SO)
+      {plz:'4512',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Bellach',ort:'Bellach'},
+      {plz:'2544',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Bettlach',ort:'Bettlach'},
+      {plz:'4534',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Flumenthal‑Hubersdorf',ort:'Flumenthal'},
+      {plz:'2540',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Grenchen',ort:'Grenchen'},
+      {plz:'4524',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Günsberg',ort:'Günsberg'},
+      {plz:'4500',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Ursen Solothurn',ort:'Solothurn'},
+      {plz:'4514',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Oberdorf',ort:'Oberdorf'},
+      {plz:'2545',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde Selzach',ort:'Selzach'},
+      {plz:'4533',canton:'SO',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Niklaus',ort:'Riedholz'},
+      // Zug (ZG)
+      {plz:'6300',canton:'ZG',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Michael',ort:'Zug'},
+      // St. Gallen (SG)
+      {plz:'9000',canton:'SG',kirchgemeinde:'Röm.-kath. Dompfarrei St. Gallen',ort:'St. Gallen'},
+      // Waadt (VD)
+      {plz:'1003',canton:'VD',kirchgemeinde:'Paroisse catholique Lausanne',ort:'Lausanne'},
+      // Genf (GE)
+      {plz:'1201',canton:'GE',kirchgemeinde:'Basilique Notre‑Dame',ort:'Genève'},
+      // Tessin (TI)
+      {plz:'6900',canton:'TI',kirchgemeinde:'Cattedrale di San Lorenzo',ort:'Lugano'},
+      // Graubünden (GR)
+      {plz:'7000',canton:'GR',kirchgemeinde:'Kathedrale St. Maria Himmelfahrt',ort:'Chur'},
+      // Freiburg (FR)
+      {plz:'1700',canton:'FR',kirchgemeinde:'Cathédrale St‑Nicolas',ort:'Fribourg'},
+      // Schaffhausen (SH)
+      {plz:'8200',canton:'SH',kirchgemeinde:'Röm.-kath. Kirchgemeinde St. Maria',ort:'Schaffhausen'},
+      // Wallis (VS)
+      {plz:'1950',canton:'VS',kirchgemeinde:'Cathédrale Notre‑Dame du Glarier',ort:'Sion'}
+    ];
+
+    function renderCantonBoard(){
+      const board = $('#cantonBoard');
+      board.innerHTML = '';
+      CANTONS.forEach(k=>{
+        const div = document.createElement('button');
+        div.type='button';
+        div.className='canton-card';
+        div.innerHTML = `<strong>${k}</strong><div class="muted">Allgemeiner Hinweis</div>`;
+        div.addEventListener('click',()=>{
+          $('#canton').value = k;
+          $('#cantonNote').textContent = notes[k];
+          window.location.hash = '#generator';
+        });
+        board.appendChild(div);
+      });
+    }
+    function renderCantonCards(){
+      const wrap = $('#cantonCards');
+      wrap.innerHTML = '';
+      CANTONS.forEach(k=>{
+        const card = document.createElement('div');
+        card.className='card';
+        card.innerHTML = `<div class="tag">Kanton</div><h3>${k}</h3><p class="muted">${notes[k]}</p><button class="btn ghost no-print">Im Generator verwenden</button>`;
+        card.querySelector('button').addEventListener('click',()=>{ $('#canton').value = k; window.location.hash = '#generator'; });
+        wrap.appendChild(card);
+      });
+    }
+
+    function val(id){ return (document.getElementById(id).value || '').trim(); }
+    function formatDate(v){ if(!v) return ''; try{ const d=new Date(v); return d.toLocaleDateString('de-CH',{year:'numeric',month:'long',day:'numeric'});}catch{return v;} }
+    function buildHeader(){ const name=val('name'); const addr=val('address'); const email=val('email'); return `${name}\n${addr}\n${email?('E‑Mail: '+email+'\n'):''}`; }
+    function buildPlaceDate(){ const place=val('place'); const date=formatDate(val('date'))||new Date().toLocaleDateString('de-CH'); return `${place}, ${date}`.trim().replace(/^,\s*/, ''); }
+
+    function buildLetterA(){
+      const name=val('name'); const dob=val('dob'); const addr=val('address'); const canton=val('canton'); const parish=val('parish'); const pd=buildPlaceDate(); const header=buildHeader();
+      return `${header}\n\nAn die römisch‑katholische Kirchgemeinde\n${parish||'[Kirchgemeinde]'}${canton?` (${canton})`:''}\n\nBetreff: Gesuch um Nichtzugehörigkeit zur öffentlich‑rechtlichen Kirchenkörperschaft unter Wahrung der Zugehörigkeit zur römisch‑katholischen Kirche\n\nSehr geehrte Damen und Herren\n\nIch, ${name}${dob?` (geb. ${new Date(dob).toLocaleDateString('de-CH')})`:''}, wohnhaft in ${addr}, ersuche höflich um Feststellung/Eintragung, dass ich der öffentlich‑rechtlichen Kirchenkörperschaft (${parish||'Ihre Kirchgemeinde'}) des Kantons ${canton||'…'} nicht angehöre und somit keine Kirchensteuerpflicht aus dieser Zugehörigkeit besteht.\n\nGleichzeitig halte ich fest, dass meine Zugehörigkeit zur römisch‑katholischen Kirche als Glaubensgemeinschaft unberührt bleibt. Dieses Gesuch betrifft ausschliesslich die öffentlich‑rechtliche Mitgliedschaft/Zurechnung.\n\nIch ersuche um eine schriftliche Bestätigung innert 30 Tagen. Sofern ergänzende Angaben oder eine andere zuständige Stelle erforderlich sind, bitte ich um entsprechende Mitteilung.\n\nMit freundlichen Grüssen\n\n${name}\n\n${pd}`;
+    }
+    function buildLetterB(){
+      const name=val('name'); const dob=val('dob'); const addr=val('address'); const canton=val('canton'); const parish=val('parish'); const pd=buildPlaceDate(); const header=buildHeader();
+      return `${header}\n\nAn die kantonale Kirchenverwaltung / Steueramt\n(${canton||'Kanton …'})\n\nBetreff: Mitteilung – Nichtzugehörigkeit zur öffentlich‑rechtlichen Kirchgemeinde bei fortbestehender Zugehörigkeit zur römisch‑katholischen Kirche\n\nSehr geehrte Damen und Herren\n\nHiermit informiere ich Sie, dass ich bei der römisch‑katholischen Kirchgemeinde ${parish||''} (${canton||'…'}) beantragt habe (bzw. beantragen werde), nicht der öffentlich‑rechtlichen Kirchenkörperschaft zugerechnet zu werden.\n\nIch halte fest, dass meine Zugehörigkeit zur römisch‑katholischen Kirche als Glaubensgemeinschaft fortbesteht. Diese Mitteilung dient der Klarstellung; es handelt sich nicht um einen Austritt aus dem Glauben.\n\nFür eine kurze schriftliche Bestätigung des Eingangs dieser Mitteilung danke ich Ihnen.\n\nMit freundlichen Grüssen\n\n${name}${dob?`\n(geb. ${new Date(dob).toLocaleDateString('de-CH')})`:''}\n${addr}\n\n${pd}`;
+    }
+
+    function updatePreview(which){ if(which==='A') $('#previewA').textContent=buildLetterA(); else $('#previewB').textContent=buildLetterB(); }
+    function copyPreview(which){ const txt = which==='A'?$('#previewA').textContent:$('#previewB').textContent; if(!txt){alert('Bitte zuerst den Text erstellen.');return;} navigator.clipboard.writeText(txt).then(()=>alert('In die Zwischenablage kopiert.')); }
+    function downloadDoc(which){ const title=which==='A'?'Teilaustritt_Kirchgemeinde':'Mitteilung_Verwaltung'; const body=(which==='A'?$('#previewA').textContent:$('#previewB').textContent)||''; if(!body){alert('Bitte zuerst den Text erstellen.');return;} const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${title}</title></head><body><pre style="font:12pt/1.4 -apple-system,Segoe UI,Roboto,Arial">${body.replace(/[&<>]/g,s=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[s]))}</pre></body></html>`; const blob=new Blob([html],{type:'application/msword'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=title+'.doc'; a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);} 
+
+    $('#btn-generate-a')?.addEventListener('click',()=>updatePreview('A'));
+    $('#btn-generate-b')?.addEventListener('click',()=>updatePreview('B'));
+    $('#btn-copy-a')?.addEventListener('click',()=>copyPreview('A'));
+    $('#btn-copy-b')?.addEventListener('click',()=>copyPreview('B'));
+    $('#btn-doc-a')?.addEventListener('click',()=>downloadDoc('A'));
+    $('#btn-doc-b')?.addEventListener('click',()=>downloadDoc('B'));
+
+    // Auto‑Vorschlag anhand PLZ (Generator‑Feld)
+    function applyParishFromZip(zip){
+      const z = (zip||'').trim();
+      const hit = PARISH_DB.find(e=>e.plz===z);
+      if(hit){
+        if(!val('parish')) $('#parish').value = hit.kirchgemeinde;
+        if(!val('canton')) $('#canton').value = hit.canton;
+        if(!val('place')) $('#place').value = hit.ort;
+        const note = notes[hit.canton]; if(note) $('#cantonNote').textContent = note;
+      }
+    }
+    $('#zip').addEventListener('input', e=>applyParishFromZip(e.target.value));
+
+    // Verzeichnis‑Suche (Seitenleiste)
+    function renderZipResults(z){
+      const box = $('#zipResults');
+      box.innerHTML = '';
+      if(!z){ box.textContent='Bitte PLZ eingeben.'; return; }
+      const hit = PARISH_DB.find(e=>e.plz===z.trim());
+      if(!hit){ box.textContent='Keine Einträge gefunden (AG ausgeschlossen / Demo‑Bestand).'; return; }
+      const div = document.createElement('div');
+      div.innerHTML = `<strong>${z}</strong>: ${hit.kirchgemeinde} (${hit.canton})<br><small>${hit.ort||''}</small><br>`;
+      const btn = document.createElement('button');
+      btn.className='btn ghost no-print';
+      btn.textContent='In den Generator übernehmen';
+      btn.addEventListener('click', ()=>{ $('#zip').value=z; $('#parish').value=hit.kirchgemeinde; $('#canton').value=hit.canton; if(hit.ort) $('#place').value=hit.ort; window.location.hash='#generator'; });
+      div.appendChild(btn);
+      box.appendChild(div);
+    }
+    $('#zipSearch').addEventListener('input', e=>renderZipResults(e.target.value));
+
+    // Persist simple state
+    const fields = ['name','dob','address','zip','email','canton','parish','place','date'];
+    fields.forEach(id=>{ const el=document.getElementById(id); if(!el) return; const saved=localStorage.getItem('ta_'+id); if(saved) el.value=saved; el.addEventListener('change',()=>localStorage.setItem('ta_'+id, el.value)); });
+
+    // Contact form -> mailto
+    function contactSubmit(e){ e.preventDefault(); const name=val('cName'); const mail=val('cMail'); const msg=val('cMsg'); if(!$('#cConsent').checked){ $('#cStatus').textContent='Bitte Zustimmung zum Datenschutz erteilen.'; return; } const subject=encodeURIComponent('Anfrage Teilaustritt.ch'); const body=encodeURIComponent(`Name: ${name}\nE‑Mail: ${mail}\n\nNachricht:\n${msg}`); window.location.href=`mailto:kontakt@teilaustritt.ch?subject=${subject}&body=${body}`; $('#cStatus').textContent='Ihr Mailprogramm sollte sich öffnen. Vielen Dank!'; }
+    window.contactSubmit = contactSubmit;
+
+    // Render widgets
+    renderCantonBoard();
+    renderCantonCards();
+
+    // Init previews
+    updatePreview('A');
+    updatePreview('B');
+  </script>
+</body>
+</html>
