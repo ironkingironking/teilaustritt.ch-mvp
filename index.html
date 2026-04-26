@@ -3,163 +3,736 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>teilaustritt.ch – Neutraler Formular-Generator für den Austritt aus der Kirchgemeinde und der Landeskirche</title>
 
-  <title>Teilaustritt | Kirchensteuer reduzieren</title>
-  <meta name="description" content="Wir helfen dir, deine Kirchensteuer in der Schweiz durch einen Teilaustritt zu senken – einfach, transparent und kostenlos." />
+  <!-- Favicons (für Root-Domain / User-Page). Für GitHub Project Pages: "/assets/..." -> "assets/..." -->
+  <link rel="icon" href="/assets/favicons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="/assets/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#0b3a7a">
+  <meta name="theme-color" content="#0b3a7a">
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    :root{
+      --bg:#f7f8fa; --card:#ffffff; --text:#101828; --muted:#475467; --line:#e4e7ec;
+      --accent:#1f4f99; --accent2:#0b3a7a; --warn:#b42318; --ok:#067647;
+      --shadow:0 1px 2px rgba(16,24,40,.06), 0 8px 24px rgba(16,24,40,.06);
+      --radius:14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:var(--sans); color:var(--text); background:linear-gradient(180deg,#eef2f9, var(--bg) 22%);}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{
+      position:sticky; top:0; z-index:5;
+      backdrop-filter:saturate(180%) blur(10px);
+      background:rgba(247,248,250,.82);
+      border-bottom:1px solid var(--line);
+    }
+    .wrap{max-width:1100px; margin:0 auto; padding:18px 18px;}
+    .brand{display:flex; align-items:center; justify-content:space-between; gap:16px;}
+    .logo{display:flex; align-items:center; gap:12px;}
+    .mark{
+      width:38px; height:38px; border-radius:10px;
+      background:linear-gradient(135deg, var(--accent), #4f9cf9);
+      box-shadow:var(--shadow);
+    }
+    .title h1{margin:0; font-size:18px; letter-spacing:.2px}
+    .title p{margin:2px 0 0; color:var(--muted); font-size:13px}
+    nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end}
+    nav a{font-size:13px; color:var(--muted)}
+    nav a:hover{color:var(--accent2)}
+    main{padding:26px 0 48px}
+    .grid{display:grid; grid-template-columns: 1.15fr .85fr; gap:18px;}
+    @media (max-width: 920px){
+      .grid{grid-template-columns:1fr}
+      nav{justify-content:flex-start}
+    }
+    .card{
+      background:var(--card); border:1px solid var(--line);
+      border-radius:var(--radius); box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .card h2{margin:0 0 10px; font-size:16px}
+    .card h3{margin:16px 0 8px; font-size:14px}
+    .card p{margin:8px 0; color:var(--muted); line-height:1.5}
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      font-size:12px; color:#344054; background:#f2f4f7;
+      border:1px solid var(--line); border-radius:999px; padding:6px 10px;
+    }
+    .pill .dot{width:8px; height:8px; border-radius:999px; background:var(--accent)}
+    .two{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+    @media (max-width: 620px){ .two{grid-template-columns:1fr} }
+    label{display:block; font-size:12px; color:#344054; margin:10px 0 6px}
+    input, select, textarea{
+      width:100%; border:1px solid var(--line); border-radius:12px;
+      padding:10px 12px; font-size:14px; background:#fff; color:var(--text);
+      outline:none;
+    }
+    input:focus, select:focus, textarea:focus{border-color:rgba(31,79,153,.55); box-shadow:0 0 0 4px rgba(31,79,153,.12)}
+    textarea{min-height:210px; font-family:var(--mono); font-size:12.5px; line-height:1.45}
+    .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    .btn{
+      appearance:none; border:1px solid rgba(31,79,153,.25);
+      background:linear-gradient(180deg, #2a62b8, var(--accent2));
+      color:#fff; padding:10px 12px; border-radius:12px;
+      font-size:14px; cursor:pointer;
+      box-shadow:0 6px 18px rgba(31,79,153,.18);
+    }
+    .btn:hover{filter:brightness(1.02)}
+    .btn.secondary{
+      background:#fff; color:var(--accent2); border:1px solid var(--line); box-shadow:none;
+    }
+    .btn.secondary:hover{background:#f8fafc}
+    .hint{font-size:12px; color:var(--muted)}
+    .alert{
+      border-radius:12px; padding:10px 12px; border:1px solid var(--line); background:#f9fafb;
+      color:#344054; font-size:13px; line-height:1.4;
+    }
+    .alert.warn{border-color:rgba(180,35,24,.25); background:rgba(180,35,24,.05); color:#7a271a}
+    .alert.ok{border-color:rgba(6,118,71,.25); background:rgba(6,118,71,.06); color:#054f31}
+    .kv{display:grid; grid-template-columns: 150px 1fr; gap:8px 10px; font-size:13px; color:#344054;}
+    .kv div:nth-child(odd){color:#667085}
+    .list{margin:8px 0 0; padding-left:18px; color:var(--muted); line-height:1.5}
+    .small{font-size:12px}
+    footer{margin-top:14px; color:var(--muted); font-size:12px}
+    .sugg{position:relative;}
+    .sugglist{
+      position:absolute; inset:auto 0 0 0;
+      transform: translateY(calc(100% + 6px));
+      background:#fff; border:1px solid var(--line); border-radius:12px;
+      box-shadow:var(--shadow); overflow:hidden; z-index:10;
+      max-height:260px; overflow:auto;
+      display:none;
+    }
+    .sugglist button{
+      width:100%; text-align:left; border:0; background:#fff; padding:10px 12px;
+      cursor:pointer; font-size:13px; color:#344054;
+      border-bottom:1px solid var(--line);
+    }
+    .sugglist button:last-child{border-bottom:0}
+    .sugglist button:hover{background:#f9fafb}
+    .mono{font-family:var(--mono)}
+  </style>
+
+  <!-- DOCX (Word) -->
+  <script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
+  <!-- PDF -->
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
 </head>
+
 <body>
-  <!-- ===== Header / Navigation ===== -->
   <header>
-    <nav class="container flex between center">
-      <a class="brand" href="#">teilaustritt<span>.ch</span></a>
-      <ul class="nav-links">
-        <li><a href="#ablauf">Ablauf</a></li>
-        <li><a href="#formular">Formular</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
+    <div class="wrap brand">
+      <div class="logo">
+        <div class="mark" aria-hidden="true"></div>
+        <div class="title">
+          <h1>teilaustritt.ch</h1>
+          <p>Orientierungshilfe & Formular-Generator (Deutschschweiz + Jura)</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#ueberblick">Überblick</a>
+        <a href="#rechtslage">Rechtslage</a>
+        <a href="#generator">Generator</a>
+        <a href="#quellen">Quellen</a>
+        <a href="#impressum">Impressum & Datenschutz</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- ===== Hero ===== -->
-  <section class="hero">
-    <div class="container text-center">
-      <h1>Kirchensteuer senken – so einfach geht’s</h1>
-      <p>Mit Teilaustritt.ch reduzierst du deinen Beitrag, ohne ganz aus der Kirche auszutreten.</p>
-      <a href="#formular" class="btn-primary">PDF‑Gesuch erstellen</a>
+  <main class="wrap">
+    <div class="grid">
+      <section class="card" id="ueberblick">
+        <div class="row">
+          <span class="pill"><span class="dot"></span>Informationsportal</span>
+          <span class="pill"><span class="dot" style="background:#0b3a7a"></span>Formular-Generator</span>
+          <span class="pill"><span class="dot" style="background:#667085"></span>Keine Rechtsberatung</span>
+        </div>
+
+        <h2 style="margin-top:14px">Worum geht es bei „Teilaustritt“?</h2>
+        <p>
+          In der Schweiz existiert in vielen Kantonen ein <strong>duales System</strong>: neben der
+          römisch-katholischen Kirche als Religionsgemeinschaft bestehen <strong>staatskirchenrechtliche Körperschaften</strong>
+          (Landeskirchen/Kirchgemeinden) mit öffentlich-rechtlicher Organisation und Finanzierung (u. a. Kirchensteuer).
+          Ein „Teilaustritt“ zielt typischerweise auf den <strong>Austritt aus der öffentlich-rechtlichen Körperschaft</strong>,
+          nicht zwingend auf einen Bruch mit der Glaubensgemeinschaft.
+        </p>
+        <div class="alert warn">
+          Wichtig: Je nach Kanton und Landeskirche unterscheiden sich Begriffe, Zuständigkeiten, Meldewege und Rechtsfolgen.
+          Dieses Tool hilft beim Erstellen eines sachlichen Schreibens – die definitive Beurteilung liegt bei den zuständigen Stellen.
+        </div>
+
+        <h3>Was macht diese Seite konkret?</h3>
+        <ul class="list">
+          <li>Erklärt die Grundstruktur (duales System) und typische Rechtsfragen (Mitgliedschaft, Register, Kirchensteuer).</li>
+          <li>Ermittelt aus der Adresse <span class="mono">Kanton</span> und <span class="mono">politische Gemeinde</span> (über geo.admin.ch).</li>
+          <li>Erstellt ein neutrales Austrittsschreiben (Vorlage), inkl. Bitte um schriftliche Bestätigung.</li>
+          <li>„Kirchgemeinde-Lookup“: technisch vorbereitet; vollständige automatische Zuordnung erfordert ein vollständiges Kirchgemeinde-Register je Kanton, dies ist in Planung!.</li>
+        </ul>
+
+        <footer>
+          Datenschutz-Hinweis: Die Adresse wird für die Geokodierung an geo.admin.ch übermittelt (öffentlicher Dienst von swisstopo).
+          Das Formular speichert lokal im Browser; es sendet keine Daten an teilaustritt.ch (sofern nicht anders implementiert).
+        </footer>
+      </section>
+
+      <aside class="card" id="rechtslage">
+        <h2>Rechtslage – Kurz & nüchtern</h2>
+        <p>
+          Die Fachdebatte unterscheidet sorgfältig zwischen <strong>staatlichem Religionsrecht</strong> (z. B. Mitgliedschaft in einer
+          öffentlich-rechtlichen Körperschaft, Steuerpflicht) und <strong>kirchlichem Recht</strong> (kanonisches Recht, Sakramentenordnung).
+        </p>
+
+        <div class="alert">
+          <strong>Typische Kernfrage:</strong><br/>
+        
+          <p><b>
+            Kann jemand der aus der Kirchgemeinde und der Landeskirche ausgetreten ist immer noch Sakramente erhalten oder eine Patenschaft übernehmen?
+          </b></p>
+        
+          <p style="margin-top: 8px;">
+            – Ja, der Austritt aus der Kirchgemeinde und der Landeskirche ist losgelöst von der Frage nach der Mitgliedschaft in der römisch-katholischen Kirche. Einzig wenn die austretende Person gleichzeitig zu erkennen gibt, dass sie zentrale Glaubensinhalte nicht mehr anerkennt, könnte ggf. kirchenrechtliche Sanktionen gegen sie verhängt werden.
+          </p>
+        </div>
+
+        <h3>Praxisnahe Punkte</h3>
+        <ul class="list">
+          <li><strong>Territorialprinzip:</strong> In fast allen Fällen ist ein Kirchensteuerzahler automatisch Mitglied der Kirchgemeinde an seinem Wohnsitz.</li>
+          <li><strong>Form:</strong> in der Deutschschweiz und dem Jura hat die Austrittserklärung schriftlich zu Handen der Kirchgemeinde am Wohnsitz zu erfolgen, aus Beweisgründen idealerweise mit A+ oder Einschreiben. In den Kantonen St. Gallen und den beiden Appenzell ist zudem die Beurkundung der Unteschrift durch die Gemeinde oder den Notar notwendig.</li>
+          <li><strong>Bestätigung:</strong> sinnvoll ist eine schriftliche Bestätigung (Datum der Wirksamkeit / Steuerpflicht-Ende). Jedoch genügt für die Beendigung der Mitgliedschaft die nachweisliche Zustellung der Austrittserklärung an die korrekte Stelle.</li>
+          <li><strong>Register & Daten:</strong> Datenschutz-/Registerfragen sind zentral (Eintrag, Korrektur, Löschung, Auskunft).</li>
+        </ul>
+
+        <p class="small">
+          Für vertiefte Argumentation und kantonale Dokumentation siehe „Quellen“ (RKZ-Papiere, universitäre Gutachten, kirchliche Merkblätter).
+        </p>
+      </aside>
     </div>
-  </section>
 
-  <!-- ===== Ablauf ===== -->
-  <section id="ablauf" class="steps container">
-    <h2>So funktioniert’s</h2>
-    <div class="step-grid">
-      <div class="step">
-        <span class="step-number">1</span>
-        <h3>Formular ausfüllen</h3>
-        <p>Beantworte wenige Fragen – 2 Minuten reichen.</p>
-      </div>
-      <div class="step">
-        <span class="step-number">2</span>
-        <h3>PDF herunterladen</h3>
-        <p>Wir generieren dein offizielles Gesuch als PDF – kostenlos.</p>
-      </div>
-      <div class="step">
-        <span class="step-number">3</span>
-        <h3>Unterschreiben & abschicken</h3>
-        <p>Ab die Post an dein Pfarramt – fertig!</p>
-      </div>
-    </div>
-  </section>
+    <section class="card" id="generator" style="margin-top:18px">
+      <h2>Formular-Generator</h2>
+      <p>Gib deine Angaben ein. Das Tool generiert ein sachliches Schreiben. Die automatische Zuordnung zur zuständigen Kirchgemeinde ist – je nach Kanton – noch begrenzt.</p>
 
-  <!-- ===== Formular ===== -->
-  <section id="formular" class="formular container">
-    <h2>Dein Gesuch als PDF</h2>
+      <div class="two">
+        <div>
+          <label for="fullName">Vollständiger Name</label>
+          <input id="fullName" placeholder="Vorname Nachname" autocomplete="name" />
 
-    <form id="form-generator" class="form-grid">
-      <div class="form-group">
-        <label for="vorname">Vorname</label>
-        <input id="vorname" name="vorname" type="text" required />
-      </div>
-      <div class="form-group">
-        <label for="nachname">Nachname</label>
-        <input id="nachname" name="nachname" type="text" required />
-      </div>
-      <div class="form-group">
-        <label for="strasse">Strasse + Nr.</label>
-        <input id="strasse" name="strasse" type="text" required />
-      </div>
-      <div class="form-group half">
-        <label for="plz">PLZ</label>
-        <input id="plz" name="plz" type="text" required pattern="\d{4}" />
-      </div>
-      <div class="form-group half">
-        <label for="ort">Ort</label>
-        <input id="ort" name="ort" type="text" required />
-      </div>
-      <div class="form-group">
-        <label for="kanton">Kanton</label>
-        <select id="kanton" name="kanton" required>
-          <option value="">Bitte wählen …</option>
-          <option>AG</option><option>AI</option><option>AR</option><option>BE</option><option>BL</option>
-          <option>BS</option><option>FR</option><option>GE</option><option>GL</option><option>GR</option>
-          <option>JU</option><option>LU</option><option>NE</option><option>NW</option><option>OW</option>
-          <option>SG</option><option>SH</option><option>SO</option><option>SZ</option><option>TG</option>
-          <option>TI</option><option>UR</option><option>VD</option><option>VS</option><option>ZG</option><option>ZH</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn-primary full">PDF generieren</button>
-      </div>
-    </form>
+          <div class="two">
+            <div>
+              <label for="dob">Geburtsdatum (optional)</label>
+              <input id="dob" placeholder="TT.MM.JJJJ" inputmode="numeric" />
+            </div>
+            <div>
+              <label for="confession">Konfession (für Zuordnung)</label>
+              <select id="confession">
+                <option value="rk">Römisch-katholisch</option>
+                <option value="ref">Evangelisch-reformiert</option>
+                <option value="ck">Christkatholisch</option>
+                <option value="other">Andere / keine Angabe</option>
+              </select>
+            </div>
+          </div>
 
-    <!-- generierte PDF Vorlage (unsichtbar) -->
-    <article id="letter-template" class="letter" hidden>
-      <p>{DATUM}</p>
+          <label for="address">Wohnadresse (Schweiz) – Suche</label>
+          <div class="sugg">
+            <input id="address" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" />
+            <div id="sugglist" class="sugglist" role="listbox" aria-label="Adressvorschläge"></div>
+          </div>
+          <p class="hint">Adresse wird über den offiziellen Suchdienst (geo.admin.ch) gesucht. Wähle dann einen Treffer aus der Liste.</p>
+
+          <div class="two">
+            <div>
+              <label for="email">E-Mail (optional)</label>
+              <input id="email" placeholder="für Kopie / Notiz" autocomplete="email" inputmode="email" />
+            </div>
+            <div>
+              <label for="effectiveDate">Gewünschtes Datum (optional)</label>
+              <input id="effectiveDate" placeholder="z. B. per sofort / 31.12.2026" />
+            </div>
+          </div>
+
+          <label for="note">Zusatz (optional)</label>
+          <input id="note" placeholder="z. B. Bitte Bestätigung bis … / Bitte Korrektur Registereintrag" />
+
+          <div class="row" style="margin-top:12px">
+            <button class="btn" id="btnGenerate" type="button">Schreiben generieren</button>
+            <button class="btn secondary" id="btnDownloadDocx" type="button">Als .docx herunterladen</button>
+            <button class="btn secondary" id="btnDownloadPdf" type="button">Als .pdf herunterladen</button>
+            <span class="hint" id="status"></span>
+          </div>
+        </div>
+
+        <div>
+          <div class="alert" id="geoBox">
+            <div class="kv">
+              <div>Kanton</div><div id="kantonOut">–</div>
+              <div>Gemeinde</div><div id="gemeindeOut">–</div>
+              <div>PLZ/Ort</div><div id="plzOut">–</div>
+              <div>Koordinaten</div><div id="coordOut" class="mono">–</div>
+              <div>Kirchgemeinde</div><div id="kirchgemeindeOut">–</div>
+            </div>
+            <p class="small" style="margin-top:10px">
+              Hinweis: Kirchgemeinde-Zuordnung braucht kantonale Geodaten/Verzeichnisse.
+              Dieses MVP zeigt eine <em>technische</em> Pipeline (Adresse → Gemeinde/Kanton → Lookup). Für vollständige Abdeckung müssen Daten je Kanton integriert werden.
+            </p>
+          </div>
+
+          <label for="letter">Vorschau Schreiben</label>
+          <textarea id="letter"></textarea>
+          <p class="hint">Tipp: Versand per Einschreiben; Kopie/Scan aufbewahren. Bei Rückfragen: schriftliche Bestätigung verlangen (Wirksamkeitsdatum / Steuerpflicht).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="quellen" style="margin-top:18px">
+      <h2>Öffentliche Quellen & Literatur (Auswahl)</h2>
+      <p>Diese Links sind als Einstieg gedacht (offizielle Dokumente / akademische Gutachten / Praxismerkblätter).</p>
+
+      <ul class="list">
+        <li><strong>RKZ</strong> – Erklärung zum Kirchenaustritt (rechtliche Konsequenzen), PDF:
+          <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20030531_Erklaerung_Kirchenaustritt_-_rechtliche_Konsequenzen_d.pdf" target="_blank" rel="noopener">rkz.ch</a>
+        </li>
+        <li><strong>RKZ</strong> – Kirchenzugehörigkeit & Kirchenaustrittserklärung (Positionspapier 2003), PDF:
+          <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.1_Postitions-_Strategiepapiere/3.1.20031029_Kirchenzugehoerigkeit_Kirchenaustritt.pdf" target="_blank" rel="noopener">rkz.ch</a>
+        </li>
+        <li><strong>RKZ</strong> – Dokumentation kantonaler/landeskirchlicher Erlasse zu Zugehörigkeit & Austritt (2008), PDF:
+          <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20080801_Zugehoerigkeit_und_Austritt__Dok_IRR__d.pdf" target="_blank" rel="noopener">rkz.ch</a>
+        </li>
+        <li><strong>Universität Freiburg (CH), Religionsrecht</strong> – Gutachten „Die Erklärung des (partiellen) Austritts …“, PDF:
+          <a href="https://www.unifr.ch/ius/religionsrecht/fr/assets/public/documents/Gutachten%20und%20Studien/GutachtenAustritt.pdf" target="_blank" rel="noopener">unifr.ch</a>
+        </li>
+        <li><strong>Andreas Kley (UZH)</strong> – Besprechung BGer-Urteil (BGE 134 I 75), PDF:
+          <a href="https://www.ius.uzh.ch/dam/jcr%3A92b85bcb-80a5-442a-88dd-bb32461f4df3/bger_bespr_kirchenaustritt_Recht%202008.pdf" target="_blank" rel="noopener">ius.uzh.ch</a>
+        </li>
+        <li><strong>Bistum Basel / Praxismerkblatt</strong> (Beispiel Bern) – Austritt aus staatskirchenrechtlicher Körperschaft, PDF:
+          <a href="https://www.kathbern.ch/fileadmin/user_upload/Pfarreien/koeniz-wabern/Dokumente/Informationen/K-austritt_Bistum_staatskirchenrechtl_Koerperschaft_10.2021.pdf" target="_blank" rel="noopener">kathbern.ch</a>
+        </li>
+        <li><strong>Eidgenössische Steuerverwaltung (ESTV) </strong> SSK Steuerinformation zum Thema Kirchensteuer, PDF:
+          <a href=https://www.estv2.admin.ch/stp/ds/d-kirchensteuern-de.pdf target="_blank" rel="noopener">estv2.admin.ch</a>
+        </li>
+      </ul>
+
+      <p class="small">
+        Ergänzend können kantonale Vollzugshinweise, Steuerpraxis und die einschlägigen Kantonsverfassungen / Kirchengesetze relevant sein.
+      </p>
+    </section>
+
+    <section class="card" id="impressum" style="margin-top:18px">
+      <h2>Impressum, Kontakt & Datenschutzerklärung</h2>
+
+      <h3>Impressum</h3>
+      <div class="kv">
+        <div>Anbieter</div><div><strong>Verein Vera Fides</strong></div>
+        <div>Adresse</div><div><span class="mono">Neufeldstrasse 3</span></div>
+        <div>Sitz</div><div><span class="mono">CH-3012 Bern</span></div>
+        <div>E-Mail</div><div><a href="mailto:[redaktion@verafides.ch]">redaktion@verafides.ch</a></div>
+      </div>
+
+      <h3>Kontakt</h3>
       <p>
-        An das<br />
-        Pfarramt {ORT}
+        Für Rückfragen, Korrekturhinweise oder Meldungen zu kantonalen Besonderheiten schreibe bitte an die Vereins-E-Mailadresse.
+        Wir antworten nach Möglichkeit schriftlich und sachlich; diese Website bietet keine individuelle Rechtsberatung.
       </p>
 
-      <p><strong>Betrifft: Teilaustritt aus der Kirchgemeinde</strong></p>
-
-      <p>
-        Sehr geehrte Damen und Herren,<br /><br />
-        hiermit erkläre ich, {VORNAME} {NACHNAME}, wohnhaft an der {STRASSE},
-        {PLZ} {ORT}, meinen Teilaustritt aus der Kirchgemeinde. Ich verzichte damit
-        auf zusätzliche kirchliche Dienstleistungen und ersuche um Anpassung
-        meiner Kirchensteuer entsprechend den geltenden Bestimmungen.
+      <h3>Datenschutzerklärung (kurz)</h3>
+      <p class="small">
+        Stand: <span id="privacyDate"></span>
       </p>
 
-      <p>Mit freundlichen Grüssen<br /><br /><br />______________________________<br />{VORNAME} {NACHNAME}</p>
-    </article>
-  </section>
+      <h4 style="margin:10px 0 6px; font-size:13px">1. Verantwortlicher</h4>
+      <p class="small">
+        Verantwortlich für die Datenbearbeitung im Zusammenhang mit dieser Website ist der <strong>Verein Vera Fides</strong>
+        (Kontakt siehe Impressum).
+      </p>
 
-  <!-- ===== FAQ ===== -->
-  <section id="faq" class="faq">
-    <div class="container">
-      <h2>Häufige Fragen</h2>
-      <details>
-        <summary>Muss ich ganz aus der Kirche austreten?</summary>
-        <p>Nein. Du bleibst Mitglied, verzichtest aber freiwillig auf gewisse kirchliche Dienstleistungen und zahlst entsprechend weniger.</p>
-      </details>
-      <details>
-        <summary>Kostet der Service etwas?</summary>
-        <p>Unser Service ist 100 % gratis. Wir finanzieren uns über freiwillige Spenden.</p>
-      </details>
-      <details>
-        <summary>In welchen Kantonen funktioniert ein Teilaustritt?</summary>
-        <p>Aktuell unterstützen die meisten deutschsprachigen Kantone Teilaustritte. Eine vollständige Liste findest du bald hier.</p>
-      </details>
-    </div>
-  </section>
+      <h4 style="margin:10px 0 6px; font-size:13px">2. Zweck und Umfang</h4>
+      <ul class="list">
+        <li><strong>Formular-Generator:</strong> Die von dir eingegebenen Felder werden im Browser verarbeitet, um das Schreiben zu erstellen. Es findet keine automatische Übermittlung dieser Inhalte an den Betreiber statt (sofern du sie nicht selbst per E-Mail versendest).</li>
+        <li><strong>Adresssuche / Gemeinde-Ermittlung:</strong> Wenn du die Suchfunktion verwendest, wird der Suchtext (Adresse) an den öffentlichen Such-/Geodienst <strong>geo.admin.ch</strong> übermittelt, damit Treffer angezeigt und Kanton/Gemeinde ermittelt werden können.</li>
+        <li><strong>Server-Logfiles:</strong> Beim Aufruf der Website fallen technisch bedingt Logdaten beim Hosting-Anbieter an (z. B. IP-Adresse, Zeitpunkt, aufgerufene Ressource, User-Agent). Diese Daten dienen dem sicheren Betrieb und der Fehleranalyse.</li>
+      </ul>
 
-  <!-- ===== Kontakt ===== -->
-  <section id="kontakt" class="kontakt container">
-    <h2>Kontakt</h2>
-    <p>Fragen offen? Schreib uns unter <a href="mailto:hallo@teilaustritt.ch">hallo@teilaustritt.ch</a>.</p>
-  </section>
+      <h4 style="margin:10px 0 6px; font-size:13px">3. Cookies und Tracking</h4>
+      <p class="small">
+        Diese Seite setzt keine Werbe- oder Tracking-Cookies ein. Es können technisch notwendige Cookies/Cache-Mechanismen des Browsers bzw. des Hosting-Anbieters wirken.
+      </p>
 
-  <!-- ===== Footer ===== -->
-  <footer>
-    <div class="container flex between center">
-      <small>© <span id="year"></span> teilaustritt.ch – alle Rechte vorbehalten</small>
-      <a href="#top">▲ Nach oben</a>
-    </div>
-  </footer>
+      <h4 style="margin:10px 0 6px; font-size:13px">4. Weitergabe und Drittanbieter</h4>
+      <p class="small">
+        Eine aktive Weitergabe deiner Formularinhalte durch den Betreiber erfolgt nicht. Drittanbieter kommen nur ins Spiel, wenn du Funktionen nutzt, die externe Dienste aufrufen (derzeit: geo.admin.ch für die Adresssuche).
+      </p>
 
-  <!-- Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-VKMp1dF+qCtX2G80LJ1J4jXcnFKWH7fY6Y5e1OrGLFypjXjKA8eS//MdQ8oAzKxkbyN6uX4F+JKh3Qx1iznKzw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <h4 style="margin:10px 0 6px; font-size:13px">5. Aufbewahrung und Löschung</h4>
+      <p class="small">
+        Die Formularinhalte werden nicht serverseitig gespeichert. Server-Logdaten werden nach den üblichen Fristen des Hosting-Anbieters aufbewahrt und anschließend gelöscht bzw. anonymisiert.
+      </p>
 
-  <!-- Custom JS -->
-  <script src="js/generator.js"></script>
+      <h4 style="margin:10px 0 6px; font-size:13px">6. Rechte</h4>
+      <p class="small">
+        Du kannst im Rahmen des anwendbaren Datenschutzrechts (insb. Schweizer DSG) Auskunft, Berichtigung oder Löschung von dich betreffenden Daten verlangen, soweit solche Daten beim Betreiber anfallen. Kontaktiere uns dazu via E-Mail (siehe Impressum).
+      </p>
+    </section>
+  </main>
 
   <script>
-    /* Copyright-Jahr */
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const $ = (id) => document.getElementById(id);
+
+    const state = {
+      chosen: null,
+      x: null, y: null,
+      canton: null,
+      municipality: null,
+      zipPlace: null,
+      kirchgemeinde: null
+    };
+
+    // TODO: später durch JSON-Registry ersetzen
+    const KIRCHGEMEINDE_REGISTRY = {
+      AG: [
+        { name: "Röm.-kath. Kirchgemeinde Musterstadt", confession: "rk", municipalities: ["Musterstadt"], zip: ["5000"], contact: "Sekretariat, Musterstrasse 1, 5000 Musterstadt", email: "sekretariat@example.org" }
+      ],
+      BS: [
+        { name: "Röm.-kath. Kirche Basel (Beispiel)", confession: "rk", municipalities: ["Basel"], zip: ["4000","4051","4052"], contact: "Beispieladresse, 4000 Basel", email: "info@example.org" }
+      ]
+    };
+
+    function stripHtml(s){
+      const div = document.createElement("div");
+      div.innerHTML = s || "";
+      return (div.textContent || div.innerText || "").trim();
+    }
+
+    function parseZipPlace(label){
+      const m = label.match(/\b(\d{4})\s+([^\n,]+)\b/);
+      if(!m) return null;
+      return { zip: m[1], place: m[2].trim() };
+    }
+
+    async function searchAddresses(q){
+      const url = new URL("https://api3.geo.admin.ch/rest/services/ech/SearchServer");
+      url.searchParams.set("type","locations");
+      url.searchParams.set("searchText", q);
+      url.searchParams.set("origins","address");
+      url.searchParams.set("limit","8");
+      url.searchParams.set("sr","2056");
+      const res = await fetch(url.toString());
+      if(!res.ok) throw new Error("Adresssuche fehlgeschlagen");
+      return await res.json();
+    }
+
+    async function identifyGemeindeKanton(x,y){
+      const url = new URL("https://api3.geo.admin.ch/rest/services/ech/MapServer/identify");
+      url.searchParams.set("geometry", `${x},${y}`);
+      url.searchParams.set("geometryType","esriGeometryPoint");
+      url.searchParams.set("tolerance","0");
+      url.searchParams.set("layers","all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill,ch.swisstopo.swissboundaries3d-kanton-flaeche.fill");
+      url.searchParams.set("sr","2056");
+      url.searchParams.set("returnGeometry","false");
+      const res = await fetch(url.toString());
+      if(!res.ok) throw new Error("Gemeinde/Kanton-Identifikation fehlgeschlagen");
+      return await res.json();
+    }
+
+    function extractGemeindeKanton(identifyJson){
+      const results = identifyJson?.results || [];
+      const gemeinde = results.find(r => (r.layerBodId||"").includes("gemeinde"));
+      const kanton   = results.find(r => (r.layerBodId||"").includes("kanton"));
+      const gProps = gemeinde?.properties || {};
+      const kProps = kanton?.properties || {};
+
+      const municipalityName =
+        gProps.name || gProps.gem_name || gProps.gemeinde || gProps.label || gProps.GEMEINDENAME || "—";
+
+      const cantonCode =
+        kProps.abk || kProps.kurzzeichen || kProps.kanton || kProps.kt || kProps.label || null;
+
+      const cantonName = kProps.name || kProps.kanton || kProps.label || "—";
+
+      return { municipalityName, cantonCode, cantonName };
+    }
+
+    function lookupKirchgemeinde(cantonCode, municipalityName, zip, confession){
+      const list = KIRCHGEMEINDE_REGISTRY[cantonCode] || [];
+      let hits = list.filter(e => e.confession === confession && e.zip?.includes(zip));
+      if(hits.length === 0){
+        hits = list.filter(e => e.confession === confession && (e.municipalities||[]).map(x=>x.toLowerCase()).includes((municipalityName||"").toLowerCase()));
+      }
+      if(hits.length === 1) return hits[0];
+      if(hits.length > 1) return { name: hits[0].name + " (mehrere Treffer – bitte prüfen)", contact: hits[0].contact, email: hits[0].email };
+      return null;
+    }
+
+    function setStatus(msg, kind=""){
+      const el = $("status");
+      el.textContent = msg || "";
+      el.style.color = kind==="ok" ? "var(--ok)" : kind==="warn" ? "var(--warn)" : "var(--muted)";
+    }
+
+    function updateGeoBox(){
+      $("kantonOut").textContent = state.canton ? (state.canton.code ? `${state.canton.code} – ${state.canton.name}` : state.canton.name) : "–";
+      $("gemeindeOut").textContent = state.municipality || "–";
+      $("plzOut").textContent = state.zipPlace ? `${state.zipPlace.zip} ${state.zipPlace.place}` : "–";
+      $("coordOut").textContent = (state.x && state.y) ? `${Math.round(state.x)}, ${Math.round(state.y)} (LV95)` : "–";
+
+      if(state.kirchgemeinde){
+        const kg = state.kirchgemeinde;
+        let txt = kg.name;
+        if(kg.contact) txt += `; ${kg.contact}`;
+        if(kg.email) txt += `; ${kg.email}`;
+        $("kirchgemeindeOut").textContent = txt;
+      }else{
+        $("kirchgemeindeOut").textContent = "– (noch nicht eindeutig / Register fehlt)";
+      }
+    }
+
+    function buildLetter(){
+      const name = ($("fullName").value || "").trim();
+      const dob = ($("dob").value || "").trim();
+      const address = ($("address").value || "").trim();
+      const effective = ($("effectiveDate").value || "").trim();
+      const note = ($("note").value || "").trim();
+
+      const kg = state.kirchgemeinde;
+      const toLine = kg ? kg.name : "Zuständige Kirchgemeinde / Landeskirche (bitte einsetzen)";
+      const contactLine = kg?.contact ? kg.contact : "(Adresse der zuständigen Stelle ergänzen)";
+
+      const today = new Date();
+      const dateStr = today.toLocaleDateString("de-CH", { year:"numeric", month:"2-digit", day:"2-digit" });
+
+      const subject = "Austrittserklärung aus der staatskirchenrechtlichen Körperschaft (Kirchensteuer)";
+      const effectiveSentence = effective ? `Ich ersuche um Wirksamkeit per ${effective}.` : "Ich ersuche um Wirksamkeit per nächstmöglichem Zeitpunkt nach kantonalem Recht.";
+      const dobLine = dob ? `Geburtsdatum: ${dob}\n` : "";
+      const extra = note ? `\nZusatz:\n${note}\n` : "";
+
+      const letter =
+`${toLine}
+${contactLine}
+
+${dateStr}
+
+Betreff: ${subject}
+
+Sehr geehrte Damen und Herren
+
+Hiermit erkläre ich – soweit nach kantonalem Recht vorgesehen – meinen Austritt aus der öffentlich-rechtlichen Körperschaft der Landeskirche und Kirchgemeinde an meinem Wohnort.
+
+Person:
+Name: ${name || "(Name eintragen)"}
+${dobLine}Adresse: ${address || "(Adresse eintragen)"}
+
+${effectiveSentence}
+
+Ich bitte um schriftliche Bestätigung des Austritts (inkl. Datum der Wirksamkeit). Ferner bitte ich Sie, dieses Schreiben vertraulich zu behandeln und den Inhalt nicht an Dritte, inkl. Pfarrei und Bistum, zu kommunizieren.
+
+Freundliche Grüsse
+
+
+${name || "(Unterschrift)"}${extra}
+`;
+
+      $("letter").value = letter;
+    }
+
+    // --- DOCX Download (echtes Word) ---
+    async function downloadDocx(){
+      const content = $("letter").value || "";
+      const lines = content.replace(/\r\n/g, "\n").split("\n");
+
+      const paragraphs = lines.map(line =>
+        new docx.Paragraph({
+          text: line === "" ? " " : line,
+          spacing: { after: 120 }
+        })
+      );
+
+      const doc = new docx.Document({
+        sections: [{ properties: {}, children: paragraphs }]
+      });
+
+      const blob = await docx.Packer.toBlob(doc);
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "teilaustritt_schreiben.docx";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    // --- PDF Download (jsPDF) ---
+    function downloadPdf(){
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ unit: "pt", format: "a4" });
+
+      const margin = 56;          // ~2cm
+      const fontSize = 11;
+      const lineHeight = 15;
+
+      doc.setFont("times", "normal");
+      doc.setFontSize(fontSize);
+
+      const pageWidth = doc.internal.pageSize.getWidth();
+      const pageHeight = doc.internal.pageSize.getHeight();
+      const maxWidth = pageWidth - margin * 2;
+
+      const text = ($("letter").value || "").replace(/\r\n/g, "\n");
+      const paragraphs = text.split("\n");
+
+      let y = margin;
+
+      for (const para of paragraphs) {
+        // Leere Zeile = Abstand
+        if (para.trim() === "") {
+          y += lineHeight;
+          if (y > pageHeight - margin) { doc.addPage(); y = margin; }
+          continue;
+        }
+
+        // Automatisches Wrapping
+        const wrapped = doc.splitTextToSize(para, maxWidth);
+        for (const line of wrapped) {
+          doc.text(line, margin, y);
+          y += lineHeight;
+          if (y > pageHeight - margin) {
+            doc.addPage();
+            y = margin;
+          }
+        }
+      }
+
+      doc.save("teilaustritt_schreiben.pdf");
+    }
+
+    // Address search wiring
+    let debounceTimer = null;
+    $("address").addEventListener("input", () => {
+      clearTimeout(debounceTimer);
+      const q = $("address").value.trim();
+      if(q.length < 4){
+        $("sugglist").style.display = "none";
+        return;
+      }
+      debounceTimer = setTimeout(async () => {
+        try{
+          setStatus("Suche Adresse …");
+          const data = await searchAddresses(q);
+          const results = data?.results || [];
+          const list = $("sugglist");
+          list.innerHTML = "";
+          if(results.length === 0){
+            list.style.display = "none";
+            setStatus("Keine Treffer.");
+            return;
+          }
+          results.forEach((r) => {
+            const btn = document.createElement("button");
+            const label = stripHtml(r.label || r.attrs?.label || r.attrs?.origin || "");
+            btn.textContent = label || "Treffer";
+            btn.addEventListener("click", async () => {
+              list.style.display = "none";
+              $("address").value = label;
+              state.chosen = r;
+              state.x = Number(r.attrs?.x);
+              state.y = Number(r.attrs?.y);
+              state.zipPlace = parseZipPlace(label);
+              setStatus("Ermittle Kanton/Gemeinde …");
+              try{
+                const ident = await identifyGemeindeKanton(state.x, state.y);
+                const ex = extractGemeindeKanton(ident);
+                state.municipality = ex.municipalityName;
+                state.canton = { code: ex.cantonCode, name: ex.cantonName };
+
+                const confession = $("confession").value;
+                const zip = state.zipPlace?.zip || null;
+                state.kirchgemeinde = ex.cantonCode ? lookupKirchgemeinde(ex.cantonCode, state.municipality, zip, confession) : null;
+
+                updateGeoBox();
+                buildLetter();
+                setStatus("Adresse übernommen.", "ok");
+              }catch(e){
+                updateGeoBox();
+                buildLetter();
+                setStatus("Kanton/Gemeinde konnte nicht automatisch ermittelt werden.", "warn");
+              }
+            });
+            list.appendChild(btn);
+          });
+          list.style.display = "block";
+          setStatus("Adresse auswählen.");
+        }catch(e){
+          $("sugglist").style.display = "none";
+          setStatus("Adresssuche fehlgeschlagen.", "warn");
+        }
+      }, 240);
+    });
+
+    document.addEventListener("click", (ev) => {
+      const list = $("sugglist");
+      if(!list.contains(ev.target) && ev.target !== $("address")){
+        list.style.display = "none";
+      }
+    });
+
+    ["fullName","dob","address","effectiveDate","note","confession"].forEach(id => {
+      $(id).addEventListener("change", () => {
+        if(id === "confession" && state.canton?.code){
+          const zip = state.zipPlace?.zip || null;
+          state.kirchgemeinde = lookupKirchgemeinde(state.canton.code, state.municipality, zip, $("confession").value);
+          updateGeoBox();
+        }
+        buildLetter();
+      });
+    });
+
+    $("btnGenerate").addEventListener("click", () => {
+      buildLetter();
+      setStatus("Schreiben aktualisiert.", "ok");
+    });
+
+    $("btnDownloadDocx").addEventListener("click", async () => {
+      if(!($("letter").value || "").trim()) buildLetter();
+      setStatus("Erstelle .docx …");
+      try{
+        await downloadDocx();
+        setStatus(".docx erstellt.", "ok");
+      }catch(e){
+        setStatus("DOCX-Erstellung fehlgeschlagen (CDN blockiert?).", "warn");
+      }
+    });
+
+    $("btnDownloadPdf").addEventListener("click", () => {
+      if(!($("letter").value || "").trim()) buildLetter();
+      setStatus("Erstelle .pdf …");
+      try{
+        downloadPdf();
+        setStatus(".pdf erstellt.", "ok");
+      }catch(e){
+        setStatus("PDF-Erstellung fehlgeschlagen (CDN blockiert?).", "warn");
+      }
+    });
+
+    updateGeoBox();
+    buildLetter();
+
+    // Datenschutz-Stand (lokal)
+    try {
+      const el = document.getElementById("privacyDate");
+      if (el) {
+        const today = new Date();
+        el.textContent = today.toLocaleDateString("de-CH", { year:"numeric", month:"long", day:"2-digit" });
+      }
+    } catch(e) {}
+
+    setStatus("Bereit.");
   </script>
 </body>
 </html>
