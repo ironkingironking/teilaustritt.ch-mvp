@@ -182,6 +182,11 @@ details.edit textarea{min-height:240px; margin-top:8px; font-family:var(--serif)
 .chips{list-style:none; padding:0; margin:8px 0 0; display:flex; flex-wrap:wrap; gap:6px}
 .chips li{font-size:13px; padding:3px 8px; border:1px solid var(--line); border-radius:999px; background:var(--tint); color:var(--muted)}
 .chips li.mine{border-color:var(--accent); background:var(--accent); color:#fff; font-weight:600}
+.tax-calc{margin-top:12px}
+.tax-calc h3{margin:0 0 4px; font-size:17px}
+.grid-calc{display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr); gap:0 12px}
+.calc-amount{font-size:17px; font-weight:600; margin:16px 0 4px}
+@media (max-width:720px){ .grid-calc{grid-template-columns:1fr} }
 .tax-mine{margin:12px 0 0; padding:10px 12px; border-radius:var(--radius-sm); background:var(--accent-tint); font-size:15px}
 .sources{margin:0; padding-left:20px; color:var(--muted)}
 .sources li{margin-bottom:6px}

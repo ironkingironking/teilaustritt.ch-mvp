@@ -24,6 +24,7 @@ tools/build-orte.py           erzeugt data/orte.json
 tools/build-geo.py            bereitet eine Grenzen-Quelle (GeoJSON) für data-src/geo/ auf
 tools/build-registry.py       erzeugt data/kantone.json, data/kg/, data/geo/ aus data-src/
 tools/check-coverage.py       spielt die Suche für jede Ortschaft durch und zählt die Ergebnisse
+tools/build-steuer.py         erzeugt data/steuer.json (Kirchensteuer-Schätzer) aus dem ESTV-Steuerrechner
 ```
 
 `css/style.css`, `js/generator.js` und `v 0.1` stammen aus früheren Versionen und werden nicht
@@ -94,6 +95,15 @@ python3 -I tools/build-geo.py zh-stadt zh.geojson bezeichnung EPSG:4326 ZH 0.000
 python3 -I tools/build-geo.py sg-kath sg.geojson kath._Kirchgemeinde EPSG:2056 SG,AR,AI,TG 5
 python3 -I tools/build-registry.py && python3 -I tools/check-coverage.py
 ```
+
+## Kirchensteuer-Schätzer
+
+`tools/build-steuer.py` fragt beim Build den Steuerrechner der ESTV ab: je Kanton die einfache
+Kantonssteuer für ein Raster steuerbarer Einkommen (ledig/verheiratet) und je Gemeinde den Faktor
+Kirchensteuer / einfache Kantonssteuer. Die Seite rechnet daraus im Browser; Eingaben verlassen ihn
+nicht. Abweichung zum ESTV-Rechner in Stichproben unter 3 %. Antworten liegen in
+`data-src/steuer/estv-cache.json`; ein neues Steuerjahr holt man mit
+`python3 -I tools/build-steuer.py 2027` (rund 4'500 Abfragen, 4 parallel).
 
 ## Lokale Vorschau
 
