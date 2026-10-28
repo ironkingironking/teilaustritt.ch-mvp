@@ -7,7 +7,9 @@ Postadresse und erstellt das Austrittsschreiben als PDF, Word-Datei oder Ausdruc
 ## Struktur
 
 ```
-index.html                    Seite (Inhalt, Fragen, Quellen, Impressum, Datenschutz)
+index.html                    Seite Deutsch (Inhalt, Fragen, Quellen, Impressum, Datenschutz)
+fr/ it/ en/index.html         Übersetzte Seiten, gleiche Struktur und IDs; der deutsche Text ist massgebend
+assets/js/i18n.js             Oberflächentexte (de/fr/it/en), Brieftexte (de/fr/it), Kantonsnamen
 assets/css/site.css           Styles inkl. Druckansicht (nur der Brief)
 assets/js/app.js              Ortssuche, Kirchgemeinde-Zuordnung, Brief, PDF/Word
 assets/vendor/                jsPDF 2.5.1 und docx 8.5.0 (MIT), selbst gehostet, erst beim Klick geladen
@@ -26,6 +28,20 @@ tools/check-coverage.py       spielt die Suche für jede Ortschaft durch und zä
 
 `css/style.css`, `js/generator.js` und `v 0.1` stammen aus früheren Versionen und werden nicht
 mehr verwendet.
+
+## Sprachen
+
+Die Seitensprache kommt aus `<html lang>`. Die Briefsprache ist davon getrennt: Standard ist die
+Amtssprache der gewählten Ortschaft (Ortschaftenverzeichnis), umschaltbar auf DE/FR/IT. Texte aus
+den Daten gibt es als `feld_fr`, `feld_it`, `feld_en` (z. B. `tipp_fr`, `summary_it`,
+`public_hinweis_en`); fehlt eine Übersetzung, zeigt die Seite den deutschen Text. Bei Änderungen an
+`app.js` oder `i18n.js` die Version `?v=…` in allen vier Seiten und im Import in `app.js` erhöhen.
+
+## Empfängeradresse
+
+`build-registry.py` kürzt die Postadresse auf Name, Strasse/Postfach und PLZ Ort. Funktionszeilen
+(Kirchenrat, Kirchenpflege, Sekretariat, Conseil …) und «c/o Pfarrei …» fallen weg; ein c/o an eine
+externe Stelle (z. B. Treuhandfirma) bleibt. Die vollständige Adresse steht weiter in `data-src/`.
 
 ## Ablauf der Suche
 

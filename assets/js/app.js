@@ -1,7 +1,15 @@
 // teilaustritt.ch – Kirchgemeinde-Suche und Briefgenerator.
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
+// Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
+
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028b";
 
 const $ = (id) => document.getElementById(id);
+const LANG = (document.documentElement.lang || "de").slice(0, 2);
+const T = UI[LANG] || UI.de;
+const t = (key, ...args) => { const v = T[key] ?? UI.de[key]; return typeof v === "function" ? v(...args) : v; };
+// Seitenwurzel, damit /fr/, /it/ und /en/ dieselben Daten und Skripte laden
+const BASE = new URL("../../", import.meta.url).href;
 const PH_OPEN = "", PH_CLOSE = "";
 const ph = (label) => `${PH_OPEN}${label}${PH_CLOSE}`;
 const REPORT_MAIL = "redaktion@verafides.ch";
@@ -19,7 +27,9 @@ const state = {
   editingRecipient: false,
   autoFill: { plz: "", wohnort: "" },
   bodyEdited: false,
+  letterLang: null,    // null = automatisch nach Wohnort
   streetMsg: "",
+  streetHit: "",
 };
 
 // ---------- Hilfsfunktionen ----------
@@ -29,9 +39,12 @@ const safeUrl = (u) => (/^https?:\/\//i.test(u || "") ? u : null);
 const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
   .replace(/ß/g, "ss").replace(/[^a-z0-9]+/g, " ").trim();
 const fmtDate = (iso) => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ""); return m ? `${m[3]}.${m[2]}.${m[1]}` : iso || ""; };
+// Text aus den Daten in der Sprache der Seite (feld_fr, feld_it, feld_en), sonst deutsch
+const loc = (obj, key) => (LANG !== "de" && obj?.[`${key}_${LANG}`]) || obj?.[key];
+const cname = (kt) => CANTON_NAMES[LANG]?.[kt] || state.kantone?.[kt]?.name || kt;
 
 async function fetchJSON(path) {
-  const res = await fetch(path, { cache: "no-cache" });
+  const res = await fetch(new URL(path, BASE), { cache: "no-cache" });
   if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
   return res.json();
 }
@@ -42,12 +55,12 @@ function setStatus(msg, kind = "") {
   el.className = "status" + (kind ? " " + kind : "");
 }
 
-function loadScript(src) {
+function loadScript(path) {
   return new Promise((resolve, reject) => {
     const s = document.createElement("script");
-    s.src = src;
+    s.src = new URL(path, BASE).href;
     s.onload = resolve;
-    s.onerror = () => reject(new Error(`Konnte ${src} nicht laden`));
+    s.onerror = () => reject(new Error(`${path} nicht geladen`));
     document.head.appendChild(s);
   });
 }
@@ -91,7 +104,7 @@ function searchPlaces(q) {
       if (s >= 0) hits.push({ p, s });
     }
   }
-  hits.sort((a, b) => a.s - b.s || a.p.ort.length - b.p.ort.length || a.p.ort.localeCompare(b.p.ort, "de") || a.p.plz.localeCompare(b.p.plz));
+  hits.sort((a, b) => a.s - b.s || a.p.ort.length - b.p.ort.length || a.p.ort.localeCompare(b.p.ort, LANG) || a.p.plz.localeCompare(b.p.plz));
   return hits.slice(0, 10).map((h) => h.p);
 }
 
@@ -104,7 +117,7 @@ function renderList() {
   list.innerHTML = "";
   if (!input.value.trim()) { closeList(); return; }
   if (combo.items.length === 0) {
-    list.innerHTML = `<li class="empty" role="option" aria-disabled="true">Kein Ort gefunden. Versuche es mit der PLZ.</li>`;
+    list.innerHTML = `<li class="empty" role="option" aria-disabled="true">${esc(t("noPlace"))}</li>`;
   }
   combo.items.forEach((p, i) => {
     const [gname, kt] = state.gemeinden[p.munis[0].bfs] || ["", ""];
@@ -130,7 +143,7 @@ function closeList() {
 
 function wireCombo() {
   const input = $("ort");
-  input.addEventListener("focus", () => loadPlaces().catch(() => setStatus("Ortsdaten konnten nicht geladen werden. Bitte Seite neu laden.", "err")));
+  input.addEventListener("focus", () => loadPlaces().catch(() => setStatus(t("loadPlacesErr"), "err")));
   input.addEventListener("input", async () => {
     await loadPlaces().catch(() => {});
     combo.items = searchPlaces(input.value);
@@ -185,7 +198,7 @@ async function resolveMunicipality(bfs) {
     const canton = state.kantone[kt];
     if (canton?.register && !state.registries[kt]) state.registries[kt] = await fetchJSON(`data/kg/${kt}.json`);
   } catch (e) {
-    setStatus("Die Kirchgemeinde-Daten konnten nicht geladen werden. Du kannst die Adresse selbst eintragen.", "err");
+    setStatus(t("loadKgErr"), "err");
   }
   const reg = state.registries[kt];
   const ids = reg?.gemeinden?.[bfs] || [];
@@ -230,7 +243,7 @@ async function streetLookup(street) {
   const kt = state.gemeinden[bfs][1];
   const split = state.split?.split;
   if (!split?.geo || !street.trim()) return;
-  state.streetMsg = "Suche Adresse …";
+  state.streetMsg = t("streetSearching");
   render();
   try {
     // Mit sr=2056 liefert geo.admin.ch attrs.y = Ost, attrs.x = Nord (LV95) und zusätzlich lat/lon (WGS84).
@@ -245,7 +258,7 @@ async function streetLookup(street) {
     const want = norm(street);
     const hit = results.find((r) => plain(r).startsWith(want + " ") && plain(r).includes(place.plz))
       || results.find((r) => String(r.attrs?.label || "").includes(place.plz)) || results[0];
-    if (!hit) { state.streetMsg = "Adresse nicht gefunden. Prüfe die Schreibweise oder wähle selbst."; render(); return; }
+    if (!hit) { state.streetMsg = t("streetNotFound"); render(); return; }
     const geo = await fetchJSON(split.geo);
     const pt = geo.crs === "EPSG:4326" ? [Number(hit.attrs.lon), Number(hit.attrs.lat)] : [Number(hit.attrs.y), Number(hit.attrs.x)];
     const feature = geo.features.find((f) => pointInGeometry(pt, f.geometry));
@@ -255,13 +268,13 @@ async function streetLookup(street) {
       state.streetHit = label;
       state.streetMsg = "";
       if (!$("strasse").value.trim()) $("strasse").value = street.trim();
-      setStatus(`Kirchgemeinde für ${label} bestimmt.`, "ok");
+      setStatus(t("streetOk", label), "ok");
     } else {
-      state.streetMsg = `Für «${label}» konnten wir keine Kirchgemeinde bestimmen. Bitte wähle selbst.`;
+      state.streetMsg = t("streetNoKg", label);
     }
   } catch (e) {
     console.warn("Strassensuche:", e);
-    state.streetMsg = "Die Strassensuche ist gerade nicht erreichbar. Bitte wähle selbst.";
+    state.streetMsg = t("streetDown");
   }
   render();
 }
@@ -271,41 +284,39 @@ function splitBlock(gname, kt) {
   const reg = state.registries[kt];
   const finder = safeUrl(split.finder) || safeUrl(reg?.finder);
   const options = ids.map((id) => `<option value="${esc(id)}" ${state.kg?.id === id ? "selected" : ""}>${esc(reg.kg[id].n)}</option>`).join("");
-  const how = !split.how ? "" : split.how.length > 240
-    ? `<details class="edit"><summary>Welche Gebiete gehören wohin?</summary><p class="small">${esc(split.how)}</p></details>`
-    : `<p>${esc(split.how)}</p>`;
+  // Die Gebietsbeschreibungen gibt es nur auf Deutsch
+  let how = "";
+  if (split.how && LANG === "de") {
+    how = split.how.length > 240
+      ? `<details class="edit"><summary>${esc(t("whichAreas"))}</summary><p class="small">${esc(split.how)}</p></details>`
+      : `<p>${esc(split.how)}</p>`;
+  } else if (split.how) {
+    how = `<p>${esc(t("howGeneric"))}</p><details class="edit"><summary>${esc(t("detailsDe"))}</summary><p class="small" lang="de">${esc(split.how)}</p></details>`;
+  }
   return `${how}
     ${split.geo ? `<form id="street-form" style="margin-top:8px">
-        <label for="street-q">Genau bestimmen mit Strasse und Hausnummer</label>
+        <label for="street-q">${esc(t("streetLabel"))}</label>
         <div style="display:flex; gap:8px"><input id="street-q" autocomplete="street-address" value="${esc($("strasse").value)}">
-        <button class="btn small" type="submit">Bestimmen</button></div>
-        <p class="help">Dafür geht die Adresse an den Geodienst geo.admin.ch (swisstopo).</p>
+        <button class="btn small" type="submit">${esc(t("streetBtn"))}</button></div>
+        <p class="help">${esc(t("streetPrivacy"))}</p>
         ${state.streetMsg ? `<p class="small">${esc(state.streetMsg)}</p>` : ""}
       </form>` : ""}
-    <label for="kg-select">${state.kg ? "Andere Kirchgemeinde wählen" : "Kirchgemeinde wählen"}</label>
-    <select id="kg-select">${state.kg ? "" : `<option value="">Bitte wählen …</option>`}${options}</select>
-    ${finder ? `<p class="small">Offizielle Suche: <a href="${esc(finder)}" target="_blank" rel="noopener">${esc(new URL(finder).hostname)}</a></p>` : ""}`;
+    <label for="kg-select">${esc(state.kg ? t("otherKg") : t("chooseKg"))}</label>
+    <select id="kg-select">${state.kg ? "" : `<option value="">${esc(t("pleaseChoose"))}</option>`}${options}</select>
+    ${finder ? `<p class="small">${esc(t("officialSearch"))} <a href="${esc(finder)}" target="_blank" rel="noopener">${esc(new URL(finder).hostname)}</a></p>` : ""}`;
 }
 
 // ---------- Kirchensteuer (ESTV) ----------
 
-const TAX_END = {
-  sofort: "Die Kirchensteuerpflicht endet mit dem Eingang deiner Austrittserklärung.",
-  monat: "Die Kirchensteuerpflicht endet ab dem Monat nach dem Eingang deiner Austrittserklärung.",
-  jahr: "Trittst du im Lauf des Jahres aus, entfällt die Kirchensteuer bereits für das ganze Austrittsjahr.",
-  tessin: "Im ersten Jahr endet die Pflicht sofort; später wirkt eine Erklärung auf das folgende Jahr.",
-  keine: "",
-};
-
 function taxText(canton) {
   const st = canton?.steuer;
   if (!st) return "";
-  return [TAX_END[st.ende], st.tipp].filter(Boolean).join(" ");
+  return [T.taxEnd[st.ende], loc(st, "tipp")].filter(Boolean).join(" ");
 }
 
 function taxLine(canton) {
   const text = taxText(canton);
-  return text ? `<p class="small"><strong>Kirchensteuer:</strong> ${esc(text)} <a href="#kirchensteuer">Mehr dazu</a></p>` : "";
+  return text ? `<p class="small"><strong>${esc(t("taxLabel"))}</strong> ${esc(text)} <a href="#kirchensteuer">${esc(t("more"))}</a></p>` : "";
 }
 
 // Übersicht «Ab wann keine Kirchensteuer mehr?», eigener Kanton hervorgehoben
@@ -317,18 +328,18 @@ function renderTaxSection() {
   for (const [kt, c] of Object.entries(kantone)) {
     if (!c.steuer) continue;
     const g = c.steuer.system !== "pflicht" ? "anders" : c.steuer.ende === "jahr" ? "jahr" : "sofort";
-    groups[g].push([kt, c.name]);
+    groups[g].push([kt, cname(kt)]);
   }
   for (const [g, list] of Object.entries(groups)) {
     const ul = document.querySelector(`.chips[data-ende="${g}"]`);
     if (!ul) continue;
-    ul.innerHTML = list.sort((a, b) => a[1].localeCompare(b[1], "de"))
-      .map(([kt, name]) => `<li class="${kt === mine ? "mine" : ""}">${esc(name)}${kantone[kt].steuer.ende === "monat" ? " (ab Folgemonat)" : ""}</li>`).join("");
+    ul.innerHTML = list.sort((a, b) => a[1].localeCompare(b[1], LANG))
+      .map(([kt, name]) => `<li class="${kt === mine ? "mine" : ""}">${esc(name)}${kantone[kt].steuer.ende === "monat" ? esc(t("fromNextMonth")) : ""}</li>`).join("");
   }
   const el = $("tax-mine");
   const text = mine ? taxText(kantone[mine]) : "";
   el.hidden = !text;
-  if (text) el.innerHTML = `<strong>Für dich (Kanton ${esc(kantone[mine].name)}):</strong> ${esc(text)}`;
+  if (text) el.innerHTML = `<strong>${esc(t("forYou", cname(mine)))}</strong> ${esc(text)}`;
 }
 
 async function initTaxSection() {
@@ -341,23 +352,21 @@ async function initTaxSection() {
 // ---------- Darstellung Schritt 1 ----------
 
 function shareText(share) {
-  if (share >= 90) return "fast alle Adressen";
-  if (share >= 50) return "die meisten Adressen";
-  if (share >= 10) return "ein Teil der Adressen";
-  return "wenige Adressen";
+  const s = t("share");
+  return share >= 90 ? s[0] : share >= 50 ? s[1] : share >= 10 ? s[2] : s[3];
 }
 
 function kgLinks(kg) {
   const parts = [];
-  if (safeUrl(kg.w)) parts.push(`<a href="${esc(kg.w)}" target="_blank" rel="noopener">Website</a>`);
-  if (safeUrl(kg.s)) parts.push(`<a href="${esc(kg.s)}" target="_blank" rel="noopener">Quelle</a>`);
-  if (kg.stand) parts.push(`<span>Stand ${esc(fmtDate(kg.stand))}</span>`);
+  if (safeUrl(kg.w)) parts.push(`<a href="${esc(kg.w)}" target="_blank" rel="noopener">${esc(t("website"))}</a>`);
+  if (safeUrl(kg.s)) parts.push(`<a href="${esc(kg.s)}" target="_blank" rel="noopener">${esc(t("source"))}</a>`);
+  if (kg.stand) parts.push(`<span>${esc(t("asOf"))} ${esc(fmtDate(kg.stand))}</span>`);
   return parts.join("");
 }
 
 function reportLink(subjectExtra) {
   const subject = encodeURIComponent(`Korrektur teilaustritt.ch: ${subjectExtra}`);
-  return `<a href="mailto:${REPORT_MAIL}?subject=${subject}">Fehler melden</a>`;
+  return `<a href="mailto:${REPORT_MAIL}?subject=${subject}">${esc(t("report"))}</a>`;
 }
 
 // Kirchgemeinde ohne Strasse oder Postfach in der Postadresse (ns wird beim Build gesetzt)
@@ -366,26 +375,25 @@ const needsStreet = (kg) => Boolean(kg?.ns) || kg?.t === "praesidium";
 function addressNotice(kg) {
   if (state.manualRecipient) return "";
   if (needsStreet(kg)) {
-    return `<div class="notice"><strong>Strasse fehlt noch.</strong>Diese Kirchgemeinde publiziert keine eigene Postadresse, nur die Privatadresse ihres Präsidiums. Übernimm die Adresse von der Website der Kirchgemeinde.</div>`;
+    return `<div class="notice"><strong>${esc(t("streetMissingTitle"))}</strong>${esc(t("streetMissingText"))}</div>`;
   }
   const parts = [];
-  if (kg.t === "pfarramt") parts.push("Diese Kirchgemeinde hat keine eigene Postadresse. Post an den Kirchenrat läuft über das Pfarramt. Die Pfarrei sieht den Brief also.");
+  if (kg.t === "pfarramt") parts.push(t("pfarramtText"));
   if (kg.c !== "high") {
-    parts.push(kg.note || (kg.t === "sekretariat"
-      ? "Die Kirchgemeinde nennt keine eigene Adresse ihrer Behörde. Angegeben ist das Sekretariat, das die Post weiterleitet."
-      : kg.t === "pfarramt" ? "" : "Die Angabe ist nicht vollständig gesichert. Prüfe sie auf der Website der Kirchgemeinde."));
+    parts.push(kg.note || (kg.t === "sekretariat" ? t("sekretariatText") : kg.t === "pfarramt" ? "" : t("unsureText")));
   } else if (kg.note) {
     parts.push(kg.note);
   }
-  if (!parts.length) return "";
-  return `<div class="notice"><strong>${kg.c !== "high" ? "Bitte Adresse vor dem Versand prüfen." : "Hinweis zur Adresse"}</strong>${parts.map(esc).join(" ")}</div>`;
+  const text = parts.filter(Boolean);
+  if (!text.length) return "";
+  return `<div class="notice"><strong>${esc(kg.c !== "high" ? t("checkTitle") : t("hintTitle"))}</strong>${text.map(esc).join(" ")}</div>`;
 }
 
 function recipientEditor() {
   const lines = (state.manualRecipient || state.kg?.p || []).join("\n");
-  return `<label for="recipient-edit">Empfänger <span class="opt-tag">(eine Adresszeile pro Zeile)</span></label>
+  return `<label for="recipient-edit">${esc(t("recipient"))} <span class="opt-tag">${esc(t("recipientHint"))}</span></label>
     <textarea id="recipient-edit" rows="4" style="font-family:inherit; min-height:0">${esc(lines)}</textarea>
-    <p class="help">Wird direkt in den Brief übernommen.</p>`;
+    <p class="help">${esc(t("recipientHelp"))}</p>`;
 }
 
 function render() {
@@ -400,57 +408,59 @@ function render() {
   if (place.munis.length > 1) {
     const opts = place.munis.map((m) => {
       const [n, k] = state.gemeinden[m.bfs] || [];
-      return `<option value="${m.bfs}" ${m.bfs === bfs ? "selected" : ""}>${esc(n)} (${esc(k)}, ${shareText(m.share)})</option>`;
+      return `<option value="${m.bfs}" ${m.bfs === bfs ? "selected" : ""}>${esc(n)} (${esc(k)}, ${esc(shareText(m.share))})</option>`;
     }).join("");
-    const select = `<label for="muni-select" class="sr-only">Gemeinde</label><select id="muni-select" style="margin-top:8px">${opts}</select>`;
+    const select = `<label for="muni-select" class="sr-only">${esc(t("muniLabel"))}</label><select id="muni-select" style="margin-top:8px">${opts}</select>`;
     if (place.munis[0].share >= 95 && !state.showMuniSelect) {
-      html += `<p class="small" style="margin:0 0 10px">Gemeinde ${esc(gname)} ·
-        <button type="button" class="linkbtn" data-action="show-munis">andere Gemeinde wählen</button></p>`;
+      html += `<p class="small" style="margin:0 0 10px">${esc(t("muniOne", gname))} ·
+        <button type="button" class="linkbtn" data-action="show-munis">${esc(t("otherMuni"))}</button></p>`;
     } else {
-      html += `<div class="notice info" style="margin:0 0 12px"><strong>${esc(place.plz)} ${esc(place.ort)} gehört zu mehreren Gemeinden.</strong>
-        Massgebend ist die Gemeinde, in der du angemeldet bist.${select}</div>`;
+      html += `<div class="notice info" style="margin:0 0 12px"><strong>${esc(t("multiMuni", `${place.plz} ${place.ort}`))}</strong>
+        ${esc(t("multiMuniHelp"))}${select}</div>`;
     }
   }
 
   const otherSystem = canton && canton.register !== true && (canton.register === false || canton.steuer?.system !== "pflicht");
   if (otherSystem) {
-    html += `<div class="kg warn"><p class="kg-kicker">${esc(gname)}, Kanton ${esc(canton.name)}</p>
-      <h3>Hier gilt ein anderes System</h3>
-      <p>${esc(canton.summary || taxText(canton) || "Für diesen Kanton haben wir keine Kirchgemeinde-Daten.")}</p>
-      <p class="small"><a href="#kirchensteuer">Mehr zur Kirchensteuer</a></p>
+    html += `<div class="kg warn"><p class="kg-kicker">${esc(t("cantonOf", gname, cname(kt)))}</p>
+      <h3>${esc(t("otherSystem"))}</h3>
+      <p>${esc(loc(canton, "summary") || taxText(canton) || t("noData"))}</p>
+      <p class="small"><a href="#kirchensteuer">${esc(t("moreTax"))}</a></p>
       ${safeUrl(canton.body?.website) ? `<p><a href="${esc(canton.body.website)}" target="_blank" rel="noopener">${esc(canton.body.short || canton.body.name)}</a></p>` : ""}
-      <p><button type="button" class="linkbtn" data-action="edit-recipient">Empfänger selbst eintragen</button></p>
+      <p><button type="button" class="linkbtn" data-action="edit-recipient">${esc(t("enterRecipient"))}</button></p>
       ${state.editingRecipient ? recipientEditor() : ""}</div>`;
   } else if (state.kg) {
     const kg = state.kg;
     const lines = state.manualRecipient || kg.p;
     const central = canton?.austritt?.recipient_level === "kanton";
-    html += `<div class="kg ok"><p class="kg-kicker">Zuständig für ${esc(gname)}</p>
+    const rules = rulesCanton();
+    const hint = loc(rules?.austritt, "public_hinweis");
+    html += `<div class="kg ok"><p class="kg-kicker">${esc(t("responsibleFor", gname))}</p>
       <h3>${esc(kg.n)}</h3>
       <address>${lines.map(esc).join("<br>")}</address>
       <div class="kg-meta">${kgLinks(kg)}</div>
-      ${central ? `<p>Im Kanton ${esc(canton.name)} geht der Austritt an diese zentrale Stelle.</p>` : ""}
-      ${kg.home && state.kantone?.[kg.home] ? `<p class="small">Diese Kirchgemeinde gehört zum Kanton ${esc(state.kantone[kg.home].name)}. Für den Austritt gelten dessen Regeln.</p>` : ""}
-      ${rulesCanton()?.austritt?.beglaubigung ? `<p class="small"><strong>Beglaubigte Unterschrift nötig.</strong> Siehe Schritt 3.</p>` : ""}
-      ${rulesCanton()?.austritt?.public_hinweis ? `<div class="notice"><strong>Gut zu wissen</strong>${esc(rulesCanton().austritt.public_hinweis)}</div>` : ""}
-      ${taxLine(rulesCanton())}
+      ${central ? `<p>${esc(t("central", cname(kt)))}</p>` : ""}
+      ${kg.home && state.kantone?.[kg.home] ? `<p class="small">${esc(t("homeCanton", cname(kg.home)))}</p>` : ""}
+      ${rules?.austritt?.beglaubigung ? `<p class="small"><strong>${esc(t("certified"))}</strong> ${esc(t("seeStep3"))}</p>` : ""}
+      ${hint ? `<div class="notice"><strong>${esc(t("goodToKnow"))}</strong>${esc(hint)}</div>` : ""}
+      ${taxLine(rules)}
       ${addressNotice(kg)}
-      <p class="small"><button type="button" class="linkbtn" data-action="edit-recipient">Adresse anpassen</button> · ${reportLink(kg.n)}</p>
+      <p class="small"><button type="button" class="linkbtn" data-action="edit-recipient">${esc(t("editAddress"))}</button> · ${reportLink(kg.n)}</p>
       ${state.editingRecipient ? recipientEditor() : ""}
-      ${state.split ? `<div class="notice info"><strong>${esc(gname)} hat ${state.split.ids.length} Kirchgemeinden.</strong>${state.streetHit
-        ? `Genau bestimmt für ${esc(state.streetHit)}.`
-        : `Die Zuordnung oben ist die wahrscheinlichste für ${esc(place.plz)} ${esc(place.ort)}.`}${splitBlock(gname, kt)}</div>` : ""}</div>`;
+      ${state.split ? `<div class="notice info"><strong>${esc(t("splitTitle", gname, state.split.ids.length))}</strong>${esc(state.streetHit
+        ? t("splitExact", state.streetHit)
+        : t("splitLikely", `${place.plz} ${place.ort}`))}${splitBlock(gname, kt)}</div>` : ""}</div>`;
   } else if (state.split) {
-    html += `<div class="kg warn"><p class="kg-kicker">${esc(gname)} hat ${state.split.ids.length} Kirchgemeinden</p>
-      <h3>Welche zuständig ist, hängt von deiner Adresse ab</h3>
+    html += `<div class="kg warn"><p class="kg-kicker">${esc(t("splitTitle", gname, state.split.ids.length))}</p>
+      <h3>${esc(t("splitDepends"))}</h3>
       ${splitBlock(gname, kt)}</div>`;
   } else {
     const body = canton?.body;
     const finder = safeUrl(canton?.finder) || safeUrl(body?.website);
-    html += `<div class="kg warn"><p class="kg-kicker">${esc(gname)}${canton ? `, Kanton ${esc(canton.name)}` : ""}</p>
-      <h3>Für diese Gemeinde fehlt uns noch eine geprüfte Adresse</h3>
-      ${finder ? `<p>Die Kirchgemeinden findest du bei der ${esc(body?.short || body?.name || "Landeskirche")}: <a href="${esc(finder)}" target="_blank" rel="noopener">Verzeichnis öffnen</a>.</p>` : ""}
-      <p><button type="button" class="linkbtn" data-action="edit-recipient">Empfänger selbst eintragen</button> · ${reportLink(gname)}</p>
+    html += `<div class="kg warn"><p class="kg-kicker">${esc(canton ? t("cantonOf", gname, cname(kt)) : gname)}</p>
+      <h3>${esc(t("missingTitle"))}</h3>
+      ${finder ? `<p>${esc(t("findAt", body?.short || body?.name || t("landeskirche")))} <a href="${esc(finder)}" target="_blank" rel="noopener">${esc(t("openDir"))}</a></p>` : ""}
+      <p><button type="button" class="linkbtn" data-action="edit-recipient">${esc(t("enterRecipient"))}</button> · ${reportLink(gname)}</p>
       ${state.editingRecipient ? recipientEditor() : ""}</div>`;
   }
 
@@ -502,55 +512,60 @@ function wireResult() {
 
 const val = (id) => $(id).value.trim();
 
+// Briefsprache: gewählt, sonst die Amtssprache der Ortschaft (Ortschaftenverzeichnis), sonst die Seitensprache
+function letterLang() {
+  if (state.letterLang) return state.letterLang;
+  const byPlace = { f: "fr", i: "it" }[state.place?.lang];
+  return byPlace || (LETTER[LANG] ? LANG : "de");
+}
+
 // Nur die Kirchgemeinde wird namentlich genannt. Die kantonale Ebene ist nicht überall eine
 // Körperschaft mit eigener Mitgliedschaft (z. B. Zug: Vereinigung der Kirchgemeinden).
 function bodyNames() {
   return state.kg?.n && !state.manualRecipient ? [state.kg.n] : [];
 }
 
-function buildBody() {
+function buildBody(L) {
   const name = [val("vorname"), val("nachname")].filter(Boolean).join(" ");
   const dob = val("geburtsdatum");
   const addr = [val("strasse"), [val("plz"), val("wohnort")].filter(Boolean).join(" ")].filter(Boolean).join(", ");
   const per = document.querySelector('input[name="per"]:checked')?.value;
   const datum = fmtDate($("per-datum").value);
-  const names = bodyNames();
   const zusatz = val("zusatz");
   return [
-    "Sehr geehrte Damen und Herren",
+    L.salutation,
     "",
-    "Hiermit erkläre ich – soweit nach kantonalem Recht vorgesehen – meinen Austritt aus der öffentlich-rechtlichen Körperschaft der Landeskirche und Kirchgemeinde an meinem Wohnort" +
-      (names.length ? ` (${names.join(" und ")}).` : "."),
+    L.declare(bodyNames()),
     "",
-    "Angaben zu meiner Person:",
-    `Name: ${name || ph("Vorname Nachname")}`,
-    ...(dob ? [`Geburtsdatum: ${dob}`] : []),
-    `Adresse: ${addr || ph("Strasse Nr., PLZ Ort")}`,
+    L.personal,
+    `${L.name}${L.sep}${name || ph(L.ph.name)}`,
+    ...(dob ? [`${L.dob}${L.sep}${dob}`] : []),
+    `${L.address}${L.sep}${addr || ph(L.ph.addr)}`,
     "",
-    per === "datum"
-      ? `Ich ersuche um Wirksamkeit per ${datum || ph("Datum")}.`
-      : "Ich ersuche um Wirksamkeit per nächstmöglichem Zeitpunkt nach kantonalem Recht.",
+    per === "datum" ? L.effectDate(datum || ph(L.ph.date)) : L.effectSoon,
     "",
-    "Ich bitte um schriftliche Bestätigung des Austritts (inkl. Datum der Wirksamkeit). Ferner bitte ich Sie, dieses Schreiben vertraulich zu behandeln und den Inhalt nicht an Dritte, inkl. Pfarrei und Bistum, zu kommunizieren.",
+    L.confirm,
     ...(zusatz ? ["", zusatz] : []),
   ].join("\n");
 }
 
 function letterModel() {
+  const L = LETTER[letterLang()];
   const name = [val("vorname"), val("nachname")].filter(Boolean).join(" ");
   const plzOrt = [val("plz"), val("wohnort")].filter(Boolean).join(" ");
-  const sender = [name || ph("Vorname Nachname"), val("strasse") || ph("Strasse Nr."), plzOrt || ph("PLZ Ort")];
+  const sender = [name || ph(L.ph.name), val("strasse") || ph(L.ph.street), plzOrt || ph(L.ph.plzOrt)];
   if (val("email")) sender.push(val("email"));
-  const recipient = state.manualRecipient || state.kg?.p || [ph("Zuständige Kirchgemeinde"), ph("Adresse")];
-  const date = new Intl.DateTimeFormat("de-CH", { day: "numeric", month: "long", year: "numeric" }).format(new Date());
+  const recipient = state.manualRecipient || state.kg?.p || [ph(L.ph.kg), ph(L.ph.kgAddr)];
+  const date = new Intl.DateTimeFormat(L.locale, { day: "numeric", month: "long", year: "numeric" }).format(new Date());
   return {
+    L,
     sender,
     recipient,
-    placeDate: `${val("wohnort") || ph("Ort")}, ${date}`,
-    subject: "Austrittserklärung aus der staatskirchenrechtlichen Körperschaft (Kirchensteuer)",
-    body: state.bodyEdited ? $("body-edit").value : buildBody(),
-    closing: "Freundliche Grüsse",
-    name: name || ph("Vorname Nachname"),
+    placeDate: L.placeDate(val("wohnort") || ph(L.ph.ort), date),
+    subject: L.subject,
+    body: state.bodyEdited ? $("body-edit").value : buildBody(L),
+    closing: L.closing,
+    name: name || ph(L.ph.name),
   };
 }
 
@@ -559,6 +574,10 @@ const toPlain = (s) => String(s).replace(new RegExp(`${PH_OPEN}(.*?)${PH_CLOSE}`
 
 function renderLetter() {
   const m = letterModel();
+  const lang = letterLang();
+  $("paper").lang = lang;
+  if ($("letter-lang")) $("letter-lang").value = lang;
+  $("l-registered").textContent = m.L.registered;
   $("l-sender").innerHTML = m.sender.map(toHtml).join("\n");
   $("l-recipient").innerHTML = m.recipient.map(toHtml).join("\n");
   $("l-date").innerHTML = toHtml(m.placeDate);
@@ -579,38 +598,39 @@ function rulesCanton() {
 
 function renderChecklist() {
   const canton = rulesCanton();
+  const kt = state.kg?.home || state.gemeinden?.[state.bfs]?.[1];
   const a = canton?.austritt;
-  const to = state.manualRecipient?.[0] || state.kg?.n || "die zuständige Kirchgemeinde";
+  const to = state.manualRecipient?.[0] || state.kg?.n || t("toDefault");
   const items = [
-    `<li>Schreiben prüfen und ausdrucken.<small>Mit «PDF herunterladen» oder «Drucken».</small></li>`,
-    `<li>Von Hand unterschreiben.</li>`,
+    `<li>${esc(t("c1"))}<small>${esc(t("c1s"))}</small></li>`,
+    `<li>${esc(t("c2"))}</li>`,
   ];
   if (a?.beglaubigung) {
-    items.push(`<li class="hl">Unterschrift amtlich beglaubigen lassen.<small>${esc(a.beglaubigung_note || `Im Kanton ${canton.name} vorgeschrieben.`)}</small></li>`);
+    const note = LANG === "de" && a.beglaubigung_note ? a.beglaubigung_note : t("c3note", cname(kt));
+    items.push(`<li class="hl">${esc(t("c3"))}<small>${esc(note)}</small></li>`);
   }
-  items.push(`<li>Per Einschreiben oder A-Post Plus senden.<small>An ${esc(to)}.</small></li>`);
-  items.push(`<li>Kopie und Postquittung aufbewahren.<small>Für den Austritt genügt die nachweisliche Zustellung an die richtige Stelle. Die Bestätigung hält Wirksamkeit und Ende der Steuerpflicht fest.</small></li>`);
+  items.push(`<li>${esc(t("c4"))}<small>${esc(t("c4s", to))}</small></li>`);
+  items.push(`<li>${esc(t("c5"))}<small>${esc(t("c5s"))}</small></li>`);
   $("checklist").innerHTML = items.join("");
 }
 
 function missingFields() {
-  const required = [["vorname", "Vorname"], ["nachname", "Nachname"], ["strasse", "Strasse"], ["plz", "PLZ"], ["wohnort", "Ort"]];
   const missing = [];
-  for (const [id, label] of required) {
+  for (const [id, label] of Object.entries(t("fields"))) {
     const empty = !val(id);
     $(id).setAttribute("aria-invalid", String(empty));
     if (empty) missing.push({ id, label });
   }
-  if (!state.manualRecipient && !state.kg) missing.unshift({ id: "ort", label: "Empfänger (Schritt 1)" });
-  else if (!state.manualRecipient && needsStreet(state.kg)) missing.unshift({ id: "recipient-edit", label: "Strasse der Kirchgemeinde (Schritt 1)" });
-  if (document.querySelector('input[name="per"]:checked')?.value === "datum" && !$("per-datum").value) missing.push({ id: "per-datum", label: "Austrittsdatum" });
+  if (!state.manualRecipient && !state.kg) missing.unshift({ id: "ort", label: t("needRecipient") });
+  else if (!state.manualRecipient && needsStreet(state.kg)) missing.unshift({ id: "recipient-edit", label: t("needKgStreet") });
+  if (document.querySelector('input[name="per"]:checked')?.value === "datum" && !$("per-datum").value) missing.push({ id: "per-datum", label: t("needDate") });
   return missing;
 }
 
 function checkReady() {
   const missing = missingFields();
   if (!missing.length) return true;
-  setStatus(`Es fehlt noch: ${missing.map((m) => m.label).join(", ")}.`, "err");
+  setStatus(t("missing", missing.map((m) => m.label).join(", ")), "err");
   ($(missing[0].id) || $("ort")).focus();
   return false;
 }
@@ -635,7 +655,7 @@ async function downloadPdf() {
   m.sender.map(toPlain).flatMap((l) => doc.splitTextToSize(l, 85)).forEach((l, i) => doc.text(l, left, 20 + i * 4.4));
   // Empfänger im rechten Fenster (C5/C6 rechts)
   doc.setFont("helvetica", "bold"); doc.setFontSize(8);
-  doc.text("EINSCHREIBEN", 118, 48);
+  doc.text(m.L.registered, 118, 48);
   doc.setFont("helvetica", "normal"); doc.setFontSize(11);
   // Fensterbreite rechts: 118 mm bis 190 mm
   m.recipient.map(toPlain).flatMap((l) => doc.splitTextToSize(l, 72)).forEach((l, i) => doc.text(l, 118, 54 + i * 5));
@@ -646,7 +666,7 @@ async function downloadPdf() {
   for (const l of doc.splitTextToSize(m.subject, width)) { doc.text(l, left, y); y += 5.2; }
   doc.setFont("helvetica", "normal");
   y += 5;
-  const lines = [...bodyLines(m), "", m.closing, "", "", "", toPlain(m.name)];
+  const lines = [...bodyLines(m), "", ...doc.splitTextToSize(m.closing, width), "", "", "", toPlain(m.name)];
   for (const para of lines) {
     const wrapped = para.trim() ? doc.splitTextToSize(para, width) : [""];
     for (const l of wrapped) {
@@ -668,7 +688,7 @@ async function downloadDocx() {
   const children = [
     ...m.sender.map((l) => p(toPlain(l), { size: 19 })),
     p(""), p(""),
-    p("EINSCHREIBEN", { size: 16, bold: true, indent: 93 }),
+    p(m.L.registered, { size: 16, bold: true, indent: 93 }),
     ...m.recipient.map((l) => p(toPlain(l), { indent: 93 })),
     p(""), p(""), p(""),
     p(toPlain(m.placeDate), { after: 240 }),
@@ -697,29 +717,33 @@ function wireLetter() {
     if (ev.target.name === "per") $("per-datum-wrap").hidden = ev.target.value !== "datum";
     renderLetter();
   });
+  $("letter-lang")?.addEventListener("change", (ev) => {
+    state.letterLang = ev.target.value;
+    renderLetter();
+  });
   $("body-edit").addEventListener("input", () => {
     state.bodyEdited = true;
     $("body-reset").hidden = false;
-    $("edit-help").firstChild.textContent = "Du hast den Text angepasst. Änderungen an deinen Angaben übernimmt er nicht mehr automatisch. ";
+    $("edit-help").firstChild.textContent = t("bodyEdited");
     renderLetter();
   });
   $("body-reset").addEventListener("click", () => {
     state.bodyEdited = false;
     $("body-reset").hidden = true;
-    $("edit-help").firstChild.textContent = "Absender, Empfänger und Datum füllen sich weiter automatisch aus. ";
+    $("edit-help").firstChild.textContent = t("bodyDefault");
     renderLetter();
   });
   const run = (btn, label, fn) => $(btn).addEventListener("click", async () => {
     if (!checkReady()) return;
     const el = $(btn);
     el.disabled = true;
-    setStatus(`Erstelle ${label} …`);
-    try { await fn(); setStatus(`${label} erstellt. Jetzt ausdrucken und von Hand unterschreiben.`, "ok"); }
-    catch (e) { setStatus(`${label} konnte nicht erstellt werden. Versuche «Drucken».`, "err"); }
+    setStatus(t("creating", label));
+    try { await fn(); setStatus(t("created", label), "ok"); }
+    catch (e) { setStatus(t("failed", label), "err"); }
     finally { el.disabled = false; }
   });
   run("btn-pdf", "PDF", downloadPdf);
-  run("btn-docx", "Word-Datei", downloadDocx);
+  run("btn-docx", t("wordFile"), downloadDocx);
   $("btn-print").addEventListener("click", () => { if (checkReady()) window.print(); });
 }
 

@@ -22,7 +22,7 @@ cd "$(dirname "$0")/.."
 verify() {
   echo "Prüfe live …"
   if curl -fsS "$SITE/" | grep -q 'assets/js/app.js'; then echo "  index.html: neue Version"; else echo "  index.html: noch alte Version"; fi
-  for p in data/orte.json data/kantone.json data/kg/ZH.json data/geo/261.json assets/js/app.js assets/vendor/jspdf-2.5.1.umd.min.js; do
+  for p in fr/ it/ en/ data/orte.json data/kantone.json data/kg/ZH.json data/geo/261.json assets/js/app.js assets/vendor/jspdf-2.5.1.umd.min.js; do
     printf '  %-40s %s\n' "$p" "$(curl -s -o /dev/null -w '%{http_code}' "$SITE/$p")"
   done
 }
@@ -49,7 +49,7 @@ ssh -o BatchMode=yes "$HOST" "test -w '$ROOT' && test -w '$ROOT/index.html'" || 
 
 if [[ "$MODE" != "--apply" ]]; then
   if (( WRITABLE )); then
-    rsync -n -rlptv --checksum index.html assets "$HOST:$ROOT/"
+    rsync -n -rlptv --checksum index.html fr it en assets "$HOST:$ROOT/"
     rsync -n -rlptv --checksum --delete data/ "$HOST:$ROOT/data/"
   else
     echo "Webroot gehört nicht $(echo "$HOST" | cut -d@ -f1): --apply lädt nach ~/$STAGE hoch und gibt den sudo-Befehl aus."
@@ -64,16 +64,16 @@ ssh -o BatchMode=yes "$HOST" "tar -czf ~/teilaustritt-backup-$TS.tar.gz -C '$ROO
 echo "Backup: $HOST:~/teilaustritt-backup-$TS.tar.gz"
 
 if (( WRITABLE )); then
-  rsync -rlpt --checksum index.html assets "$HOST:$ROOT/"
+  rsync -rlpt --checksum index.html fr it en assets "$HOST:$ROOT/"
   rsync -rlpt --checksum --delete data/ "$HOST:$ROOT/data/"
   verify
 else
   ssh -o BatchMode=yes "$HOST" "mkdir -p ~/$STAGE"
-  rsync -rlpt --checksum --delete index.html assets data "$HOST:$STAGE/"
+  rsync -rlpt --checksum --delete index.html fr it en assets data "$HOST:$STAGE/"
   echo
   echo "Hochgeladen nach $HOST:~/$STAGE. Zum Übernehmen (fragt nach dem sudo-Passwort):"
   echo
-  echo "  ssh -t $HOST 'sudo rsync -rlpt --chown=www-data:www-data ~/$STAGE/index.html ~/$STAGE/assets \"$ROOT/\" && sudo rsync -rlpt --delete --chown=www-data:www-data ~/$STAGE/data/ \"$ROOT/data/\"'"
+  echo "  ssh -t $HOST 'sudo rsync -rlpt --chown=www-data:www-data ~/$STAGE/index.html ~/$STAGE/fr ~/$STAGE/it ~/$STAGE/en ~/$STAGE/assets \"$ROOT/\" && sudo rsync -rlpt --delete --chown=www-data:www-data ~/$STAGE/data/ \"$ROOT/data/\"'"
   echo
   echo "Danach: tools/deploy.sh --verify"
 fi

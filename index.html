@@ -6,6 +6,11 @@
   <title>teilaustritt.ch – Austritt aus Kirchgemeinde und Landeskirche</title>
   <meta name="description" content="Kostenloser, neutraler Formular-Generator: Austrittsschreiben aus der römisch-katholischen Kirchgemeinde und Landeskirche (Teilaustritt). Zuständige Kirchgemeinde per PLZ finden, Brief als PDF oder Word herunterladen.">
   <link rel="canonical" href="https://www.teilaustritt.ch/">
+  <link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/">
+  <link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/">
+  <link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/">
+  <link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/">
+  <link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="teilaustritt.ch – Austritt aus Kirchgemeinde und Landeskirche">
   <meta property="og:description" content="Zuständige römisch-katholische Kirchgemeinde per PLZ finden und das Austrittsschreiben in drei Schritten erstellen.">
@@ -13,7 +18,7 @@
   <meta property="og:locale" content="de_CH">
   <meta name="theme-color" content="#0b3a7a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3a7a'/%3E%3Cpath d='M10 9h12v3h-4.5v12h-3V12H10z' fill='%23fff'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/css/site.css?v=20261028">
+  <link rel="stylesheet" href="assets/css/site.css?v=20261028b">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,7 +35,7 @@
     ]
   }
   </script>
-  <script type="module" src="assets/js/app.js?v=20261028"></script>
+  <script type="module" src="assets/js/app.js?v=20261028b"></script>
 </head>
 <body>
   <a class="skip" href="#tool">Zum Formular springen</a>
@@ -41,6 +46,7 @@
         <span class="brand-mark" aria-hidden="true">t</span>
         <span><strong>teilaustritt.ch</strong><span>Neutraler Formular-Generator</span></span>
       </a>
+      <div class="head-right">
       <nav class="site-nav" aria-label="Hauptnavigation">
         <a class="opt-sm" href="#tool">Schreiben</a>
         <a class="opt" href="#kirchensteuer">Kirchensteuer</a>
@@ -48,13 +54,20 @@
         <a class="opt" href="#quellen">Quellen</a>
         <a href="#impressum">Impressum</a>
       </nav>
+      <nav class="langs" aria-label="Sprache">
+        <a href="./" lang="de" aria-current="page">DE</a>
+        <a href="fr/" lang="fr" hreflang="fr">FR</a>
+        <a href="it/" lang="it" hreflang="it">IT</a>
+        <a href="en/" lang="en" hreflang="en">EN</a>
+      </nav>
+      </div>
     </div>
   </header>
 
   <main id="main" class="wrap">
     <section class="intro" id="top">
       <h1>Austritt aus Kirchgemeinde und Landeskirche</h1>
-      <p>Finde die zuständige römisch-katholische Kirchgemeinde und erstelle dein Austrittsschreiben in drei Schritten. Für die Deutschschweiz und den Jura.</p>
+      <p>Finde die zuständige römisch-katholische Kirchgemeinde und erstelle dein Austrittsschreiben in drei Schritten. Für alle Kantone der Schweiz.</p>
       <ul class="facts">
         <li>Kostenlos, ohne Registrierung</li>
         <li>Deine Angaben bleiben in deinem Browser</li>
@@ -162,11 +175,16 @@
             <button class="btn secondary" id="btn-print" type="button">Drucken</button>
           </div>
         </div>
+        <div class="letter-lang no-print">
+          <label for="letter-lang">Sprache des Schreibens</label>
+          <select id="letter-lang"><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option></select>
+          <span class="help">Standard ist die Amtssprache an deinem Wohnort.</span>
+        </div>
         <p class="status" id="status" role="status"></p>
         <article class="paper" id="paper" aria-label="Vorschau des Schreibens">
           <div class="sender" id="l-sender"></div>
           <div class="recipient-wrap">
-            <div class="registered">Einschreiben</div>
+            <div class="registered" id="l-registered">Einschreiben</div>
             <div class="recipient" id="l-recipient"></div>
           </div>
           <div class="date" id="l-date"></div>

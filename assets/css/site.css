@@ -29,12 +29,20 @@ a:hover{color:var(--accent-strong)}
 .site-nav{display:flex; gap:4px; flex-wrap:wrap}
 .site-nav a{font-size:14px; color:var(--muted); text-decoration:none; padding:8px 10px; border-radius:8px}
 .site-nav a:hover{background:var(--tint); color:var(--accent-strong)}
+.head-right{display:flex; align-items:center; gap:8px}
+.langs{display:flex; gap:2px; border-left:1px solid var(--line); padding-left:8px}
+.langs a{font-size:13px; font-weight:600; color:var(--soft); text-decoration:none; padding:6px 6px; border-radius:6px}
+.langs a:hover{background:var(--tint); color:var(--accent-strong)}
+.langs a[aria-current="page"]{color:var(--accent-strong); background:var(--accent-tint)}
 @media (max-width:720px){ .site-nav .opt{display:none} }
-@media (max-width:520px){
-  .brand span span, .site-nav .opt-sm{display:none}
-  .site-nav{flex-wrap:nowrap; gap:0}
-  .site-nav a{padding:8px 7px}
+@media (max-width:560px){
+  .brand span span, .site-nav{display:none}
+  .langs{border-left:0; padding-left:0}
 }
+.letter-lang{display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin:0 0 10px}
+.letter-lang label{margin:0; font-size:14px}
+.letter-lang select{width:auto; padding:6px 10px; font-size:15px}
+.letter-lang .help{margin:0}
 
 /* Einstieg */
 .intro{padding:28px 0 8px}

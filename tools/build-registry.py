@@ -109,6 +109,27 @@ def has_street(postal):
     """Hat die Postadresse zwischen Name und PLZ/Ort eine Strasse oder ein Postfach?"""
     return any(STREET.search(line) for line in postal[1:-1])
 
+PARISH_CO = re.compile(r"pfarr|pfarramt|pastoral|seelsorge|kath|paroiss|cure\b|parrocch|kirch|église|eglise|chiesa|secr|sekretariat|unité|unita", re.I)
+
+def compact_postal(postal):
+    """Empfänger für das Adressfeld: Name, Strasse/Postfach, PLZ Ort.
+
+    Funktionszeilen (Kirchenrat, Kirchenpflege, Geschäftsstelle, Sekretariat, Conseil …) und
+    «c/o Pfarrei …» fallen weg, weil sie das Adressfeld unnötig vergrössern. Ein c/o an eine externe
+    Stelle (z. B. Treuhandfirma) bleibt, sonst kann die Post nicht zustellen.
+    """
+    middle = []
+    for line in postal[1:-1]:
+        if re.match(r"^c/o\b", line, re.I):
+            rest = re.sub(r"^c/o\s*", "", line, flags=re.I)
+            if re.search(r"\s\d+\s?[a-z]?$", rest) and STREET.search(rest) and len(rest.split()) <= 3:
+                middle.append(rest)  # «c/o Postgasse 3» ist eine Strasse
+            elif not PARISH_CO.search(line):
+                middle.append(line)
+        elif STREET.search(line):
+            middle.append(line)
+    return [postal[0], *middle, postal[-1]]
+
 def canton_entry(kt, src, register):
     a = src.get("austritt", {})
     entry = {
@@ -116,11 +137,14 @@ def canton_entry(kt, src, register):
         "register": register,
         "body": {k: src["body"].get(k) for k in ("name", "short", "website", "postal") if src["body"].get(k)},
         "austritt": {k: a.get(k) for k in ("recipient", "recipient_level", "form", "beglaubigung", "public_hinweis",
+                                           "public_hinweis_fr", "public_hinweis_it", "public_hinweis_en",
                                            "beglaubigung_note", "wirkung", "notes", "source") if a.get(k) not in (None, "")},
         "finder": src.get("finder"),
     }
     if not register:
-        entry["summary"] = src.get("summary", "")
+        for key in ("summary", "summary_fr", "summary_it", "summary_en"):
+            if src.get(key):
+                entry[key] = src[key]
         entry["has_kirchensteuer"] = src.get("has_kirchensteuer")
     return entry
 
@@ -150,7 +174,7 @@ def main():
             # Kirchgemeinde eines anderen Kantons (z. B. sg-wil für Rickenbach TG): dort gelten dessen Regeln
             home = k["id"].split("-", 1)[0].upper()
             kg[k["id"]] = {key: val for key, val in {
-                "n": k["name"], "p": k["postal"], "t": k.get("address_type"), "e": k.get("email"),
+                "n": k["name"], "p": compact_postal(k["postal"]), "t": k.get("address_type"), "e": k.get("email"),
                 "w": k.get("website"), "s": k.get("source"), "c": k["confidence"], "note": note,
                 "home": home if home != kt and home in CANTONS else None,
                 "ns": True if not has_street(k["postal"]) else None,

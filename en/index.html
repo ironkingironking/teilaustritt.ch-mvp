@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>teilaustritt.ch – Leaving the parish and the cantonal church</title>
+  <meta name="description" content="Free, neutral letter generator: declaration of leaving the Roman Catholic parish and cantonal church in Switzerland (partial withdrawal). Find the responsible parish by postcode and download the letter as PDF or Word.">
+  <link rel="canonical" href="https://www.teilaustritt.ch/en/">
+  <link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/">
+  <link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/">
+  <link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/">
+  <link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/">
+  <link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="teilaustritt.ch – Leaving the parish and the cantonal church">
+  <meta property="og:description" content="Find the responsible Roman Catholic parish by postcode and prepare your declaration in three steps.">
+  <meta property="og:url" content="https://www.teilaustritt.ch/en/">
+  <meta property="og:locale" content="en_GB">
+  <meta name="theme-color" content="#0b3a7a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3a7a'/%3E%3Cpath d='M10 9h12v3h-4.5v12h-3V12H10z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/css/site.css?v=20261028b">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "en",
+    "mainEntity": [
+      {"@type": "Question", "name": "What is a partial withdrawal (Teilaustritt)?",
+       "acceptedAnswer": {"@type": "Answer", "text": "A partial withdrawal means leaving the public-law corporation (parish and cantonal church) that levies, among other things, the church tax in Switzerland. It does not necessarily mean breaking with the Roman Catholic Church as a community of faith."}},
+      {"@type": "Question", "name": "Can I still receive the sacraments or be a godparent after leaving?",
+       "acceptedAnswer": {"@type": "Answer", "text": "Yes. Leaving the parish and the cantonal church is separate from membership of the Roman Catholic Church. Only if the person also makes clear that they no longer accept central tenets of the faith could canonical sanctions possibly follow."}},
+      {"@type": "Question", "name": "When does church tax end after leaving?",
+       "acceptedAnswer": {"@type": "Answer", "text": "According to the Swiss Federal Supreme Court, liability ends as soon as the declaration has reached the responsible office. Cantons apply this differently: immediately in most cantons, for the whole year of leaving in others (sources: Swiss Tax Conference/FTA, as of 2022)."}}
+    ]
+  }
+  </script>
+  <script type="module" src="../assets/js/app.js?v=20261028b"></script>
+</head>
+<body>
+  <a class="skip" href="#tool">Skip to the form</a>
+
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="teilaustritt.ch, back to top">
+        <span class="brand-mark" aria-hidden="true">t</span>
+        <span><strong>teilaustritt.ch</strong><span>Neutral letter generator</span></span>
+      </a>
+      <div class="head-right">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="opt-sm" href="#tool">Letter</a>
+        <a class="opt" href="#kirchensteuer">Church tax</a>
+        <a href="#fragen">Questions</a>
+        <a class="opt" href="#quellen">Sources</a>
+        <a href="#impressum">Legal notice</a>
+      </nav>
+      <nav class="langs" aria-label="Language">
+        <a href="../" lang="de" hreflang="de">DE</a>
+        <a href="../fr/" lang="fr" hreflang="fr">FR</a>
+        <a href="../it/" lang="it" hreflang="it">IT</a>
+        <a href="./" lang="en" aria-current="page">EN</a>
+      </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro" id="top">
+      <h1>Leaving the parish and the cantonal church</h1>
+      <p>Find the responsible Roman Catholic parish (Kirchgemeinde) and prepare your declaration in three steps. For all Swiss cantons. The letter itself is written in the official language of your place of residence.</p>
+      <ul class="facts">
+        <li>Free, no registration</li>
+        <li>Your details stay in your browser</li>
+        <li>No legal advice</li>
+      </ul>
+    </section>
+
+    <section id="tool" class="tool" aria-label="Prepare your declaration">
+      <div class="steps">
+
+        <section class="card step" id="step-ort" aria-labelledby="h-ort">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">1</span>
+            <div>
+              <h2 id="h-ort">Where do you live?</h2>
+              <p>We look up the responsible parish.</p>
+            </div>
+          </div>
+          <label for="ort">Postcode or town</label>
+          <div class="combo">
+            <input id="ort" type="text" autocomplete="off" spellcheck="false" placeholder="e.g. 8001 or Zurich"
+                   role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ort-list" aria-describedby="ort-help">
+            <ul id="ort-list" class="combo-list" role="listbox" aria-label="Matching places" hidden></ul>
+          </div>
+          <p class="help" id="ort-help">The search runs in your browser. Nothing is sent.</p>
+          <div id="kg-result" class="result" aria-live="polite"></div>
+        </section>
+
+        <section class="card step" id="step-person" aria-labelledby="h-person">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">2</span>
+            <div>
+              <h2 id="h-person">Your details</h2>
+              <p>So that the parish can find you in its register.</p>
+            </div>
+          </div>
+          <form id="person" novalidate autocomplete="on">
+            <div class="grid-2">
+              <div>
+                <label for="vorname">First name</label>
+                <input id="vorname" name="given-name" autocomplete="given-name" required>
+              </div>
+              <div>
+                <label for="nachname">Last name</label>
+                <input id="nachname" name="family-name" autocomplete="family-name" required>
+              </div>
+            </div>
+            <label for="strasse">Street and house number</label>
+            <input id="strasse" name="street-address" autocomplete="street-address" required>
+            <div class="grid-plz">
+              <div>
+                <label for="plz">Postcode</label>
+                <input id="plz" name="postal-code" autocomplete="postal-code" inputmode="numeric" maxlength="4" required>
+              </div>
+              <div>
+                <label for="wohnort">Town</label>
+                <input id="wohnort" name="address-level2" autocomplete="address-level2" required>
+              </div>
+            </div>
+            <div class="grid-2">
+              <div>
+                <label for="geburtsdatum">Date of birth <span class="opt-tag">(recommended)</span></label>
+                <input id="geburtsdatum" name="bday" autocomplete="bday" inputmode="numeric" placeholder="DD.MM.YYYY" aria-describedby="geb-help">
+                <p class="help" id="geb-help">Helps if someone has the same name.</p>
+              </div>
+              <div>
+                <label for="email">Email <span class="opt-tag">(optional)</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" aria-describedby="mail-help">
+                <p class="help" id="mail-help">Shown in the sender block, for the confirmation.</p>
+              </div>
+            </div>
+            <fieldset>
+              <legend class="label">Leaving as of</legend>
+              <label class="choice"><input type="radio" name="per" value="sofort" checked> <span>the earliest possible date <small>under cantonal law</small></span></label>
+              <label class="choice"><input type="radio" name="per" value="datum"> <span>a specific date</span></label>
+              <div id="per-datum-wrap" hidden>
+                <label for="per-datum" class="sr-only">Date</label>
+                <input id="per-datum" type="date">
+              </div>
+            </fieldset>
+            <label for="zusatz">Additional note <span class="opt-tag">(optional, in the language of the letter)</span></label>
+            <input id="zusatz" placeholder="e.g. a request to correct your register entry">
+          </form>
+        </section>
+
+        <section class="card step checklist-card" id="step-versand" aria-labelledby="h-versand">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">3</span>
+            <div>
+              <h2 id="h-versand">Sign and send</h2>
+              <p>This is how leaving takes effect.</p>
+            </div>
+          </div>
+          <ol class="checklist" id="checklist"></ol>
+          <p class="small">Terms, responsibilities and legal effects differ from canton to canton. The final assessment lies with the responsible authorities.</p>
+        </section>
+      </div>
+
+      <div class="letter-col">
+        <div class="letter-tools">
+          <h2>Your letter</h2>
+          <div class="actions" style="margin:0">
+            <button class="btn" id="btn-pdf" type="button">Download PDF</button>
+            <button class="btn secondary" id="btn-docx" type="button">Word</button>
+            <button class="btn secondary" id="btn-print" type="button">Print</button>
+          </div>
+        </div>
+        <div class="letter-lang no-print">
+          <label for="letter-lang">Language of the letter</label>
+          <select id="letter-lang"><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option></select>
+          <span class="help">By default the official language at your place of residence.</span>
+        </div>
+        <p class="status" id="status" role="status"></p>
+        <article class="paper" id="paper" aria-label="Letter preview">
+          <div class="sender" id="l-sender"></div>
+          <div class="recipient-wrap">
+            <div class="registered" id="l-registered">Einschreiben</div>
+            <div class="recipient" id="l-recipient"></div>
+          </div>
+          <div class="date" id="l-date"></div>
+          <div class="subject" id="l-subject"></div>
+          <div class="body" id="l-body"></div>
+          <div class="sign" id="l-sign"></div>
+        </article>
+        <details class="edit no-print" id="edit">
+          <summary>Edit the letter text</summary>
+          <textarea id="body-edit" aria-label="Letter text"></textarea>
+          <p class="help" id="edit-help">Sender, recipient and date keep filling in automatically.
+            <button type="button" class="linkbtn" id="body-reset" hidden>Reset to the template text</button></p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" id="kirchensteuer" aria-labelledby="h-steuer">
+      <h2 id="h-steuer">Church tax: the essentials</h2>
+      <p class="lead">Only members of a recognised church pay church tax. This follows from freedom of religion and conscience (Art. 15 of the Federal Constitution). Each canton regulates the details itself, so there are 26 different systems.</p>
+
+      <div class="card tax-end">
+        <h3>When do you stop paying church tax?</h3>
+        <p class="small">According to the Federal Supreme Court, tax liability ends as soon as your declaration has reached the responsible office. The cantons apply this differently:</p>
+        <p class="tax-mine" id="tax-mine" hidden></p>
+        <div class="tax-groups">
+          <div>
+            <h4>Immediately on receipt</h4>
+            <ul class="chips" data-ende="sofort"></ul>
+          </div>
+          <div>
+            <h4>For the whole year of leaving</h4>
+            <p class="help">If you leave during the year, liability ends retroactively on 31 December of the previous year.</p>
+            <ul class="chips" data-ende="jahr"></ul>
+          </div>
+          <div>
+            <h4>Different system</h4>
+            <p class="help">No church tax, voluntary payment or only in some municipalities.</p>
+            <ul class="chips" data-ende="anders"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq" style="margin-top:12px">
+        <details>
+          <summary>How is church tax calculated?</summary>
+          <div class="a">
+            <p>Usually as a percentage of the simple cantonal tax; in some cantons as a multiple of it or as a share of the cantonal tax owed. It is based on income and wealth, in some cantons also on real estate gains.</p>
+            <p>The rate is usually set every year by the parish assembly, so it differs from parish to parish.</p>
+          </div>
+        </details>
+        <details>
+          <summary>I leave, my spouse or partner stays a member</summary>
+          <div class="a">
+            <p>Married couples and registered partners are taxed jointly, but the church tax is split. After you leave, only the share of the person who stays a member is taxed, usually at half the rate of their denomination.</p>
+            <p>Some cantons also take the children and their denomination into account (split per head or in thirds).</p>
+          </div>
+        </details>
+        <details>
+          <summary>I pay withholding tax</summary>
+          <div class="a">
+            <p>In most cantons church tax is included in the withholding tax. After leaving, you can ask the cantonal tax office to refund the church tax share. In the canton of St. Gallen the deadline is 31 March of the following year.</p>
+            <p>In the cantons of Ticino and Geneva church tax is not included in the withholding tax.</p>
+          </div>
+        </details>
+        <details>
+          <summary>I have my own company (AG, GmbH)</summary>
+          <div class="a">
+            <p>Leaving personally does not change the church tax of your company. According to the Federal Supreme Court, legal entities cannot rely on freedom of religion and therefore cannot leave. The only exception is organisations that themselves pursue religious purposes.</p>
+            <p>Basel-Stadt, Schaffhausen, Appenzell Ausserrhoden, Aargau and Geneva do not levy church tax on companies. In Solothurn and St. Gallen part of the company taxes goes to the financial equalisation between parishes instead.</p>
+          </div>
+        </details>
+        <details>
+          <summary>My tax assessment still includes church tax</summary>
+          <div class="a">
+            <p>Check the next assessment after leaving. If it is not yet final, you can file an objection within the deadline. Enclose the confirmation of leaving or the postal receipt.</p>
+            <p>For assessments that are already final, a refund is only possible to a limited extent. It is expressly provided for by law in Nidwalden, Graubünden and Jura; in Zurich, Basel-Stadt and St. Gallen it goes through a revision or correction.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Vaud, Neuchâtel, Geneva, Ticino, Valais: it works differently here</summary>
+          <div class="a">
+            <p><strong>Vaud:</strong> there is no church tax. The churches are funded from general taxes. If you do not belong to a recognised church, you can reclaim the church share of the municipal tax, once per tax period.</p>
+            <p><strong>Neuchâtel and Geneva:</strong> church tax is invoiced, but payment is voluntary.</p>
+            <p><strong>Ticino:</strong> only some parishes levy church tax. If you are entered in the register, you can request exemption in writing within 30 days. Later, a declaration takes effect for the following year.</p>
+            <p><strong>Valais:</strong> the municipalities bear the costs of worship. Only a few municipalities, including Sion, levy their own worship tax.</p>
+          </div>
+        </details>
+      </div>
+      <p class="small" style="margin-top:12px">Summarised from: Swiss Tax Conference / Federal Tax Administration, <a href="https://www.estv2.admin.ch/stp/ds/d-kirchensteuern-de.pdf" target="_blank" rel="noopener">tax information “Die Kirchensteuern”</a> (in German), legislation as of 1 January 2022. Appenzell Ausserrhoden: regulation of the association of parishes, in force since 1 January 2026. Some cantons may have changed their rules since then.</p>
+    </section>
+
+    <section class="section" id="fragen" aria-labelledby="h-fragen">
+      <h2 id="h-fragen">Questions and answers</h2>
+      <p class="lead">Short and to the point. Legal debate distinguishes between state law on religion (membership of a public-law corporation, tax liability) and church law (canon law, sacramental order).</p>
+      <div class="faq">
+        <details>
+          <summary>What is a partial withdrawal (Teilaustritt)?</summary>
+          <div class="a">
+            <p>Many cantons have a dual system: alongside the Roman Catholic Church as a religious community there are public-law church corporations (cantonal churches and parishes, known as Landeskirchen and Kirchgemeinden). They are organised under public law and are funded, among other things, by church tax.</p>
+            <p>A partial withdrawal means leaving this public-law corporation. It does not necessarily mean breaking with the community of faith.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Can I still receive the sacraments or be a godparent?</summary>
+          <div class="a">
+            <p>Yes. Leaving the parish and the cantonal church is separate from the question of membership of the Roman Catholic Church. Only if the person leaving also makes clear that they no longer accept central tenets of the faith could canonical sanctions possibly be imposed on them.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Where do I send the letter?</summary>
+          <div class="a">
+            <p>To the parish at your place of residence. The territorial principle applies: anyone who pays church tax is in almost all cases automatically a member of the parish where they live. Step 1 shows you the responsible parish with its postal address.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What form is required?</summary>
+          <div class="a">
+            <p>In German-speaking Switzerland and the Jura, the declaration must be sent in writing to the parish at your place of residence. For proof, preferably by registered mail or A-Post Plus.</p>
+            <p>In some cantons the signature must also be officially certified by the municipality or a notary. Step 3 tells you whether this applies to your place of residence.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Do I need a confirmation?</summary>
+          <div class="a">
+            <p>A written confirmation is useful, stating the effective date and the end of tax liability. To end membership, however, proof that the declaration was delivered to the right office is enough.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What happens to my data in the register?</summary>
+          <div class="a">
+            <p>Data protection and register questions are central: entry, correction, deletion, information. You can add requests in the “Additional note” field.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How reliable is the parish search?</summary>
+          <div class="a">
+            <p>The mapping from place to municipality comes from the official Swiss locality directory (swisstopo). We collected the parishes and their postal addresses from the directories of the cantonal churches and parishes. Every entry shows its source and date.</p>
+            <p>Parish names and addresses are given in the local official language. Some details are only available in German. Addresses change: check the address on the parish website before sending. Please report errors to <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Does this also apply to Reformed or Christ Catholic members?</summary>
+          <div class="a">
+            <p>The parish search only covers Roman Catholic parishes. The legal questions on this page concern the Roman Catholic Church. Other cantonal churches have their own rules.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" id="quellen" aria-labelledby="h-quellen">
+      <h2 id="h-quellen">Sources and literature</h2>
+      <p class="lead">A starting point: official documents, academic opinions and practical guides (in German).</p>
+      <ul class="sources">
+        <li><strong>RKZ</strong>, statement on leaving the church (legal consequences), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20030531_Erklaerung_Kirchenaustritt_-_rechtliche_Konsequenzen_d.pdf" target="_blank" rel="noopener">PDF on rkz.ch</a></li>
+        <li><strong>RKZ</strong>, church membership and declaration of leaving (position paper 2003), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.1_Postitions-_Strategiepapiere/3.1.20031029_Kirchenzugehoerigkeit_Kirchenaustritt.pdf" target="_blank" rel="noopener">PDF on rkz.ch</a></li>
+        <li><strong>RKZ</strong>, documentation of cantonal and church rules on membership and leaving (2008), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20080801_Zugehoerigkeit_und_Austritt__Dok_IRR__d.pdf" target="_blank" rel="noopener">PDF on rkz.ch</a></li>
+        <li><strong>University of Fribourg, religion law</strong>, opinion “Die Erklärung des (partiellen) Austritts …”, <a href="https://www.unifr.ch/ius/religionsrecht/fr/assets/public/documents/Gutachten%20und%20Studien/GutachtenAustritt.pdf" target="_blank" rel="noopener">PDF on unifr.ch</a></li>
+        <li><strong>Andreas Kley (UZH)</strong>, commentary on Federal Supreme Court ruling BGE 134 I 75, <a href="https://www.ius.uzh.ch/dam/jcr%3A92b85bcb-80a5-442a-88dd-bb32461f4df3/bger_bespr_kirchenaustritt_Recht%202008.pdf" target="_blank" rel="noopener">PDF on ius.uzh.ch</a></li>
+        <li><strong>Diocese of Basel, practical guide</strong> (example Bern), leaving the public-law church corporation, <a href="https://www.kathbern.ch/fileadmin/user_upload/Pfarreien/koeniz-wabern/Dokumente/Informationen/K-austritt_Bistum_staatskirchenrechtl_Koerperschaft_10.2021.pdf" target="_blank" rel="noopener">PDF on kathbern.ch</a></li>
+        <li><strong>Federal Tax Administration (FTA)</strong>, Swiss Tax Conference information on church taxes, <a href="https://www.estv2.admin.ch/stp/ds/d-kirchensteuern-de.pdf" target="_blank" rel="noopener">PDF on estv2.admin.ch</a></li>
+      </ul>
+      <p class="small">Cantonal implementing guidelines, tax practice and the relevant cantonal constitutions and church laws may also be relevant.</p>
+      <h3 style="font-size:16px; margin:20px 0 6px">Data used by the parish search</h3>
+      <ul class="sources" id="data-sources">
+        <li>Places, postcodes and municipalities: swisstopo, <a href="https://www.swisstopo.admin.ch/en/official-directory-of-towns-and-cities" target="_blank" rel="noopener">official locality directory</a>, as of <span id="orte-stand">30.09.2026</span></li>
+        <li>Parishes and postal addresses: directories of the cantonal churches and parishes. The source is shown with every result.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="impressum" aria-labelledby="h-impressum">
+      <h2 id="h-impressum">Legal notice, contact and privacy</h2>
+      <div class="cols">
+        <div class="card">
+          <h3 style="margin-top:0">Legal notice</h3>
+          <dl class="kv">
+            <dt>Publisher</dt><dd><strong>Verein Vera Fides</strong> (association)</dd>
+            <dt>Address</dt><dd>Neufeldstrasse 3<br>3012 Bern</dd>
+            <dt>Email</dt><dd><a href="mailto:redaktion@verafides.ch">redaktion@verafides.ch</a></dd>
+          </dl>
+          <h3>Contact</h3>
+          <p class="small">For questions, corrections or notes on cantonal particularities, please write to the association's email address. We reply in writing and objectively where possible. This website does not provide individual legal advice.</p>
+        </div>
+        <div class="card privacy">
+          <h3 style="margin-top:0">Privacy policy (summary)</h3>
+          <p class="small">As of 28 October 2026</p>
+          <h3>1. Controller</h3>
+          <p>The association Vera Fides is responsible for data processing in connection with this website (contact: see legal notice).</p>
+          <h3>2. Form and parish search</h3>
+          <p>Your entries are processed only in your browser to create the letter. They are neither sent to the publisher nor stored. The search by postcode and town uses data loaded with the page.</p>
+          <p>Only in municipalities with several parishes can you also search for your street. The search text is then sent to the public geo.admin.ch service of swisstopo, and only when you start that search.</p>
+          <h3>3. Server log files</h3>
+          <p>Visiting the website technically generates log data (e.g. IP address, time, requested resource, browser). It is used for secure operation and error analysis and is deleted or anonymised within the usual periods.</p>
+          <h3>4. Cookies and tracking</h3>
+          <p>This website uses no cookies and no tracking. All scripts are hosted on this server; no third-party content is loaded.</p>
+          <h3>5. Your rights</h3>
+          <p>Under the Swiss Data Protection Act you can request information about, correction or deletion of data concerning you, insofar as the publisher holds such data. Contact us by email (see legal notice).</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">teilaustritt.ch · Verein Vera Fides · No legal advice · The German texts are authoritative.</div>
+  </footer>
+</body>
+</html>

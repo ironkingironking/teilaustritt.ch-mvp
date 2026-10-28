@@ -9,42 +9,180 @@
     "tipp": "kantonale Besonderheit für Ausgetretene, aus dem Dokument"
   },
   "kantone": {
-    "ZH": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "BE": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "LU": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "UR": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "SZ": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "OW": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "NW": {"ende": "jahr", "system": "pflicht", "firmen": "ja",
-           "tipp": "Das kantonale Recht sieht die Rückzahlung zu Unrecht bezogener Kirchensteuern ausdrücklich vor."},
-    "GL": {"ende": "jahr", "system": "pflicht", "firmen": "ja"},
-    "ZG": {"ende": "jahr", "system": "pflicht", "firmen": "ja"},
-    "FR": {"ende": "sofort", "system": "pflicht", "firmen": "ja"},
-    "SO": {"ende": "sofort", "system": "pflicht", "firmen": "ausgleich"},
-    "BS": {"ende": "jahr", "system": "pflicht", "firmen": "nein"},
-    "BL": {"ende": "jahr", "system": "pflicht", "firmen": "ja",
-           "tipp": "Wer keiner anerkannten Kirche angehört, kann von der Einwohnergemeinde den Pro-Kopf-Anteil ihres Beitrags an die Kirchgemeinden zurückfordern."},
-    "SH": {"ende": "jahr", "system": "pflicht", "firmen": "nein"},
-    "AR": {"ende": "sofort", "system": "pflicht", "firmen": "nein",
-           "aktuell": {"ende": "monat", "quelle": "Ordnung des Verbands der röm.-kath. Kirchgemeinden AR, Art. 3 Abs. 2, in Kraft seit 1.1.2026", "url": "https://www.kath-kirche-ar.ch/_files/ugd/24dfd3_e9545b376ae841aeabc6c40cce23f226.pdf"}},
-    "AI": {"ende": "jahr", "system": "pflicht", "firmen": "ja"},
-    "SG": {"ende": "sofort", "system": "pflicht", "firmen": "ausgleich",
-           "tipp": "Wer Quellensteuer zahlt, muss die Rückerstattung der Kirchensteuer nach dem Austritt bis zum 31. März des Folgejahres verlangen."},
-    "GR": {"ende": "jahr", "system": "pflicht", "firmen": "ja",
-           "tipp": "Das kantonale Recht sieht die Rückzahlung zu Unrecht bezogener Kirchensteuern ausdrücklich vor."},
-    "AG": {"ende": "jahr", "system": "pflicht", "firmen": "nein"},
-    "TG": {"ende": "jahr", "system": "pflicht", "firmen": "ja"},
-    "TI": {"ende": "tessin", "system": "teilweise", "firmen": "wahl",
-           "tipp": "Nur ein Teil der Kirchgemeinden erhebt Kirchensteuer. Wer im Kirchensteuerregister eingetragen wird, kann innert 30 Tagen schriftlich die Befreiung verlangen; später wirkt eine Erklärung auf das folgende Jahr."},
-    "VD": {"ende": "keine", "system": "keine", "firmen": "nein",
-           "tipp": "Es gibt keine Kirchensteuer; die Kirchen werden aus den allgemeinen Steuern finanziert. Wer keiner anerkannten Kirche angehört, kann auf Anfrage den Kirchenanteil der Gemeindesteuer zurückfordern, nicht aber der Kantonssteuer. Die Anfrage ist jede Steuerperiode neu zu stellen."},
-    "VS": {"ende": "sofort", "system": "teilweise", "firmen": "ja",
-           "tipp": "Die Kultuskosten tragen die Gemeinden. Nur wenige Gemeinden (u. a. Sitten) erheben eine eigene Kultussteuer."},
-    "NE": {"ende": "sofort", "system": "freiwillig", "firmen": "freiwillig",
-           "tipp": "Die Kirchensteuer wird in Rechnung gestellt, die Bezahlung ist aber freiwillig."},
-    "GE": {"ende": "keine", "system": "freiwillig", "firmen": "nein",
-           "tipp": "Die Kirchensteuer wird in Rechnung gestellt, die Bezahlung ist aber freiwillig."},
-    "JU": {"ende": "sofort", "system": "pflicht", "firmen": "ja",
-           "tipp": "Das kantonale Recht sieht die Rückzahlung zu Unrecht bezogener Kirchensteuern ausdrücklich vor."}
+    "ZH": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "BE": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "LU": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "UR": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "SZ": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "OW": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "NW": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja",
+      "tipp": "Das kantonale Recht sieht die Rückzahlung zu Unrecht bezogener Kirchensteuern ausdrücklich vor.",
+      "tipp_fr": "Le droit cantonal prévoit expressément le remboursement des impôts ecclésiastiques perçus à tort.",
+      "tipp_it": "Il diritto cantonale prevede espressamente il rimborso delle imposte ecclesiastiche riscosse indebitamente.",
+      "tipp_en": "Cantonal law expressly provides for refunds of church tax collected wrongly."
+    },
+    "GL": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "ZG": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "FR": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "SO": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ausgleich"
+    },
+    "BS": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "nein"
+    },
+    "BL": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja",
+      "tipp": "Wer keiner anerkannten Kirche angehört, kann von der Einwohnergemeinde den Pro-Kopf-Anteil ihres Beitrags an die Kirchgemeinden zurückfordern.",
+      "tipp_fr": "Les personnes qui n'appartiennent à aucune Église reconnue peuvent demander à leur commune le remboursement de la part par habitant de sa contribution aux paroisses.",
+      "tipp_it": "Chi non appartiene a una Chiesa riconosciuta può chiedere al proprio comune il rimborso della quota pro capite del suo contributo alle parrocchie.",
+      "tipp_en": "If you do not belong to a recognised church, you can reclaim from your municipality the per-capita share of its contribution to the parishes."
+    },
+    "SH": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "nein"
+    },
+    "AR": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "nein",
+      "aktuell": {
+        "ende": "monat",
+        "quelle": "Ordnung des Verbands der röm.-kath. Kirchgemeinden AR, Art. 3 Abs. 2, in Kraft seit 1.1.2026",
+        "url": "https://www.kath-kirche-ar.ch/_files/ugd/24dfd3_e9545b376ae841aeabc6c40cce23f226.pdf"
+      }
+    },
+    "AI": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "SG": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ausgleich",
+      "tipp": "Wer Quellensteuer zahlt, muss die Rückerstattung der Kirchensteuer nach dem Austritt bis zum 31. März des Folgejahres verlangen.",
+      "tipp_fr": "Si vous êtes imposé·e à la source, demandez le remboursement de l'impôt ecclésiastique après la sortie au plus tard le 31 mars de l'année suivante.",
+      "tipp_it": "Chi paga l'imposta alla fonte deve chiedere il rimborso dell'imposta ecclesiastica dopo l'uscita entro il 31 marzo dell'anno successivo.",
+      "tipp_en": "If you pay withholding tax, request the church tax refund after leaving by 31 March of the following year."
+    },
+    "GR": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja",
+      "tipp": "Das kantonale Recht sieht die Rückzahlung zu Unrecht bezogener Kirchensteuern ausdrücklich vor.",
+      "tipp_fr": "Le droit cantonal prévoit expressément le remboursement des impôts ecclésiastiques perçus à tort.",
+      "tipp_it": "Il diritto cantonale prevede espressamente il rimborso delle imposte ecclesiastiche riscosse indebitamente.",
+      "tipp_en": "Cantonal law expressly provides for refunds of church tax collected wrongly."
+    },
+    "AG": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "nein"
+    },
+    "TG": {
+      "ende": "jahr",
+      "system": "pflicht",
+      "firmen": "ja"
+    },
+    "TI": {
+      "ende": "tessin",
+      "system": "teilweise",
+      "firmen": "wahl",
+      "tipp": "Nur ein Teil der Kirchgemeinden erhebt Kirchensteuer. Wer im Kirchensteuerregister eingetragen wird, kann innert 30 Tagen schriftlich die Befreiung verlangen; später wirkt eine Erklärung auf das folgende Jahr.",
+      "tipp_fr": "Seule une partie des paroisses perçoit un impôt ecclésiastique. Les personnes inscrites au registre peuvent demander l'exonération par écrit dans les 30 jours ; plus tard, une déclaration prend effet l'année suivante.",
+      "tipp_it": "Solo una parte delle parrocchie riscuote l'imposta di culto. Chi viene iscritto nel catalogo può chiedere l'esenzione per iscritto entro 30 giorni; in seguito una dichiarazione ha effetto per l'anno successivo.",
+      "tipp_en": "Only some parishes levy church tax. If you are entered in the church tax register, you can request exemption in writing within 30 days; later, a declaration takes effect for the following year."
+    },
+    "VD": {
+      "ende": "keine",
+      "system": "keine",
+      "firmen": "nein",
+      "tipp": "Es gibt keine Kirchensteuer; die Kirchen werden aus den allgemeinen Steuern finanziert. Wer keiner anerkannten Kirche angehört, kann auf Anfrage den Kirchenanteil der Gemeindesteuer zurückfordern, nicht aber der Kantonssteuer. Die Anfrage ist jede Steuerperiode neu zu stellen.",
+      "tipp_fr": "Il n'y a pas d'impôt ecclésiastique ; les Églises sont financées par les impôts généraux. Les personnes qui n'appartiennent à aucune Église reconnue peuvent demander le remboursement de la part de l'impôt communal affectée au culte, mais pas de l'impôt cantonal. La demande doit être renouvelée à chaque période fiscale.",
+      "tipp_it": "Non esiste un'imposta ecclesiastica; le Chiese sono finanziate con le imposte generali. Chi non appartiene a una Chiesa riconosciuta può chiedere il rimborso della quota dell'imposta comunale destinata al culto, ma non dell'imposta cantonale. La richiesta va ripetuta per ogni periodo fiscale.",
+      "tipp_en": "There is no church tax; the churches are funded from general taxes. If you do not belong to a recognised church, you can reclaim the church share of the municipal tax, but not of the cantonal tax. You have to ask again for each tax period."
+    },
+    "VS": {
+      "ende": "sofort",
+      "system": "teilweise",
+      "firmen": "ja",
+      "tipp": "Die Kultuskosten tragen die Gemeinden. Nur wenige Gemeinden (u. a. Sitten) erheben eine eigene Kultussteuer.",
+      "tipp_fr": "Les frais de culte sont à la charge des communes. Seules quelques communes (dont Sion) prélèvent un impôt de culte propre.",
+      "tipp_it": "I costi di culto sono a carico dei comuni. Solo pochi comuni (tra cui Sion) riscuotono un'imposta di culto propria.",
+      "tipp_en": "The municipalities bear the costs of worship. Only a few municipalities (including Sion) levy their own worship tax."
+    },
+    "NE": {
+      "ende": "sofort",
+      "system": "freiwillig",
+      "firmen": "freiwillig",
+      "tipp": "Die Kirchensteuer wird in Rechnung gestellt, die Bezahlung ist aber freiwillig.",
+      "tipp_fr": "L'impôt ecclésiastique est facturé, mais son paiement est facultatif.",
+      "tipp_it": "L'imposta ecclesiastica viene fatturata, ma il pagamento è facoltativo.",
+      "tipp_en": "Church tax is invoiced, but payment is voluntary."
+    },
+    "GE": {
+      "ende": "keine",
+      "system": "freiwillig",
+      "firmen": "nein",
+      "tipp": "Die Kirchensteuer wird in Rechnung gestellt, die Bezahlung ist aber freiwillig.",
+      "tipp_fr": "L'impôt ecclésiastique est facturé, mais son paiement est facultatif.",
+      "tipp_it": "L'imposta ecclesiastica viene fatturata, ma il pagamento è facoltativo.",
+      "tipp_en": "Church tax is invoiced, but payment is voluntary."
+    },
+    "JU": {
+      "ende": "sofort",
+      "system": "pflicht",
+      "firmen": "ja",
+      "tipp": "Das kantonale Recht sieht die Rückzahlung zu Unrecht bezogener Kirchensteuern ausdrücklich vor.",
+      "tipp_fr": "Le droit cantonal prévoit expressément le remboursement des impôts ecclésiastiques perçus à tort.",
+      "tipp_it": "Il diritto cantonale prevede espressamente il rimborso delle imposte ecclesiastiche riscosse indebitamente.",
+      "tipp_en": "Cantonal law expressly provides for refunds of church tax collected wrongly."
+    }
   }
 }

@@ -18,7 +18,10 @@
     "wirkung": "rückwirkend auf den Tag der Einreichung (Art. 11 Abs. 3 Statut); beendet die Kirchensteuerpflicht",
     "notes": "Wird die Erklärung direkt an den Conseil paroissial geschickt, geht ein Exemplar an den Pfarrer; der Conseil paroissial meldet den Austritt der Einwohnerkontrolle, der kantonalen Steuerverwaltung und der Diözesanbehörde (Art. 9 Abs. 2 und Art. 11 Abs. 2bis Statut). Der Conseil paroissial schickt in der Regel ein Formular und bestätigt den Austritt innert 30 Tagen.",
     "source": "https://www.cath-fr.ch/corporation-cantonale/sortie-deglise/",
-    "public_hinweis": "Im Kanton Freiburg geht laut Statut ein Exemplar der Erklärung an den Pfarrer, und der Austritt wird dem Bistum gemeldet. Die Bitte um Vertraulichkeit im Brief ändert daran nichts."
+    "public_hinweis": "Im Kanton Freiburg geht laut Statut ein Exemplar der Erklärung an den Pfarrer, und der Austritt wird dem Bistum gemeldet. Die Bitte um Vertraulichkeit im Brief ändert daran nichts.",
+    "public_hinweis_fr": "Dans le canton de Fribourg, selon le statut, un exemplaire de la déclaration est remis au curé et la sortie est annoncée à l'évêché. La demande de confidentialité dans la lettre n'y change rien.",
+    "public_hinweis_it": "Nel Cantone di Friburgo, secondo lo statuto, una copia della dichiarazione va al parroco e l'uscita viene notificata alla diocesi. La richiesta di riservatezza nella lettera non cambia nulla.",
+    "public_hinweis_en": "In the canton of Fribourg, the statute requires a copy of the declaration to go to the parish priest and the exit to be reported to the diocese. The confidentiality request in the letter does not change this."
   },
   "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
   "stand": "2026-10-28",
