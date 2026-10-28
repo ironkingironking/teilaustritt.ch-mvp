@@ -1,0 +1,904 @@
+{
+  "stand": "2026-10-28",
+  "methode": "Grundlage ist die Liste der Curia vescovile mit 38 Pfarreien, die eine Imposta di culto vorsehen (tio.ch, 27.04.2022). Für jede Pfarrei wurden neuere Belege gesucht (Pfarrei-Websites, Albo-PDFs, Gemeinde-Botschaften, Zeitungen) und die Adresse aus eigenen Angaben der Pfarrei, dem UID-Register (nur bei bestätigter Zustellbarkeit), dem Diözesanverzeichnis (casa parrocchiale) bzw. dem Foglio ufficiale ermittelt. Aliquote aus 2009 stammen aus einer archivierten Erhebung (impotecclesiastique.ch, Daten Diözese/Kantone). Belege aus 2025/2026 gibt es nur für Comano, Lugano, Losone, Leontica, Quinto und Giubiasco; für die übrigen ist die Curia-Liste 2022 (teils mit Belegen 2019–2021) der jüngste Beleg. Zusätzlich aufgenommen: Gorduno (Beleg 2019, fehlt 2022). RSI (29.10.2022) zählt 40 Pfarreien mit Imposta (18 nur Imposta, 22 Imposta plus Gemeindebeitrag), die Liste hat 38: Die Liste ist also für 2022 weitgehend vollständig, der aktuelle Stand (Abschaffungen, Neueinführungen seit 2022) ist nicht amtlich belegt.",
+  "quellen": [
+    "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+    "https://www.rsi.ch/info/ticino-grigioni-e-insubria/La-Chiesa-e-il-problema-di-liquidit%C3%A0--1803039.html",
+    "https://www.locarno.ch/files/documenti/Preavviso_contenuto_mozione_Cavalli__per_una_chiara_divisione_tra_stato_e_chiesa.pdf",
+    "https://www.diocesilugano.ch/wd-annuario-enti/parrocchie-16134/",
+    "https://www.uid.admin.ch/",
+    "https://foglioufficiale.ti.ch/",
+    "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+    "https://www.bellinzona.ch/Messaggio-municipale-no-215-Convenzioni-della-Citt-di-Bellinzona-con-le-Parrocchie-e-la-Comunit-regionale-della-Chiesa-evangelica-riformata-operanti-sul-territorio-della-Citt-di-Bellinzona-f9267d00?i=1",
+    "https://riviera.assolo.net/MM-32019-Convenzione-parrocchie-0968c800?i=1&vis=3&MasterId=g1_296",
+    "https://www.tio.ch/ticino/attualita/1430461/raccomandata-casa-lugano-parrocchia-imposta",
+    "https://www.parrocchialugano.ch/wp-content/uploads/2026/07/Parrocchia-di-Lugano_Bollettino-parrocchiale-N2-2026_WEB-1.pdf",
+    "https://chiesainrete.ch/comanocureglia/2025/04/10/comano-assemblea-parrocchiale/",
+    "https://www.leparrocchie.ch/organismi-losone.html",
+    "https://parrocchie.acquarossa.ch/wp-content/uploads/2025/05/Albo_2025-04-Parrocchia-Leontica-risoluzioni-assemblea-seduta-ordinaria-25-aprile-2025.pdf",
+    "https://www.parrocchiaquinto.ch/wp-content/uploads/2026/03/Bollettino-Parrocchiale-Pasqua-2026.pdf",
+    "https://www.parrocchia-giubiasco.ch/consiglio",
+    "https://parrocchia-camorino.ch/convenzione-con-la-citta-di-bellinzona/",
+    "http://www.impotecclesiastique.ch/?q=node/53"
+  ],
+  "parrocchie": [
+    {
+      "name": "Parrocchia di Airolo",
+      "comune": "Airolo",
+      "bfs": [
+        5061
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Airolo",
+        "Consiglio parrocchiale",
+        "Via San Gottardo 25",
+        "6780 Airolo"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022; 2009 Aliquota 5 %, keine Gemeindebeiträge (impotecclesiastique.ch, Archiv). Adresse: Eintrag Pfarrei Airolo (Ss. Nazzaro e Celso) im Diözesanverzeichnis https://www.diocesilugano.ch/wd-annuario-enti/parrocchie-16134/vicariato-delle-tre-valli-16156/ (ID 16860); ob es die Kirche oder das Pfarrhaus ist, ungeprüft. UID CHE-418.221.494 «Consiglio parrocchiale», 6780 Airolo, ohne Strasse, nicht zustellbar. Seit 2026/27 vom Pfarrer von Faido mitbetreut (catt.ch 19.08.2026)."
+    },
+    {
+      "name": "Parrocchia di Quinto",
+      "comune": "Quinto",
+      "bfs": [
+        5079
+      ],
+      "ortsteile": "Gebiet der Pfarrei Quinto (Ss. Pietro e Paolo, ehemalige Gemeinde Quinto); Prato Leventina ist eine eigene Pfarrei",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Quinto",
+        "Consiglio parrocchiale",
+        "Via Quinto 14",
+        "6777 Quinto"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "medium",
+      "source": "https://www.parrocchiaquinto.ch/wp-content/uploads/2026/03/Bollettino-Parrocchiale-Pasqua-2026.pdf",
+      "note": "Bollettino Pasqua 2026: «… attraverso le imposte parrocchiali e le offerte»; Regolamento parrocchiale (2007, online seit 2023) Art. 4: Assemblea legt den «fabbisogno da coprire con l'imposta di culto» fest; dazu Curia-Liste 2022. Adresse laut Kontaktseite parrocchiaquinto.ch/contatti; der Einzahlungsschein 2022 nennt «Dietro alla Chiesa 16, 6777 Quinto» – welche gilt, offen. UID CHE-108.928.685 «Consiglio parrocchiale di Quinto» ohne Strasse."
+    },
+    {
+      "name": "Parrocchia di Anzonico",
+      "comune": "Faido",
+      "bfs": [
+        5072
+      ],
+      "ortsteile": "Anzonico",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Anzonico",
+        "Consiglio parrocchiale",
+        "6748 Anzonico"
+      ],
+      "address_type": "uid",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 Aliquota 5 % (impotecclesiastique.ch, Archiv). Keine Strassenadresse gefunden: UID CHE-250.301.798 «Parrocchia di Anzonico», 6748 Anzonico, ohne Strasse, laut UID nicht zustellbar; Kirche «Zona San Giovanni». Seelsorge über das Kapuzinerkloster Faido. Die 13 Pfarreien der Media Leventina haben eine Konvention mit der Gemeinde Faido (catt.ch 15.06.2026)."
+    },
+    {
+      "name": "Parrocchia di Chiggiogna",
+      "comune": "Faido",
+      "bfs": [
+        5072
+      ],
+      "ortsteile": "Chiggiogna",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Chiggiogna",
+        "Consiglio parrocchiale",
+        "6764 Chiggiogna"
+      ],
+      "address_type": "uid",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Keine Strassenadresse gefunden: UID CHE-167.316.046 «Parrocchia di Chiggiogna», 6764 Chiggiogna, ohne Strasse, laut UID nicht zustellbar. Konvention der 13 Pfarreien der Media Leventina mit der Gemeinde Faido (catt.ch 15.06.2026)."
+    },
+    {
+      "name": "Parrocchia di Giornico",
+      "comune": "Giornico",
+      "bfs": [
+        5073
+      ],
+      "ortsteile": "Giornico",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Giornico",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Santo Stefano 6",
+        "6743 Bodio TI"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Gemeinde Giornico zahlt laut Budget 2026 zusätzlich CHF 15'000 «Contributo alle Parrocchie» (Mischsystem möglich). Adresse: gemeinsame casa parrocchiale der Bassa Leventina (parrocchiebassaleventina.ch/contatti; Diözesanverzeichnis ID 16873)."
+    },
+    {
+      "name": "Parrocchia di Bodio",
+      "comune": "Giornico",
+      "bfs": [
+        5073
+      ],
+      "ortsteile": "Bodio",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Bodio",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Santo Stefano 6",
+        "6743 Bodio TI"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Bodio gehört seit der Fusion (Grosser Rat 28.05.2024) zur Gemeinde Giornico; die Pfarrei besteht eigenständig weiter. Adresse: casa parrocchiale Bassa Leventina (Diözesanverzeichnis ID 16863)."
+    },
+    {
+      "name": "Parrocchia di Personico",
+      "comune": "Personico",
+      "bfs": [
+        5076
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Personico",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Santo Stefano 6",
+        "6743 Bodio TI"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Adresse: casa parrocchiale Bassa Leventina in Bodio (Diözesanverzeichnis ID 16877)."
+    },
+    {
+      "name": "Parrocchia di Lodrino",
+      "comune": "Riviera",
+      "bfs": [
+        5287
+      ],
+      "ortsteile": "Lodrino",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Lodrino",
+        "Consiglio parrocchiale",
+        "Cà da Löügh 44",
+        "6527 Lodrino"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://riviera.assolo.net/MM-32019-Convenzione-parrocchie-0968c800?i=1&vis=3&MasterId=g1_296",
+      "note": "Gemeinde Riviera MM 3/2019: «L'ammontare dell'imposta parrocchiale, riscossa a Lodrino, Prosito ed Osogna è in continua diminuzione»; dazu Curia-Liste 2022. Seit 2020 Konvention mit Beiträgen der Gemeinde Riviera (Mischsystem). Adresse: «Parrocchia Cattolica di Lodrino» als Inserent im Foglio ufficiale (AI-TI30-0000002504, 28.10.2026) und casa parrocchiale laut Diözesanverzeichnis (ID 16855)."
+    },
+    {
+      "name": "Parrocchia di Prosito",
+      "comune": "Riviera",
+      "bfs": [
+        5287
+      ],
+      "ortsteile": "Prosito",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Prosito",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Cà da Löügh 44",
+        "6527 Lodrino"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://riviera.assolo.net/MM-32019-Convenzione-parrocchie-0968c800?i=1&vis=3&MasterId=g1_296",
+      "note": "Gemeinde Riviera MM 3/2019 (imposta parrocchiale in Prosito) und Curia-Liste 2022. Adresse: gemeinsame casa parrocchiale in Lodrino (Diözesanverzeichnis ID 16859)."
+    },
+    {
+      "name": "Parrocchia di Osogna",
+      "comune": "Riviera",
+      "bfs": [
+        5287
+      ],
+      "ortsteile": "Osogna",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Osogna",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via A San Rócch 2",
+        "Casella postale 69",
+        "6702 Claro"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://riviera.assolo.net/MM-32019-Convenzione-parrocchie-0968c800?i=1&vis=3&MasterId=g1_296",
+      "note": "Gemeinde Riviera MM 3/2019 (imposta parrocchiale in Osogna) und Curia-Liste 2022. Adresse: casa parrocchiale des Pfarrers in Claro laut Diözesanverzeichnis (ID 16857); eigene Adresse der Pfarrei nicht gefunden (Kirche Piazza della Chiesa, Osogna)."
+    },
+    {
+      "name": "Parrocchia di Biasca",
+      "comune": "Biasca",
+      "bfs": [
+        5281
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Biasca",
+        "Consiglio parrocchiale",
+        "Casella postale 1405",
+        "6710 Biasca"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 Aliquota 5 %, keine Gemeindebeiträge (impotecclesiastique.ch, Archiv). Adresse: Consiglio parrocchiale laut parrocchiabiasca.altervista.org/amministrazione/; casa parrocchiale Via Santa Petronilla 2, 6710 Biasca (Diözesanverzeichnis ID 16848). Ufficio consiglio parrocchiale Di und Fr 13.30–16.30 (biasca.ch)."
+    },
+    {
+      "name": "Parrocchia di Malvaglia",
+      "comune": "Serravalle",
+      "bfs": [
+        5050
+      ],
+      "ortsteile": "Malvaglia",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Malvaglia",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Dragone 2",
+        "6713 Malvaglia"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Adresse: casa parrocchiale (auch für Ludiano und Semione) laut Diözesanverzeichnis (ID 16897)."
+    },
+    {
+      "name": "Parrocchia di Ludiano",
+      "comune": "Serravalle",
+      "bfs": [
+        5050
+      ],
+      "ortsteile": "Ludiano",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Ludiano",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Dragone 2",
+        "6713 Malvaglia"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Adresse: casa parrocchiale in Malvaglia laut Diözesanverzeichnis (ID 16895). UID CHE-169.206.173 «Parrocchia», 6721 Ludiano, ohne Strasse, nicht zustellbar."
+    },
+    {
+      "name": "Parrocchia di Dongio",
+      "comune": "Acquarossa",
+      "bfs": [
+        5048
+      ],
+      "ortsteile": "Dongio",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Dongio",
+        "Consiglio parrocchiale",
+        "Via Lucomagno 25",
+        "6715 Dongio"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; Schlussbericht Aggregation Acquarossa (ca. 2003, m4.ti.ch): «la Parrocchia di Dongio preleva … una imposta di culto». Versammlung 2026 (Albo parrocchie.acquarossa.ch) nennt nur Consuntivo 2025/Preventivo 2026. Adresse: Briefkopf «Consiglio Parrocchiale» 27.05.2026 (Albo_2026-06-Dongio-Assemblea.pdf), zugleich casa parrocchiale der Media Blenio."
+    },
+    {
+      "name": "Parrocchia di Leontica",
+      "comune": "Acquarossa",
+      "bfs": [
+        5048
+      ],
+      "ortsteile": "Leontica",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Leontica",
+        "Consiglio parrocchiale",
+        "Casella postale 9",
+        "6716 Leontica"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "medium",
+      "source": "https://parrocchie.acquarossa.ch/wp-content/uploads/2025/05/Albo_2025-04-Parrocchia-Leontica-risoluzioni-assemblea-seduta-ordinaria-25-aprile-2025.pdf",
+      "note": "Assemblea 25.04.2025: «MP 02/25 Approvazione del preventivo 2025 ed emissione del contributo di culto» angenommen; die Pfarrei nennt die Abgabe «contributo di culto». Dazu Curia-Liste 2022. Adresse: Parrocchia di San Giovanni Battista, CP 9, 6716 Leontica (Fusszeile Albo-PDFs, parrocchie.acquarossa.ch/parrocchie/leontica/)."
+    },
+    {
+      "name": "Parrocchia di Ponto Valentino",
+      "comune": "Acquarossa",
+      "bfs": [
+        5048
+      ],
+      "ortsteile": "Ponto Valentino",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Ponto Valentino",
+        "Consiglio parrocchiale",
+        "Casella postale 34",
+        "6724 Ponto Valentino"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; Schlussbericht Aggregation Acquarossa (ca. 2003): Deckung «parzialmente all'imposta di culto e parzialmente all'erario comunale». Adresse: Parrocchia San Martino, CP 34 (parrocchie.acquarossa.ch/parrocchie/ponto-valentino/)."
+    },
+    {
+      "name": "Parrocchia di Prugiasco",
+      "comune": "Acquarossa",
+      "bfs": [
+        5048
+      ],
+      "ortsteile": "Prugiasco",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Prugiasco",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Lucomagno 25",
+        "6715 Dongio"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Adresse: casa parrocchiale Media Blenio laut Diözesanverzeichnis (ID 16902); die Pfarreiseite nennt nur «Negrentino, 6723 Prugiasco» ohne Strasse."
+    },
+    {
+      "name": "Parrocchia di Olivone",
+      "comune": "Blenio",
+      "bfs": [
+        5049
+      ],
+      "ortsteile": "Olivone",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Olivone",
+        "Consiglio parrocchiale",
+        "Via Chiesa San Martino 9",
+        "6718 Olivone"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 erhoben alle fünf Pfarreien der Gemeinde Blenio 5 % (impotecclesiastique.ch, Archiv), zusätzlich Gemeindebeitrag. Adresse: casa parrocchiale Alta Blenio (Diözesanverzeichnis ID 16899); UID CHE-108.970.457 «Consiglio parrocchiale», gleiche Adresse, laut UID nicht zustellbar."
+    },
+    {
+      "name": "Parrocchia di Aquila",
+      "comune": "Blenio",
+      "bfs": [
+        5049
+      ],
+      "ortsteile": "Aquila",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Aquila",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Chiesa San Martino 9",
+        "6718 Olivone"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 5 % (Blenio, impotecclesiastique.ch). Adresse: casa parrocchiale Alta Blenio in Olivone (Diözesanverzeichnis ID 16885)."
+    },
+    {
+      "name": "Parrocchia di Campo Blenio",
+      "comune": "Blenio",
+      "bfs": [
+        5049
+      ],
+      "ortsteile": "Campo (Blenio)",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Campo Blenio",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Chiesa San Martino 9",
+        "6718 Olivone"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 5 % (Blenio). Pfarrei Sant'Agata. Adresse: casa parrocchiale Alta Blenio (Diözesanverzeichnis ID 16886)."
+    },
+    {
+      "name": "Parrocchia di Ghirone",
+      "comune": "Blenio",
+      "bfs": [
+        5049
+      ],
+      "ortsteile": "Ghirone",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Ghirone",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Chiesa San Martino 9",
+        "6718 Olivone"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 5 % (Blenio). Adresse: casa parrocchiale Alta Blenio (Diözesanverzeichnis ID 16890); die Gemeindeseite nennt eine Adresse in Ghirone, die eine Privatadresse sein kann."
+    },
+    {
+      "name": "Parrocchia di Arbedo",
+      "comune": "Arbedo-Castione",
+      "bfs": [
+        5001
+      ],
+      "ortsteile": "Arbedo (Castione ist eine eigene Pfarrei)",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "3% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Arbedo",
+        "Consiglio parrocchiale",
+        "Via alla Chiesa 18",
+        "6517 Arbedo"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 Aliquota 3 %, keine Gemeindebeiträge (impotecclesiastique.ch node/39, Archiv). Adresse: Kontaktseite sites.google.com/view/parrocchiarbedo/contatti; UID CHE-108.970.339 «Parrocchia Cattolica», Via alla Chiesa, 6517 Arbedo, zustellbar."
+    },
+    {
+      "name": "Parrocchia di Lumino",
+      "comune": "Lumino",
+      "bfs": [
+        5010
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Lumino",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via alla Chiesa 14",
+        "6533 Lumino"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Adresse: casa parrocchiale laut Diözesanverzeichnis (ID 16745, auch für Castione); UID CHE-108.970.345 nennt «Piazza della Chiesa», nicht zustellbar."
+    },
+    {
+      "name": "Parrocchia di Cadenazzo",
+      "comune": "Cadenazzo",
+      "bfs": [
+        5003
+      ],
+      "ortsteile": "Cadenazzo (Robasacco ist eine eigene Pfarrei)",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Cadenazzo",
+        "Consiglio parrocchiale",
+        "Via Pianturina 2",
+        "6593 Cadenazzo"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022 (ein ungeprüfter Suchtreffer nennt 4 % für 2009). Adresse: Parrocchia San Pietro laut gambarognoparrocchie.ch; das Gemeindeverzeichnis schreibt «A Piantürin 2». Casa parrocchiale des Pfarrers: Via Orgnana 7, 6573 Magadino."
+    },
+    {
+      "name": "Parrocchia di Camorino",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Camorino",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Camorino",
+        "Consiglio parrocchiale",
+        "In Piazza 4",
+        "6528 Camorino"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://parrocchia-camorino.ch/convenzione-con-la-citta-di-bellinzona/",
+      "note": "Consiglio parrocchiale 07.03.2021: Parrocchiani finanzieren «una parte consistente delle finanze parrocchiali mediante la tassa di culto od offerte libere»; laRegione 29.05.2019 und Curia-Liste 2022. Seit 2020 Pauschalbeiträge der Stadt Bellinzona (Mischsystem). Adresse: parrocchia-camorino.ch/contatti; UID CHE-108.928.254 gleiche Adresse, zustellbar."
+    },
+    {
+      "name": "Parrocchia di Giubiasco",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Giubiasco",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Giubiasco",
+        "Consiglio parrocchiale",
+        "Casella postale 644",
+        "6512 Giubiasco"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "medium",
+      "source": "https://www.parrocchia-giubiasco.ch/consiglio",
+      "note": "Website (© 2026): Der Consiglio «stabilisce il tasso dell'imposta di culto; allestisce e aggiorna il catalogo parrocchiale e il catalogo tributario» (Kompetenzbeschreibung, kein Steuerbeschluss); dazu laRegione 2019, Stadt Bellinzona MM 215/2019 und Curia-Liste 2022. Adresse: Segreteria parrocchiale CP 644 (parrocchia-giubiasco.ch/contatto); Briefkopf 2023 «Consiglio parrocchiale, Via Berta 22 – CP 644». UID CHE-108.946.312: Via E. Berta 1, zustellbar."
+    },
+    {
+      "name": "Parrocchia di Gnosca",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Gnosca",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Gnosca",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via A San Rócch 2",
+        "Casella postale 69",
+        "6702 Claro"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+      "note": "laRegione 29.05.2019 nennt Gnosca unter den Pfarreien mit imposta; dazu Curia-Liste 2022. Adresse: casa parrocchiale in Claro laut Diözesanverzeichnis (ID 16853)."
+    },
+    {
+      "name": "Parrocchia di Gudo",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Gudo",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Gudo",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via Chicherio 1",
+        "6514 Sementina"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+      "note": "laRegione 29.05.2019 und Curia-Liste 2022. Adresse: casa parrocchiale in Sementina laut Diözesanverzeichnis (ID 16744); UID CHE-108.928.202 (Parrocchia San Lorenzo, 6515 Gudo) ohne Strasse."
+    },
+    {
+      "name": "Parrocchia di Ravecchia",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Ravecchia",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Ravecchia",
+        "Consiglio parrocchiale",
+        "Piazza San Biagio",
+        "6500 Bellinzona"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+      "note": "laRegione 29.05.2019, Stadt Bellinzona MM 215/2019 («in sei ex-Comuni e per Ravecchia con i proventi dell'imposta di culto») und Curia-Liste 2022. Adresse: Pfarrei San Biagio laut chiesasanbiagio.ch, ohne Hausnummer; alternativ casa parrocchiale Via Varrone 12 (Convento Sacro Cuore), 6500 Bellinzona (Diözesanverzeichnis ID 16748)."
+    },
+    {
+      "name": "Parrocchia di Sementina",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Sementina",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Sementina",
+        "Consiglio parrocchiale",
+        "Via Chicherio 1",
+        "6514 Sementina"
+      ],
+      "address_type": "uid",
+      "confidence": "low",
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+      "note": "laRegione 29.05.2019 und Curia-Liste 2022. Adresse: UID CHE-108.928.277 «Parrocchia Cattolica di Sementina», zustellbar; zugleich casa parrocchiale (parrocchia-sementina.ch, Diözesanverzeichnis ID 16753)."
+    },
+    {
+      "name": "Parrocchia di Gorduno",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "ortsteile": "Gorduno",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Gorduno",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via el Cunvent 9",
+        "6513 Monte Carasso"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+      "note": "Nur Beleg 2019: laRegione 29.05.2019 nennt Gorduno unter den Pfarreien mit imposta («Ravecchia, Camorino, Giubiasco, Gorduno, Gnosca, Gudo e Sementina»), ebenso MM 215/2019 (sechs Ex-Gemeinden plus Ravecchia). Gorduno fehlt aber in der Curia-Liste 2022 – möglicherweise abgeschafft. Adresse: casa parrocchiale laut Diözesanverzeichnis (ID 16742); UID CHE-108.928.248 ohne Strasse."
+    },
+    {
+      "name": "Parrocchia di Losone",
+      "comune": "Losone",
+      "bfs": [
+        5115
+      ],
+      "ortsteile": "Losone ohne die Fraktion Arcegno",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Losone",
+        "Consiglio parrocchiale",
+        "Via San Materno 7",
+        "6616 Losone"
+      ],
+      "address_type": "uid",
+      "confidence": "high",
+      "source": "https://www.leparrocchie.ch/organismi-losone.html",
+      "note": "Pfarrei-Website (Stand 2025, nennt Assemblea vom 09.04.2025): Assemblea beschliesst jährlich den «fabbisogno da coprire con l'imposta di culto»; dazu Curia-Liste 2022. Adresse: UID CHE-108.928.432 «Consiglio Parrocchiale Losone», zustellbar; Diözesanverzeichnis schreibt «Via S. Maderno 7» (casa parrocchiale)."
+    },
+    {
+      "name": "Parrocchia di Muralto",
+      "comune": "Muralto",
+      "bfs": [
+        5120
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Muralto",
+        "Consiglio parrocchiale",
+        "Via San Vittore 3",
+        "6600 Muralto"
+      ],
+      "address_type": "uid",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022. Gemeinde trägt zusätzlich den Unterhalt von Kirche und Pfarrhaus (Preventivo 2025, MM 15/2024). Adresse: UID CHE-108.928.449 «Consiglio Parrocchiale Muralto», zustellbar; zugleich casa parrocchiale (Diözesanverzeichnis ID 16679)."
+    },
+    {
+      "name": "Parrocchia di Brissago",
+      "comune": "Brissago",
+      "bfs": [
+        5097
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "3% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Brissago",
+        "Consiglio parrocchiale",
+        "Via ai Cipressi 6",
+        "6614 Brissago"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 Aliquota 3 %, ca. CHF 45'000, Gemeinde zahlt keine Congrua (impotecclesiastique.ch, Archiv). Einladung zur Assemblea 16.12.2025 nennt nur Preventivo 2026. Adresse: parrocchiabrissago.com/contatti und Briefkopf der Einladung 03.12.2025."
+    },
+    {
+      "name": "Parrocchia di Lugano",
+      "comune": "Lugano",
+      "bfs": [
+        5192
+      ],
+      "ortsteile": "Lugano Centro, Molino Nuovo, Besso, Loreto und Umgebung Via Brentani (5 comunità: Cattedrale S. Lorenzo, S. Maria degli Angioli, Sacro Cuore, S. Nicolao, Cristo Risorto; Strassenverzeichnis parrocchialugano.ch/stradario). Nicht: Castagnola, Viganello, Brè, Gandria, Pregassona, Breganzona, Barbengo, Carabbia, Carona, Pambio Noranco, Villa Luganese, Sonvico, Cadro, Davesco-Soragno, Val Colla",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "2,5% dell'imposta cantonale (Stand 2020)",
+      "postal": [
+        "Parrocchia di Lugano",
+        "Consiglio parrocchiale",
+        "Borghetto 1",
+        "6900 Lugano"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "high",
+      "source": "https://www.parrocchialugano.ch/wp-content/uploads/2026/07/Parrocchia-di-Lugano_Bollettino-parrocchiale-N2-2026_WEB-1.pdf",
+      "note": "Bollettino N2/2026 (Consuntivo 2025, Assemblea 22.04.2026): «calo … delle entrate tributarie … recupero delle imposte in sofferenza»; tio.ch 08.04.2020: Iscrizione al catalogo tributario per raccomandata, «2,5% dell'ultima imposta cantonale», Stralcio auch per E-Mail; Stadt Lugano 2019 (Rapporto Mozione 3872); Curia-Liste 2022. Adresse: «Recapito postale» laut parrocchialugano.ch/amministrazione-parrocchia-di-lugano/segreteria-parrocchiale/; UID CHE-109.358.916: Borghetto 2, zustellbar."
+    },
+    {
+      "name": "Parrocchia di Comano",
+      "comune": "Comano",
+      "bfs": [
+        5176
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Comano",
+        "Consiglio parrocchiale",
+        "Via Prospò 1",
+        "6949 Comano"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "high",
+      "source": "https://chiesainrete.ch/comanocureglia/2025/04/10/comano-assemblea-parrocchiale/",
+      "note": "Convocazione Assemblea 13.04.2025: «Messaggio M.04/2025. Preventivo 2025 e aliquota dell'imposta di culto 2025»; dazu Curia-Liste 2022. Stimmberechtigt: Katholiken mit Wohnsitz in Comano. Adresse: casa parrocchiale laut Diözesanverzeichnis (ID 16811); Briefkopf und QR-Einzahlungsschein nennen nur «Parrocchia di Comano, 6949 Comano»; UID CHE-108.928.923 Via Prospò 1, laut UID nicht zustellbar."
+    },
+    {
+      "name": "Parrocchia di Arogno",
+      "comune": "Arogno",
+      "bfs": [
+        5144
+      ],
+      "ortsteile": null,
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": "5% dell'imposta cantonale (Stand 2009)",
+      "postal": [
+        "Parrocchia di Arogno",
+        "Consiglio parrocchiale",
+        "c/o Casa parrocchiale",
+        "Via alla Costa 1",
+        "6821 Rovio"
+      ],
+      "address_type": "sekretariat",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: Curia-Liste 2022; 2009 Aliquota 5 %, keine Gemeindebeiträge (impotecclesiastique.ch, Archiv). Adresse: casa parrocchiale des gemeinsamen Pfarrers in Rovio (Gemeinde Val Mara) laut Diözesanverzeichnis (ID 16236); eigene Adresse der Pfarrei nicht gefunden."
+    },
+    {
+      "name": "Parrocchia di Chiasso",
+      "comune": "Chiasso",
+      "bfs": [
+        5250
+      ],
+      "ortsteile": "Pfarrei S. Vitale; Pedrinate ist eine eigene Pfarrei, Zuordnung von Seseglio/Boffalora unklar",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Chiasso",
+        "Consiglio parrocchiale",
+        "Corso San Gottardo 48",
+        "6830 Chiasso"
+      ],
+      "address_type": "uid",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022; Pfarrei-Website im Aufbau. Adresse: UID CHE-108.928.662 «Parrocchia Cattolica di San Vitale Martire», zustellbar; zugleich casa parrocchiale (Diözesanverzeichnis ID 16259)."
+    },
+    {
+      "name": "Parrocchia di Mendrisio",
+      "comune": "Mendrisio",
+      "bfs": [
+        5254
+      ],
+      "ortsteile": "Mendrisio Borgo; Arzo, Besazio, Capolago, Genestrerio, Ligornetto, Meride, Rancate, Salorino und Tremona sind eigene Pfarreien",
+      "imposta_di_culto": true,
+      "moltiplicatore_o_aliquota": null,
+      "postal": [
+        "Parrocchia di Mendrisio",
+        "Consiglio parrocchiale",
+        "Via Carlo Croci 10",
+        "6850 Mendrisio"
+      ],
+      "address_type": "parrocchia",
+      "confidence": "low",
+      "source": "https://www.tio.ch/ticino/attualita/1577562/parrocchie-questua-ridotto-fedeli-calo",
+      "note": "Steuer: nur Curia-Liste 2022; Website und Bollettini 2021–2026 erwähnen sie nicht. Adresse: parrocchiamendrisio.ch/contatti; Ufficio amministrazione parrocchiale separat Via Nobili Torriani 2, 6850 Mendrisio. UID CHE-108.946.335 Via Carlo Croci 10, laut UID nicht zustellbar."
+    }
+  ],
+  "ohne_imposta_belegt": [
+    {
+      "name": "Parrocchia di Bellinzona (Collegiata)",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1486693/convenzione-parrocchie-luce-bellinzona-cantone",
+      "note": "laRegione 15.01.2021: «la cui Parrocchia non ha finora introdotto l'imposta di culto»; 2019 erwogen, dann «in stand by»; heute freiwilliger Beitrag."
+    },
+    {
+      "name": "Parrocchia di Locarno",
+      "comune": "Locarno",
+      "bfs": [
+        5113
+      ],
+      "source": "https://www.locarno.ch/files/documenti/Preavviso_contenuto_mozione_Cavalli__per_una_chiara_divisione_tra_stato_e_chiesa.pdf",
+      "note": "Stadt Locarno, Preavviso 13.03.2025: Finanzierung über städtische Beiträge; die Pfarreien lehnen eine Einführung ab."
+    },
+    {
+      "name": "Parrocchia di Solduno",
+      "comune": "Locarno",
+      "bfs": [
+        5113
+      ],
+      "source": "https://www.locarno.ch/files/documenti/Preavviso_contenuto_mozione_Cavalli__per_una_chiara_divisione_tra_stato_e_chiesa.pdf",
+      "note": "wie Locarno (Preavviso 13.03.2025)."
+    },
+    {
+      "name": "Parrocchia di Gerra",
+      "comune": "Locarno (Beitrag der Stadt)",
+      "bfs": [],
+      "source": "https://www.locarno.ch/files/documenti/Preavviso_contenuto_mozione_Cavalli__per_una_chiara_divisione_tra_stato_e_chiesa.pdf",
+      "note": "Preavviso 13.03.2025 nennt «Parrocchia di Gerra» mit Beitrag der Stadt Locarno; welche Gerra-Pfarrei (Piano, Valle, Gambarogno) gemeint ist, nicht geprüft."
+    },
+    {
+      "name": "Parrocchia di Cresciano",
+      "comune": "Riviera",
+      "bfs": [
+        5287
+      ],
+      "source": "https://riviera.assolo.net/MM-32019-Convenzione-parrocchie-0968c800?i=1&vis=3&MasterId=g1_296",
+      "note": "MM 3/2019: «parrocchie nelle quali non si percepiva l'imposta di culto» (Stand 2019)."
+    },
+    {
+      "name": "Parrocchia di Iragna",
+      "comune": "Riviera",
+      "bfs": [
+        5287
+      ],
+      "source": "https://riviera.assolo.net/MM-32019-Convenzione-parrocchie-0968c800?i=1&vis=3&MasterId=g1_296",
+      "note": "wie Cresciano (Stand 2019)."
+    },
+    {
+      "name": "Parrocchia di Monte Carasso",
+      "comune": "Bellinzona",
+      "bfs": [
+        5002
+      ],
+      "source": "https://www.laregione.ch/cantone/bellinzonese/1372204/bellinzona-sulle-parrocchie-la-citta-non-contribuira-piu-ai-salari",
+      "note": "laRegione 29.05.2019: Pfarrei kommt ohne imposta aus (Stand 2019)."
+    },
+    {
+      "name": "Parrocchia di Balerna",
+      "comune": "Balerna",
+      "bfs": [
+        5242
+      ],
+      "source": "http://www.impotecclesiastique.ch/?q=node/44",
+      "note": "Stand 2009 (Cancelleria Balerna): keine öffentlichen Beiträge und keine imposta; RSI 29.10.2022 nennt Balerna als Pfarrei, die sich selbst finanziert. Archivquelle (web.archive.org)."
+    }
+  ],
+  "issues": [
+    "Keine amtliche aktuelle Liste: Weder Kanton (SEL) noch Diözese publizieren eine Übersicht; die Curia sagte 2022 selbst, es fehle eine aggregierte Statistik. Für 33 der 39 Einträge ist der jüngste Beleg von 2022 oder älter.",
+    "RSI 2022 nennt 40 Pfarreien mit Imposta (18 + 22), die Curia-Liste 38. Mögliche Lücken: Gorduno (2019 belegt, 2022 nicht gelistet, hier aufgenommen) und Torre (2009 erhoben alle fünf Blenio-Pfarreien inkl. Torre 5 %, 2022 nicht gelistet).",
+    "Die Zahlen im Locarno-Preavviso 2025 (18 Gemeinden mit reiner Imposta, 21 mit Mischsystem, mittlere Aliquota ca. 4,7 %) sind offenbar aus Pfarrei-Zahlen abgeleitet und nennen keine Namen.",
+    "Aktuelle Aliquote fehlen fast überall; vorhanden sind Lugano 2,5 % (2020) und 2009er-Werte (Airolo, Anzonico, Arogno, Biasca, Blenio 5 %; Arbedo, Brissago 3 %).",
+    "Adressen ohne Strasse bzw. ohne bestätigte Zustellbarkeit: Anzonico, Chiggiogna (nur PLZ/Ort), Airolo (Adresse vermutlich der Kirche), Ravecchia (ohne Hausnummer), Quinto (zwei verschiedene Adressen). Bei 17 Pfarreien ist nur die casa parrocchiale bzw. das Pfarreisekretariat bekannt, teils in einem anderen Ort (Olivone, Dongio, Malvaglia, Bodio, Lodrino, Claro, Sementina, Monte Carasso, Rovio).",
+    "Leontica nennt die Abgabe «contributo di culto»; dass sie die Imposta nach DL 10.11.1992 ist, ergibt sich nur aus «emissione» und der Curia-Liste.",
+    "Gebietsfragen: Chiasso (Seseglio/Boffalora), Lugano (Strassenverzeichnis statt Quartiergrenzen), Quinto (Gebiet der Pfarrei). Die Zuordnung Ortsteil → Pfarrei für Lugano, Chiasso und Mendrisio erfordert ein Strassen- bzw. Quartierverzeichnis.",
+    "Bestätigung am ehesten über die Curia (Economato diocesano) oder direkt bei den Pfarreien, z. B. über den im Februar publizierten Catalogo tributario."
+  ]
+}
