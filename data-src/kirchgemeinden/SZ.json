@@ -4,7 +4,12 @@
     "name": "Römisch-katholische Kantonalkirche Schwyz",
     "short": "Kantonalkirche Schwyz",
     "website": "https://sz.kath.ch/",
-    "postal": ["Römisch-katholische Kantonalkirche Schwyz", "Sekretariat", "Postfach 137", "8808 Pfäffikon"]
+    "postal": [
+      "Römisch-katholische Kantonalkirche Schwyz",
+      "Sekretariat",
+      "Postfach 137",
+      "8808 Pfäffikon"
+    ]
   },
   "austritt": {
     "recipient": "Römisch-katholische Kirchgemeinde des Wohnsitzes (Kirchenrat), nicht die Kantonalkirche",
@@ -31,11 +36,19 @@
     {
       "id": "sz-alpthal",
       "name": "Römisch-katholische Kirchgemeinde Alpthal",
-      "postal": ["Römisch-katholische Kirchgemeinde Alpthal", "Kirchenrat", "c/o Pfarramt St. Apollonia", "Dorfstrasse 28", "8849 Alpthal"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Alpthal",
+        "Kirchenrat",
+        "c/o Pfarramt St. Apollonia",
+        "Dorfstrasse 28",
+        "8849 Alpthal"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.st-apollonia.ch/",
       "source": "https://www.st-apollonia.ch/kontakt/",
-      "bfs": [1361],
+      "bfs": [
+        1361
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Keine eigene Kirchgemeinde-Adresse publiziert; Adresse des Pfarramts."
@@ -43,11 +56,19 @@
     {
       "id": "sz-altendorf",
       "name": "Römisch-katholische Kirchgemeinde Altendorf",
-      "postal": ["Römisch-katholische Kirchgemeinde Altendorf", "Kirchenrat", "c/o Röm.-kath. Pfarramt", "Dorfplatz 5", "8852 Altendorf"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Altendorf",
+        "Kirchenrat",
+        "c/o Röm.-kath. Pfarramt",
+        "Dorfplatz 5",
+        "8852 Altendorf"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-altendorf.ch/",
       "source": "https://pfarrei-altendorf.ch/index.php/impressum.html",
-      "bfs": [1341],
+      "bfs": [
+        1341
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kirchenrat nur mit Privatadressen publiziert; Adresse des Pfarramts (Impressum der Website)."
@@ -55,11 +76,18 @@
     {
       "id": "sz-arth-goldau",
       "name": "Römisch-katholische Kirchgemeinde Arth-Goldau",
-      "postal": ["Römisch-katholische Kirchgemeinde Arth-Goldau", "Kirchgemeindesekretariat", "Gotthardstrasse 31", "6410 Goldau"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Arth-Goldau",
+        "Kirchgemeindesekretariat",
+        "Gotthardstrasse 31",
+        "6410 Goldau"
+      ],
       "address_type": "sekretariat",
       "website": "https://www.kath-arth-goldau.ch/kirchgemeinde",
       "source": "https://www.kath-arth-goldau.ch/kirchgemeindesekretariat",
-      "bfs": [1362],
+      "bfs": [
+        1362
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Seit 1.1.2022 Zusammenschluss der Kirchgemeinden Arth und Goldau; umfasst Arth, Oberarth, Goldau und Teile des Rigigebiets."
@@ -67,23 +95,38 @@
     {
       "id": "sz-buttikon",
       "name": "Römisch-katholische Kirchgemeinde Buttikon SZ",
-      "postal": ["Römisch-katholische Kirchgemeinde Buttikon SZ", "Kirchenrat", "Kirchweg 1", "8863 Buttikon SZ"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Buttikon SZ",
+        "Kirchenrat",
+        "Kirchweg 1",
+        "8863 Buttikon SZ"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-buttikon.ch/",
       "source": "https://pfarrei-buttikon.ch/impressum/",
       "bfs": [],
-      "partial_bfs": [1346],
+      "partial_bfs": [
+        1346
+      ],
       "confidence": "high",
       "note": "Adresse laut Impressum der Kirchgemeinde (identisch mit dem Pfarramt). Ortsteil Buttikon der Gemeinde Schübelbach."
     },
     {
       "id": "sz-einsiedeln",
       "name": "Römisch-katholische Kirchgemeinde Einsiedeln",
-      "postal": ["Römisch-katholische Kirchgemeinde Einsiedeln", "Kirchenrat", "c/o Röm.-kath. Pfarramt Einsiedeln", "Eisenbahnstrasse 24", "8840 Einsiedeln"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Einsiedeln",
+        "Kirchenrat",
+        "c/o Röm.-kath. Pfarramt Einsiedeln",
+        "Eisenbahnstrasse 24",
+        "8840 Einsiedeln"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-einsiedeln.ch/ueber-uns/kirchgemeinde-einsiedeln/",
       "source": "https://www.pfarrei-einsiedeln.ch/ueber-uns/kirchgemeinde-einsiedeln/",
-      "bfs": [1301],
+      "bfs": [
+        1301
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Umfasst die Pfarrei Einsiedeln und die Viertel Bennau, Egg, Euthal, Gross, Trachslau und Willerzell. Kirchenrat nur mit Privatadressen publiziert; Adresse des Pfarramts."
@@ -91,24 +134,39 @@
     {
       "id": "sz-feusisberg",
       "name": "Römisch-katholische Kirchgemeinde Feusisberg",
-      "postal": ["Römisch-katholische Kirchgemeinde Feusisberg", "Kirchenrat", "c/o Pfarramt", "Dorfstrasse 37", "8835 Feusisberg"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Feusisberg",
+        "Kirchenrat",
+        "c/o Pfarramt",
+        "Dorfstrasse 37",
+        "8835 Feusisberg"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-feusisberg.ch/",
       "source": "https://www.pfarrei-feusisberg.ch/kontakt/",
       "bfs": [],
-      "partial_bfs": [1321],
+      "partial_bfs": [
+        1321
+      ],
       "confidence": "medium",
       "note": "Keine eigene Kirchgemeinde-Adresse publiziert; Adresse des Pfarramts. Der Ortsteil Schindellegi der Gemeinde Feusisberg gehört zur Kirchgemeinde Schindellegi."
     },
     {
       "id": "sz-freienbach",
       "name": "Römisch-katholische Kirchgemeinde Freienbach",
-      "postal": ["Römisch-katholische Kirchgemeinde Freienbach", "Kirchgemeindeverwaltung", "Kirchstrasse 47", "8807 Freienbach"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Freienbach",
+        "Kirchgemeindeverwaltung",
+        "Kirchstrasse 47",
+        "8807 Freienbach"
+      ],
       "address_type": "verwaltung",
       "email": "verwaltung@kirchgemeindefreienbach.ch",
       "website": "https://www.kirchgemeindefreienbach.ch/kirchgemeinde-freienbach",
       "source": "https://www.kirchgemeindefreienbach.ch/kirchgemeinde-freienbach",
-      "bfs": [1322],
+      "bfs": [
+        1322
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Umfasst die Pfarreien Freienbach und Pfäffikon."
@@ -116,24 +174,38 @@
     {
       "id": "sz-galgenen",
       "name": "Katholische Kirchgemeinde Galgenen SZ",
-      "postal": ["Katholische Kirchgemeinde Galgenen SZ", "Kirchenrat", "Kirchweg 1", "8854 Galgenen"],
+      "postal": [
+        "Katholische Kirchgemeinde Galgenen SZ",
+        "Kirchenrat",
+        "Kirchweg 1",
+        "8854 Galgenen"
+      ],
       "address_type": "pfarramt",
       "email": "sekretariat@kg-galgenen.ch",
       "website": "https://kg-galgenen.ch/",
       "source": "https://kg-galgenen.ch/de/System/Impressum",
       "bfs": [],
-      "partial_bfs": [1342],
+      "partial_bfs": [
+        1342
+      ],
       "confidence": "high",
       "note": "Adresse laut Impressum der Kirchgemeinde (identisch mit dem Pfarramt). Der Siebner Teil der Gemeinde Galgenen gehört zur Kirchgemeinde Siebnen."
     },
     {
       "id": "sz-gersau",
       "name": "Römisch-katholische Kirchgemeinde Gersau",
-      "postal": ["Römisch-katholische Kirchgemeinde Gersau", "Kirchenrat", "Gütschstrasse 2", "6442 Gersau"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Gersau",
+        "Kirchenrat",
+        "Gütschstrasse 2",
+        "6442 Gersau"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.kirchgemeinde-gersau.ch/",
       "source": "https://www.kirchgemeinde-gersau.ch/kirchenrat",
-      "bfs": [1311],
+      "bfs": [
+        1311
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Website der Kirchgemeinde nennt als Adresse die Katholische Pfarrei St. Marzellus, Gütschstrasse 2."
@@ -141,11 +213,19 @@
     {
       "id": "sz-illgau",
       "name": "Römisch-katholische Kirchgemeinde Illgau",
-      "postal": ["Römisch-katholische Kirchgemeinde Illgau", "Kirchenrat", "c/o Katholisches Pfarramt", "Pfarrhaus", "6434 Illgau"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Illgau",
+        "Kirchenrat",
+        "c/o Katholisches Pfarramt",
+        "Pfarrhaus",
+        "6434 Illgau"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-illgau.ch/ueber-uns/kirchenrat/",
       "source": "https://pfarrei-illgau.ch/ueber-uns/kontakt/",
-      "bfs": [1363],
+      "bfs": [
+        1363
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kirchenrat ohne Postadresse publiziert; Adresse des Pfarramts (ohne Strasse, so publiziert)."
@@ -153,23 +233,37 @@
     {
       "id": "sz-immensee",
       "name": "Römisch-katholische Kirchgemeinde Immensee",
-      "postal": ["Römisch-katholische Kirchgemeinde Immensee", "Kirchenrat", "c/o Pfarrbüro", "Eichlistrasse 11", "6405 Immensee"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Immensee",
+        "Kirchenrat",
+        "c/o Pfarrbüro",
+        "Eichlistrasse 11",
+        "6405 Immensee"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.kath-immensee.ch/kirchgemeinde",
       "source": "https://www.kath-immensee.ch/kontakt",
       "bfs": [],
-      "partial_bfs": [1331],
+      "partial_bfs": [
+        1331
+      ],
       "confidence": "medium",
       "note": "Eine der drei Kirchgemeinden im Bezirk Küssnacht (Küssnacht, Immensee, Merlischachen). Präsidium nur mit Privatadresse publiziert; Adresse des Pfarrbüros."
     },
     {
       "id": "sz-ingenbohl-brunnen",
       "name": "Römisch-Katholische Kirchgemeinde Ingenbohl-Brunnen",
-      "postal": ["Römisch-Katholische Kirchgemeinde Ingenbohl-Brunnen", "Postfach 452", "6440 Brunnen"],
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Ingenbohl-Brunnen",
+        "Postfach 452",
+        "6440 Brunnen"
+      ],
       "address_type": "verwaltung",
       "website": "https://pfarrei-ingenbohl.ch/",
       "source": "https://pfarrei-ingenbohl.ch/impressum/",
-      "bfs": [1364],
+      "bfs": [
+        1364
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Postfachadresse der Kirchgemeinde laut Impressum (Herausgeber)."
@@ -177,23 +271,38 @@
     {
       "id": "sz-kuessnacht",
       "name": "Römisch-katholische Kirchgemeinde Küssnacht am Rigi",
-      "postal": ["Römisch-katholische Kirchgemeinde Küssnacht am Rigi", "Kirchenrat", "c/o Kath. Pfarramt", "Pfarrhausplatz 1", "6403 Küssnacht am Rigi"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Küssnacht am Rigi",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Pfarrhausplatz 1",
+        "6403 Küssnacht am Rigi"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-kuessnacht.ch/ueber-uns/kirchgemeinden/",
       "source": "https://pfarrei-kuessnacht.ch/ueber-uns/kirchgemeinden/",
       "bfs": [],
-      "partial_bfs": [1331],
+      "partial_bfs": [
+        1331
+      ],
       "confidence": "medium",
       "note": "Keine eigene Kirchgemeinde-Adresse publiziert; Adresse des Pfarramts (Sekretariat)."
     },
     {
       "id": "sz-lachen",
       "name": "Römisch-katholische Kirchgemeinde Lachen",
-      "postal": ["Römisch-katholische Kirchgemeinde Lachen", "Kirchenrat", "Kirchweg 1", "8853 Lachen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Lachen",
+        "Kirchenrat",
+        "Kirchweg 1",
+        "8853 Lachen"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.kirchelachen.ch/kirchenrat",
       "source": "https://www.kirchelachen.ch/kirchenrat",
-      "bfs": [1344],
+      "bfs": [
+        1344
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kanzlei der Kirchgemeinde und Pfarreisekretariat sind unter dem Kath. Pfarramt Heilig Kreuz, Kirchweg 1, aufgeführt."
@@ -201,11 +310,19 @@
     {
       "id": "sz-lauerz",
       "name": "Römisch-katholische Kirchgemeinde Lauerz",
-      "postal": ["Römisch-katholische Kirchgemeinde Lauerz", "Kirchenrat", "c/o Pfarramt Lauerz", "Seestrasse 12", "6424 Lauerz"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Lauerz",
+        "Kirchenrat",
+        "c/o Pfarramt Lauerz",
+        "Seestrasse 12",
+        "6424 Lauerz"
+      ],
       "address_type": "pfarramt",
       "website": "https://kirchelauerz.ch/",
       "source": "https://kirchelauerz.ch/kirchenrat/",
-      "bfs": [1365],
+      "bfs": [
+        1365
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Website der Kirchgemeinde nennt nur die Adresse des Pfarramts."
@@ -213,23 +330,37 @@
     {
       "id": "sz-merlischachen",
       "name": "Römisch-katholische Kirchgemeinde Merlischachen",
-      "postal": ["Römisch-katholische Kirchgemeinde Merlischachen", "Kirchenrat", "c/o Kath. Pfarramt Küssnacht", "Pfarrhausplatz 1", "6403 Küssnacht am Rigi"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Merlischachen",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt Küssnacht",
+        "Pfarrhausplatz 1",
+        "6403 Küssnacht am Rigi"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-kuessnacht.ch/ueber-uns/kirchgemeinden/",
       "source": "https://pfarrei-kuessnacht.ch/ueber-uns/kirchgemeinden/",
       "bfs": [],
-      "partial_bfs": [1331],
+      "partial_bfs": [
+        1331
+      ],
       "confidence": "low",
       "note": "Keine eigene Adresse; Website und Kantonalkirche nennen nur das Pfarramt Küssnacht. Postadresse auf der Website prüfen."
     },
     {
       "id": "sz-morschach-stoos",
       "name": "Römisch-katholische Kirchgemeinde Morschach-Stoos",
-      "postal": ["Kirchenrat Morschach-Stoos", "Dorfstrasse 12", "6443 Morschach"],
+      "postal": [
+        "Kirchenrat Morschach-Stoos",
+        "Dorfstrasse 12",
+        "6443 Morschach"
+      ],
       "address_type": "kirchenrat",
       "website": "https://www.morschach.ch/kirchenrat",
       "source": "https://www.morschach.ch/kirchenrat",
-      "bfs": [1366],
+      "bfs": [
+        1366
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Als «Postadresse» des Kirchenrats publiziert (identisch mit dem Pfarramt)."
@@ -237,12 +368,20 @@
     {
       "id": "sz-muotathal",
       "name": "Römisch-katholische Kirchgemeinde Muotathal",
-      "postal": ["Römisch-katholische Kirchgemeinde Muotathal", "Kirchenrat", "c/o Katholisches Pfarramt", "Wil 27", "6436 Muotathal"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Muotathal",
+        "Kirchenrat",
+        "c/o Katholisches Pfarramt",
+        "Wil 27",
+        "6436 Muotathal"
+      ],
       "address_type": "pfarramt",
       "email": "sekretariat@kirche-muotathal.ch",
       "website": "https://pfarrei-muotathal.ch/",
       "source": "https://pfarrei-muotathal.ch/ueber-uns/kontakte/",
-      "bfs": [1367],
+      "bfs": [
+        1367
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "E-Mail-Adresse ist auf der Kontaktseite dem Kirchenrat zugeordnet; Postadresse des Pfarramts."
@@ -250,23 +389,38 @@
     {
       "id": "sz-nuolen",
       "name": "Römisch-katholische Kirchgemeinde Nuolen",
-      "postal": ["Römisch-katholische Kirchgemeinde Nuolen", "Kirchenrat", "Seestrasse 71", "8855 Nuolen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Nuolen",
+        "Kirchenrat",
+        "Seestrasse 71",
+        "8855 Nuolen"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-nuolen.ch/",
       "source": "https://www.pfarrei-wangensz.ch/kirche/ueber-uns/kirchenrat.html/326",
       "bfs": [],
-      "partial_bfs": [1349],
+      "partial_bfs": [
+        1349
+      ],
       "confidence": "low",
       "note": "Adresse der Katholischen Kirche bzw. des Pfarramts Nuolen (Kantonalkirche und Website Wangen). Die eigene Website nennt nur das gemeinsame Pfarreisekretariat Nuolen/Wangen, Dorfplatz 8, 8855 Wangen. Postadresse auf der Website prüfen."
     },
     {
       "id": "sz-oberiberg",
       "name": "Römisch-katholische Kirchgemeinde Oberiberg",
-      "postal": ["Römisch-katholische Kirchgemeinde Oberiberg", "Kirchenrat", "c/o Kath. Pfarramt", "Kirchenstrasse 44", "8843 Oberiberg"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oberiberg",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Kirchenstrasse 44",
+        "8843 Oberiberg"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.kirche-oberiberg.ch/",
       "source": "https://sz.kath.ch/pfarreien/",
-      "bfs": [1368],
+      "bfs": [
+        1368
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Website der Kirchgemeinde nennt keine Postadresse; Adresse des Pfarramts laut Pfarreienverzeichnis der Kantonalkirche."
@@ -274,11 +428,18 @@
     {
       "id": "sz-reichenburg",
       "name": "Römisch-katholische Kirchgemeinde Reichenburg",
-      "postal": ["Römisch-katholische Kirchgemeinde Reichenburg", "Kirchenrat", "Kantonsstrasse 20", "8864 Reichenburg"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Reichenburg",
+        "Kirchenrat",
+        "Kantonsstrasse 20",
+        "8864 Reichenburg"
+      ],
       "address_type": "pfarramt",
       "website": "https://st-laurentius-pfarrei.ch/",
       "source": "https://st-laurentius-pfarrei.ch/contact/",
-      "bfs": [1345],
+      "bfs": [
+        1345
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kontaktseite von Pfarrei und Kirchgemeinde nennt nur den Standort des Pfarramts."
@@ -286,11 +447,19 @@
     {
       "id": "sz-riemenstalden",
       "name": "Römisch-katholische Kirchgemeinde Riemenstalden",
-      "postal": ["Römisch-katholische Kirchgemeinde Riemenstalden", "Kirchenrat", "c/o Pfarrhaus", "Dörfli 17", "6452 Riemenstalden"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Riemenstalden",
+        "Kirchenrat",
+        "c/o Pfarrhaus",
+        "Dörfli 17",
+        "6452 Riemenstalden"
+      ],
       "address_type": "pfarramt",
       "website": "https://sz.kath.ch/pfarreien/",
       "source": "https://sz.kath.ch/pfarreien/",
-      "bfs": [1369],
+      "bfs": [
+        1369
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Keine eigene Website gefunden; Adresse des Pfarrhauses laut Pfarreienverzeichnis der Kantonalkirche."
@@ -298,11 +467,19 @@
     {
       "id": "sz-rothenthurm",
       "name": "Römisch-katholische Kirchgemeinde Rothenthurm",
-      "postal": ["Römisch-katholische Kirchgemeinde Rothenthurm", "Kirchenrat", "c/o Pfarramt Rothenthurm", "Hauptstrasse 9", "6418 Rothenthurm"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Rothenthurm",
+        "Kirchenrat",
+        "c/o Pfarramt Rothenthurm",
+        "Hauptstrasse 9",
+        "6418 Rothenthurm"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.rothenthurm.ch/pfarrei",
       "source": "https://www.rothenthurm.ch/pfarrei",
-      "bfs": [1370],
+      "bfs": [
+        1370
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Keine eigene Kirchgemeinde-Adresse publiziert; Adresse des Pfarramts."
@@ -310,11 +487,19 @@
     {
       "id": "sz-sattel",
       "name": "Römisch-katholische Kirchgemeinde Sattel",
-      "postal": ["Römisch-katholische Kirchgemeinde Sattel", "Kirchenrat", "c/o Pfarramt Sattel", "Dorfstrasse 35", "6417 Sattel"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Sattel",
+        "Kirchenrat",
+        "c/o Pfarramt Sattel",
+        "Dorfstrasse 35",
+        "6417 Sattel"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.sattel.ch/pfarrei",
       "source": "https://www.sattel.ch/pfarrei",
-      "bfs": [1371],
+      "bfs": [
+        1371
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kirchenrat nur mit Privatadressen publiziert; Adresse des Pfarramts (Pfarrhaus)."
@@ -322,36 +507,60 @@
     {
       "id": "sz-schindellegi",
       "name": "Römisch-katholische Kirchgemeinde Schindellegi",
-      "postal": ["Römisch-katholische Kirchgemeinde Schindellegi", "Kirchenrat", "c/o Seelsorgeraum Berg", "Hauptstrasse 28", "8832 Wollerau"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Schindellegi",
+        "Kirchenrat",
+        "c/o Seelsorgeraum Berg",
+        "Hauptstrasse 28",
+        "8832 Wollerau"
+      ],
       "address_type": "sekretariat",
       "email": "schindellegi@seelsorgeraum-berg.ch",
       "website": "https://seelsorgeraum-berg.ch/wir/kirchenrat-schindellegi/",
       "source": "https://seelsorgeraum-berg.ch/wir/kirchenrat-schindellegi/",
       "bfs": [],
-      "partial_bfs": [1321, 1323],
+      "partial_bfs": [
+        1321,
+        1323
+      ],
       "confidence": "medium",
       "note": "Umfasst die Ortsteile Schindellegi der Gemeinden Feusisberg und Wollerau. Adresse des gemeinsamen Sekretariats Seelsorgeraum Berg; die Kantonalkirche nennt für das Pfarramt Postfach 527, 8832 Wollerau."
     },
     {
       "id": "sz-schuebelbach",
       "name": "Römisch-katholische Kirchgemeinde Schübelbach",
-      "postal": ["Römisch-katholische Kirchgemeinde Schübelbach", "Kirchenrat", "c/o Kath. Pfarramt", "Grünhaldenstrasse 11", "8862 Schübelbach"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Schübelbach",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Grünhaldenstrasse 11",
+        "8862 Schübelbach"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-schuebelbach.ch/",
       "source": "https://www.pfarrei-schuebelbach.ch/kontakt.html",
       "bfs": [],
-      "partial_bfs": [1346],
+      "partial_bfs": [
+        1346
+      ],
       "confidence": "medium",
       "note": "Keine eigene Kirchgemeinde-Seite gefunden; Adresse des Pfarramts."
     },
     {
       "id": "sz-schwyz",
       "name": "Römisch-katholische Kirchgemeinde Schwyz",
-      "postal": ["Römisch-katholische Kirchgemeinde Schwyz", "Geschäftsstelle", "Herrengasse 22", "6430 Schwyz"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Schwyz",
+        "Geschäftsstelle",
+        "Herrengasse 22",
+        "6430 Schwyz"
+      ],
       "address_type": "sekretariat",
       "website": "https://www.kirchgemeinde-schwyz.ch/kirchgemeinde",
       "source": "https://www.kirchgemeinde-schwyz.ch/geschaeftsleitung",
-      "bfs": [1372],
+      "bfs": [
+        1372
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Umfasst laut Kirchgemeinde das Gebiet der politischen Gemeinde Schwyz mit den Pfarreien Schwyz, Ibach und Seewen."
@@ -359,23 +568,41 @@
     {
       "id": "sz-siebnen",
       "name": "Römisch-katholische Kirchgemeinde Siebnen",
-      "postal": ["Römisch-katholische Kirchgemeinde Siebnen", "Kirchenrat", "c/o Röm.-kath. Pfarramt Siebnen", "Kirchweg 1", "8854 Siebnen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Siebnen",
+        "Kirchenrat",
+        "c/o Röm.-kath. Pfarramt Siebnen",
+        "Kirchweg 1",
+        "8854 Siebnen"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-siebnen.ch/de/Kirchgemeinde-1",
       "source": "https://pfarrei-siebnen.ch/de/Kirchgemeinde-1",
       "bfs": [],
-      "partial_bfs": [1342, 1346, 1349],
+      "partial_bfs": [
+        1342,
+        1346,
+        1349
+      ],
       "confidence": "medium",
       "note": "Umfasst das Dorf Siebnen auf dem Gebiet der Gemeinden Galgenen, Schübelbach und Wangen (Steuerfusstabelle 2026). Kirchgemeinde-Seite nennt nur die Adresse des Pfarramts."
     },
     {
       "id": "sz-steinen",
       "name": "Römisch-katholische Kirchgemeinde Steinen",
-      "postal": ["Römisch-katholische Kirchgemeinde Steinen", "Kirchenrat", "c/o Pfarramt Steinen", "Rossbergstrasse 1", "6422 Steinen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Steinen",
+        "Kirchenrat",
+        "c/o Pfarramt Steinen",
+        "Rossbergstrasse 1",
+        "6422 Steinen"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-steinen.ch/",
       "source": "https://pfarrei-steinen.ch/impressum/",
-      "bfs": [1373],
+      "bfs": [
+        1373
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Website der Kirchgemeinde nennt nur das Pfarramt."
@@ -383,35 +610,57 @@
     {
       "id": "sz-steinerberg",
       "name": "Römisch-katholische Kirchgemeinde Steinerberg",
-      "postal": ["Römisch-katholische Kirchgemeinde Steinerberg", "6416 Steinerberg"],
-      "address_type": "praesidium",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Steinerberg",
+        "Sattelstrasse 5",
+        "6416 Steinerberg"
+      ],
+      "address_type": "pfarramt",
       "website": "https://steinerberg.ch/freizeit-kultur/kirche/",
-      "source": "https://steinerberg.ch/freizeit-kultur/kirche/",
-      "bfs": [1374],
+      "source": "https://steinerberg.ch/webseite/wp-content/uploads/2025/10/03_Steinerberg_18-25_web-1.pdf",
+      "bfs": [
+        1374
+      ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Publiziert sind nur Kontaktpersonen mit Privatadressen; das Pfarreienverzeichnis der Kantonalkirche nennt das Pfarramt c/o einer Privatperson."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Publiziert sind nur Kontaktpersonen mit Privatadressen; das Pfarreienverzeichnis der Kantonalkirche nennt das Pfarramt c/o einer Privatperson. | Nachrecherche: «Pfarrbüro Sattelstrasse 5» laut Pfarreiblatt Steinerberg 18/2025 (auf steinerberg.ch), Telefonbuch gleich. Kirchenrat nur mit Privatadressen; das Kontaktblatt im Voranschlag 2026 nennt für die Pfarreibeauftragte Sattelstrasse 10. UID nicht geprüft (Abfragelimit)."
     },
     {
       "id": "sz-studen",
       "name": "Römisch-katholische Kirchgemeinde Studen",
-      "postal": ["Römisch-katholische Kirchgemeinde Studen", "Kirchenrat", "c/o Kath. Pfarramt", "Waagtalstrasse 31", "8842 Unteriberg"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Studen",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Waagtalstrasse 31",
+        "8842 Unteriberg"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.sankt-josef.ch/",
       "source": "https://sz.kath.ch/pfarreien/",
       "bfs": [],
-      "partial_bfs": [1375],
+      "partial_bfs": [
+        1375
+      ],
       "confidence": "low",
       "note": "Keine eigene Website gefunden; das Pfarreienverzeichnis der Kantonalkirche nennt für Studen das Pfarramt St. Josef in Unteriberg. Postadresse auf der Website prüfen."
     },
     {
       "id": "sz-tuggen",
       "name": "Römisch-katholische Kirchgemeinde Tuggen",
-      "postal": ["Römisch-katholische Kirchgemeinde Tuggen", "Kirchenrat", "c/o Kath. Pfarramt", "Buchbergstrasse 6", "8856 Tuggen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Tuggen",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Buchbergstrasse 6",
+        "8856 Tuggen"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-tuggen.ch/roem-katholische-kirchgemeinde-tuggen.html",
       "source": "https://www.pfarrei-tuggen.ch/roem-katholische-kirchgemeinde-tuggen.html",
-      "bfs": [1347],
+      "bfs": [
+        1347
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kirchgemeinde-Seite nennt nur die Adresse des Pfarramts."
@@ -419,23 +668,38 @@
     {
       "id": "sz-unteriberg",
       "name": "Römisch-katholische Kirchgemeinde Unteriberg",
-      "postal": ["Römisch-katholische Kirchgemeinde Unteriberg", "Kirchgemeinderat", "c/o Pfarramt St. Josef", "Waagtalstrasse 31", "8842 Unteriberg"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Unteriberg",
+        "Kirchgemeinderat",
+        "c/o Pfarramt St. Josef",
+        "Waagtalstrasse 31",
+        "8842 Unteriberg"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.sankt-josef.ch/organisation/",
       "source": "https://www.sankt-josef.ch/kontakt/",
       "bfs": [],
-      "partial_bfs": [1375],
+      "partial_bfs": [
+        1375
+      ],
       "confidence": "medium",
       "note": "Kirchgemeinderat nur mit Privatadressen publiziert; Adresse des Pfarramts."
     },
     {
       "id": "sz-waegital",
       "name": "Römisch-katholische Kirchgemeinde Wägital",
-      "postal": ["Kirchenrat der Kirchgemeinde Wägital", "c/o Postgasse 3", "8857 Vorderthal"],
+      "postal": [
+        "Kirchenrat der Kirchgemeinde Wägital",
+        "c/o Postgasse 3",
+        "8857 Vorderthal"
+      ],
       "address_type": "kirchenrat",
       "website": "https://www.kirche-waegital.ch/",
       "source": "https://www.kirche-waegital.ch/kirchenrat",
-      "bfs": [1343, 1348],
+      "bfs": [
+        1343,
+        1348
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Als «Adresse der Kirchgemeinde bzw. des Kirchenrates» publiziert. Umfasst die Pfarreien Innerthal und Vorderthal."
@@ -443,25 +707,41 @@
     {
       "id": "sz-wangen",
       "name": "Römisch-katholische Kirchgemeinde Wangen",
-      "postal": ["Römisch-katholische Kirchgemeinde Wangen", "Kirchenrat", "c/o Röm. kath. Pfarramt Wangen SZ", "Dorfplatz 8", "8855 Wangen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wangen",
+        "Kirchenrat",
+        "c/o Röm. kath. Pfarramt Wangen SZ",
+        "Dorfplatz 8",
+        "8855 Wangen"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-wangensz.ch/",
       "source": "https://www.pfarrei-wangensz.ch/kirche/ueber-uns/kirchenrat.html/326",
       "bfs": [],
-      "partial_bfs": [1349],
+      "partial_bfs": [
+        1349
+      ],
       "confidence": "medium",
       "note": "Kirchenrat ohne eigene Postadresse publiziert; Adresse des Pfarramts."
     },
     {
       "id": "sz-wollerau",
       "name": "Römisch-katholische Kirchgemeinde Wollerau",
-      "postal": ["Römisch-katholische Kirchgemeinde Wollerau", "Kirchenrat", "c/o Seelsorgeraum Berg", "Hauptstrasse 28", "8832 Wollerau"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wollerau",
+        "Kirchenrat",
+        "c/o Seelsorgeraum Berg",
+        "Hauptstrasse 28",
+        "8832 Wollerau"
+      ],
       "address_type": "sekretariat",
       "email": "kgwollerau@seelsorgeraum-berg.ch",
       "website": "https://seelsorgeraum-berg.ch/wir/kirchenrat-wollerau/",
       "source": "https://seelsorgeraum-berg.ch/wir/kirchenrat-wollerau/",
       "bfs": [],
-      "partial_bfs": [1323],
+      "partial_bfs": [
+        1323
+      ],
       "confidence": "medium",
       "note": "Adresse des gemeinsamen Sekretariats Seelsorgeraum Berg; die Kantonalkirche nennt für das Pfarramt Postfach 527, 8832 Wollerau."
     }
@@ -472,49 +752,73 @@
       "how": "Die Steuerfusstabelle 2026 führt für Feusisberg zwei Kirchgemeinden: Feusisberg und Schindellegi. Wer im Ortsteil Schindellegi wohnt, gehört zur Kirchgemeinde Schindellegi, das übrige Gemeindegebiet zur Kirchgemeinde Feusisberg. Eine genaue Grenze ist nicht publiziert; im Zweifel beim Steueramt der Gemeinde nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Feusisberg": "sz-feusisberg", "Schindellegi": "sz-schindellegi"}
+      "ortsteile": {
+        "Feusisberg": "sz-feusisberg",
+        "Schindellegi": "sz-schindellegi"
+      }
     },
     {
       "bfs": 1323,
       "how": "Die Steuerfusstabelle 2026 führt für Wollerau zwei Kirchgemeinden: Wollerau und Schindellegi. Der Wollerauer Teil des Dorfs Schindellegi gehört zur Kirchgemeinde Schindellegi, das übrige Gemeindegebiet zur Kirchgemeinde Wollerau. Eine genaue Grenze ist nicht publiziert; im Zweifel beim Steueramt der Gemeinde nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Wollerau": "sz-wollerau", "Schindellegi": "sz-schindellegi"}
+      "ortsteile": {
+        "Wollerau": "sz-wollerau",
+        "Schindellegi": "sz-schindellegi"
+      }
     },
     {
       "bfs": 1331,
       "how": "Der Bezirk Küssnacht hat drei Kirchgemeinden: Küssnacht, Immensee und Merlischachen. Massgebend ist der Ortsteil des Wohnsitzes (Steuerfusstabelle 2026: Küssnacht, Küssnacht-Immensee, Küssnacht-Merlischachen).",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Küssnacht am Rigi": "sz-kuessnacht", "Immensee": "sz-immensee", "Merlischachen": "sz-merlischachen"}
+      "ortsteile": {
+        "Küssnacht am Rigi": "sz-kuessnacht",
+        "Immensee": "sz-immensee",
+        "Merlischachen": "sz-merlischachen"
+      }
     },
     {
       "bfs": 1342,
       "how": "Die Steuerfusstabelle 2026 führt für Galgenen zwei Kirchgemeinden: Galgenen und Siebnen. Der Galgener Teil des Dorfs Siebnen gehört zur Kirchgemeinde Siebnen, das übrige Gemeindegebiet zur Kirchgemeinde Galgenen. Eine genaue Grenze ist nicht publiziert; im Zweifel beim Steueramt der Gemeinde nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Galgenen": "sz-galgenen", "Siebnen": "sz-siebnen"}
+      "ortsteile": {
+        "Galgenen": "sz-galgenen",
+        "Siebnen": "sz-siebnen"
+      }
     },
     {
       "bfs": 1346,
       "how": "Die Steuerfusstabelle 2026 führt für Schübelbach drei Kirchgemeinden: Schübelbach, Buttikon und Siebnen. Massgebend ist der Ortsteil des Wohnsitzes. Eine genaue Grenze ist nicht publiziert; im Zweifel beim Steueramt der Gemeinde nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Schübelbach": "sz-schuebelbach", "Buttikon": "sz-buttikon", "Siebnen": "sz-siebnen"}
+      "ortsteile": {
+        "Schübelbach": "sz-schuebelbach",
+        "Buttikon": "sz-buttikon",
+        "Siebnen": "sz-siebnen"
+      }
     },
     {
       "bfs": 1349,
       "how": "Die Steuerfusstabelle 2026 führt für Wangen drei Kirchgemeinden: Wangen, Nuolen und Siebnen. Massgebend ist der Ortsteil des Wohnsitzes. Eine genaue Grenze ist nicht publiziert; im Zweifel beim Steueramt der Gemeinde nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Wangen SZ": "sz-wangen", "Nuolen": "sz-nuolen", "Siebnen": "sz-siebnen"}
+      "ortsteile": {
+        "Wangen SZ": "sz-wangen",
+        "Nuolen": "sz-nuolen",
+        "Siebnen": "sz-siebnen"
+      }
     },
     {
       "bfs": 1375,
       "how": "Die Steuerfusstabelle 2026 führt für Unteriberg zwei Kirchgemeinden: Unteriberg und Studen. Wer im Ortsteil Studen wohnt, gehört zur Kirchgemeinde Studen, das übrige Gemeindegebiet zur Kirchgemeinde Unteriberg. Eine genaue Grenze ist nicht publiziert; im Zweifel beim Steueramt der Gemeinde nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {"Unteriberg": "sz-unteriberg", "Studen": "sz-studen"}
+      "ortsteile": {
+        "Unteriberg": "sz-unteriberg",
+        "Studen": "sz-studen"
+      }
     }
   ],
   "unmapped_bfs": [],

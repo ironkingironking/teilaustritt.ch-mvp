@@ -4,7 +4,12 @@
     "name": "Römisch-Katholische Landeskirche des Kantons Nidwalden",
     "short": "Katholische Kirche Nidwalden",
     "website": "https://www.kath-nw.ch/",
-    "postal": ["Röm.-Kath. Landeskirche Nidwalden", "Bahnhofplatz 4", "Postfach", "6371 Stans"]
+    "postal": [
+      "Röm.-Kath. Landeskirche Nidwalden",
+      "Bahnhofplatz 4",
+      "Postfach",
+      "6371 Stans"
+    ]
   },
   "austritt": {
     "recipient": "Präsidium (Präsident/Präsidentin) der Wohnsitz-Kirchgemeinde bzw. Kapellgemeinde",
@@ -44,11 +49,19 @@
     {
       "id": "nw-beckenried",
       "name": "Römisch-katholische Kirchgemeinde Beckenried",
-      "postal": ["Römisch-katholische Kirchgemeinde Beckenried", "Kirchenrat", "Seestrasse 20", "Postfach 31", "6375 Beckenried"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Beckenried",
+        "Kirchenrat",
+        "Seestrasse 20",
+        "Postfach 31",
+        "6375 Beckenried"
+      ],
       "address_type": "kirchenrat",
       "website": "https://pfarrei-beckenried.ch/",
       "source": "https://pfarrei-beckenried.ch/kontakt",
-      "bfs": [1501],
+      "bfs": [
+        1501
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Das Kirchenratspräsidium ist unter Seestrasse 20, Postfach 31 aufgeführt (gleiche Adresse wie das Pfarreisekretariat)."
@@ -56,11 +69,18 @@
     {
       "id": "nw-buochs",
       "name": "Römisch-katholische Kirchgemeinde Buochs",
-      "postal": ["Römisch-katholische Kirchgemeinde Buochs", "Kirchenrat", "Dorfstrasse 28", "6374 Buochs"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Buochs",
+        "Kirchenrat",
+        "Dorfstrasse 28",
+        "6374 Buochs"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarreibuochs.ch/",
       "source": "https://pfarreibuochs.ch/kirchenrat/",
-      "bfs": [1502],
+      "bfs": [
+        1502
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Die Kirchenrat-Seite nennt als Adresse das Pfarreisekretariat Dorfstrasse 28."
@@ -68,23 +88,37 @@
     {
       "id": "nw-bueren",
       "name": "Kapellgemeinde Büren",
-      "postal": ["Römisch-katholische Kapellgemeinde Büren", "Kapellrat", "Kirchstrasse 10", "6382 Büren NW"],
+      "postal": [
+        "Römisch-katholische Kapellgemeinde Büren",
+        "Kapellrat",
+        "Kirchstrasse 10",
+        "6382 Büren NW"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.kirchebueren.ch/",
       "source": "https://www.kirchebueren.ch/%C3%BCber-uns/kapellrat/",
       "bfs": [],
-      "partial_bfs": [1508],
+      "partial_bfs": [
+        1508
+      ],
       "confidence": "medium",
       "note": "Kapellrat ohne Postadresse; die Website nennt nur die Kaplanei Büren, Kirchstrasse 10. Kapellgemeinde im Gebiet der politischen Gemeinde Oberdorf."
     },
     {
       "id": "nw-dallenwil",
       "name": "Römisch-katholische Kirchgemeinde Dallenwil",
-      "postal": ["Römisch-katholische Kirchgemeinde Dallenwil", "Kirchenrat", "Kirchweg 9", "6386 Wolfenschiessen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Dallenwil",
+        "Kirchenrat",
+        "Kirchweg 9",
+        "6386 Wolfenschiessen"
+      ],
       "address_type": "pfarramt",
       "website": "https://seelsorgeraum-engelbergertal.ch/pfarrei-dallenwil",
       "source": "https://seelsorgeraum-engelbergertal.ch/pfarrei-dallenwil",
-      "bfs": [1503],
+      "bfs": [
+        1503
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kirchenrat ohne Postadresse; der Seelsorgeraum Engelbergertal nennt für die Pfarrei Dallenwil die gemeinsame Adresse Kirchweg 9, 6386 Wolfenschiessen."
@@ -92,12 +126,19 @@
     {
       "id": "nw-emmetten",
       "name": "Römisch-katholische Kirchgemeinde Emmetten",
-      "postal": ["Kirchgemeinde Emmetten", "Kirchenrat", "Kirchweg 7", "6376 Emmetten"],
+      "postal": [
+        "Kirchgemeinde Emmetten",
+        "Kirchenrat",
+        "Kirchweg 7",
+        "6376 Emmetten"
+      ],
       "address_type": "kirchenrat",
       "email": "praesidium@kirche-emmetten.ch",
       "website": "https://www.kirche-emmetten.ch/",
       "source": "https://www.kirche-emmetten.ch/pfarrei-kontakte",
-      "bfs": [1504],
+      "bfs": [
+        1504
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Adresse als «Kirchgemeinde Emmetten» publiziert."
@@ -105,23 +146,37 @@
     {
       "id": "nw-ennetbuergen",
       "name": "Römisch-katholische Kirchgemeinde Ennetbürgen",
-      "postal": ["Römisch-katholische Kirchgemeinde Ennetbürgen", "Kirchenrat", "Buochserstrasse 6", "6373 Ennetbürgen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Ennetbürgen",
+        "Kirchenrat",
+        "Buochserstrasse 6",
+        "6373 Ennetbürgen"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-ennetbuergen.ch/",
       "source": "https://www.pfarrei-ennetbuergen.ch/personen/kirchenrat.html",
       "bfs": [],
-      "partial_bfs": [1505],
+      "partial_bfs": [
+        1505
+      ],
       "confidence": "medium",
       "note": "Kirchenrat ohne Postadresse; die Website nennt nur das Pfarreisekretariat Buochserstrasse 6. Obbürgen und Bürgenstock gehören zur Kirchgemeinde Obbürgen."
     },
     {
       "id": "nw-ennetmoos",
       "name": "Katholische Kirchgemeinde St. Jakob Ennetmoos",
-      "postal": ["Katholische Kirchgemeinde St. Jakob Ennetmoos", "Kirchenrat", "Chilenmattli 1", "6372 Ennetmoos"],
+      "postal": [
+        "Katholische Kirchgemeinde St. Jakob Ennetmoos",
+        "Kirchenrat",
+        "Chilenmattli 1",
+        "6372 Ennetmoos"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-ennetmoos.ch/",
       "source": "https://pfarrei-ennetmoos.ch/kontakt",
-      "bfs": [1506],
+      "bfs": [
+        1506
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Website der Kirchgemeinde; als Anschrift ist das Katholische Pfarramt Chilenmattli 1 angegeben."
@@ -129,12 +184,19 @@
     {
       "id": "nw-hergiswil",
       "name": "Römisch-katholische Kirchgemeinde Hergiswil",
-      "postal": ["Römisch-katholische Kirchgemeinde Hergiswil", "Kirchenrat", "Dorfplatz 15", "6052 Hergiswil NW"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Hergiswil",
+        "Kirchenrat",
+        "Dorfplatz 15",
+        "6052 Hergiswil NW"
+      ],
       "address_type": "pfarramt",
       "email": "praesidium@kirche-hergiswil.ch",
       "website": "https://www.pfarrei-hergiswil.ch/",
       "source": "https://www.pfarrei-hergiswil.ch/kirchenrat/",
-      "bfs": [1507],
+      "bfs": [
+        1507
+      ],
       "partial_bfs": [],
       "confidence": "medium",
       "note": "Kirchenrat mit Funktionsadresse des Präsidiums; als Standort ist nur Dorfplatz 15 (Pfarrei St. Nikolaus) publiziert."
@@ -142,74 +204,118 @@
     {
       "id": "nw-kehrsiten",
       "name": "Kapellgemeinde Kehrsiten",
-      "postal": ["Kapellgemeinde Kehrsiten", "6365 Kehrsiten"],
-      "address_type": "praesidium",
+      "postal": [
+        "Kapellgemeinde Kehrsiten",
+        "Hostettli 13",
+        "6365 Kehrsiten"
+      ],
+      "address_type": "sekretariat",
       "email": "praesidentin@kapelle-kehrsiten.ch",
       "website": "https://www.kapelle-kehrsiten.ch/",
-      "source": "https://www.kapelle-kehrsiten.ch/kapellrat/",
+      "source": "https://www.kapelle-kehrsiten.ch/datenschutzerklaerung/",
       "bfs": [],
-      "partial_bfs": [1510],
+      "partial_bfs": [
+        1510
+      ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Als Kontakt ist nur die Privatadresse der Sekretärin publiziert; Funktionsadressen praesidentin@ und sekretariat@kapelle-kehrsiten.ch vorhanden."
+      "note": "Postadresse auf der Website prüfen. Als Kontakt ist nur die Privatadresse der Sekretärin publiziert; Funktionsadressen praesidentin@ und sekretariat@kapelle-kehrsiten.ch vorhanden. | Nachrecherche: Die Datenschutzerklärung nennt die Kapellgemeinde mit c/o einer Kapellrätin (Name weggelassen) an dieser Adresse; das Telefonbuch führt «Kapellgemeinde Kehrsiten Sekretariat, Hostettli 13» mit der Sekretariatsnummer. Die Kontaktseite nennt dagegen eine Person an Spichermatt 11. Wohl eine Privatwohnung, deshalb low. UID nicht geprüft (Abfragelimit)."
     },
     {
       "id": "nw-obbuergen",
       "name": "Katholische Kirchgemeinde Obbürgen / Fürigen / Bürgenstock",
-      "postal": ["Kath. Kirchgemeinde Obbürgen", "Kirchenrat", "Dönnimatt 5", "6363 Obbürgen"],
+      "postal": [
+        "Kath. Kirchgemeinde Obbürgen",
+        "Kirchenrat",
+        "Dönnimatt 5",
+        "6363 Obbürgen"
+      ],
       "address_type": "pfarramt",
       "website": "https://pfarrei-obbuergen.ch/",
       "source": "https://pfarrei-obbuergen.ch/kontakt",
       "bfs": [],
-      "partial_bfs": [1505, 1510],
+      "partial_bfs": [
+        1505,
+        1510
+      ],
       "confidence": "high",
       "note": "Laut Kirchgemeinde umfasst sie den Bereich der PLZ 6363 (Obbürgen, Fürigen, Bürgenstock), also Teile von Stansstad und Ennetbürgen. Sekretariat ist das Pfarramt Dönnimatt 5."
     },
     {
       "id": "nw-oberrickenbach",
       "name": "Kapellgemeinde Oberrickenbach",
-      "postal": ["Römisch-katholische Kapellgemeinde Oberrickenbach", "Kapellrat", "Kirchweg 9", "6386 Wolfenschiessen"],
+      "postal": [
+        "Römisch-katholische Kapellgemeinde Oberrickenbach",
+        "Kapellrat",
+        "Kirchweg 9",
+        "6386 Wolfenschiessen"
+      ],
       "address_type": "pfarramt",
       "website": "https://seelsorgeraum-engelbergertal.ch/kaplanei-oberrickenbach",
       "source": "https://seelsorgeraum-engelbergertal.ch/kaplanei-oberrickenbach",
       "bfs": [],
-      "partial_bfs": [1511],
+      "partial_bfs": [
+        1511
+      ],
       "confidence": "medium",
       "note": "Kapellrat ohne Postadresse; der Seelsorgeraum Engelbergertal nennt für die Kaplanei die gemeinsame Adresse Kirchweg 9, 6386 Wolfenschiessen."
     },
     {
       "id": "nw-stans",
       "name": "Römisch-katholische Kirchgemeinde Stans",
-      "postal": ["Kath. Kirchgemeinde Stans", "Kirchenrat", "Knirigasse 1", "6370 Stans"],
+      "postal": [
+        "Kath. Kirchgemeinde Stans",
+        "Kirchenrat",
+        "Knirigasse 1",
+        "6370 Stans"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-stans.ch/",
       "source": "https://www.pfarrei-stans.ch/pfarrei/menschen",
-      "bfs": [1509],
-      "partial_bfs": [1508],
+      "bfs": [
+        1509
+      ],
+      "partial_bfs": [
+        1508
+      ],
       "confidence": "medium",
       "note": "Kirchenrat ohne eigene Postadresse; die Website nennt nur die Pfarrei Stans, Knirigasse 1 (im Pfarrhaus). Umfasst auch den grössten Teil der Gemeinde Oberdorf (Art. 103 KV NW)."
     },
     {
       "id": "nw-stansstad",
       "name": "Römisch-katholische Kirchgemeinde Stansstad",
-      "postal": ["Kath. Kirchgemeinde Stansstad", "Kirchenrat", "Dorfstrasse 19", "6362 Stansstad"],
+      "postal": [
+        "Kath. Kirchgemeinde Stansstad",
+        "Kirchenrat",
+        "Dorfstrasse 19",
+        "6362 Stansstad"
+      ],
       "address_type": "kirchenrat",
       "email": "kirchenrat@pfarrei-stansstad.ch",
       "website": "https://pfarrei-stansstad.ch/",
       "source": "https://pfarrei-stansstad.ch/ueber-uns/",
       "bfs": [],
-      "partial_bfs": [1510],
+      "partial_bfs": [
+        1510
+      ],
       "confidence": "high",
       "note": "Kehrsiten (Kapellgemeinde) und Obbürgen/Fürigen/Bürgenstock (Kirchgemeinde Obbürgen) gehören nicht dazu."
     },
     {
       "id": "nw-wolfenschiessen",
       "name": "Römisch-katholische Kirchgemeinde Wolfenschiessen",
-      "postal": ["Römisch-katholische Kirchgemeinde Wolfenschiessen", "Kirchenrat", "Kirchweg 9", "6386 Wolfenschiessen"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wolfenschiessen",
+        "Kirchenrat",
+        "Kirchweg 9",
+        "6386 Wolfenschiessen"
+      ],
       "address_type": "pfarramt",
       "website": "https://seelsorgeraum-engelbergertal.ch/pfarrei-wolfenschiessen",
       "source": "https://seelsorgeraum-engelbergertal.ch/pfarrei-wolfenschiessen",
       "bfs": [],
-      "partial_bfs": [1511],
+      "partial_bfs": [
+        1511
+      ],
       "confidence": "medium",
       "note": "Kirchenrat ohne Postadresse; die Pfarrei ist unter Kirchweg 9 publiziert. Oberrickenbach ist eigene Kapellgemeinde."
     }

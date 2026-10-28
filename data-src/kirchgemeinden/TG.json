@@ -347,13 +347,14 @@
       "name": "Katholische Kirchgemeinde Hagenwil bei Amriswil",
       "postal": [
         "Katholische Kirchgemeinde Hagenwil bei Amriswil",
+        "Hofwiesstrasse 1",
         "8580 Hagenwil b. Amriswil"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "website": "https://kath-hagenwil.ch/",
-      "source": "https://kath-hagenwil.ch/kontakt",
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen: Website nennt keine Postadresse (nur E-Mail/Telefon des Kirchgemeinderats). Fusion mit Amriswil angestrebt (Kirchenrat-Vorbehalt «bis 2029», Protokoll 22.4.2026).",
+      "source": "http://files.designer.hoststar.ch/4c/37/4c376bb1-ff8c-495b-a406-6fb106af1ac3.pdf",
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen: Website nennt keine Postadresse (nur E-Mail/Telefon des Kirchgemeinderats). Fusion mit Amriswil angestrebt (Kirchenrat-Vorbehalt «bis 2029», Protokoll 22.4.2026). | Nachrecherche: Das Protokoll der KGV vom 22.4.2026 (kath-hagenwil.ch) führt das Pfarrhaus an der Hofwiesstrasse 1; Telefonbuch: röm.-kath. Hagenwil, Pfarreibüro, Hofwiesstrasse 1. Die Website selbst nennt keine Postadresse. UID nicht geprüft (Abfragelimit).",
       "bfs": [],
       "partial_bfs": [
         4461
