@@ -10,10 +10,21 @@ ohne_str   = Treffer ohne Strasse in der Postadresse (Person muss ergänzen)
 
 Usage: python3 -I tools/check-coverage.py [--list KT]
 """
-import json, os, sys, collections
+import json, os, sys, collections, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load = lambda p: json.load(open(os.path.join(ROOT, p), encoding="utf-8"))
+
+TODAY = datetime.date.today().isoformat()
+
+def current(reg, kid):
+    """Wie die Seite: nach «bis» gilt der Nachfolger, vor «ab» gilt ein Eintrag noch nicht."""
+    k = reg["kg"].get(kid, {})
+    return k["nf"] if k.get("bis") and TODAY > k["bis"] and k.get("nf") in reg["kg"] else kid
+
+def current_ids(reg, ids):
+    live = [i for i in dict.fromkeys(current(reg, i) for i in ids) if not reg["kg"].get(i, {}).get("ab", "") > TODAY]
+    return live or ids
 
 def main():
     show = sys.argv[2] if len(sys.argv) > 2 and sys.argv[1] == "--list" else None
@@ -26,7 +37,7 @@ def main():
         reg = regs.get(kt)
         if not reg:
             continue
-        ids = reg["gemeinden"].get(str(bfs), [])
+        ids = current_ids(reg, reg["gemeinden"].get(str(bfs), []))
         if not ids:
             res, kg = "fehlt", None
         elif len(ids) == 1:
@@ -34,6 +45,7 @@ def main():
         else:
             sp = reg["split"].get(str(bfs), {})
             kg = sp.get("plz", {}).get(plz) or sp.get("ort", {}).get(ort) or sp.get("default")
+            kg = current(reg, kg) if kg else None
             res = "vorschlag" if kg else ("strasse" if sp.get("geo") else "wählen")
         stats[kt][res] += 1
         if kg:

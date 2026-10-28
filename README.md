@@ -71,6 +71,19 @@ und erscheinen nicht auf der Seite. Einen Text für die Besucher setzt man mit `
 (Kirchgemeinde) bzw. `public_how` (geteilte Gemeinde). Nach Gemeindefusionen zuerst
 `build-orte.py`, dann die BFS-Nummern in `data-src/` nachführen.
 
+`issues` enthält nur offene Fragen. Wie eine Zuordnung hergeleitet wurde (Gesetz, Geodaten,
+Steuerfusstabelle), steht in `grundlage`.
+
+Beschlossene Fusionen mit Stichtag: Die bisherigen Einträge bekommen `bis` (letzter gültiger Tag)
+und `nachfolger` (id), der neue Eintrag `ab` (erster gültiger Tag) und dieselben BFS-Nummern. Die
+Seite wählt nach dem heutigen Datum, ohne neuen Build. Nach dem Stichtag können die alten Einträge
+bei Gelegenheit gelöscht werden.
+
+Kantonsebene (`austritt`): `recipient_level` ist `kirchgemeinde`, `kanton` (zentrale Stelle),
+`gemeinde` (politische Gemeinde, z. B. VS) oder `keine`. `bistum_informiert: true` heisst, dass
+Pfarrer und Bistum nach kantonalem Recht informiert werden (FR); der Brief lässt dann die Bitte
+weg, Pfarrei und Bistum nicht zu informieren.
+
 Geteilte Gemeinden: `ortsteile` darf beschreibend sein («Hellbühl (6016)», «übriges Gebiet»).
 `build-registry.py` macht daraus Regeln nach PLZ, amtlicher Ortschaft und «übrigem Gebiet». Die
 Seite schlägt so die wahrscheinliche Kirchgemeinde vor und lässt eine andere wählen.

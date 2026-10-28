@@ -136,7 +136,7 @@ def canton_entry(kt, src, register):
         "name": CANTONS[kt],
         "register": register,
         "body": {k: src["body"].get(k) for k in ("name", "short", "website", "postal") if src["body"].get(k)},
-        "austritt": {k: a.get(k) for k in ("recipient", "recipient_level", "form", "beglaubigung", "public_hinweis",
+        "austritt": {k: a.get(k) for k in ("recipient", "recipient_level", "form", "beglaubigung", "bistum_informiert", "public_hinweis",
                                            "public_hinweis_fr", "public_hinweis_it", "public_hinweis_en",
                                            "beglaubigung_note", "wirkung", "notes", "source") if a.get(k) not in (None, "")},
         "finder": src.get("finder"),
@@ -178,6 +178,8 @@ def main():
                 "w": k.get("website"), "s": k.get("source"), "c": k["confidence"], "note": note,
                 "home": home if home != kt and home in CANTONS else None,
                 "ns": True if not has_street(k["postal"]) else None,
+                # Fusion mit Stichtag: alte Einträge gelten «bis», der Nachfolger «ab»; die Seite wählt nach Datum
+                "ab": k.get("ab"), "bis": k.get("bis"), "nf": k.get("nachfolger"),
             }.items() if val not in (None, "", [])}
             for b in k.get("bfs", []) + k.get("partial_bfs", []):
                 gemeinden.setdefault(str(b), []).append(k["id"])

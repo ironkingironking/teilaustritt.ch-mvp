@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028c";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028d";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -201,22 +201,34 @@ async function resolveMunicipality(bfs) {
     setStatus(t("loadKgErr"), "err");
   }
   const reg = state.registries[kt];
-  const ids = reg?.gemeinden?.[bfs] || [];
+  const ids = currentIds(reg, reg?.gemeinden?.[bfs] || []);
   if (ids.length === 1) {
     setKg(kt, ids[0]);
   } else if (ids.length > 1) {
     // Geteilte Gemeinde: wahrscheinliche Kirchgemeinde über PLZ, Ortschaft oder «übriges Gebiet»
     const split = reg.split?.[bfs] || {};
     const p = state.place;
-    const guess = (p && (split.plz?.[p.plz] || split.ort?.[p.ort])) || split.default;
+    const guess = current(reg, (p && (split.plz?.[p.plz] || split.ort?.[p.ort])) || split.default);
     state.split = { ids, split };
     if (guess && ids.includes(guess)) setKg(kt, guess);
   }
   render();
 }
 
+// Fusion mit Stichtag: Ein Eintrag gilt von «ab» bis «bis»; danach übernimmt der Nachfolger («nf»)
+const today = () => new Date().toLocaleDateString("sv-SE");
+function current(reg, id) {
+  const kg = reg?.kg?.[id];
+  return kg?.bis && today() > kg.bis && reg.kg[kg.nf] ? kg.nf : id;
+}
+function currentIds(reg, ids) {
+  const live = [...new Set(ids.map((id) => current(reg, id)))].filter((id) => !(reg.kg[id]?.ab > today()));
+  return live.length ? live : ids;
+}
+
 function setKg(kt, id) {
   const reg = state.registries[kt];
+  id = current(reg, id);
   const kg = reg?.kg?.[id];
   state.kg = kg ? { ...kg, id, kt, stand: reg.stand } : null;
   // Ohne Strasse direkt den Editor öffnen, damit die Adresse vervollständigt wird
@@ -556,7 +568,7 @@ function buildBody(L) {
     "",
     per === "datum" ? L.effectDate(datum || ph(L.ph.date)) : L.effectSoon,
     "",
-    L.confirm,
+    rulesCanton()?.austritt?.bistum_informiert ? L.confirmNoDiocese : L.confirm,
     ...(zusatz ? ["", zusatz] : []),
   ].join("\n");
 }
