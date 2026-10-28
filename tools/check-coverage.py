@@ -38,7 +38,7 @@ def main():
         stats[kt][res] += 1
         if kg:
             k = reg["kg"][kg]
-            if k.get("t") == "praesidium" or len(k["p"]) < 3:
+            if k.get("t") == "praesidium" or k.get("ns"):
                 stats[kt]["ohne_str"] += 1
         if show == kt and res in ("wählen", "fehlt", "strasse"):
             print(f"  {res:8} {plz} {ort} ({name})")

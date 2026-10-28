@@ -240,7 +240,11 @@ async function streetLookup(street) {
     const res = await fetch(url);
     if (!res.ok) throw new Error("search");
     const results = (await res.json()).results || [];
-    const hit = results.find((r) => String(r.attrs?.label || "").includes(place.plz)) || results[0];
+    // Treffer mit genau dieser Strasse und Nummer vor allen anderen; die Suche rankt sonst unscharf
+    const plain = (r) => norm(String(r.attrs?.label || "").replace(/<[^>]+>/g, ""));
+    const want = norm(street);
+    const hit = results.find((r) => plain(r).startsWith(want + " ") && plain(r).includes(place.plz))
+      || results.find((r) => String(r.attrs?.label || "").includes(place.plz)) || results[0];
     if (!hit) { state.streetMsg = "Adresse nicht gefunden. Prüfe die Schreibweise oder wähle selbst."; render(); return; }
     const geo = await fetchJSON(split.geo);
     const pt = geo.crs === "EPSG:4326" ? [Number(hit.attrs.lon), Number(hit.attrs.lat)] : [Number(hit.attrs.y), Number(hit.attrs.x)];
@@ -256,6 +260,7 @@ async function streetLookup(street) {
       state.streetMsg = `Für «${label}» konnten wir keine Kirchgemeinde bestimmen. Bitte wähle selbst.`;
     }
   } catch (e) {
+    console.warn("Strassensuche:", e);
     state.streetMsg = "Die Strassensuche ist gerade nicht erreichbar. Bitte wähle selbst.";
   }
   render();
@@ -355,8 +360,8 @@ function reportLink(subjectExtra) {
   return `<a href="mailto:${REPORT_MAIL}?subject=${subject}">Fehler melden</a>`;
 }
 
-// Kirchgemeinde ohne vollständige eigene Postadresse: nur Name und PLZ/Ort
-const needsStreet = (kg) => kg.t === "praesidium" || kg.p.length < 3;
+// Kirchgemeinde ohne Strasse oder Postfach in der Postadresse (ns wird beim Build gesetzt)
+const needsStreet = (kg) => Boolean(kg?.ns) || kg?.t === "praesidium";
 
 function addressNotice(kg) {
   if (state.manualRecipient) return "";

@@ -103,6 +103,12 @@ def public_how(text):
     keep = [s for s in sentences if not TECH.search(s) and not re.search(r"Steuerfuss(tabelle|verzeichnis)", s)]
     return " ".join(keep).replace(" ", " ").strip()
 
+STREET = re.compile(r"\d|strasse|str\.|gasse|weg\b|platz|postfach|case postale|casella postale|rue\b|chemin|route|via\b|piazza|avenue|place\b|quai|rain\b|halde|matte?\b|pfarrhaus", re.I)
+
+def has_street(postal):
+    """Hat die Postadresse zwischen Name und PLZ/Ort eine Strasse oder ein Postfach?"""
+    return any(STREET.search(line) for line in postal[1:-1])
+
 def canton_entry(kt, src, register):
     a = src.get("austritt", {})
     entry = {
@@ -147,6 +153,7 @@ def main():
                 "n": k["name"], "p": k["postal"], "t": k.get("address_type"), "e": k.get("email"),
                 "w": k.get("website"), "s": k.get("source"), "c": k["confidence"], "note": note,
                 "home": home if home != kt and home in CANTONS else None,
+                "ns": True if not has_street(k["postal"]) else None,
             }.items() if val not in (None, "", [])}
             for b in k.get("bfs", []) + k.get("partial_bfs", []):
                 gemeinden.setdefault(str(b), []).append(k["id"])
