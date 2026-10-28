@@ -27,7 +27,9 @@
     "https://www.jura.ch/Htdocs/Files/v/df8873b29ac94b19ca37ba3cd2342e441d1d36d69901ca072f0552c0edab3822.pdf/quotites_2026.pdf?download=1",
     "https://web.archive.org/web/20260420125218/https://www.jurapastoral.ch/cec/cec-contact/",
     "https://web.archive.org/web/20260420122933/https://www.jurapastoral.ch/cec/recueil-de-legislation/",
-    "https://web.archive.org/web/20260420130305/https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/"
+    "https://web.archive.org/web/20260420130305/https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+    "https://rsju.jura.ch/fr/Sommaire/Journal-officiel/Journaux-officiels-2026.html",
+    "https://rsju.jura.ch/fr/Sommaire/Journal-officiel/Journaux-officiels-2025.html"
   ],
   "kirchgemeinden": [
     {
@@ -303,20 +305,22 @@
     },
     {
       "id": "ju-courrendlin",
-      "name": "Commune ecclésiastique de Courrendlin",
+      "name": "Commune ecclésiastique Saint-Randoald",
       "postal": [
-        "Commune ecclésiastique de Courrendlin",
+        "Commune ecclésiastique Saint-Randoald",
         "Conseil de la commune ecclésiastique",
         "2830 Courrendlin"
       ],
       "address_type": "praesidium",
+      "email": "secretariat@strandoald.ch",
       "source": "https://web.archive.org/web/20260116033524/https://www.jurapastoral.ch/communes/courrendlin/",
       "bfs": [
-        6708
+        6708,
+        6704
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Ob Rebeuvelier und Vellerat (seit 2019 Gemeinde Courrendlin) zu dieser Commune ecclésiastique gehören, ist nicht belegt."
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Seite heisst «Courrendlin»; im Journal officiel heisst die Commune ecclésiastique «Saint-Randoald» (Courrendlin) und umfasst laut Wahltraktanden auch Châtillon und Rebeuvelier (JO 41/2025: https://rsju.jura.ch/Htdocs/Files/v/249481bcb6dd5d7b2ee5beeb1db8751dc3bce9f2f48ebe89d5c546f889e0b48e.pdf/JO_41_20.11.25_web.pdf?download=1 ; JO 16/2026: https://rsju.jura.ch/Htdocs/Files/v/497cd29ce344671cccac59cf2f769e39a7d26a2d4ca5cae64cd72048f4c36fa1.pdf/JO_16_30.04.26_web.pdf?download=1). Mail laut JO. Rossemaison und Vellerat nicht belegt."
     },
     {
       "id": "ju-courroux",
@@ -599,12 +603,14 @@
       ],
       "address_type": "praesidium",
       "source": "https://web.archive.org/web/20260311004651/https://www.jurapastoral.ch/communes/st-ursanne-et-environs/",
-      "bfs": [],
+      "bfs": [
+        6759
+      ],
       "partial_bfs": [
         6808
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Umfasst auch Soubey (Versammlung in Soubey, Cure de Soubey im Besitz der CE, gleicher Steuersatz 9,7 %; JO 2/2025: https://rsju.jura.ch/Htdocs/Files/v/cd70941a0b843ef9153d2faa5ba2a28839c646119444378f5a173e3b368391f2.pdf/JO_02_16.01.25_web.pdf?download=1). Pfarreisekretariat (Cure): Rue de la Tour 7, 2882 Saint-Ursanne."
     },
     {
       "id": "ju-alle",
@@ -641,6 +647,23 @@
       "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
     },
     {
+      "id": "ju-la-baroche",
+      "name": "Commune ecclésiastique de La Baroche",
+      "postal": [
+        "Commune ecclésiastique de La Baroche",
+        "Conseil de la commune ecclésiastique",
+        "2946 Miécourt"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210154554/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-jean-alle-baroche-vendline/communes-ecclesiastiques/",
+      "bfs": [
+        6810
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Ort = Versammlungsort laut Journal officiel (salle paroissiale de Miécourt)."
+    },
+    {
       "id": "ju-vendlincourt",
       "name": "Commune ecclésiastique de Vendlincourt",
       "postal": [
@@ -656,6 +679,30 @@
       "partial_bfs": [],
       "confidence": "low",
       "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-haute-ajoie",
+      "name": "Commune ecclésiastique de Haute-Ajoie",
+      "postal": [
+        "Commune ecclésiastique de Haute-Ajoie",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat paroissial Saint-Martin",
+        "Rue de la Citadelle 132",
+        "2906 Chevenez"
+      ],
+      "address_type": "sekretariat",
+      "email": "saintmartin@jurapastoral.ch",
+      "source": "https://web.archive.org/web/20260210161337/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-martin-haute-ajoie/contacts/",
+      "bfs": [
+        6809,
+        6778,
+        6785,
+        6789,
+        6792
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Neue Commune ecclésiastique (2026) aus den 8 früheren CE Bure, Chevenez, Courtedoux, Damvant, Fahy, Grandfontaine-Roche d'Or, Réclère, Rocourt; deren Unterlagen liegen laut Journal officiel beim Secrétariat paroissial Saint-Martin in Chevenez (JO 40/2025: https://rsju.jura.ch/Htdocs/Files/v/ab2a0f9338afbcabb6f7ca931a4197ae0814f744267b5e9b7c6a7196e040d03d.pdf/JO_40_13.11.25_web.pdf?download=1 ; JO 20/2026: https://rsju.jura.ch/Htdocs/Files/v/8169c86e6dd66e4b6aa40e3ad6dd08f382e793a0fff0737254717516199b590a.pdf/JO_20_29.05.26_web.pdf?download=1). Strasse aus der archivierten Kontaktseite der Pfarrei St-Martin."
     },
     {
       "id": "ju-cornol",
@@ -702,11 +749,12 @@
       "address_type": "praesidium",
       "source": "https://web.archive.org/web/20260210161612/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-pierre-en-ajoie/communes-ecclesiastiques/",
       "bfs": [
-        6800
+        6800,
+        6790
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Einzige Commune ecclésiastique der Pfarrei St-Pierre en Ajoie (Porrentruy); welche weiteren Gemeinden (Fontenais, Courtedoux, Bure, Fahy, Grandfontaine?) dazugehören, ist nicht belegt."
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Einzige Commune ecclésiastique der Pfarrei St-Pierre en Ajoie; Versammlung 2026 in Fontenais, gleicher Steuersatz 7,2 % wie Porrentruy und Fontenais (JO 17/2026: https://rsju.jura.ch/Htdocs/Files/v/b2c9e48860e1bfc77fa60d5032cce1c51fc5fe9b0e1fa1c29789ca231af30e15.pdf/JO_17_07.05.26_web.pdf?download=1). Unterlagen «au secrétariat des Sources» (Adresse nicht genannt; Pfarreisekretariat St-Pierre: Rue du Collège 1, 2900 Porrentruy, nicht als CE-Sekretariat bestätigt)."
     },
     {
       "id": "ju-saignelegier",
@@ -744,9 +792,9 @@
     },
     {
       "id": "ju-saint-brais",
-      "name": "Commune ecclésiastique de Saint-Brais",
+      "name": "Commune ecclésiastique de Saint-Brais, Montfavergier, Sceut et Les Sairains",
       "postal": [
-        "Commune ecclésiastique de Saint-Brais",
+        "Commune ecclésiastique de Saint-Brais, Montfavergier, Sceut et Les Sairains",
         "Conseil de la commune ecclésiastique",
         "2364 St-Brais"
       ],
@@ -755,9 +803,12 @@
       "bfs": [
         6758
       ],
-      "partial_bfs": [],
+      "partial_bfs": [
+        6729,
+        6751
+      ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Name und Gebiet laut Journal officiel (JO 20/2025: https://rsju.jura.ch/Htdocs/Files/v/6f070e80752723c3455456b043f65b241207801e90f7fee2ad8a5f6a87298a62.pdf/JO_20_30.05.25_web.pdf?download=1): umfasst auch Montfavergier (Gemeinde Montfaucon) und Sceut (Gemeinde Haute-Sorne)."
     },
     {
       "id": "ju-les-bois",
@@ -844,7 +895,7 @@
         6751
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Montfavergier (Gemeinde Montfaucon) hat einen eigenen kirchlichen Steuersatz und gehört vermutlich zu einer anderen Commune ecclésiastique."
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Montfavergier (Gemeinde Montfaucon) gehört zur Commune ecclésiastique Saint-Brais."
     },
     {
       "id": "ju-les-breuleux",
@@ -887,7 +938,7 @@
   "split": [
     {
       "bfs": 6729,
-      "how": "Nach früherer Gemeinde (eigene kirchliche Steuersätze je Ortsteil): Bassecourt, Courfaivre, Glovelier, Soulce, Undervelier haben je eine eigene Commune ecclésiastique. Für den Weiler Sceut (eigener Steuersatz) und Les Ecorcheresses ist die Zuständigkeit nicht ermittelt.",
+      "how": "Nach früherer Gemeinde (eigene kirchliche Steuersätze je Ortsteil): Bassecourt, Courfaivre, Glovelier, Soulce, Undervelier haben je eine eigene Commune ecclésiastique. Der Weiler Sceut (bei Glovelier, eigener Steuersatz) gehört zur Commune ecclésiastique Saint-Brais, Montfavergier, Sceut et Les Sairains. Für Les Ecorcheresses ist die Zuständigkeit nicht ermittelt.",
       "ortsteile": {
         "2854 Bassecourt": "ju-bassecourt",
         "2853 Courfaivre": "ju-courfaivre",
@@ -948,32 +999,27 @@
     },
     {
       "bfs": 6751,
-      "how": "Montfaucon → Commune ecclésiastique de Montfaucon-Les Enfers; Montfavergier hat einen eigenen kirchlichen Steuersatz, die zuständige Commune ecclésiastique ist nicht ermittelt.",
-      "ortsteile": {},
+      "how": "Montfaucon → Commune ecclésiastique de Montfaucon-Les Enfers; Montfavergier → Commune ecclésiastique Saint-Brais, Montfavergier, Sceut et Les Sairains (eigener Steuersatz).",
+      "ortsteile": {
+        "2362 Montfaucon": "ju-montfaucon-les-enfers",
+        "2362 Montfavergier": "ju-saint-brais"
+      },
       "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
       "geodata": null
     }
   ],
   "unmapped_bfs": [
-    6704,
     6713,
     6721,
     6741,
-    6753,
-    6759,
-    6778,
-    6785,
-    6789,
-    6790,
-    6792,
-    6809,
-    6810
+    6753
   ],
   "issues": [
     "jurapastoral.ch (Website der CEC und aller Communes ecclésiastiques) war aus dieser Umgebung nicht erreichbar (TLS-Abbruch, auch per WebFetch). Alle Adressen stammen aus Wayback-Snapshots Jan.–Juli 2026; die Liste der Communes ecclésiastiques auf jurapastoral.ch wird dynamisch geladen und war nicht archiviert. Deshalb höchstens confidence medium.",
-    "Viele Communes ecclésiastiques nennen nur Sekretärin/Präsidium mit Privatadresse: dort nur Name + PLZ Ort (low). Für 17 Communes ecclésiastiques (Ajoie-Teil und alle Freiberge) war gar keine Adresse abrufbar.",
-    "Zuordnung Gemeinde → Commune ecclésiastique nur indirekt: Name der Commune ecclésiastique = (frühere) Gemeinde, gestützt auf die kantonale Liste der kirchlichen Steuersätze 2026 (eigene Sätze je früherer Gemeinde). Eine amtliche Gebietsliste (CEC-Erlass 45.005/37.009) war nicht abrufbar.",
-    "Nicht zugeordnet (unmapped_bfs): Châtillon, Ederswiler, Rossemaison (Courrendlin-Sekretariat sitzt in Rossemaison; Zugehörigkeit zu Courrendlin möglich, nicht belegt), Le Bémont, Muriaux, Soubey, Bure, Courtedoux, Fahy, Fontenais, Grandfontaine (Les Sources oder Haute-Ajoie?); ausserdem Haute-Ajoie und La Baroche: Commune ecclésiastique gleichen Namens laut Pfarreiseite vorhanden, aber weder Adresse noch Ort ermittelt.",
+    "Viele Communes ecclésiastiques nennen nur Sekretärin/Präsidium mit Privatadresse: dort nur Name + PLZ Ort (low). Für 16 Communes ecclésiastiques (Teile der Ajoie und alle Freiberge) war gar keine Adresse abrufbar; dort steht Name + Ort der Commune ecclésiastique.",
+    "Zusätzlich ausgewertet: alle Journal-officiel-Ausgaben 2025/2026 (rsju.jura.ch, Versammlungsanzeigen der Communes ecclésiastiques), u. a. Fusion zur CE Haute-Ajoie, Gebiet von Saint-Randoald, Saint-Brais und Les Sources.",
+    "Zuordnung Gemeinde → Commune ecclésiastique sonst nur indirekt: Name der Commune ecclésiastique = (frühere) Gemeinde, gestützt auf die kantonale Liste der kirchlichen Steuersätze 2026 (eigene Sätze je früherer Gemeinde). Eine amtliche Gebietsliste (CEC-Erlass 45.005/37.009) war nicht abrufbar.",
+    "Nicht zugeordnet (unmapped_bfs): Ederswiler (deutschsprachig, keine Commune ecclésiastique im Journal officiel gefunden), Rossemaison (Sekretärin von Saint-Randoald wohnt dort, Steuersatz wie Courrendlin; Zugehörigkeit nicht belegt), Le Bémont und Muriaux (vermutlich Saignelégier bzw. Les Breuleux, nicht belegt).",
     "Wortlaut: LREE spricht vom Austritt aus der anerkannten Kirche (öffentlich-rechtliche Körperschaft); die Erklärung geht an die Paroisse/Commune ecclésiastique des Wohnsitzes.",
     "Moutier (seit 1.1.2026 jurassisch): Commune ecclésiastique umfasst auch bernische Gemeinden; Adresse aus Snapshot Juli 2026."
   ]

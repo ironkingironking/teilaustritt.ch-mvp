@@ -167,7 +167,7 @@ def main():
             by_plz, by_ort, default = resolve_split(s, s["bfs"], orte, gnames[b][0])
             ids = set(gemeinden.get(b, []))
             for name, rule in (("plz", by_plz), ("ort", by_ort)):
-                rule = {k: v for k, v in rule.items() if v in ids}
+                rule = dict(sorted((k, v) for k, v in rule.items() if v in ids))
                 if rule:
                     entry[name] = rule
             if default in ids:
