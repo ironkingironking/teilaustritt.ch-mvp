@@ -184,7 +184,7 @@ details.edit textarea{min-height:240px; margin-top:8px; font-family:var(--serif)
 .chips li.mine{border-color:var(--accent); background:var(--accent); color:#fff; font-weight:600}
 .tax-calc{margin-top:12px}
 .tax-calc h3{margin:0 0 4px; font-size:17px}
-.grid-calc{display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr); gap:0 12px}
+.grid-calc{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0 12px}
 .calc-amount{font-size:17px; font-weight:600; margin:16px 0 4px}
 @media (max-width:720px){ .grid-calc{grid-template-columns:1fr} }
 .tax-mine{margin:12px 0 0; padding:10px 12px; border-radius:var(--radius-sm); background:var(--accent-tint); font-size:15px}

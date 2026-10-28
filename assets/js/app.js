@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028f";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028g";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -378,8 +378,9 @@ function interpolate(xs, ys, x) {
 }
 
 function loadCalc() {
-  calc.loading ||= fetchJSON("data/steuer.json")
-    .then((d) => { calc.data = d; })
+  // Gemeindenamen kommen aus dem Ortschaftenverzeichnis (wie in Schritt 1)
+  calc.loading ||= Promise.all([fetchJSON("data/steuer.json"), loadPlaces()])
+    .then(([d]) => { calc.data = d; })
     .catch(() => { calc.failed = true; })
     .finally(renderTaxCalc);
 }
@@ -397,23 +398,44 @@ function setupTaxCalc(box) {
         <select id="calc-status"><option value="s">${esc(t("calcSingle"))}</option><option value="m">${esc(t("calcMarried"))}</option></select></div>
       <div><label for="calc-canton">${esc(t("calcCanton"))}</label>
         <select id="calc-canton"><option value=""></option>${cantons.map((kt) => `<option value="${kt}">${esc(cname(kt))}</option>`).join("")}</select></div>
+      <div><label for="calc-muni">${esc(t("calcMuni"))}</label>
+        <select id="calc-muni"><option value="">${esc(t("calcMuniAvg"))}</option></select></div>
     </div>
     <div id="calc-result" aria-live="polite"></div>`;
   $("calc-income").addEventListener("input", () => { loadCalc(); renderTaxCalc(); });
   $("calc-status").addEventListener("change", renderTaxCalc);
-  $("calc-canton").addEventListener("change", (ev) => { ev.target.dataset.touched = "1"; renderTaxCalc(); });
+  $("calc-canton").addEventListener("change", (ev) => { ev.target.dataset.touched = "1"; delete $("calc-muni").dataset.touched; loadCalc(); renderTaxCalc(); });
+  $("calc-muni").addEventListener("change", (ev) => { ev.target.dataset.touched = "1"; renderTaxCalc(); });
   box.hidden = false;
+}
+
+// Gemeinden des Kantons mit Faktor, alphabetisch; neu aufgebaut nur beim Kantonswechsel
+function fillMunis(kt) {
+  const muniSel = $("calc-muni");
+  const key = `${kt}|${!!calc.data && !!state.gemeinden}`;
+  if (muniSel.dataset.kt === key) return;
+  muniSel.dataset.kt = key;
+  const list = calc.data && state.gemeinden ? Object.keys(calc.data.gemeinden)
+    .filter((b) => state.gemeinden[b]?.[1] === kt)
+    .map((b) => [b, state.gemeinden[b][0]])
+    .sort((a, b) => a[1].localeCompare(b[1], LANG)) : [];
+  muniSel.innerHTML = `<option value="">${esc(t("calcMuniAvg"))}</option>`
+    + list.map(([b, n]) => `<option value="${b}">${esc(n)}</option>`).join("");
 }
 
 function renderTaxCalc() {
   const box = $("steuerrechner");
   if (!box || !state.kantone) return;
   if (!box.childElementCount) setupTaxCalc(box);
-  // Der Kanton folgt dem Wohnort aus Schritt 1, solange die Person ihn nicht selbst gewählt hat
+  // Kanton und Gemeinde folgen dem Wohnort aus Schritt 1, solange die Person sie nicht selbst wählt
   const mine = state.gemeinden?.[state.bfs];
   const sel = $("calc-canton");
   if (mine && !sel.dataset.touched) sel.value = mine[1];
   const kt = sel.value;
+  const muniSel = $("calc-muni");
+  fillMunis(kt);
+  if (mine?.[1] === kt && !muniSel.dataset.touched && muniSel.querySelector(`option[value="${state.bfs}"]`)) muniSel.value = String(state.bfs);
+  const bfs = muniSel.value;
   const income = Number($("calc-income").value.replace(/[^0-9]/g, ""));
   const out = $("calc-result");
   if (!income || !kt) { out.innerHTML = ""; return; }
@@ -421,12 +443,13 @@ function renderTaxCalc() {
   if (!calc.data) { loadCalc(); return; }
   const d = calc.data;
   const grid = d.kantone[kt];
-  const ratio = mine?.[1] === kt && d.gemeinden[state.bfs] != null ? d.gemeinden[state.bfs] : d.mittel?.[kt];
+  const ratio = bfs && d.gemeinden[bfs] != null ? d.gemeinden[bfs] : d.mittel?.[kt];
   if (!grid || ratio == null) { out.innerHTML = `<p>${esc(t("calcNone", cname(kt)))}</p>`; return; }
-  if (ratio === 0) { out.innerHTML = `<p>${esc(t("calcZero", mine?.[1] === kt ? mine[0] : cname(kt)))}</p>`; return; }
+  const gname = bfs && state.gemeinden?.[bfs]?.[0];
+  if (ratio === 0) { out.innerHTML = `<p>${esc(t("calcZero", gname || cname(kt)))}</p>`; return; }
   const married = $("calc-status").value === "m";
   const year = Math.round((interpolate(d.einkommen, married ? grid.m : grid.s, income) * ratio) / 10) * 10;
-  const basis = mine?.[1] === kt && d.gemeinden[state.bfs] != null ? t("calcBasis", mine[0], d.jahr) : t("calcBasisCanton", cname(kt), d.jahr);
+  const basis = gname ? t("calcBasis", gname, d.jahr) : t("calcBasisCanton", cname(kt), d.jahr);
   out.innerHTML = `<p class="calc-amount">${esc(t("calcResult", chf(year), chf(year * 10)))}</p>
     <p class="small">${esc([basis, t("calcNote"), married ? t("calcMarriedNote") : ""].filter(Boolean).join(" "))}</p>
     <div class="notice info"><p>${esc(t("calcDonate"))}</p></div>`;
