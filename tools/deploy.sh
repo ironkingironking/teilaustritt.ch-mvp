@@ -21,7 +21,8 @@ cd "$(dirname "$0")/.."
 
 verify() {
   echo "Prüfe live …"
-  if curl -fsS "$SITE/" | grep -q 'assets/js/app.js'; then echo "  index.html: neue Version"; else echo "  index.html: noch alte Version"; fi
+  local page; page="$(curl -fsS "$SITE/" || true)"
+  if [[ "$page" == *"assets/js/app.js"* ]]; then echo "  index.html: neue Version"; else echo "  index.html: noch alte Version"; fi
   for p in fr/ it/ en/ data/orte.json data/kantone.json data/kg/ZH.json data/geo/261.json assets/js/app.js assets/vendor/jspdf-2.5.1.umd.min.js; do
     printf '  %-40s %s\n' "$p" "$(curl -s -o /dev/null -w '%{http_code}' "$SITE/$p")"
   done
