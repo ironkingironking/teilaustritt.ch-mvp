@@ -1,0 +1,33 @@
+{
+  "canton": "NE",
+  "body": {
+    "name": "Fédération catholique romaine neuchâteloise (FCRN) – Église catholique romaine im Kanton Neuenburg",
+    "short": "FCRN",
+    "website": "https://www.cath-ne.ch/"
+  },
+  "austritt": {
+    "recipient": "Kein Austritt aus einer öffentlich-rechtlichen Körperschaft nötig: Die Contribution ecclésiastique ist freiwillig (Konkordat RSN 181.10, Art. 7–8).",
+    "recipient_level": "keine",
+    "form": "",
+    "beglaubigung": false,
+    "wirkung": "",
+    "notes": "Die kantonale Steuerverwaltung stellt die freiwillige Contribution ecclésiastique im April in Rechnung; bei Nichtzahlung erfolgt keine Betreibung.",
+    "source": "https://www.ne.ch/themes/impots/calculette-et-paiement-de-limpot"
+  },
+  "finder": null,
+  "has_kirchensteuer": false,
+  "summary": "In Neuenburg gibt es keine Kirchensteuer, sondern eine freiwillige Contribution ecclésiastique, die der Kanton für die anerkannten Kirchen in Rechnung stellt; bei Nichtzahlung wird nicht betrieben. Ein Austrittsschreiben ist für steuerliche Zwecke nicht nötig.",
+  "summary_fr": "À Neuchâtel, il n'y a pas d'impôt ecclésiastique mais une contribution ecclésiastique facultative, facturée par l'État pour les Églises reconnues ; en cas de non-paiement, aucune poursuite n'est engagée. Une lettre de sortie n'est pas nécessaire sur le plan fiscal.",
+  "summary_it": "A Neuchâtel non esiste un'imposta ecclesiastica ma un contributo ecclesiastico facoltativo, fatturato dal Cantone per le Chiese riconosciute; in caso di mancato pagamento non si procede a esecuzione. Non serve una lettera di uscita ai fini fiscali.",
+  "summary_en": "Neuchâtel has no church tax, only a voluntary church contribution that the canton invoices on behalf of the recognised churches; non-payment is not enforced. No exit letter is needed for tax purposes.",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://rsn.ne.ch/DATA/program/books/rsne/pdf/181.10.pdf",
+    "https://www.ne.ch/themes/impots/calculette-et-paiement-de-limpot"
+  ],
+  "issues": [
+    "Website der FCRN (cath-ne.ch) nicht abrufbar (TLS-Fehler); Adresse nicht übernommen.",
+    "Wer keine Rechnung mehr erhalten will, muss vermutlich die Konfessionsangabe bei Einwohnerkontrolle/Steuererklärung ändern; nicht amtlich verifiziert.",
+    "recipient_level 'keine' ist kein Wert aus dem Brief-Schema."
+  ]
+}

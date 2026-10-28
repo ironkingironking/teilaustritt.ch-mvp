@@ -1,2036 +1,2037 @@
 {
- "canton": "AG",
- "body": {
-  "name": "Römisch-Katholische Landeskirche des Kantons Aargau",
-  "short": "Römisch-Katholische Kirche im Aargau",
-  "website": "https://www.kathaargau.ch/",
-  "postal": [
-   "Römisch-Katholische Kirche im Aargau",
-   "Feerstrasse 8",
-   "Postfach",
-   "5001 Aarau"
+  "canton": "AG",
+  "body": {
+    "name": "Römisch-Katholische Landeskirche des Kantons Aargau",
+    "short": "Römisch-Katholische Kirche im Aargau",
+    "website": "https://www.kathaargau.ch/",
+    "postal": [
+      "Römisch-Katholische Kirche im Aargau",
+      "Feerstrasse 8",
+      "Postfach",
+      "5001 Aarau"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchenpflege der Kirchgemeinde am Wohnsitz (Organisationsstatut Art. 21 Abs. 3: Erklärung «beim Pfarramt oder bei der Kirchenpflege» zu hinterlegen)",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich, handschriftlich unterschrieben; mit Austrittswunsch, Personalien und Taufort bzw. Taufpfarrei; bei Kindern unter 16 Jahren Unterschrift beider sorgeberechtigten Eltern",
+    "beglaubigung": false,
+    "wirkung": "Wirksam ab dem Tag nach Eingang des Schreibens (Handreichung Bistum Basel, von der Landeskirche publiziert, gestützt auf BGer 2C_382/2008).",
+    "notes": "Die Landeskirche empfiehlt, eine schriftliche Bestätigung zu verlangen und dauerhaft aufzubewahren, da die austretende Person den Austritt nachweisen muss. Art. 21 Abs. 3 OS verlangt dem Wortlaut nach die Erklärung, der röm.-kath. Konfession nicht mehr angehören zu wollen; nach Bundesgericht (2C_406/2011) genügt jedoch ein auf die Körperschaft beschränkter Austritt.",
+    "source": "https://www.kathaargau.ch/eintreten-austreten/",
+    "public_hinweis": "Im Aargau verlangt das Organisationsstatut dem Wortlaut nach die Erklärung, der römisch-katholischen Konfession nicht mehr angehören zu wollen. Bei einem Austritt ohne Abwendung von der Kirche sieht die Checkliste der Landeskirche eine Kopie an das Generalvikariat (Bistum) vor. Das Bundesgericht hat 2007 entschieden, dass ein Austritt allein aus der Körperschaft möglich sein muss (BGE 134 I 75)."
+  },
+  "finder": "https://www.kathaargau.ch/ueber-uns/kirche-vor-ort/",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.kathaargau.ch/ueber-uns/kirche-vor-ort/",
+    "https://www.kathaargau.ch/wp-content/uploads/Kath-AG_Karte_Kirchgemeinden-in-Pastoralraeumen.pdf",
+    "https://www.kathaargau.ch/eintreten-austreten/",
+    "https://wikikath.ch/wp-content/uploads/Organisationsstatut-OS-der-Roem-Kath-Landeskirche-Aargau-2004_Vers_2023.pdf",
+    "https://wikikath.ch/wp-content/uploads/1.2_kirchenaustritt-grundlagen-richtlinien-konsequenzen.pdf",
+    "https://www.ag.ch/media/kanton-aargau/dfr/dokumente/steuern/natuerliche-personen/steuerberechnung-tarife-natuerliche-personen/gemeinde-und-kirchensteuerf-sse-2026-v5.pdf",
+    "https://www.kathaargau.ch/wp-content/uploads/Kathaargau_Jahresrechnung_2025.pdf",
+    "https://www.kathaargau.ch/wp-content/uploads/5_1_Bericht_und_Antrag_Zusammenschluss_KG_Kaisten-Ittenthal.pdf",
+    "https://www.kathaargau.ch/wp-content/uploads/Alle-Mitglieder-der-Synode-2023-2026.pdf",
+    "https://www.oftringen.ch/kirchen",
+    "https://www.densbueren.ch/kirche"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "ag-kreis-aarau",
+      "name": "Römisch-Katholische Kreiskirchgemeinde Aarau",
+      "postal": [
+        "Römisch-Katholische Kreiskirchgemeinde Aarau",
+        "Verwaltung der Kreiskirchgemeinde",
+        "Feerstrasse 4",
+        "5000 Aarau"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@pastoralraum-aarau.ch",
+      "website": "https://www.pastoralraum-aarau.ch/kreiskirchgemeinde/",
+      "source": "https://www.pastoralraum-aarau.ch/kreiskirchgemeinde/",
+      "bfs": [
+        4001,
+        4002,
+        4003,
+        4004,
+        4005,
+        4006,
+        4007,
+        4008,
+        4009,
+        4010,
+        4012,
+        4013,
+        4136,
+        4142,
+        4143,
+        4144,
+        4273,
+        4275,
+        4276,
+        4277,
+        4281,
+        4284,
+        4286,
+        4288
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kreiskirchgemeinde (OS Art. 41) aus den Ortskirchgemeinden Aarau, Buchs-Rohr, Entfelden, Schöftland und Suhr-Gränichen; die Jahresrechnung der Landeskirche führt sie als eine Kirchgemeinde «Aarau (KKG)», Karte und Synode zeigen die fünf Ortskirchgemeinden einzeln. Gemeindezuordnung aus Karte der Landeskirche und einheitlichem Kirchensteuerfuss 19 %. Densbüren laut Gemeinde Densbüren und Steuerfuss bei Aarau, pastoral vom Seelsorgeverband Homberg (Herznach) betreut; die KG Herznach-Ueken zählt Densbüren zu sich (siehe issues)."
+    },
+    {
+      "id": "ag-menziken-reinach",
+      "name": "Römisch-Katholische Kirchgemeinde Menziken-Reinach",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Menziken-Reinach",
+        "Sekretariat",
+        "Mühlebühlstrasse 5",
+        "5737 Menziken"
+      ],
+      "address_type": "sekretariat",
+      "email": "st.anna@kath-menziken.ch",
+      "website": "https://www.kath-menziken.ch/",
+      "source": "https://www.kath-menziken.ch/kirchgemeinde",
+      "bfs": [
+        4131,
+        4132,
+        4135,
+        4137,
+        4139,
+        4140,
+        4141,
+        4145,
+        4146,
+        4147
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat des Pastoralraums Aargau Süd, auf der Kirchgemeinde-Seite angegeben. Gemeindezuordnung (10 Gemeinden im Wynental/Seetal) aus Karte der Landeskirche und Kirchensteuerfuss 17 %."
+    },
+    {
+      "id": "ag-lenzburg",
+      "name": "Römisch-Katholische Kirchgemeinde Lenzburg",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Lenzburg",
+        "Kirchenpflege",
+        "Bahnhofstrasse 23",
+        "5600 Lenzburg"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "verwaltung@kathlenzburg.ch",
+      "website": "https://pastoralraum-lenzburg.ch/",
+      "source": "https://pastoralraum-lenzburg.ch/kirchgemeinde/",
+      "bfs": [
+        4091,
+        4134,
+        4138,
+        4191,
+        4192,
+        4193,
+        4195,
+        4197,
+        4198,
+        4199,
+        4200,
+        4201,
+        4203,
+        4204,
+        4205,
+        4206,
+        4207,
+        4209,
+        4210
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarreien Herz Jesu Lenzburg, St. Antonius Wildegg, St. Theresia Seon; laut Website 19 politische Gemeinden (nicht einzeln aufgezählt). Zuordnung aus Karte der Landeskirche und Kirchensteuerfuss 19 %."
+    },
+    {
+      "id": "ag-brugg",
+      "name": "Römisch-Katholische Kirchgemeinde Brugg",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Brugg",
+        "Kirchgemeindeverwaltung",
+        "Stapferstrasse 15",
+        "5200 Brugg"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@kathbrugg.ch",
+      "website": "https://www.kathbrugg.ch/",
+      "source": "https://kathbrugg.ch/ueber-uns/kirchgemeinde/",
+      "bfs": [
+        4092,
+        4093,
+        4095,
+        4099,
+        4100,
+        4104,
+        4106,
+        4107,
+        4110,
+        4111,
+        4112,
+        4117,
+        4120,
+        4121,
+        4123,
+        4124,
+        4125
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreien Brugg und Windisch (Pastoralraum Region Brugg-Windisch); Website zählt die 17 Gemeinden auf, Brugg inkl. Umiken, Schinznach Bad und Villnachern."
+    },
+    {
+      "id": "ag-zofingen",
+      "name": "Römisch-Katholische Kirchgemeinde Zofingen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Zofingen",
+        "Kirchenpflege",
+        "Mühlethalstrasse 13",
+        "4800 Zofingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchenpflege@kathzofingen.ch",
+      "website": "https://www.kathzofingen.ch/",
+      "source": "https://www.kathzofingen.ch/",
+      "bfs": [
+        4274,
+        4283,
+        4285,
+        4287,
+        4289
+      ],
+      "partial_bfs": [
+        4280
+      ],
+      "confidence": "high",
+      "note": "Website: «Unsere Kirchgemeinde befindet sich in den sechs Gemeinden Zofingen, Strengelbach, Oftringen, Safenwil, Brittnau und Vordemwald.» Oftringen nur teilweise (Oftringen Nord gehört zu Aarburg-Rothrist)."
+    },
+    {
+      "id": "ag-aarburg-rothrist",
+      "name": "Römisch-Katholische Kirchgemeinde Aarburg-Oftringen Nord/Rothrist-Murgenthal",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Aarburg-Oftringen Nord/Rothrist-Murgenthal",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Bahnhofstrasse 51",
+        "4663 Aarburg"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@kath-aaro.ch",
+      "website": "https://kath-aarburg-rothrist.ch/",
+      "source": "https://kath-aarburg-rothrist.ch/ueber-uns/eine-kirchgemeinde-zwei-pfarreien/",
+      "bfs": [
+        4271,
+        4279,
+        4282
+      ],
+      "partial_bfs": [
+        4280
+      ],
+      "confidence": "medium",
+      "note": "«Eine Kirchgemeinde – zwei Pfarreien» (Guthirt Aarburg, St. Paul Rothrist) mit gemeinsamer Kirchenpflege; Gebiet laut Website Aarburg, Murgenthal (Balzenwil, Glashütten, Riken), Oftringen-Nord und Rothrist. Name wie im Synode-Verzeichnis der Landeskirche; die Website publiziert nur die Pfarramtsadresse."
+    },
+    {
+      "id": "ag-rheinfelden-magden-olsberg",
+      "name": "Römisch-Katholische Kirchgemeinde Rheinfelden-Magden-Olsberg",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Rheinfelden-Magden-Olsberg",
+        "Hermann Keller-Strasse 10",
+        "4310 Rheinfelden"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pfarrei-rheinfelden.ch",
+      "website": "https://www.pfarrei-rheinfelden.ch/",
+      "source": "https://www.pfarrei-rheinfelden.ch/ein-austritt",
+      "bfs": [
+        4253,
+        4257,
+        4258
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Website: «Der offizielle Kirchenaustritt muss schriftlich erfolgen und ist an die Kirchgemeinde … zu richten» mit dieser Adresse."
+    },
+    {
+      "id": "ag-kaiseraugst",
+      "name": "Römisch-Katholische Kirchgemeinde Kaiseraugst",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Kaiseraugst",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Heidemurweg 30",
+        "4303 Kaiseraugst"
+      ],
+      "address_type": "pfarramt",
+      "email": "kaiseraugst@kath.ch",
+      "website": "https://www.kaiseraugst.com/",
+      "source": "https://www.kaiseraugst.com/kontakt",
+      "bfs": [
+        4252
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Adresse der Pfarrei St. Gallus & Othmar (Kaiseraugst-Giebenach-Arisdorf) publiziert; Website-Impressum Stand 2020."
+    },
+    {
+      "id": "ag-moehlin",
+      "name": "Römisch-Katholische Kirchgemeinde Möhlin",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Möhlin",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Eihornstrasse 3",
+        "4313 Möhlin"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/moehlin",
+      "source": "https://www.moehlinbach.ch/",
+      "bfs": [
+        4254
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
+    },
+    {
+      "id": "ag-zeiningen",
+      "name": "Römisch-Katholische Kirchgemeinde Zeiningen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Zeiningen",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Kirchweg 1",
+        "4314 Zeiningen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/zeiningen",
+      "source": "https://www.moehlinbach.ch/",
+      "bfs": [
+        4263
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
+    },
+    {
+      "id": "ag-zuzgen",
+      "name": "Römisch-Katholische Kirchgemeinde Zuzgen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Zuzgen",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Kirchgasse 2",
+        "4315 Zuzgen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/zuzgen",
+      "source": "https://www.moehlinbach.ch/",
+      "bfs": [
+        4264
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
+    },
+    {
+      "id": "ag-wegenstetten-hellikon",
+      "name": "Römisch-Katholische Kirchgemeinde Wegenstetten-Hellikon",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Wegenstetten-Hellikon",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Kirchrain 9",
+        "4317 Wegenstetten"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/wegenstetten-hellikon",
+      "source": "https://www.moehlinbach.ch/",
+      "bfs": [
+        4262,
+        4251
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
+    },
+    {
+      "id": "ag-eiken-muenchwilen-sisseln",
+      "name": "Römisch-Katholische Kirchgemeinde Eiken-Münchwilen-Sisseln",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Eiken-Münchwilen-Sisseln",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Kirchgasse 4",
+        "5074 Eiken"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-eiken-muenchwilen-sisseln",
+      "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
+      "bfs": [
+        4161,
+        4172,
+        4177
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarreisekretariat Eiken (Seelsorgeverband Eiken-Stein); keine eigene Kirchgemeindeadresse publiziert."
+    },
+    {
+      "id": "ag-stein",
+      "name": "Römisch-Katholische Kirchgemeinde Stein",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Stein",
+        "Kirchenpflege",
+        "c/o Röm.-kath. Pfarramt",
+        "Schulstrasse 5",
+        "4332 Stein AG"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-stein",
+      "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
+      "bfs": [
+        4260
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarrei Bruder Klaus; Website nennt nur «Schulstrasse 5» ohne PLZ, PLZ aus kantonalem Denkmalinventar (ag.ch, Kath. Pfarrkirche Bruder Klaus, Schulstrasse 5, Gemeinde Stein) und amtlichem Ortschaftenverzeichnis."
+    },
+    {
+      "id": "ag-mumpf",
+      "name": "Römisch-Katholische Kirchgemeinde Mumpf",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Mumpf",
+        "Kirchenpflege",
+        "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
+        "Hauptstrasse 16",
+        "4322 Mumpf"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege-mumpf@ssvf.ch",
+      "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-mumpf",
+      "source": "https://mumpf.ch/cms/unser-dorf-1/kirche",
+      "bfs": [
+        4255
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Verbandssekretariat des Seelsorgeverbands Fischingertal (Schupfart, Obermumpf, Mumpf, Wallbach), Adresse auf kath-mittleresfricktal.ch/kontakte/sekretariate ohne PLZ, PLZ von der Website der Gemeinde Mumpf."
+    },
+    {
+      "id": "ag-obermumpf",
+      "name": "Römisch-Katholische Kirchgemeinde Obermumpf",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Obermumpf",
+        "Kirchenpflege",
+        "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
+        "Hauptstrasse 16",
+        "4322 Mumpf"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege.obermumpf@ssvf.ch",
+      "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-obermumpf",
+      "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
+      "bfs": [
+        4256
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Verbandssekretariat des Seelsorgeverbands Fischingertal in Mumpf (PLZ von mumpf.ch); keine eigene Postadresse der Kirchgemeinde publiziert."
+    },
+    {
+      "id": "ag-schupfart",
+      "name": "Römisch-Katholische Kirchgemeinde Schupfart",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Schupfart",
+        "Kirchenpflege",
+        "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
+        "Hauptstrasse 16",
+        "4322 Mumpf"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege.schupfart@ssvf.ch",
+      "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-schupfart",
+      "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
+      "bfs": [
+        4259
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Verbandssekretariat des Seelsorgeverbands Fischingertal in Mumpf (PLZ von mumpf.ch); Kirchenpflege laut Website mit Co-Sachwaltung."
+    },
+    {
+      "id": "ag-wallbach",
+      "name": "Römisch-Katholische Kirchgemeinde Wallbach",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Wallbach",
+        "Kirchenpflege",
+        "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
+        "Hauptstrasse 16",
+        "4322 Mumpf"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege.wallbach@ssvf.ch",
+      "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-wallbach",
+      "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
+      "bfs": [
+        4261
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Verbandssekretariat Fischingertal in Mumpf; die Gemeinde Wallbach nennt zusätzlich ein Sekretariat Kirchstrasse 17, 4323 Wallbach (https://www.wallbach.ch/kirchen)."
+    },
+    {
+      "id": "ag-frick-gipf-oberfrick",
+      "name": "Röm.-Kath. Kirchgemeinde Frick/Gipf-Oberfrick",
+      "postal": [
+        "Röm.-Kath. Kirchgemeinde Frick/Gipf-Oberfrick",
+        "Rampart 1",
+        "5070 Frick"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@kath-frick.ch",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchenpflege/frick",
+      "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
+      "bfs": [
+        4163,
+        4165
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Eine Kirchgemeinde für die zwei Pfarreien Frick und Gipf-Oberfrick. Adresse ausdrücklich als «Pfarramt und Kirchgemeinde» publiziert; KG-Unterlagen KGV 2025 nennen als Bauherrschaft «Röm.-Kath. Kirchgemeinde Frick/Gipf-Oberfrick, Rampart 1, 5070 Frick» (Einladungbroschuere_KGV_2025.pdf). Synode-Liste: «Frick-Gipf-Oberfrick»."
+    },
+    {
+      "id": "ag-oeschgen",
+      "name": "Römisch-Katholische Kirchgemeinde Oeschgen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Oeschgen",
+        "Mitteldorfstrasse 86",
+        "5072 Oeschgen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@kath-oeschgen.ch",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/oeschgen",
+      "source": "https://www.oeschgen.ch/leben-gesellschaft/kirchen",
+      "bfs": [
+        4175
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Einwohnergemeinde publiziert die Pfarramtsadresse ausdrücklich als Kontakt der Kirchgemeinde; gleiche Adresse auf https://www.kath-oberesfricktal.ch/ueber-uns/kontakt (Oeschgen). Kirchengutsverwaltung erreichbar über Pfarramt-Telefon."
+    },
+    {
+      "id": "ag-wittnau",
+      "name": "Römisch-Katholische Kirchgemeinde Wittnau",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Wittnau",
+        "Hauptstrasse 56",
+        "5064 Wittnau"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei.wittnau@yetnet.ch",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/wittnau",
+      "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
+      "bfs": [
+        4181
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse. Briefkopf der KG: «Römisch-Katholische Kirchgemeinde 5064 Wittnau» (Protokoll KGV 14.11.2025). Gemeinde-Website (https://www.wittnau.ch/gemeinde/kirchgemeinden.html/223) nennt unter der Kirchgemeinde die Adresse Langmattstrasse 43 bei der Pfarreileitung (mit Personennamen, vermutlich privat) – nicht übernommen."
+    },
+    {
+      "id": "ag-woelflinswil-oberhof",
+      "name": "Römisch-Katholische Kirchgemeinde Wölflinswil-Oberhof",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Wölflinswil-Oberhof",
+        "Pfarrhaus 29",
+        "5063 Wölflinswil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/woelflinswil",
+      "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
+      "bfs": [
+        4182,
+        4173
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse (Sekretariat); publizierte E-Mail ist persönlich, daher weggelassen. Name laut Jahresrechnung 2025 «Römisch – Katholische Kirchgemeinde Wölflinswil – Oberhof»; Pastoralraum-Übersicht kürzt «Wölflinswil»."
+    },
+    {
+      "id": "ag-herznach-ueken",
+      "name": "Röm.-Kath. Kirchgemeinde Herznach-Ueken",
+      "postal": [
+        "Röm.-Kath. Kirchgemeinde Herznach-Ueken",
+        "Kirchweg 5",
+        "5027 Herznach"
+      ],
+      "address_type": "pfarramt",
+      "email": "herznach@ssvhom.ch",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/herznach-ueken",
+      "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
+      "bfs": [
+        4186
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarrhaus/Sekretariat (Akten der KGV liegen «im Pfarrhaus Herznach» auf). ABWEICHUNG: KG-Website und Gemeinde Herznach-Ueken zählen Densbüren (inkl. Asp) zur KG, KG-Budget führt Steuern «Densbüren»; dagegen Steuerfuss Densbüren röm.-kath. 19 % (= Aarau, nicht 20 % wie Herznach-Ueken) und https://www.densbueren.ch/kirche: «Die römisch-katholischen Einwohnerinnen und Einwohner gehören der Kirche Aarau an». Karte ordnet Densbüren Aarau zu – rechtliche Zugehörigkeit unklar, prüfen."
+    },
+    {
+      "id": "ag-hornussen-zeihen",
+      "name": "Römisch-Katholische Kirchgemeinde Hornussen-Zeihen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Hornussen-Zeihen",
+        "Bahnhofstrasse 88",
+        "5075 Hornussen"
+      ],
+      "address_type": "pfarramt",
+      "email": "hornussen@ssvhom.ch",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/hornussen-zeihen",
+      "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
+      "bfs": [
+        4185,
+        4183
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Eine Kirchgemeinde (Fusion 1.1.2014) mit zwei Pfarreien Hornussen und Zeihen. Rechnungsauflage «im Sekretariat Hornussen», daher Hornussen gewählt; Alternative Pfarramt Zeihen, Kirchweg 1, 5079 Zeihen (zeihen@ssvhom.ch). https://www.zeihen.ch/kultur/kirchen.html/120 nennt für die frühere KG Zeihen auch «Gallenkirch, Linn» (heute Bözberg) – KG-Einladung 2025 nennt sie nicht, Steuerfuss Bözberg 20 % ≠ 25 %; vermutlich veraltet."
+    },
+    {
+      "id": "ag-kaisten",
+      "name": "Römisch-Katholische Kirchgemeinde Kaisten",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Kaisten",
+        "Kirchenpflege",
+        "Lindengasse 1",
+        "5082 Kaisten"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "pfarramt@kath-kaisten.ch",
+      "website": "https://kath-kaisten.ch/",
+      "source": "https://www.kaisten.ch/kircheromkathkaisten",
+      "bfs": [],
+      "partial_bfs": [
+        4169
+      ],
+      "confidence": "high",
+      "note": "KG-Website nennt «Kirchgemeinde Kaisten St. Michael / Pfarreisekretariat / Lindengasse 1 / 5082 Kaisten» (https://kath-kaisten.ch/kontakt/). FUSION: Urnenabstimmung 27.9.2026 angenommen, «Die neue Kirchgemeinde Kaisten-Ittenthal entsteht per 1. Januar 2027» (https://kath-kaisten.ch/aktuelles/abstimmung-september-2026-resultat/); Genehmigung durch Synode beantragt (https://www.kathaargau.ch/wp-content/uploads/5_1_Bericht_und_Antrag_Zusammenschluss_KG_Kaisten-Ittenthal.pdf). Ab 2027 Name «Römisch-Katholische Kirchgemeinde Kaisten-Ittenthal»."
+    },
+    {
+      "id": "ag-ittenthal",
+      "name": "Römisch-Katholische Kirchgemeinde Ittenthal",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Ittenthal",
+        "Kath. Pfarramt St. Maria Ittenthal",
+        "Lindengasse 1",
+        "5082 Kaisten"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@kath-kaisten.ch",
+      "website": "https://kath-kaisten.ch/kirchenpflege-ittenthal/",
+      "source": "https://kath-kaisten.ch/impressum/",
+      "bfs": [],
+      "partial_bfs": [
+        4169
+      ],
+      "confidence": "high",
+      "note": "Postanschrift ausdrücklich auf der gemeinsamen KG-Website; Kirchenpflege Ittenthal hat nur Privatadresse des Präsidiums (nicht übernommen). FUSION mit Kaisten per 1.1.2027 zur «Römisch-Katholischen Kirchgemeinde Kaisten-Ittenthal» (Urnenabstimmung 27.9.2026 angenommen; Synode-Genehmigung beantragt). Ab 2027 Ittenthal → Kaisten-Ittenthal, gleiche Adresse."
+    },
+    {
+      "id": "ag-laufenburg",
+      "name": "Römisch-Katholische Kirchgemeinde Laufenburg",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Laufenburg",
+        "Sekretariat",
+        "Herrengasse 108",
+        "5080 Laufenburg"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege@kath-laufenburg.ch",
+      "website": "https://kath-laufenburg.ch/",
+      "source": "https://kath-laufenburg.ch/kontakt/",
+      "bfs": [],
+      "partial_bfs": [
+        4170
+      ],
+      "confidence": "high",
+      "note": "Website der KG selbst («©2026 Römisch-Katholische Kirchgemeinde Laufenburg»); Fusszeile «Pfarramt-Sekretariat Herrengasse 108». Kirchenpflege-Funktionsadresse kirchenpflege@kath-laufenburg.ch (https://kath-laufenburg.ch/pffarreileben/kirchenpflege/). Protokoll KGV 2025 Briefkopf «Kirchenpflege 5080 Laufenburg»."
+    },
+    {
+      "id": "ag-sulz",
+      "name": "Römisch-Katholische Kirchgemeinde Sulz",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Sulz",
+        "Sekretariat",
+        "Chilegass 7",
+        "5085 Sulz"
+      ],
+      "address_type": "sekretariat",
+      "email": "Kirchenpflege.Sulz@hispeed.ch",
+      "website": "https://www.kathkirche-sulz.ch/",
+      "source": "https://www.kathkirche-sulz.ch/pfarramt-organisationen/",
+      "bfs": [],
+      "partial_bfs": [
+        4170
+      ],
+      "confidence": "high",
+      "note": "Sekretariat im Pfarrhaus Chilegass 7 (= Kontaktseite «Katholische Kirchgemeinde Sulz», Karte «Chilegass 7, 5085 Sulz»). Hinweis: KGV auf 2.12.2026 verschoben, «über das weitere Vorgehen ab 01.01.2027» wird informiert; Protokoll KGV Laufenburg 2025: «nach Gansingen droht auch Sulz eine Fremdverwaltung» – Adresse 2027 erneut prüfen."
+    },
+    {
+      "id": "ag-gansingen",
+      "name": "Römisch-Katholische Kirchgemeinde Gansingen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Gansingen",
+        "Pfarramt Kirchgemeindeverband im Mettauertal",
+        "Pfarrhausweg 9",
+        "5274 Mettau"
+      ],
+      "address_type": "pfarramt",
+      "email": "sachwalter.gansingen@sesomega.ch",
+      "website": "https://www.kath-kirche-mega.ch/gansingen",
+      "source": "https://www.kath-kirche-mega.ch/pfarramt-sesomega",
+      "bfs": [
+        4164
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "«Die Kirchenpflege in Gansingen ist seit dem 1. Januar 2023 vakant. Die Kirchgemeinde wird neu seit dem 1. April 2025 durch den Sachwalter … vertreten» (https://www.kath-kirche-mega.ch/gansingen); Sachwalter-Adresse in Brugg mit Personenname – nicht übernommen, Funktions-E-Mail sachwalter.gansingen@sesomega.ch. Postadresse = gemeinsames Pfarramt der Pfarreien Gansingen und Mettau."
+    },
+    {
+      "id": "ag-mettau",
+      "name": "Römisch-Katholische Kirchgemeinde Mettau",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Mettau",
+        "Kirchenpflege",
+        "Pfarrhausweg 9",
+        "5274 Mettau"
+      ],
+      "address_type": "kirchenpflege",
+      "website": "https://www.kath-kirche-mega.ch/mettau",
+      "source": "https://www.kath-kirche-mega.ch/mettau",
+      "bfs": [
+        4184
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Name «Kirchgemeinde Mettau» (auch Synode-Liste «Mettau»; Gemeinde Mettauertal: «Röm. Kath. Kirchgemeinde - Pfarrei St. Remigius Mettau», Pfarramt Pfarrhausweg 9, 5274 Mettau – https://www.mettauertal.ch/gemeinde-leben/gemeinde/kirchgemeinden). Pfarrhausweg 9 = Pfarramt/Sekretariat des Kirchgemeindeverbands im Mettauertal."
+    },
+    {
+      "id": "ag-schwaderloch",
+      "name": "Römisch-Katholische Kirchgemeinde Schwaderloch",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Schwaderloch",
+        "Röm.-kath. Pfarramt St. Antonius",
+        "Kirchweg 221",
+        "5325 Leibstadt"
+      ],
+      "address_type": "pfarramt",
+      "email": "schwaderloch@kath-aare-rhein.ch",
+      "website": "https://www.kath-aare-rhein.ch/schwaderloch.html",
+      "source": "https://www.kath-aare-rhein.ch/2461.html",
+      "bfs": [
+        4176
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramt-Sekretariat für Schwaderloch sitzt in Leibstadt (gleiche Adresse wie Pfarramt Leibstadt). Präsidium der Kirchenpflege vakant; Ansprechperson nur mit privater E-Mail. Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
+    },
+    {
+      "id": "ag-leibstadt",
+      "name": "Römisch-Katholische Kirchgemeinde Leibstadt",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Leibstadt",
+        "Röm.-kath. Pfarramt St. Fridolin",
+        "Kirchweg 221",
+        "5325 Leibstadt"
+      ],
+      "address_type": "pfarramt",
+      "email": "leibstadt@kath-aare-rhein.ch",
+      "website": "https://www.kath-aare-rhein.ch/leibstadt.html",
+      "source": "https://www.kath-aare-rhein.ch/2445.html",
+      "bfs": [
+        4311
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse. Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
+    },
+    {
+      "id": "ag-leuggern-kleindoettingen",
+      "name": "Römisch-Katholische Kirchgemeinde Leuggern-Kleindöttingen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Leuggern-Kleindöttingen",
+        "Röm.-kath. Pfarramt St. Peter und Paul",
+        "Kirchplatz 7",
+        "5316 Leuggern"
+      ],
+      "address_type": "pfarramt",
+      "email": "leuggern@kath-aare-rhein.ch",
+      "website": "https://www.kath-aare-rhein.ch/unterlagen-f%C3%BCr-kirchgemeindeversammlung.html",
+      "source": "https://www.kath-aare-rhein.ch/2453.html",
+      "bfs": [
+        4313,
+        4303,
+        4307,
+        4105
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Eine KG für die Pfarreien Leuggern und Kleindöttingen; Pfarramt Leuggern beherbergt auch das Pastoralraum-Sekretariat. Alternative: Röm.-kath. Pfarramt St. Antonius, Antoniusweg 16, 5314 Kleindöttingen. KGV-Unterlagen 2026 datiert «5316 Leuggern». Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
+    },
+    {
+      "id": "ag-koblenz",
+      "name": "Römisch-Katholische Kirchgemeinde Koblenz",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Koblenz",
+        "Röm.-kath. Pfarramt St. Verena",
+        "Schulstrasse 9",
+        "5322 Koblenz"
+      ],
+      "address_type": "pfarramt",
+      "email": "koblenz@kath-aare-rhein.ch",
+      "website": "https://www.kath-aare-rhein.ch/koblenz.html",
+      "source": "https://www.kath-aare-rhein.ch/2437.html",
+      "bfs": [
+        4310
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse (zugleich Büro der Pastoralraumleitung). Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
+    },
+    {
+      "id": "ag-klingnau",
+      "name": "Katholische Kirchgemeinde Klingnau",
+      "postal": [
+        "Katholische Kirchgemeinde Klingnau",
+        "Röm.-kath. Pfarramt St. Katharina",
+        "Sonnengasse 28",
+        "5313 Klingnau"
+      ],
+      "address_type": "pfarramt",
+      "email": "klingnau@kath-aare-rhein.ch",
+      "website": "https://www.kath-aare-rhein.ch/kirchgemeinde.html",
+      "source": "https://www.kath-aare-rhein.ch/2429.html",
+      "bfs": [
+        4309
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse; Finanzverwaltung extern (OTAG Klingnau, Treuhand) – nicht als Postadresse übernommen. Name laut Rechnung 2025 «Katholische Kirchgemeinde Klingnau». Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
+    },
+    {
+      "id": "ag-doettingen",
+      "name": "Kath. Kirchgemeinde St. Johannes Döttingen",
+      "postal": [
+        "Kath. Kirchgemeinde St. Johannes Döttingen",
+        "Röm.-kath. Pfarramt St. Johannes",
+        "Chilbert 24",
+        "5312 Döttingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "doettingen@kath-aare-rhein.ch",
+      "website": "https://www.kath-aare-rhein.ch/doettingen.html",
+      "source": "https://www.kath-aare-rhein.ch/kontakt-2413.html",
+      "bfs": [
+        4304
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gemeinde Döttingen: «Römisch-katholische Kirchgemeinde Döttingen / Pfarramt / Pfarrhaus, Chilbert 24, 5312 Döttingen» (https://www.doettingen.ch/freizeit/kirchliche-institutionen/). Name laut KGV-Broschüre 2026 «KATH. KIRCHGEMEINDE ST. JOHANNES DÖTTINGEN». Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
+    },
+    {
+      "id": "ag-zurzach",
+      "name": "Römisch-Katholische Kirchgemeinde Zurzach",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Zurzach",
+        "Pfarreisekretariat",
+        "Hauptstrasse 42",
+        "5330 Bad Zurzach"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-zurzach-studenland.ch",
+      "website": "https://kath-zurzach-studenland.ch/bad-zurzach/kirchgemeinde/",
+      "source": "https://kath-zurzach-studenland.ch/was-tun-bei/kirchenaustritt/",
+      "bfs": [
+        4314
+      ],
+      "partial_bfs": [
+        4324
+      ],
+      "confidence": "high",
+      "note": "Sekretariat der Pfarrei Zurzach = Pastoralraum-Sekretariat; Pastoralraum verlangt Austritt beim Pfarreisekretariat. Selbstbezeichnung der KG nicht gefunden; Synode-Liste «Zurzach». Gebietszitat betrifft die Pfarrei (Mellikon ist eigene politische Gemeinde, Steuerfuss röm.-kath. 25 % = Zurzach). Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
+    },
+    {
+      "id": "ag-baldingen-boebikon",
+      "name": "Römisch-Katholische Kirchgemeinde Baldingen-Böbikon",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Baldingen-Böbikon",
+        "Pfarreisekretariat",
+        "Hauptstrasse 42",
+        "5330 Bad Zurzach"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-zurzach-studenland.ch",
+      "website": "https://kath-zurzach-studenland.ch/baldingen-boebikon/kirchgemeinde/",
+      "source": "https://kath-zurzach-studenland.ch/baldingen-boebikon/pfarreiteam-kontakte/",
+      "bfs": [],
+      "partial_bfs": [
+        4324
+      ],
+      "confidence": "medium",
+      "note": "Kein eigenes Pfarramtsbüro publiziert; Pfarreisekretariat ist das Sekretariat in Bad Zurzach (gleiche Sekretärinnen/Telefon). Steuerregister: «röm.-kath. Kirche Baldingen Böbikon» (Gemeinde Zurzach, 28 %). Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
+    },
+    {
+      "id": "ag-kaiserstuhl-fisibach",
+      "name": "Katholische Kirchgemeinde Kaiserstuhl-Fisibach",
+      "postal": [
+        "Katholische Kirchgemeinde Kaiserstuhl-Fisibach",
+        "Kath. Pfarramt Kaiserstuhl",
+        "Rebenstrasse 153",
+        "5463 Wislikofen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei.kaiserstuhl-wislikofen@kath-zurzach-studenland.ch",
+      "website": "https://kath-zurzach-studenland.ch/kaiserstuhl/kirchgemeinde/",
+      "source": "https://www.fisibach.ch/katholisch",
+      "bfs": [
+        4306
+      ],
+      "partial_bfs": [
+        4324
+      ],
+      "confidence": "high",
+      "note": "Postadresse ausdrücklich auf der Website der Einwohnergemeinde Fisibach (Kirchenpflege-Liste dort deckt sich mit der aktuellen KG-Seite). Pfarreibüro der Bezugsperson laut https://kath-zurzach-studenland.ch/kaiserstuhl/pfarreiteam-kontakte/: «Rebenstrasse 153, 5463 Wislikofen». Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
+    },
+    {
+      "id": "ag-wislikofen-ruemikon",
+      "name": "Römisch-Katholische Kirchgemeinde Wislikofen-Rümikon",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Wislikofen-Rümikon",
+        "Pfarreibüro",
+        "Rebenstrasse 153",
+        "5463 Wislikofen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei.kaiserstuhl-wislikofen@kath-zurzach-studenland.ch",
+      "website": "https://kath-zurzach-studenland.ch/wislikofen/kirchgemeinde/",
+      "source": "https://kath-zurzach-studenland.ch/wislikofen/pfarreiteam-kontakte/",
+      "bfs": [],
+      "partial_bfs": [
+        4324
+      ],
+      "confidence": "medium",
+      "note": "Name: Pastoralraum nennt «Wislikofen», Synode-Liste 2023–2026 «Wislikofen-Rümikon» (https://www.kathaargau.ch/wp-content/uploads/Alle-Mitglieder-der-Synode-2023-2026.pdf), Steuerregister «Rümikon Wislikofen». Pfarreisekretariat (Sekretärinnen) sitzt in Bad Zurzach, Hauptstrasse 42 – Alternative, falls Austritt ans Pfarreisekretariat gehen soll. Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
+    },
+    {
+      "id": "ag-schneisingen-siglistorf",
+      "name": "Kath. Kirchgemeinde Schneisingen-Siglistorf",
+      "postal": [
+        "Kath. Kirchgemeinde Schneisingen-Siglistorf",
+        "Rindelstrasse 5",
+        "5425 Schneisingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei.schneisingen-siglistorf@kath-zurzach-studenland.ch",
+      "website": "https://kath-zurzach-studenland.ch/schneisingen/kirchgemeinde-2/",
+      "source": "https://kath-zurzach-studenland.ch/was-tun-bei/kirchenaustritt/",
+      "bfs": [
+        4318,
+        4319
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat im Pfarrhaus Schneisingen (KGV-Unterlagen liegen «im Pfarrhaus Schneisingen» auf). Name laut KGV-Broschüre 2026 «Kath. Kirchgemeinde Schneisingen-Siglistorf» (Gemeinde Siglistorf: «Kath. Kirchgemeinde Schneisingen-Siglistorf, 5425 Schneisingen»). Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
+    },
+    {
+      "id": "ag-unterendingen",
+      "name": "Kath. Kirchgemeinde Unterendingen",
+      "postal": [
+        "Kath. Kirchgemeinde Unterendingen",
+        "Sekretariat",
+        "Alte Surbtalstrasse 26",
+        "5305 Unterendingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarrei-unterendingen.ch",
+      "website": "https://pastoralraum-surbtal-wuerenlingen.ch/unterendingen/",
+      "source": "https://pastoralraum-surbtal-wuerenlingen.ch/unterendingen/kontakt/",
+      "bfs": [
+        4305,
+        4320
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramtssekretariat (Gemeinde Endingen: «Röm. Kath. Pfarramt / Alte Surbtalstrasse 26 / 5305 Unterendingen», https://www.endingen.ch/kirchen). Steuerfuss Endingen und Tegerfelden je 24 % – stützt Zuordnung beider Gemeinden."
+    },
+    {
+      "id": "ag-lengnau-freienwil",
+      "name": "Kath. Kirchgemeinde Lengnau-Freienwil",
+      "postal": [
+        "Kath. Kirchgemeinde Lengnau-Freienwil",
+        "Sekretariat",
+        "Kirchweg 6",
+        "5426 Lengnau"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarrei-lengnau-freienwil.ch",
+      "website": "https://pastoralraum-surbtal-wuerenlingen.ch/lengnau/",
+      "source": "https://pastoralraum-surbtal-wuerenlingen.ch/lengnau/",
+      "bfs": [
+        4312,
+        4028
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramtssekretariat; Bankverbindung lautet auf «Kath. Kirchgemeinde Lengnau-Freienwil, 5426 Lengnau» (https://pastoralraum-surbtal-wuerenlingen.ch/lengnau/kontakt/). Kirchengutsverwaltung extern (Treuhand) – nicht übernommen."
+    },
+    {
+      "id": "ag-wuerenlingen",
+      "name": "Katholische Kirchgemeinde St. Michael Würenlingen",
+      "postal": [
+        "Katholische Kirchgemeinde St. Michael Würenlingen",
+        "Sekretariat",
+        "Kirchweg 10",
+        "5303 Würenlingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarrei-wuerenlingen.ch",
+      "website": "https://pastoralraum-surbtal-wuerenlingen.ch/wuerenlingen/",
+      "source": "https://pastoralraum-surbtal-wuerenlingen.ch/wuerenlingen/kontakt/",
+      "bfs": [
+        4047
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramtssekretariat; Wahlvorschläge sind «beim Pfarramt» einzureichen. Name laut KGV-Broschüre 2026 «Katholische Kirchgemeinde St. Michael Würenlingen». Kirchengutsverwaltung: kiguverwaltung.wuerenlingen@bluewin.ch."
+    },
+    {
+      "id": "ag-ehrendingen",
+      "name": "Kath. Kirchgemeinde Ehrendingen",
+      "postal": [
+        "Kath. Kirchgemeinde Ehrendingen",
+        "Kath. Pfarramt Ehrendingen",
+        "Dorfstrasse 23",
+        "5420 Ehrendingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarreiehrendingen.ch",
+      "website": "https://pastoralraum-surbtal-wuerenlingen.ch/ehrendingen/ueber-uns/",
+      "source": "https://pastoralraum-surbtal-wuerenlingen.ch/ehrendingen/kontakt/",
+      "bfs": [
+        4049
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramtsadresse. Bankverbindung nennt «Kath. Kirchgemeinde Ehrendingen, Au 12, 5420 Ehrendingen» (https://pastoralraum-surbtal-wuerenlingen.ch/ehrendingen/ueber-uns/) – Art dieser Adresse unklar (evtl. privat), daher nicht gewählt."
+    },
+    {
+      "id": "ag-baden-ennetbaden",
+      "name": "Kath. Kirchgemeinde Baden-Ennetbaden",
+      "postal": [
+        "Kath. Kirchgemeinde Baden-Ennetbaden",
+        "Kirchgemeindeverwaltung",
+        "Rathausgasse 5",
+        "Postfach 250",
+        "5401 Baden"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.pastoralraum-aargauer-limmattal.ch/baden/",
+      "source": "https://www.pastoralraum-aargauer-limmattal.ch/baden/kontakt/kirchgemeindeverwaltung/",
+      "bfs": [
+        4026
+      ],
+      "partial_bfs": [
+        4021
+      ],
+      "confidence": "high",
+      "note": "Eine Kirchgemeinde für Baden und Ennetbaden (pfarrei-ennetbaden.ch leitet auf die Baden-Seite um). Impressum nennt dieselbe Postanschrift mit «5400 Baden AG»; die Verwaltungsseite nennt für das Postfach 5401 – 5401 übernommen. Keine Funktions-E-Mail der Verwaltung publiziert (nur persönliche Adressen; Impressum: kommunikation@pfarreibaden.ch)."
+    },
+    {
+      "id": "ag-wettingen",
+      "name": "Römisch-Katholische Kirchgemeinde Wettingen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Wettingen",
+        "Kirchgemeindeverwaltung",
+        "Schartenstrasse 155",
+        "5430 Wettingen"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kath-wettingen.ch",
+      "website": "https://www.pastoralraum-aargauer-limmattal.ch/kath-wettingen/",
+      "source": "https://www.pastoralraum-aargauer-limmattal.ch/kath-wettingen/kontakt/kirchgemeinde/",
+      "bfs": [
+        4045
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Zeile «Kirchgemeindeverwaltung» gestützt auf https://www.pastoralraum-aargauer-limmattal.ch/kath-wettingen/kontakt/offene-stellen/ («Kirchgemeindeverwaltung an der Schartenstrasse 155 in Wettingen»)."
+    },
+    {
+      "id": "ag-killwangen-neuenhof",
+      "name": "Katholische Kirchgemeinde Neuenhof-Killwangen",
+      "postal": [
+        "Katholische Kirchgemeinde Neuenhof-Killwangen",
+        "Glärnischstrasse 12",
+        "5432 Neuenhof"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchenpflege@pfarrei-neuenhof.ch",
+      "website": "https://www.pastoralraum-aargauer-limmattal.ch/neuenhof/",
+      "source": "https://www.pastoralraum-aargauer-limmattal.ch/neuenhof/impressum/",
+      "bfs": [
+        4030,
+        4034
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Zusammenschluss Neuenhof + Killwangen per 01.01.2025 (Zusammenschlussvertrag Art. 1/2: Name «Katholische Kirchgemeinde Neuenhof-Killwangen»). Name also umgekehrt zur Karte. Postanschrift = Pfarramt/Pfarreisekretariat (laut KGO zuständige Eingangsstelle). Impressum trägt noch den alten Namen; die Killwangen-Kirchenpflegeseite (Amtsperiode 2019-2022) ist veraltet und nennt eine Privatadresse – nicht verwenden."
+    },
+    {
+      "id": "ag-spreitenbach",
+      "name": "Kath. Kirchgemeinde Spreitenbach",
+      "postal": [
+        "Kath. Kirchgemeinde Spreitenbach",
+        "Ratzengasse 3",
+        "8957 Spreitenbach"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@kathspreitenbach.ch",
+      "website": "https://www.pastoralraum-aargauer-limmattal.ch/spreitenbach/",
+      "source": "https://www.pastoralraum-aargauer-limmattal.ch/spreitenbach/impressum/",
+      "bfs": [
+        4040
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postanschrift der KG im Impressum = Adresse des Kath. Pfarramts (Ratzengasse 3). Keine eigene Verwaltungsadresse publiziert."
+    },
+    {
+      "id": "ag-wuerenlos",
+      "name": "Römisch-katholische Kirchgemeinde Würenlos",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Würenlos",
+        "Schulstrasse 21",
+        "5436 Würenlos"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-wuerenlos.ch",
+      "website": "https://www.pastoralraum-aargauer-limmattal.ch/wuerenlos/",
+      "source": "https://www.pastoralraum-aargauer-limmattal.ch/wuerenlos/impressum/",
+      "bfs": [
+        4048
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postanschrift der KG = Pfarrei-Sekretariat (Schulstrasse 21). Gehört trotz Seelsorgeeinheit Wettingen-Würenlos zu einer eigenen KG."
+    },
+    {
+      "id": "ag-siggenthal",
+      "name": "Katholische Kirchgemeinde Kirchdorf",
+      "postal": [
+        "Katholische Kirchgemeinde Kirchdorf",
+        "Sekretariat",
+        "Brühlstrasse 16",
+        "5416 Kirchdorf AG"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum-siggenthal.ch",
+      "website": "https://www.pastoralraum-siggenthal.ch/",
+      "source": "https://www.pastoralraum-siggenthal.ch/fileadmin/Dokumente/Kirchgemeindeversammlung/2026/KGV_Broschuere_2026_final.pdf",
+      "bfs": [
+        4038,
+        4044
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Offizieller Name ist «Katholische Kirchgemeinde Kirchdorf» (nicht «Siggenthal»): KGV-Broschüre 2026 und Seite https://www.pastoralraum-siggenthal.ch/kirchgemeinde/gemeindeversammlung.html («Publikationsorgane der Kath. Kirchgemeinde Kirchdorf»). Eine KG mit drei Pfarreien (Kirchdorf, Nussbaumen, Untersiggenthal); die Broschüre weist Steuererträge aus den Gemeinden Obersiggenthal und Untersiggenthal aus (indirekter Gebietsbeleg). Finanzfragen: fibu@kath-siggenthal.ch."
+    },
+    {
+      "id": "ag-gebenstorf-turgi",
+      "name": "Kath. Kirchgemeinde Gebenstorf-Turgi",
+      "postal": [
+        "Kath. Kirchgemeinde Gebenstorf-Turgi",
+        "Sekretariat",
+        "Kinziggrabenstrasse 2",
+        "5412 Gebenstorf"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.gebenstorf@kathkirchegetu.ch",
+      "website": "https://kath-wasserschloss.ch/ueber-uns/gebenstorf-turgi",
+      "source": "https://kath-wasserschloss.ch/ueber-uns/gebenstorf-turgi",
+      "bfs": [
+        4029
+      ],
+      "partial_bfs": [
+        4021
+      ],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse publiziert; Kontaktseite https://kath-wasserschloss.ch/kontakt verweist auf «die Sekretariate unserer beiden Kirchgemeinden» – Sekretariat Gebenstorf = Pastoralraum-/Pfarreisekretariat (auch Impressum-Adresse des Pastoralraums Wasserschloss). Kirchenaustritte bearbeitet das Präsidium der Kirchenpflege (nur persönliche E-Mail publiziert). Finanzverwaltung extern bei einem Treuhandbüro in Baden – nicht als Austrittsadresse verwenden. kathkirchegetu.ch leitet auf kath-wasserschloss.ch um."
+    },
+    {
+      "id": "ag-birmenstorf",
+      "name": "Kath. Kirchgemeinde Birmenstorf",
+      "postal": [
+        "Kath. Kirchgemeinde Birmenstorf",
+        "Sekretariat",
+        "Kirchstrasse 11",
+        "5413 Birmenstorf"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pfarrei-birmenstorf.ch",
+      "website": "https://kath-wasserschloss.ch/ueber-uns/birmenstorf",
+      "source": "https://kath-wasserschloss.ch/ueber-uns/birmenstorf",
+      "bfs": [
+        4024
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse; Sekretariat Birmenstorf ist laut https://kath-wasserschloss.ch/kontakt eines der «Sekretariate unserer beiden Kirchgemeinden» (zugleich Pfarreisekretariat). pfarrei-birmenstorf.ch leitet auf kath-wasserschloss.ch um. Finanzverwaltung extern bei Treuhandbüro – nicht verwenden."
+    },
+    {
+      "id": "ag-am-rohrdorferberg",
+      "name": "Röm.-Kath. Kirchgemeinde am Rohrdorferberg",
+      "postal": [
+        "Röm.-Kath. Kirchgemeinde am Rohrdorferberg",
+        "Verwaltung",
+        "Ringstrasse 14",
+        "5452 Oberrohrdorf"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@kathrb.ch",
+      "website": "https://kathrb.ch/",
+      "source": "https://kathrb.ch/ueber-uns/kirchgemeinde/",
+      "bfs": [
+        4022,
+        4031,
+        4035,
+        4037,
+        4039,
+        4041
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "EINE Kirchgemeinde (Botschaft KGV 2026, https://kathrb.ch/wp-content/uploads/2026/10/Botschaft-zur-KGV-2026-1.pdf: «Römisch-Katholische Kirchgemeinde am Rohrdorferberg», Verwaltung in der Kaplanei Oberrohrdorf) mit vier Pfarreien Bellikon, Künten, Rohrdorf, Stetten. Keine wörtliche Gebietsliste gefunden; alle sechs Gemeinden (Bellikon, Künten, Niederrohrdorf, Oberrohrdorf, Remetschwil, Stetten) haben 2026 denselben kath. Steuerfuss 18 %. Ältere Dokumente sprechen noch von «Kirchgemeinde Rohrdorf»."
+    },
+    {
+      "id": "ag-fislisbach",
+      "name": "Katholische Kirchgemeinde Fislisbach",
+      "postal": [
+        "Katholische Kirchgemeinde Fislisbach",
+        "Kirchenpflege",
+        "Dorfstrasse 11",
+        "5442 Fislisbach"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "pfarramt.fislisbach@pastoralraum-mellingen.ch",
+      "website": "https://pastoralraum-mellingen.ch/fislisbach/",
+      "source": "https://pastoralraum-mellingen.ch/fislisbach/",
+      "bfs": [
+        4027
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Gleiche Adresse wie Kath. Pfarramt Fislisbach. Mitglied im Zweckverband Pastoralraum Region Mellingen, bleibt aber eigene KG (eigene KGV, Steuerfuss 19 %)."
+    },
+    {
+      "id": "ag-mellingen",
+      "name": "Katholische Kirchgemeinde Mellingen",
+      "postal": [
+        "Katholische Kirchgemeinde Mellingen",
+        "Sekretariat",
+        "Kleine Kirchgasse 28",
+        "5507 Mellingen"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt.mellingen@pastoralraum-mellingen.ch",
+      "website": "https://pastoralraum-mellingen.ch/mellingen/",
+      "source": "https://pastoralraum-mellingen.ch/mellingen/",
+      "bfs": [
+        4033
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "KGV-Einladung 2026 nennt sie «Kirchgemeinde St. Johannes Mellingen». Kleine Kirchgasse 28 ist zugleich Sekretariat des Pastoralraums."
+    },
+    {
+      "id": "ag-taegerig",
+      "name": "Katholische Kirchgemeinde Tägerig",
+      "postal": [
+        "Katholische Kirchgemeinde Tägerig",
+        "Kirchenpflege",
+        "Alte Poststrasse 6",
+        "5522 Tägerig"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "pfarramt.taegerig@pastoralraum-mellingen.ch",
+      "website": "https://pastoralraum-mellingen.ch/taegerig/",
+      "source": "https://pastoralraum-mellingen.ch/taegerig/",
+      "bfs": [
+        4077
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Gleiche Adresse wie Katholisches Pfarramt / «Sekretariat Kirchgemeinde Tägerig»."
+    },
+    {
+      "id": "ag-wohlenschwil-maegenwil",
+      "name": "Katholische Kirchgemeinde Wohlenschwil-Mägenwil",
+      "postal": [
+        "Katholische Kirchgemeinde Wohlenschwil-Mägenwil",
+        "Kirchenpflege",
+        "Vogelsangstrasse 2",
+        "5512 Wohlenschwil"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "pfarramt.wohlenschwil@pastoralraum-mellingen.ch",
+      "website": "https://pastoralraum-mellingen.ch/wohlenschwil-maegenwil/",
+      "source": "https://pastoralraum-mellingen.ch/wohlenschwil-maegenwil/",
+      "bfs": [
+        4046,
+        4032
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Gleiche Adresse wie Kath. Pfarramt / «Sekretariat Kirchgemeinde Wohlenschwil-Mägenwil»."
+    },
+    {
+      "id": "ag-berikon-rudolfstetten-bergdietikon",
+      "name": "Katholische Kirchgemeinde Berikon-Rudolfstetten-Bergdietikon",
+      "postal": [
+        "Katholische Kirchgemeinde Berikon-Rudolfstetten-Bergdietikon",
+        "Sekretariat",
+        "Oberwilerstrasse 5",
+        "8965 Berikon"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt.berikon@kathmutschellen.ch",
+      "website": "https://kathmutschellen.ch/berikon-friedlisberg/kirchgemeinde-2/",
+      "source": "https://kathmutschellen.ch/berikon-friedlisberg/kontakt/",
+      "bfs": [
+        4062,
+        4075,
+        4023
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "EINE KG für die Pfarreien Berikon-Friedlisberg, Rudolfstetten und Bergdietikon (gleiche KG-Seite und gleiches Sekretariat für alle drei). Website nennt sie «Kirchgemeinde Berikon-Rudolfstetten-Bergdietikon», die Kontaktübersicht https://kathmutschellen.ch/kontakte/ «Kirchgemeinde Berikon-Friedlisberg-Rudolfstetten-Bergdietikon»; Zusatz «Katholische» in postal ergänzt (Website «Katholische Kirche am Mutschellen»). Mitglied im Kirchgemeindeverband am Mutschellen."
+    },
+    {
+      "id": "ag-eggenwil-widen",
+      "name": "Katholische Kirchgemeinde Eggenwil-Widen",
+      "postal": [
+        "Katholische Kirchgemeinde Eggenwil-Widen",
+        "Sekretariat",
+        "Dorngasse 8",
+        "8967 Widen"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt.widen@kathmutschellen.ch",
+      "website": "https://kathmutschellen.ch/eggenwil-widen/kirchgemeinde-eggenwil-widen/",
+      "source": "https://kathmutschellen.ch/eggenwil-widen/kontakt-2/",
+      "bfs": [
+        4066,
+        4081
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Dorngasse 8 ist zugleich Sekretariat des Pastoralraums am Mutschellen. Zusatz «Katholische» in postal ergänzt."
+    },
+    {
+      "id": "ag-oberwil-lieli",
+      "name": "Katholische Kirchgemeinde Oberwil-Lieli",
+      "postal": [
+        "Katholische Kirchgemeinde Oberwil-Lieli",
+        "Sekretariat",
+        "Kirchweg 41",
+        "8966 Oberwil-Lieli"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt.oberwil-lieli@kathmutschellen.ch",
+      "website": "https://kathmutschellen.ch/oberwil-lieli/kirchgemeinde-oberwil-lieli/",
+      "source": "https://kathmutschellen.ch/oberwil-lieli/kontakt/",
+      "bfs": [
+        4074
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Zusatz «Katholische» in postal ergänzt."
+    },
+    {
+      "id": "ag-bremgarten",
+      "name": "Römisch-Katholische Kirchgemeinde Bremgarten",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Bremgarten",
+        "Pfarrgasse 4",
+        "5620 Bremgarten"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@kath-bremgarten.ch",
+      "website": "https://kath-bremgarten-reusstal.ch/bremgarten/",
+      "source": "https://kath-bremgarten-reusstal.ch/bremgarten/kirchgemeinde-kirchenpflege/",
+      "bfs": [],
+      "partial_bfs": [
+        4063
+      ],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse; nur Pfarramt (= auch Pastoralraum-Sekretariat). Name aus Zusammenschlussvertrag (https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/08/Vertrag-zwischen-den-KG-Bremg.-Herm.-Vers.28.07.2026.pdf). Zusammenschluss mit KG Hermetschwil per 01.01.2028 angenommen (Urnenabstimmung 2026)."
+    },
+    {
+      "id": "ag-hermetschwil-staffeln",
+      "name": "Kath. Kirchgemeinde Hermetschwil-Staffeln",
+      "postal": [
+        "Kath. Kirchgemeinde Hermetschwil-Staffeln",
+        "Käsereistrasse 5",
+        "5626 Hermetschwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@kirche-hermetschwil.ch",
+      "website": "https://kath-bremgarten-reusstal.ch/hermetschwil-staffeln/",
+      "source": "https://kath-bremgarten-reusstal.ch/hermetschwil-staffeln/kirchgemeinde-kirchenpflege/",
+      "bfs": [],
+      "partial_bfs": [
+        4063
+      ],
+      "confidence": "medium",
+      "note": "Name auf KGV-Dokumentation 2026 «Kath. Kirchgemeinde Hermetschwil-Staffeln»; im Zusammenschlussvertrag «Römisch-Katholische Kirchgemeinde Hermetschwil». Nur Pfarramtsadresse publiziert (Website schreibt «5626 Hermetschwil»; amtlicher PLZ-Ort 5626 Hermetschwil-Staffeln). Wird per 01.01.2028 in die KG Bremgarten integriert und aufgelöst – Datensatz ab dann auf Bremgarten umstellen."
+    },
+    {
+      "id": "ag-zufikon",
+      "name": "Röm.-Kath. Kirchgemeinde Zufikon",
+      "postal": [
+        "Röm.-Kath. Kirchgemeinde Zufikon",
+        "Bachstrasse 20",
+        "5621 Zufikon"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarreizufikon.ch",
+      "website": "https://kath-bremgarten-reusstal.ch/zufikon/",
+      "source": "https://kath-bremgarten-reusstal.ch/zufikon/kirchgemeinde-kirchenpflege/",
+      "bfs": [
+        4083
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse publiziert; Kirchenpflege nur mit Privatkontakten. KG-Name aus Leistungsvereinbarung KRSD in https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/10/Dokumentation-fuer-die-Kirchgemeindeversammlung-2026.pdf."
+    },
+    {
+      "id": "ag-lunkhofen",
+      "name": "Röm.-Kath. Kirchgemeinde Lunkhofen",
+      "postal": [
+        "Röm.-Kath. Kirchgemeinde Lunkhofen",
+        "Chileweg 3",
+        "8917 Oberlunkhofen"
+      ],
+      "address_type": "pfarramt",
+      "email": "kath.pfarramt.lunkhofen@bluewin.ch",
+      "website": "https://kath-bremgarten-reusstal.ch/lunkhofen/",
+      "source": "https://kath-bremgarten-reusstal.ch/lunkhofen/kirchgemeinde-kirchenpflege/",
+      "bfs": [
+        4061,
+        4084,
+        4073,
+        4079,
+        4238
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse publiziert (Pfarrhaus Oberlunkhofen). Alle fünf Gemeinden haben 2026 denselben kath. Steuerfuss 13 %. KG-Name aus Leistungsvereinbarung KRSD in https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/10/Dokumentation-fuer-die-Kirchgemeindeversammlung-2026.pdf."
+    },
+    {
+      "id": "ag-jonen",
+      "name": "Röm.-Kath. Kirchgemeinde Jonen",
+      "postal": [
+        "Röm.-Kath. Kirchgemeinde Jonen",
+        "Weingasse 4",
+        "8916 Jonen"
+      ],
+      "address_type": "pfarramt",
+      "email": "kath-pfarramt@pfarrei-jonen.ch",
+      "website": "https://kath-bremgarten-reusstal.ch/jonen/",
+      "source": "https://kath-bremgarten-reusstal.ch/jonen/kirchgemeinde-kirchenpflege/",
+      "bfs": [
+        4071
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Pfarramtsadresse publiziert. KG-Name aus Leistungsvereinbarung KRSD in https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/10/Dokumentation-fuer-die-Kirchgemeindeversammlung-2026.pdf."
+    },
+    {
+      "id": "ag-villmergen",
+      "name": "Römisch-katholische Kirchgemeinde Villmergen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Villmergen",
+        "Pfarramt",
+        "Kirchgasse 5",
+        "5612 Villmergen"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchenpflege@pfarrei-villmergen.ch",
+      "website": "https://pfarrei-villmergen.ch/",
+      "source": "https://pfarrei-villmergen.ch/kontaktadressen",
+      "bfs": [
+        4080,
+        4064,
+        4194
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine KG-Postadresse publiziert; Kirchenpflege-Seite nennt nur Privatadressen der Mitglieder (nicht übernommen). kirchenpflege@pfarrei-villmergen.ch wird als Kontakt des Sekretariats genannt (https://pfarrei-villmergen.ch/miete-kirchgemeindehaus); Pfarramt-Mail pfarramt@pfarrei-villmergen.ch. Name nach Rechtsform. «Ballygebiet» an Dottikon angrenzend – Gemeindezugehörigkeit nicht geprüft."
+    },
+    {
+      "id": "ag-sarmenstorf",
+      "name": "Römisch-katholische Kirchgemeinde Sarmenstorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Sarmenstorf",
+        "Pfarramt",
+        "Büttikerstrasse 1",
+        "5614 Sarmenstorf"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.sun@bluewin.ch",
+      "website": "https://www.pfarrei-sarmenstorf.ch/",
+      "source": "https://www.pfarrei-sarmenstorf.ch/ (Kontakt → Pfarramt; Inhalt geladen aus https://www.pfarrei-sarmenstorf.ch/api/loadData.php, dataId=contactData)",
+      "bfs": [
+        4076,
+        4078
+      ],
+      "partial_bfs": [
+        4233
+      ],
+      "confidence": "medium",
+      "note": "Website ist eine JavaScript-App (Inhalt nur über deren Daten-Schnittstelle lesbar). Kirchenpflege nur mit Personenkontakten, keine eigene Adresse. Name nach Rechtsform. Bettwil traktandiert an der KGV vom 9.11.2026 «Informationen über Zusammenarbeit/Fusion mit der Kath. Kirchgemeinde Sarmenstorf» (https://www.kirche-bettwil.ch/news/kirchgemeindeversammlung-vom-09.-november-2026)."
+    },
+    {
+      "id": "ag-bettwil",
+      "name": "Katholische Kirchgemeinde Bettwil",
+      "postal": [
+        "Katholische Kirchgemeinde Bettwil",
+        "Kath. Pfarramt St. Josef",
+        "Schulhausstrasse 4",
+        "5618 Bettwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kirche-bettwil.ch",
+      "website": "https://www.kirche-bettwil.ch/",
+      "source": "https://www.kirche-bettwil.ch/",
+      "bfs": [
+        4227
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kandidat bettwil.ch ist die Einwohnergemeinde; sie verweist auf die KG-Website kirche-bettwil.ch («Die Katholische Kirchgemeinde Bettwil verfügt über eine eigene Website», https://www.bettwil.ch/leben/kirche/kath-kirchgemeinde.html/61). Gleiche Adresse auf https://pfarreibruderklaus.ch/pfarrei/pastoralraum/bettwil. Fusionsabklärung mit Sarmenstorf traktandiert (KGV 9.11.2026)."
+    },
+    {
+      "id": "ag-meisterschwanden-fahrwangen-seengen",
+      "name": "Römisch-katholische Kirchgemeinde Meisterschwanden-Fahrwangen-Seengen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Meisterschwanden-Fahrwangen-Seengen",
+        "Kirchenpflege",
+        "Flurengasse 6",
+        "5616 Meisterschwanden"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pfarreibruderklaus.ch",
+      "website": "https://pfarreibruderklaus.ch/",
+      "source": "https://pfarreibruderklaus.ch/text/impressum",
+      "bfs": [
+        4202,
+        4196,
+        4208
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Gleiche Adresse wie Sekretariat «Pfarrei Bruder Klaus, Flurengasse 6, 5616 Meisterschwanden» (https://pfarreibruderklaus.ch/kontakt)."
+    },
+    {
+      "id": "ag-dottikon",
+      "name": "Katholische Kirchgemeinde Dottikon",
+      "postal": [
+        "Katholische Kirchgemeinde Dottikon",
+        "Kirchenpflege",
+        "Wohlerstrasse 2",
+        "5605 Dottikon"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt_dottikon@bluewin.ch",
+      "website": "https://www.kath-dottikon.ch/",
+      "source": "https://www.kath-dottikon.ch/impressum/",
+      "bfs": [
+        4065
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Kontaktseite: «Röm. kath. Kirche St. Johannes Baptista, Wohlerstrasse 2, 5605 Dottikon». E-Mail auf der Website per Cloudflare verschleiert, decodiert."
+    },
+    {
+      "id": "ag-haegglingen",
+      "name": "Katholische Kirchgemeinde Hägglingen",
+      "postal": [
+        "Katholische Kirchgemeinde Hägglingen",
+        "Pfarramt",
+        "Chilerain 2",
+        "5607 Hägglingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarrei-haegglingen.ch",
+      "website": "https://www.pfarrei-haegglingen.ch/",
+      "source": "https://www.pfarrei-haegglingen.ch/kontakt/",
+      "bfs": [
+        4068
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Impressum (https://www.pfarrei-haegglingen.ch/about/) nennt ebenfalls nur Pfarrei Hägglingen, Chilerain 2. Name aus Website-Text («Die Katholische Kirchgemeinde Hägglingen …»). Funktionsadresse Kirchenpflegepräsidium: praesident@pfarrei-haegglingen.ch."
+    },
+    {
+      "id": "ag-niederwil",
+      "name": "Katholische Kirchgemeinde Niederwil",
+      "postal": [
+        "Katholische Kirchgemeinde Niederwil",
+        "Kirchenpflege",
+        "Schulweg 3",
+        "5524 Niederwil AG"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt-niederwil@bluewin.ch",
+      "website": "https://kath-niederwil.ch/",
+      "source": "https://kath-niederwil.ch/impressum",
+      "bfs": [
+        4072
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Startseite nennt «Katholisches Pfarramt, Schulweg 3, 5525 Niederwil» – PLZ dort vermutlich Tippfehler: Impressum und Einwohnergemeinde (https://www.niederwil.ch/: «5524 Niederwil AG») haben 5524."
+    },
+    {
+      "id": "ag-fischbach-goeslikon",
+      "name": "Katholische Kirchgemeinde Fischbach-Göslikon",
+      "postal": [
+        "Katholische Kirchgemeinde Fischbach-Göslikon",
+        "Pfarramt",
+        "Mellingerstrasse 20",
+        "5525 Fischbach-Göslikon"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-fischbach-goeslikon.ch",
+      "website": "https://www.kath-fischbach-goeslikon.ch/",
+      "source": "https://www.kath-fischbach-goeslikon.ch/kontakt",
+      "bfs": [
+        4067
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KG-Name aus Kontoangabe «Kath. Kirchgemeinde Fischbach-Göslikon … 5525 Fischbach-Göslikon» (https://www.kath-fischbach-goeslikon.ch/uber-uns); Sekretariat im Pfarrhaus."
+    },
+    {
+      "id": "ag-waltenschwil",
+      "name": "Römisch-Katholische Kirchgemeinde Waltenschwil",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Waltenschwil",
+        "Kirchenpflege",
+        "Kirchgemeindezentrum Myra",
+        "Schulhausstrasse",
+        "5622 Waltenschwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflegewaltenschwil@bluewin.ch",
+      "website": "https://www.kirche-waltenschwil.ch/",
+      "source": "https://www.kirche-waltenschwil.ch/",
+      "bfs": [
+        4240
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Hausnummer nirgends publiziert (auch nicht auf https://www.waltenschwil.ch/leben/kirchen.html/54; KG-Briefkopf in Reglementen: «Kath. Kirchgemeinde Waltenschwil / Kirchenpflege Waltenschwil / 5622 Waltenschwil»). Start-URL kath.ch/waltenschwil liefert HTTP 500; richtige Website laut Pastoralraum: kirche-waltenschwil.ch. Name aus «Wahlausschuss der Römisch-Katholischen Kirchgemeinde Waltenschwil» (https://www.kirche-waltenschwil.ch/news-aktuelles/gesamterneuerungswahl-2026). Sekretariat: kath.pfarramt-waltenschwil@bluewin.ch."
+    },
+    {
+      "id": "ag-wohlen",
+      "name": "Katholische Kirchgemeinde Wohlen AG",
+      "postal": [
+        "Katholische Kirchgemeinde Wohlen AG",
+        "Kirchenpflege",
+        "Chilegässli 2",
+        "5610 Wohlen AG"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pfarreiwohlen.ch",
+      "website": "https://www.pfarreiwohlen.ch/",
+      "source": "https://www.pfarreiwohlen.ch/impressum",
+      "bfs": [
+        4082
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Kirchenpflege laut https://www.pfarreiwohlen.ch/verwaltung-dienste/kirchenpflege erreichbar «über das Pfarreisekretariat» (Chilegässli 2, Pfarrhaus). Gesamterneuerung der Kirchenpflege Ende 2026 (alle Sitze neu)."
+    },
+    {
+      "id": "ag-buenzen-besenbueren",
+      "name": "Römisch-Katholische Kirchgemeinde Bünzen",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Bünzen",
+        "Pfarramt",
+        "Chilerain 8",
+        "5624 Bünzen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei-buenzen@pastoralraum-muri.ch",
+      "website": "https://www.pastoralraum-muri.ch/de/pfarreibuenzen.html",
+      "source": "https://www.pastoralraum-muri.ch/de/pfarreibuenzen.html",
+      "bfs": [
+        4229,
+        4226
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Name abweichend von der Karte: KG heisst «Bünzen» (Titel der KGV-Broschüre: «RÖMISCH-KATHOLISCHE KIRCHGEMEINDE BÜNZEN», https://www.pastoralraum-muri.ch/api/rm/RF2787R266TK574/broschuere-12-11-2025-1.pdf). Finanzverwaltung über Gemeindeverwaltung Bünzen (finanzverwaltung@buenzen.ch). Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
+    },
+    {
+      "id": "ag-boswil-kallern",
+      "name": "Römisch-katholische Kirchgemeinde Boswil-Kallern",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Boswil-Kallern",
+        "Pfarramt",
+        "Kirchweg 3",
+        "5623 Boswil"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei-boswil@pastoralraum-muri.ch",
+      "website": "https://www.pastoralraum-muri.ch/de/pfarreiboswilkallern.html",
+      "source": "https://www.pastoralraum-muri.ch/de/pfarreiboswilkallern.html",
+      "bfs": [],
+      "partial_bfs": [
+        4228,
+        4233
+      ],
+      "confidence": "medium",
+      "note": "Name laut Kirchenpflege-Seite «Kirchgemeinde Boswil-Kallern» (https://www.pastoralraum-muri.ch/de/kirchenpflege-_content---1--1057.html) und KGV-Einladung 2026 «an alle Stimmberechtigten der Kirchgemeinde Boswil-Kallern». Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
+    },
+    {
+      "id": "ag-muri",
+      "name": "Römisch-Katholische Kirchgemeinde Muri AG",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Muri AG",
+        "Pfarramt",
+        "Kirchbühlstrasse 10",
+        "5630 Muri AG"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei-muri@pastoralraum-muri.ch",
+      "website": "https://www.pastoralraum-muri.ch/de/pfarreimuri.html",
+      "source": "https://www.pastoralraum-muri.ch/de/pfarreimuri.html",
+      "bfs": [
+        4236,
+        4230,
+        4232
+      ],
+      "partial_bfs": [
+        4228
+      ],
+      "confidence": "medium",
+      "note": "Name aus Jahresrechnung in der KGV-Broschüre 2025 (https://www.pastoralraum-muri.ch/api/rm/78CDWEFB35R44PY/broschuere-kg-versammlung-26-november-2025.pdf). Pastoralraum-Sekretariat an derselben Adresse. Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
+    },
+    {
+      "id": "ag-aristau",
+      "name": "Römisch-katholische Kirchgemeinde Aristau",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Aristau",
+        "Pfarramt",
+        "Bremgartenstrasse 27",
+        "5628 Aristau"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei-aristau@pastoralraum-muri.ch",
+      "website": "https://www.pastoralraum-muri.ch/de/pfarreiaristau.html",
+      "source": "https://www.pastoralraum-muri.ch/de/pfarreiaristau.html",
+      "bfs": [
+        4222
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Website: «Homepage der Pfarrei und Kirchgemeinde St. Wendelin Aristau». Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
+    },
+    {
+      "id": "ag-merenschwand-benzenschwil",
+      "name": "Römisch-katholische Kirchgemeinde Merenschwand-Benzenschwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Merenschwand-Benzenschwil",
+        "Pfarramt",
+        "Bachweg 3",
+        "5634 Merenschwand"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei-merenschwand@pastoralraum-muri.ch",
+      "website": "https://www.pastoralraum-muri.ch/de/pfarreimerenschwand.html",
+      "source": "https://www.pastoralraum-muri.ch/de/pfarreimerenschwand.html",
+      "bfs": [
+        4234
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KG führt den Namen Merenschwand-Benzenschwil weiter (Kirchenpflege-Seite: «Kirchgemeinde Merenschwand-Benzenschwil», KGV 9.11.2026 durch «Kirchenpflege Merenschwand-Benzenschwil»). Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
+    },
+    {
+      "id": "ag-muehlau",
+      "name": "Römisch-katholische Kirchgemeinde Mühlau",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Mühlau",
+        "Röm.-kath. Pfarramt",
+        "Kirchstrasse 3",
+        "5643 Sins"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
+      "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-muehlau/pfarreien-muehlau-kirche.html",
+      "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-muehlau/pfarreien-muehlau-kontakt.html",
+      "bfs": [
+        4235
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Mühlau»). Adresse = Pastoralraum-Sekretariat in Sins; ebenso auf https://www.muehlau.ch/freizeit/kirche.html/236. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
+    },
+    {
+      "id": "ag-beinwil-freiamt",
+      "name": "Römisch-katholische Kirchgemeinde Beinwil (Freiamt)",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Beinwil (Freiamt)",
+        "Pfarramt",
+        "Kirchfeld 3",
+        "5637 Beinwil (Freiamt)"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei-beinwil@pastoralraum-muri.ch",
+      "website": "https://www.pastoralraum-muri.ch/de/pfarreibeinwilfreiamt.html",
+      "source": "https://www.pastoralraum-muri.ch/de/pfarreibeinwilfreiamt.html",
+      "bfs": [
+        4224
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Ortsschreibweise «5637 Beinwil (Freiamt)» wie Einwohnergemeinde (https://www.beinwil.ch/); Pfarrei schreibt «Beinwil | Freiamt». Name aus «Finanzverwalterin Kirchgemeinde Beinwil | Freiamt» (https://www.pastoralraum-muri.ch/de/kirchenpflege-_content---1--1053.html). Präsidium ad interim. Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
+    },
+    {
+      "id": "ag-auw",
+      "name": "Römisch-katholische Kirchgemeinde Auw",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Auw",
+        "Röm.-kath. Pfarramt",
+        "Kirchstrasse 3",
+        "5643 Sins"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
+      "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-auw/pfarreien-auw-kirche.html",
+      "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-auw/pfarreien-auw-kontakt.html",
+      "bfs": [
+        4223
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Auw»). Adresse = Pastoralraum-Sekretariat in Sins. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
+    },
+    {
+      "id": "ag-sins",
+      "name": "Römisch-katholische Kirchgemeinde Sins",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Sins",
+        "Röm.-kath. Pfarramt",
+        "Kirchstrasse 3",
+        "5643 Sins"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
+      "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-sins/pfarreien-sins-kirche.html",
+      "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-sins/pfarreien-sins-kontakt.html",
+      "bfs": [],
+      "partial_bfs": [
+        4239
+      ],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Sins»). Website nennt «Kirchgemeinde Sins» (Startseite Pastoralraum). Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
+    },
+    {
+      "id": "ag-abtwil",
+      "name": "Römisch-katholische Kirchgemeinde Abtwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Abtwil",
+        "Röm.-kath. Pfarramt",
+        "Kirchstrasse 3",
+        "5643 Sins"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
+      "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-abtwil/pfarreien-abtwil-kirche.html",
+      "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-abtwil/pfarreien-abtwil-kontakt.html",
+      "bfs": [
+        4221
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Abtwil»). Adresse = Pastoralraum-Sekretariat in Sins. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
+    },
+    {
+      "id": "ag-oberrueti",
+      "name": "Römisch-katholische Kirchgemeinde Oberrüti",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oberrüti",
+        "Röm.-kath. Pfarramt",
+        "Kleinmatt 2",
+        "5647 Oberrüti"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
+      "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-oberrueti/pfarreien-oberrueti-kirche.html",
+      "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-oberrueti/pfarreien-oberrueti-kontakt.html",
+      "bfs": [
+        4237
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Oberrüti»). Eigenes Pfarramt (Öffnungszeit nur Donnerstag); alternativ Pastoralraum-Sekretariat Kirchstrasse 3, 5643 Sins. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
+    },
+    {
+      "id": "ag-dietwil",
+      "name": "Römisch-katholische Kirchgemeinde Dietwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Dietwil",
+        "Röm.-kath. Pfarramt",
+        "Vorderdorfstrasse 4",
+        "6042 Dietwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
+      "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-dietwil/pfarreien-dietwil-kirche.html",
+      "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-dietwil/pfarreien-dietwil-kontakt.html",
+      "bfs": [
+        4231
+      ],
+      "partial_bfs": [
+        4239
+      ],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Dietwil»). KG nennt sich «Kirchgemeinde St. Barbara, Dietwil» (KGV-Einladung 2026); Einwohnergemeinde bestätigt «Pfarramt Dietwil, Vorderdorfstrasse 4, 6042 Dietwil» (https://www.dietwil.ch/dorfleben/kirche.html/328). Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 4021,
+      "how": "Der Ortsteil Turgi (ehemalige Gemeinde, PLZ 5300) gehört zur Kath. Kirchgemeinde Gebenstorf-Turgi, das übrige Stadtgebiet zur Kath. Kirchgemeinde Baden-Ennetbaden (kantonales Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Gebenstorf» für Baden; Fusionsvertrag Baden-Turgi lässt die Kirchgemeinden unverändert).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Turgi (5300)": "ag-gebenstorf-turgi",
+        "Baden (5400, 5404)": "ag-baden-ennetbaden",
+        "Dättwil (5405)": "ag-baden-ennetbaden",
+        "Rütihof (5406)": "ag-baden-ennetbaden"
+      }
+    },
+    {
+      "bfs": 4063,
+      "how": "Der Dorfteil Hermetschwil-Staffeln (ehemalige Gemeinde, PLZ 5626) bildet bis 31.12.2027 eine eigene Kirchgemeinde; übriges Bremgarten (5620) gehört zur KG Bremgarten. Ab 1.1.2028 ganze Gemeinde = KG Bremgarten (Zusammenschluss angenommen).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Hermetschwil-Staffeln (5626)": "ag-hermetschwil-staffeln",
+        "Bremgarten (5620)": "ag-bremgarten"
+      }
+    },
+    {
+      "bfs": 4169,
+      "how": "Der Dorfteil Ittenthal (ehemalige Gemeinde, PLZ 5083) hat eine eigene Kirchgemeinde, das übrige Kaisten gehört zur KG Kaisten (Website der Gemeinde Kaisten). Beide fusionieren per 1.1.2027 zur KG Kaisten-Ittenthal (Synode-Genehmigung beantragt); beide Datensätze nutzen dieselbe Postadresse.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Ittenthal (5083)": "ag-ittenthal",
+        "Kaisten (5082)": "ag-kaisten",
+        "Kaisten mit PLZ 5080 Laufenburg": "ag-kaisten"
+      }
+    },
+    {
+      "bfs": 4170,
+      "how": "Die ehemalige Gemeinde Sulz (Ortschaften 5085 Sulz AG und 5084 Rheinsulz) gehört zur KG Sulz, das Städtchen Laufenburg (5080) zur KG Laufenburg. Gebiet der KG Sulz nicht ausdrücklich publiziert; belegt sind die eigene Zusatzkirche «röm.-kath. Kirche Sulz» im Steuerfussverzeichnis und die Kapellen Leidikon und Rheinsulz der KG Sulz.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Sulz (5085)": "ag-sulz",
+        "Rheinsulz (5084)": "ag-sulz",
+        "Laufenburg (5080)": "ag-laufenburg"
+      }
+    },
+    {
+      "bfs": 4228,
+      "how": "Die Weiler Weissenbach und Sentenhof gehören laut Pastoralraum Muri zur Pfarrei bzw. KG Muri (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Muri» für Boswil); übriges Boswil zur KG Boswil-Kallern.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Weissenbach": "ag-muri",
+        "Sentenhof": "ag-muri",
+        "Boswil (übriges Gemeindegebiet)": "ag-boswil-kallern"
+      }
+    },
+    {
+      "bfs": 4233,
+      "how": "Oberniesenberg gehört zur KG Sarmenstorf (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Sarmenstorf» für Kallern; Ortsteil nur über Historisches Lexikon und Kapelle Oberniesenberg der Pfarrei Sarmenstorf belegt); übriges Kallern zur KG Boswil-Kallern.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Oberniesenberg": "ag-sarmenstorf",
+        "Kallern (übriges Gemeindegebiet)": "ag-boswil-kallern"
+      }
+    },
+    {
+      "bfs": 4239,
+      "how": "Ein Teilgebiet von Sins gehört zur KG Dietwil (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Dietwil» für Sins); welches, ist nicht publiziert. Im Zweifel beim Pastoralraum-Sekretariat Oberes Freiamt (Kirchstrasse 3, 5643 Sins) oder beim Steueramt Sins nachfragen.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Sins, Alikon, Meienberg, Aettenschwil, Fenkrieden (ohne Teilgebiet Dietwil)": "ag-sins",
+        "Teilgebiet Dietwil (nicht ermittelt)": "ag-dietwil"
+      }
+    },
+    {
+      "bfs": 4280,
+      "how": "Gemeinde Oftringen: «Das Oftringer Gemeindegebiet nördlich der Autobahn wird von der Pfarrei Aarburg, das Gebiet südlich der Autobahn von der Pfarrei Zofingen betreut.» Nördlich der A1 → KG Aarburg-Oftringen Nord/Rothrist-Murgenthal, südlich → KG Zofingen (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Zofingen»).",
+      "finder": "https://www.oftringen.ch/kirchen",
+      "geodata": null,
+      "ortsteile": {
+        "Oftringen nördlich der Autobahn A1 (Oftringen Nord)": "ag-aarburg-rothrist",
+        "Oftringen südlich der Autobahn A1": "ag-zofingen"
+      }
+    },
+    {
+      "bfs": 4324,
+      "how": "Die Gemeinde Zurzach (Fusion 2022) ist auf vier Kirchgemeinden verteilt: Bad Zurzach, Rietheim und Rekingen → KG Zurzach; Baldingen und Böbikon → KG Baldingen-Böbikon; Kaiserstuhl → KG Kaiserstuhl-Fisibach; Wislikofen (mit Mellstorf) und Rümikon → KG Wislikofen-Rümikon (Pfarreiseiten Zurzach-Studenland, Steuerfussverzeichnis 2026).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Bad Zurzach (5330)": "ag-zurzach",
+        "Rietheim (5323)": "ag-zurzach",
+        "Rekingen (5332)": "ag-zurzach",
+        "Baldingen (5333)": "ag-baldingen-boebikon",
+        "Böbikon (5334)": "ag-baldingen-boebikon",
+        "Kaiserstuhl (5466)": "ag-kaiserstuhl-fisibach",
+        "Wislikofen (5463)": "ag-wislikofen-ruemikon",
+        "Rümikon (5464)": "ag-wislikofen-ruemikon"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "88 Einträge statt der offiziell 92 Kirchgemeinden: Die Kreiskirchgemeinde Aarau (Ortskirchgemeinden Aarau, Buchs-Rohr, Entfelden, Schöftland, Suhr-Gränichen) ist als ein Eintrag geführt, wie in der Jahresrechnung 2025 der Landeskirche («Aarau (KKG)»); Karte und Synode zeigen die fünf Ortskirchgemeinden einzeln.",
+    "Gemeindezuordnung: Ein amtliches Gebietsverzeichnis der Kirchgemeinden wurde nicht gefunden. Grundlage sind die Karte «Kirchgemeinden in Pastoralräumen» der Landeskirche (5.9.2025, georeferenziert) und das kantonale Verzeichnis der Kirchensteuerfüsse 2026 (inkl. Zusatzkirchen); für viele Kirchgemeinden zusätzlich deren Website.",
+    "Kaisten und Ittenthal fusionieren per 1.1.2027 zur Römisch-Katholischen Kirchgemeinde Kaisten-Ittenthal (Urnenabstimmung 27.9.2026 angenommen, Genehmigung durch die Herbstsynode 2026 beantragt): danach beide Einträge zusammenführen und Kaisten (4169) nicht mehr teilen.",
+    "Bremgarten und Hermetschwil-Staffeln schliessen sich per 1.1.2028 zusammen (Vertrag angenommen): ab dann Bremgarten (4063) ganz der KG Bremgarten zuordnen.",
+    "Densbüren widersprüchlich: Website der KG Herznach-Ueken und der Gemeinde Herznach-Ueken zählen Densbüren (mit Asp) zur KG Herznach-Ueken; Gemeinde Densbüren schreibt, die Katholiken «gehören der Kirche Aarau an» und werden vom Seelsorgeverband Homberg nur betreut; Steuerfuss Densbüren 19 % = Aarau (Herznach-Ueken 20 %), Karte = Aarau. Zugeordnet: Kreiskirchgemeinde Aarau; bei der Landeskirche verifizieren.",
+    "Sins (4239): Welches Teilgebiet zur KG Dietwil gehört, ist nicht publiziert (nur Zusatzkirche im Steuerfussverzeichnis).",
+    "Kallern (4233): Zugehörigkeit von Oberniesenberg zur KG Sarmenstorf nur über Historisches Lexikon der Schweiz (2007) und Kapelle der Pfarrei Sarmenstorf belegt; Boswil (4228): Weissenbach/Sentenhof nur über die Pfarreibeschreibung Muri belegt.",
+    "Viele Kirchgemeinden publizieren keine eigene Postadresse, sondern nur die des Pfarramts bzw. Pastoralraum-Sekretariats (address_type pfarramt/sekretariat, confidence medium).",
+    "Waltenschwil: publizierte Adresse «Kirchgemeindezentrum Myra, Schulhausstrasse, 5622 Waltenschwil» ohne Hausnummer.",
+    "Gansingen: Kirchenpflege seit 2023 vakant, die KG wird seit 1.4.2025 von einem Sachwalter vertreten; Sulz: KGV-Protokoll Laufenburg 2025 erwähnt drohende Fremdverwaltung ab 2027 – beide Adressen 2027 prüfen.",
+    "Mögliche weitere Zusammenschlüsse (noch nicht beschlossen): Bettwil–Sarmenstorf (KGV 9.11.2026), Kirchgemeinden um Muri, Oberes Freiamt (geprüft per 1.1.2028), Zurzach-Studenland (frühestens 1.1.2029). Die Fusion zur KG Aare-Rhein ist am 18.5.2025 gescheitert.",
+    "Art. 21 Abs. 3 OS verlangt dem Wortlaut nach die Erklärung, der röm.-kath. Konfession nicht mehr angehören zu wollen; die interne Checkliste der Landeskirche (wikikath.ch) sieht bei «Austritt ohne Abwendung» eine Kopie an das Generalvikariat vor – kollidiert mit der Bitte im Brief, Pfarrei und Bistum nicht zu informieren.",
+    "Niederwil: Startseite der KG nennt PLZ 5525, Impressum und Einwohnergemeinde 5524 (übernommen: 5524)."
   ]
- },
- "austritt": {
-  "recipient": "Kirchenpflege der Kirchgemeinde am Wohnsitz (Organisationsstatut Art. 21 Abs. 3: Erklärung «beim Pfarramt oder bei der Kirchenpflege» zu hinterlegen)",
-  "recipient_level": "kirchgemeinde",
-  "form": "schriftlich, handschriftlich unterschrieben; mit Austrittswunsch, Personalien und Taufort bzw. Taufpfarrei; bei Kindern unter 16 Jahren Unterschrift beider sorgeberechtigten Eltern",
-  "beglaubigung": false,
-  "wirkung": "Wirksam ab dem Tag nach Eingang des Schreibens (Handreichung Bistum Basel, von der Landeskirche publiziert, gestützt auf BGer 2C_382/2008).",
-  "notes": "Die Landeskirche empfiehlt, eine schriftliche Bestätigung zu verlangen und dauerhaft aufzubewahren, da die austretende Person den Austritt nachweisen muss. Art. 21 Abs. 3 OS verlangt dem Wortlaut nach die Erklärung, der röm.-kath. Konfession nicht mehr angehören zu wollen; nach Bundesgericht (2C_406/2011) genügt jedoch ein auf die Körperschaft beschränkter Austritt.",
-  "source": "https://www.kathaargau.ch/eintreten-austreten/"
- },
- "finder": "https://www.kathaargau.ch/ueber-uns/kirche-vor-ort/",
- "stand": "2026-10-28",
- "sources": [
-  "https://www.kathaargau.ch/ueber-uns/kirche-vor-ort/",
-  "https://www.kathaargau.ch/wp-content/uploads/Kath-AG_Karte_Kirchgemeinden-in-Pastoralraeumen.pdf",
-  "https://www.kathaargau.ch/eintreten-austreten/",
-  "https://wikikath.ch/wp-content/uploads/Organisationsstatut-OS-der-Roem-Kath-Landeskirche-Aargau-2004_Vers_2023.pdf",
-  "https://wikikath.ch/wp-content/uploads/1.2_kirchenaustritt-grundlagen-richtlinien-konsequenzen.pdf",
-  "https://www.ag.ch/media/kanton-aargau/dfr/dokumente/steuern/natuerliche-personen/steuerberechnung-tarife-natuerliche-personen/gemeinde-und-kirchensteuerf-sse-2026-v5.pdf",
-  "https://www.kathaargau.ch/wp-content/uploads/Kathaargau_Jahresrechnung_2025.pdf",
-  "https://www.kathaargau.ch/wp-content/uploads/5_1_Bericht_und_Antrag_Zusammenschluss_KG_Kaisten-Ittenthal.pdf",
-  "https://www.kathaargau.ch/wp-content/uploads/Alle-Mitglieder-der-Synode-2023-2026.pdf",
-  "https://www.oftringen.ch/kirchen",
-  "https://www.densbueren.ch/kirche"
- ],
- "kirchgemeinden": [
-  {
-   "id": "ag-kreis-aarau",
-   "name": "Römisch-Katholische Kreiskirchgemeinde Aarau",
-   "postal": [
-    "Römisch-Katholische Kreiskirchgemeinde Aarau",
-    "Verwaltung der Kreiskirchgemeinde",
-    "Feerstrasse 4",
-    "5000 Aarau"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@pastoralraum-aarau.ch",
-   "website": "https://www.pastoralraum-aarau.ch/kreiskirchgemeinde/",
-   "source": "https://www.pastoralraum-aarau.ch/kreiskirchgemeinde/",
-   "bfs": [
-    4001,
-    4002,
-    4003,
-    4004,
-    4005,
-    4006,
-    4007,
-    4008,
-    4009,
-    4010,
-    4012,
-    4013,
-    4136,
-    4142,
-    4143,
-    4144,
-    4273,
-    4275,
-    4276,
-    4277,
-    4281,
-    4284,
-    4286,
-    4288
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kreiskirchgemeinde (OS Art. 41) aus den Ortskirchgemeinden Aarau, Buchs-Rohr, Entfelden, Schöftland und Suhr-Gränichen; die Jahresrechnung der Landeskirche führt sie als eine Kirchgemeinde «Aarau (KKG)», Karte und Synode zeigen die fünf Ortskirchgemeinden einzeln. Gemeindezuordnung aus Karte der Landeskirche und einheitlichem Kirchensteuerfuss 19 %. Densbüren laut Gemeinde Densbüren und Steuerfuss bei Aarau, pastoral vom Seelsorgeverband Homberg (Herznach) betreut; die KG Herznach-Ueken zählt Densbüren zu sich (siehe issues)."
-  },
-  {
-   "id": "ag-menziken-reinach",
-   "name": "Römisch-Katholische Kirchgemeinde Menziken-Reinach",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Menziken-Reinach",
-    "Sekretariat",
-    "Mühlebühlstrasse 5",
-    "5737 Menziken"
-   ],
-   "address_type": "sekretariat",
-   "email": "st.anna@kath-menziken.ch",
-   "website": "https://www.kath-menziken.ch/",
-   "source": "https://www.kath-menziken.ch/kirchgemeinde",
-   "bfs": [
-    4131,
-    4132,
-    4135,
-    4137,
-    4139,
-    4140,
-    4141,
-    4145,
-    4146,
-    4147
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Sekretariat des Pastoralraums Aargau Süd, auf der Kirchgemeinde-Seite angegeben. Gemeindezuordnung (10 Gemeinden im Wynental/Seetal) aus Karte der Landeskirche und Kirchensteuerfuss 17 %."
-  },
-  {
-   "id": "ag-lenzburg",
-   "name": "Römisch-Katholische Kirchgemeinde Lenzburg",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Lenzburg",
-    "Kirchenpflege",
-    "Bahnhofstrasse 23",
-    "5600 Lenzburg"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "verwaltung@kathlenzburg.ch",
-   "website": "https://pastoralraum-lenzburg.ch/",
-   "source": "https://pastoralraum-lenzburg.ch/kirchgemeinde/",
-   "bfs": [
-    4091,
-    4134,
-    4138,
-    4191,
-    4192,
-    4193,
-    4195,
-    4197,
-    4198,
-    4199,
-    4200,
-    4201,
-    4203,
-    4204,
-    4205,
-    4206,
-    4207,
-    4209,
-    4210
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarreien Herz Jesu Lenzburg, St. Antonius Wildegg, St. Theresia Seon; laut Website 19 politische Gemeinden (nicht einzeln aufgezählt). Zuordnung aus Karte der Landeskirche und Kirchensteuerfuss 19 %."
-  },
-  {
-   "id": "ag-brugg",
-   "name": "Römisch-Katholische Kirchgemeinde Brugg",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Brugg",
-    "Kirchgemeindeverwaltung",
-    "Stapferstrasse 15",
-    "5200 Brugg"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@kathbrugg.ch",
-   "website": "https://www.kathbrugg.ch/",
-   "source": "https://kathbrugg.ch/ueber-uns/kirchgemeinde/",
-   "bfs": [
-    4092,
-    4093,
-    4095,
-    4099,
-    4100,
-    4104,
-    4106,
-    4107,
-    4110,
-    4111,
-    4112,
-    4117,
-    4120,
-    4121,
-    4123,
-    4124,
-    4125
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Pfarreien Brugg und Windisch (Pastoralraum Region Brugg-Windisch); Website zählt die 17 Gemeinden auf, Brugg inkl. Umiken, Schinznach Bad und Villnachern."
-  },
-  {
-   "id": "ag-zofingen",
-   "name": "Römisch-Katholische Kirchgemeinde Zofingen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Zofingen",
-    "Kirchenpflege",
-    "Mühlethalstrasse 13",
-    "4800 Zofingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "kirchenpflege@kathzofingen.ch",
-   "website": "https://www.kathzofingen.ch/",
-   "source": "https://www.kathzofingen.ch/",
-   "bfs": [
-    4274,
-    4283,
-    4285,
-    4287,
-    4289
-   ],
-   "partial_bfs": [
-    4280
-   ],
-   "confidence": "high",
-   "note": "Website: «Unsere Kirchgemeinde befindet sich in den sechs Gemeinden Zofingen, Strengelbach, Oftringen, Safenwil, Brittnau und Vordemwald.» Oftringen nur teilweise (Oftringen Nord gehört zu Aarburg-Rothrist)."
-  },
-  {
-   "id": "ag-aarburg-rothrist",
-   "name": "Römisch-Katholische Kirchgemeinde Aarburg-Oftringen Nord/Rothrist-Murgenthal",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Aarburg-Oftringen Nord/Rothrist-Murgenthal",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Bahnhofstrasse 51",
-    "4663 Aarburg"
-   ],
-   "address_type": "pfarramt",
-   "email": "info@kath-aaro.ch",
-   "website": "https://kath-aarburg-rothrist.ch/",
-   "source": "https://kath-aarburg-rothrist.ch/ueber-uns/eine-kirchgemeinde-zwei-pfarreien/",
-   "bfs": [
-    4271,
-    4279,
-    4282
-   ],
-   "partial_bfs": [
-    4280
-   ],
-   "confidence": "medium",
-   "note": "«Eine Kirchgemeinde – zwei Pfarreien» (Guthirt Aarburg, St. Paul Rothrist) mit gemeinsamer Kirchenpflege; Gebiet laut Website Aarburg, Murgenthal (Balzenwil, Glashütten, Riken), Oftringen-Nord und Rothrist. Name wie im Synode-Verzeichnis der Landeskirche; die Website publiziert nur die Pfarramtsadresse."
-  },
-  {
-   "id": "ag-rheinfelden-magden-olsberg",
-   "name": "Römisch-Katholische Kirchgemeinde Rheinfelden-Magden-Olsberg",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Rheinfelden-Magden-Olsberg",
-    "Hermann Keller-Strasse 10",
-    "4310 Rheinfelden"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@pfarrei-rheinfelden.ch",
-   "website": "https://www.pfarrei-rheinfelden.ch/",
-   "source": "https://www.pfarrei-rheinfelden.ch/ein-austritt",
-   "bfs": [
-    4253,
-    4257,
-    4258
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Website: «Der offizielle Kirchenaustritt muss schriftlich erfolgen und ist an die Kirchgemeinde … zu richten» mit dieser Adresse."
-  },
-  {
-   "id": "ag-kaiseraugst",
-   "name": "Römisch-Katholische Kirchgemeinde Kaiseraugst",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Kaiseraugst",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Heidemurweg 30",
-    "4303 Kaiseraugst"
-   ],
-   "address_type": "pfarramt",
-   "email": "kaiseraugst@kath.ch",
-   "website": "https://www.kaiseraugst.com/",
-   "source": "https://www.kaiseraugst.com/kontakt",
-   "bfs": [
-    4252
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Adresse der Pfarrei St. Gallus & Othmar (Kaiseraugst-Giebenach-Arisdorf) publiziert; Website-Impressum Stand 2020."
-  },
-  {
-   "id": "ag-moehlin",
-   "name": "Römisch-Katholische Kirchgemeinde Möhlin",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Möhlin",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Eihornstrasse 3",
-    "4313 Möhlin"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/moehlin",
-   "source": "https://www.moehlinbach.ch/",
-   "bfs": [
-    4254
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
-  },
-  {
-   "id": "ag-zeiningen",
-   "name": "Römisch-Katholische Kirchgemeinde Zeiningen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Zeiningen",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Kirchweg 1",
-    "4314 Zeiningen"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/zeiningen",
-   "source": "https://www.moehlinbach.ch/",
-   "bfs": [
-    4263
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
-  },
-  {
-   "id": "ag-zuzgen",
-   "name": "Römisch-Katholische Kirchgemeinde Zuzgen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Zuzgen",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Kirchgasse 2",
-    "4315 Zuzgen"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/zuzgen",
-   "source": "https://www.moehlinbach.ch/",
-   "bfs": [
-    4264
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
-  },
-  {
-   "id": "ag-wegenstetten-hellikon",
-   "name": "Römisch-Katholische Kirchgemeinde Wegenstetten-Hellikon",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Wegenstetten-Hellikon",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Kirchrain 9",
-    "4317 Wegenstetten"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.moehlinbach.ch/ueber-uns/pfarreien/wegenstetten-hellikon",
-   "source": "https://www.moehlinbach.ch/",
-   "bfs": [
-    4262,
-    4251
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pastoralraum Möhlinbach; nur Pfarramtsadresse publiziert."
-  },
-  {
-   "id": "ag-eiken-muenchwilen-sisseln",
-   "name": "Römisch-Katholische Kirchgemeinde Eiken-Münchwilen-Sisseln",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Eiken-Münchwilen-Sisseln",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Kirchgasse 4",
-    "5074 Eiken"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-eiken-muenchwilen-sisseln",
-   "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
-   "bfs": [
-    4161,
-    4172,
-    4177
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarreisekretariat Eiken (Seelsorgeverband Eiken-Stein); keine eigene Kirchgemeindeadresse publiziert."
-  },
-  {
-   "id": "ag-stein",
-   "name": "Römisch-Katholische Kirchgemeinde Stein",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Stein",
-    "Kirchenpflege",
-    "c/o Röm.-kath. Pfarramt",
-    "Schulstrasse 5",
-    "4332 Stein AG"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-stein",
-   "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
-   "bfs": [
-    4260
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarrei Bruder Klaus; Website nennt nur «Schulstrasse 5» ohne PLZ, PLZ aus kantonalem Denkmalinventar (ag.ch, Kath. Pfarrkirche Bruder Klaus, Schulstrasse 5, Gemeinde Stein) und amtlichem Ortschaftenverzeichnis."
-  },
-  {
-   "id": "ag-mumpf",
-   "name": "Römisch-Katholische Kirchgemeinde Mumpf",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Mumpf",
-    "Kirchenpflege",
-    "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
-    "Hauptstrasse 16",
-    "4322 Mumpf"
-   ],
-   "address_type": "sekretariat",
-   "email": "kirchenpflege-mumpf@ssvf.ch",
-   "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-mumpf",
-   "source": "https://mumpf.ch/cms/unser-dorf-1/kirche",
-   "bfs": [
-    4255
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Verbandssekretariat des Seelsorgeverbands Fischingertal (Schupfart, Obermumpf, Mumpf, Wallbach), Adresse auf kath-mittleresfricktal.ch/kontakte/sekretariate ohne PLZ, PLZ von der Website der Gemeinde Mumpf."
-  },
-  {
-   "id": "ag-obermumpf",
-   "name": "Römisch-Katholische Kirchgemeinde Obermumpf",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Obermumpf",
-    "Kirchenpflege",
-    "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
-    "Hauptstrasse 16",
-    "4322 Mumpf"
-   ],
-   "address_type": "sekretariat",
-   "email": "kirchenpflege.obermumpf@ssvf.ch",
-   "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-obermumpf",
-   "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
-   "bfs": [
-    4256
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Verbandssekretariat des Seelsorgeverbands Fischingertal in Mumpf (PLZ von mumpf.ch); keine eigene Postadresse der Kirchgemeinde publiziert."
-  },
-  {
-   "id": "ag-schupfart",
-   "name": "Römisch-Katholische Kirchgemeinde Schupfart",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Schupfart",
-    "Kirchenpflege",
-    "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
-    "Hauptstrasse 16",
-    "4322 Mumpf"
-   ],
-   "address_type": "sekretariat",
-   "email": "kirchenpflege.schupfart@ssvf.ch",
-   "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-schupfart",
-   "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
-   "bfs": [
-    4259
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Verbandssekretariat des Seelsorgeverbands Fischingertal in Mumpf (PLZ von mumpf.ch); Kirchenpflege laut Website mit Co-Sachwaltung."
-  },
-  {
-   "id": "ag-wallbach",
-   "name": "Römisch-Katholische Kirchgemeinde Wallbach",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Wallbach",
-    "Kirchenpflege",
-    "c/o Verbandssekretariat Seelsorgeverband Fischingertal",
-    "Hauptstrasse 16",
-    "4322 Mumpf"
-   ],
-   "address_type": "sekretariat",
-   "email": "kirchenpflege.wallbach@ssvf.ch",
-   "website": "https://www.kath-mittleresfricktal.ch/wer-wir-sind/kirchgemeinde-wallbach",
-   "source": "https://www.kath-mittleresfricktal.ch/kontakte/sekretariate",
-   "bfs": [
-    4261
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Verbandssekretariat Fischingertal in Mumpf; die Gemeinde Wallbach nennt zusätzlich ein Sekretariat Kirchstrasse 17, 4323 Wallbach (https://www.wallbach.ch/kirchen)."
-  },
-  {
-   "id": "ag-frick-gipf-oberfrick",
-   "name": "Röm.-Kath. Kirchgemeinde Frick/Gipf-Oberfrick",
-   "postal": [
-    "Röm.-Kath. Kirchgemeinde Frick/Gipf-Oberfrick",
-    "Rampart 1",
-    "5070 Frick"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt@kath-frick.ch",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchenpflege/frick",
-   "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
-   "bfs": [
-    4163,
-    4165
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Eine Kirchgemeinde für die zwei Pfarreien Frick und Gipf-Oberfrick. Adresse ausdrücklich als «Pfarramt und Kirchgemeinde» publiziert; KG-Unterlagen KGV 2025 nennen als Bauherrschaft «Röm.-Kath. Kirchgemeinde Frick/Gipf-Oberfrick, Rampart 1, 5070 Frick» (Einladungbroschuere_KGV_2025.pdf). Synode-Liste: «Frick-Gipf-Oberfrick»."
-  },
-  {
-   "id": "ag-oeschgen",
-   "name": "Römisch-Katholische Kirchgemeinde Oeschgen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Oeschgen",
-    "Mitteldorfstrasse 86",
-    "5072 Oeschgen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt@kath-oeschgen.ch",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/oeschgen",
-   "source": "https://www.oeschgen.ch/leben-gesellschaft/kirchen",
-   "bfs": [
-    4175
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Einwohnergemeinde publiziert die Pfarramtsadresse ausdrücklich als Kontakt der Kirchgemeinde; gleiche Adresse auf https://www.kath-oberesfricktal.ch/ueber-uns/kontakt (Oeschgen). Kirchengutsverwaltung erreichbar über Pfarramt-Telefon."
-  },
-  {
-   "id": "ag-wittnau",
-   "name": "Römisch-Katholische Kirchgemeinde Wittnau",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Wittnau",
-    "Hauptstrasse 56",
-    "5064 Wittnau"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei.wittnau@yetnet.ch",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/wittnau",
-   "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
-   "bfs": [
-    4181
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse. Briefkopf der KG: «Römisch-Katholische Kirchgemeinde 5064 Wittnau» (Protokoll KGV 14.11.2025). Gemeinde-Website (https://www.wittnau.ch/gemeinde/kirchgemeinden.html/223) nennt unter der Kirchgemeinde die Adresse Langmattstrasse 43 bei der Pfarreileitung (mit Personennamen, vermutlich privat) – nicht übernommen."
-  },
-  {
-   "id": "ag-woelflinswil-oberhof",
-   "name": "Römisch-Katholische Kirchgemeinde Wölflinswil-Oberhof",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Wölflinswil-Oberhof",
-    "Pfarrhaus 29",
-    "5063 Wölflinswil"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/woelflinswil",
-   "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
-   "bfs": [
-    4182,
-    4173
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse (Sekretariat); publizierte E-Mail ist persönlich, daher weggelassen. Name laut Jahresrechnung 2025 «Römisch – Katholische Kirchgemeinde Wölflinswil – Oberhof»; Pastoralraum-Übersicht kürzt «Wölflinswil»."
-  },
-  {
-   "id": "ag-herznach-ueken",
-   "name": "Röm.-Kath. Kirchgemeinde Herznach-Ueken",
-   "postal": [
-    "Röm.-Kath. Kirchgemeinde Herznach-Ueken",
-    "Kirchweg 5",
-    "5027 Herznach"
-   ],
-   "address_type": "pfarramt",
-   "email": "herznach@ssvhom.ch",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/herznach-ueken",
-   "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
-   "bfs": [
-    4186
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarrhaus/Sekretariat (Akten der KGV liegen «im Pfarrhaus Herznach» auf). ABWEICHUNG: KG-Website und Gemeinde Herznach-Ueken zählen Densbüren (inkl. Asp) zur KG, KG-Budget führt Steuern «Densbüren»; dagegen Steuerfuss Densbüren röm.-kath. 19 % (= Aarau, nicht 20 % wie Herznach-Ueken) und https://www.densbueren.ch/kirche: «Die römisch-katholischen Einwohnerinnen und Einwohner gehören der Kirche Aarau an». Karte ordnet Densbüren Aarau zu – rechtliche Zugehörigkeit unklar, prüfen."
-  },
-  {
-   "id": "ag-hornussen-zeihen",
-   "name": "Römisch-Katholische Kirchgemeinde Hornussen-Zeihen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Hornussen-Zeihen",
-    "Bahnhofstrasse 88",
-    "5075 Hornussen"
-   ],
-   "address_type": "pfarramt",
-   "email": "hornussen@ssvhom.ch",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/hornussen-zeihen",
-   "source": "https://www.kath-oberesfricktal.ch/ueber-uns/kontakt",
-   "bfs": [
-    4185,
-    4183
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Eine Kirchgemeinde (Fusion 1.1.2014) mit zwei Pfarreien Hornussen und Zeihen. Rechnungsauflage «im Sekretariat Hornussen», daher Hornussen gewählt; Alternative Pfarramt Zeihen, Kirchweg 1, 5079 Zeihen (zeihen@ssvhom.ch). https://www.zeihen.ch/kultur/kirchen.html/120 nennt für die frühere KG Zeihen auch «Gallenkirch, Linn» (heute Bözberg) – KG-Einladung 2025 nennt sie nicht, Steuerfuss Bözberg 20 % ≠ 25 %; vermutlich veraltet."
-  },
-  {
-   "id": "ag-kaisten",
-   "name": "Römisch-Katholische Kirchgemeinde Kaisten",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Kaisten",
-    "Kirchenpflege",
-    "Lindengasse 1",
-    "5082 Kaisten"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "pfarramt@kath-kaisten.ch",
-   "website": "https://kath-kaisten.ch/",
-   "source": "https://www.kaisten.ch/kircheromkathkaisten",
-   "bfs": [],
-   "partial_bfs": [
-    4169
-   ],
-   "confidence": "high",
-   "note": "KG-Website nennt «Kirchgemeinde Kaisten St. Michael / Pfarreisekretariat / Lindengasse 1 / 5082 Kaisten» (https://kath-kaisten.ch/kontakt/). FUSION: Urnenabstimmung 27.9.2026 angenommen, «Die neue Kirchgemeinde Kaisten-Ittenthal entsteht per 1. Januar 2027» (https://kath-kaisten.ch/aktuelles/abstimmung-september-2026-resultat/); Genehmigung durch Synode beantragt (https://www.kathaargau.ch/wp-content/uploads/5_1_Bericht_und_Antrag_Zusammenschluss_KG_Kaisten-Ittenthal.pdf). Ab 2027 Name «Römisch-Katholische Kirchgemeinde Kaisten-Ittenthal»."
-  },
-  {
-   "id": "ag-ittenthal",
-   "name": "Römisch-Katholische Kirchgemeinde Ittenthal",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Ittenthal",
-    "Kath. Pfarramt St. Maria Ittenthal",
-    "Lindengasse 1",
-    "5082 Kaisten"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt@kath-kaisten.ch",
-   "website": "https://kath-kaisten.ch/kirchenpflege-ittenthal/",
-   "source": "https://kath-kaisten.ch/impressum/",
-   "bfs": [],
-   "partial_bfs": [
-    4169
-   ],
-   "confidence": "high",
-   "note": "Postanschrift ausdrücklich auf der gemeinsamen KG-Website; Kirchenpflege Ittenthal hat nur Privatadresse des Präsidiums (nicht übernommen). FUSION mit Kaisten per 1.1.2027 zur «Römisch-Katholischen Kirchgemeinde Kaisten-Ittenthal» (Urnenabstimmung 27.9.2026 angenommen; Synode-Genehmigung beantragt). Ab 2027 Ittenthal → Kaisten-Ittenthal, gleiche Adresse."
-  },
-  {
-   "id": "ag-laufenburg",
-   "name": "Römisch-Katholische Kirchgemeinde Laufenburg",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Laufenburg",
-    "Sekretariat",
-    "Herrengasse 108",
-    "5080 Laufenburg"
-   ],
-   "address_type": "sekretariat",
-   "email": "kirchenpflege@kath-laufenburg.ch",
-   "website": "https://kath-laufenburg.ch/",
-   "source": "https://kath-laufenburg.ch/kontakt/",
-   "bfs": [],
-   "partial_bfs": [
-    4170
-   ],
-   "confidence": "high",
-   "note": "Website der KG selbst («©2026 Römisch-Katholische Kirchgemeinde Laufenburg»); Fusszeile «Pfarramt-Sekretariat Herrengasse 108». Kirchenpflege-Funktionsadresse kirchenpflege@kath-laufenburg.ch (https://kath-laufenburg.ch/pffarreileben/kirchenpflege/). Protokoll KGV 2025 Briefkopf «Kirchenpflege 5080 Laufenburg»."
-  },
-  {
-   "id": "ag-sulz",
-   "name": "Römisch-Katholische Kirchgemeinde Sulz",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Sulz",
-    "Sekretariat",
-    "Chilegass 7",
-    "5085 Sulz"
-   ],
-   "address_type": "sekretariat",
-   "email": "Kirchenpflege.Sulz@hispeed.ch",
-   "website": "https://www.kathkirche-sulz.ch/",
-   "source": "https://www.kathkirche-sulz.ch/pfarramt-organisationen/",
-   "bfs": [],
-   "partial_bfs": [
-    4170
-   ],
-   "confidence": "high",
-   "note": "Sekretariat im Pfarrhaus Chilegass 7 (= Kontaktseite «Katholische Kirchgemeinde Sulz», Karte «Chilegass 7, 5085 Sulz»). Hinweis: KGV auf 2.12.2026 verschoben, «über das weitere Vorgehen ab 01.01.2027» wird informiert; Protokoll KGV Laufenburg 2025: «nach Gansingen droht auch Sulz eine Fremdverwaltung» – Adresse 2027 erneut prüfen."
-  },
-  {
-   "id": "ag-gansingen",
-   "name": "Römisch-Katholische Kirchgemeinde Gansingen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Gansingen",
-    "Pfarramt Kirchgemeindeverband im Mettauertal",
-    "Pfarrhausweg 9",
-    "5274 Mettau"
-   ],
-   "address_type": "pfarramt",
-   "email": "sachwalter.gansingen@sesomega.ch",
-   "website": "https://www.kath-kirche-mega.ch/gansingen",
-   "source": "https://www.kath-kirche-mega.ch/pfarramt-sesomega",
-   "bfs": [
-    4164
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "«Die Kirchenpflege in Gansingen ist seit dem 1. Januar 2023 vakant. Die Kirchgemeinde wird neu seit dem 1. April 2025 durch den Sachwalter … vertreten» (https://www.kath-kirche-mega.ch/gansingen); Sachwalter-Adresse in Brugg mit Personenname – nicht übernommen, Funktions-E-Mail sachwalter.gansingen@sesomega.ch. Postadresse = gemeinsames Pfarramt der Pfarreien Gansingen und Mettau."
-  },
-  {
-   "id": "ag-mettau",
-   "name": "Römisch-Katholische Kirchgemeinde Mettau",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Mettau",
-    "Kirchenpflege",
-    "Pfarrhausweg 9",
-    "5274 Mettau"
-   ],
-   "address_type": "kirchenpflege",
-   "website": "https://www.kath-kirche-mega.ch/mettau",
-   "source": "https://www.kath-kirche-mega.ch/mettau",
-   "bfs": [
-    4184
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Name «Kirchgemeinde Mettau» (auch Synode-Liste «Mettau»; Gemeinde Mettauertal: «Röm. Kath. Kirchgemeinde - Pfarrei St. Remigius Mettau», Pfarramt Pfarrhausweg 9, 5274 Mettau – https://www.mettauertal.ch/gemeinde-leben/gemeinde/kirchgemeinden). Pfarrhausweg 9 = Pfarramt/Sekretariat des Kirchgemeindeverbands im Mettauertal."
-  },
-  {
-   "id": "ag-schwaderloch",
-   "name": "Römisch-Katholische Kirchgemeinde Schwaderloch",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Schwaderloch",
-    "Röm.-kath. Pfarramt St. Antonius",
-    "Kirchweg 221",
-    "5325 Leibstadt"
-   ],
-   "address_type": "pfarramt",
-   "email": "schwaderloch@kath-aare-rhein.ch",
-   "website": "https://www.kath-aare-rhein.ch/schwaderloch.html",
-   "source": "https://www.kath-aare-rhein.ch/2461.html",
-   "bfs": [
-    4176
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramt-Sekretariat für Schwaderloch sitzt in Leibstadt (gleiche Adresse wie Pfarramt Leibstadt). Präsidium der Kirchenpflege vakant; Ansprechperson nur mit privater E-Mail. Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
-  },
-  {
-   "id": "ag-leibstadt",
-   "name": "Römisch-Katholische Kirchgemeinde Leibstadt",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Leibstadt",
-    "Röm.-kath. Pfarramt St. Fridolin",
-    "Kirchweg 221",
-    "5325 Leibstadt"
-   ],
-   "address_type": "pfarramt",
-   "email": "leibstadt@kath-aare-rhein.ch",
-   "website": "https://www.kath-aare-rhein.ch/leibstadt.html",
-   "source": "https://www.kath-aare-rhein.ch/2445.html",
-   "bfs": [
-    4311
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse. Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
-  },
-  {
-   "id": "ag-leuggern-kleindoettingen",
-   "name": "Römisch-Katholische Kirchgemeinde Leuggern-Kleindöttingen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Leuggern-Kleindöttingen",
-    "Röm.-kath. Pfarramt St. Peter und Paul",
-    "Kirchplatz 7",
-    "5316 Leuggern"
-   ],
-   "address_type": "pfarramt",
-   "email": "leuggern@kath-aare-rhein.ch",
-   "website": "https://www.kath-aare-rhein.ch/unterlagen-f%C3%BCr-kirchgemeindeversammlung.html",
-   "source": "https://www.kath-aare-rhein.ch/2453.html",
-   "bfs": [
-    4313,
-    4303,
-    4307,
-    4105
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Eine KG für die Pfarreien Leuggern und Kleindöttingen; Pfarramt Leuggern beherbergt auch das Pastoralraum-Sekretariat. Alternative: Röm.-kath. Pfarramt St. Antonius, Antoniusweg 16, 5314 Kleindöttingen. KGV-Unterlagen 2026 datiert «5316 Leuggern». Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
-  },
-  {
-   "id": "ag-koblenz",
-   "name": "Römisch-Katholische Kirchgemeinde Koblenz",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Koblenz",
-    "Röm.-kath. Pfarramt St. Verena",
-    "Schulstrasse 9",
-    "5322 Koblenz"
-   ],
-   "address_type": "pfarramt",
-   "email": "koblenz@kath-aare-rhein.ch",
-   "website": "https://www.kath-aare-rhein.ch/koblenz.html",
-   "source": "https://www.kath-aare-rhein.ch/2437.html",
-   "bfs": [
-    4310
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse (zugleich Büro der Pastoralraumleitung). Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
-  },
-  {
-   "id": "ag-klingnau",
-   "name": "Katholische Kirchgemeinde Klingnau",
-   "postal": [
-    "Katholische Kirchgemeinde Klingnau",
-    "Röm.-kath. Pfarramt St. Katharina",
-    "Sonnengasse 28",
-    "5313 Klingnau"
-   ],
-   "address_type": "pfarramt",
-   "email": "klingnau@kath-aare-rhein.ch",
-   "website": "https://www.kath-aare-rhein.ch/kirchgemeinde.html",
-   "source": "https://www.kath-aare-rhein.ch/2429.html",
-   "bfs": [
-    4309
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse; Finanzverwaltung extern (OTAG Klingnau, Treuhand) – nicht als Postadresse übernommen. Name laut Rechnung 2025 «Katholische Kirchgemeinde Klingnau». Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
-  },
-  {
-   "id": "ag-doettingen",
-   "name": "Kath. Kirchgemeinde St. Johannes Döttingen",
-   "postal": [
-    "Kath. Kirchgemeinde St. Johannes Döttingen",
-    "Röm.-kath. Pfarramt St. Johannes",
-    "Chilbert 24",
-    "5312 Döttingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "doettingen@kath-aare-rhein.ch",
-   "website": "https://www.kath-aare-rhein.ch/doettingen.html",
-   "source": "https://www.kath-aare-rhein.ch/kontakt-2413.html",
-   "bfs": [
-    4304
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Gemeinde Döttingen: «Römisch-katholische Kirchgemeinde Döttingen / Pfarramt / Pfarrhaus, Chilbert 24, 5312 Döttingen» (https://www.doettingen.ch/freizeit/kirchliche-institutionen/). Name laut KGV-Broschüre 2026 «KATH. KIRCHGEMEINDE ST. JOHANNES DÖTTINGEN». Fusion aller 6 KG zur «Kirchgemeinde Aare-Rhein» ist an der Urne vom 18.5.2025 knapp gescheitert (KGV-Broschüre Döttingen 2026); KG bleiben selbständig."
-  },
-  {
-   "id": "ag-zurzach",
-   "name": "Römisch-Katholische Kirchgemeinde Zurzach",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Zurzach",
-    "Pfarreisekretariat",
-    "Hauptstrasse 42",
-    "5330 Bad Zurzach"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@kath-zurzach-studenland.ch",
-   "website": "https://kath-zurzach-studenland.ch/bad-zurzach/kirchgemeinde/",
-   "source": "https://kath-zurzach-studenland.ch/was-tun-bei/kirchenaustritt/",
-   "bfs": [
-    4314
-   ],
-   "partial_bfs": [
-    4324
-   ],
-   "confidence": "high",
-   "note": "Sekretariat der Pfarrei Zurzach = Pastoralraum-Sekretariat; Pastoralraum verlangt Austritt beim Pfarreisekretariat. Selbstbezeichnung der KG nicht gefunden; Synode-Liste «Zurzach». Gebietszitat betrifft die Pfarrei (Mellikon ist eigene politische Gemeinde, Steuerfuss röm.-kath. 25 % = Zurzach). Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
-  },
-  {
-   "id": "ag-baldingen-boebikon",
-   "name": "Römisch-Katholische Kirchgemeinde Baldingen-Böbikon",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Baldingen-Böbikon",
-    "Pfarreisekretariat",
-    "Hauptstrasse 42",
-    "5330 Bad Zurzach"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@kath-zurzach-studenland.ch",
-   "website": "https://kath-zurzach-studenland.ch/baldingen-boebikon/kirchgemeinde/",
-   "source": "https://kath-zurzach-studenland.ch/baldingen-boebikon/pfarreiteam-kontakte/",
-   "bfs": [],
-   "partial_bfs": [
-    4324
-   ],
-   "confidence": "medium",
-   "note": "Kein eigenes Pfarramtsbüro publiziert; Pfarreisekretariat ist das Sekretariat in Bad Zurzach (gleiche Sekretärinnen/Telefon). Steuerregister: «röm.-kath. Kirche Baldingen Böbikon» (Gemeinde Zurzach, 28 %). Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
-  },
-  {
-   "id": "ag-kaiserstuhl-fisibach",
-   "name": "Katholische Kirchgemeinde Kaiserstuhl-Fisibach",
-   "postal": [
-    "Katholische Kirchgemeinde Kaiserstuhl-Fisibach",
-    "Kath. Pfarramt Kaiserstuhl",
-    "Rebenstrasse 153",
-    "5463 Wislikofen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei.kaiserstuhl-wislikofen@kath-zurzach-studenland.ch",
-   "website": "https://kath-zurzach-studenland.ch/kaiserstuhl/kirchgemeinde/",
-   "source": "https://www.fisibach.ch/katholisch",
-   "bfs": [
-    4306
-   ],
-   "partial_bfs": [
-    4324
-   ],
-   "confidence": "high",
-   "note": "Postadresse ausdrücklich auf der Website der Einwohnergemeinde Fisibach (Kirchenpflege-Liste dort deckt sich mit der aktuellen KG-Seite). Pfarreibüro der Bezugsperson laut https://kath-zurzach-studenland.ch/kaiserstuhl/pfarreiteam-kontakte/: «Rebenstrasse 153, 5463 Wislikofen». Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
-  },
-  {
-   "id": "ag-wislikofen-ruemikon",
-   "name": "Römisch-Katholische Kirchgemeinde Wislikofen-Rümikon",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Wislikofen-Rümikon",
-    "Pfarreibüro",
-    "Rebenstrasse 153",
-    "5463 Wislikofen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei.kaiserstuhl-wislikofen@kath-zurzach-studenland.ch",
-   "website": "https://kath-zurzach-studenland.ch/wislikofen/kirchgemeinde/",
-   "source": "https://kath-zurzach-studenland.ch/wislikofen/pfarreiteam-kontakte/",
-   "bfs": [],
-   "partial_bfs": [
-    4324
-   ],
-   "confidence": "medium",
-   "note": "Name: Pastoralraum nennt «Wislikofen», Synode-Liste 2023–2026 «Wislikofen-Rümikon» (https://www.kathaargau.ch/wp-content/uploads/Alle-Mitglieder-der-Synode-2023-2026.pdf), Steuerregister «Rümikon Wislikofen». Pfarreisekretariat (Sekretärinnen) sitzt in Bad Zurzach, Hauptstrasse 42 – Alternative, falls Austritt ans Pfarreisekretariat gehen soll. Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
-  },
-  {
-   "id": "ag-schneisingen-siglistorf",
-   "name": "Kath. Kirchgemeinde Schneisingen-Siglistorf",
-   "postal": [
-    "Kath. Kirchgemeinde Schneisingen-Siglistorf",
-    "Rindelstrasse 5",
-    "5425 Schneisingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei.schneisingen-siglistorf@kath-zurzach-studenland.ch",
-   "website": "https://kath-zurzach-studenland.ch/schneisingen/kirchgemeinde-2/",
-   "source": "https://kath-zurzach-studenland.ch/was-tun-bei/kirchenaustritt/",
-   "bfs": [
-    4318,
-    4319
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Sekretariat im Pfarrhaus Schneisingen (KGV-Unterlagen liegen «im Pfarrhaus Schneisingen» auf). Name laut KGV-Broschüre 2026 «Kath. Kirchgemeinde Schneisingen-Siglistorf» (Gemeinde Siglistorf: «Kath. Kirchgemeinde Schneisingen-Siglistorf, 5425 Schneisingen»). Zusammenschluss der 5 KG frühestens per 1.1.2029 geprüft (https://kath-zurzach-studenland.ch/fuenf-kirchgemeinden-gemeinsam-in-die-zukunft/)."
-  },
-  {
-   "id": "ag-unterendingen",
-   "name": "Kath. Kirchgemeinde Unterendingen",
-   "postal": [
-    "Kath. Kirchgemeinde Unterendingen",
-    "Sekretariat",
-    "Alte Surbtalstrasse 26",
-    "5305 Unterendingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pfarrei-unterendingen.ch",
-   "website": "https://pastoralraum-surbtal-wuerenlingen.ch/unterendingen/",
-   "source": "https://pastoralraum-surbtal-wuerenlingen.ch/unterendingen/kontakt/",
-   "bfs": [
-    4305,
-    4320
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramtssekretariat (Gemeinde Endingen: «Röm. Kath. Pfarramt / Alte Surbtalstrasse 26 / 5305 Unterendingen», https://www.endingen.ch/kirchen). Steuerfuss Endingen und Tegerfelden je 24 % – stützt Zuordnung beider Gemeinden."
-  },
-  {
-   "id": "ag-lengnau-freienwil",
-   "name": "Kath. Kirchgemeinde Lengnau-Freienwil",
-   "postal": [
-    "Kath. Kirchgemeinde Lengnau-Freienwil",
-    "Sekretariat",
-    "Kirchweg 6",
-    "5426 Lengnau"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pfarrei-lengnau-freienwil.ch",
-   "website": "https://pastoralraum-surbtal-wuerenlingen.ch/lengnau/",
-   "source": "https://pastoralraum-surbtal-wuerenlingen.ch/lengnau/",
-   "bfs": [
-    4312,
-    4028
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramtssekretariat; Bankverbindung lautet auf «Kath. Kirchgemeinde Lengnau-Freienwil, 5426 Lengnau» (https://pastoralraum-surbtal-wuerenlingen.ch/lengnau/kontakt/). Kirchengutsverwaltung extern (Treuhand) – nicht übernommen."
-  },
-  {
-   "id": "ag-wuerenlingen",
-   "name": "Katholische Kirchgemeinde St. Michael Würenlingen",
-   "postal": [
-    "Katholische Kirchgemeinde St. Michael Würenlingen",
-    "Sekretariat",
-    "Kirchweg 10",
-    "5303 Würenlingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pfarrei-wuerenlingen.ch",
-   "website": "https://pastoralraum-surbtal-wuerenlingen.ch/wuerenlingen/",
-   "source": "https://pastoralraum-surbtal-wuerenlingen.ch/wuerenlingen/kontakt/",
-   "bfs": [
-    4047
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramtssekretariat; Wahlvorschläge sind «beim Pfarramt» einzureichen. Name laut KGV-Broschüre 2026 «Katholische Kirchgemeinde St. Michael Würenlingen». Kirchengutsverwaltung: kiguverwaltung.wuerenlingen@bluewin.ch."
-  },
-  {
-   "id": "ag-ehrendingen",
-   "name": "Kath. Kirchgemeinde Ehrendingen",
-   "postal": [
-    "Kath. Kirchgemeinde Ehrendingen",
-    "Kath. Pfarramt Ehrendingen",
-    "Dorfstrasse 23",
-    "5420 Ehrendingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pfarreiehrendingen.ch",
-   "website": "https://pastoralraum-surbtal-wuerenlingen.ch/ehrendingen/ueber-uns/",
-   "source": "https://pastoralraum-surbtal-wuerenlingen.ch/ehrendingen/kontakt/",
-   "bfs": [
-    4049
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramtsadresse. Bankverbindung nennt «Kath. Kirchgemeinde Ehrendingen, Au 12, 5420 Ehrendingen» (https://pastoralraum-surbtal-wuerenlingen.ch/ehrendingen/ueber-uns/) – Art dieser Adresse unklar (evtl. privat), daher nicht gewählt."
-  },
-  {
-   "id": "ag-baden-ennetbaden",
-   "name": "Kath. Kirchgemeinde Baden-Ennetbaden",
-   "postal": [
-    "Kath. Kirchgemeinde Baden-Ennetbaden",
-    "Kirchgemeindeverwaltung",
-    "Rathausgasse 5",
-    "Postfach 250",
-    "5401 Baden"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://www.pastoralraum-aargauer-limmattal.ch/baden/",
-   "source": "https://www.pastoralraum-aargauer-limmattal.ch/baden/kontakt/kirchgemeindeverwaltung/",
-   "bfs": [
-    4026
-   ],
-   "partial_bfs": [
-    4021
-   ],
-   "confidence": "high",
-   "note": "Eine Kirchgemeinde für Baden und Ennetbaden (pfarrei-ennetbaden.ch leitet auf die Baden-Seite um). Impressum nennt dieselbe Postanschrift mit «5400 Baden AG»; die Verwaltungsseite nennt für das Postfach 5401 – 5401 übernommen. Keine Funktions-E-Mail der Verwaltung publiziert (nur persönliche Adressen; Impressum: kommunikation@pfarreibaden.ch)."
-  },
-  {
-   "id": "ag-wettingen",
-   "name": "Römisch-Katholische Kirchgemeinde Wettingen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Wettingen",
-    "Kirchgemeindeverwaltung",
-    "Schartenstrasse 155",
-    "5430 Wettingen"
-   ],
-   "address_type": "verwaltung",
-   "email": "info@kath-wettingen.ch",
-   "website": "https://www.pastoralraum-aargauer-limmattal.ch/kath-wettingen/",
-   "source": "https://www.pastoralraum-aargauer-limmattal.ch/kath-wettingen/kontakt/kirchgemeinde/",
-   "bfs": [
-    4045
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Zeile «Kirchgemeindeverwaltung» gestützt auf https://www.pastoralraum-aargauer-limmattal.ch/kath-wettingen/kontakt/offene-stellen/ («Kirchgemeindeverwaltung an der Schartenstrasse 155 in Wettingen»)."
-  },
-  {
-   "id": "ag-killwangen-neuenhof",
-   "name": "Katholische Kirchgemeinde Neuenhof-Killwangen",
-   "postal": [
-    "Katholische Kirchgemeinde Neuenhof-Killwangen",
-    "Glärnischstrasse 12",
-    "5432 Neuenhof"
-   ],
-   "address_type": "pfarramt",
-   "email": "kirchenpflege@pfarrei-neuenhof.ch",
-   "website": "https://www.pastoralraum-aargauer-limmattal.ch/neuenhof/",
-   "source": "https://www.pastoralraum-aargauer-limmattal.ch/neuenhof/impressum/",
-   "bfs": [
-    4030,
-    4034
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Zusammenschluss Neuenhof + Killwangen per 01.01.2025 (Zusammenschlussvertrag Art. 1/2: Name «Katholische Kirchgemeinde Neuenhof-Killwangen»). Name also umgekehrt zur Karte. Postanschrift = Pfarramt/Pfarreisekretariat (laut KGO zuständige Eingangsstelle). Impressum trägt noch den alten Namen; die Killwangen-Kirchenpflegeseite (Amtsperiode 2019-2022) ist veraltet und nennt eine Privatadresse – nicht verwenden."
-  },
-  {
-   "id": "ag-spreitenbach",
-   "name": "Kath. Kirchgemeinde Spreitenbach",
-   "postal": [
-    "Kath. Kirchgemeinde Spreitenbach",
-    "Ratzengasse 3",
-    "8957 Spreitenbach"
-   ],
-   "address_type": "pfarramt",
-   "email": "info@kathspreitenbach.ch",
-   "website": "https://www.pastoralraum-aargauer-limmattal.ch/spreitenbach/",
-   "source": "https://www.pastoralraum-aargauer-limmattal.ch/spreitenbach/impressum/",
-   "bfs": [
-    4040
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Postanschrift der KG im Impressum = Adresse des Kath. Pfarramts (Ratzengasse 3). Keine eigene Verwaltungsadresse publiziert."
-  },
-  {
-   "id": "ag-wuerenlos",
-   "name": "Römisch-katholische Kirchgemeinde Würenlos",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Würenlos",
-    "Schulstrasse 21",
-    "5436 Würenlos"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@kath-wuerenlos.ch",
-   "website": "https://www.pastoralraum-aargauer-limmattal.ch/wuerenlos/",
-   "source": "https://www.pastoralraum-aargauer-limmattal.ch/wuerenlos/impressum/",
-   "bfs": [
-    4048
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Postanschrift der KG = Pfarrei-Sekretariat (Schulstrasse 21). Gehört trotz Seelsorgeeinheit Wettingen-Würenlos zu einer eigenen KG."
-  },
-  {
-   "id": "ag-siggenthal",
-   "name": "Katholische Kirchgemeinde Kirchdorf",
-   "postal": [
-    "Katholische Kirchgemeinde Kirchdorf",
-    "Sekretariat",
-    "Brühlstrasse 16",
-    "5416 Kirchdorf AG"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@pastoralraum-siggenthal.ch",
-   "website": "https://www.pastoralraum-siggenthal.ch/",
-   "source": "https://www.pastoralraum-siggenthal.ch/fileadmin/Dokumente/Kirchgemeindeversammlung/2026/KGV_Broschuere_2026_final.pdf",
-   "bfs": [
-    4038,
-    4044
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Offizieller Name ist «Katholische Kirchgemeinde Kirchdorf» (nicht «Siggenthal»): KGV-Broschüre 2026 und Seite https://www.pastoralraum-siggenthal.ch/kirchgemeinde/gemeindeversammlung.html («Publikationsorgane der Kath. Kirchgemeinde Kirchdorf»). Eine KG mit drei Pfarreien (Kirchdorf, Nussbaumen, Untersiggenthal); die Broschüre weist Steuererträge aus den Gemeinden Obersiggenthal und Untersiggenthal aus (indirekter Gebietsbeleg). Finanzfragen: fibu@kath-siggenthal.ch."
-  },
-  {
-   "id": "ag-gebenstorf-turgi",
-   "name": "Kath. Kirchgemeinde Gebenstorf-Turgi",
-   "postal": [
-    "Kath. Kirchgemeinde Gebenstorf-Turgi",
-    "Sekretariat",
-    "Kinziggrabenstrasse 2",
-    "5412 Gebenstorf"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat.gebenstorf@kathkirchegetu.ch",
-   "website": "https://kath-wasserschloss.ch/ueber-uns/gebenstorf-turgi",
-   "source": "https://kath-wasserschloss.ch/ueber-uns/gebenstorf-turgi",
-   "bfs": [
-    4029
-   ],
-   "partial_bfs": [
-    4021
-   ],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse publiziert; Kontaktseite https://kath-wasserschloss.ch/kontakt verweist auf «die Sekretariate unserer beiden Kirchgemeinden» – Sekretariat Gebenstorf = Pastoralraum-/Pfarreisekretariat (auch Impressum-Adresse des Pastoralraums Wasserschloss). Kirchenaustritte bearbeitet das Präsidium der Kirchenpflege (nur persönliche E-Mail publiziert). Finanzverwaltung extern bei einem Treuhandbüro in Baden – nicht als Austrittsadresse verwenden. kathkirchegetu.ch leitet auf kath-wasserschloss.ch um."
-  },
-  {
-   "id": "ag-birmenstorf",
-   "name": "Kath. Kirchgemeinde Birmenstorf",
-   "postal": [
-    "Kath. Kirchgemeinde Birmenstorf",
-    "Sekretariat",
-    "Kirchstrasse 11",
-    "5413 Birmenstorf"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@pfarrei-birmenstorf.ch",
-   "website": "https://kath-wasserschloss.ch/ueber-uns/birmenstorf",
-   "source": "https://kath-wasserschloss.ch/ueber-uns/birmenstorf",
-   "bfs": [
-    4024
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse; Sekretariat Birmenstorf ist laut https://kath-wasserschloss.ch/kontakt eines der «Sekretariate unserer beiden Kirchgemeinden» (zugleich Pfarreisekretariat). pfarrei-birmenstorf.ch leitet auf kath-wasserschloss.ch um. Finanzverwaltung extern bei Treuhandbüro – nicht verwenden."
-  },
-  {
-   "id": "ag-am-rohrdorferberg",
-   "name": "Röm.-Kath. Kirchgemeinde am Rohrdorferberg",
-   "postal": [
-    "Röm.-Kath. Kirchgemeinde am Rohrdorferberg",
-    "Verwaltung",
-    "Ringstrasse 14",
-    "5452 Oberrohrdorf"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@kathrb.ch",
-   "website": "https://kathrb.ch/",
-   "source": "https://kathrb.ch/ueber-uns/kirchgemeinde/",
-   "bfs": [
-    4022,
-    4031,
-    4035,
-    4037,
-    4039,
-    4041
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "EINE Kirchgemeinde (Botschaft KGV 2026, https://kathrb.ch/wp-content/uploads/2026/10/Botschaft-zur-KGV-2026-1.pdf: «Römisch-Katholische Kirchgemeinde am Rohrdorferberg», Verwaltung in der Kaplanei Oberrohrdorf) mit vier Pfarreien Bellikon, Künten, Rohrdorf, Stetten. Keine wörtliche Gebietsliste gefunden; alle sechs Gemeinden (Bellikon, Künten, Niederrohrdorf, Oberrohrdorf, Remetschwil, Stetten) haben 2026 denselben kath. Steuerfuss 18 %. Ältere Dokumente sprechen noch von «Kirchgemeinde Rohrdorf»."
-  },
-  {
-   "id": "ag-fislisbach",
-   "name": "Katholische Kirchgemeinde Fislisbach",
-   "postal": [
-    "Katholische Kirchgemeinde Fislisbach",
-    "Kirchenpflege",
-    "Dorfstrasse 11",
-    "5442 Fislisbach"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "pfarramt.fislisbach@pastoralraum-mellingen.ch",
-   "website": "https://pastoralraum-mellingen.ch/fislisbach/",
-   "source": "https://pastoralraum-mellingen.ch/fislisbach/",
-   "bfs": [
-    4027
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Gleiche Adresse wie Kath. Pfarramt Fislisbach. Mitglied im Zweckverband Pastoralraum Region Mellingen, bleibt aber eigene KG (eigene KGV, Steuerfuss 19 %)."
-  },
-  {
-   "id": "ag-mellingen",
-   "name": "Katholische Kirchgemeinde Mellingen",
-   "postal": [
-    "Katholische Kirchgemeinde Mellingen",
-    "Sekretariat",
-    "Kleine Kirchgasse 28",
-    "5507 Mellingen"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt.mellingen@pastoralraum-mellingen.ch",
-   "website": "https://pastoralraum-mellingen.ch/mellingen/",
-   "source": "https://pastoralraum-mellingen.ch/mellingen/",
-   "bfs": [
-    4033
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "KGV-Einladung 2026 nennt sie «Kirchgemeinde St. Johannes Mellingen». Kleine Kirchgasse 28 ist zugleich Sekretariat des Pastoralraums."
-  },
-  {
-   "id": "ag-taegerig",
-   "name": "Katholische Kirchgemeinde Tägerig",
-   "postal": [
-    "Katholische Kirchgemeinde Tägerig",
-    "Kirchenpflege",
-    "Alte Poststrasse 6",
-    "5522 Tägerig"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "pfarramt.taegerig@pastoralraum-mellingen.ch",
-   "website": "https://pastoralraum-mellingen.ch/taegerig/",
-   "source": "https://pastoralraum-mellingen.ch/taegerig/",
-   "bfs": [
-    4077
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Gleiche Adresse wie Katholisches Pfarramt / «Sekretariat Kirchgemeinde Tägerig»."
-  },
-  {
-   "id": "ag-wohlenschwil-maegenwil",
-   "name": "Katholische Kirchgemeinde Wohlenschwil-Mägenwil",
-   "postal": [
-    "Katholische Kirchgemeinde Wohlenschwil-Mägenwil",
-    "Kirchenpflege",
-    "Vogelsangstrasse 2",
-    "5512 Wohlenschwil"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "pfarramt.wohlenschwil@pastoralraum-mellingen.ch",
-   "website": "https://pastoralraum-mellingen.ch/wohlenschwil-maegenwil/",
-   "source": "https://pastoralraum-mellingen.ch/wohlenschwil-maegenwil/",
-   "bfs": [
-    4046,
-    4032
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Gleiche Adresse wie Kath. Pfarramt / «Sekretariat Kirchgemeinde Wohlenschwil-Mägenwil»."
-  },
-  {
-   "id": "ag-berikon-rudolfstetten-bergdietikon",
-   "name": "Katholische Kirchgemeinde Berikon-Rudolfstetten-Bergdietikon",
-   "postal": [
-    "Katholische Kirchgemeinde Berikon-Rudolfstetten-Bergdietikon",
-    "Sekretariat",
-    "Oberwilerstrasse 5",
-    "8965 Berikon"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt.berikon@kathmutschellen.ch",
-   "website": "https://kathmutschellen.ch/berikon-friedlisberg/kirchgemeinde-2/",
-   "source": "https://kathmutschellen.ch/berikon-friedlisberg/kontakt/",
-   "bfs": [
-    4062,
-    4075,
-    4023
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "EINE KG für die Pfarreien Berikon-Friedlisberg, Rudolfstetten und Bergdietikon (gleiche KG-Seite und gleiches Sekretariat für alle drei). Website nennt sie «Kirchgemeinde Berikon-Rudolfstetten-Bergdietikon», die Kontaktübersicht https://kathmutschellen.ch/kontakte/ «Kirchgemeinde Berikon-Friedlisberg-Rudolfstetten-Bergdietikon»; Zusatz «Katholische» in postal ergänzt (Website «Katholische Kirche am Mutschellen»). Mitglied im Kirchgemeindeverband am Mutschellen."
-  },
-  {
-   "id": "ag-eggenwil-widen",
-   "name": "Katholische Kirchgemeinde Eggenwil-Widen",
-   "postal": [
-    "Katholische Kirchgemeinde Eggenwil-Widen",
-    "Sekretariat",
-    "Dorngasse 8",
-    "8967 Widen"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt.widen@kathmutschellen.ch",
-   "website": "https://kathmutschellen.ch/eggenwil-widen/kirchgemeinde-eggenwil-widen/",
-   "source": "https://kathmutschellen.ch/eggenwil-widen/kontakt-2/",
-   "bfs": [
-    4066,
-    4081
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Dorngasse 8 ist zugleich Sekretariat des Pastoralraums am Mutschellen. Zusatz «Katholische» in postal ergänzt."
-  },
-  {
-   "id": "ag-oberwil-lieli",
-   "name": "Katholische Kirchgemeinde Oberwil-Lieli",
-   "postal": [
-    "Katholische Kirchgemeinde Oberwil-Lieli",
-    "Sekretariat",
-    "Kirchweg 41",
-    "8966 Oberwil-Lieli"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt.oberwil-lieli@kathmutschellen.ch",
-   "website": "https://kathmutschellen.ch/oberwil-lieli/kirchgemeinde-oberwil-lieli/",
-   "source": "https://kathmutschellen.ch/oberwil-lieli/kontakt/",
-   "bfs": [
-    4074
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Zusatz «Katholische» in postal ergänzt."
-  },
-  {
-   "id": "ag-bremgarten",
-   "name": "Römisch-Katholische Kirchgemeinde Bremgarten",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Bremgarten",
-    "Pfarrgasse 4",
-    "5620 Bremgarten"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt@kath-bremgarten.ch",
-   "website": "https://kath-bremgarten-reusstal.ch/bremgarten/",
-   "source": "https://kath-bremgarten-reusstal.ch/bremgarten/kirchgemeinde-kirchenpflege/",
-   "bfs": [],
-   "partial_bfs": [
-    4063
-   ],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse; nur Pfarramt (= auch Pastoralraum-Sekretariat). Name aus Zusammenschlussvertrag (https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/08/Vertrag-zwischen-den-KG-Bremg.-Herm.-Vers.28.07.2026.pdf). Zusammenschluss mit KG Hermetschwil per 01.01.2028 angenommen (Urnenabstimmung 2026)."
-  },
-  {
-   "id": "ag-hermetschwil-staffeln",
-   "name": "Kath. Kirchgemeinde Hermetschwil-Staffeln",
-   "postal": [
-    "Kath. Kirchgemeinde Hermetschwil-Staffeln",
-    "Käsereistrasse 5",
-    "5626 Hermetschwil"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt@kirche-hermetschwil.ch",
-   "website": "https://kath-bremgarten-reusstal.ch/hermetschwil-staffeln/",
-   "source": "https://kath-bremgarten-reusstal.ch/hermetschwil-staffeln/kirchgemeinde-kirchenpflege/",
-   "bfs": [],
-   "partial_bfs": [
-    4063
-   ],
-   "confidence": "medium",
-   "note": "Name auf KGV-Dokumentation 2026 «Kath. Kirchgemeinde Hermetschwil-Staffeln»; im Zusammenschlussvertrag «Römisch-Katholische Kirchgemeinde Hermetschwil». Nur Pfarramtsadresse publiziert (Website schreibt «5626 Hermetschwil»; amtlicher PLZ-Ort 5626 Hermetschwil-Staffeln). Wird per 01.01.2028 in die KG Bremgarten integriert und aufgelöst – Datensatz ab dann auf Bremgarten umstellen."
-  },
-  {
-   "id": "ag-zufikon",
-   "name": "Röm.-Kath. Kirchgemeinde Zufikon",
-   "postal": [
-    "Röm.-Kath. Kirchgemeinde Zufikon",
-    "Bachstrasse 20",
-    "5621 Zufikon"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pfarreizufikon.ch",
-   "website": "https://kath-bremgarten-reusstal.ch/zufikon/",
-   "source": "https://kath-bremgarten-reusstal.ch/zufikon/kirchgemeinde-kirchenpflege/",
-   "bfs": [
-    4083
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse publiziert; Kirchenpflege nur mit Privatkontakten. KG-Name aus Leistungsvereinbarung KRSD in https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/10/Dokumentation-fuer-die-Kirchgemeindeversammlung-2026.pdf."
-  },
-  {
-   "id": "ag-lunkhofen",
-   "name": "Röm.-Kath. Kirchgemeinde Lunkhofen",
-   "postal": [
-    "Röm.-Kath. Kirchgemeinde Lunkhofen",
-    "Chileweg 3",
-    "8917 Oberlunkhofen"
-   ],
-   "address_type": "pfarramt",
-   "email": "kath.pfarramt.lunkhofen@bluewin.ch",
-   "website": "https://kath-bremgarten-reusstal.ch/lunkhofen/",
-   "source": "https://kath-bremgarten-reusstal.ch/lunkhofen/kirchgemeinde-kirchenpflege/",
-   "bfs": [
-    4061,
-    4084,
-    4073,
-    4079,
-    4238
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse publiziert (Pfarrhaus Oberlunkhofen). Alle fünf Gemeinden haben 2026 denselben kath. Steuerfuss 13 %. KG-Name aus Leistungsvereinbarung KRSD in https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/10/Dokumentation-fuer-die-Kirchgemeindeversammlung-2026.pdf."
-  },
-  {
-   "id": "ag-jonen",
-   "name": "Röm.-Kath. Kirchgemeinde Jonen",
-   "postal": [
-    "Röm.-Kath. Kirchgemeinde Jonen",
-    "Weingasse 4",
-    "8916 Jonen"
-   ],
-   "address_type": "pfarramt",
-   "email": "kath-pfarramt@pfarrei-jonen.ch",
-   "website": "https://kath-bremgarten-reusstal.ch/jonen/",
-   "source": "https://kath-bremgarten-reusstal.ch/jonen/kirchgemeinde-kirchenpflege/",
-   "bfs": [
-    4071
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Nur Pfarramtsadresse publiziert. KG-Name aus Leistungsvereinbarung KRSD in https://kath-bremgarten-reusstal.ch/wp-content/uploads/2026/10/Dokumentation-fuer-die-Kirchgemeindeversammlung-2026.pdf."
-  },
-  {
-   "id": "ag-villmergen",
-   "name": "Römisch-katholische Kirchgemeinde Villmergen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Villmergen",
-    "Pfarramt",
-    "Kirchgasse 5",
-    "5612 Villmergen"
-   ],
-   "address_type": "pfarramt",
-   "email": "kirchenpflege@pfarrei-villmergen.ch",
-   "website": "https://pfarrei-villmergen.ch/",
-   "source": "https://pfarrei-villmergen.ch/kontaktadressen",
-   "bfs": [
-    4080,
-    4064,
-    4194
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine KG-Postadresse publiziert; Kirchenpflege-Seite nennt nur Privatadressen der Mitglieder (nicht übernommen). kirchenpflege@pfarrei-villmergen.ch wird als Kontakt des Sekretariats genannt (https://pfarrei-villmergen.ch/miete-kirchgemeindehaus); Pfarramt-Mail pfarramt@pfarrei-villmergen.ch. Name nach Rechtsform. «Ballygebiet» an Dottikon angrenzend – Gemeindezugehörigkeit nicht geprüft."
-  },
-  {
-   "id": "ag-sarmenstorf",
-   "name": "Römisch-katholische Kirchgemeinde Sarmenstorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Sarmenstorf",
-    "Pfarramt",
-    "Büttikerstrasse 1",
-    "5614 Sarmenstorf"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.sun@bluewin.ch",
-   "website": "https://www.pfarrei-sarmenstorf.ch/",
-   "source": "https://www.pfarrei-sarmenstorf.ch/ (Kontakt → Pfarramt; Inhalt geladen aus https://www.pfarrei-sarmenstorf.ch/api/loadData.php, dataId=contactData)",
-   "bfs": [
-    4076,
-    4078
-   ],
-   "partial_bfs": [
-    4233
-   ],
-   "confidence": "medium",
-   "note": "Website ist eine JavaScript-App (Inhalt nur über deren Daten-Schnittstelle lesbar). Kirchenpflege nur mit Personenkontakten, keine eigene Adresse. Name nach Rechtsform. Bettwil traktandiert an der KGV vom 9.11.2026 «Informationen über Zusammenarbeit/Fusion mit der Kath. Kirchgemeinde Sarmenstorf» (https://www.kirche-bettwil.ch/news/kirchgemeindeversammlung-vom-09.-november-2026)."
-  },
-  {
-   "id": "ag-bettwil",
-   "name": "Katholische Kirchgemeinde Bettwil",
-   "postal": [
-    "Katholische Kirchgemeinde Bettwil",
-    "Kath. Pfarramt St. Josef",
-    "Schulhausstrasse 4",
-    "5618 Bettwil"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@kirche-bettwil.ch",
-   "website": "https://www.kirche-bettwil.ch/",
-   "source": "https://www.kirche-bettwil.ch/",
-   "bfs": [
-    4227
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kandidat bettwil.ch ist die Einwohnergemeinde; sie verweist auf die KG-Website kirche-bettwil.ch («Die Katholische Kirchgemeinde Bettwil verfügt über eine eigene Website», https://www.bettwil.ch/leben/kirche/kath-kirchgemeinde.html/61). Gleiche Adresse auf https://pfarreibruderklaus.ch/pfarrei/pastoralraum/bettwil. Fusionsabklärung mit Sarmenstorf traktandiert (KGV 9.11.2026)."
-  },
-  {
-   "id": "ag-meisterschwanden-fahrwangen-seengen",
-   "name": "Römisch-katholische Kirchgemeinde Meisterschwanden-Fahrwangen-Seengen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Meisterschwanden-Fahrwangen-Seengen",
-    "Kirchenpflege",
-    "Flurengasse 6",
-    "5616 Meisterschwanden"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@pfarreibruderklaus.ch",
-   "website": "https://pfarreibruderklaus.ch/",
-   "source": "https://pfarreibruderklaus.ch/text/impressum",
-   "bfs": [
-    4202,
-    4196,
-    4208
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Gleiche Adresse wie Sekretariat «Pfarrei Bruder Klaus, Flurengasse 6, 5616 Meisterschwanden» (https://pfarreibruderklaus.ch/kontakt)."
-  },
-  {
-   "id": "ag-dottikon",
-   "name": "Katholische Kirchgemeinde Dottikon",
-   "postal": [
-    "Katholische Kirchgemeinde Dottikon",
-    "Kirchenpflege",
-    "Wohlerstrasse 2",
-    "5605 Dottikon"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt_dottikon@bluewin.ch",
-   "website": "https://www.kath-dottikon.ch/",
-   "source": "https://www.kath-dottikon.ch/impressum/",
-   "bfs": [
-    4065
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Kontaktseite: «Röm. kath. Kirche St. Johannes Baptista, Wohlerstrasse 2, 5605 Dottikon». E-Mail auf der Website per Cloudflare verschleiert, decodiert."
-  },
-  {
-   "id": "ag-haegglingen",
-   "name": "Katholische Kirchgemeinde Hägglingen",
-   "postal": [
-    "Katholische Kirchgemeinde Hägglingen",
-    "Pfarramt",
-    "Chilerain 2",
-    "5607 Hägglingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pfarrei-haegglingen.ch",
-   "website": "https://www.pfarrei-haegglingen.ch/",
-   "source": "https://www.pfarrei-haegglingen.ch/kontakt/",
-   "bfs": [
-    4068
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Impressum (https://www.pfarrei-haegglingen.ch/about/) nennt ebenfalls nur Pfarrei Hägglingen, Chilerain 2. Name aus Website-Text («Die Katholische Kirchgemeinde Hägglingen …»). Funktionsadresse Kirchenpflegepräsidium: praesident@pfarrei-haegglingen.ch."
-  },
-  {
-   "id": "ag-niederwil",
-   "name": "Katholische Kirchgemeinde Niederwil",
-   "postal": [
-    "Katholische Kirchgemeinde Niederwil",
-    "Kirchenpflege",
-    "Schulweg 3",
-    "5524 Niederwil AG"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt-niederwil@bluewin.ch",
-   "website": "https://kath-niederwil.ch/",
-   "source": "https://kath-niederwil.ch/impressum",
-   "bfs": [
-    4072
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Startseite nennt «Katholisches Pfarramt, Schulweg 3, 5525 Niederwil» – PLZ dort vermutlich Tippfehler: Impressum und Einwohnergemeinde (https://www.niederwil.ch/: «5524 Niederwil AG») haben 5524."
-  },
-  {
-   "id": "ag-fischbach-goeslikon",
-   "name": "Katholische Kirchgemeinde Fischbach-Göslikon",
-   "postal": [
-    "Katholische Kirchgemeinde Fischbach-Göslikon",
-    "Pfarramt",
-    "Mellingerstrasse 20",
-    "5525 Fischbach-Göslikon"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@kath-fischbach-goeslikon.ch",
-   "website": "https://www.kath-fischbach-goeslikon.ch/",
-   "source": "https://www.kath-fischbach-goeslikon.ch/kontakt",
-   "bfs": [
-    4067
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KG-Name aus Kontoangabe «Kath. Kirchgemeinde Fischbach-Göslikon … 5525 Fischbach-Göslikon» (https://www.kath-fischbach-goeslikon.ch/uber-uns); Sekretariat im Pfarrhaus."
-  },
-  {
-   "id": "ag-waltenschwil",
-   "name": "Römisch-Katholische Kirchgemeinde Waltenschwil",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Waltenschwil",
-    "Kirchenpflege",
-    "Kirchgemeindezentrum Myra",
-    "Schulhausstrasse",
-    "5622 Waltenschwil"
-   ],
-   "address_type": "sekretariat",
-   "email": "kirchenpflegewaltenschwil@bluewin.ch",
-   "website": "https://www.kirche-waltenschwil.ch/",
-   "source": "https://www.kirche-waltenschwil.ch/",
-   "bfs": [
-    4240
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Hausnummer nirgends publiziert (auch nicht auf https://www.waltenschwil.ch/leben/kirchen.html/54; KG-Briefkopf in Reglementen: «Kath. Kirchgemeinde Waltenschwil / Kirchenpflege Waltenschwil / 5622 Waltenschwil»). Start-URL kath.ch/waltenschwil liefert HTTP 500; richtige Website laut Pastoralraum: kirche-waltenschwil.ch. Name aus «Wahlausschuss der Römisch-Katholischen Kirchgemeinde Waltenschwil» (https://www.kirche-waltenschwil.ch/news-aktuelles/gesamterneuerungswahl-2026). Sekretariat: kath.pfarramt-waltenschwil@bluewin.ch."
-  },
-  {
-   "id": "ag-wohlen",
-   "name": "Katholische Kirchgemeinde Wohlen AG",
-   "postal": [
-    "Katholische Kirchgemeinde Wohlen AG",
-    "Kirchenpflege",
-    "Chilegässli 2",
-    "5610 Wohlen AG"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@pfarreiwohlen.ch",
-   "website": "https://www.pfarreiwohlen.ch/",
-   "source": "https://www.pfarreiwohlen.ch/impressum",
-   "bfs": [
-    4082
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Kirchenpflege laut https://www.pfarreiwohlen.ch/verwaltung-dienste/kirchenpflege erreichbar «über das Pfarreisekretariat» (Chilegässli 2, Pfarrhaus). Gesamterneuerung der Kirchenpflege Ende 2026 (alle Sitze neu)."
-  },
-  {
-   "id": "ag-buenzen-besenbueren",
-   "name": "Römisch-Katholische Kirchgemeinde Bünzen",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Bünzen",
-    "Pfarramt",
-    "Chilerain 8",
-    "5624 Bünzen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei-buenzen@pastoralraum-muri.ch",
-   "website": "https://www.pastoralraum-muri.ch/de/pfarreibuenzen.html",
-   "source": "https://www.pastoralraum-muri.ch/de/pfarreibuenzen.html",
-   "bfs": [
-    4229,
-    4226
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Name abweichend von der Karte: KG heisst «Bünzen» (Titel der KGV-Broschüre: «RÖMISCH-KATHOLISCHE KIRCHGEMEINDE BÜNZEN», https://www.pastoralraum-muri.ch/api/rm/RF2787R266TK574/broschuere-12-11-2025-1.pdf). Finanzverwaltung über Gemeindeverwaltung Bünzen (finanzverwaltung@buenzen.ch). Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
-  },
-  {
-   "id": "ag-boswil-kallern",
-   "name": "Römisch-katholische Kirchgemeinde Boswil-Kallern",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Boswil-Kallern",
-    "Pfarramt",
-    "Kirchweg 3",
-    "5623 Boswil"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei-boswil@pastoralraum-muri.ch",
-   "website": "https://www.pastoralraum-muri.ch/de/pfarreiboswilkallern.html",
-   "source": "https://www.pastoralraum-muri.ch/de/pfarreiboswilkallern.html",
-   "bfs": [],
-   "partial_bfs": [
-    4228,
-    4233
-   ],
-   "confidence": "medium",
-   "note": "Name laut Kirchenpflege-Seite «Kirchgemeinde Boswil-Kallern» (https://www.pastoralraum-muri.ch/de/kirchenpflege-_content---1--1057.html) und KGV-Einladung 2026 «an alle Stimmberechtigten der Kirchgemeinde Boswil-Kallern». Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
-  },
-  {
-   "id": "ag-muri",
-   "name": "Römisch-Katholische Kirchgemeinde Muri AG",
-   "postal": [
-    "Römisch-Katholische Kirchgemeinde Muri AG",
-    "Pfarramt",
-    "Kirchbühlstrasse 10",
-    "5630 Muri AG"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei-muri@pastoralraum-muri.ch",
-   "website": "https://www.pastoralraum-muri.ch/de/pfarreimuri.html",
-   "source": "https://www.pastoralraum-muri.ch/de/pfarreimuri.html",
-   "bfs": [
-    4236,
-    4230,
-    4232
-   ],
-   "partial_bfs": [
-    4228
-   ],
-   "confidence": "medium",
-   "note": "Name aus Jahresrechnung in der KGV-Broschüre 2025 (https://www.pastoralraum-muri.ch/api/rm/78CDWEFB35R44PY/broschuere-kg-versammlung-26-november-2025.pdf). Pastoralraum-Sekretariat an derselben Adresse. Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
-  },
-  {
-   "id": "ag-aristau",
-   "name": "Römisch-katholische Kirchgemeinde Aristau",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Aristau",
-    "Pfarramt",
-    "Bremgartenstrasse 27",
-    "5628 Aristau"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei-aristau@pastoralraum-muri.ch",
-   "website": "https://www.pastoralraum-muri.ch/de/pfarreiaristau.html",
-   "source": "https://www.pastoralraum-muri.ch/de/pfarreiaristau.html",
-   "bfs": [
-    4222
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Website: «Homepage der Pfarrei und Kirchgemeinde St. Wendelin Aristau». Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
-  },
-  {
-   "id": "ag-merenschwand-benzenschwil",
-   "name": "Römisch-katholische Kirchgemeinde Merenschwand-Benzenschwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Merenschwand-Benzenschwil",
-    "Pfarramt",
-    "Bachweg 3",
-    "5634 Merenschwand"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei-merenschwand@pastoralraum-muri.ch",
-   "website": "https://www.pastoralraum-muri.ch/de/pfarreimerenschwand.html",
-   "source": "https://www.pastoralraum-muri.ch/de/pfarreimerenschwand.html",
-   "bfs": [
-    4234
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KG führt den Namen Merenschwand-Benzenschwil weiter (Kirchenpflege-Seite: «Kirchgemeinde Merenschwand-Benzenschwil», KGV 9.11.2026 durch «Kirchenpflege Merenschwand-Benzenschwil»). Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
-  },
-  {
-   "id": "ag-muehlau",
-   "name": "Römisch-katholische Kirchgemeinde Mühlau",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Mühlau",
-    "Röm.-kath. Pfarramt",
-    "Kirchstrasse 3",
-    "5643 Sins"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
-   "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-muehlau/pfarreien-muehlau-kirche.html",
-   "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-muehlau/pfarreien-muehlau-kontakt.html",
-   "bfs": [
-    4235
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Mühlau»). Adresse = Pastoralraum-Sekretariat in Sins; ebenso auf https://www.muehlau.ch/freizeit/kirche.html/236. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
-  },
-  {
-   "id": "ag-beinwil-freiamt",
-   "name": "Römisch-katholische Kirchgemeinde Beinwil (Freiamt)",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Beinwil (Freiamt)",
-    "Pfarramt",
-    "Kirchfeld 3",
-    "5637 Beinwil (Freiamt)"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei-beinwil@pastoralraum-muri.ch",
-   "website": "https://www.pastoralraum-muri.ch/de/pfarreibeinwilfreiamt.html",
-   "source": "https://www.pastoralraum-muri.ch/de/pfarreibeinwilfreiamt.html",
-   "bfs": [
-    4224
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Ortsschreibweise «5637 Beinwil (Freiamt)» wie Einwohnergemeinde (https://www.beinwil.ch/); Pfarrei schreibt «Beinwil | Freiamt». Name aus «Finanzverwalterin Kirchgemeinde Beinwil | Freiamt» (https://www.pastoralraum-muri.ch/de/kirchenpflege-_content---1--1053.html). Präsidium ad interim. Alle KG im Kirchgemeindeverband Muri AG und Umgebung behandeln im Nov. 2026 «Organisation und Zukunft der Kirchgemeinden» (Abklärung, ob eine Kirchgemeinde im Pastoralraum umsetzbar ist; noch kein Entscheid) – https://www.pastoralraum-muri.ch/api/rm/J7KBCHPWS3VDEKC/informationen-zu-traktandum-5.pdf"
-  },
-  {
-   "id": "ag-auw",
-   "name": "Römisch-katholische Kirchgemeinde Auw",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Auw",
-    "Röm.-kath. Pfarramt",
-    "Kirchstrasse 3",
-    "5643 Sins"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
-   "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-auw/pfarreien-auw-kirche.html",
-   "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-auw/pfarreien-auw-kontakt.html",
-   "bfs": [
-    4223
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Auw»). Adresse = Pastoralraum-Sekretariat in Sins. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
-  },
-  {
-   "id": "ag-sins",
-   "name": "Römisch-katholische Kirchgemeinde Sins",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Sins",
-    "Röm.-kath. Pfarramt",
-    "Kirchstrasse 3",
-    "5643 Sins"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
-   "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-sins/pfarreien-sins-kirche.html",
-   "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-sins/pfarreien-sins-kontakt.html",
-   "bfs": [],
-   "partial_bfs": [
-    4239
-   ],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Sins»). Website nennt «Kirchgemeinde Sins» (Startseite Pastoralraum). Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
-  },
-  {
-   "id": "ag-abtwil",
-   "name": "Römisch-katholische Kirchgemeinde Abtwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Abtwil",
-    "Röm.-kath. Pfarramt",
-    "Kirchstrasse 3",
-    "5643 Sins"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
-   "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-abtwil/pfarreien-abtwil-kirche.html",
-   "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-abtwil/pfarreien-abtwil-kontakt.html",
-   "bfs": [
-    4221
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Abtwil»). Adresse = Pastoralraum-Sekretariat in Sins. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
-  },
-  {
-   "id": "ag-oberrueti",
-   "name": "Römisch-katholische Kirchgemeinde Oberrüti",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Oberrüti",
-    "Röm.-kath. Pfarramt",
-    "Kleinmatt 2",
-    "5647 Oberrüti"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
-   "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-oberrueti/pfarreien-oberrueti-kirche.html",
-   "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-oberrueti/pfarreien-oberrueti-kontakt.html",
-   "bfs": [
-    4237
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Oberrüti»). Eigenes Pfarramt (Öffnungszeit nur Donnerstag); alternativ Pastoralraum-Sekretariat Kirchstrasse 3, 5643 Sins. Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
-  },
-  {
-   "id": "ag-dietwil",
-   "name": "Römisch-katholische Kirchgemeinde Dietwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Dietwil",
-    "Röm.-kath. Pfarramt",
-    "Vorderdorfstrasse 4",
-    "6042 Dietwil"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@pastoralraum-oberesfreiamt.ch",
-   "website": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-dietwil/pfarreien-dietwil-kirche.html",
-   "source": "https://www.pastoralraum-oberesfreiamt.ch/pfarreien/pfarreien-dietwil/pfarreien-dietwil-kontakt.html",
-   "bfs": [
-    4231
-   ],
-   "partial_bfs": [
-    4239
-   ],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Website; Kontaktseite der Pfarrei auf der Pastoralraum-Website. Name nach Rechtsform (Website: «Kirchenpflege Dietwil»). KG nennt sich «Kirchgemeinde St. Barbara, Dietwil» (KGV-Einladung 2026); Einwohnergemeinde bestätigt «Pfarramt Dietwil, Vorderdorfstrasse 4, 6042 Dietwil» (https://www.dietwil.ch/dorfleben/kirche.html/328). Pastoralraum Oberes Freiamt: Projekt «Prüfung Zusammenschluss Kirchgemeinden», Zusammenschluss per 1.1.2028 noch nicht beschlossen (Protokoll KGV Dietwil 2025 in https://www.pastoralraum-oberesfreiamt.ch/images/Aktuelles/Dokumente/Dietwil/Einladung_KGVDietwil_2026.pdf)."
-  }
- ],
- "split": [
-  {
-   "bfs": 4021,
-   "how": "Der Ortsteil Turgi (ehemalige Gemeinde, PLZ 5300) gehört zur Kath. Kirchgemeinde Gebenstorf-Turgi, das übrige Stadtgebiet zur Kath. Kirchgemeinde Baden-Ennetbaden (kantonales Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Gebenstorf» für Baden; Fusionsvertrag Baden-Turgi lässt die Kirchgemeinden unverändert).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Turgi (5300)": "ag-gebenstorf-turgi",
-    "Baden (5400, 5404)": "ag-baden-ennetbaden",
-    "Dättwil (5405)": "ag-baden-ennetbaden",
-    "Rütihof (5406)": "ag-baden-ennetbaden"
-   }
-  },
-  {
-   "bfs": 4063,
-   "how": "Der Dorfteil Hermetschwil-Staffeln (ehemalige Gemeinde, PLZ 5626) bildet bis 31.12.2027 eine eigene Kirchgemeinde; übriges Bremgarten (5620) gehört zur KG Bremgarten. Ab 1.1.2028 ganze Gemeinde = KG Bremgarten (Zusammenschluss angenommen).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Hermetschwil-Staffeln (5626)": "ag-hermetschwil-staffeln",
-    "Bremgarten (5620)": "ag-bremgarten"
-   }
-  },
-  {
-   "bfs": 4169,
-   "how": "Der Dorfteil Ittenthal (ehemalige Gemeinde, PLZ 5083) hat eine eigene Kirchgemeinde, das übrige Kaisten gehört zur KG Kaisten (Website der Gemeinde Kaisten). Beide fusionieren per 1.1.2027 zur KG Kaisten-Ittenthal (Synode-Genehmigung beantragt); beide Datensätze nutzen dieselbe Postadresse.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Ittenthal (5083)": "ag-ittenthal",
-    "Kaisten (5082)": "ag-kaisten",
-    "Kaisten mit PLZ 5080 Laufenburg": "ag-kaisten"
-   }
-  },
-  {
-   "bfs": 4170,
-   "how": "Die ehemalige Gemeinde Sulz (Ortschaften 5085 Sulz AG und 5084 Rheinsulz) gehört zur KG Sulz, das Städtchen Laufenburg (5080) zur KG Laufenburg. Gebiet der KG Sulz nicht ausdrücklich publiziert; belegt sind die eigene Zusatzkirche «röm.-kath. Kirche Sulz» im Steuerfussverzeichnis und die Kapellen Leidikon und Rheinsulz der KG Sulz.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Sulz (5085)": "ag-sulz",
-    "Rheinsulz (5084)": "ag-sulz",
-    "Laufenburg (5080)": "ag-laufenburg"
-   }
-  },
-  {
-   "bfs": 4228,
-   "how": "Die Weiler Weissenbach und Sentenhof gehören laut Pastoralraum Muri zur Pfarrei bzw. KG Muri (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Muri» für Boswil); übriges Boswil zur KG Boswil-Kallern.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Weissenbach": "ag-muri",
-    "Sentenhof": "ag-muri",
-    "Boswil (übriges Gemeindegebiet)": "ag-boswil-kallern"
-   }
-  },
-  {
-   "bfs": 4233,
-   "how": "Oberniesenberg gehört zur KG Sarmenstorf (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Sarmenstorf» für Kallern; Ortsteil nur über Historisches Lexikon und Kapelle Oberniesenberg der Pfarrei Sarmenstorf belegt); übriges Kallern zur KG Boswil-Kallern.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Oberniesenberg": "ag-sarmenstorf",
-    "Kallern (übriges Gemeindegebiet)": "ag-boswil-kallern"
-   }
-  },
-  {
-   "bfs": 4239,
-   "how": "Ein Teilgebiet von Sins gehört zur KG Dietwil (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Dietwil» für Sins); welches, ist nicht publiziert. Im Zweifel beim Pastoralraum-Sekretariat Oberes Freiamt (Kirchstrasse 3, 5643 Sins) oder beim Steueramt Sins nachfragen.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Sins, Alikon, Meienberg, Aettenschwil, Fenkrieden (ohne Teilgebiet Dietwil)": "ag-sins",
-    "Teilgebiet Dietwil (nicht ermittelt)": "ag-dietwil"
-   }
-  },
-  {
-   "bfs": 4280,
-   "how": "Gemeinde Oftringen: «Das Oftringer Gemeindegebiet nördlich der Autobahn wird von der Pfarrei Aarburg, das Gebiet südlich der Autobahn von der Pfarrei Zofingen betreut.» Nördlich der A1 → KG Aarburg-Oftringen Nord/Rothrist-Murgenthal, südlich → KG Zofingen (Steuerfussverzeichnis 2026: Zusatzkirche «röm.-kath. Kirche Zofingen»).",
-   "finder": "https://www.oftringen.ch/kirchen",
-   "geodata": null,
-   "ortsteile": {
-    "Oftringen nördlich der Autobahn A1 (Oftringen Nord)": "ag-aarburg-rothrist",
-    "Oftringen südlich der Autobahn A1": "ag-zofingen"
-   }
-  },
-  {
-   "bfs": 4324,
-   "how": "Die Gemeinde Zurzach (Fusion 2022) ist auf vier Kirchgemeinden verteilt: Bad Zurzach, Rietheim und Rekingen → KG Zurzach; Baldingen und Böbikon → KG Baldingen-Böbikon; Kaiserstuhl → KG Kaiserstuhl-Fisibach; Wislikofen (mit Mellstorf) und Rümikon → KG Wislikofen-Rümikon (Pfarreiseiten Zurzach-Studenland, Steuerfussverzeichnis 2026).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Bad Zurzach (5330)": "ag-zurzach",
-    "Rietheim (5323)": "ag-zurzach",
-    "Rekingen (5332)": "ag-zurzach",
-    "Baldingen (5333)": "ag-baldingen-boebikon",
-    "Böbikon (5334)": "ag-baldingen-boebikon",
-    "Kaiserstuhl (5466)": "ag-kaiserstuhl-fisibach",
-    "Wislikofen (5463)": "ag-wislikofen-ruemikon",
-    "Rümikon (5464)": "ag-wislikofen-ruemikon"
-   }
-  }
- ],
- "unmapped_bfs": [],
- "issues": [
-  "88 Einträge statt der offiziell 92 Kirchgemeinden: Die Kreiskirchgemeinde Aarau (Ortskirchgemeinden Aarau, Buchs-Rohr, Entfelden, Schöftland, Suhr-Gränichen) ist als ein Eintrag geführt, wie in der Jahresrechnung 2025 der Landeskirche («Aarau (KKG)»); Karte und Synode zeigen die fünf Ortskirchgemeinden einzeln.",
-  "Gemeindezuordnung: Ein amtliches Gebietsverzeichnis der Kirchgemeinden wurde nicht gefunden. Grundlage sind die Karte «Kirchgemeinden in Pastoralräumen» der Landeskirche (5.9.2025, georeferenziert) und das kantonale Verzeichnis der Kirchensteuerfüsse 2026 (inkl. Zusatzkirchen); für viele Kirchgemeinden zusätzlich deren Website.",
-  "Kaisten und Ittenthal fusionieren per 1.1.2027 zur Römisch-Katholischen Kirchgemeinde Kaisten-Ittenthal (Urnenabstimmung 27.9.2026 angenommen, Genehmigung durch die Herbstsynode 2026 beantragt): danach beide Einträge zusammenführen und Kaisten (4169) nicht mehr teilen.",
-  "Bremgarten und Hermetschwil-Staffeln schliessen sich per 1.1.2028 zusammen (Vertrag angenommen): ab dann Bremgarten (4063) ganz der KG Bremgarten zuordnen.",
-  "Densbüren widersprüchlich: Website der KG Herznach-Ueken und der Gemeinde Herznach-Ueken zählen Densbüren (mit Asp) zur KG Herznach-Ueken; Gemeinde Densbüren schreibt, die Katholiken «gehören der Kirche Aarau an» und werden vom Seelsorgeverband Homberg nur betreut; Steuerfuss Densbüren 19 % = Aarau (Herznach-Ueken 20 %), Karte = Aarau. Zugeordnet: Kreiskirchgemeinde Aarau; bei der Landeskirche verifizieren.",
-  "Sins (4239): Welches Teilgebiet zur KG Dietwil gehört, ist nicht publiziert (nur Zusatzkirche im Steuerfussverzeichnis).",
-  "Kallern (4233): Zugehörigkeit von Oberniesenberg zur KG Sarmenstorf nur über Historisches Lexikon der Schweiz (2007) und Kapelle der Pfarrei Sarmenstorf belegt; Boswil (4228): Weissenbach/Sentenhof nur über die Pfarreibeschreibung Muri belegt.",
-  "Viele Kirchgemeinden publizieren keine eigene Postadresse, sondern nur die des Pfarramts bzw. Pastoralraum-Sekretariats (address_type pfarramt/sekretariat, confidence medium).",
-  "Waltenschwil: publizierte Adresse «Kirchgemeindezentrum Myra, Schulhausstrasse, 5622 Waltenschwil» ohne Hausnummer.",
-  "Gansingen: Kirchenpflege seit 2023 vakant, die KG wird seit 1.4.2025 von einem Sachwalter vertreten; Sulz: KGV-Protokoll Laufenburg 2025 erwähnt drohende Fremdverwaltung ab 2027 – beide Adressen 2027 prüfen.",
-  "Mögliche weitere Zusammenschlüsse (noch nicht beschlossen): Bettwil–Sarmenstorf (KGV 9.11.2026), Kirchgemeinden um Muri, Oberes Freiamt (geprüft per 1.1.2028), Zurzach-Studenland (frühestens 1.1.2029). Die Fusion zur KG Aare-Rhein ist am 18.5.2025 gescheitert.",
-  "Art. 21 Abs. 3 OS verlangt dem Wortlaut nach die Erklärung, der röm.-kath. Konfession nicht mehr angehören zu wollen; die interne Checkliste der Landeskirche (wikikath.ch) sieht bei «Austritt ohne Abwendung» eine Kopie an das Generalvikariat vor – kollidiert mit der Bitte im Brief, Pfarrei und Bistum nicht zu informieren.",
-  "Niederwil: Startseite der KG nennt PLZ 5525, Impressum und Einwohnergemeinde 5524 (übernommen: 5524)."
- ]
 }

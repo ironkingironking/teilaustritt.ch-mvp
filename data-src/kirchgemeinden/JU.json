@@ -1,0 +1,980 @@
+{
+  "canton": "JU",
+  "body": {
+    "name": "Collectivité ecclésiastique cantonale catholique-romaine de la République et Canton du Jura (CEC)",
+    "short": "CEC",
+    "website": "https://www.jurapastoral.ch/cec/accueil/",
+    "postal": [
+      "Collectivité ecclésiastique cantonale catholique-romaine",
+      "Rue de l'Hôpital 26",
+      "Case postale 99",
+      "2800 Delémont 1"
+    ]
+  },
+  "austritt": {
+    "recipient": "Conseil der Commune ecclésiastique (paroisse) am Wohnsitz",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftliche Erklärung, persönlich (niemand darf für andere erklären; ab 16 Jahren, urteilsfähig)",
+    "beglaubigung": false,
+    "wirkung": "ab dem Tag, an dem die Erklärung abgesandt wird; Kirchensteuer bis zu diesem Datum geschuldet (Art. 10a LREE)",
+    "notes": "Die Exekutive der Kirche bzw. der Paroisse stellt der Person und der Einwohnerkontrolle eine Austrittsbestätigung aus (Art. 10 Abs. 4 LREE). Die CEC hat eine eigene «Ordonnance concernant les sorties d'Eglise» (36.004), die nicht abrufbar war.",
+    "source": "https://rsju.jura.ch/fr/viewdocument.html?idn=20089&id=38306"
+  },
+  "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://rsju.jura.ch/fr/viewdocument.html?idn=20089&id=38306",
+    "https://www.jura.ch/Htdocs/Files/v/df8873b29ac94b19ca37ba3cd2342e441d1d36d69901ca072f0552c0edab3822.pdf/quotites_2026.pdf?download=1",
+    "https://web.archive.org/web/20260420125218/https://www.jurapastoral.ch/cec/cec-contact/",
+    "https://web.archive.org/web/20260420122933/https://www.jurapastoral.ch/cec/recueil-de-legislation/",
+    "https://web.archive.org/web/20260420130305/https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "ju-bassecourt",
+      "name": "Commune ecclésiastique de Bassecourt",
+      "postal": [
+        "Commune ecclésiastique de Bassecourt",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Rue de Prayé 6",
+        "2854 Bassecourt"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariatparoissebassecourt@bluewin.ch",
+      "source": "https://web.archive.org/web/20260515165922/https://www.jurapastoral.ch/communes/bassecourt/",
+      "bfs": [],
+      "partial_bfs": [
+        6729
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-courfaivre",
+      "name": "Commune ecclésiastique de Courfaivre",
+      "postal": [
+        "Commune ecclésiastique de Courfaivre",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de l'Unité pastorale Sainte-Marie",
+        "Rue de l'Eglise 11",
+        "2852 Courtételle"
+      ],
+      "address_type": "sekretariat",
+      "email": "upsaintemarie@jurapastoral.ch",
+      "source": "https://web.archive.org/web/20260515164703/https://www.jurapastoral.ch/communes/courfaivre/",
+      "bfs": [],
+      "partial_bfs": [
+        6729
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse = Sekretariat der UP Sainte-Marie, als Kontakt der Commune ecclésiastique genannt."
+    },
+    {
+      "id": "ju-glovelier",
+      "name": "Commune ecclésiastique de Glovelier",
+      "postal": [
+        "Commune ecclésiastique de Glovelier",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de la commune ecclésiastique Bassecourt",
+        "Rue de Prayé 6",
+        "2854 Bassecourt"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariatparoissebassecourt@bluewin.ch",
+      "source": "https://web.archive.org/web/20260515175214/https://www.jurapastoral.ch/communes/glovelier/",
+      "bfs": [],
+      "partial_bfs": [
+        6729
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Gemeinsames Sekretariat mit Bassecourt."
+    },
+    {
+      "id": "ju-soulce",
+      "name": "Commune ecclésiastique de Soulce",
+      "postal": [
+        "Commune ecclésiastique de Soulce",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de la commune ecclésiastique Bassecourt",
+        "Rue de Prayé 6",
+        "2854 Bassecourt"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariatparoissebassecourt@bluewin.ch",
+      "source": "https://web.archive.org/web/20260515164049/https://www.jurapastoral.ch/communes/soulce/",
+      "bfs": [],
+      "partial_bfs": [
+        6729
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Gemeinsames Sekretariat mit Bassecourt."
+    },
+    {
+      "id": "ju-undervelier",
+      "name": "Commune ecclésiastique d'Undervelier",
+      "postal": [
+        "Commune ecclésiastique d'Undervelier",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de la commune ecclésiastique Bassecourt",
+        "Rue de Prayé 6",
+        "2854 Bassecourt"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariatparoissebassecourt@bluewin.ch",
+      "source": "https://web.archive.org/web/20260515175020/https://www.jurapastoral.ch/communes/undervelier/",
+      "bfs": [],
+      "partial_bfs": [
+        6729
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Gemeinsames Sekretariat mit Bassecourt."
+    },
+    {
+      "id": "ju-delemont",
+      "name": "Commune ecclésiastique de Delémont",
+      "postal": [
+        "Commune ecclésiastique de Delémont",
+        "Conseil de la commune ecclésiastique",
+        "Administration",
+        "Sur le Grioux 1",
+        "2800 Delémont"
+      ],
+      "address_type": "verwaltung",
+      "source": "https://web.archive.org/web/20260515174806/https://www.jurapastoral.ch/communes/delemont/",
+      "bfs": [
+        6711
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse der Administratrice (Cure Delémont)."
+    },
+    {
+      "id": "ju-movelier-mettembert",
+      "name": "Commune ecclésiastique de Movelier-Mettembert",
+      "postal": [
+        "Commune ecclésiastique de Movelier-Mettembert",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de l'Unité pastorale Saints Pierre et Paul",
+        "Sur-le-Grioux 1",
+        "2800 Delémont"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@curedelemont.ch",
+      "source": "https://web.archive.org/web/20260515164505/https://www.jurapastoral.ch/communes/movelier-mettembert/",
+      "bfs": [
+        6716,
+        6718
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse = UP-Sekretariat, als Kontakt der Commune ecclésiastique genannt."
+    },
+    {
+      "id": "ju-pleigne",
+      "name": "Commune ecclésiastique de Pleigne",
+      "postal": [
+        "Commune ecclésiastique de Pleigne",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de l'Unité pastorale Saints Pierre et Paul",
+        "Sur-le-Grioux 1",
+        "2800 Delémont"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@curedelemont.ch",
+      "source": "https://web.archive.org/web/20260515170032/https://www.jurapastoral.ch/communes/pleigne/",
+      "bfs": [
+        6719
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse = UP-Sekretariat, als Kontakt der Commune ecclésiastique genannt."
+    },
+    {
+      "id": "ju-soyhieres",
+      "name": "Commune ecclésiastique de Soyhières-Les Riedes",
+      "postal": [
+        "Commune ecclésiastique de Soyhières-Les Riedes",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de l'Unité pastorale Saints Pierre et Paul",
+        "Sur-le-Grioux 1",
+        "2800 Delémont"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@curedelemont.ch",
+      "source": "https://web.archive.org/web/20260515162215/https://www.jurapastoral.ch/communes/soyhieres/",
+      "bfs": [
+        6724
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse = UP-Sekretariat, als Kontakt der Commune ecclésiastique genannt."
+    },
+    {
+      "id": "ju-vicques",
+      "name": "Commune ecclésiastique de Vicques",
+      "postal": [
+        "Commune ecclésiastique de Vicques",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat de l'Unité pastorale Saint Germain",
+        "Rue de la Pran 2",
+        "2824 Vicques"
+      ],
+      "address_type": "sekretariat",
+      "email": "upsaintgermain@jurapastoral.ch",
+      "source": "https://web.archive.org/web/20260116021526/https://www.jurapastoral.ch/communes/vicques/",
+      "bfs": [],
+      "partial_bfs": [
+        6730
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse = UP-Sekretariat, als Sekretariat der Commune ecclésiastique genannt."
+    },
+    {
+      "id": "ju-corban",
+      "name": "Commune ecclésiastique de Corban",
+      "postal": [
+        "Commune ecclésiastique de Corban",
+        "Conseil de la commune ecclésiastique",
+        "La Cure 1",
+        "2826 Corban"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.corban@bluewin.ch",
+      "source": "https://web.archive.org/web/20260116032411/https://www.jurapastoral.ch/communes/corban/",
+      "bfs": [],
+      "partial_bfs": [
+        6730
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Adresse der Sekretärin «La Cure 1» (Pfarrhaus)."
+    },
+    {
+      "id": "ju-boecourt",
+      "name": "Commune ecclésiastique de Boécourt",
+      "postal": [
+        "Commune ecclésiastique de Boécourt",
+        "Conseil de la commune ecclésiastique",
+        "2856 Boécourt"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisseboecourt@gmail.com",
+      "source": "https://web.archive.org/web/20260515175228/https://www.jurapastoral.ch/communes/boecourt/",
+      "bfs": [
+        6702
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-bourrignon",
+      "name": "Commune ecclésiastique de Bourrignon",
+      "postal": [
+        "Commune ecclésiastique de Bourrignon",
+        "Conseil de la commune ecclésiastique",
+        "2803 Bourrignon"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260515160816/https://www.jurapastoral.ch/communes/bourrignon/",
+      "bfs": [
+        6703
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-courchapoix",
+      "name": "Commune ecclésiastique de Courchapoix",
+      "postal": [
+        "Commune ecclésiastique de Courchapoix",
+        "Conseil de la commune ecclésiastique",
+        "2825 Courchapoix"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260116034107/https://www.jurapastoral.ch/communes/courchapoix/",
+      "bfs": [
+        6706
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-courrendlin",
+      "name": "Commune ecclésiastique de Courrendlin",
+      "postal": [
+        "Commune ecclésiastique de Courrendlin",
+        "Conseil de la commune ecclésiastique",
+        "2830 Courrendlin"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260116033524/https://www.jurapastoral.ch/communes/courrendlin/",
+      "bfs": [
+        6708
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Ob Rebeuvelier und Vellerat (seit 2019 Gemeinde Courrendlin) zu dieser Commune ecclésiastique gehören, ist nicht belegt."
+    },
+    {
+      "id": "ju-courroux",
+      "name": "Commune ecclésiastique de Courroux",
+      "postal": [
+        "Commune ecclésiastique de Courroux",
+        "Conseil de la commune ecclésiastique",
+        "2822 Courroux"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260116030606/https://www.jurapastoral.ch/communes/courroux/",
+      "bfs": [
+        6709
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-courtetelle",
+      "name": "Commune ecclésiastique de Courtételle",
+      "postal": [
+        "Commune ecclésiastique de Courtételle",
+        "Conseil de la commune ecclésiastique",
+        "2852 Courtételle"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260515164900/https://www.jurapastoral.ch/communes/courtetelle/",
+      "bfs": [
+        6710
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-develier",
+      "name": "Commune ecclésiastique de Develier",
+      "postal": [
+        "Commune ecclésiastique de Develier",
+        "Conseil de la commune ecclésiastique",
+        "2802 Develier"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260515174456/https://www.jurapastoral.ch/communes/develier/",
+      "bfs": [
+        6712
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-mervelier",
+      "name": "Commune ecclésiastique de Mervelier",
+      "postal": [
+        "Commune ecclésiastique de Mervelier",
+        "Conseil de la commune ecclésiastique",
+        "2827 Mervelier"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260116034553/https://www.jurapastoral.ch/communes/mervelier/",
+      "bfs": [
+        6715
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-montsevelier",
+      "name": "Commune ecclésiastique de Montsevelier",
+      "postal": [
+        "Commune ecclésiastique de Montsevelier",
+        "Conseil de la commune ecclésiastique",
+        "2828 Montsevelier"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260116031025/https://www.jurapastoral.ch/communes/montsevelier/",
+      "bfs": [],
+      "partial_bfs": [
+        6730
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-vermes",
+      "name": "Commune ecclésiastique de Vermes",
+      "postal": [
+        "Commune ecclésiastique de Vermes",
+        "Conseil de la commune ecclésiastique",
+        "2829 Vermes"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisse.vermes@hotmail.com",
+      "source": "https://web.archive.org/web/20260116032511/https://www.jurapastoral.ch/communes/vermes/",
+      "bfs": [],
+      "partial_bfs": [
+        6730
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-boncourt",
+      "name": "Commune ecclésiastique de Boncourt",
+      "postal": [
+        "Commune ecclésiastique de Boncourt",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Rue des Lignières 15",
+        "2926 Boncourt"
+      ],
+      "address_type": "sekretariat",
+      "email": "boncourt@jurapastoral.ch",
+      "source": "https://web.archive.org/web/20260311002151/https://www.jurapastoral.ch/communes/boncourt/",
+      "bfs": [
+        6774
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-buix-le-maira",
+      "name": "Commune ecclésiastique de Buix-Le Maira",
+      "postal": [
+        "Commune ecclésiastique de Buix-Le Maira",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Chemin du Bois-Chatons 6",
+        "2925 Buix"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.buix@bluewin.ch",
+      "source": "https://web.archive.org/web/20260311005638/https://www.jurapastoral.ch/communes/buix-le-maira/",
+      "bfs": [],
+      "partial_bfs": [
+        6807
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-courchavon-mormont",
+      "name": "Commune ecclésiastique de Courchavon-Mormont",
+      "postal": [
+        "Commune ecclésiastique de Courchavon-Mormont",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Milieu du Village 10",
+        "2923 Courtemaîche"
+      ],
+      "address_type": "sekretariat",
+      "email": "ce.2922.2933@gmail.com",
+      "source": "https://web.archive.org/web/20260311011027/https://www.jurapastoral.ch/communes/courchavon-mormont/",
+      "bfs": [
+        6783
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Gemeinsames Sekretariat mit Courtemaîche."
+    },
+    {
+      "id": "ju-courtemaiche",
+      "name": "Commune ecclésiastique de Courtemaîche",
+      "postal": [
+        "Commune ecclésiastique de Courtemaîche",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Milieu du Village 10",
+        "2923 Courtemaîche"
+      ],
+      "address_type": "sekretariat",
+      "email": "ce.2922.2933@gmail.com",
+      "source": "https://web.archive.org/web/20260311005846/https://www.jurapastoral.ch/communes/courtemaiche/",
+      "bfs": [],
+      "partial_bfs": [
+        6807
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-montignez",
+      "name": "Commune ecclésiastique de Montignez",
+      "postal": [
+        "Commune ecclésiastique de Montignez",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Rue du Jura 11",
+        "2924 Montignez"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroissemontignez@gmail.com",
+      "source": "https://web.archive.org/web/20260311005413/https://www.jurapastoral.ch/communes/montignez/",
+      "bfs": [],
+      "partial_bfs": [
+        6807
+      ],
+      "confidence": "medium",
+      "note": "Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar). Ob die Sekretariatsadresse ein Privathaushalt ist, ist nicht geprüft."
+    },
+    {
+      "id": "ju-beurnevesin",
+      "name": "Commune ecclésiastique de Beurnevésin",
+      "postal": [
+        "Commune ecclésiastique de Beurnevésin",
+        "Conseil de la commune ecclésiastique",
+        "2935 Beurnevésin"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260311003200/https://www.jurapastoral.ch/communes/beurnevesin/",
+      "bfs": [],
+      "partial_bfs": [
+        6812
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-coeuve",
+      "name": "Commune ecclésiastique de Coeuve",
+      "postal": [
+        "Commune ecclésiastique de Coeuve",
+        "Conseil de la commune ecclésiastique",
+        "2932 Coeuve"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260311003434/https://www.jurapastoral.ch/communes/coeuve/",
+      "bfs": [
+        6781
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-damphreux-lugnez",
+      "name": "Commune ecclésiastique de Damphreux-Lugnez",
+      "postal": [
+        "Commune ecclésiastique de Damphreux-Lugnez",
+        "Conseil de la commune ecclésiastique",
+        "2933 Damphreux"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260311004521/https://www.jurapastoral.ch/communes/damphreux-lugnez/",
+      "bfs": [
+        6811
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-epauvillers-epiquerez",
+      "name": "Commune ecclésiastique d'Epauvillers-Epiquerez",
+      "postal": [
+        "Commune ecclésiastique d'Epauvillers-Epiquerez",
+        "Conseil de la commune ecclésiastique",
+        "2885 Epauvillers"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260311004230/https://www.jurapastoral.ch/communes/epauvillers-epiquerez/",
+      "bfs": [],
+      "partial_bfs": [
+        6808
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-st-ursanne-et-environs",
+      "name": "Commune ecclésiastique de Saint-Ursanne et environs",
+      "postal": [
+        "Commune ecclésiastique de Saint-Ursanne et environs",
+        "Conseil de la commune ecclésiastique",
+        "2882 St-Ursanne"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260311004651/https://www.jurapastoral.ch/communes/st-ursanne-et-environs/",
+      "bfs": [],
+      "partial_bfs": [
+        6808
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Auf der Seite stehen nur Privatpersonen bzw. keine Adresse. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    },
+    {
+      "id": "ju-alle",
+      "name": "Commune ecclésiastique d'Alle",
+      "postal": [
+        "Commune ecclésiastique d'Alle",
+        "Conseil de la commune ecclésiastique",
+        "2942 Alle"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210154554/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-jean-alle-baroche-vendline/communes-ecclesiastiques/",
+      "bfs": [
+        6771
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-bonfol",
+      "name": "Commune ecclésiastique de Bonfol",
+      "postal": [
+        "Commune ecclésiastique de Bonfol",
+        "Conseil de la commune ecclésiastique",
+        "2944 Bonfol"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210154554/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-jean-alle-baroche-vendline/communes-ecclesiastiques/",
+      "bfs": [],
+      "partial_bfs": [
+        6812
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-vendlincourt",
+      "name": "Commune ecclésiastique de Vendlincourt",
+      "postal": [
+        "Commune ecclésiastique de Vendlincourt",
+        "Conseil de la commune ecclésiastique",
+        "2943 Vendlincourt"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210154554/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-jean-alle-baroche-vendline/communes-ecclesiastiques/",
+      "bfs": [
+        6806
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-cornol",
+      "name": "Commune ecclésiastique de Cornol",
+      "postal": [
+        "Commune ecclésiastique de Cornol",
+        "Conseil de la commune ecclésiastique",
+        "2952 Cornol"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210141944/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-gilles-courgenay/communes-ecclesiastiques/",
+      "bfs": [
+        6782
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-courgenay",
+      "name": "Commune ecclésiastique de Courgenay",
+      "postal": [
+        "Commune ecclésiastique de Courgenay",
+        "Conseil de la commune ecclésiastique",
+        "2950 Courgenay"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210141944/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-gilles-courgenay/communes-ecclesiastiques/",
+      "bfs": [
+        6784
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-les-sources",
+      "name": "Commune ecclésiastique Les Sources",
+      "postal": [
+        "Commune ecclésiastique Les Sources",
+        "Conseil de la commune ecclésiastique",
+        "2900 Porrentruy"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260210161612/https://www.jurapastoral.ch/ajoie-clos-du-doubs/paroisses/st-pierre-en-ajoie/communes-ecclesiastiques/",
+      "bfs": [
+        6800
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Einzige Commune ecclésiastique der Pfarrei St-Pierre en Ajoie (Porrentruy); welche weiteren Gemeinden (Fontenais, Courtedoux, Bure, Fahy, Grandfontaine?) dazugehören, ist nicht belegt."
+    },
+    {
+      "id": "ju-saignelegier",
+      "name": "Commune ecclésiastique de Saignelégier",
+      "postal": [
+        "Commune ecclésiastique de Saignelégier",
+        "Conseil de la commune ecclésiastique",
+        "2350 Saignelégier"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508121933/https://www.jurapastoral.ch/franches-montagnes/paroisses/nd-de-lassomption-saignelegier/communes-ecclesiastiques/",
+      "bfs": [
+        6757
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Seit Regroupement mit Les Pommerats-Goumois (CEC-Arrêté 46.004)."
+    },
+    {
+      "id": "ju-saulcy",
+      "name": "Commune ecclésiastique de Saulcy",
+      "postal": [
+        "Commune ecclésiastique de Saulcy",
+        "Conseil de la commune ecclésiastique",
+        "2873 Saulcy"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260521082804/https://www.jurapastoral.ch/franches-montagnes/paroisses/st-antoine-de-padoue-saulcy/communes-ecclesiastiques/",
+      "bfs": [
+        6722
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-saint-brais",
+      "name": "Commune ecclésiastique de Saint-Brais",
+      "postal": [
+        "Commune ecclésiastique de Saint-Brais",
+        "Conseil de la commune ecclésiastique",
+        "2364 St-Brais"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508125134/https://www.jurapastoral.ch/franches-montagnes/paroisses/st-brice-saint-brais/communes-ecclesiastiques/",
+      "bfs": [
+        6758
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-les-bois",
+      "name": "Commune ecclésiastique des Bois",
+      "postal": [
+        "Commune ecclésiastique des Bois",
+        "Conseil de la commune ecclésiastique",
+        "2336 Les Bois"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508113855/https://www.jurapastoral.ch/franches-montagnes/paroisses/ste-foy-les-bois/communes-ecclesiastiques/",
+      "bfs": [
+        6742
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-lajoux",
+      "name": "Commune ecclésiastique de Lajoux",
+      "postal": [
+        "Commune ecclésiastique de Lajoux",
+        "Conseil de la commune ecclésiastique",
+        "2718 Lajoux JU"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508114905/https://www.jurapastoral.ch/franches-montagnes/paroisses/ste-marie-lajoux/communes-ecclesiastiques/",
+      "bfs": [
+        6750
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-les-genevez",
+      "name": "Commune ecclésiastique des Genevez",
+      "postal": [
+        "Commune ecclésiastique des Genevez",
+        "Conseil de la commune ecclésiastique",
+        "2714 Les Genevez JU"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508124731/https://www.jurapastoral.ch/franches-montagnes/paroisses/ste-marie-madeleine-les-genevez/communes-ecclesiastiques/",
+      "bfs": [
+        6748
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-le-noirmont",
+      "name": "Commune ecclésiastique du Noirmont",
+      "postal": [
+        "Commune ecclésiastique du Noirmont",
+        "Conseil de la commune ecclésiastique",
+        "2340 Le Noirmont"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508125225/https://www.jurapastoral.ch/franches-montagnes/paroisses/st-hubert-le-noirmont/communes-ecclesiastiques/",
+      "bfs": [
+        6754
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-montfaucon-les-enfers",
+      "name": "Commune ecclésiastique de Montfaucon-Les Enfers",
+      "postal": [
+        "Commune ecclésiastique de Montfaucon-Les Enfers",
+        "Conseil de la commune ecclésiastique",
+        "2362 Montfaucon"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508105704/https://www.jurapastoral.ch/franches-montagnes/paroisses/st-jean-baptiste-montfaucon/communes-ecclesiastiques/",
+      "bfs": [
+        6745
+      ],
+      "partial_bfs": [
+        6751
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt. Montfavergier (Gemeinde Montfaucon) hat einen eigenen kirchlichen Steuersatz und gehört vermutlich zu einer anderen Commune ecclésiastique."
+    },
+    {
+      "id": "ju-les-breuleux",
+      "name": "Commune ecclésiastique des Breuleux",
+      "postal": [
+        "Commune ecclésiastique des Breuleux",
+        "Conseil de la commune ecclésiastique",
+        "2345 Les Breuleux"
+      ],
+      "address_type": "praesidium",
+      "source": "https://web.archive.org/web/20260508112618/https://www.jurapastoral.ch/franches-montagnes/paroisses/st-joseph-les-breuleux/communes-ecclesiastiques/",
+      "bfs": [
+        6743
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Commune ecclésiastique ist auf der Pfarreiseite von jurapastoral.ch aufgeführt; ihre eigene Seite (mit Adresse) war nicht abrufbar. Postadresse nicht ermittelt."
+    },
+    {
+      "id": "ju-moutier",
+      "name": "Paroisse catholique romaine de Moutier (commune ecclésiastique)",
+      "postal": [
+        "Paroisse catholique romaine de Moutier",
+        "Conseil de la commune ecclésiastique",
+        "Secrétariat",
+        "Place du Marché 3",
+        "2740 Moutier"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@notredame.ch",
+      "source": "https://web.archive.org/web/20260721192922/https://www.jurapastoral.ch/vallee-de-delemont-prevote/paroisses/paroisse-de-moutier/contacts/",
+      "bfs": [
+        6831
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Seit 1.1.2026 Commune ecclésiastique im Kanton Jura (Mitglied der CEC); umfasst auch die bernischen Gemeinden Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches. Quelle: archivierte Seite von jurapastoral.ch (Website aus dieser Umgebung nicht erreichbar)."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 6729,
+      "how": "Nach früherer Gemeinde (eigene kirchliche Steuersätze je Ortsteil): Bassecourt, Courfaivre, Glovelier, Soulce, Undervelier haben je eine eigene Commune ecclésiastique. Für den Weiler Sceut (eigener Steuersatz) und Les Ecorcheresses ist die Zuständigkeit nicht ermittelt.",
+      "ortsteile": {
+        "2854 Bassecourt": "ju-bassecourt",
+        "2853 Courfaivre": "ju-courfaivre",
+        "2855 Glovelier": "ju-glovelier",
+        "2864 Soulce": "ju-soulce",
+        "2863 Undervelier": "ju-undervelier"
+      },
+      "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+      "geodata": null
+    },
+    {
+      "bfs": 6730,
+      "how": "Nach früherer Gemeinde: Vicques, Corban, Montsevelier, Vermes haben je eine eigene Commune ecclésiastique (eigene kirchliche Steuersätze). Für den zu Val Terbi gehörenden Teil mit PLZ 2832 Rebeuvelier ist die Zuständigkeit nicht ermittelt.",
+      "ortsteile": {
+        "2824 Vicques": "ju-vicques",
+        "2826 Corban": "ju-corban",
+        "2828 Montsevelier": "ju-montsevelier",
+        "2829 Vermes": "ju-vermes"
+      },
+      "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+      "geodata": null
+    },
+    {
+      "bfs": 6807,
+      "how": "Nach früherer Gemeinde: Buix (mit Le Maira) → Buix-Le Maira, Courtemaîche → Courtemaîche, Montignez → Montignez (eigene kirchliche Steuersätze). Für den Gemeindeteil mit PLZ 2915 Bure ist die Zuständigkeit nicht ermittelt.",
+      "ortsteile": {
+        "2925 Buix": "ju-buix-le-maira",
+        "2923 Courtemaîche": "ju-courtemaiche",
+        "2924 Montignez": "ju-montignez"
+      },
+      "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+      "geodata": null
+    },
+    {
+      "bfs": 6808,
+      "how": "Epauvillers und Epiquerez → Commune ecclésiastique Epauvillers-Epiquerez (eigener kirchlicher Steuersatz); übriges Gemeindegebiet (St-Ursanne, Montmelon, Montenol, Seleute, Ocourt) → Saint-Ursanne et environs.",
+      "ortsteile": {
+        "2885 Epauvillers": "ju-epauvillers-epiquerez",
+        "2886 Epiquerez": "ju-epauvillers-epiquerez",
+        "2882 St-Ursanne": "ju-st-ursanne-et-environs",
+        "2883 Montmelon": "ju-st-ursanne-et-environs",
+        "2884 Montenol": "ju-st-ursanne-et-environs",
+        "2888 Seleute": "ju-st-ursanne-et-environs",
+        "2889 Ocourt": "ju-st-ursanne-et-environs"
+      },
+      "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+      "geodata": null
+    },
+    {
+      "bfs": 6812,
+      "how": "Nach früherer Gemeinde: Beurnevésin → Commune ecclésiastique de Beurnevésin, Bonfol → Commune ecclésiastique de Bonfol (eigene kirchliche Steuersätze).",
+      "ortsteile": {
+        "2935 Beurnevésin": "ju-beurnevesin",
+        "2944 Bonfol": "ju-bonfol"
+      },
+      "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+      "geodata": null
+    },
+    {
+      "bfs": 6751,
+      "how": "Montfaucon → Commune ecclésiastique de Montfaucon-Les Enfers; Montfavergier hat einen eigenen kirchlichen Steuersatz, die zuständige Commune ecclésiastique ist nicht ermittelt.",
+      "ortsteile": {},
+      "finder": "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+      "geodata": null
+    }
+  ],
+  "unmapped_bfs": [
+    6704,
+    6713,
+    6721,
+    6741,
+    6753,
+    6759,
+    6778,
+    6785,
+    6789,
+    6790,
+    6792,
+    6809,
+    6810
+  ],
+  "issues": [
+    "jurapastoral.ch (Website der CEC und aller Communes ecclésiastiques) war aus dieser Umgebung nicht erreichbar (TLS-Abbruch, auch per WebFetch). Alle Adressen stammen aus Wayback-Snapshots Jan.–Juli 2026; die Liste der Communes ecclésiastiques auf jurapastoral.ch wird dynamisch geladen und war nicht archiviert. Deshalb höchstens confidence medium.",
+    "Viele Communes ecclésiastiques nennen nur Sekretärin/Präsidium mit Privatadresse: dort nur Name + PLZ Ort (low). Für 17 Communes ecclésiastiques (Ajoie-Teil und alle Freiberge) war gar keine Adresse abrufbar.",
+    "Zuordnung Gemeinde → Commune ecclésiastique nur indirekt: Name der Commune ecclésiastique = (frühere) Gemeinde, gestützt auf die kantonale Liste der kirchlichen Steuersätze 2026 (eigene Sätze je früherer Gemeinde). Eine amtliche Gebietsliste (CEC-Erlass 45.005/37.009) war nicht abrufbar.",
+    "Nicht zugeordnet (unmapped_bfs): Châtillon, Ederswiler, Rossemaison (Courrendlin-Sekretariat sitzt in Rossemaison; Zugehörigkeit zu Courrendlin möglich, nicht belegt), Le Bémont, Muriaux, Soubey, Bure, Courtedoux, Fahy, Fontenais, Grandfontaine (Les Sources oder Haute-Ajoie?); ausserdem Haute-Ajoie und La Baroche: Commune ecclésiastique gleichen Namens laut Pfarreiseite vorhanden, aber weder Adresse noch Ort ermittelt.",
+    "Wortlaut: LREE spricht vom Austritt aus der anerkannten Kirche (öffentlich-rechtliche Körperschaft); die Erklärung geht an die Paroisse/Commune ecclésiastique des Wohnsitzes.",
+    "Moutier (seit 1.1.2026 jurassisch): Commune ecclésiastique umfasst auch bernische Gemeinden; Adresse aus Snapshot Juli 2026."
+  ]
+}

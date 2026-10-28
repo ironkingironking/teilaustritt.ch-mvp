@@ -1,0 +1,2444 @@
+{
+  "canton": "FR",
+  "body": {
+    "name": "Corporation ecclésiastique catholique du canton de Fribourg / Katholische kirchliche Körperschaft des Kantons Freiburg",
+    "short": "Corporation cantonale (CEC) / Kantonale Körperschaft",
+    "website": "https://www.cath-fr.ch/corporation-cantonale/",
+    "postal": [
+      "Corporation ecclésiastique catholique du canton de Fribourg",
+      "Boulevard de Pérolles 38",
+      "1700 Fribourg"
+    ]
+  },
+  "austritt": {
+    "recipient": "Conseil paroissial (Pfarreirat) der Wohnsitzpfarrei, an die Adresse des Pfarreisekretariats",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich und unterschrieben; ausdrücklich angeben, ob vollständiger oder teilweiser Austritt (sortie partielle)",
+    "beglaubigung": false,
+    "wirkung": "rückwirkend auf den Tag der Einreichung (Art. 11 Abs. 3 Statut); beendet die Kirchensteuerpflicht",
+    "notes": "Wird die Erklärung direkt an den Conseil paroissial geschickt, geht ein Exemplar an den Pfarrer; der Conseil paroissial meldet den Austritt der Einwohnerkontrolle, der kantonalen Steuerverwaltung und der Diözesanbehörde (Art. 9 Abs. 2 und Art. 11 Abs. 2bis Statut). Der Conseil paroissial schickt in der Regel ein Formular und bestätigt den Austritt innert 30 Tagen.",
+    "source": "https://www.cath-fr.ch/corporation-cantonale/sortie-deglise/",
+    "public_hinweis": "Im Kanton Freiburg geht laut Statut ein Exemplar der Erklärung an den Pfarrer, und der Austritt wird dem Bistum gemeldet. Die Bitte um Vertraulichkeit im Brief ändert daran nichts."
+  },
+  "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.cath-fr.ch/corporation-cantonale/sortie-deglise/",
+    "https://www.cath-fr.ch/app/uploads/Statut-revise-2026-07-01-1.pdf",
+    "https://www.cath-fr.ch/app/uploads/190.1-10-1.fr_.pdf",
+    "https://www.cath-fr.ch/corporation-cantonale/fusions-de-paroisses/",
+    "https://www.fr.ch/impots/personnes-physiques/coefficients-communaux-et-paroisses",
+    "https://www.fr.ch/document/602756",
+    "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+    "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+    "https://data.geo.admin.ch/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/amtliches-gebaeudeadressverzeichnis_ch/amtliches-gebaeudeadressverzeichnis_ch_2056.csv.zip",
+    "https://www.cath-fr.ch/wp-json/mapsvg/v1/regions/regions_39"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "fr-alterswil",
+      "name": "Pfarrei Alterswil",
+      "postal": [
+        "Pfarrei Alterswil",
+        "Pfarreirat",
+        "Postfach 10",
+        "1715 Alterswil"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "info@pfarrei-alterswil.ch",
+      "website": "https://www.pfarrei-alterswil.ch/",
+      "source": "https://www.pfarrei-alterswil.ch/ueber-uns",
+      "bfs": [],
+      "partial_bfs": [
+        2304,
+        2306
+      ],
+      "confidence": "high",
+      "note": "Website nennt ausdrücklich «Postadresse des Pfarreirates: Pfarrei Alterswil, Postfach 10, 1715 Alterswil» (Pfarreiverwaltung; Büro Unterdorfstrasse 10). Pfarrblatt SESM Okt. 2026 bestätigt Postfach 10. Pfarreigebiet auf der Website nicht angegeben."
+    },
+    {
+      "id": "fr-arconciel",
+      "name": "Paroisse d'Arconciel",
+      "postal": [
+        "Paroisse d'Arconciel",
+        "Conseil paroissial",
+        "Secrétariat paroissial et pastoral",
+        "Route du Chevalier 9",
+        "1723 Marly"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat.marly@paroisse.ch",
+      "website": "https://www.paroisse.ch/paroisses/arconciel",
+      "source": "https://www.paroisse.ch/up-sainte-claire/secretariat",
+      "bfs": [],
+      "partial_bfs": [
+        2238
+      ],
+      "confidence": "medium",
+      "note": "Adresse = Sekretariat der UP Sainte-Claire in Marly (auf jeder Pfarreiseite als Kontakt genannt); die Pfarrei publiziert keine eigene Postadresse. Die Verzeichnisadresse (Route d'Ependes 37) ist laut Website eine Wohnadresse von Privatpersonen und wurde nicht übernommen. Laut Protokoll der Pfarreiversammlung vom 25.3.2026 bearbeitet der Conseil de paroisse Austritte selbst."
+    },
+    {
+      "id": "fr-attalens",
+      "name": "Paroisse catholique romaine d'Attalens",
+      "postal": [
+        "Paroisse catholique romaine d'Attalens",
+        "Conseil paroissial",
+        "Case postale 5",
+        "1616 Attalens"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.attalens@bluewin.ch",
+      "website": "https://www.upstdenis.ch/paroisses/attalens",
+      "source": "https://www.upstdenis.ch/paroisses/attalens",
+      "bfs": [
+        2321,
+        2323,
+        2328
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Case postale der Pfarrei laut UP-Saint-Denis-Website (Okt. 2026); Verzeichnis: Case postale ohne Nummer, 1616 Attalens"
+    },
+    {
+      "id": "fr-autigny",
+      "name": "Paroisse d'Autigny",
+      "postal": [
+        "Paroisse d'Autigny",
+        "Conseil paroissial",
+        "1742 Autigny"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisse.autigny@bluewin.ch",
+      "website": "https://upndlabrillaz.ch/paroisses/autigny",
+      "source": "https://upndlabrillaz.ch/paroisses/autigny",
+      "bfs": [
+        2173,
+        2177
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur eine c/o-Adresse beim Sekretär und Kassier (Privatadresse), das Verzeichnis eine p.a.-Privatadresse in Chénens. Umfasst Autigny und Chénens."
+    },
+    {
+      "id": "fr-avry-devant-pont",
+      "name": "Paroisse d'Avry-devant-Pont",
+      "postal": [
+        "Paroisse d'Avry-devant-Pont",
+        "Conseil paroissial",
+        "1644 Avry-devant-Pont"
+      ],
+      "address_type": "praesidium",
+      "website": "https://upcompassion.ch/paroisses/avry-devant-pont/",
+      "source": "https://upcompassion.ch/paroisses/avry-devant-pont/",
+      "bfs": [
+        2122
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen; UP-Website nennt nur Kontaktadresse des Präsidiums (Gumefens), Verzeichnis eine abweichende Adresse in Le Bry (Art unklar); beide nicht übernommen. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+    },
+    {
+      "id": "fr-barbereche",
+      "name": "Paroisse de Barberêche-Courtepin-Courtaman",
+      "postal": [
+        "Paroisse de Barberêche-Courtepin-Courtaman",
+        "Conseil paroissial",
+        "Case postale 65",
+        "1784 Courtepin"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "secretariat@barbereche-courtepin.ch",
+      "website": "https://upsaintesprit.ch/paroisses/paroisse-de-barbereche-courtepin-courtaman",
+      "source": "https://upsaintesprit.ch/contact",
+      "bfs": [],
+      "partial_bfs": [
+        2254
+      ],
+      "confidence": "high",
+      "note": "UP Saint-Esprit. Verzeichnis: Conseil paroissial, Case postale, 1784 Courtepin (ohne Nummer); Website nennt Case postale 65. Alte Domain barbereche-courtepin.ch leitet auf upsaintesprit.ch um."
+    },
+    {
+      "id": "fr-bas-intyamon",
+      "name": "Paroisse de Bas-Intyamon",
+      "postal": [
+        "Paroisse de Bas-Intyamon",
+        "Conseil paroissial",
+        "Cure catholique romaine",
+        "Rue de l'Eglise 18",
+        "1663 Gruyères"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@paroisse-basintyamon.ch",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-bas-intyamon",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%225029%22%5D",
+      "bfs": [
+        2162
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse = Cure/Sekretariat der UP Notre-Dame de l'Evi laut Verzeichnis; Pfarreiseite der UP nennt keine Postadresse (Mail des Pfarreisekretariats von dort); paroisse-basintyamon.ch ist nur Platzhalterseite"
+    },
+    {
+      "id": "fr-belfaux",
+      "name": "Paroisse de Belfaux",
+      "postal": [
+        "Paroisse de Belfaux",
+        "Conseil paroissial",
+        "Route de l'Eglise 12",
+        "Case postale 123",
+        "1782 Belfaux"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse-belfaux@bluewin.ch",
+      "website": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-belfaux",
+      "source": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-belfaux",
+      "bfs": [
+        2175,
+        2183,
+        2235
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreisekretariat (Mittwochvormittag) im selben Haus wie das UP-Sekretariat Sainte-Trinité; Verzeichnis: Conseil paroissial de Belfaux, gleiche Adresse. Umfasst Belfaux, Corminboeuf und La Sonnaz. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat"
+    },
+    {
+      "id": "fr-belmont",
+      "name": "Paroisse Notre-Dame du Belmont",
+      "postal": [
+        "Paroisse Notre-Dame du Belmont",
+        "Conseil paroissial",
+        "Vers l'Eglise 2",
+        "1563 Dompierre"
+      ],
+      "address_type": "pfarramt",
+      "email": "paroisse@ndbelmont.ch",
+      "website": "https://upnotredamedetours.ch/2017/10/25/notre-dame-du-belmont/",
+      "source": "https://upnotredamedetours.ch/2017/10/25/notre-dame-du-belmont/",
+      "bfs": [
+        2053
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Adresse der Pfarrei (Cure catholique Dompierre), UP-Seite aktualisiert 30.9.2026, deckt sich mit Verzeichnis. Domain ndbelmont.ch hat keine Website. Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+    },
+    {
+      "id": "fr-billens",
+      "name": "Paroisse Saint-Maurice, Billens",
+      "postal": [
+        "Paroisse Saint-Maurice, Billens",
+        "Conseil paroissial",
+        "1681 Billens"
+      ],
+      "address_type": "praesidium",
+      "email": "Billens@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/billens",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [
+        2063
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Website nennt Route de l'Eglise 5; laut Telefonbuch ein Privathaushalt (vermutlich Präsidium). Verzeichnis nur «1681 Billens». Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-bosingen",
+      "name": "Pfarrei St. Jakob Bösingen",
+      "postal": [
+        "Pfarrei St. Jakob Bösingen",
+        "Pfarreirat",
+        "Dorfplatz 16",
+        "3178 Bösingen"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@pfarrei-boesingen.ch",
+      "website": "https://pfarrei-boesingen.ch/",
+      "source": "https://pfarrei-boesingen.ch/",
+      "bfs": [],
+      "partial_bfs": [
+        2295
+      ],
+      "confidence": "high",
+      "note": "Röm.-kath. Pfarramt mit Sekretariat (Mi). Pfarreirat ohne eigene Postadresse (nur Personen); Verwaltung unter Privatadresse, nicht übernommen. Pfarreigebiet innerhalb der Gemeinde Bösingen nicht angegeben; Laupen/Kriechenwil/Gammen (BE) werden nur seelsorgerisch betreut, gehören rechtlich zu Bümpliz."
+    },
+    {
+      "id": "fr-botterens",
+      "name": "Paroisse de Botterens",
+      "postal": [
+        "Paroisse de Botterens",
+        "Conseil paroissial",
+        "Secrétariat de l'UP Notre-Dame de l'Evi",
+        "Rue de l'Eglise 18",
+        "1663 Gruyères"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@upndevi.ch",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-botterens-/-villarbeney",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22227%22%5D",
+      "bfs": [
+        2123
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse = Sekretariat der UP Notre-Dame de l'Evi laut Verzeichnis (UP-Website bestätigt Adresse des UP-Sekretariats); Mail = aktuelle UP-Sekretariatsadresse (Verzeichnis nennt veraltete up.ndevi@bluewin.ch)"
+    },
+    {
+      "id": "fr-broc",
+      "name": "Paroisse de Broc",
+      "postal": [
+        "Paroisse de Broc",
+        "Conseil paroissial",
+        "Rue des Ecoles 7",
+        "1636 Broc"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroissebroc@bluewin.ch",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-broc",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22255%22%5D",
+      "bfs": [
+        2124
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse nur im Verzeichnis; UP-Pfarreiseite bestätigt Secrétariat paroissial (Do 9–11 Uhr) und Mail, nennt aber keine Strasse"
+    },
+    {
+      "id": "fr-bulle-la-tour",
+      "name": "Paroisse catholique Bulle-La Tour",
+      "postal": [
+        "Paroisse catholique Bulle-La Tour",
+        "Conseil paroissial",
+        "Rue de la Promenade 44",
+        "1630 Bulle"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@paroisse-bulle-latour.ch",
+      "website": "https://paroisse-bulle-latour.ch/",
+      "source": "https://paroisse-bulle-latour.ch/",
+      "bfs": [
+        2125
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreisekretariat; übereinstimmend Pfarrei-Website, UP-Compassion-Seite und Verzeichnis. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-07-14"
+    },
+    {
+      "id": "fr-chapelle",
+      "name": "Paroisse catholique de Chapelle-Gillarens",
+      "postal": [
+        "Paroisse catholique de Chapelle-Gillarens",
+        "Conseil paroissial",
+        "Rue du Casino 21",
+        "1673 Rue"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.upierroches.ch/paroisse%20Chapelle.htm",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22345%22%5D",
+      "bfs": [],
+      "partial_bfs": [
+        2097
+      ],
+      "confidence": "medium",
+      "note": "Adresse laut cath-fr-Verzeichnis (Administration paroissiale in Rue, Telefon laut Telefonbuch dort registriert). Die UP-Seite nennt als Postadresse die Privatadresse des Präsidiums in Gillarens. Fusionsprojekt der Pfarreien an der Versammlung vom 24.3.2026 traktandiert."
+    },
+    {
+      "id": "fr-chatel-st-denis",
+      "name": "Paroisse catholique romaine de Châtel-St-Denis",
+      "postal": [
+        "Paroisse catholique romaine de Châtel-St-Denis",
+        "Conseil paroissial",
+        "Chemin de l'Église 38",
+        "1618 Châtel-St-Denis"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@paroisse-chatel.ch",
+      "website": "https://www.upstdenis.ch/paroisses/chatel-st-denis",
+      "source": "https://www.upstdenis.ch/paroisses/chatel-st-denis",
+      "bfs": [
+        2325
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Website (UP Saint-Denis) und Verzeichnis übereinstimmend; UP-Sekretariat separat am Chemin de l'Église 21"
+    },
+    {
+      "id": "fr-chatonnaye",
+      "name": "Paroisse Sainte-Anne, Châtonnaye",
+      "postal": [
+        "Paroisse Sainte-Anne, Châtonnaye",
+        "Conseil paroissial",
+        "1553 Châtonnaye"
+      ],
+      "address_type": "praesidium",
+      "email": "Chatonnaye@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/chatonnaye",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [
+        2068
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur eine Person mit Privatadresse. Pfarrei wird derzeit von einer «Commission administrative exceptionnelle» (mit Administrator der Corporation ecclésiastique cantonale) statt eines Conseil paroissial geführt: https://www.upglane.ch/paroisses/chatonnaye/annuaire-de-chatonnaye"
+    },
+    {
+      "id": "fr-christ-roi-fribourg",
+      "name": "Paroisse du Christ-Roi",
+      "postal": [
+        "Paroisse du Christ-Roi",
+        "Conseil paroissial",
+        "Route du Comptoir 2",
+        "1700 Fribourg"
+      ],
+      "address_type": "sekretariat",
+      "email": "christ-roi@fri-cath.ch",
+      "website": "https://christ-roi.ch/",
+      "source": "https://christ-roi.ch/conseil-paroissial",
+      "bfs": [],
+      "partial_bfs": [
+        2196
+      ],
+      "confidence": "high",
+      "note": "Adresse auf der Seite des Conseil paroissial und des Pfarreisekretariats; Verzeichnis-Mail info@christ-roi.ch ersetzt. Stadt Freiburg: welche Strasse zu welcher Pfarrei gehört, liefert der offizielle Geodatensatz «Paroisses catholiques» der Corporation ecclésiastique catholique (Stand 2019, UP-Namen veraltet), Punktabfrage: https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0 (Geoportal: https://maps.fr.ch/portal/apps/sites/#/geoportail/search?q=86f63ae9-5ecc-4697-9c4c-9c3003afd5d7); Stichproben mit den Pfarreiadressen passen. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-corpataux-magnedens",
+      "name": "Paroisse de Corpataux-Magnedens",
+      "postal": [
+        "Paroisse de Corpataux-Magnedens",
+        "Conseil paroissial",
+        "Route d'Illens 62",
+        "1727 Corpataux"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse@paroisse-corpataux-magnedens.ch",
+      "website": "https://up-st-protais.ch/paroisses/corpataux-magnedens",
+      "source": "https://up-st-protais.ch/paroisses/corpataux-magnedens",
+      "bfs": [],
+      "partial_bfs": [
+        2236
+      ],
+      "confidence": "high",
+      "note": "Von der Pfarrei publizierte «Adresse postale», zugleich Adresse des Pfarreisekretariats (Conseillère Administration); stimmt mit dem Verzeichnis überein. Website paroisse-corpataux-magnedens.ch nicht erreichbar, Mail-Domain hat aber einen Mailserver."
+    },
+    {
+      "id": "fr-cottens",
+      "name": "Paroisse de Cottens",
+      "postal": [
+        "Paroisse de Cottens",
+        "Conseil paroissial",
+        "Case postale 29",
+        "1741 Cottens"
+      ],
+      "address_type": "verwaltung",
+      "email": "paroisse.cottens@gmail.com",
+      "website": "https://upndlabrillaz.ch/paroisses/cottens",
+      "source": "https://upndlabrillaz.ch/paroisses/cottens",
+      "bfs": [
+        2186
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei (Postfach); Verzeichnis: Case postale ohne Nummer, 1741 Cottens."
+    },
+    {
+      "id": "fr-courtion",
+      "name": "Paroisse de Courtion",
+      "postal": [
+        "Paroisse de Courtion",
+        "Conseil paroissial",
+        "1721 Courtion"
+      ],
+      "address_type": "praesidium",
+      "email": "courtionparoisse@outlook.com",
+      "website": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-courtion",
+      "source": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-courtion",
+      "bfs": [
+        2272
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Pfarrei hat kein Sekretariat; Website nennt nur eine P.A.-Adresse beim Pfarreisekretär (Privatadresse in 1721 Misery), das Verzeichnis eine p.a.-Privatadresse. Umfasst Cormérod, Cournillens, Courtion, Misery. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat"
+    },
+    {
+      "id": "fr-cressier-sur-morat",
+      "name": "Paroisse de Cressier-sur-Morat",
+      "postal": [
+        "Paroisse de Cressier-sur-Morat",
+        "Conseil paroissial",
+        "Chemin de Bouley 1",
+        "Case postale 3",
+        "1785 Cressier"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariatparoissialcressier@gmail.com",
+      "website": "https://upsaintesprit.ch/paroisses/paroisse-de-cressier-sur-morat",
+      "source": "https://upsaintesprit.ch/contact",
+      "bfs": [
+        2257
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Chemin de Bouley 1 = Secrétariat paroissial (Website-Fusszeile, Pfarreiseite, Verzeichnis); «Case postale 3» steht nur im ersten Block der Kontaktseite, das Verzeichnis nennt eine Case postale ohne Nummer. Telefonnummern auf der Website uneinheitlich."
+    },
+    {
+      "id": "fr-cresuz",
+      "name": "Paroisse de Crésuz / Châtel-sur-Montsalvens",
+      "postal": [
+        "Paroisse de Crésuz / Châtel-sur-Montsalvens",
+        "Conseil paroissial",
+        "1653 Crésuz"
+      ],
+      "address_type": "praesidium",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-cresuz-/-chatel-sur-montsalvens",
+      "source": "https://www.cresuz.ch/culture-loisirs/paroisse",
+      "bfs": [
+        2128,
+        2130
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen; Verzeichnis nennt nur p.a.-Privatadresse (nicht übernommen); Gemeinde-Website: «Paroisse St-François d'Assise, 1653 Crésuz» ohne Strasse; Alternative: UP-Sekretariat, Cure, Rue de l'Eglise 18, 1663 Gruyères"
+    },
+    {
+      "id": "fr-dudingen",
+      "name": "Pfarrei Düdingen",
+      "postal": [
+        "Pfarrei Düdingen",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "Duensstrasse 2",
+        "3186 Düdingen"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarreiverwaltung@pfarrei-duedingen.ch",
+      "website": "https://www.pfarrei-duedingen.ch/",
+      "source": "https://www.pfarrei-duedingen.ch/kontakt/pfarreirat",
+      "bfs": [],
+      "partial_bfs": [
+        2293
+      ],
+      "confidence": "high",
+      "note": "Pfarreirat-Seite nennt «Adresse: Pfarreiverwaltung, Duensstrasse 2, 3186 Düdingen»; Pfarrblatt Nov. 2026 gleich. Amtliche Schreibweise Duensstrasse (Verzeichnis/Startseite: «Duenstrasse»). Pfarreigebiet nicht als Liste angegeben; laut Geschichte der Pfarrei kamen 1894 die Schrote Wyler und Lanthen zur Pfarrei Schmitten."
+    },
+    {
+      "id": "fr-echarlens",
+      "name": "Paroisse d'Echarlens",
+      "postal": [
+        "Paroisse d'Echarlens",
+        "Conseil paroissial",
+        "Route des Eglises 8",
+        "1646 Echarlens"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://upcompassion.ch/paroisses/echarlens/",
+      "source": "https://upcompassion.ch/paroisses/echarlens/",
+      "bfs": [
+        2131
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "UP-Website und Verzeichnis übereinstimmend, Adresse steht aber beim Kontakt der Sekretärin (ob Pfarreigebäude, nicht bestätigt); nur persönliche Mail publiziert. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-06-18"
+    },
+    {
+      "id": "fr-ecuvillens",
+      "name": "Paroisse d'Ecuvillens-Posieux",
+      "postal": [
+        "Paroisse d'Ecuvillens-Posieux",
+        "Conseil paroissial",
+        "Route de Posieux 1",
+        "1730 Ecuvillens"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@up-st-protais.ch",
+      "website": "https://up-st-protais.ch/paroisses/ecuvillens",
+      "source": "https://up-st-protais.ch/paroisses/ecuvillens",
+      "bfs": [
+        2233
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei = Cure Ecuvillens, zugleich Sekretariat der UP Saint-Protais (Mail = UP-Sekretariat); persönliche Mailadresse aus dem Verzeichnis nicht übernommen. Umfasst Ecuvillens und Posieux."
+    },
+    {
+      "id": "fr-ependes",
+      "name": "Paroisse d'Ependes",
+      "postal": [
+        "Paroisse d'Ependes",
+        "Conseil paroissial",
+        "Case postale",
+        "1731 Ependes"
+      ],
+      "address_type": "verwaltung",
+      "email": "secretariat.marly@paroisse.ch",
+      "website": "https://www.paroisse.ch/paroisses/ependes",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22520%22%5D",
+      "bfs": [
+        2194
+      ],
+      "partial_bfs": [
+        2238
+      ],
+      "confidence": "medium",
+      "note": "Nur Verzeichnis (Postfach ohne Nummer; die Poststelle Ependes bietet Postfächer an). Website nennt keine Pfarreiadresse, nur das Sekretariat der UP Sainte-Claire, Route du Chevalier 9, 1723 Marly (Alternative; Mail = UP-Sekretariat). Umfasst Ependes, Ferpicloz, Senèdes."
+    },
+    {
+      "id": "fr-estavayer",
+      "name": "Paroisse Saint-Laurent Estavayer",
+      "postal": [
+        "Paroisse Saint-Laurent Estavayer",
+        "Conseil paroissial",
+        "Secrétariat paroissial",
+        "Rue Saint-Laurent 9",
+        "1470 Estavayer-le-Lac"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@psle.ch",
+      "website": "https://www.paroisse-st-laurent-estavayer.ch/",
+      "source": "https://paroisse-st-laurent-estavayer.ch/wp-content/uploads/bsk-pdf-manager/2025/11/Semaine-49.pdf",
+      "bfs": [
+        2008,
+        2055,
+        2011,
+        2054,
+        2025,
+        2050,
+        2035,
+        2038,
+        2043
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Sekretariat Rue St-Laurent 9 deckt sich mit Verzeichnis und Pfarreidokumenten 2025/2026 (Wochenblatt, Tätigkeitsbericht 2025). Die Pfarrei-Website war von hier aus technisch nicht abrufbar (TLS-Fehler); Bestätigung über den Suchindex dieser PDFs. Verzeichnis-Mail: paroisse@paroisse-st-laurent-estavayer.ch."
+    },
+    {
+      "id": "fr-farvagny",
+      "name": "Paroisse de Farvagny",
+      "postal": [
+        "Paroisse de Farvagny",
+        "Conseil paroissial",
+        "Impasse du Château 3",
+        "Case postale 123",
+        "1726 Farvagny"
+      ],
+      "address_type": "verwaltung",
+      "email": "paroisse-st-vincent@bluewin.ch",
+      "website": "https://up-st-protais.ch/paroisses/farvagny",
+      "source": "https://up-st-protais.ch/paroisses/farvagny",
+      "bfs": [],
+      "partial_bfs": [
+        2236
+      ],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei (Website schreibt «Paroisse du Farvagny»), Cure Farvagny; stimmt mit dem Verzeichnis überein."
+    },
+    {
+      "id": "fr-fetigny-menieres",
+      "name": "Paroisse catholique de Fétigny-Ménières",
+      "postal": [
+        "Paroisse catholique de Fétigny-Ménières",
+        "Conseil paroissial",
+        "Secrétariat UP St-Barnabé",
+        "Rue de Guillermaux 17",
+        "1530 Payerne"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse@saint-hilaire.ch",
+      "website": "https://www.cath-vd.ch/paroisses/up-de-st-barnabe/",
+      "source": "https://www.cath-vd.ch/wp-content/uploads/2026/10/n%C2%B042-du-24-octobre-au-1er-novembre-2026.pdf",
+      "bfs": [
+        2056
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Adresse = Sekretariat/Cure der UP St-Barnabé in Payerne (VD), laut Feuille dominicale 10/2026 zuständig für die Paroisses catholiques de Fétigny-Ménières, Surpierre, Payerne, Granges; Verzeichnis nennt dieselbe Adresse als Pfarreiadresse."
+    },
+    {
+      "id": "fr-giffers-tentlingen",
+      "name": "Pfarrei Giffers-Tentlingen",
+      "postal": [
+        "Pfarrei Giffers-Tentlingen",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "Kirchweg 6",
+        "1735 Giffers"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarreiverwaltung.giffers@bluewin.ch",
+      "website": "https://www.pfarrei-giffers-tentlingen.ch/",
+      "source": "https://www.pfarrei-giffers-tentlingen.ch/kontakte/",
+      "bfs": [
+        2294,
+        2307
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreiverwaltung/Pfarreisekretariat und Pfarramt am Kirchweg 6; Pfarrblatt SE Sense-Oberland Nov. 2026 bestätigt. Verzeichnis-Link giffers.ch/pfarrei.html ist tot (404). Gleiches Pfarramtsekretariat betreut auch St. Silvester."
+    },
+    {
+      "id": "fr-givisiez",
+      "name": "Paroisse Saint-Laurent",
+      "postal": [
+        "Paroisse Saint-Laurent",
+        "Conseil paroissial",
+        "Chemin Saint-Laurent 1",
+        "1762 Givisiez"
+      ],
+      "address_type": "sekretariat",
+      "email": "stlaurent@fri-cath.ch",
+      "website": "https://paroisse-stlaurent.ch/",
+      "source": "https://paroisse-stlaurent.ch/secretariat",
+      "bfs": [
+        2197,
+        2198
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreisekretariat; umfasst Givisiez und Granges-Paccot. Verzeichnis-Web www.up3.ch und Mail @upsaintjoseph.ch sind veraltet. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-grandvillard",
+      "name": "Paroisse de Grandvillard",
+      "postal": [
+        "Paroisse de Grandvillard",
+        "Conseil paroissial",
+        "Cure catholique romaine",
+        "Rue de l'Eglise 18",
+        "1663 Gruyères"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-grandvillard",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22680%22%5D",
+      "bfs": [
+        2134
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Verzeichnis: Cure catholique romaine, Case postale, 1663 Gruyères (= Sekretariat UP Notre-Dame de l'Evi, Strasse laut UP-Website); Pfarreiseite nennt keine eigene Postadresse"
+    },
+    {
+      "id": "fr-grolley",
+      "name": "Paroisse de Grolley",
+      "postal": [
+        "Paroisse de Grolley",
+        "Conseil paroissial",
+        "Place de l'Eglise 2",
+        "1772 Grolley"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@paroisse-grolley.ch",
+      "website": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-grolley",
+      "source": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-grolley",
+      "bfs": [],
+      "partial_bfs": [
+        2239
+      ],
+      "confidence": "high",
+      "note": "Pfarreisekretariat (Montag- und Mittwochvormittag); stimmt mit dem Verzeichnis überein. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat"
+    },
+    {
+      "id": "fr-gruyeres",
+      "name": "Paroisse de Gruyères",
+      "postal": [
+        "Paroisse de Gruyères",
+        "Conseil paroissial",
+        "Cure catholique romaine",
+        "Rue de l'Eglise 18",
+        "1663 Gruyères"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretaire@paroisse-gruyeres.ch",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-gruyeres",
+      "source": "https://www.gruyeres.ch/paroisse",
+      "bfs": [
+        2135
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Cure von Gruyères = Sekretariat der UP Notre-Dame de l'Evi; übereinstimmend Gemeinde-Website, UP-Website und Verzeichnis; Mail des Pfarreisekretariats laut Gemeinde-Website"
+    },
+    {
+      "id": "fr-gurmels",
+      "name": "Pfarrei Gurmels",
+      "postal": [
+        "Pfarrei Gurmels",
+        "Pfarreirat",
+        "Verwaltung",
+        "St. Germanstrasse 17",
+        "3212 Gurmels"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@pfarreigurmels.ch",
+      "website": "https://www.pfarreigurmels.ch/",
+      "source": "https://www.pfarreigurmels.ch/uploads/8/Einladung_2026.pdf",
+      "bfs": [
+        2266
+      ],
+      "partial_bfs": [
+        2262
+      ],
+      "confidence": "high",
+      "note": "Einladung Pfarreiversammlung 2026: schriftliche Eingaben an «Pfarrei Gurmels, Verwaltung, St. Germanstrasse 17, 3212 Gurmels»; Kontaktseite pfarreigurmels.ch/pfarramt-gurmels nennt dieselbe Adresse (Sekretariat/Pfarreiverwaltung). Laut pfarrei-murten.ch gehört Ulmiz (Gemeinde Gurmels) zur Pfarrei Murten."
+    },
+    {
+      "id": "fr-haut-intyamon",
+      "name": "Paroisse Saint-Martin Haut-Intyamon",
+      "postal": [
+        "Paroisse Saint-Martin Haut-Intyamon",
+        "Conseil paroissial",
+        "1669 Neirivue"
+      ],
+      "address_type": "praesidium",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-saint-martin-haut-intyamon",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%2223%22%5D",
+      "bfs": [
+        2121
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen; seit 1.1.2023 fusionierte Paroisse Saint-Martin; Verzeichnis-Adresse in Neirivue hat die Telefonnummer des Präsidiums (vermutlich Privatadresse, nicht übernommen); Gemeinde nennt nur Privatadressen; Alternative: UP-Sekretariat, Cure, Rue de l'Eglise 18, 1663 Gruyères"
+    },
+    {
+      "id": "fr-heitenried",
+      "name": "Pfarrei St. Michael Heitenried",
+      "postal": [
+        "Pfarrei St. Michael Heitenried",
+        "Pfarreirat",
+        "Dorfstrasse 40",
+        "1714 Heitenried"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@pfarrei-heitenried.ch",
+      "website": "https://www.pfarrei-heitenried.ch/",
+      "source": "https://www.pfarrei-heitenried.ch/kontakt",
+      "bfs": [],
+      "partial_bfs": [
+        2296,
+        2306
+      ],
+      "confidence": "high",
+      "note": "Pfarrhaus mit Pfarramtsekretariat (Di/Do), bestätigt im Pfarrblatt SESM Okt. 2026; Pfarreirat nur mit Privatadressen. Pfarreigebiet nicht angegeben; Kapellen der Pfarrei u. a. Wiler vor Holz, Selgiswil, Schönfels, Winterlingen."
+    },
+    {
+      "id": "fr-jaun",
+      "name": "Pfarrei Jaun",
+      "postal": [
+        "Pfarrei Jaun",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "Dorfstrasse 3",
+        "1656 Jaun"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@pfarrei-jaun.ch",
+      "website": "https://www.pfarrei-jaun.ch/",
+      "source": "https://www.pfarrei-jaun.ch/kontakt",
+      "bfs": [
+        2138
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreiverwaltung und Pfarramt Jaun (pastorale Angelegenheiten, UP Notre-Dame de l'Evi) beide Dorfstrasse 3. Verzeichnis-Mail ist privat, nicht übernommen. Pfarrei umfasst auch Im Fang."
+    },
+    {
+      "id": "fr-la-brillaz",
+      "name": "Paroisse de La Brillaz",
+      "postal": [
+        "Paroisse de La Brillaz",
+        "Conseil paroissial",
+        "Route de la Cure 18",
+        "1745 Lentigny"
+      ],
+      "address_type": "verwaltung",
+      "email": "par.la.brillaz@bluewin.ch",
+      "website": "https://upndlabrillaz.ch/paroisses/la-brillaz",
+      "source": "https://upndlabrillaz.ch/paroisses/la-brillaz",
+      "bfs": [
+        2234
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei; stimmt mit dem Verzeichnis überein. Umfasst Onnens, Lovens und Lentigny."
+    },
+    {
+      "id": "fr-la-roche",
+      "name": "Paroisse de La Roche",
+      "postal": [
+        "Paroisse de La Roche",
+        "Conseil paroissial",
+        "Route de la Gruyère 9",
+        "1634 La Roche"
+      ],
+      "address_type": "pfarramt",
+      "email": "paroisselaroche@outlook.com",
+      "website": "https://upcompassion.ch/paroisses/la-roche/",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22843%22%5D",
+      "bfs": [
+        2149
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse nur im Verzeichnis; UP-Website nennt stattdessen die Kontaktadresse des Präsidiums (nicht übernommen); Mail von der UP-Website. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+    },
+    {
+      "id": "fr-le-chatelard",
+      "name": "Paroisse Saint-Bernard et Saint-Maurice, Le Châtelard",
+      "postal": [
+        "Paroisse Saint-Bernard et Saint-Maurice, Le Châtelard",
+        "Conseil paroissial",
+        "1689 Le Châtelard"
+      ],
+      "address_type": "praesidium",
+      "email": "St-Bernard_St-Maurice@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/le-chatelard",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [
+        2067,
+        2079,
+        2086
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur «1689 Le Châtelard»; die Strasse im Verzeichnis gehört zur Mailadresse des Präsidiums (Privatadresse). Fusion Le Châtelard/Massonnens/Grangettes per 1.1.2023. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-le-cret-progens",
+      "name": "Paroisse catholique romaine de Le Crêt-Progens",
+      "postal": [
+        "Paroisse catholique romaine de Le Crêt-Progens",
+        "Conseil paroissial",
+        "Rue de l'Église 39",
+        "1611 Le Crêt"
+      ],
+      "address_type": "pfarramt",
+      "email": "lecret.progens@gmail.com",
+      "website": "https://www.upstdenis.ch/paroisses/cret-progens",
+      "source": "https://www.upstdenis.ch/paroisses/cret-progens",
+      "bfs": [
+        2338
+      ],
+      "partial_bfs": [
+        2113
+      ],
+      "confidence": "high",
+      "note": "Gehört zur UP Saint-Denis (Veveyse). Adresse der Pfarrei auf der UP-Seite (gepflegt, Messen 2026), deckt sich mit Verzeichnis."
+    },
+    {
+      "id": "fr-le-glebe",
+      "name": "Paroisse du Glèbe",
+      "postal": [
+        "Paroisse du Glèbe",
+        "Conseil paroissial",
+        "Case postale 153",
+        "1726 Farvagny"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://up-st-protais.ch/paroisses/le-glebe",
+      "source": "https://up-st-protais.ch/paroisses/le-glebe",
+      "bfs": [],
+      "partial_bfs": [
+        2236
+      ],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei (Postfach); Verzeichnis: Case postale ohne Nummer, 1726 Farvagny. Keine Funktions-Mail publiziert."
+    },
+    {
+      "id": "fr-le-mouret",
+      "name": "Paroisse du Mouret",
+      "postal": [
+        "Paroisse du Mouret",
+        "Conseil paroissial",
+        "Case postale 2",
+        "1724 Le Mouret"
+      ],
+      "address_type": "verwaltung",
+      "email": "secretariat.lemouret@paroisse.ch",
+      "website": "https://www.paroisse.ch/paroisses/le-mouret",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22219%22%5D",
+      "bfs": [],
+      "partial_bfs": [
+        2220
+      ],
+      "confidence": "medium",
+      "note": "Nur Verzeichnis (Postfach der Pfarrei); Website nennt keine Postadresse der Pfarrei, nur Funktions-Mails des Sekretariats und des Präsidiums (presidence.lemouret@paroisse.ch) sowie das UP-Sekretariat Sainte-Claire in Marly. Name in der Einladung 2026: «Paroisse St-Laurent Le Mouret»."
+    },
+    {
+      "id": "fr-le-paquier",
+      "name": "Paroisse de Le Pâquier",
+      "postal": [
+        "Paroisse de Le Pâquier",
+        "Conseil paroissial",
+        "Cure catholique romaine",
+        "Rue de l'Eglise 18",
+        "1663 Gruyères"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-le-paquier",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%22886%22%5D",
+      "bfs": [
+        2145
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse = Cure/Sekretariat der UP Notre-Dame de l'Evi laut Verzeichnis; Pfarreiseite nennt keine eigene Postadresse"
+    },
+    {
+      "id": "fr-le-solitou",
+      "name": "Paroisse St-Sulpice Le Solitou",
+      "postal": [
+        "Paroisse St-Sulpice Le Solitou",
+        "Conseil paroissial",
+        "Route de la Gruyère 118",
+        "1648 Hauteville"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.solitou@netplus.ch",
+      "website": "https://upcompassion.ch/paroisses/saint-sulpice-le-solitou/",
+      "source": "https://upcompassion.ch/paroisses/saint-sulpice-le-solitou/",
+      "bfs": [
+        2129,
+        2137
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Adresse der Pfarreiverwaltung im Gemeindehaus Hauteville; übereinstimmend UP-Website, Gemeinde-Website (hauteville.ch/culture-et-loisirs/paroisse) und Verzeichnis. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-05-13"
+    },
+    {
+      "id": "fr-mannens-grandsivaz",
+      "name": "Paroisse de Mannens-Grandsivaz",
+      "postal": [
+        "Paroisse de Mannens-Grandsivaz",
+        "Conseil paroissial",
+        "1775 Grandsivaz"
+      ],
+      "address_type": "praesidium",
+      "website": "https://upnotredamedetours.ch/2017/10/27/paroisse-de-mannens-grandsivaz/",
+      "source": "https://upnotredamedetours.ch/2017/10/27/paroisse-de-mannens-grandsivaz/",
+      "bfs": [],
+      "partial_bfs": [
+        2029
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur Privatadressen von Ratsmitgliedern. Verzeichnis: p.a. UP Notre-Dame de Tours, Route du Pavement 26, 1774 Montagny-les-Monts; dieses Sekretariat bearbeitet aber keine Austritte. Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+    },
+    {
+      "id": "fr-marly",
+      "name": "Paroisse catholique de Marly",
+      "postal": [
+        "Paroisse catholique de Marly",
+        "Conseil paroissial",
+        "Secrétariat paroissial et pastoral",
+        "Route du Chevalier 9",
+        "1723 Marly"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat.marly@paroisse.ch",
+      "website": "https://www.paroisse.ch/paroisses/marly",
+      "source": "https://www.paroisse.ch/up-sainte-claire/secretariat",
+      "bfs": [
+        2206,
+        2216,
+        2230
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Secrétariat paroissial et pastoral (zugleich UP Sainte-Claire); stimmt mit dem Verzeichnis überein. Umfasst Marly, Pierrafortscha und Villarsel-sur-Marly."
+    },
+    {
+      "id": "fr-matran",
+      "name": "Paroisse catholique de Matran",
+      "postal": [
+        "Paroisse catholique de Matran",
+        "Conseil paroissial",
+        "Route de l'Eglise 3",
+        "1753 Matran"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroissecatholiquedematran@bluewin.ch",
+      "website": "https://upndlabrillaz.ch/paroisses/matran-avry",
+      "source": "https://upndlabrillaz.ch/paroisses/matran-avry/administration",
+      "bfs": [
+        2174,
+        2208
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreisekretariat neben der Kirche; Verzeichnis nennt zusätzlich «Case postale» ohne Nummer. Website paroissematran.ch existiert nicht mehr. Umfasst Matran und Avry. Unter derselben Adresse liegt auch das Sekretariat der UP Notre-Dame de la Brillaz."
+    },
+    {
+      "id": "fr-mezieres",
+      "name": "Paroisse Notre-Dame de l'Epine, Mézières",
+      "postal": [
+        "Paroisse Notre-Dame de l'Epine, Mézières",
+        "Conseil paroissial",
+        "1684 Mézières"
+      ],
+      "address_type": "praesidium",
+      "email": "ND-Epine-Mezieres@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/berlens-mezieres",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [
+        2087
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt Postadresse «p.a.» einer Privatperson. Fusion Berlens/Mézières per 1.1.2014. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-middes-torny-pittet",
+      "name": "Paroisse Saint-Martin, Torny-Pittet",
+      "postal": [
+        "Paroisse Saint-Martin, Torny-Pittet",
+        "Conseil paroissial",
+        "1749 Middes"
+      ],
+      "address_type": "praesidium",
+      "email": "Torny-Pittet@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/torny-le-petit",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [],
+      "partial_bfs": [
+        2115
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur «1749 Middes»; Strasse im Verzeichnis (Route de Payerne 51) ist laut Telefonbuch die Privatadresse des Präsidiums. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-montagny-tours",
+      "name": "Paroisse de Montagny-Tours",
+      "postal": [
+        "Paroisse de Montagny-Tours",
+        "Conseil paroissial",
+        "Route du Pavement 26",
+        "1774 Montagny-les-Monts"
+      ],
+      "address_type": "kirchenpflege",
+      "website": "https://upnotredamedetours.ch/2017/10/26/paroisse-de-montagny-tours/",
+      "source": "https://upnotredamedetours.ch/2017/10/26/paroisse-de-montagny-tours/",
+      "bfs": [],
+      "partial_bfs": [
+        2029
+      ],
+      "confidence": "low",
+      "note": "Vor Versand prüfen: Route du Pavement 26 (Cure de Montagny) ist auf der Website die Adresse des Ratsmitglieds für «Administration générale»; am selben Ort sitzt das UP-Sekretariat, das keine Austritte bearbeitet. Verzeichnis: Chapellenie Notre-Dame de Tours, 1774 Cousset (ohne Strasse). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+    },
+    {
+      "id": "fr-morlon",
+      "name": "Paroisse de Morlon",
+      "postal": [
+        "Paroisse de Morlon",
+        "Conseil paroissial",
+        "Route de Bulle 3",
+        "1638 Morlon"
+      ],
+      "address_type": "kirchenpflege",
+      "website": "https://upcompassion.ch/paroisses/morlon/",
+      "source": "https://upcompassion.ch/paroisses/morlon/",
+      "bfs": [
+        2143
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kontaktadresse des Conseil de paroisse laut UP-Website; Verzeichnis nennt dagegen UP-Sekretariat (Rue du Marché 32, 1630 Bulle). Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+    },
+    {
+      "id": "fr-murten",
+      "name": "Katholische Pfarrei Murten",
+      "postal": [
+        "Katholische Pfarrei Murten",
+        "Pfarreirat",
+        "Stadtgraben 28",
+        "3280 Murten"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "verwaltung@pfarrei-murten.ch",
+      "website": "https://www.pfarrei-murten.ch/",
+      "source": "https://www.pfarrei-murten.ch/de/kontakte/pfarreirat-verwaltung/pfarreirat",
+      "bfs": [
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2284,
+        2274,
+        2276,
+        2275,
+        2391
+      ],
+      "partial_bfs": [
+        2262
+      ],
+      "confidence": "high",
+      "note": "Website: «Anliegen an den Pfarreirat werden von der Pfarreiverwaltung entgegengenommen»; Postadresse «Kath. Pfarrei Murten, Pfarreirat, Stadtgraben 28, 3280 Murten» (Büro Meylandstrasse 19). Pfarreigebiet laut Website: Agriswil (Ried b. Kerzers), Büchslen, Clavaleyres, Courlevon, Galmiz, Gempenach, Jeuss, Lurtigen, Salvenach (alle Gemeinde Murten), Courgevaux, Fräschels, Greng, Kerzers, Meyriez, Muntelier, Murten, Ried b. Kerzers, Lugnorre/Môtier/Nant/Praz/Sugiez (Mont-Vully), Ulmiz (Gemeinde Gurmels). BFS 2391 Staatswald Galm (unbewohnt, nicht in der Steuerliste) laut amtlichen Geodaten im Pfarreigebiet Murten."
+    },
+    {
+      "id": "fr-neyruz",
+      "name": "Paroisse de Neyruz",
+      "postal": [
+        "Paroisse de Neyruz",
+        "Conseil paroissial",
+        "Place de l'Eglise 2",
+        "1740 Neyruz"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.neyruz@bluewin.ch",
+      "website": "https://upndlabrillaz.ch/paroisses/neyruz",
+      "source": "https://upndlabrillaz.ch/paroisses/neyruz",
+      "bfs": [
+        2211
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse postale: Secrétariat paroissial»; stimmt mit dem Verzeichnis überein."
+    },
+    {
+      "id": "fr-orsonnens",
+      "name": "Paroisse Saints-Pierre-et-Paul, Orsonnens",
+      "postal": [
+        "Paroisse Saints-Pierre-et-Paul, Orsonnens",
+        "Conseil paroissial",
+        "1694 Orsonnens"
+      ],
+      "address_type": "praesidium",
+      "email": "Orsonnens@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/orsonnens",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [],
+      "partial_bfs": [
+        2114
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen nur «1693 Orsonnens» ohne Strasse; Telefon gehört zum Präsidium. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. Website/Verzeichnis schreiben «1693 Orsonnens»; amtliche PLZ laut Ortschaftenverzeichnis ist 1694."
+    },
+    {
+      "id": "fr-plaffeien",
+      "name": "Pfarrei Plaffeien",
+      "postal": [
+        "Pfarrei Plaffeien",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "Kirchstrasse 9",
+        "Postfach 96",
+        "1716 Plaffeien"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarrei.plaffeien@sensemail.ch",
+      "website": "https://www.plaffeien.ch/verwaltungkirchen",
+      "source": "https://se-senseoberland.ch/wp-content/uploads/2026/10/SESO-PB-11.2026-Print_.pdf",
+      "bfs": [
+        2299
+      ],
+      "partial_bfs": [
+        2292
+      ],
+      "confidence": "high",
+      "note": "Pfarrblatt SE Sense-Oberland Nov. 2026: «Post: Pfarreiverwaltung, Kirchstrasse 9, Postfach 96, Plaffeien»; Gemeinde-Website nennt Pfarreiverwaltung Kirchstrasse 9, 1716 Plaffeien (ohne Postfach). Pfarreigebiet laut plaffeien.ch: Gemeinde Plaffeien sowie Weiler Berg (Gemeinde Brünisried)."
+    },
+    {
+      "id": "fr-plasselb",
+      "name": "Pfarrei Plasselb",
+      "postal": [
+        "Pfarrei Plasselb",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "Postfach 12",
+        "1737 Plasselb"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@pfarrei-plasselb.ch",
+      "website": "https://www.pfarrei-plasselb.ch/",
+      "source": "https://se-senseoberland.ch/wp-content/uploads/2026/10/SESO-PB-11.2026-Print_.pdf",
+      "bfs": [
+        2300
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Website nennt keine Postadresse (nur «Pfarrei Plasselb, Verwaltung/Sekretariat», Mail, Tel.); Verzeichnis nur «Pfarramt, 1737 Plasselb». Postfach 12 steht nur im Pfarrblatt SE Sense-Oberland Nov. 2026 beim Eintrag Pfarreiverwaltung (seit 1.10.2026 neu besetzt; frühere Ausgaben nannten eine Privatadresse); dass es ein Postfach der Pfarrei ist, ist nicht bestätigt. Postadresse auf der Website prüfen."
+    },
+    {
+      "id": "fr-pont-la-ville",
+      "name": "Paroisse de Pont-la-Ville",
+      "postal": [
+        "Paroisse de Pont-la-Ville",
+        "Conseil paroissial",
+        "1649 Pont-la-Ville"
+      ],
+      "address_type": "praesidium",
+      "website": "https://upcompassion.ch/paroisses/pont-la-ville/",
+      "source": "https://upcompassion.ch/paroisses/pont-la-ville/",
+      "bfs": [
+        2147
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen; UP-Website nennt nur Kontaktadresse des Präsidiums (nicht übernommen), Verzeichnis nur «1634 La Roche». Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-03-14"
+    },
+    {
+      "id": "fr-ponthaux",
+      "name": "Paroisse de Ponthaux",
+      "postal": [
+        "Paroisse de Ponthaux",
+        "Conseil paroissial",
+        "1772 Ponthaux"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisse.ponthaux@bluewin.ch",
+      "website": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-ponthaux",
+      "source": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-ponthaux",
+      "bfs": [],
+      "partial_bfs": [
+        2239
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Pfarrei hat kein Sekretariat; Website und Verzeichnis nennen nur eine P.A.-Adresse bei der Pfarreisekretärin (Privatadresse). Umfasst Ponthaux und Nierlet-les-Bois. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat"
+    },
+    {
+      "id": "fr-porsel",
+      "name": "Paroisse catholique romaine de Porsel",
+      "postal": [
+        "Paroisse catholique romaine de Porsel",
+        "Conseil paroissial",
+        "Route d'Oron 3",
+        "1699 Porsel"
+      ],
+      "address_type": "pfarramt",
+      "email": "paroisse.porsel@gmail.com",
+      "website": "https://www.upstdenis.ch/paroisses/porsel",
+      "source": "https://www.upstdenis.ch/paroisses/porsel",
+      "bfs": [
+        2337
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Postadresse der Pfarrei laut UP-Saint-Denis-Website (Okt. 2026); Verzeichnis: «Paroisse, 1699 Porsel» ohne Strasse"
+    },
+    {
+      "id": "fr-prez",
+      "name": "Paroisse de Prez - Sainte Marguerite Bays",
+      "postal": [
+        "Paroisse de Prez - Sainte Marguerite Bays",
+        "Conseil paroissial",
+        "Route de Fribourg 20",
+        "1746 Prez-vers-Noréaz"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.prez@gmail.com",
+      "website": "https://upndlabrillaz.ch/paroisses/prez",
+      "source": "https://upndlabrillaz.ch/paroisses/prez",
+      "bfs": [
+        2237
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse postale: Secrétariat paroissial»; stimmt mit dem Verzeichnis überein. Umfasst Prez-vers-Noréaz, Noréaz und Corserey."
+    },
+    {
+      "id": "fr-promasens",
+      "name": "Paroisse de Promasens",
+      "postal": [
+        "Paroisse de Promasens",
+        "Conseil paroissial",
+        "Route d'Oron 94",
+        "1673 Promasens"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "secretaire@paroisse-promasens.ch",
+      "website": "https://www.upierroches.ch/paroisse%20Promasens.htm",
+      "source": "https://www.upierroches.ch/paroisse%20Promasens.htm",
+      "bfs": [],
+      "partial_bfs": [
+        2097
+      ],
+      "confidence": "medium",
+      "note": "«Adresse postale» der Pfarrei auf der UP-Seite, deckt sich mit Verzeichnis; die Pfarreiseite selbst wirkt nicht aktuell gepflegt, Gebäudeart unbekannt."
+    },
+    {
+      "id": "fr-rechthalten-brunisried",
+      "name": "Pfarrei Rechthalten-Brünisried",
+      "postal": [
+        "Pfarrei Rechthalten-Brünisried",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "Im Dorf 2",
+        "1718 Rechthalten"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarrei.rechthalten_bruenisried@sensemail.ch",
+      "website": "https://www.rechthalten.ch/kathkircheinformationen",
+      "source": "https://www.rechthalten.ch/kathkircheinformationen",
+      "bfs": [
+        2301
+      ],
+      "partial_bfs": [
+        2292,
+        2304
+      ],
+      "confidence": "high",
+      "note": "Gemeinde-Website (Kirchenseite): «Postadresse: Pfarreiverwaltung, Im Dorf 2, 1718 Rechthalten»; Pfarramtsekretariat gleiche Adresse; Pfarrblatt SE Sense-Oberland Nov. 2026 bestätigt. Keine eigene Pfarrei-Website. Weiler Berg (Gemeinde Brünisried) gehört laut plaffeien.ch zur Pfarrei Plaffeien."
+    },
+    {
+      "id": "fr-remaufens",
+      "name": "Paroisse catholique romaine de Remaufens",
+      "postal": [
+        "Paroisse catholique romaine de Remaufens",
+        "Conseil paroissial",
+        "Case postale 22",
+        "1617 Remaufens"
+      ],
+      "address_type": "pfarramt",
+      "email": "paroisse.remaufens@gmail.com",
+      "website": "https://www.upstdenis.ch/paroisses/remaufens",
+      "source": "https://www.upstdenis.ch/paroisses/remaufens",
+      "bfs": [
+        2333
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Case postale der Pfarrei laut UP-Saint-Denis-Website (Okt. 2026); Verzeichnis nennt abweichend Chemin de l'Eglise 38, 1618 Châtel-Saint-Denis"
+    },
+    {
+      "id": "fr-riaz",
+      "name": "Paroisse de Riaz",
+      "postal": [
+        "Paroisse de Riaz",
+        "Conseil paroissial",
+        "Rue de Champy 18",
+        "1632 Riaz"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://paroissederiaz.ch/",
+      "source": "https://paroissederiaz.ch/contacts/",
+      "bfs": [
+        2148
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarrei-Website und UP-Website übereinstimmend; Verzeichnis nennt abweichend Hubert-Charles 4, 1632 Riaz. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-06-07"
+    },
+    {
+      "id": "fr-romont",
+      "name": "Paroisse Notre-Dame de l'Assomption, Romont",
+      "postal": [
+        "Paroisse Notre-Dame de l'Assomption, Romont",
+        "Conseil paroissial",
+        "Secrétariat paroissial",
+        "Rue du Château 126",
+        "Case postale 50",
+        "1680 Romont"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse@cath-romont.ch",
+      "website": "https://www.upglane.ch/paroisses/romont",
+      "source": "https://www.upglane.ch/paroisses/romont",
+      "bfs": [],
+      "partial_bfs": [
+        2096
+      ],
+      "confidence": "high",
+      "note": "Secrétariat de paroisse in der Maison St-Charles (Mo–Fr 7.30–11.30); Case postale 50 laut https://www.upglane.ch/paroisses; Verzeichnis nennt «Case postale, 1680 Romont»."
+    },
+    {
+      "id": "fr-rossens",
+      "name": "Paroisse de Rossens",
+      "postal": [
+        "Paroisse de Rossens",
+        "Conseil paroissial",
+        "1728 Rossens"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisserossens@etik.com",
+      "website": "https://up-st-protais.ch/paroisses/rossens",
+      "source": "https://up-st-protais.ch/paroisses/rossens",
+      "bfs": [],
+      "partial_bfs": [
+        2236
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen nur eine p.a.-Adresse bei der Präsidentin (Privatadresse). Sekretariat der UP Saint-Protais: Route de Posieux 1, 1730 Ecuvillens (nicht als Pfarreiadresse bestätigt)."
+    },
+    {
+      "id": "fr-rue",
+      "name": "Paroisse Saint-Nicolas de Myre, Rue",
+      "postal": [
+        "Paroisse Saint-Nicolas de Myre, Rue",
+        "Conseil paroissial",
+        "Rue du Casino 21",
+        "1673 Rue"
+      ],
+      "address_type": "verwaltung",
+      "email": "paroisse-rue@bluewin.ch",
+      "website": "https://www.upierroches.ch/paroisse%20Rue.htm",
+      "source": "https://www.upierroches.ch/paroisse%20Rue.htm",
+      "bfs": [],
+      "partial_bfs": [
+        2097
+      ],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei auf der UP-Seite (UP St-Pierre-les-Roches), deckt sich mit Verzeichnis; laut Telefonbuch «Administration paroissiale»."
+    },
+    {
+      "id": "fr-saint-francois-d-orsens",
+      "name": "Paroisse Saint-François d'Orsens",
+      "postal": [
+        "Paroisse Saint-François d'Orsens",
+        "Conseil paroissial",
+        "1568 Portalban"
+      ],
+      "address_type": "praesidium",
+      "website": "https://upnotredamedetours.ch/2025/02/03/paroisse-de-st-francois-dorsens/",
+      "source": "https://upnotredamedetours.ch/2025/02/03/paroisse-de-st-francois-dorsens/",
+      "bfs": [
+        2051,
+        2022,
+        2045
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Fusion 1.1.2025 aus Carignan-Vallon, Gletterens und Delley-Portalban. Weder UP-Seite noch Gemeinde-Websites (Vallon, Delley-Portalban, Gletterens) noch Wochenblatt nennen eine Postadresse oder Case postale, nur Personen; Ort = Wohnort des Präsidiums laut UP-Seite. Alte Verzeichniseinträge: p.a. UP Notre-Dame de Tours (bearbeitet keine Austritte). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+    },
+    {
+      "id": "fr-saint-martin",
+      "name": "Paroisse catholique romaine de Saint-Martin",
+      "postal": [
+        "Paroisse catholique romaine de Saint-Martin",
+        "Conseil paroissial",
+        "Case postale 35",
+        "1609 Saint-Martin"
+      ],
+      "address_type": "pfarramt",
+      "email": "paroisse.stmartinfr@gmail.com",
+      "website": "https://www.upstdenis.ch/paroisses/saint-martin",
+      "source": "https://www.upstdenis.ch/paroisses/saint-martin",
+      "bfs": [
+        2335
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Case postale der Pfarrei laut UP-Saint-Denis-Website (Okt. 2026); Verzeichnis: «Derrière l'Eglise, 1609 St-Martin»"
+    },
+    {
+      "id": "fr-sales",
+      "name": "Paroisse St-Etienne, Sâles",
+      "postal": [
+        "Paroisse St-Etienne, Sâles",
+        "Conseil paroissial",
+        "Secrétariat UP Notre-Dame de Compassion",
+        "Rue du Marché 32",
+        "1630 Bulle"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.sales.gr@gmail.com",
+      "website": "https://upcompassion.ch/paroisses/sales/",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221394%22%5D",
+      "bfs": [
+        2152
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse = Sekretariat der UP Notre-Dame de Compassion (Cure Bulle) laut Verzeichnis; UP-Website nennt nur c/o-Präsidium ohne Strasse, 1625 Sâles (Gruyère). Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+    },
+    {
+      "id": "fr-schmitten",
+      "name": "Pfarrei Schmitten",
+      "postal": [
+        "Pfarrei Schmitten",
+        "Pfarreirat",
+        "Gwattstrasse 3",
+        "3185 Schmitten"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pfarrei-schmitten.ch",
+      "website": "https://www.pfarrei-schmitten.ch/",
+      "source": "https://www.pfarrei-schmitten.ch/kontakt/",
+      "bfs": [],
+      "partial_bfs": [
+        2295,
+        2305,
+        2306
+      ],
+      "confidence": "high",
+      "note": "Röm.-kath. Pfarramt mit Pfarreisekretariat und Pfarreikasse an der Gwattstrasse 3; Pfarreirat nur mit Privatadressen. Pfarreigebiet auf der Website nicht angegeben (laut Geschichte der Pfarrei Düdingen 1894 aus den Schroten Wyler und Lanthen gebildet)."
+    },
+    {
+      "id": "fr-semsales",
+      "name": "Paroisse catholique romaine de Semsales",
+      "postal": [
+        "Paroisse catholique romaine de Semsales",
+        "Conseil paroissial",
+        "Grand-Rue 22",
+        "1623 Semsales"
+      ],
+      "address_type": "pfarramt",
+      "email": "paroisse.semsales@bluewin.ch",
+      "website": "https://www.upstdenis.ch/paroisses/semsales",
+      "source": "https://www.upstdenis.ch/paroisses/semsales",
+      "bfs": [
+        2336
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Website (UP Saint-Denis) und Verzeichnis übereinstimmend"
+    },
+    {
+      "id": "fr-siviriez-villaraboud",
+      "name": "Paroisse de Siviriez-Villaraboud",
+      "postal": [
+        "Paroisse de Siviriez-Villaraboud",
+        "Conseil paroissial",
+        "Case postale",
+        "1678 Siviriez"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "Siviriez-Villaraboud@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/siviriez-villaraboud",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221496%22%5D",
+      "bfs": [
+        2099
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Case postale nur laut Verzeichnis (ohne Nummer); die UP-Website nennt nur «1678 Siviriez». Weitere Funktionsadresse der Sekretärin: secretaire@cath-siviriez.ch."
+    },
+    {
+      "id": "fr-sommentier",
+      "name": "Paroisse Notre-Dame de l'Assomption, Sommentier",
+      "postal": [
+        "Paroisse Notre-Dame de l'Assomption, Sommentier",
+        "Conseil paroissial",
+        "1688 Sommentier"
+      ],
+      "address_type": "praesidium",
+      "email": "Sommentier@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/sommentier",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [],
+      "partial_bfs": [
+        2113
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt als Adresse eine Privatperson (Sekretariat). Weitere Funktionsadresse: paroisse.sommentier@gmail.com. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-sorens",
+      "name": "Paroisse de Sorens",
+      "postal": [
+        "Paroisse de Sorens",
+        "Conseil paroissial",
+        "Secrétariat UP Notre-Dame de Compassion",
+        "Rue du Marché 32",
+        "1630 Bulle"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.sorens@bluewin.ch",
+      "website": "https://upcompassion.ch/paroisses/sorens/",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221512%22%5D",
+      "bfs": [
+        2153
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse = Sekretariat der UP Notre-Dame de Compassion (Cure Bulle) laut Verzeichnis; UP-Website nennt für die Pfarrei nur «1642 Sorens» und Mail. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+    },
+    {
+      "id": "fr-st-antoni",
+      "name": "Pfarrei St. Antoni",
+      "postal": [
+        "Pfarrei St. Antoni",
+        "Pfarreirat",
+        "Antoniusweg 32",
+        "1713 St. Antoni"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@pfarrei-stantoni.ch",
+      "website": "https://www.pfarrei-stantoni.ch/",
+      "source": "https://www.pfarrei-stantoni.ch/kontakt",
+      "bfs": [],
+      "partial_bfs": [
+        2296,
+        2305,
+        2306
+      ],
+      "confidence": "high",
+      "note": "Pfarramt mit Pfarramtsekretariat (Di/Fr), bestätigt im Pfarrblatt SESM Okt. 2026; Verzeichnis-Link (seelsorgeeinheit-sensemitte.ch/?pfarrei_stantoni) veraltet, eigene Website pfarrei-stantoni.ch. Pfarreigebiet nicht angegeben."
+    },
+    {
+      "id": "fr-st-aubin",
+      "name": "Paroisse de St-Aubin",
+      "postal": [
+        "Paroisse de St-Aubin",
+        "Conseil paroissial",
+        "La Cure",
+        "Chemin des Rittes 2",
+        "1566 St-Aubin"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse@saint-aubin.ch",
+      "website": "https://upnotredamedetours.ch/2017/10/24/st-aubin/",
+      "source": "https://upnotredamedetours.ch/2017/10/24/st-aubin/",
+      "bfs": [
+        2041
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Eigene Pfarreiadresse in der Cure mit Sekretariatspermanenz (Di 9.30–11.00), UP-Seite aktualisiert 4.2.2025, deckt sich mit Verzeichnis. Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+    },
+    {
+      "id": "fr-st-jean-fribourg",
+      "name": "Paroisse Saint-Jean",
+      "postal": [
+        "Paroisse Saint-Jean",
+        "Conseil paroissial",
+        "Planche-Supérieure 1",
+        "1700 Fribourg"
+      ],
+      "address_type": "sekretariat",
+      "email": "stjean@fri-cath.ch",
+      "website": "https://stjean-fribourg.ch/",
+      "source": "https://stjean-fribourg.ch/secretariat",
+      "bfs": [],
+      "partial_bfs": [
+        2196
+      ],
+      "confidence": "high",
+      "note": "Pfarreisekretariat; stimmt mit dem Verzeichnis überein (Verzeichnis-Mail paroisse@stjean-fribourg.ch ersetzt). Stadt Freiburg: welche Strasse zu welcher Pfarrei gehört, liefert der offizielle Geodatensatz «Paroisses catholiques» der Corporation ecclésiastique catholique (Stand 2019, UP-Namen veraltet), Punktabfrage: https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0 (Geoportal: https://maps.fr.ch/portal/apps/sites/#/geoportail/search?q=86f63ae9-5ecc-4697-9c4c-9c3003afd5d7); Stichproben mit den Pfarreiadressen passen. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-st-maurice-fribourg",
+      "name": "Paroisse Saint-Maurice",
+      "postal": [
+        "Paroisse Saint-Maurice",
+        "Conseil paroissial",
+        "Rue de la Lenda 1",
+        "1700 Fribourg"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat@stmaurice-fribourg.ch",
+      "website": "https://stmaurice-fribourg.ch/",
+      "source": "https://stmaurice-fribourg.ch/secretariat",
+      "bfs": [],
+      "partial_bfs": [
+        2196
+      ],
+      "confidence": "high",
+      "note": "Pfarreisekretariat (Website schreibt «Lenda 1», amtlich Rue de la Lenda 1); stimmt mit dem Verzeichnis überein. Stadt Freiburg: welche Strasse zu welcher Pfarrei gehört, liefert der offizielle Geodatensatz «Paroisses catholiques» der Corporation ecclésiastique catholique (Stand 2019, UP-Namen veraltet), Punktabfrage: https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0 (Geoportal: https://maps.fr.ch/portal/apps/sites/#/geoportail/search?q=86f63ae9-5ecc-4697-9c4c-9c3003afd5d7); Stichproben mit den Pfarreiadressen passen. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-st-nicolas-st-paul-fribourg",
+      "name": "Paroisse Saint-Nicolas/Saint-Paul",
+      "postal": [
+        "Paroisse Saint-Nicolas/Saint-Paul",
+        "Conseil paroissial",
+        "Rue des Chanoines 3",
+        "1700 Fribourg"
+      ],
+      "address_type": "sekretariat",
+      "email": "stnicolas@fri-cath.ch",
+      "website": "https://stnicolas.ch/",
+      "source": "https://stnicolas.ch/a-propos/organes-paroissiaux",
+      "bfs": [],
+      "partial_bfs": [
+        2196
+      ],
+      "confidence": "high",
+      "note": "Sekretariat der Communauté St-Nicolas (Cure St-Nicolas), auf der Seite des Conseil de paroisse genannt; die Communauté St-Paul hat ein eigenes Sekretariat (Route de la Heitera 13, 1700 Fribourg, stpaul@fri-cath.ch). Verzeichnis-Mail info@cathedrale-fribourg.ch ersetzt. Stadt Freiburg: welche Strasse zu welcher Pfarrei gehört, liefert der offizielle Geodatensatz «Paroisses catholiques» der Corporation ecclésiastique catholique (Stand 2019, UP-Namen veraltet), Punktabfrage: https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0 (Geoportal: https://maps.fr.ch/portal/apps/sites/#/geoportail/search?q=86f63ae9-5ecc-4697-9c4c-9c3003afd5d7); Stichproben mit den Pfarreiadressen passen. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-st-pierre-fribourg",
+      "name": "Paroisse Saint-Pierre",
+      "postal": [
+        "Paroisse Saint-Pierre",
+        "Conseil paroissial",
+        "Avenue Jean-Gambach 4",
+        "1700 Fribourg"
+      ],
+      "address_type": "sekretariat",
+      "email": "stpierre@fri-cath.ch",
+      "website": "https://saint-pierre.ch/",
+      "source": "https://saint-pierre.ch/conseil-paroissial-de-saint-pierre",
+      "bfs": [],
+      "partial_bfs": [
+        2196
+      ],
+      "confidence": "high",
+      "note": "Pfarreisekretariat; im selben Haus liegt das Sekretariat der UP Décanat de Fribourg (Austritte laut UP an die Pfarrei richten). Verzeichnis-Web upspp.ch und Mail @upsaintjoseph.ch veraltet. Stadt Freiburg: welche Strasse zu welcher Pfarrei gehört, liefert der offizielle Geodatensatz «Paroisses catholiques» der Corporation ecclésiastique catholique (Stand 2019, UP-Namen veraltet), Punktabfrage: https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0 (Geoportal: https://maps.fr.ch/portal/apps/sites/#/geoportail/search?q=86f63ae9-5ecc-4697-9c4c-9c3003afd5d7); Stichproben mit den Pfarreiadressen passen. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-st-silvester",
+      "name": "Pfarrei St. Silvester",
+      "postal": [
+        "Pfarrei St. Silvester",
+        "Pfarreirat",
+        "Pfarreiverwaltung",
+        "p. A. Gemeindeverwaltung",
+        "Schulweg 4",
+        "1736 St. Silvester"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarrei@stsilvester.ch",
+      "website": "https://www.stsilvester.ch/geschichte-2.html",
+      "source": "https://www.stsilvester.ch/bezugspersonen.html",
+      "bfs": [
+        2303
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarreiverwaltung über die Gemeindeverwaltung St. Silvester (Gemeinde-Website, Pfarreiteil; Pfarrblatt SE Sense-Oberland Nov. 2026: «Post: p.A. Gemeindeverwaltung, Schulweg 4»). Verzeichnis nennt stattdessen das Pfarramtsekretariat Kirchweg 6, 1735 Giffers (für pastorale Anliegen weiterhin gültig)."
+    },
+    {
+      "id": "fr-st-ursen",
+      "name": "Pfarrei St. Ursen",
+      "postal": [
+        "Pfarrei St. Ursen",
+        "Pfarreirat",
+        "Kirchstrasse 12",
+        "1717 St. Ursen"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@pfarrei-stursen.ch",
+      "website": "https://www.pfarrei-stursen.ch/",
+      "source": "https://www.pfarrei-stursen.ch/kontakt",
+      "bfs": [],
+      "partial_bfs": [
+        2304
+      ],
+      "confidence": "medium",
+      "note": "Website und Pfarrblatt SESM Okt. 2026 übereinstimmend Kirchstrasse 12 (neben Ursuskapelle) mit Pfarramtsekretariat; Verzeichnis cath-fr.ch nennt noch «Dorf 1» (vermutlich veraltet). Pfarreirat ohne eigene Postadresse. Pfarreigebiet nicht angegeben."
+    },
+    {
+      "id": "fr-ste-therese-fribourg",
+      "name": "Paroisse Sainte-Thérèse",
+      "postal": [
+        "Paroisse Sainte-Thérèse",
+        "Conseil paroissial",
+        "Route Sainte-Thérèse 5a",
+        "1700 Fribourg"
+      ],
+      "address_type": "sekretariat",
+      "email": "stetherese@fri-cath.ch",
+      "website": "https://ste-therese-fribourg.ch/",
+      "source": "https://ste-therese-fribourg.ch/conseil-paroissial-ste-therese",
+      "bfs": [],
+      "partial_bfs": [
+        2196
+      ],
+      "confidence": "high",
+      "note": "Pfarreisekretariat (Cure Sainte-Thérèse), auf der Seite des Conseil paroissial genannt; stimmt mit dem Verzeichnis überein. Stadt Freiburg: welche Strasse zu welcher Pfarrei gehört, liefert der offizielle Geodatensatz «Paroisses catholiques» der Corporation ecclésiastique catholique (Stand 2019, UP-Namen veraltet), Punktabfrage: https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0 (Geoportal: https://maps.fr.ch/portal/apps/sites/#/geoportail/search?q=86f63ae9-5ecc-4697-9c4c-9c3003afd5d7); Stichproben mit den Pfarreiadressen passen. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-surpierre",
+      "name": "Paroisse Notre-Dame de la Nativité, Surpierre",
+      "postal": [
+        "Paroisse Notre-Dame de la Nativité, Surpierre",
+        "Conseil paroissial",
+        "Au Village 36",
+        "1528 Surpierre"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.surpierre@bluewin.ch",
+      "website": "https://www.paroissesurpierre.ch/",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221611%22%5D",
+      "bfs": [
+        2044
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Nur Verzeichnis; laut Telefonbuch «Bureau paroissial de Surpierre». Pfarrei-Website von hier aus nicht abrufbar. Gehört zur UP St-Barnabé (Sekretariat Rue de Guillermaux 17, 1530 Payerne)."
+    },
+    {
+      "id": "fr-tafers",
+      "name": "Pfarrei St. Martin Tafers",
+      "postal": [
+        "Pfarrei St. Martin Tafers",
+        "Pfarreirat",
+        "Kirchweg 4",
+        "1712 Tafers"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@pfarrei-tafers.ch",
+      "website": "https://www.pfarrei-tafers.ch/",
+      "source": "https://www.pfarrei-tafers.ch/kontakt",
+      "bfs": [],
+      "partial_bfs": [
+        2293,
+        2305,
+        2306
+      ],
+      "confidence": "high",
+      "note": "«Sekretariat Pfarrei Tafers, Kirchweg 4» (Impressum schreibt «Kirchstrasse 4», existiert amtlich nicht); Pfarrblatt SESM Okt. 2026 bestätigt Kirchweg 4. Am selben Ort Sekretariat SE Sense Mitte. Pfarreirat nur mit Privatadressen. Pfarreigebiet nicht abschliessend angegeben (Wegkreuze u. a. in Maggenberg, Galteren, Juch, Menziswil, Rohr)."
+    },
+    {
+      "id": "fr-torny-le-grand",
+      "name": "Paroisse Saint-Nicolas de Myre, Torny-le-Grand",
+      "postal": [
+        "Paroisse Saint-Nicolas de Myre, Torny-le-Grand",
+        "Conseil paroissial",
+        "1748 Torny-le-Grand"
+      ],
+      "address_type": "praesidium",
+      "email": "Torny-le-Grand@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/torny-le-grand",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [],
+      "partial_bfs": [
+        2115
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt als Adresse eine Privatperson (Sekretariat). Eigene Site paroisse-torny-le-grand.ch ohne Adresse (veraltet); Funktionsadresse dort: secretariat@paroisse-torny-le-grand.ch. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-treyvaux",
+      "name": "Paroisse de Treyvaux-Essert",
+      "postal": [
+        "Paroisse de Treyvaux-Essert",
+        "Conseil paroissial",
+        "Route d'Essert 21",
+        "Case postale 81",
+        "1733 Treyvaux"
+      ],
+      "address_type": "sekretariat",
+      "email": "par.treyvaux@bluewin.ch",
+      "website": "https://www.paroisse.ch/paroisses/treyvaux-essert",
+      "source": "https://www.paroisse.ch/fileadmin/user_upload/Paroisse_T-E.pdf",
+      "bfs": [
+        2226
+      ],
+      "partial_bfs": [
+        2220
+      ],
+      "confidence": "medium",
+      "note": "«Secrétariat paroissial de Treyvaux-Essert» laut Pfarrei-Faltblatt (verlinkt auf der aktuellen Pfarreiseite, undatiert, nennt noch eine alte UP-Adresse); Strasse stimmt mit dem Verzeichnis überein, Gebäude laut eidg. Gebäuderegister «Cure», Mail = aktuelle Mail der Sekretärin/Kassierin. Umfasst Treyvaux und Essert."
+    },
+    {
+      "id": "fr-ueberstorf",
+      "name": "Pfarrei Ueberstorf",
+      "postal": [
+        "Pfarrei Ueberstorf",
+        "Pfarreirat",
+        "Kurgässli 12",
+        "3182 Ueberstorf"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@pfarrei-ueberstorf.ch",
+      "website": "https://www.pfarrei-ueberstorf.ch/",
+      "source": "https://www.pfarrei-ueberstorf.ch/pfarrei/organe/pfarramt.html",
+      "bfs": [
+        2308
+      ],
+      "partial_bfs": [
+        2306
+      ],
+      "confidence": "high",
+      "note": "Röm.-kath. Pfarramt mit Sekretärin (Di/Do); Impressum: vertretungsberechtigt ist der Pfarreirat, Kontaktadresse Kurgässli 12. Pfarreigebiet nicht angegeben."
+    },
+    {
+      "id": "fr-ursy",
+      "name": "Paroisse Saint-Maurice, Ursy",
+      "postal": [
+        "Paroisse Saint-Maurice, Ursy",
+        "Conseil paroissial",
+        "Rue de l'Eglise 17",
+        "1670 Ursy"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.ursy@bluewin.ch",
+      "website": "https://www.upierroches.ch/paroisse%20Ursy.htm",
+      "source": "https://www.upierroches.ch/paroisse%20Ursy.htm",
+      "bfs": [
+        2102
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse postale» der Pfarrei = Cure Ursy, zugleich Sekretariat der UP St-Pierre-les-Roches; Seite mit Unterlagen 2026, deckt sich mit Verzeichnis."
+    },
+    {
+      "id": "fr-val-de-charmey",
+      "name": "Paroisse de Val-de-Charmey",
+      "postal": [
+        "Paroisse de Val-de-Charmey",
+        "Conseil paroissial",
+        "Rue du Centre 17",
+        "1637 Charmey (Gruyère)"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse@val-de-charmey.ch",
+      "website": "https://upndevi.ch/paroisses/paroisse-de-val-de-charmey",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%226354%22%5D",
+      "bfs": [
+        2163
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse nur im Verzeichnis; UP-Pfarreiseite bestätigt Secrétariat paroissial (Mo/Mi/Fr) und Mail, nennt aber keine Strasse"
+    },
+    {
+      "id": "fr-vaulruz",
+      "name": "Paroisse catholique de Vaulruz",
+      "postal": [
+        "Paroisse catholique de Vaulruz",
+        "Conseil paroissial",
+        "Secrétariat UP Notre-Dame de Compassion",
+        "Rue du Marché 32",
+        "1630 Bulle"
+      ],
+      "address_type": "sekretariat",
+      "email": "paroisse.vaulruz@gmail.com",
+      "website": "https://upcompassion.ch/paroisses/vaulruz/",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221709%22%5D",
+      "bfs": [
+        2155
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Verzeichnis und Gemeinde-Website (vaulruz.ch/informations/adresses-utiles, Snapshot 2026-04-20) nennen Cure Bulle/UP-Sekretariat; UP-Website nennt abweichend den Kontakt der Sekretärin in Vaulruz (Rue du Château 30, 1627 Vaulruz)"
+    },
+    {
+      "id": "fr-villarepos",
+      "name": "Paroisse catholique de Villarepos",
+      "postal": [
+        "Paroisse catholique de Villarepos",
+        "Conseil paroissial",
+        "1583 Villarepos"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisse.villarepos@bluewin.ch",
+      "website": "https://upnotredamedetours.ch/2017/10/23/villarepos/",
+      "source": "https://upnotredamedetours.ch/2017/10/23/villarepos/",
+      "bfs": [],
+      "partial_bfs": [
+        2254
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die Pfarreiseite (aktualisiert 24.9.2025) nennt nur den Präsidenten mit Privatadresse; die Verzeichnisadresse «Vers l'Eglise 19» (laut Gebäuderegister Einfamilienhaus, Zweck unklar) ist nicht bestätigt. Mail laut Gemeinde Courtepin (https://courtepin.ch/societes-locales/). Hinweis zu Austritten: UP Notre-Dame de Tours: Das administrative UP-Sekretariat bearbeitet keine Kirchenaustritte; direkt an die Pfarrei senden, per A-Post, nicht eingeschrieben – https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+    },
+    {
+      "id": "fr-villars-sur-glane",
+      "name": "Paroisse Saints-Pierre-et-Paul",
+      "postal": [
+        "Paroisse Saints-Pierre-et-Paul",
+        "Conseil paroissial",
+        "Route de l'Eglise 8",
+        "1752 Villars-sur-Glâne"
+      ],
+      "address_type": "sekretariat",
+      "email": "villars@fri-cath.ch",
+      "website": "https://saints-pierre-et-paul.ch/",
+      "source": "https://saints-pierre-et-paul.ch/secretariat",
+      "bfs": [
+        2228
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarreisekretariat (auch auf der Seite des Conseil paroissial); stimmt mit dem Verzeichnis überein. Hinweis zu Austritten: UP Décanat de Fribourg: Austritt per Brief (Einschreiben nicht nötig) an die Pfarrei des gesetzlichen Wohnsitzes, nicht an Bistum, UP oder anderswohin; Name, Vorname, Adresse, Geburtsdatum und Wille zum Austritt aus den kirchlichen Körperschaften angeben – https://up-decanat-fribourg.ch/unite-pastorale/contacter-ladministration/sortie-de-leglise"
+    },
+    {
+      "id": "fr-villarsiviriaux",
+      "name": "Paroisse Saint-Théodule, Villarsiviriaux",
+      "postal": [
+        "Paroisse Saint-Théodule, Villarsiviriaux",
+        "Conseil paroissial",
+        "1694 Villarsiviriaux"
+      ],
+      "address_type": "praesidium",
+      "email": "Villarsiviriaux@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/villarsiviriaux",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [],
+      "partial_bfs": [
+        2114
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Die auf der Website genannte Strasse ist laut Verzeichnis die Adresse «p.a.» einer Privatperson (Sekretariat). Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-villaz",
+      "name": "Paroisse Saints-Pierre-et-Paul, Villaz",
+      "postal": [
+        "Paroisse Saints-Pierre-et-Paul, Villaz",
+        "Conseil paroissial",
+        "Rue de la Gare 3",
+        "1690 Villaz-St-Pierre"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "villaz@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/villaz",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [
+        2117
+      ],
+      "partial_bfs": [
+        2096,
+        2114
+      ],
+      "confidence": "medium",
+      "note": "Adresse ohne Personenname auf der UP-Website; Verzeichnis nur «1690 Villaz-Saint-Pierre». Amtlicher Strassenname: Route de la Gare 3. Art des Gebäudes nicht verifiziert."
+    },
+    {
+      "id": "fr-vuadens",
+      "name": "Paroisse de Vuadens",
+      "postal": [
+        "Paroisse de Vuadens",
+        "Conseil paroissial",
+        "Secrétariat UP Notre-Dame de Compassion",
+        "Rue du Marché 32",
+        "1630 Bulle"
+      ],
+      "address_type": "sekretariat",
+      "email": "secretariat.paroissevuadens@gmail.com",
+      "website": "https://upcompassion.ch/paroisses/vuadens/",
+      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221774%22%5D",
+      "bfs": [
+        2160
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse = Sekretariat der UP Notre-Dame de Compassion laut Verzeichnis; UP- und Gemeinde-Website nennen nur die Privatadresse des Präsidiums (nicht übernommen). Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-05-13"
+    },
+    {
+      "id": "fr-vuippens",
+      "name": "Paroisse de Vuippens-Marsens",
+      "postal": [
+        "Paroisse de Vuippens-Marsens",
+        "Conseil paroissial",
+        "Case postale 6",
+        "1633 Marsens"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://upcompassion.ch/paroisses/vuippens/",
+      "source": "https://upcompassion.ch/paroisses/vuippens/",
+      "bfs": [
+        2140
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Case postale der Pfarrei laut UP-Website; Verzeichnis: «Paroisse, 1633 Vuippens» (gleiche PLZ); nur persönliche Mail publiziert. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+    },
+    {
+      "id": "fr-vuisternens-en-ogoz",
+      "name": "Paroisse de Vuisternens-en-Ogoz",
+      "postal": [
+        "Paroisse de Vuisternens-en-Ogoz",
+        "Conseil paroissial",
+        "1696 Vuisternens-en-Ogoz"
+      ],
+      "address_type": "praesidium",
+      "email": "paroisse-vuisternensogoz@bluewin.ch",
+      "website": "https://up-st-protais.ch/paroisses/vuisternens-en-ogoz",
+      "source": "https://up-st-protais.ch/paroisses/vuisternens-en-ogoz",
+      "bfs": [],
+      "partial_bfs": [
+        2236
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur eine p.a.-Adresse bei der Sekretärin (Privatadresse); das Verzeichnis nennt dagegen Impasse du Château 3, 1726 Farvagny (Cure Farvagny) – widersprüchlich."
+    },
+    {
+      "id": "fr-vuisternens-la-joux",
+      "name": "Paroisse Notre-Dame de la Nativité, Vuisternens-La Joux",
+      "postal": [
+        "Paroisse Notre-Dame de la Nativité, Vuisternens-La Joux",
+        "Conseil paroissial",
+        "1685 Villariaz"
+      ],
+      "address_type": "praesidium",
+      "email": "ND-Nativite-Vuisternens@upglane.ch",
+      "website": "https://www.upglane.ch/paroisses/vuisternens-dt-romont",
+      "source": "https://www.upglane.ch/paroisses",
+      "bfs": [],
+      "partial_bfs": [
+        2113
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen «p.a.» das Präsidium (Privatadresse in Villariaz). Fusion Vuisternens-devant-Romont/La Joux per 1.1.2023. Weitere Funktionsadresse: paroisse.vuisternens@gmail.com. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt."
+    },
+    {
+      "id": "fr-wallenried",
+      "name": "Paroisse de Wallenried",
+      "postal": [
+        "Paroisse de Wallenried",
+        "Conseil paroissial",
+        "Case postale 22",
+        "1784 Courtepin"
+      ],
+      "address_type": "kirchenpflege",
+      "website": "https://upsaintesprit.ch/paroisse-de-wallenried",
+      "source": "https://upsaintesprit.ch/paroisse-de-wallenried",
+      "bfs": [],
+      "partial_bfs": [
+        2254
+      ],
+      "confidence": "medium",
+      "note": "Case postale 22 = Pfarreiadresse in der Fusszeile und Kontakt der Präsidentin des Conseil de paroisse; das Verzeichnis nennt stattdessen das UP-Sekretariat Saint-Esprit, Route du Postillon 23, 1784 Courtepin. Keine Funktions-Mail publiziert."
+    },
+    {
+      "id": "fr-wunnewil-flamatt",
+      "name": "Pfarrei Wünnewil-Flamatt",
+      "postal": [
+        "Pfarrei Wünnewil-Flamatt",
+        "Pfarreirat",
+        "Kurgässli 2",
+        "3184 Wünnewil"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarreirat@pfarrei-wuefla.ch",
+      "website": "https://pfarrei-wuefla.ch/",
+      "source": "https://pfarrei-wuefla.ch/pfarrei/",
+      "bfs": [
+        2309
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Pfarramt Wünnewil mit Sekretariat, Kurgässli 2 (Verzeichnis: «Kürgässli», amtlich Kurgässli); Pfarreiverwaltung/Administration erreichbar über pfarreirat@pfarrei-wuefla.ch und 026 496 11 38 (ohne eigene Strasse). Zweites Pfarramt Austrasse 11, 3175 Flamatt."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 2029,
+      "how": "Nach Dorf: Mannens und Grandsivaz gehören zur Pfarrei Mannens-Grandsivaz, Cousset, Montagny-les-Monts und Montagny-la-Ville zur Pfarrei Montagny-Tours. In Grandsivaz liegen einzelne Adressen (Impasse des Gours, Teile des Chemin du Grabou) laut Geodaten in Montagny-Tours.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1562 Corcelles-près-Payerne": "fr-montagny-tours",
+        "1774 Cousset": "fr-montagny-tours",
+        "1774 Montagny-les-Monts": "fr-montagny-tours",
+        "1775 Mannens": "fr-mannens-grandsivaz",
+        "1776 Montagny-la-Ville": "fr-montagny-tours"
+      }
+    },
+    {
+      "bfs": 2096,
+      "how": "Hauptsächlich Pfarrei Romont; der Rand Richtung Massonnens/Berlens (u. a. Route de Massonnens, Teile der Route de Fribourg und Route de Berlens, Chemin de Cocagne, Chemin de la Montagne, Chemin du Pra du Marais) gehört laut Geodaten zur Pfarrei Villaz. Im Zweifel Adresse in den Geodaten prüfen.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {}
+    },
+    {
+      "bfs": 2097,
+      "how": "Nach Dorf: Rue → Pfarrei Rue; Chapelle und Gillarens → Pfarrei Chapelle; Promasens, Auboranges, Ecublens, Blessens → Pfarrei Promasens.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1085 Vulliens": "fr-promasens",
+        "1608 Chapelle (Glâne)": "fr-chapelle",
+        "1673 Auboranges": "fr-promasens",
+        "1673 Ecublens FR": "fr-promasens",
+        "1673 Gillarens": "fr-chapelle",
+        "1673 Promasens": "fr-promasens",
+        "1673 Rue": "fr-rue",
+        "1675 Blessens": "fr-promasens"
+      }
+    },
+    {
+      "bfs": 2113,
+      "how": "Nach Dorf: Sommentier und Lieffrens → Pfarrei Sommentier; Les Ecasseys → Pfarrei Le Crêt-Progens; alle übrigen Dörfer (Vuisternens, Villariaz, La Neirigue, Estévenens, La Magne, La Joux) → Pfarrei Vuisternens-La Joux.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1685 Villariaz": "fr-vuisternens-la-joux",
+        "1686 La Neirigue": "fr-vuisternens-la-joux",
+        "1687 Estévenens": "fr-vuisternens-la-joux",
+        "1687 La Magne": "fr-vuisternens-la-joux",
+        "1687 Vuisternens-devant-Romont": "fr-vuisternens-la-joux",
+        "1688 Lieffrens": "fr-sommentier",
+        "1688 Sommentier": "fr-sommentier",
+        "1697 La Joux FR": "fr-vuisternens-la-joux",
+        "1697 Les Ecasseys": "fr-le-cret-progens"
+      }
+    },
+    {
+      "bfs": 2114,
+      "how": "Nach Dorf: Orsonnens, Chavannes-sous-Orsonnens und Villargiroud → Pfarrei Orsonnens; Villarsiviriaux → Pfarrei Villarsiviriaux; der zu Villaz-St-Pierre (PLZ 1690) gehörende Teil → Pfarrei Villaz.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1690 Villaz-St-Pierre": "fr-villaz",
+        "1694 Chavannes-sous-Orsonnens": "fr-orsonnens",
+        "1694 Orsonnens": "fr-orsonnens",
+        "1694 Villargiroud": "fr-orsonnens",
+        "1694 Villarsiviriaux": "fr-villarsiviriaux"
+      }
+    },
+    {
+      "bfs": 2115,
+      "how": "Nach Dorf: Torny-le-Grand → Pfarrei Torny-le-Grand; Middes (und Torny-le-Petit/Pittet) → Pfarrei Middes-Torny-Pittet.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1748 Torny-le-Grand": "fr-torny-le-grand",
+        "1749 Middes": "fr-middes-torny-pittet"
+      }
+    },
+    {
+      "bfs": 2196,
+      "how": "Strassengenau (sechs Stadtpfarreien: Saint-Nicolas/Saint-Paul, Saint-Pierre, Christ-Roi, Sainte-Thérèse, Saint-Jean, Saint-Maurice). Pfarrei anhand der Wohnadresse in den amtlichen Geodaten bestimmen oder bei einem Pfarreisekretariat erfragen. Bourguillon gehört zu Saint-Nicolas/Saint-Paul.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1722 Bourguillon": "fr-st-nicolas-st-paul-fribourg"
+      }
+    },
+    {
+      "bfs": 2220,
+      "how": "Nach Dorf: Essert → Pfarrei Treyvaux; alle übrigen Dörfer (Le Mouret/Praroman, Bonnefontaine, Montévraz, Oberried, Zénauva) → Pfarrei Le Mouret.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1724 Bonnefontaine": "fr-le-mouret",
+        "1724 Essert FR": "fr-treyvaux",
+        "1724 Le Mouret": "fr-le-mouret",
+        "1724 Montévraz": "fr-le-mouret",
+        "1724 Oberried FR": "fr-le-mouret",
+        "1724 Zénauva": "fr-le-mouret",
+        "1734 Tentlingen": "fr-le-mouret"
+      }
+    },
+    {
+      "bfs": 2236,
+      "how": "Nach Dorf: Estavayer-le-Gibloux, Rueyres-St-Laurent, Villarlod, Villarsel-le-Gibloux → Pfarrei Le Glèbe; Vuisternens-en-Ogoz → Pfarrei Vuisternens-en-Ogoz; Farvagny-le-Grand, Farvagny-le-Petit, Grenilles, Posat → Pfarrei Farvagny; Corpataux, Magnedens → Pfarrei Corpataux-Magnedens; Rossens → Pfarrei Rossens.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1695 Estavayer-le-Gibloux": "fr-le-glebe",
+        "1695 Rueyres-St-Laurent": "fr-le-glebe",
+        "1695 Villarlod": "fr-le-glebe",
+        "1695 Villarsel-le-Gibloux": "fr-le-glebe",
+        "1696 Vuisternens-en-Ogoz": "fr-vuisternens-en-ogoz",
+        "1726 Farvagny-le-Grand": "fr-farvagny",
+        "1726 Farvagny-le-Petit": "fr-farvagny",
+        "1726 Grenilles": "fr-farvagny",
+        "1726 Posat": "fr-farvagny",
+        "1727 Corpataux": "fr-corpataux-magnedens",
+        "1727 Magnedens": "fr-corpataux-magnedens",
+        "1728 Rossens FR": "fr-rossens"
+      }
+    },
+    {
+      "bfs": 2238,
+      "how": "Nach Dorf: Ependes und Senèdes → Pfarrei Ependes; Arconciel sowie der Gemeindeteil mit PLZ 1725 Posieux → Pfarrei Arconciel.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1724 Senèdes": "fr-ependes",
+        "1725 Posieux": "fr-arconciel",
+        "1731 Ependes FR": "fr-ependes",
+        "1732 Arconciel": "fr-arconciel"
+      }
+    },
+    {
+      "bfs": 2239,
+      "how": "Nach Dorf: Grolley → Pfarrei Grolley; Ponthaux und Nierlet-les-Bois → Pfarrei Ponthaux.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1772 Grolley": "fr-grolley",
+        "1772 Nierlet-les-Bois": "fr-ponthaux",
+        "1772 Ponthaux": "fr-ponthaux"
+      }
+    },
+    {
+      "bfs": 2254,
+      "how": "Nach Dorf: Courtepin, Courtaman, Barberêche, Pensier → Pfarrei Barberêche; Wallenried (und der Gemeindeteil mit PLZ 1795 Courlevon) → Pfarrei Wallenried; Villarepos → Pfarrei Villarepos.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1583 Villarepos": "fr-villarepos",
+        "1783 Barberêche": "fr-barbereche",
+        "1783 Pensier": "fr-barbereche",
+        "1784 Courtepin": "fr-barbereche",
+        "1784 Wallenried": "fr-wallenried",
+        "1791 Courtaman": "fr-barbereche",
+        "1795 Courlevon": "fr-wallenried",
+        "3212 Kleingurmels": "fr-barbereche"
+      }
+    },
+    {
+      "bfs": 2262,
+      "how": "Nach Dorf: Ulmiz → Pfarrei Murten; alle übrigen Ortsteile (Gurmels, Kleingurmels, Cordast, Guschelmuth, Liebistorf, Wallenbuch u. a.) → Pfarrei Gurmels.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1792 Cordast": "fr-gurmels",
+        "1792 Guschelmuth": "fr-gurmels",
+        "3179 Kriechenwil": "fr-gurmels",
+        "3205 Gümmenen": "fr-gurmels",
+        "3206 Wallenbuch": "fr-gurmels",
+        "3212 Gurmels": "fr-gurmels",
+        "3212 Kleingurmels": "fr-gurmels",
+        "3213 Liebistorf": "fr-gurmels",
+        "3214 Ulmiz": "fr-murten"
+      }
+    },
+    {
+      "bfs": 2292,
+      "how": "Weilergenau: Dorf Brünisried → Pfarrei Rechthalten-Brünisried; Berg, Berghölzli, Höhena, Weidweg, Buechechäppeliweg, Obera/Undera Weier, Schaftreichi und Teile der Bergstrasse → Pfarrei Plaffeien (laut Geodaten; plaffeien.ch nennt den Weiler Berg ausdrücklich). Im Zweifel Adresse in den Geodaten prüfen.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {}
+    },
+    {
+      "bfs": 2293,
+      "how": "Hauptsächlich Pfarrei Düdingen; die Weiler Bäriswil, Menziswil, Längmatt und Teile von Mariahilf gehören laut Geodaten zur Pfarrei Tafers.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1700 Fribourg": "fr-dudingen"
+      }
+    },
+    {
+      "bfs": 2295,
+      "how": "Hauptsächlich Pfarrei Bösingen; der Gemeindeteil mit PLZ 3185 Schmitten gehört zur Pfarrei Schmitten.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "3178 Bösingen": "fr-bosingen",
+        "3184 Wünnewil": "fr-bosingen",
+        "3185 Schmitten FR": "fr-schmitten"
+      }
+    },
+    {
+      "bfs": 2296,
+      "how": "Hauptsächlich Pfarrei Heitenried; einzelne Adressen in Niedermuhren gehören laut Geodaten zur Pfarrei St. Antoni.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {}
+    },
+    {
+      "bfs": 2304,
+      "how": "Weilergenau: Dorf St. Ursen → Pfarrei St. Ursen; Aeschlenberg, Halta, Mediwil, Rameholz, Stöck sowie Teile von Rüti, Schatte, Underem Himmel (PLZ 1718) → Pfarrei Alterswil; Baletswil und weitere Teile mit PLZ 1718 Rechthalten → Pfarrei Rechthalten-Brünisried (laut Geodaten).",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {}
+    },
+    {
+      "bfs": 2305,
+      "how": "Hauptsächlich Pfarrei Schmitten; Ober Tützenberg, Hohe Zelg und Wyler gehören laut Geodaten zur Pfarrei Tafers, die Gemeindeteile mit PLZ 1713 St. Antoni zur Pfarrei St. Antoni.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1712 Tafers": "fr-tafers",
+        "1713 St. Antoni": "fr-st-antoni",
+        "3182 Ueberstorf": "fr-schmitten"
+      }
+    },
+    {
+      "bfs": 2306,
+      "how": "Nach Ortschaft der früheren Gemeinden: Tafers → Pfarrei Tafers, St. Antoni → Pfarrei St. Antoni, Alterswil → Pfarrei Alterswil; der Gemeindeteil mit PLZ 1714 Heitenried → Pfarrei Heitenried (ausser Niedermuhren → St. Antoni), PLZ 3182 → Ueberstorf, PLZ 3185 → Schmitten (Eggeli → St. Antoni). Ausnahmen laut Geodaten: Wolgiswil, Ziegelhus, Seeli (teilweise) bei Tafers → Alterswil; Grabach bei St. Antoni → Alterswil, Ziel → Heitenried.",
+      "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
+      "geodata": "https://maps.fr.ch/ags/rest/services/OpenData/Paroisses_catholiques/FeatureServer/0",
+      "ortsteile": {
+        "1700 Fribourg": "fr-tafers",
+        "1717 St. Ursen": "fr-tafers",
+        "3182 Ueberstorf": "fr-ueberstorf"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Zuordnung Gemeinde → Pfarrei aus der amtlichen Liste «Coefficients d'impôt des paroisses catholiques, état au 1er août 2026» (fr.ch); Ortsteile geteilter Gemeinden aus den amtlichen Pfarreigrenzen (maps.fr.ch OpenData, Stand Fusion 2025) geschnitten mit dem amtlichen Gebäudeadressverzeichnis (swisstopo, 27.10.2026). Grenzfälle einzelner Adressen bleiben möglich.",
+    "Konflikt mit dem Briefinhalt: Laut Statut Art. 9 Abs. 2 und Art. 11 Abs. 2bis gehen Austritt bzw. Kopie an Pfarrer und Diözesanbehörde; die Bitte, Pfarrei und Bistum nicht zu informieren, kann in FR nicht durchgesetzt werden.",
+    "Viele Pfarreien (v. a. Glâne, Broye, Teile der Sarine/Gruyère) publizieren nur Präsidiums- oder Privatadressen: dort steht nur Pfarreiname + PLZ Ort (confidence low, 'Postadresse auf der Website prüfen'). Betroffen u. a. Saint-François d'Orsens (Fusion 1.1.2025, keine Postadresse gefunden), Mannens-Grandsivaz, Villarepos, Autigny, Courtion, Ponthaux, Rossens, Vuisternens-en-Ogoz, Avry-devant-Pont, Crésuz, Haut-Intyamon, Pont-la-Ville und zehn Glâne-Pfarreien.",
+    "UP Notre-Dame de Tours: das UP-Sekretariat (Route du Pavement 26, Montagny-les-Monts) bearbeitet ausdrücklich keine Austritte; Montagny-Tours hat dieselbe Adresse (low).",
+    "Mehrere Websites (Infomaniak-Hosting, z. B. upcompassion.ch, paroisse-st-laurent-estavayer.ch, paroissesurpierre.ch) waren aus dieser Umgebung nicht abrufbar; geprüft über Wayback-Snapshots 2026 bzw. das cath-fr.ch-Verzeichnis (siehe note).",
+    "Das cath-fr.ch-Adressverzeichnis enthält veraltete Einträge (vor Fusionen, alte Web-/Mailadressen, Tippfehler wie «Duenstrasse»); wo Pfarrei-Websites abwichen, wurde die Website übernommen.",
+    "Châtonnaye wird derzeit von einer «Commission administrative exceptionnelle» statt eines Conseil paroissial geführt.",
+    "Für Chapelle-Gillarens ist ein Fusionsprojekt (2026) traktandiert; Pfarreigrenzen und Adressen können sich zum 1.1.2027 ändern."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "canton": "VS",
+  "body": {
+    "name": "Bistum Sitten / Diocèse de Sion (keine kantonale staatskirchenrechtliche Körperschaft; anerkannt sind die Teilkirchen – Bistum Sitten und Territorialabtei Saint-Maurice – sowie die Walliser Pfarreien, Art. 4 GVKS)",
+    "short": "Bistum Sitten",
+    "website": "https://diocese-sion.ch/",
+    "postal": [
+      "Diocèse de Sion",
+      "Rue de la Tour 12",
+      "1950 Sion 2"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kein Austritt aus einer Kirchgemeinde-Körperschaft vorgesehen. Wer keiner anerkannten Kirche angehört, stellt ein schriftliches Gesuch an den Gemeinderat der Wohnsitz-Einwohnergemeinde (Reduktion der Gemeindesteuer um den Kultusanteil bzw. Befreiung von einer kommunalen Kultussteuer).",
+    "recipient_level": "gemeinde",
+    "form": "schriftliches Gesuch an den Gemeinderat",
+    "beglaubigung": false,
+    "wirkung": "Die Reduktion wird nach der Rechnung des Vorjahres berechnet (Art. 13 Abs. 2 GVKS; Ausführungsreglement 180.100).",
+    "notes": "Pfarreien erheben keine eigene Kirchensteuer; die Einwohnergemeinden decken die ungedeckten Kultuskosten aus dem allgemeinen Budget (Art. 13 GVKS) oder über eine kommunale Kultussteuer (Art. 14 GVKS). Das Verfahren für die Befreiung regelt das jeweilige Gemeindereglement.",
+    "source": "https://lex.vs.ch/app/de/texts_of_law/180.1"
+  },
+  "finder": null,
+  "has_kirchensteuer": "teilweise",
+  "summary": "Im Wallis gibt es keine Kirchensteuer der Pfarreien; die Einwohnergemeinden tragen die Kultuskosten über das allgemeine Budget oder in wenigen Gemeinden über eine kommunale Kultussteuer. Ein Austritt aus einer Körperschaft ist nicht vorgesehen: Nichtmitglieder beantragen schriftlich beim Gemeinderat die Reduktion der Gemeindesteuer bzw. die Befreiung von der Kultussteuer.",
+  "summary_fr": "En Valais, les paroisses ne prélèvent pas d'impôt ecclésiastique ; les communes municipales couvrent les frais de culte par leur budget ordinaire ou, dans quelques communes, par un impôt de culte communal. Il n'existe pas de sortie d'une corporation : les personnes qui n'appartiennent pas à une Église reconnue demandent par écrit au conseil communal la réduction de l'impôt communal ou l'exonération de l'impôt de culte.",
+  "summary_it": "Nel Vallese le parrocchie non prelevano un'imposta ecclesiastica; i comuni coprono le spese di culto con il bilancio ordinario o, in pochi comuni, con un'imposta di culto comunale. Non esiste un'uscita da una corporazione: chi non appartiene a una Chiesa riconosciuta chiede per iscritto al consiglio comunale la riduzione dell'imposta comunale o l'esenzione dall'imposta di culto.",
+  "summary_en": "In Valais, parishes do not levy a church tax; municipalities cover worship costs from their general budget or, in a few municipalities, through a municipal worship tax. There is no exit from a public-law church body: people who do not belong to a recognised church apply in writing to the municipal council for a reduction of the municipal tax or exemption from the worship tax.",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://lex.vs.ch/app/de/texts_of_law/180.1",
+    "https://www.lexfind.ch/tolv/97759/de",
+    "https://diocese-sion.ch/"
+  ],
+  "issues": [
+    "Welche Einwohnergemeinden aktuell eine Kultussteuer erheben, wurde nicht amtlich verifiziert; ein Kantonsgerichtsentscheid von 2012 (RVJ/ZVR 2013, A1 11 183, nur über Drittquelle gefunden) nennt Savièse, Sitten, Törbel, Vouvry und einige Gemeinden des Eifischtals.",
+    "Ausführungsreglement 180.100 (Art. 20 ff., Verfahren der Reduktion) nicht im amtlichen Volltext abgerufen.",
+    "recipient_level 'gemeinde' ist kein Wert aus dem Brief-Schema (kirchgemeinde|kanton): Adressat ist die politische Einwohnergemeinde."
+  ]
+}

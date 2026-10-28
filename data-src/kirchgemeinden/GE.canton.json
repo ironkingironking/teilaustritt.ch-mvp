@@ -1,0 +1,32 @@
+{
+  "canton": "GE",
+  "body": {
+    "name": "Église catholique romaine de Genève (ECR)",
+    "short": "ECR Genève",
+    "website": "https://www.ecr-ge.ch/"
+  },
+  "austritt": {
+    "recipient": "Kein Austritt aus einer öffentlich-rechtlichen Körperschaft nötig: Es gibt keine Kirchensteuer. Die Contribution religieuse volontaire (CRV) ist eine freiwillige Spende.",
+    "recipient_level": "keine",
+    "form": "",
+    "beglaubigung": false,
+    "wirkung": "",
+    "notes": "Die kantonale Steuerverwaltung (AFC) zieht die CRV für die Église catholique romaine de Genève ein und berechnet den Betrag nur auf Wunsch; die Zahlung ist nicht obligatorisch.",
+    "source": "https://www.ge.ch/contribution-religieuse-volontaire-crv"
+  },
+  "finder": null,
+  "has_kirchensteuer": false,
+  "summary": "In Genf gibt es keine öffentlich-rechtliche Mitgliedschaft mit Kirchensteuer; Kirche und Staat sind getrennt. Die Contribution religieuse volontaire ist eine freiwillige Spende, ein Austrittsschreiben für steuerliche Zwecke ist nicht nötig.",
+  "summary_fr": "À Genève, il n'existe pas d'appartenance de droit public assortie d'un impôt ecclésiastique ; l'Église et l'État sont séparés. La contribution religieuse volontaire est un don facultatif : aucune lettre de sortie n'est nécessaire sur le plan fiscal.",
+  "summary_it": "A Ginevra non esiste un'appartenenza di diritto pubblico con imposta ecclesiastica; Chiesa e Stato sono separati. Il contributo religioso volontario è una donazione facoltativa: non serve alcuna lettera di uscita ai fini fiscali.",
+  "summary_en": "Geneva has no public-law church membership and no church tax; church and state are separate. The voluntary religious contribution (CRV) is an optional donation, so no exit letter is needed for tax purposes.",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.ge.ch/contribution-religieuse-volontaire-crv",
+    "https://www.ge.ch/demander-perception-contribution-religieuse-volontaire-crv-etat"
+  ],
+  "issues": [
+    "Website der ECR (ecr-ge.ch) nicht abrufbar (TLS-Fehler); Adresse der ECR nicht übernommen.",
+    "recipient_level 'keine' ist kein Wert aus dem Brief-Schema."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "canton": "VD",
+  "body": {
+    "name": "Fédération ecclésiastique catholique romaine du canton de Vaud (FEDEC-VD) – Église catholique dans le canton de Vaud",
+    "short": "FEDEC-VD",
+    "website": "https://www.cath-vd.ch/",
+    "postal": [
+      "FEDEC-VD",
+      "Chemin des Mouettes 4",
+      "1007 Lausanne"
+    ]
+  },
+  "austritt": {
+    "recipient": "Conseil de paroisse der Wohnsitzpfarrei («Déclaration de sortie»); für die Rückerstattung des Kultusanteils der Gemeindesteuer zusätzlich ein Gesuch an die Gemeindeverwaltung (Finanzdienst)",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich («Déclaration de sortie»)",
+    "beglaubigung": false,
+    "wirkung": "Rückerstattung des Kultusanteils der Gemeindesteuer ab der Sortie, nicht rückwirkend (Beispiel Montreux: bis fünf Steuerperioden, nach Taxation).",
+    "notes": "Keine Kirchensteuer: Die Kultuskosten tragen Kanton und Gemeinden aus den allgemeinen Steuern. Kantonal gibt es keinen Abzug für Konfessionslose; die Gemeinden erstatten auf Gesuch den Kultusanteil der Gemeindesteuer (in Montreux ca. 0,4 %).",
+    "source": "https://www.montreux.ch/fileadmin/documents/commune-de-montreux.ch/pdf/Pilier_public/Divers/DIR_Rbt_ImpotEcclesiastique_PartCommunale_VF.pdf"
+  },
+  "finder": null,
+  "has_kirchensteuer": false,
+  "summary": "Im Kanton Waadt gibt es keine Kirchensteuer; Kanton und Gemeinden finanzieren die anerkannten Kirchen aus den allgemeinen Steuern. Wer aus der Kirche austritt (Brief «Déclaration de sortie» an den Conseil de paroisse), kann bei der Wohnsitzgemeinde die Rückerstattung des kleinen Kultusanteils der Gemeindesteuer beantragen.",
+  "summary_fr": "Dans le canton de Vaud, il n'y a pas d'impôt ecclésiastique ; le canton et les communes financent les Églises reconnues par l'impôt général. Après une « déclaration de sortie » adressée au conseil de paroisse, on peut demander à sa commune le remboursement de la part de l'impôt communal affectée au culte.",
+  "summary_it": "Nel Canton Vaud non esiste un'imposta ecclesiastica; Cantone e comuni finanziano le Chiese riconosciute con le imposte generali. Dopo una « déclaration de sortie » inviata al consiglio parrocchiale si può chiedere al proprio comune il rimborso della piccola quota dell'imposta comunale destinata al culto.",
+  "summary_en": "The canton of Vaud has no church tax; the canton and municipalities fund the recognised churches from general taxes. After sending a 'déclaration de sortie' to the parish council, you can ask your municipality to refund the small share of municipal tax used for worship.",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.cath-vd.ch/wp-content/uploads/2022/12/Depliant-Eclairez-nous.pdf",
+    "https://www.montreux.ch/fileadmin/documents/commune-de-montreux.ch/pdf/Pilier_public/Divers/DIR_Rbt_ImpotEcclesiastique_PartCommunale_VF.pdf",
+    "https://www.lutry.ch/fileadmin/user_upload/user_upload/religion_declaration_depliant.pdf",
+    "https://www.cath-vd.ch/"
+  ],
+  "issues": [
+    "Verfahren der Rückerstattung ist kommunal geregelt; belegt nur am Beispiel Montreux.",
+    "Kantonales Gesetz (LREEDP, BLV 180.05) nicht im Volltext abgerufen."
+  ]
+}

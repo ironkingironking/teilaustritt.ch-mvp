@@ -1,0 +1,39 @@
+{
+  "canton": "TI",
+  "body": {
+    "name": "Diocesi di Lugano (keine kantonale staatskirchenrechtliche Körperschaft; Pfarreien sind öffentlich-rechtliche Körperschaften nach der Legge sulla Chiesa cattolica)",
+    "short": "Diocesi di Lugano",
+    "website": "https://www.diocesilugano.ch/",
+    "postal": [
+      "Curia vescovile",
+      "Borghetto 6",
+      "6900 Lugano"
+    ]
+  },
+  "austritt": {
+    "recipient": "Consiglio parrocchiale der Wohnsitzpfarrei (Dichiarazione di esenzione dall'imposta di culto, Art. 8 Decreto legislativo 10.2.4.1) – nur relevant, wo die Pfarrei eine Imposta di culto erhebt",
+    "recipient_level": "kirchgemeinde",
+    "form": "istanza scritta (schriftliches Gesuch)",
+    "beglaubigung": false,
+    "wirkung": "Im ersten Jahr innert eines Monats nach Mitteilung der Eintragung in den Steuerkatalog mit Wirkung für dasselbe Jahr, danach jederzeit mit Wirkung ab dem folgenden Kalenderjahr (Art. 8).",
+    "notes": "Steuerpflichtig sind die zu Jahresbeginn im Catalogo tributario der Pfarrei eingetragenen Personen (Art. 5–6). Viele Pfarreien erheben keine Imposta di culto und werden von den politischen Gemeinden mitfinanziert.",
+    "source": "https://www.lexfind.ch/tolv/108389/it"
+  },
+  "finder": null,
+  "has_kirchensteuer": "teilweise",
+  "summary": "Im Tessin gibt es keine kantonale Kirchensteuer; nur ein Teil der Pfarreien erhebt eine Imposta di culto (Kultussteuer) von den im Steuerkatalog eingetragenen Katholiken. Wer davon befreit werden will, reicht beim Consiglio parrocchiale der Wohnsitzpfarrei eine schriftliche Befreiungserklärung ein, wirksam ab dem folgenden Kalenderjahr.",
+  "summary_fr": "Au Tessin, il n'y a pas d'impôt ecclésiastique cantonal ; seule une partie des paroisses prélève une « imposta di culto » auprès des catholiques inscrits au rôle fiscal paroissial. Pour en être exonéré, on adresse une déclaration écrite d'exonération au Consiglio parrocchiale de la paroisse de domicile, avec effet dès l'année civile suivante.",
+  "summary_it": "In Ticino non esiste un'imposta ecclesiastica cantonale; solo una parte delle parrocchie preleva un'imposta di culto dai cattolici iscritti nel catalogo tributario. Chi vuole esserne esentato inoltra un'istanza scritta di esenzione al Consiglio parrocchiale della parrocchia di domicilio, con effetto dall'anno civile successivo.",
+  "summary_en": "Ticino has no cantonal church tax; only some parishes levy a worship tax (imposta di culto) on Catholics listed in the parish tax register. To be exempted, send a written declaration of exemption to the parish council (Consiglio parrocchiale) of your place of residence; it takes effect from the following calendar year.",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.lexfind.ch/tolv/108389/it",
+    "https://hls-dhs-dss.ch/it/articles/026203/",
+    "https://www.diocesilugano.ch/"
+  ],
+  "issues": [
+    "Legge sulla Chiesa cattolica (RL ti.ch) und Regolamento sull'imposta di culto nicht abrufbar (TLS-Fehler bei www3.ti.ch / www4.ti.ch); Regeln nur aus dem Decreto legislativo 10.2.4.1 (lexfind).",
+    "Anzahl der Pfarreien mit Imposta di culto nicht aktuell amtlich belegt; das HLS (historische Angabe) nennt 39 Pfarreien mit Kultussteuer und 166 mit Gemeindebeiträgen.",
+    "Ob eine Erklärung nur die Steuerbefreiung oder auch den Austritt aus der Pfarrei-Körperschaft bewirkt, ist im Decreto nicht geregelt."
+  ]
+}

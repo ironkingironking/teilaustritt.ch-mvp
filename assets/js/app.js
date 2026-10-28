@@ -432,6 +432,7 @@ function render() {
       ${central ? `<p>Im Kanton ${esc(canton.name)} geht der Austritt an diese zentrale Stelle.</p>` : ""}
       ${kg.home && state.kantone?.[kg.home] ? `<p class="small">Diese Kirchgemeinde gehört zum Kanton ${esc(state.kantone[kg.home].name)}. Für den Austritt gelten dessen Regeln.</p>` : ""}
       ${rulesCanton()?.austritt?.beglaubigung ? `<p class="small"><strong>Beglaubigte Unterschrift nötig.</strong> Siehe Schritt 3.</p>` : ""}
+      ${rulesCanton()?.austritt?.public_hinweis ? `<div class="notice"><strong>Gut zu wissen</strong>${esc(rulesCanton().austritt.public_hinweis)}</div>` : ""}
       ${taxLine(rulesCanton())}
       ${addressNotice(kg)}
       <p class="small"><button type="button" class="linkbtn" data-action="edit-recipient">Adresse anpassen</button> · ${reportLink(kg.n)}</p>

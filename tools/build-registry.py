@@ -115,7 +115,7 @@ def canton_entry(kt, src, register):
         "name": CANTONS[kt],
         "register": register,
         "body": {k: src["body"].get(k) for k in ("name", "short", "website", "postal") if src["body"].get(k)},
-        "austritt": {k: a.get(k) for k in ("recipient", "recipient_level", "form", "beglaubigung",
+        "austritt": {k: a.get(k) for k in ("recipient", "recipient_level", "form", "beglaubigung", "public_hinweis",
                                            "beglaubigung_note", "wirkung", "notes", "source") if a.get(k) not in (None, "")},
         "finder": src.get("finder"),
     }
