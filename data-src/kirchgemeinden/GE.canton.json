@@ -1,9 +1,14 @@
 {
   "canton": "GE",
   "body": {
-    "name": "Église catholique romaine de Genève (ECR)",
+    "name": "Église catholique romaine à Genève (ECR)",
     "short": "ECR Genève",
-    "website": "https://www.ecr-ge.ch/"
+    "website": "https://www.eglisecatholique-ge.ch/",
+    "postal": [
+      "Eglise Catholique Romaine-Genève",
+      "Rue du Général-Dufour 18",
+      "1204 Genève"
+    ]
   },
   "austritt": {
     "recipient": "Kein Austritt aus einer öffentlich-rechtlichen Körperschaft nötig: Es gibt keine Kirchensteuer. Die Contribution religieuse volontaire (CRV) ist eine freiwillige Spende.",
@@ -11,7 +16,7 @@
     "form": "",
     "beglaubigung": false,
     "wirkung": "",
-    "notes": "Die kantonale Steuerverwaltung (AFC) zieht die CRV für die Église catholique romaine de Genève ein und berechnet den Betrag nur auf Wunsch; die Zahlung ist nicht obligatorisch.",
+    "notes": "Die kantonale Steuerverwaltung (AFC) zieht die CRV für die Église catholique romaine de Genève ein und berechnet den Betrag nur auf Wunsch; die Zahlung ist nicht obligatorisch. | Nachrecherche 28.10.2026: Adresse der ECR aus den Mentions légales der aktuellen Website (https://www.eglisecatholique-ge.ch/mentions-legales/, IDE CHE-100.846.670).",
     "source": "https://www.ge.ch/contribution-religieuse-volontaire-crv"
   },
   "finder": null,
@@ -23,10 +28,11 @@
   "stand": "2026-10-28",
   "sources": [
     "https://www.ge.ch/contribution-religieuse-volontaire-crv",
-    "https://www.ge.ch/demander-perception-contribution-religieuse-volontaire-crv-etat"
+    "https://www.ge.ch/demander-perception-contribution-religieuse-volontaire-crv-etat",
+    "https://www.eglisecatholique-ge.ch/mentions-legales/"
   ],
-  "issues": [
-    "Website der ECR (ecr-ge.ch) nicht abrufbar (TLS-Fehler); Adresse der ECR nicht übernommen.",
-    "recipient_level 'keine' ist kein Wert aus dem Brief-Schema."
+  "issues": [],
+  "grundlage": [
+    "Adresse der ECR (Rue du Général-Dufour 18, 1204 Genève, Maison diocésaine) aus Mentions légales und Kontaktseite von eglisecatholique-ge.ch (28.10.2026). ecr-ge.ch ist eine veraltete Website (Inhalte von 2016, Zertifikat eines Infomaniak-Vorschau-Hosts) und wird nicht mehr verwendet."
   ]
 }

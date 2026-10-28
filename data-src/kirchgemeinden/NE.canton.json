@@ -3,7 +3,13 @@
   "body": {
     "name": "Fédération catholique romaine neuchâteloise (FCRN) – Église catholique romaine im Kanton Neuenburg",
     "short": "FCRN",
-    "website": "https://www.cath-ne.ch/"
+    "website": "https://cath-ne.ch/",
+    "postal": [
+      "Fédération catholique romaine neuchâteloise (FCRN)",
+      "Rue de Vieux-Châtel 4",
+      "Case postale 412",
+      "2002 Neuchâtel"
+    ]
   },
   "austritt": {
     "recipient": "Kein Austritt aus einer öffentlich-rechtlichen Körperschaft nötig: Die Contribution ecclésiastique ist freiwillig (Konkordat RSN 181.10, Art. 7–8).",
@@ -11,23 +17,27 @@
     "form": "",
     "beglaubigung": false,
     "wirkung": "",
-    "notes": "Die kantonale Steuerverwaltung stellt die freiwillige Contribution ecclésiastique im April in Rechnung; bei Nichtzahlung erfolgt keine Betreibung.",
+    "notes": "Die kantonale Steuerverwaltung stellt die freiwillige Contribution ecclésiastique im April in Rechnung; bei Nichtzahlung erfolgt keine Betreibung. | Nachrecherche 28.10.2026: Die Contribution wird nach der Konfession berechnet, die in der Steuererklärung angegeben ist (Flyer der drei Kirchen auf ne.ch, SCCO 2026); die Angaben der ersten Seite, darunter die Rubrik «Confession» mit der Option «sans confession», sind laut Instructions générales 2025 des Service des contributions für die Contribution ecclésiastique massgebend. Wer keine Rechnung mehr will, wählt dort «sans confession». FCRN-Adresse von https://cath-ne.ch/contacts/.",
     "source": "https://www.ne.ch/themes/impots/calculette-et-paiement-de-limpot"
   },
   "finder": null,
   "has_kirchensteuer": false,
-  "summary": "In Neuenburg gibt es keine Kirchensteuer, sondern eine freiwillige Contribution ecclésiastique, die der Kanton für die anerkannten Kirchen in Rechnung stellt; bei Nichtzahlung wird nicht betrieben. Ein Austrittsschreiben ist für steuerliche Zwecke nicht nötig.",
-  "summary_fr": "À Neuchâtel, il n'y a pas d'impôt ecclésiastique mais une contribution ecclésiastique facultative, facturée par l'État pour les Églises reconnues ; en cas de non-paiement, aucune poursuite n'est engagée. Une lettre de sortie n'est pas nécessaire sur le plan fiscal.",
-  "summary_it": "A Neuchâtel non esiste un'imposta ecclesiastica ma un contributo ecclesiastico facoltativo, fatturato dal Cantone per le Chiese riconosciute; in caso di mancato pagamento non si procede a esecuzione. Non serve una lettera di uscita ai fini fiscali.",
-  "summary_en": "Neuchâtel has no church tax, only a voluntary church contribution that the canton invoices on behalf of the recognised churches; non-payment is not enforced. No exit letter is needed for tax purposes.",
+  "summary": "In Neuenburg gibt es keine Kirchensteuer, sondern eine freiwillige Contribution ecclésiastique, die der Kanton für die anerkannten Kirchen in Rechnung stellt; bei Nichtzahlung wird nicht betrieben. Die Rechnung richtet sich nach der Konfession, die in der Steuererklärung angegeben ist: Wer keine Rechnung mehr will, wählt dort bei «Confession» die Option «sans confession». Ein Austrittsschreiben ist für steuerliche Zwecke nicht nötig.",
+  "summary_fr": "À Neuchâtel, il n'y a pas d'impôt ecclésiastique mais une contribution ecclésiastique facultative, facturée par l'État pour les Églises reconnues ; en cas de non-paiement, aucune poursuite n'est engagée. La facture dépend de la confession indiquée dans la déclaration d'impôt : pour ne plus la recevoir, cochez « sans confession » à la rubrique « Confession ». Une lettre de sortie n'est pas nécessaire sur le plan fiscal.",
+  "summary_it": "A Neuchâtel non esiste un'imposta ecclesiastica ma un contributo ecclesiastico facoltativo, fatturato dal Cantone per le Chiese riconosciute; in caso di mancato pagamento non si procede a esecuzione. La fattura dipende dalla confessione indicata nella dichiarazione d'imposta: chi non vuole più riceverla sceglie « sans confession » alla voce « Confession ». Non serve una lettera di uscita ai fini fiscali.",
+  "summary_en": "Neuchâtel has no church tax, only a voluntary church contribution that the canton invoices on behalf of the recognised churches; non-payment is not enforced. The invoice follows the religion stated in the tax return: to stop receiving it, tick 'sans confession' under 'Confession'. No exit letter is needed for tax purposes.",
   "stand": "2026-10-28",
   "sources": [
     "https://rsn.ne.ch/DATA/program/books/rsne/pdf/181.10.pdf",
-    "https://www.ne.ch/themes/impots/calculette-et-paiement-de-limpot"
+    "https://www.ne.ch/themes/impots/calculette-et-paiement-de-limpot",
+    "https://cath-ne.ch/contacts/",
+    "https://www.ne.ch/sites/default/files/2025-12/SCCO_3Eglises_Flyer_INF_2026.pdf",
+    "https://www.ne.ch/autorites/DFS/SCCO/Documents/PP/INSTRUCTIONS_GENERALES.pdf"
   ],
-  "issues": [
-    "Website der FCRN (cath-ne.ch) nicht abrufbar (TLS-Fehler); Adresse nicht übernommen.",
-    "Wer keine Rechnung mehr erhalten will, muss vermutlich die Konfessionsangabe bei Einwohnerkontrolle/Steuererklärung ändern; nicht amtlich verifiziert.",
-    "recipient_level 'keine' ist kein Wert aus dem Brief-Schema."
+  "issues": [],
+  "grundlage": [
+    "FCRN-Adresse (Rue de Vieux-Châtel 4, Case postale 412, 2002 Neuchâtel) von der Kontaktseite cath-ne.ch (28.10.2026).",
+    "Rechnungsstopp: Flyer «Votre Église vit grâce à votre contribution» (SCCO, ne.ch, 2026): Contribution «facturée … en fonction de la confession indiquée dans votre déclaration d'impôt»; Instructions générales 2025 (Service des contributions): Angaben der ersten Seite sind «déterminantes … pour la détermination de la contribution ecclésiastique», Rubrik «Confession» mit «sans confession».",
+    "Konkordat RSN 181.10 Art. 7–8: Contribution freiwillig, gemeinsam von den Kirchen festgelegt, vom Kanton unentgeltlich erhoben."
   ]
 }

@@ -4,7 +4,11 @@
     "name": "Verband der römisch-katholischen Kirchgemeinden des Kantons Obwalden (KGV-OW)",
     "short": "Kirche Obwalden",
     "website": "https://www.kirche-obwalden.ch/",
-    "postal": ["Verband der römisch-katholischen Kirchgemeinden des Kantons Obwalden", "Bergstrasse 2", "6060 Sarnen"]
+    "postal": [
+      "Verband der römisch-katholischen Kirchgemeinden des Kantons Obwalden",
+      "Bergstrasse 2",
+      "6060 Sarnen"
+    ]
   },
   "austritt": {
     "recipient": "Römisch-katholische Kirchgemeinde des Wohnsitzes (Kirchgemeinderat)",
@@ -29,18 +33,27 @@
     "https://www.pfarrei-giswil.ch/mitglieder/",
     "https://www.kirche-kerns.ch/kontakt",
     "https://www.pfarrei-lungern.ch/kirchenrat/",
-    "https://www.pfarrei-sachseln.ch/pfarrei-und-kirchgemeinde/kirchgemeinde/"
+    "https://www.pfarrei-sachseln.ch/pfarrei-und-kirchgemeinde/kirchgemeinde/",
+    "https://kloster-engelberg.ch/pfarrei/pfarreiteam/",
+    "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE115079933"
   ],
   "kirchgemeinden": [
     {
       "id": "ow-alpnach",
       "name": "Katholische Kirchgemeinde Alpnach",
-      "postal": ["Kath. Kirchgemeinde Alpnach", "Kirchgemeinderat", "Brünigstrasse 23", "6055 Alpnach Dorf"],
+      "postal": [
+        "Kath. Kirchgemeinde Alpnach",
+        "Kirchgemeinderat",
+        "Brünigstrasse 23",
+        "6055 Alpnach Dorf"
+      ],
       "address_type": "verwaltung",
       "email": "kirchgemeinderat@pfarrei-alpnach.ch",
       "website": "https://www.pfarrei-alpnach.ch/",
       "source": "https://www.pfarrei-alpnach.ch/ueber-uns/kirchgemeinde/mitgliedschaft",
-      "bfs": [1401],
+      "bfs": [
+        1401
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Die Kirchgemeinde nennt diese Adresse ausdrücklich als Empfängerin des Kirchenaustritts; Impressum: Kath. Kirchgemeinde Alpnach, 6055 Alpnach Dorf."
@@ -48,12 +61,20 @@
     {
       "id": "ow-giswil",
       "name": "Katholische Kirchgemeinde Giswil",
-      "postal": ["Kath. Kirchgemeinde Giswil", "c/o Finanzverwaltung Giswil", "Bahnhofplatz 1", "Postfach 167", "6074 Giswil"],
+      "postal": [
+        "Kath. Kirchgemeinde Giswil",
+        "c/o Finanzverwaltung Giswil",
+        "Bahnhofplatz 1",
+        "Postfach 167",
+        "6074 Giswil"
+      ],
       "address_type": "verwaltung",
       "email": "kirchenrat@kg-giswil.ch",
       "website": "https://www.pfarrei-giswil.ch/",
       "source": "https://www.pfarrei-giswil.ch/mitglieder/",
-      "bfs": [1403],
+      "bfs": [
+        1403
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Von der Kirchgemeinde als «Kath. Kirchgemeinde / Rechnungsadresse» publiziert."
@@ -61,23 +82,37 @@
     {
       "id": "ow-kerns",
       "name": "Römisch-katholische Kirchgemeinde Kerns",
-      "postal": ["Römisch-katholische Kirchgemeinde Kerns", "Kirchgemeinderat", "Stanserstrasse 2", "6064 Kerns"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Kerns",
+        "Kirchgemeinderat",
+        "Stanserstrasse 2",
+        "6064 Kerns"
+      ],
       "address_type": "pfarramt",
       "website": "https://www.kirche-kerns.ch/",
       "source": "https://www.kirche-kerns.ch/kontakt",
-      "bfs": [1404],
+      "bfs": [
+        1404
+      ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Die Kontaktseite der Kirchgemeinde nennt als Adresse das Kath. Pfarramt Stanserstrasse 2; eine eigene Verwaltungsadresse ist nicht publiziert."
+      "note": "Die Kontaktseite der Kirchgemeinde nennt als Adresse das Kath. Pfarramt Stanserstrasse 2; eine eigene Verwaltungsadresse ist nicht publiziert. | Nachrecherche 28.10.2026: UID CHE-460.740.686 «Katholische Kirchgemeinde Kerns» hat ihren Sitz an derselben Adresse Stanserstrasse 2 (laut UID zustellbar, Prüfung 02.10.2026)."
     },
     {
       "id": "ow-lungern",
       "name": "Römisch-katholische Kirchgemeinde Lungern",
-      "postal": ["Römisch-katholische Kirchgemeinde Lungern", "Kirchgemeinderat", "Gräbliweg 2", "6078 Lungern"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Lungern",
+        "Kirchgemeinderat",
+        "Gräbliweg 2",
+        "6078 Lungern"
+      ],
       "address_type": "kirchenrat",
       "website": "https://www.pfarrei-lungern.ch/",
       "source": "https://www.pfarrei-lungern.ch/kirchenrat/",
-      "bfs": [1405],
+      "bfs": [
+        1405
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Adresse so als «Kirchgemeinderat Lungern» publiziert; umfasst auch Bürglen OW."
@@ -85,11 +120,18 @@
     {
       "id": "ow-sachseln",
       "name": "Römisch-katholische Kirchgemeinde Sachseln",
-      "postal": ["Römisch-katholische Kirchgemeinde Sachseln", "Kirchenverwaltung", "Pilatusstrasse 3", "6072 Sachseln"],
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Sachseln",
+        "Kirchenverwaltung",
+        "Pilatusstrasse 3",
+        "6072 Sachseln"
+      ],
       "address_type": "verwaltung",
       "website": "https://www.pfarrei-sachseln.ch/",
       "source": "https://www.pfarrei-sachseln.ch/pfarrei-und-kirchgemeinde/kirchgemeinde/",
-      "bfs": [1406],
+      "bfs": [
+        1406
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Kirchenverwaltung im selben Haus wie das Pfarramt (Pilatusstrasse 3); umfasst auch Flüeli-Ranft."
@@ -97,22 +139,53 @@
     {
       "id": "ow-sarnen",
       "name": "Römisch-katholische Kirchgemeinde Sarnen",
-      "postal": ["Röm.-kath. Kirchgemeinde Sarnen", "Verwaltung", "Pfarrgässli 4", "6060 Sarnen"],
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Sarnen",
+        "Verwaltung",
+        "Pfarrgässli 4",
+        "6060 Sarnen"
+      ],
       "address_type": "verwaltung",
       "website": "https://www.seelsorgeraum-sarnen.ch/",
       "source": "https://www.seelsorgeraum-sarnen.ch/organisation/kirchgemeinderat/mitgliedschaft",
-      "bfs": [1407],
+      "bfs": [
+        1407
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Umfasst die Pfarreien Sarnen, Schwendi und Kägiswil (Seelsorgeraum Sarnen)."
+    },
+    {
+      "id": "ow-engelberg",
+      "name": "Römisch-katholische Kirchgemeinde Engelberg",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Engelberg",
+        "c/o Einwohnergemeinde Engelberg",
+        "Gemeinderat",
+        "Dorfstrasse 1",
+        "6390 Engelberg"
+      ],
+      "address_type": "gemeinde",
+      "website": "https://kloster-engelberg.ch/pfarrei/",
+      "source": "https://gdb.ow.ch/app/de/texts_of_law/101.0",
+      "bfs": [
+        1402
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "public_note": "In Engelberg gibt es keine eigenständige Kirchgemeinde mit eigenem Rat; die Pfarrei ist Klosterpfarrei. Nach der Kantonsverfassung (Art. 101) bilden die Katholiken der Einwohnergemeinde die Kirchgemeinde, deshalb geht das Schreiben an die Einwohnergemeinde. Frag vor dem Versand bei der Gemeindeverwaltung nach, ob sie den Austritt entgegennimmt.",
+      "note": "Nachrecherche 28.10.2026: Art. 101 Abs. 1 KV OW: Die katholischen Konfessionsangehörigen der Einwohnergemeinde bilden die katholische Kirchgemeinde; eine selbständige Kirchgemeinde mit eigenem Kirchgemeinderat entsteht nur durch Beschluss oder Gesetz. Für Engelberg gibt es keine solche: kein UID-Eintrag einer kath. Kirchgemeinde Engelberg (die übrigen OW-Kirchgemeinden sind eingetragen), das Steuergesetz (Übergangsbestimmungen, Verteilschlüssel des Steuerstrategieausgleichs zu Art. 317) führt für Engelberg nur die Einwohnergemeinde, Engelberg gehört nicht zum Kirchgemeindeverband. Adresse: UID CHE-115.079.933 Einwohnergemeinde Engelberg, Dorfstrasse 1, 6390 Engelberg (zustellbar, Prüfung 28.10.2026). Pfarrei: Kloster Engelberg, Pfarramt, Benediktinerkloster 1, 6390 Engelberg (kloster-engelberg.ch/pfarrei/pfarreiteam). Die Website der Gemeinde (gemeinde-engelberg.ch) war am 28.10.2026 nicht erreichbar (Timeout), eine ausdrückliche Austrittsregel der Gemeinde wurde nicht gefunden. Umfasst auch Grafenort (Gemeindeteil Engelberg)."
     }
   ],
   "split": [],
-  "unmapped_bfs": [1402],
+  "unmapped_bfs": [],
   "issues": [
-    "Engelberg (BFS 1402): Engelberg ist Klosterpfarrei und gehört dem Kirchgemeindeverband nicht an. Das Steuergesetz OW (Anhang Steuerstrategieausgleich) führt für Engelberg nur die Einwohnergemeinde, aber keine römisch-katholische Kirchgemeinde. Nach Art. 101 KV OW bilden die Katholiken der Einwohnergemeinde die Kirchgemeinde, eine selbständige mit eigenem Rat besteht in Engelberg offenbar nicht. Wer dort den Austritt entgegennimmt, ist nicht belegt; die Website der Gemeinde Engelberg war am 28.10.2026 nicht erreichbar (TLS-Fehler). Deshalb ist Engelberg nicht zugeordnet.",
+    "Engelberg: Ob die Einwohnergemeinde (Gemeinderat) Austrittserklärungen für die katholische Kirchgemeinde entgegennimmt oder an die Klosterpfarrei verweist, ist nicht ausdrücklich publiziert; gemeinde-engelberg.ch war am 28.10.2026 nicht erreichbar. Bei der Gemeindeverwaltung (Dorfstrasse 1) oder der kantonalen Steuerverwaltung bestätigen lassen; ebenso, ob dort Kirchensteuer erhoben wird.",
+    "Austrittsregeln stammen von den Websites der Kirchgemeinden Sarnen und Alpnach; eine kantonale Regel (Gesetz oder Verbandsstatut) zum Austritt wurde nicht gefunden."
+  ],
+  "grundlage": [
     "Gebietszuordnung nach Art. 103 KV OW: Der Sprengel einer katholischen Kirchgemeinde deckt sich grundsätzlich mit dem Gebiet der Einwohnergemeinde; Teilungen oder Vereinigungen sind nicht bekannt.",
-    "Austrittsregeln stammen von den Websites der Kirchgemeinden Sarnen und Alpnach; eine kantonale Regel (Gesetz oder Verbandsstatut) zum Austritt wurde nicht gefunden.",
-    "Kerns: Als Postadresse ist nur das Pfarramt publiziert."
+    "Engelberg: Nach Art. 101 Abs. 1 KV OW bilden die Katholiken der Einwohnergemeinde die Kirchgemeinde; eine selbständige Kirchgemeinde mit eigenem Rat besteht in Engelberg nicht (kein UID-Eintrag, Steuergesetz nennt nur die Einwohnergemeinde, nicht Mitglied des Kirchgemeindeverbands). Erfasst ist deshalb die Einwohnergemeinde als Empfängerin (confidence low, mit Hinweis für Besucher).",
+    "Kerns: Pfarramtsadresse Stanserstrasse 2 ist zugleich UID-Sitz der Kirchgemeinde."
   ]
 }

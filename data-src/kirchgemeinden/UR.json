@@ -46,7 +46,13 @@
     "https://www.sisikon.ch/religionkirche",
     "https://www.kg-spiringen.ch/Impressum/",
     "https://www.unterschaechen.ch/leben/kirche",
-    "https://www.goeschenen.ch/leben/kirche"
+    "https://www.goeschenen.ch/leben/kirche",
+    "https://www.pfarreien.ch/kontakt",
+    "https://www.pfarreien.ch/kirchen",
+    "https://www.pfarreien-ambrisi.ch/pfarreisekretariate.html",
+    "https://sebais.ch/seelsorgeraum-seedorf-bauen-isenthal/ueber-uns/",
+    "https://www.seelsorgeursern.ch/",
+    "https://www.uid.admin.ch/"
   ],
   "kirchgemeinden": [
     {
@@ -56,7 +62,7 @@
         "Kirchgemeinde Altdorf",
         "Kirchenrat",
         "Kirchplatz 7",
-        "6460 Altdorf"
+        "6460 Altdorf UR"
       ],
       "address_type": "verwaltung",
       "email": "info@kg-altdorf.ch",
@@ -67,25 +73,28 @@
       ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Eine Kirchgemeinde mit den Pfarreien St. Martin und Bruder Klaus."
+      "note": "Eine Kirchgemeinde mit den Pfarreien St. Martin und Bruder Klaus. | Nachrecherche 28.10.2026: PLZ-Ortsname auf den amtlichen Namen gemäss Ortschaftenverzeichnis angepasst."
     },
     {
       "id": "ur-amsteg",
       "name": "Römisch-katholische Kirchgemeinde Amsteg",
       "postal": [
         "Römisch-katholische Kirchgemeinde Amsteg",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Gotthardstrasse 79",
         "6474 Amsteg"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "website": "https://www.pfarreien-ambrisi.ch/",
-      "source": "https://www.pfarreien-ambrisi.ch/kirchenrat-amsteg.html",
+      "source": "https://www.pfarreien-ambrisi.ch/pfarreisekretariate.html",
       "bfs": [],
       "partial_bfs": [
         1216,
         1209
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen. Liegt in der politischen Gemeinde Silenen; laut HLS gehören auch Ried und Intschi (Gemeinde Gurtnellen) dazu."
+      "confidence": "medium",
+      "note": "Kirchenrat publiziert nur Privatadressen. Liegt in der politischen Gemeinde Silenen; laut HLS gehören auch Ried und Intschi (Gemeinde Gurtnellen) dazu. | Nachrecherche 28.10.2026: Kath. Pfarramt Amsteg, Gotthardstrasse 79 (Pfarreisekretariate-Seite der Pfarreien Amsteg-Bristen-Silenen); dieselbe Adresse ist im UID-Register als Sitz der «Kirchenverwaltung Amsteg» eingetragen (CHE-275.406.433, Zustellbarkeit nicht bestätigt)."
     },
     {
       "id": "ur-andermatt",
@@ -111,52 +120,60 @@
       "name": "Römisch-katholische Kirchgemeinde Attinghausen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Attinghausen",
+        "Plattli 2",
         "6468 Attinghausen"
       ],
-      "address_type": "praesidium",
+      "address_type": "uid",
       "email": "praesident@kath-attinghausen.ch",
       "website": "https://www.attinghausen.ch/index.php/politik/behoerden-und-kommissionen/kirchenrat",
-      "source": "https://www.attinghausen.ch/index.php/politik/behoerden-und-kommissionen/kirchenrat",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108929696",
       "bfs": [
         1203
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen; Funktionsadresse des Präsidiums vorhanden."
+      "confidence": "medium",
+      "note": "Kirchenrat publiziert nur Privatadressen; Funktionsadresse des Präsidiums vorhanden. | Nachrecherche 28.10.2026: UID CHE-108.929.696 «Röm.-kath. Kirchenverwaltung», Sitz Plattli 2, laut UID zustellbar (Prüfung 23.10.2026). Die Adresse ist zugleich die der Verwaltung des Kirchenrats (Name weggelassen). Alternative: Kath. Pfarramt St. Andreas, Kirchweg 12, 6468 Attinghausen (UID CHE-192.584.182, zustellbar)."
     },
     {
       "id": "ur-bauen",
       "name": "Römisch-katholische Kirchgemeinde Bauen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Bauen",
-        "6466 Bauen"
+        "Kirchenrat",
+        "c/o Sekretariat Seelsorgeraum Seedorf-Bauen-Isenthal",
+        "Dorfstrasse 116",
+        "6462 Seedorf UR"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "website": "https://sebais.ch/",
-      "source": "https://sebais.ch/pfarrei-bauen/ueber-uns/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108934094",
       "bfs": [],
       "partial_bfs": [
         1214
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Keine Postadresse publiziert. Die politische Gemeinde Bauen ist heute Teil von Seedorf, die Kirchgemeinde Bauen besteht weiter (Kirchenrat Bauen 2026)."
+      "confidence": "medium",
+      "note": "Keine Postadresse publiziert. Die politische Gemeinde Bauen ist heute Teil von Seedorf, die Kirchgemeinde Bauen besteht weiter (Kirchenrat Bauen 2026). | Nachrecherche 28.10.2026: UID-Eintrag der «Kirchenverwaltung» Bauen ohne Strasse; gemeinsames Sekretariat des Seelsorgeraums in Seedorf (sebais.ch), Adresse aus dem UID-Register «Seelsorgeraum», Dorfstrasse 116, 6462 Seedorf UR (CHE-108.934.094, zustellbar). Der Kirchenrat Bauen ist auf sebais.ch 2026 weiter eigenständig aufgeführt.",
+      "email": "pfarrei@sebais.ch"
     },
     {
       "id": "ur-bristen",
       "name": "Römisch-katholische Kirchgemeinde Bristen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Bristen",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Dorf 23",
         "6475 Bristen"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "website": "https://www.pfarreien-ambrisi.ch/",
-      "source": "https://www.pfarreien-ambrisi.ch/kirchenrat-bristen.html",
+      "source": "https://www.pfarreien-ambrisi.ch/pfarreisekretariate.html",
       "bfs": [],
       "partial_bfs": [
         1216
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen. Liegt in der politischen Gemeinde Silenen (Bristen/Maderanertal)."
+      "confidence": "medium",
+      "note": "Kirchenrat publiziert nur Privatadressen. Liegt in der politischen Gemeinde Silenen (Bristen/Maderanertal). | Nachrecherche 28.10.2026: Kath. Pfarramt Bristen, Dorf 23 (Pfarreisekretariate-Seite); dieselbe Adresse ist im UID-Register Sitz der «Röm.-kath. Kirchenverwaltung» Bristen (CHE-108.934.214, Zustellbarkeit nicht bestätigt)."
     },
     {
       "id": "ur-buerglen",
@@ -165,7 +182,7 @@
         "Römisch-katholische Kirchgemeinde Bürglen",
         "Kirchenrat",
         "Klausenstrasse 138",
-        "6463 Bürglen"
+        "6463 Bürglen UR"
       ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-buerglen.ch/",
@@ -175,7 +192,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Gemeinsame Website von Pfarrei und Kirchgemeinde; einzige publizierte Postadresse ist das Katholische Pfarramt Klausenstrasse 138. Die Kirchenrat-Seite war am 28.10.2026 nicht erreichbar (404)."
+      "note": "Gemeinsame Website von Pfarrei und Kirchgemeinde; einzige publizierte Postadresse ist das Katholische Pfarramt Klausenstrasse 138. Die Kirchenrat-Seite war am 28.10.2026 nicht erreichbar (404). | Nachrecherche 28.10.2026: PLZ-Ortsname auf den amtlichen Namen gemäss Ortschaftenverzeichnis angepasst."
     },
     {
       "id": "ur-erstfeld",
@@ -220,102 +237,117 @@
       "name": "Römisch-katholische Kirchgemeinde Göschenen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Göschenen",
+        "Breiti 3",
         "6487 Göschenen"
       ],
-      "address_type": "praesidium",
+      "address_type": "uid",
       "website": "https://www.goeschenen.ch/leben/kirche",
-      "source": "https://www.goeschenen.ch/leben/kirche",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE395495417",
       "bfs": [
         1208
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Keine Postadresse gefunden; die Website des Seelsorgeraums Urner Oberland (pfarreien.ch) war am 28.10.2026 nicht erreichbar."
+      "confidence": "medium",
+      "note": "Nachrecherche 28.10.2026: UID CHE-395.495.417 «Katholische Kirchgemeinde Göschenen», Sitz Breiti 3 mit c/o einer Privatperson (Name weggelassen), laut UID zustellbar (Prüfung 30.09.2026). Alternative: Sekretariat Seelsorgeraum Urner Oberland, Dorfstrasse 12, 6482 Gurtnellen (pfarreien.ch)."
     },
     {
       "id": "ur-gurtnellen-dorf",
       "name": "Römisch-katholische Kirchgemeinde Gurtnellen Dorf",
       "postal": [
         "Römisch-katholische Kirchgemeinde Gurtnellen Dorf",
+        "Dorfstrasse 56",
         "6482 Gurtnellen"
       ],
-      "address_type": "praesidium",
+      "address_type": "uid",
       "website": "https://www.pfarreien.ch/",
-      "source": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE176895063",
       "bfs": [],
       "partial_bfs": [
         1209
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Keine Postadresse gefunden; pfarreien.ch war am 28.10.2026 nicht erreichbar."
+      "confidence": "medium",
+      "note": "Nachrecherche 28.10.2026: UID CHE-176.895.063 «Röm.-Kath. Kirchgemeinde St. Michael» (Pfarrkirche St. Michael in Gurtnellen Dorf laut pfarreien.ch/kirchen), Sitz Dorfstrasse 56 mit c/o einer Privatperson (Name weggelassen), laut UID zustellbar (Prüfung 30.09.2026)."
     },
     {
       "id": "ur-gurtnellen-wiler",
       "name": "Römisch-katholische Kirchgemeinde Gurtnellen Wiler",
       "postal": [
         "Römisch-katholische Kirchgemeinde Gurtnellen Wiler",
+        "Kirchenrat",
+        "c/o Sekretariat Seelsorgeraum Urner Oberland",
+        "Dorfstrasse 12",
         "6482 Gurtnellen"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "website": "https://www.pfarreien.ch/",
-      "source": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+      "source": "https://www.pfarreien.ch/kontakt",
       "bfs": [],
       "partial_bfs": [
         1209
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Keine Postadresse gefunden; pfarreien.ch war am 28.10.2026 nicht erreichbar."
+      "confidence": "medium",
+      "note": "Nachrecherche 28.10.2026: UID-Eintrag «Kirchenverwaltung St. Josef» (CHE-341.054.762) ohne Strasse; erfasst ist das Sekretariat des Seelsorgeraums Urner Oberland (Göschenen, Gurtnellen, Wassen), Dorfstrasse 12, laut pfarreien.ch/kontakt und UID CHE-191.169.656 (zustellbar).",
+      "email": "pfarreien.oberland@bluewin.ch"
     },
     {
       "id": "ur-hospental",
       "name": "Römisch-katholische Kirchgemeinde Hospental",
       "postal": [
         "Römisch-katholische Kirchgemeinde Hospental",
+        "St. Karl 6",
         "6493 Hospental"
       ],
-      "address_type": "praesidium",
+      "address_type": "uid",
       "website": "https://www.hospental.ch/kirche.html/22",
-      "source": "https://www.hospental.ch/kirche.html/22",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108934160",
       "bfs": [
         1210
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen und Telefonnummern publiziert."
+      "confidence": "medium",
+      "note": "Kirchenrat nur mit Namen und Telefonnummern publiziert. | Nachrecherche 28.10.2026: UID CHE-108.934.160 «Katholische Kirchgemeinde Hospental», Sitz St. Karl 6 mit c/o einer Privatperson (Name weggelassen), laut UID zustellbar (Prüfung 16.10.2026). Alternative: Pfarreisekretariat Seelsorge Ursern, Kirchgasse 7, 6490 Andermatt."
     },
     {
       "id": "ur-isenthal",
       "name": "Römisch-katholische Kirchgemeinde Isenthal",
       "postal": [
         "Römisch-katholische Kirchgemeinde Isenthal",
-        "6461 Isenthal"
+        "Kirchenrat",
+        "c/o Sekretariat Seelsorgeraum Seedorf-Bauen-Isenthal",
+        "Dorfstrasse 116",
+        "6462 Seedorf UR"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "website": "https://isenthal.ch/politik/kirchenrat/",
-      "source": "https://isenthal.ch/politik/kirchenrat/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108934094",
       "bfs": [
         1211
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen publiziert."
+      "confidence": "medium",
+      "note": "Kirchenrat nur mit Namen publiziert. | Nachrecherche 28.10.2026: UID-Eintrag «Kirchenverwaltung Isenthal» (CHE-108.934.088) nur mit «Dorf» ohne Hausnummer; erfasst ist das gemeinsame Sekretariat des Seelsorgeraums in Seedorf (sebais.ch), Dorfstrasse 116 (UID CHE-108.934.094, zustellbar).",
+      "email": "pfarrei@sebais.ch"
     },
     {
       "id": "ur-realp",
       "name": "Römisch-katholische Kirchgemeinde Realp",
       "postal": [
         "Römisch-katholische Kirchgemeinde Realp",
-        "6491 Realp"
+        "Kirchenrat",
+        "c/o Pfarreisekretariat Seelsorge Ursern",
+        "Kirchgasse 7",
+        "6490 Andermatt"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "website": "https://realp.ch/politik/behoerdliche-einrichtungen/kirchenrat",
-      "source": "https://realp.ch/politik/behoerdliche-einrichtungen/kirchenrat",
+      "source": "https://www.seelsorgeursern.ch/",
       "bfs": [
         1212
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen publiziert (Co-Präsidium)."
+      "confidence": "medium",
+      "note": "Kirchenrat nur mit Namen publiziert (Co-Präsidium). | Nachrecherche 28.10.2026: UID CHE-493.542.845 «Katholische Kirchgemeinde Realp» ohne Strasse; erfasst ist das Pfarreisekretariat der Seelsorge Ursern (Andermatt, Hospental, Realp), Kirchgasse 7, 6490 Andermatt (seelsorgeursern.ch, von realp.ch verlinkt).",
+      "email": "sekretariat@seelsorgeursern.ch"
     },
     {
       "id": "ur-schattdorf",
@@ -341,17 +373,21 @@
       "name": "Römisch-katholische Kirchgemeinde Seedorf",
       "postal": [
         "Römisch-katholische Kirchgemeinde Seedorf",
+        "Kirchenrat",
+        "c/o Sekretariat Seelsorgeraum Seedorf-Bauen-Isenthal",
+        "Dorfstrasse 116",
         "6462 Seedorf UR"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "website": "https://sebais.ch/",
-      "source": "https://sebais.ch/pfarrei-seedorf/ueber-uns/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108934094",
       "bfs": [],
       "partial_bfs": [
         1214
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen publiziert."
+      "confidence": "medium",
+      "note": "Kirchenrat nur mit Namen publiziert. | Nachrecherche 28.10.2026: Kein UID-Eintrag der Kirchgemeinde gefunden; erfasst ist das gemeinsame Sekretariat des Seelsorgeraums in Seedorf (sebais.ch), Dorfstrasse 116 (UID «Seelsorgeraum» CHE-108.934.094, zustellbar).",
+      "email": "pfarrei@sebais.ch"
     },
     {
       "id": "ur-seelisberg",
@@ -378,34 +414,38 @@
       "name": "Römisch-katholische Kirchgemeinde Silenen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Silenen",
+        "Kirchenrat",
+        "c/o Kath. Pfarramt",
+        "Kirchstrasse 40",
         "6473 Silenen"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "website": "https://www.pfarreien-ambrisi.ch/",
-      "source": "https://www.pfarreien-ambrisi.ch/kirchenrat-silenen.html",
+      "source": "https://www.pfarreien-ambrisi.ch/pfarreisekretariate.html",
       "bfs": [],
       "partial_bfs": [
         1216
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen."
+      "confidence": "medium",
+      "note": "Kirchenrat publiziert nur Privatadressen. | Nachrecherche 28.10.2026: Kein UID-Eintrag der Kirchgemeinde gefunden; Kath. Pfarramt Silenen, Kirchstrasse 40 (Pfarreisekretariate-Seite; UID «Röm.-katholisches Pfarramt» CHE-343.373.600, zustellbar)."
     },
     {
       "id": "ur-sisikon",
       "name": "Katholische Kirchgemeinde Sisikon",
       "postal": [
         "Katholische Kirchgemeinde Sisikon",
+        "Kirchenweg 4",
         "6452 Sisikon"
       ],
-      "address_type": "praesidium",
+      "address_type": "uid",
       "website": "https://www.sisikon.ch/religionkirche",
-      "source": "https://www.sisikon.ch/religionkirche",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108934042",
       "bfs": [
         1217
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen."
+      "note": "Kirchenrat publiziert nur Privatadressen. | Nachrecherche 28.10.2026: UID CHE-108.934.042 «Röm.-kath. Kirchenverwaltung Sisikon», Sitz Kirchenweg 4, Zustellbarkeit laut UID nicht bestätigt (Prüfung 13.09.2026). Die Gemeinde-Website nennt sonst nur Privatadressen."
     },
     {
       "id": "ur-spiringen",
@@ -442,24 +482,28 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Keine Kirchgemeinde-Adresse gefunden."
+      "note": "Postadresse auf der Website prüfen. Keine Kirchgemeinde-Adresse gefunden. | Nachrecherche 28.10.2026: UID CHE-108.929.644 «Römisch-Katholische Kirchgemeinde Unterschächen» ohne Strasse, Zustellbarkeit nicht bestätigt; die Pfarrei publiziert nur eine E-Mail-Adresse (pfarramt.unterschaechen@bluewin.ch). Die Kirchenstiftung St. Theodul ist c/o Gemeindekanzlei eingetragen, das betrifft aber nicht die Kirchgemeinde."
     },
     {
       "id": "ur-wassen",
       "name": "Römisch-katholische Kirchgemeinde Wassen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Wassen",
-        "6484 Wassen UR"
+        "Kirchenrat",
+        "c/o Sekretariat Seelsorgeraum Urner Oberland",
+        "Dorfstrasse 12",
+        "6482 Gurtnellen"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "website": "https://www.pfarreien.ch/",
-      "source": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+      "source": "https://www.pfarreien.ch/kontakt",
       "bfs": [
         1220
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Umfasst vermutlich auch Meien (keine eigene Kirchgemeinde laut Verfassung). Keine Postadresse gefunden; pfarreien.ch war am 28.10.2026 nicht erreichbar."
+      "confidence": "medium",
+      "note": "Umfasst vermutlich auch Meien (keine eigene Kirchgemeinde laut Verfassung). | Nachrecherche 28.10.2026: UID-Eintrag «Kirchen- & Kapellenverwaltung Wassen» (CHE-430.240.344) ohne Strasse; erfasst ist das Sekretariat des Seelsorgeraums Urner Oberland, Dorfstrasse 12 (pfarreien.ch/kontakt; UID CHE-191.169.656, zustellbar).",
+      "email": "pfarreien.oberland@bluewin.ch"
     }
   ],
   "split": [
@@ -500,10 +544,14 @@
   ],
   "unmapped_bfs": [],
   "issues": [
+    "Gurtnellen: Die Ortschaft 6482 Gurtnellen umfasst die Kirchgemeinden Gurtnellen Dorf und Gurtnellen Wiler; eine Grenze (Strassen/Weiler) ist nicht publiziert. Ebenso fehlt die Zuordnung von Arni und vom Gurtneller Gebiet links der Reuss bei Amsteg (6474) und Silenen (6473) laut HLS-Artikel Gurtnellen. Klärung bei Seelsorgeraum Urner Oberland, Kirchenrat Amsteg oder Landeskirche Uri.",
+    "Unterschächen: Keine Postadresse der Kirchgemeinde oder des Pfarramts publiziert (UID ohne Strasse, Pfarrei nur E-Mail); dort steht nur Name + PLZ Ort. Adresse beim Pfarramt (E-Mail) oder bei der Landeskirche Uri erfragen.",
+    "Sisikon: UID-Sitz Kirchenweg 4 ohne bestätigte Zustellbarkeit (confidence low)."
+  ],
+  "grundlage": [
     "Die 23 Kirchgemeinden stehen in Art. 2 der Verfassung der Landeskirche Uri (2004); die Gebietsgrenzen sind dort nicht beschrieben (Art. 20: bisherige Gebietseinteilung gewährleistet). Die Zuordnung folgt der Aussage der Landeskirche, die Pfarreien seien weitgehend identisch mit den politischen Gemeinden, mit den Ausnahmen Altdorf, Silenen und Gurtnellen.",
-    "Kirchgemeinde Amsteg reicht laut Historischem Lexikon der Schweiz (Artikel Amsteg, 2001) bis Ried und Intschi; Intschi liegt in der politischen Gemeinde Gurtnellen. Eine aktuelle amtliche Gebietsumschreibung (Strassen/Ortsteile) für Silenen und Gurtnellen fehlt, ebenso die Zuordnung von Arni und des Gurtneller Gebiets links der Reuss.",
-    "Bauen/Seedorf: Die politischen Gemeinden sind fusioniert (Gemeindeliste 30.09.2026), die Kirchgemeinden Bauen und Seedorf bestehen laut sebais.ch weiter. Falls die Kirchgemeinden inzwischen auch fusioniert haben, sind ur-bauen und ur-seedorf zusammenzulegen.",
-    "15 Kirchgemeinden (Amsteg, Attinghausen, Bauen, Bristen, Göschenen, Gurtnellen Dorf, Gurtnellen Wiler, Hospental, Isenthal, Realp, Seedorf, Silenen, Sisikon, Unterschächen, Wassen) publizieren keine Postadresse ausser Privatadressen der Ratsmitglieder; dort steht nur Name + PLZ Ort. Vor Versand Adresse bei der Landeskirche Uri (Tellsgasse 18, Altdorf) erfragen.",
-    "Die Website des Seelsorgeraums Urner Oberland (pfarreien.ch: Göschenen, Gurtnellen, Wassen) war am 28.10.2026 nicht erreichbar (TLS-Fehler); dort stehen eventuell Kirchgemeinde-Adressen."
+    "Kirchgemeinde Amsteg umfasst laut Historischem Lexikon der Schweiz (Artikel Amsteg, 2001) auch die Weiler Ried (Gemeinde Silenen) und Intschi (Gemeinde Gurtnellen); ein Kirchenratsmitglied Amsteg wohnt 2026 in Intschi (pfarreien-ambrisi.ch).",
+    "Bauen/Seedorf: Die politischen Gemeinden sind fusioniert (Gemeindeliste 30.09.2026), die Kirchgemeinden nicht: sebais.ch führt 2026 je einen eigenen Kirchenrat für Seedorf, Bauen und Isenthal (Seelsorgeraum seit 2010, gemeinsames Sekretariat in Seedorf).",
+    "Adressen 28.10.2026 nachrecherchiert über das UID-Register (Suche nach Kirchgemeinde/Kirchenverwaltung/Pfarramt/Seelsorgeraum im Kanton Uri) und die Websites der Seelsorgeräume (pfarreien.ch, pfarreien-ambrisi.ch, sebais.ch, seelsorgeursern.ch). In Uri sind mehrere Kirchgemeinden im UID unter «Kirchenverwaltung» eingetragen."
   ]
 }

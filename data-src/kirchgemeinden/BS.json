@@ -4,7 +4,11 @@
     "name": "Römisch-Katholische Kirche des Kantons Basel-Stadt",
     "short": "RKK Basel-Stadt",
     "website": "https://www.rkk-bs.ch",
-    "postal": ["Römisch-Katholische Kirche Basel-Stadt", "Lindenberg 10", "4058 Basel"]
+    "postal": [
+      "Römisch-Katholische Kirche Basel-Stadt",
+      "Lindenberg 10",
+      "4058 Basel"
+    ]
   },
   "austritt": {
     "recipient": "Römisch-Katholische Kirche des Kantons Basel-Stadt, Mitgliederverwaltung",
@@ -29,15 +33,24 @@
     {
       "id": "bs-rkk",
       "name": "Römisch-Katholische Kirche des Kantons Basel-Stadt",
-      "postal": ["Römisch-Katholische Kirche des Kantons Basel-Stadt", "Mitgliederverwaltung", "Lindenberg 10", "4058 Basel"],
+      "postal": [
+        "Römisch-Katholische Kirche des Kantons Basel-Stadt",
+        "Mitgliederverwaltung",
+        "Lindenberg 10",
+        "4058 Basel"
+      ],
       "address_type": "kanton",
       "email": "mitgliederverwaltung@rkk-bs.ch",
       "website": "https://www.rkk-bs.ch",
       "source": "https://www.rkk-bs.ch/kantonalkirche/verwaltung/Mitgliederverwaltung",
-      "bfs": [2701, 2702, 2703],
+      "bfs": [
+        2701,
+        2702,
+        2703
+      ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Verfassung § 2: Mitglied der Kantonalkirche ist jede/r röm.-kath. Kantonseinwohner/in; Austritt aus der Kantonalkirche schriftlich (§ 2 Abs. 3). Austrittserklärungen bearbeitet laut RKK BS die Mitgliederverwaltung. Riehen und Bettingen gehören zur Pfarrei St. Franziskus."
+      "note": "Verfassung § 2: Mitglied der Kantonalkirche ist jede/r röm.-kath. Kantonseinwohner/in; Austritt aus der Kantonalkirche schriftlich (§ 2 Abs. 3). Austrittserklärungen bearbeitet laut RKK BS die Mitgliederverwaltung. Riehen und Bettingen gehören zur Pfarrei St. Franziskus. | Nachrecherche 28.10.2026: Angaben auf rkk-bs.ch unverändert: Austritt mit rechtsgültig unterzeichnetem Schreiben an die Mitgliederverwaltung, Lindenberg 10, 4058 Basel; nicht per E-Mail oder elektronisch; Bestätigung nach 2–4 Wochen."
     }
   ],
   "split": [],

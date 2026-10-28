@@ -105,7 +105,13 @@
     "https://kath-gaster.ch/weesen/kirchenverwaltung/",
     "https://www.kath-msl.ch/impressum/",
     "https://kath-widnau.ch/kontakte/",
-    "https://kathwil.ch/ueber-uns/administration/"
+    "https://kathwil.ch/ueber-uns/administration/",
+    "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.31",
+    "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.33",
+    "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.34",
+    "https://www.isil.nb.admin.ch/de/institutions/archiv-katholische-kirchgemeinde-und-pfarrei-st-johannes-der-taufer-hagenwil-ch-001793-x",
+    "https://pastoralraum-bischofsberg.ch/pfarreien/sitterdorf/",
+    "https://www.haeggenschwil.ch/_rte/anlass/7729159"
   ],
   "kirchgemeinden": [
     {
@@ -115,14 +121,14 @@
         "Katholische Kirchgemeinde Abtwil-St.Josefen",
         "Pfarreisekretariat Abtwil",
         "Kirchweg 7",
-        "9030 Abtwil"
+        "9030 Abtwil SG"
       ],
       "address_type": "pfarramt",
       "email": "pfarreisekretariat@kath-abtwil.ch",
       "website": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-abtwil-st-josefen/",
       "source": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-abtwil-st-josefen/kontakt/",
       "confidence": "medium",
-      "note": "Kontaktseite der KG nennt nur das Pfarreisekretariat als Postadresse; KVR-Präsidium per Funktionsadresse praesidium@kath-abtwil.ch erreichbar.",
+      "note": "Kontaktseite der KG nennt nur das Pfarreisekretariat als Postadresse; KVR-Präsidium per Funktionsadresse praesidium@kath-abtwil.ch erreichbar. | Nachrecherche 28.10.2026: Ortsname amtlich «Abtwil SG» (Ortschaftenverzeichnis).",
       "bfs": [],
       "partial_bfs": [
         3442
@@ -217,13 +223,13 @@
         "Katholische Kirchgemeinde Andwil-Arnegg",
         "Katholische Kirchenverwaltung Andwil-Arnegg",
         "Arneggerstrasse 3",
-        "9204 Andwil"
+        "9204 Andwil SG"
       ],
       "address_type": "verwaltung",
       "website": "https://www.kathandwilarnegg.ch/",
       "source": "https://www.kathandwilarnegg.ch/kvr",
       "confidence": "high",
-      "note": "otmarpfarrei.ch leitet auf kathandwilarnegg.ch um; Kirchenverwaltung und Pfarramt unter derselben Adresse.",
+      "note": "otmarpfarrei.ch leitet auf kathandwilarnegg.ch um; Kirchenverwaltung und Pfarramt unter derselben Adresse. | Nachrecherche 28.10.2026: Ortsname amtlich «Andwil SG» (Ortschaftenverzeichnis).",
       "bfs": [
         3441
       ],
@@ -239,14 +245,14 @@
         "Katholische Kirchgemeinde Au SG",
         "c/o Pfarreisekretariat",
         "Kirchweg 10",
-        "9434 Au"
+        "9434 Au SG"
       ],
       "address_type": "pfarramt",
       "email": "sekretariat@kath-au.ch",
       "website": "https://kath-au.ch",
       "source": "https://kath-au.ch/impressum/",
       "confidence": "medium",
-      "note": "KVR-Kontakt nur Privatadresse des Präsidiums (auch für Anträge, Jahresrechnung 2025); Kontaktadresse der Pfarrei Au SG.",
+      "note": "KVR-Kontakt nur Privatadresse des Präsidiums (auch für Anträge, Jahresrechnung 2025); Kontaktadresse der Pfarrei Au SG. | Nachrecherche 28.10.2026: Ortsname amtlich «Au SG» (Ortschaftenverzeichnis).",
       "bfs": [],
       "partial_bfs": [
         3231
@@ -299,14 +305,14 @@
         "Kirchenverwaltungsrat",
         "c/o Sekretariat",
         "Schulstrasse 7",
-        "8717 Benken"
+        "8717 Benken SG"
       ],
       "address_type": "pfarramt",
       "email": "sekretariat.benken@kath-gaster.ch",
       "website": "https://kath-gaster.ch/",
       "source": "https://www.benken.ch/kathkirche",
       "confidence": "high",
-      "note": "Politische Gemeinde nennt Sekretariat Schulstrasse 7 als Kontakt der Kath. Kirchgemeinde; = Pfarramt Benken (https://kath-gaster.ch/benken/pfarreisekretariat/).",
+      "note": "Politische Gemeinde nennt Sekretariat Schulstrasse 7 als Kontakt der Kath. Kirchgemeinde; = Pfarramt Benken (https://kath-gaster.ch/benken/pfarreisekretariat/). | Nachrecherche 28.10.2026: Ortsname amtlich «Benken SG» (Ortschaftenverzeichnis).",
       "bfs": [
         3312
       ],
@@ -542,13 +548,13 @@
         "Katholische Kirchgemeinde Eschenbach",
         "Geschäftsstelle",
         "Müliweierstrasse 9",
-        "8733 Eschenbach"
+        "8733 Eschenbach SG"
       ],
       "address_type": "verwaltung",
       "website": "https://kath-eschenbach.ch/",
       "source": "https://kath-eschenbach.ch/kirchgemeinde/geschaeftsstelle/",
       "confidence": "medium",
-      "note": "Von der KG publizierte Kontaktadresse der Geschäftsstelle (Aktuariat/Kassieramt), an die Stelleninhaberin gebunden (wohl Büro im Wohnhaus). Alternative: Pfarramt Kirchweg 4, 8733 Eschenbach SG. KG umfasst Pfarreien Eschenbach, Goldingen, St. Gallenkappel, Walde; keine neue Fusion gefunden.",
+      "note": "Von der KG publizierte Kontaktadresse der Geschäftsstelle (Aktuariat/Kassieramt), an die Stelleninhaberin gebunden (wohl Büro im Wohnhaus). Alternative: Pfarramt Kirchweg 4, 8733 Eschenbach SG. KG umfasst Pfarreien Eschenbach, Goldingen, St. Gallenkappel, Walde; keine neue Fusion gefunden. | Nachrecherche 28.10.2026: Ortsname amtlich «Eschenbach SG» (Ortschaftenverzeichnis).",
       "bfs": [
         3342
       ],
@@ -604,13 +610,13 @@
         "Katholische Kirchgemeinde Gossau",
         "Katholische Kirchenverwaltung Gossau",
         "Herisauerstrasse 5",
-        "9200 Gossau"
+        "9200 Gossau SG"
       ],
       "address_type": "verwaltung",
       "website": "https://www.kathgossau.ch/",
       "source": "https://www.kathgossau.ch/sekretariat",
       "confidence": "high",
-      "note": "Kirchenverwaltung mit Kirchgemeindesekretariat im selben Haus wie das Pfarramt.",
+      "note": "Kirchenverwaltung mit Kirchgemeindesekretariat im selben Haus wie das Pfarramt. | Nachrecherche 28.10.2026: Ortsname amtlich «Gossau SG» (Ortschaftenverzeichnis).",
       "bfs": [],
       "partial_bfs": [
         3443
@@ -694,11 +700,10 @@
       "website": "https://altkon.ch/",
       "source": "https://altkon.ch/pfarreisekretariate",
       "confidence": "medium",
-      "note": "KVR nur mit Privatadressen publiziert. KG umfasst laut Kanton TG auch Teile von Roggwil TG. Fusion: Häggenschwil, Muolen und Wittenbach vereinigen sich zur Katholischen Kirchgemeinde Alte Konstanzerstrasse, Start 1.1.2028 (Stelleninserat der neuen KG, inzwischen offline); konstituierende Kirchbürgerversammlung 28.10.2026 (haeggenschwil.ch). Bis Ende 2027 bleibt die bisherige KG Empfängerin.",
-      "bfs": [
-        3201
-      ],
+      "note": "KVR nur mit Privatadressen publiziert. KG umfasst laut Kanton TG auch Teile von Roggwil TG. Fusion: Häggenschwil, Muolen und Wittenbach vereinigen sich zur Katholischen Kirchgemeinde Alte Konstanzerstrasse, Start 1.1.2028 (Stelleninserat der neuen KG, inzwischen offline); konstituierende Kirchbürgerversammlung 28.10.2026 (haeggenschwil.ch). Bis Ende 2027 bleibt die bisherige KG Empfängerin. | Nachrecherche 28.10.2026: Hof Raach (PLZ 9315 Winden) gehört nach der Vereinbarung vom 16.11.1983 (RB 188.33) zur KG Steinebrunn TG; der Geodatensatz SG00090 spart ihn aus. Häggenschwil umfasst dafür den Hof Ruggisberg in Roggwil TG (RB 188.34, siehe TG.json).",
+      "bfs": [],
       "partial_bfs": [
+        3201,
         3204
       ]
     },
@@ -788,14 +793,14 @@
         "Katholische Kirchgemeinde Lenggenwil",
         "c/o Sekretariat Seelsorgeeinheit Mittleres Fürstenland",
         "Kirchstrasse 34",
-        "9524 Zuzwil"
+        "9524 Zuzwil SG"
       ],
       "address_type": "sekretariat",
       "email": "info@semf.ch",
       "website": "https://www.semf.ch/",
       "source": "https://www.semf.ch/kontakt.html",
       "confidence": "medium",
-      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich).",
+      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich). | Nachrecherche 28.10.2026: Ortsname amtlich «Zuzwil SG» (Ortschaftenverzeichnis).",
       "bfs": [],
       "partial_bfs": [
         3423
@@ -1115,14 +1120,14 @@
         "Katholische Kirchgemeinde Niederhelfenschwil",
         "c/o Sekretariat Seelsorgeeinheit Mittleres Fürstenland",
         "Kirchstrasse 34",
-        "9524 Zuzwil"
+        "9524 Zuzwil SG"
       ],
       "address_type": "sekretariat",
       "email": "info@semf.ch",
       "website": "https://www.semf.ch/",
       "source": "https://www.semf.ch/kontakt.html",
       "confidence": "medium",
-      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich).",
+      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich). | Nachrecherche 28.10.2026: Ortsname amtlich «Zuzwil SG» (Ortschaftenverzeichnis).",
       "bfs": [],
       "partial_bfs": [
         3423
@@ -1388,13 +1393,13 @@
         "Katholische Kirchgemeinde Rüthi",
         "Kath. Kirchenverwaltung",
         "Postfach 29",
-        "9464 Rüthi"
+        "9464 Rüthi (Rheintal)"
       ],
       "address_type": "verwaltung",
       "website": "https://www.se-blattenberg.ch/de/ruethi-lienz/home",
       "source": "https://www.se-blattenberg.ch/de/ruethi-lienz/wir-sind-fuer-sie-da",
       "confidence": "high",
-      "note": "Ausdrücklich als Postadresse des Kirchenverwaltungsrats publiziert (Pfarrei Rüthi-Lienz).",
+      "note": "Ausdrücklich als Postadresse des Kirchenverwaltungsrats publiziert (Pfarrei Rüthi-Lienz). | Nachrecherche 28.10.2026: Ortsname amtlich «Rüthi (Rheintal)» (Ortschaftenverzeichnis).",
       "bfs": [
         3256
       ],
@@ -1491,14 +1496,14 @@
         "Kirchenverwaltung St.Gallen",
         "Gallusstrasse 34",
         "Postfach 1117",
-        "9001 St.Gallen"
+        "9001 St. Gallen"
       ],
       "address_type": "verwaltung",
       "email": "verwaltung@kathsg.ch",
       "website": "https://kathsg.ch/",
       "source": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-stadt-st-gallen/kontakt-und-team/",
       "confidence": "high",
-      "note": "Umfasst auch einen Teil der politischen Gemeinde Wittenbach. Laut kathsg.ch/katholisch-werden verlangt die KG für den Austritt eine handschriftliche, amtlich beglaubigte Unterschrift.",
+      "note": "Umfasst auch einen Teil der politischen Gemeinde Wittenbach. Laut kathsg.ch/katholisch-werden verlangt die KG für den Austritt eine handschriftliche, amtlich beglaubigte Unterschrift. | Nachrecherche 28.10.2026: Ortsname amtlich «St. Gallen» (Ortschaftenverzeichnis).",
       "bfs": [
         3203
       ],
@@ -1513,14 +1518,14 @@
         "Katholische Kirchgemeinde St. Margrethen",
         "c/o Katholisches Pfarramt",
         "Kaplaneistrasse 3",
-        "9430 St. Margrethen"
+        "9430 St. Margrethen SG"
       ],
       "address_type": "pfarramt",
       "email": "sekretariat@kath-stmargrethen.ch",
       "website": "https://www.kath-stmargrethen.ch",
       "source": "https://www.kath-buechberg.ch/pfarrei-st-margrethen/personen/sekretariat",
       "confidence": "medium",
-      "note": "KG nennt keine eigene Postadresse (Amtsbericht 2025: Unterlagen beim Aktuariat an Privatadresse); Pfarrsekretariat. Gemeinde-Website stmargrethen.ch mit curl/WebFetch 403.",
+      "note": "KG nennt keine eigene Postadresse (Amtsbericht 2025: Unterlagen beim Aktuariat an Privatadresse); Pfarrsekretariat. Gemeinde-Website stmargrethen.ch mit curl/WebFetch 403. | Nachrecherche 28.10.2026: Ortsname amtlich «St. Margrethen SG» (Ortschaftenverzeichnis).",
       "bfs": [
         3236
       ],
@@ -1857,14 +1862,14 @@
         "Katholische Kirchgemeinde Wil",
         "Administration Pfarreizentrum Wil",
         "Lerchenfeldstrasse 3",
-        "9500 Wil"
+        "9500 Wil SG"
       ],
       "address_type": "verwaltung",
       "email": "info@kathwil.ch",
       "website": "https://kathwil.ch/",
       "source": "https://kathwil.ch/ueber-uns/administration/",
       "confidence": "high",
-      "note": "Administration ist für die Gesamtverwaltung der Pfarr- und Kirchgemeinde zuständig. KG-Gebiet umfasst laut Website auch Wilen TG und Rickenbach TG sowie Teile von Kirchberg SG und Zuzwil SG.",
+      "note": "Administration ist für die Gesamtverwaltung der Pfarr- und Kirchgemeinde zuständig. KG-Gebiet umfasst laut Website auch Wilen TG und Rickenbach TG sowie Teile von Kirchberg SG und Zuzwil SG. | Nachrecherche 28.10.2026: Ortsname amtlich «Wil SG» (Ortschaftenverzeichnis).",
       "bfs": [
         3427
       ],
@@ -1921,28 +1926,119 @@
         "Katholische Kirchgemeinde Zuzwil-Züberwangen",
         "c/o Sekretariat Seelsorgeeinheit Mittleres Fürstenland",
         "Kirchstrasse 34",
-        "9524 Zuzwil"
+        "9524 Zuzwil SG"
       ],
       "address_type": "sekretariat",
       "email": "info@semf.ch",
       "website": "https://www.semf.ch/",
       "source": "https://www.semf.ch/kontakt.html",
       "confidence": "medium",
-      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich).",
+      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich). | Nachrecherche 28.10.2026: Ortsname amtlich «Zuzwil SG» (Ortschaftenverzeichnis).",
       "bfs": [],
       "partial_bfs": [
         3426
+      ]
+    },
+    {
+      "id": "tg-hagenwil",
+      "name": "Katholische Kirchgemeinde Hagenwil bei Amriswil",
+      "postal": [
+        "Katholische Kirchgemeinde Hagenwil bei Amriswil",
+        "Hofwiesstrasse 1",
+        "8580 Hagenwil b. Amriswil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kath-hagenwil.ch/",
+      "source": "http://files.designer.hoststar.ch/4c/37/4c376bb1-ff8c-495b-a406-6fb106af1ac3.pdf",
+      "confidence": "medium",
+      "note": "Thurgauer KG; umfasst st. gallische Kircheinwohner in der Gemeinde Muolen (Übereinkunft 1869, RB 188.31; Archiv Hagenwil im ISIL-Verzeichnis: Besteuerung der st. gallischen Kirchbürger nach Thurgauer Recht seit 1948, Vereinbarung PG Muolen–KG Hagenwil betr. Steuereinzug 1989). Es gilt Thurgauer Recht. | Nachrecherche 28.10.2026: Die betroffenen Weiler liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 und grenzen an Hagenwil; die genaue Grenze zur Pfarrei Sitterdorf ist nicht publiziert.",
+      "bfs": [],
+      "partial_bfs": [
+        3202
+      ]
+    },
+    {
+      "id": "tg-bischofszell",
+      "name": "Katholische Kirchgemeinde Bischofszell",
+      "postal": [
+        "Katholische Kirchgemeinde Bischofszell",
+        "Kirchgemeinderat",
+        "Schottengasse 7",
+        "9220 Bischofszell"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat.bischofszell@pastoralraum-bischofsberg.ch",
+      "website": "https://pastoralraum-bischofsberg.ch/",
+      "source": "https://pastoralraum-bischofsberg.ch/kirchgemeinde-bischofszell/",
+      "confidence": "high",
+      "note": "Thurgauer KG (seit 2019 Bischofszell und Sitterdorf). Pfarrei Sitterdorf: «ein kleiner Bereich innerhalb der Gemeinde Muolen» gehört dazu (pastoralraum-bischofsberg.ch/pfarreien/sitterdorf/); Übereinkunft 1869 (RB 188.31) für st. gallische Kircheinwohner in Sitterdorf. Es gilt Thurgauer Recht. | Nachrecherche 28.10.2026: Muolen (PLZ 9220: Oberegg, Unteregg, Rötel) und Waldkirch (PLZ 9213 Hauptwil und 9246 Niederbüren: Sorntal, Höfli, Rässenberg, Sornpark) liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 und grenzen nur an Gebiet der KG Bischofszell (Sitterdorf bzw. Hauptwil-Gottshaus); Zuordnung nach Lage, nicht ausdrücklich publiziert.",
+      "bfs": [],
+      "partial_bfs": [
+        3202,
+        3444
+      ]
+    },
+    {
+      "id": "tg-fischingen",
+      "name": "Katholische Kirchgemeinde Fischingen",
+      "postal": [
+        "Katholische Kirchgemeinde Fischingen",
+        "Kirchgemeinderat",
+        "Kurhausstrasse 29a",
+        "8374 Dussnang"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-fischingen.ch",
+      "website": "https://www.kath-fischingen.ch/de",
+      "source": "https://www.kath-fischingen.ch/de/gut-zu-wissen/sekretariat",
+      "confidence": "low",
+      "note": "Thurgauer KG; es gilt Thurgauer Recht. | Nachrecherche 28.10.2026: Die Weiler Buomberg, Ernstel, Underernstel (PLZ 8376 Fischingen) sowie Underschönau, Oberschönau, Gruebhalden, Schönauer Halde und Lettenbergweg (PLZ 9533 Dietschwil) der Gemeinde Kirchberg SG liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090. Sie grenzen an Fischingen/Oberwangen (KG Fischingen); Oberschönau und Lettenbergweg liegen auch nahe Littenheid (KG Sirnach). Zuordnung nach Lage, nicht ausdrücklich publiziert (low).",
+      "bfs": [],
+      "partial_bfs": [
+        3392
+      ]
+    },
+    {
+      "id": "tg-steinebrunn",
+      "name": "Katholische Kirchgemeinde Steinebrunn-Egnach",
+      "postal": [
+        "Katholische Kirchgemeinde Steinebrunn-Egnach",
+        "Kirchgemeinderat",
+        "Winzelnbergstrasse 15",
+        "9314 Steinebrunn"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-steinebrunn.ch",
+      "website": "https://www.kath-steinebrunn.ch/de",
+      "source": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.33",
+      "confidence": "high",
+      "note": "Thurgauer KG; umfasst nach der Vereinbarung vom 16.11.1983 (RB 188.33) die Katholiken auf dem Gebiet des Hofes Raach (Gemeinde Häggenschwil, PLZ 9315 Winden) als vollberechtigte Mitglieder mit Thurgauer Recht; Steuer nach st. gallischem Recht. | Nachrecherche 28.10.2026: Quelle https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.33; im Geodatensatz SG00090 als Aussparung der KG Häggenschwil.",
+      "bfs": [],
+      "partial_bfs": [
+        3201
       ]
     }
   ],
   "split": [
     {
       "bfs": 3202,
-      "how": "Grösster Teil: KG Muolen. Keiner st. gallischen Kirchgemeinde zugeordnet (laut Geodatensatz; vermutlich thurgauische KG – bei der politischen Gemeinde nachfragen): Adressen mit PLZ/Ort 8580 Hagenwil b. Amriswil, 9220 Bischofszell; Strassen/Weiler Hueb (Muolen), Rotzenwil (Muolen), Blasenberg (Muolen), Holzbifang (Muolen), Chatzensteig (Muolen), Sibenhusen (Muolen), Sonnental (teilweise) (Muolen), Grüenholz (Muolen), Höchi (Muolen), Unterfeld (Muolen) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "how": "Grösster Teil (Dorf Muolen und die meisten Weiler): KG Muolen. Einige Weiler im Westen gehören zu Thurgauer Kirchgemeinden: Hueb, Höchi, Sibenhusen, Blasenberg, Chatzensteig, Holzbifang, Grüenholz, der obere Teil von Sonnental und Pfin sowie die Adressen mit PLZ 8580 Hagenwil zur KG Hagenwil bei Amriswil; Oberegg, Unteregg und Rötel (PLZ 9220 Bischofszell) zur KG Bischofszell (Pfarrei Sitterdorf). Für Rotzenwil, Stocketen, Taa und Unterfeld ist offen, ob Hagenwil oder Sitterdorf zuständig ist – bei der KG Hagenwil nachfragen. Für die Thurgauer Kirchgemeinden gilt Thurgauer Recht (keine Beglaubigung).",
       "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
-        "9308 Lömmenschwil": "sg-muolen"
+        "9313 Muolen": "sg-muolen",
+        "9308 Lömmenschwil": "sg-muolen",
+        "Hueb": "tg-hagenwil",
+        "Höchi": "tg-hagenwil",
+        "Sibenhusen": "tg-hagenwil",
+        "Haspel": "tg-hagenwil",
+        "Blasenberg": "tg-hagenwil",
+        "Chatzensteig": "tg-hagenwil",
+        "Holzbifang": "tg-hagenwil",
+        "Grüenholz": "tg-hagenwil",
+        "Sonnental (oberer Teil Richtung Rotzenwil)": "tg-hagenwil",
+        "8580 Hagenwil b. Amriswil": "tg-hagenwil",
+        "9220 Bischofszell (Oberegg, Unteregg, Rötel)": "tg-bischofszell"
       }
     },
     {
@@ -2257,25 +2353,32 @@
     },
     {
       "bfs": 3392,
-      "how": "Grösster Teil: KG Alttoggenburg. KG Wil: Adressen mit PLZ/Ort 9500 Wil SG, 9532 Rickenbach b. Wil; Strassen/Weiler Oberbruberg (Kirchberg SG), Engi (Kirchberg SG), Underbruberg (Kirchberg SG), Fetzhof (Kirchberg SG), Rütihof (Kirchberg SG), Fetzwald (Kirchberg SG), Cholberg (teilweise) (Kirchberg SG), Sedelhof (Kirchberg SG), Langenau (teilweise) (Kirchberg SG), Ägelseehalden (Kirchberg SG) u. a. Keiner st. gallischen Kirchgemeinde zugeordnet (laut Geodatensatz; vermutlich thurgauische KG – bei der politischen Gemeinde nachfragen): Adressen mit PLZ/Ort 8376 Fischingen; Strassen/Weiler Underschönau (Kirchberg SG), Oberschönau (Kirchberg SG), Gruebhalden (Kirchberg SG), Lettenbergweg (Kirchberg SG), Schönauer Halde (Kirchberg SG). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "how": "Grösster Teil: KG Alttoggenburg. KG Wil: Adressen mit PLZ 9500 Wil und 9532 Rickenbach sowie die Weiler Oberbruberg, Underbruberg, Engi, Fetzhof, Fetzwald, Rütihof, Sedelhof, Ägelseehalden und Teile von Cholberg und Langenau. KG Fischingen (Thurgau): Adressen mit PLZ 8376 Fischingen (Buomberg, Ernstel, Underernstel) und die Weiler Underschönau, Oberschönau, Gruebhalden, Schönauer Halde und Lettenbergweg – Zuständigkeit bei der KG Fischingen bestätigen lassen. Im Zweifel die Strassensuche oder die Karte nutzen.",
       "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
-        "9500 Wil SG": "sg-wil",
-        "9532 Rickenbach b. Wil": "sg-wil",
+        "9533 Kirchberg SG": "sg-alttoggenburg",
+        "9533 Dietschwil": "sg-alttoggenburg",
         "9534 Gähwil": "sg-alttoggenburg",
         "9601 Lütisburg Station": "sg-alttoggenburg",
         "9602 Bazenheid": "sg-alttoggenburg",
         "9602 Müselbach": "sg-alttoggenburg",
         "9613 Mühlrüti": "sg-alttoggenburg",
-        "Oberbruberg (9533 Kirchberg SG)": "sg-wil",
-        "Engi (9533 Kirchberg SG)": "sg-wil",
-        "Underbruberg (9533 Kirchberg SG)": "sg-wil",
-        "Fetzhof (9533 Kirchberg SG)": "sg-wil",
-        "Rütihof (9533 Kirchberg SG)": "sg-wil",
-        "Fetzwald (9533 Kirchberg SG)": "sg-wil",
-        "Sedelhof (9533 Kirchberg SG)": "sg-wil",
-        "Ägelseehalden (9533 Kirchberg SG)": "sg-wil"
+        "9500 Wil SG": "sg-wil",
+        "9532 Rickenbach b. Wil": "sg-wil",
+        "Weiler Oberbruberg": "sg-wil",
+        "Weiler Underbruberg": "sg-wil",
+        "Weiler Engi": "sg-wil",
+        "Weiler Fetzhof": "sg-wil",
+        "Weiler Fetzwald": "sg-wil",
+        "Weiler Rütihof": "sg-wil",
+        "Weiler Sedelhof": "sg-wil",
+        "Weiler Ägelseehalden": "sg-wil",
+        "8376 Fischingen": "tg-fischingen",
+        "Weiler Underschönau": "tg-fischingen",
+        "Weiler Oberschönau": "tg-fischingen",
+        "Weiler Gruebhalden": "tg-fischingen",
+        "Weiler Schönauer Halde": "tg-fischingen"
       }
     },
     {
@@ -2531,7 +2634,7 @@
     },
     {
       "bfs": 3444,
-      "how": "Grösster Teil: KG Waldkirch. KG Bernhardzell: Adressen mit PLZ/Ort 9300 Wittenbach, 9304 Bernhardzell; Strassen/Weiler Tuggstein (Waldkirch), Leitobel (Waldkirch). Keiner st. gallischen Kirchgemeinde zugeordnet (laut Geodatensatz; vermutlich thurgauische KG – bei der politischen Gemeinde nachfragen): Adressen mit PLZ/Ort 9213 Hauptwil, 9246 Niederbüren. KG Andwil-Arnegg: Adressen mit PLZ/Ort 9204 Andwil SG; Strassen/Weiler Tal (Waldkirch), Sentiswis (Waldkirch), Anschwilerwald (Waldkirch). KG Engelburg: Adressen mit PLZ/Ort 9032 Engelburg; Strassen/Weiler Chorb (Waldkirch). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "how": "Grösster Teil: KG Waldkirch. KG Bernhardzell: Adressen mit PLZ 9300 Wittenbach, 9304 Bernhardzell sowie Tuggstein und Leitobel. KG Andwil-Arnegg: Adressen mit PLZ 9204 Andwil sowie Tal, Sentiswis und Anschwilerwald. KG Engelburg: Adressen mit PLZ 9032 Engelburg sowie Chorb. KG Bischofszell (Thurgau): Adressen mit PLZ 9213 Hauptwil (Sorntal, Höfli, Rässenberg) und 9246 Niederbüren (Sornpark); dort gilt Thurgauer Recht.",
       "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
@@ -2544,19 +2647,34 @@
         "Leitobel (9205 Waldkirch)": "sg-bernhardzell",
         "Sentiswis (9205 Waldkirch)": "sg-andwil-arnegg",
         "Anschwilerwald (9205 Waldkirch)": "sg-andwil-arnegg",
-        "Chorb (9205 Waldkirch)": "sg-engelburg"
+        "Chorb (9205 Waldkirch)": "sg-engelburg",
+        "9213 Hauptwil": "tg-bischofszell",
+        "9246 Niederbüren (Sornpark)": "tg-bischofszell"
+      }
+    },
+    {
+      "bfs": 3201,
+      "how": "Gemeinde Häggenschwil mit Lömmenschwil: KG Häggenschwil. Hof Raach (PLZ 9315 Winden): KG Steinebrunn-Egnach (Thurgau), dort gilt Thurgauer Recht.",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9312 Häggenschwil": "sg-haeggenschwil",
+        "9308 Lömmenschwil": "sg-haeggenschwil",
+        "Hof Raach (9315 Winden)": "tg-steinebrunn"
       }
     }
   ],
   "unmapped_bfs": [],
-  "issues": [
+  "grundlage": [
     "Beglaubigung bestätigt: Art. 6 Abs. 2 VKK (sGS 173.5) verlangt Schriftlichkeit und beglaubigte Unterschrift gegenüber dem Kirchenverwaltungsrat; der Wortlaut spricht vom Austritt «aus der römisch-katholischen Kirche».",
     "Zuordnung Gemeinde ↔ KG aus dem Geodatensatz SG00090 (Attribut «kath._Kirchgemeinde», 89 KG, Nachführung 06.08.2026) und den GWR-Gebäudeeingängen (Stand 28.10.2026) berechnet; Gemeinden mit Eingängen in mehreren KG sind als geteilt erfasst, auch bei wenigen Häusern.",
-    "Fusionen ab 1.1.2028 (noch nicht wirksam): Häggenschwil, Muolen, Wittenbach → KG «Alte Konstanzerstrasse»; Berg-Freidorf, Mörschwil, Steinach, Tübach → KG «Steinerburg» (nicht im Geodatensatz vermerkt). Vereinigung der 7 KG in Neutoggenburg in Prüfung.",
-    "Die Postadressen der KG-Präsidien im Verzeichnis sg.kath.ch sind Privatadressen und wurden nicht verwendet; viele KG publizieren keine eigene Adresse, daher Pfarrei-/Seelsorgeeinheits-Sekretariate (c/o, medium). Muolen: nur Kontaktadresse der Seelsorgeeinheit in Wittenbach (low).",
+    "Die Postadressen der KG-Präsidien im Verzeichnis sg.kath.ch sind Privatadressen und wurden nicht verwendet; viele KG publizieren keine eigene Adresse, daher Pfarrei-/Seelsorgeeinheits-Sekretariate (c/o, medium).",
     "Der Geodatensatz SG00090 umfasst auch Gebiete in TG, AR und AI (u. a. Freidorf/Roggwil TG, Rickenbach TG, Wilen TG, Schönengrund AR, Teile von Wolfhalden/Lutzenberg/Heiden AR und Oberegg AI); diese sind in den jeweiligen Kantonsdateien erfasst.",
-    "BFS 3202 Muolen: 221 Gebäudeeingänge liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 (8580 Hagenwil b. Amriswil, 9220 Bischofszell, 9313 Muolen); zuständige (vermutlich thurgauische) KG nicht ermittelt.",
-    "BFS 3392 Kirchberg (SG): 78 Gebäudeeingänge liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 (8376 Fischingen, 9533 Dietschwil); zuständige (vermutlich thurgauische) KG nicht ermittelt.",
-    "BFS 3444 Waldkirch: 36 Gebäudeeingänge liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 (9213 Hauptwil, 9246 Niederbüren); zuständige (vermutlich thurgauische) KG nicht ermittelt."
+    "Gebiete ausserhalb aller KG-Flächen des Geodatensatzes (Muolen, Kirchberg, Waldkirch, Hof Raach in Häggenschwil) gehören zu Thurgauer KG: Übereinkunft 1869 (RB 188.31: Hagenwil, Sitterdorf, Rickenbach mit st. gallischen Kircheinwohnern), Vereinbarungen 1983 (RB 188.33 Raach → Steinebrunn, RB 188.34 Ruggisberg → Häggenschwil), Pfarrei Sitterdorf («kleiner Bereich innerhalb der Gemeinde Muolen»), Archiv Hagenwil (ISIL). Weiler-Zuordnung mit GWR-Gebäudeeingängen (Stand 28.10.2026) und der Lage zur angrenzenden Thurgauer Siedlung (Siedlungsverzeichnis TG 2026)."
+  ],
+  "issues": [
+    "Fusionen ab 1.1.2028 noch nicht umgesetzt: Häggenschwil, Muolen, Wittenbach → KG «Alte Konstanzerstrasse» (konstituierende Kirchbürgerversammlung am 28.10.2026, haeggenschwil.ch nennt die neue KG bereits als Veranstalterin; Stichtag nur aus einem offline genommenen Stelleninserat, Postadresse der neuen KG nicht publiziert). Berg-Freidorf, Mörschwil, Steinach, Tübach → KG «Steinerburg» (Mitteilung Mai 2026, Beschluss nicht gefunden). Fehlt: Beschluss mit Stichtag (Protokoll bzw. Genehmigung durch das Katholische Kollegium) und Adresse. Vereinigung der 7 KG in Neutoggenburg in Prüfung.",
+    "Muolen: Grenze zwischen KG Hagenwil und KG Bischofszell (Pfarrei Sitterdorf) nicht publiziert; offen für Rotzenwil, Stocketen, Taa, Unterfeld (die übrigen Weiler nach Lage Hagenwil, PLZ 9220 Sitterdorf). Muolen selbst hat nur die Kontaktadresse der Seelsorgeeinheit in Wittenbach (low). Fehlt: Auskunft KG Hagenwil/Bischofszell.",
+    "Kirchberg: Weiler Schönau, Gruebhalden, Lettenbergweg und Buomberg/Ernstel (ausserhalb aller SG-KG) nach Lage der KG Fischingen TG zugeordnet; Oberschönau/Lettenbergweg könnten zur KG Sirnach gehören. Kein Vertrag publiziert. Fehlt: Bestätigung KG Fischingen."
   ]
 }

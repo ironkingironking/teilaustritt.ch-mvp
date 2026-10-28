@@ -64,7 +64,13 @@
     "https://www.katholischweinfelden.ch/impressum",
     "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/welfensberg/kirchgemeinderat-welfensberg-0",
     "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/aufgabe-wertbuehl-bussnang/kirchgemeinderat-wertbuehl-bussnang-0",
-    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/wuppenau/kirchgemeinderat-wuppenau-0"
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/wuppenau/kirchgemeinderat-wuppenau-0",
+    "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.31",
+    "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.33",
+    "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.34",
+    "https://lexfind.ch/tolv/71497/de",
+    "https://www.isil.nb.admin.ch/de/institutions/archiv-katholische-kirchgemeinde-und-pfarrei-st-johannes-der-taufer-hagenwil-ch-001793-x",
+    "https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf"
   ],
   "kirchgemeinden": [
     {
@@ -80,11 +86,33 @@
       "website": "https://pfarrei-berg-freidorf.ch/",
       "source": "https://pfarrei-berg-freidorf.ch/behoerden/kirchenverwaltungsrat/",
       "confidence": "medium",
-      "note": "St. gallische KG Berg-Freidorf; umfasst den Ortsteil Freidorf der Gemeinde Roggwil TG (Siedlungsverzeichnis TG 2026, Geodatensatz SG00090). Für Mitglieder einer st. gallischen KG gilt voraussichtlich st. gallisches Recht (beglaubigte Unterschrift) – Vertrag nicht publiziert.",
+      "note": "St. gallische KG Berg-Freidorf; umfasst den Ortsteil Freidorf der Gemeinde Roggwil TG (Siedlungsverzeichnis TG 2026, Geodatensatz SG00090). | Nachrecherche 28.10.2026: Vereinbarung vom 24.7.1998 (sGS 173.732): Die Katholiken in den Höfen, Weilern und Ortsteilen der Schulgemeinde Freidorf-Watt (südlich der Linie Sonneberg–Bauhof–Holzerhof, ohne Mammertshofen, Bauhof, Holzerhof, Baumühle) sind vollberechtigte Mitglieder der KG Berg und unterstehen st. gallischem Recht (Austritt mit beglaubigter Unterschrift, Art. 6 Abs. 2 VKK); Steuern nach Thurgauer Recht zum Steuerfuss der KG Arbon. Quelle: https://lexfind.ch/tolv/71497/de",
       "bfs": [],
       "partial_bfs": [
         4431
-      ]
+      ],
+      "public_note": "Für Freidorf gilt st. gallisches Recht: Die Unterschrift auf dem Austrittsschreiben muss amtlich beglaubigt sein."
+    },
+    {
+      "id": "sg-haeggenschwil",
+      "name": "Katholische Kirchgemeinde Häggenschwil",
+      "postal": [
+        "Katholische Kirchgemeinde Häggenschwil",
+        "Pfarreisekretariat Häggenschwil",
+        "Kirchweg 2",
+        "9312 Häggenschwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.haeggenschwil@altkon.ch",
+      "website": "https://altkon.ch/",
+      "source": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/188.34",
+      "confidence": "medium",
+      "note": "St. gallische KG; umfasst den Hof Ruggisberg (Gemeinde Roggwil TG, 9308 Lömmenschwil). | Nachrecherche 28.10.2026: Vereinbarung vom 16.11.1983 (RB 188.34, laut Rechtsbuch TG in Kraft): Die Katholiken auf dem Gebiet des Hofes Ruggisberg sind vollberechtigte Mitglieder der KG Häggenschwil und unterstehen st. gallischem Recht (beglaubigte Unterschrift, Art. 6 Abs. 2 VKK). Der Steuerfuss-Datensatz 2026 (sk-stat-72) führt Häggenschwil bei Roggwil. Siedlungsverzeichnis 2026 und Geodatensatz SG00090 nennen dagegen Berg (SG). Fusion zur KG Alte Konstanzerstrasse siehe SG.json.",
+      "bfs": [],
+      "partial_bfs": [
+        4431
+      ],
+      "public_note": "Für den Hof Ruggisberg gilt st. gallisches Recht: Die Unterschrift muss amtlich beglaubigt sein."
     },
     {
       "id": "sg-wil",
@@ -93,14 +121,14 @@
         "Katholische Kirchgemeinde Wil",
         "Administration Pfarreizentrum Wil",
         "Lerchenfeldstrasse 3",
-        "9500 Wil"
+        "9500 Wil SG"
       ],
       "address_type": "verwaltung",
       "email": "info@kathwil.ch",
       "website": "https://kathwil.ch/",
       "source": "https://kathwil.ch/ueber-uns/administration/",
       "confidence": "medium",
-      "note": "St. gallische KG Wil; die Katholiken von Rickenbach TG und Wilen TG sind vollberechtigte Mitglieder und unterstehen st. gallischem Recht (Vertrag Konfessionsteil SG – Landeskirche TG vom 9.12.2014, § 2–3): Austritt an den Kirchenverwaltungsrat Wil mit beglaubigter Unterschrift (Art. 6 Abs. 2 VKK).",
+      "note": "St. gallische KG Wil; die Katholiken von Rickenbach TG und Wilen TG sind vollberechtigte Mitglieder und unterstehen st. gallischem Recht (Vertrag Konfessionsteil SG – Landeskirche TG vom 9.12.2014, § 2–3): Austritt an den Kirchenverwaltungsrat Wil mit beglaubigter Unterschrift (Art. 6 Abs. 2 VKK). | Nachrecherche 28.10.2026: Ortsname amtlich «Wil SG» (Ortschaftenverzeichnis).",
       "bfs": [
         4751,
         4786
@@ -481,14 +509,14 @@
         "Katholische Kirchgemeinde Müllheim",
         "Kirchgemeinderat",
         "Storenberg 4",
-        "8555 Müllheim"
+        "8555 Müllheim Dorf"
       ],
       "address_type": "pfarramt",
       "email": "kathpfarrei.muellheim@bluewin.ch",
       "website": "https://www.kath-muellheim.ch/de",
       "source": "https://www.kath-muellheim.ch/de/kirchgemeinde-0/kirchgemeinderat",
       "confidence": "medium",
-      "note": "Nur Adresse Pfarrei Maria Himmelfahrt (Sekretariat) publiziert. Fusion Homburg+Pfyn+Müllheim zur KG «Seerücken-Thur» per 1.1.2027 geplant (Urnenabstimmung 29.11.2026; Verwaltung der neuen KG in Müllheim), Quelle: https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf",
+      "note": "Nur Adresse Pfarrei Maria Himmelfahrt (Sekretariat) publiziert. Fusion Homburg+Pfyn+Müllheim zur KG «Seerücken-Thur» per 1.1.2027 geplant (Urnenabstimmung 29.11.2026; Verwaltung der neuen KG in Müllheim), Quelle: https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf | Nachrecherche 28.10.2026: Ortsname amtlich «Müllheim Dorf» (Ortschaftenverzeichnis, GWR Storenberg 4).",
       "bfs": [
         4831,
         4951
@@ -852,6 +880,44 @@
         4756,
         4791
       ]
+    },
+    {
+      "id": "tg-seeruecken-thur",
+      "name": "Katholische Kirchgemeinde Seerücken-Thur",
+      "postal": [
+        "Katholische Kirchgemeinde Seerücken-Thur",
+        "Kirchgemeinderat",
+        "Storenberg 4",
+        "8555 Müllheim Dorf"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-muellheim.ch/de",
+      "source": "https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf",
+      "bfs": [],
+      "partial_bfs": [],
+      "confidence": "low",
+      "geplant": {
+        "ab": "2027-01-01",
+        "vorgaenger": [
+          "tg-homburg",
+          "tg-pfyn",
+          "tg-muellheim"
+        ],
+        "bfs": [
+          4831,
+          4841,
+          4846,
+          4951
+        ],
+        "partial_bfs": [
+          4590,
+          4701,
+          4811,
+          4816
+        ],
+        "vorbehalt": "Urnenabstimmung vom 29.11.2026 in allen drei KG"
+      },
+      "note": "Vorbereitet, noch nicht wirksam: Fusionsvertrag Homburg/Pfyn/Müllheim (Art. 1: Vereinigung auf den 1.1.2027, Art. 5: Name Seerücken-Thur, Art. 12: Verwaltung in Müllheim). Adresse = Pfarramt Müllheim, Storenberg 4 (bisher grösste KG), bis eine eigene Adresse publiziert ist. Nach Annahme am 29.11.2026: «geplant» auflösen (bfs/partial_bfs übernehmen, ab 2027-01-01) und Homburg, Pfyn, Müllheim mit bis 2026-12-31 und nachfolger versehen; bei Ablehnung Eintrag löschen. | Nachrecherche 28.10.2026: Eintrag angelegt nach Fusionsvertrag."
     }
   ],
   "split": [
@@ -879,7 +945,7 @@
     },
     {
       "bfs": 4431,
-      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Arbon. KG Berg-Freidorf: Freidorf, Neuwil, Haselacker, Hohenbühl, Watt, Habersack, Erchenwil, Lenggenhof, Jakobsberg, Ruggisberg, Tröstliwisen, Frohheim u. a. Laut Steuerfuss-Datensatz 2026 umfasst auch die st. gallische KG Häggenschwil Teile von Roggwil; im Siedlungsverzeichnis erscheint sie nicht.",
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Arbon. KG Berg-Freidorf (St. Gallen): Freidorf, Neuwil, Haselacker, Hohenbühl, Watt, Habersack, Erchenwil, Lenggenhof, Jakobsberg, Tröstliwisen, Frohheim, Grossacker, Näsler, Roggenbühl. KG Häggenschwil (St. Gallen): Hof Ruggisberg. Für Freidorf und Ruggisberg gilt st. gallisches Recht (beglaubigte Unterschrift).",
       "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
@@ -915,7 +981,7 @@
         "Erchenwil (9306 Freidorf)": "sg-berg-freidorf",
         "Lenggenhof (9306 Freidorf)": "sg-berg-freidorf",
         "Jakobsberg (9306 Freidorf)": "sg-berg-freidorf",
-        "Ruggisberg (9308 Lömmenschwil)": "sg-berg-freidorf",
+        "Ruggisberg (9308 Lömmenschwil)": "sg-haeggenschwil",
         "Tröstliwisen (9306 Freidorf)": "sg-berg-freidorf",
         "Frohheim (9306 Freidorf)": "sg-berg-freidorf",
         "Grossacker (9306 Freidorf)": "sg-berg-freidorf",
@@ -925,7 +991,7 @@
     },
     {
       "bfs": 4461,
-      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG St. Stefan Amriswil. Geteilt zwischen KG St. Stefan Amriswil und KG Hagenwil bei Amriswil und KG Sommeri (strassenweise, bei der Kirchgemeinde nachfragen): Amriswil. KG Sommeri: Oberaach (nördlich der Aach), Kronberg, Niederaach, Lampersbüel, Neuguet, Bismetwis, Wachthütte, Ebnet (Niederaach). KG Hagenwil bei Amriswil: Hagenwil, Räuchlisberg, Oberdorf, Spitzerüti, Underau, Oberau, Bergermüli, Roor. Geteilt zwischen KG St. Stefan Amriswil und KG Sommeri (strassenweise, bei der Kirchgemeinde nachfragen): Rüti. Geteilt zwischen KG St. Stefan Amriswil und KG Hagenwil bei Amriswil (strassenweise, bei der Kirchgemeinde nachfragen): Egg. KG Steinebrunn-Egnach: Almensberg.",
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. In der Stadt Amriswil grenzen die KG St. Stefan Amriswil, Hagenwil bei Amriswil und Sommeri strassenweise aneinander; die Strassen sind nicht veröffentlicht – bei der KG St. Stefan Amriswil nachfragen. Oberaach: nördlich der Aach KG Sommeri, südlich der Aach KG St. Stefan Amriswil. KG Sommeri: Kronberg, Niederaach, Lampersbüel, Neuguet, Bismetwis, Wachthütte, Ebnet (Niederaach). KG Hagenwil bei Amriswil: Hagenwil, Räuchlisberg, Oberdorf, Spitzerüti, Underau, Oberau, Bergermüli, Roor. KG Steinebrunn-Egnach: Almensberg. Rüti (Amriswil/Sommeri) und Egg (Amriswil/Hagenwil) sind strassenweise geteilt. Übrige Weiler (Hemmerswil, Mühlebach, Hölzli, Schocherswil, Biessenhofen u. a.): KG St. Stefan Amriswil.",
       "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
       "geodata": null,
       "ortsteile": {
@@ -1028,7 +1094,8 @@
         "Unter Heuberg (9223 Schweizersholz)": "tg-heiligkreuz",
         "Waldruh (9223 Halden)": "tg-heiligkreuz",
         "Tümpfel (9223 Schweizersholz)": "tg-sulgen",
-        "Friedberg (9223 Schweizersholz)": "tg-sulgen"
+        "Friedberg (9223 Schweizersholz)": "tg-sulgen",
+        "Sitterdorf (8589), Teil der Gemeinde Bischofszell": "tg-bischofszell"
       }
     },
     {
@@ -1150,7 +1217,9 @@
         "Käserei (9217 Neukirch an der Thur)": "tg-heiligkreuz",
         "Neuhof (9217 Neukirch an der Thur)": "tg-heiligkreuz",
         "Sunneblick (9217 Neukirch an der Thur)": "tg-heiligkreuz",
-        "Hueb (9217 Neukirch an der Thur)": "tg-heiligkreuz"
+        "Hueb (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Schönenberg an der Thur (9215)": "tg-sulgen",
+        "Neukirch an der Thur (9217), ohne die Weiler der KG Heiligkreuz": "tg-wertbuehl-bussnang"
       }
     },
     {
@@ -1175,7 +1244,8 @@
         "Buchschoren (8553 Harenwilen)": "tg-wertbuehl-bussnang",
         "Burg (8553 Harenwilen)": "tg-wertbuehl-bussnang",
         "Geere (8553 Harenwilen)": "tg-wertbuehl-bussnang",
-        "Neuhof (8553 Harenwilen)": "tg-wertbuehl-bussnang"
+        "Neuhof (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Hüttlingen (8553)": "tg-muellheim"
       }
     },
     {
@@ -1274,7 +1344,8 @@
         "Wiesental (8565 Hugelshofen)": "tg-berg-tg",
         "Mohnshaus (8565 Hugelshofen)": "tg-berg-tg",
         "Pilgerhof (8565 Hugelshofen)": "tg-berg-tg",
-        "Bolägete (8573 Altishausen)": "tg-berg-tg"
+        "Bolägete (8573 Altishausen)": "tg-berg-tg",
+        "Neuwilen (8566)": "tg-kreuzlingen-emmishofen"
       }
     },
     {
@@ -1678,7 +1749,8 @@
         "Blatten (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
         "Zollhaus (8554 Bonau)": "tg-wertbuehl-bussnang",
         "Eutenberg (8514 Amlikon-Bissegg)": "tg-tobel",
-        "Maltbach (Gemeinde Amlikon-Bissegg) (8514 Amlikon-Bissegg)": "tg-tobel"
+        "Maltbach (Gemeinde Amlikon-Bissegg) (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Amlikon-Bissegg (8514), übrige Siedlungen": "tg-wertbuehl-bussnang"
       }
     },
     {
@@ -1740,12 +1812,21 @@
     }
   ],
   "unmapped_bfs": [],
+  "grundlage": [
+    "Zuordnung Gemeinde ↔ KG aus dem kantonalen Siedlungsverzeichnis 2026 (data.tg.ch sk-stat-162, Feld kath_kirchgemeinde, mit Einwohnerzahl je Siedlung) und dem Steuerfuss-Datensatz 2026 (sk-stat-72, «besucht von polit. Gemeinden»); öffentliche Geodaten der KG-Grenzen gibt es im Thurgau nicht (Geodienst nur mit Login).",
+    "Siedlungsverzeichnis 2026 nennt noch die KG Basadingen, Diessenhofen und Paradies; diese sind seit 1.1.2026 zur KG Rodenberg-Rhy fusioniert (kath-amseeundrhy.ch) und hier zusammengefasst.",
+    "Rickenbach TG und Wilen TG gehören vertraglich zur st. gallischen KG Wil (Vertrag 9.12.2014): dort gilt st. gallisches Recht mit beglaubigter Unterschrift.",
+    "Freidorf (Roggwil): Vereinbarung vom 24.7.1998 (sGS 173.732, https://lexfind.ch/tolv/71497/de): Vollmitgliedschaft in der KG Berg (heute Berg-Freidorf), st. gallisches Recht.",
+    "Hof Ruggisberg (Roggwil): Vereinbarung vom 16.11.1983 (RB 188.34): Vollmitgliedschaft in der KG Häggenschwil, st. gallisches Recht; Steuerfuss-Datensatz 2026 nennt Häggenschwil bei Roggwil. Hof Raach (Häggenschwil SG) gehört nach RB 188.33 zur KG Steinebrunn (siehe SG.json).",
+    "Grenzgebiete SG: KG Hagenwil und Sitterdorf (heute KG Bischofszell) umfassen st. gallische Kircheinwohner (RB 188.31; Archiv Hagenwil im ISIL-Verzeichnis: Steuereinzug-Vereinbarung PG Muolen–KG Hagenwil 1989; Pfarrei Sitterdorf: «kleiner Bereich innerhalb der Gemeinde Muolen»). Umgesetzt in SG.json.",
+    "Wählen-Ortschaften 28.10.2026 nach Einwohnern je Siedlung (Siedlungsverzeichnis 2026) aufgelöst: Amlikon-Bissegg 98 % Wertbühl-Bussnang, Hüttlingen 100 % Müllheim, Neuwilen 100 % Kreuzlingen-Emmishofen, Schönenberg an der Thur 100 % Sulgen, Neukirch an der Thur 72 % Wertbühl-Bussnang (Weiler der KG Heiligkreuz einzeln genannt); Sitterdorf (Teil Bischofszell, ohne Gebäude) wie die übrige Ortschaft KG Bischofszell.",
+    "Das Austrittsformular der Landeskirche ist an «Katholisches Pfarramt» adressiert und nimmt keine E-Mail-Austritte an; § 6 Abs. 2 LKV nennt den Kirchgemeinderat, das Kreisschreiben 2010 lässt Eingang bei Kirchgemeinderat oder Pfarramt genügen. Die Seite «Meine Pfarrei finden» auf kath-tg.ch ist ein Pfarrei-, kein KG-Finder."
+  ],
   "issues": [
-    "Zuordnung Gemeinde ↔ KG aus dem kantonalen Siedlungsverzeichnis 2026 (data.tg.ch sk-stat-162, Feld kath_kirchgemeinde) und dem Steuerfuss-Datensatz 2026 (sk-stat-72); öffentliche Geodaten der KG-Grenzen gibt es im Thurgau nicht (Geodienst nur mit Login). Siedlungen mit zwei oder drei KG (u. a. Amriswil Stadt, Moos/Hefenhofen, Schweizersholz, Reutenen) sind nur strassenweise bestimmbar.",
-    "Siedlungsverzeichnis 2026 nennt noch die KG Basadingen, Diessenhofen und Paradies; diese sind seit 1.1.2026 zur KG Rodenberg-Rhy fusioniert (kath-amseeundrhy.ch) und hier entsprechend zusammengefasst.",
-    "Geplante Fusionen: Homburg, Pfyn und Müllheim zur KG «Seerücken-Thur» per 1.1.2027 (Urnenabstimmung 29.11.2026, nur bei Zustimmung aller drei); Amriswil und Hagenwil in Fusionsgesprächen (Ziel bis 2029/2030).",
-    "Rickenbach TG und Wilen TG gehören vertraglich zur st. gallischen KG Wil (Vertrag 9.12.2014): dort gilt st. gallisches Recht mit beglaubigter Unterschrift. Freidorf (Roggwil TG) gehört zur st. gallischen KG Berg-Freidorf; ein Vertrag dazu ist nicht publiziert. Die st. gallische KG Häggenschwil erscheint im Steuerfuss-Datensatz bei Roggwil, im Siedlungsverzeichnis nicht.",
-    "Das Austrittsformular der Landeskirche ist an «Katholisches Pfarramt» adressiert und nimmt keine E-Mail-Austritte an; § 6 Abs. 2 LKV nennt den Kirchgemeinderat, das Kreisschreiben 2010 lässt Eingang bei Kirchgemeinderat oder Pfarramt genügen.",
-    "Viele KG publizieren nur die Adresse von Pfarramt oder Pastoralraum-Sekretariat (medium); Hagenwil ohne Postadresse (low). Die Seite «Meine Pfarrei finden» auf kath-tg.ch ist ein Pfarrei-, kein KG-Finder."
+    "Strassenweise geteilte Siedlungen ohne veröffentlichte Strassenliste: Amriswil Stadt (Amriswil/Hagenwil/Sommeri, 9683 Einwohner), Moos (Hefenhofen; Amriswil/Sommeri), Rüti und Egg (Amriswil), Schweizersholz und Waldplatz (Bischofszell/Heiligkreuz), Reutenen (Homburg/Steckborn). Die Ortschaften 8580 Amriswil, 8587 Oberaach (Aach als Grenze, je rund 500 Einwohner) und 9223 Schweizersholz bleiben deshalb zur Auswahl. Fehlt: Strassenverzeichnis der KG St. Stefan Amriswil, Sommeri, Hagenwil, Bischofszell und Heiligkreuz (Anfrage bei den KG oder beim Geodienst TG).",
+    "Fusion Homburg, Pfyn und Müllheim zur KG «Seerücken-Thur» per 1.1.2027: Urnenabstimmung am 29.11.2026 (nur bei Zustimmung aller drei). Eintrag tg-seeruecken-thur ist vorbereitet (Feld «geplant»); nach dem 29.11.2026 umsetzen oder löschen.",
+    "Fusion Amriswil–Hagenwil: in Gesprächen (Ziel Legislatur 2026–2030), noch kein Beschluss.",
+    "Hof Ruggisberg (Roggwil): RB 188.34 und Steuerfuss-Datensatz 2026 (Häggenschwil) widersprechen Siedlungsverzeichnis 2026 und Geodatensatz SG00090 (Berg-Freidorf). Umgesetzt ist Häggenschwil; Bestätigung bei der KG Häggenschwil oder beim Steueramt Roggwil fehlt.",
+    "Viele KG publizieren nur die Adresse von Pfarramt oder Pastoralraum-Sekretariat (medium). Hagenwil: Website ohne Postadresse; verwendet Pfarrhaus Hofwiesstrasse 1 (KGV-Protokoll 2026), das ISIL-Verzeichnis nennt noch «Hagenwil 31» (ältere Adressierung)."
   ]
 }

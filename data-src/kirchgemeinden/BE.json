@@ -31,7 +31,14 @@
     "https://www.kathbern.ch/ueber-uns/kirchgemeinden",
     "https://kathbe.tlex.ch/app/de/texts_of_law/1.1-1",
     "https://www.lexfind.ch/tolv/253916/fr",
-    "https://www.jurapastoral.ch/vallee-de-delemont-moutier/annuaire/"
+    "https://www.jurapastoral.ch/vallee-de-delemont-moutier/annuaire/",
+    "https://www.gemeinden.dij.be.ch/content/dam/gemeinden_dij/dokumente/de/gemeindereformen/fusion/praxisbeispiele/liste%20fusionsprojekte%20kirchgemeinden-de.pdf",
+    "https://web.archive.org/web/20251208004904/https://www.kathbern.ch/fileadmin/user_upload/Pfarreien/koeniz-wabern/Dokumente/Informationen/KGV_Einl.-Protokolle/13102025_Fusionsvertrag_final.pdf",
+    "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued/ueber-uns/kirchgemeinde",
+    "https://www.kathbern.ch/ich-moechte/kirchenaustritt",
+    "https://www.kathbern.ch/region-bern/pfarrei-dreifaltigkeit-bern/ich-moechte/aus-der-kirche-austreten",
+    "https://www.jurapastoral.ch/cec/communes-ecclesiastiques/liste-des-communes/",
+    "https://www.uid.admin.ch/"
   ],
   "kirchgemeinden": [
     {
@@ -259,7 +266,9 @@
         355
       ],
       "confidence": "medium",
-      "note": "Fusioniert laut Kirchgemeinde-Seite per 1.1.2027 mit St. Michael Wabern zur Kirchgemeinde Bern-Süd. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+      "note": "Fusioniert laut Kirchgemeinde-Seite per 1.1.2027 mit St. Michael Wabern zur Kirchgemeinde Bern-Süd. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern). | Nachrecherche 28.10.2026: Fusion mit St. Josef Köniz bzw. St. Michael Wabern zur Kirchgemeinde Bern-Süd per 1.1.2027 beschlossen: Kirchgemeinde-Seite («fusionieren per 01.01.2027»), Fusionsvertrag vom 13.10.2025 (Art. 8) und kantonale Liste der Kirchgemeindefusionen, Rubrik «vollzogene oder beschlossene Fusionsprojekte», Stand 1.3.2026, Geschäft 2025.DIJ.343 (https://www.gemeinden.dij.be.ch/content/dam/gemeinden_dij/dokumente/de/gemeindereformen/fusion/praxisbeispiele/liste%20fusionsprojekte%20kirchgemeinden-de.pdf). Gilt bis 31.12.2026, danach be-bern-sued.",
+      "bis": "2026-12-31",
+      "nachfolger": "be-bern-sued"
     },
     {
       "id": "be-wabern-st-michael",
@@ -290,7 +299,45 @@
         889
       ],
       "confidence": "medium",
-      "note": "Umfasst Belp, Kaufdorf, Kehrsatz, Niedermuhlern, Toffen, Wald sowie Teile von Köniz (Wabern), Bern, Kirchdorf (Gelterfingen), Riggisberg (Rümligen) und Thurnen (Kirchenthurnen). Fusioniert laut Kirchgemeinde-Seite per 1.1.2027 mit St. Josef Köniz zur Kirchgemeinde Bern-Süd. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+      "note": "Umfasst Belp, Kaufdorf, Kehrsatz, Niedermuhlern, Toffen, Wald sowie Teile von Köniz (Wabern), Bern, Kirchdorf (Gelterfingen), Riggisberg (Rümligen) und Thurnen (Kirchenthurnen). Fusioniert laut Kirchgemeinde-Seite per 1.1.2027 mit St. Josef Köniz zur Kirchgemeinde Bern-Süd. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern). | Nachrecherche 28.10.2026: Fusion mit St. Josef Köniz bzw. St. Michael Wabern zur Kirchgemeinde Bern-Süd per 1.1.2027 beschlossen: Kirchgemeinde-Seite («fusionieren per 01.01.2027»), Fusionsvertrag vom 13.10.2025 (Art. 8) und kantonale Liste der Kirchgemeindefusionen, Rubrik «vollzogene oder beschlossene Fusionsprojekte», Stand 1.3.2026, Geschäft 2025.DIJ.343 (https://www.gemeinden.dij.be.ch/content/dam/gemeinden_dij/dokumente/de/gemeindereformen/fusion/praxisbeispiele/liste%20fusionsprojekte%20kirchgemeinden-de.pdf). Gilt bis 31.12.2026, danach be-bern-sued.",
+      "bis": "2026-12-31",
+      "nachfolger": "be-bern-sued"
+    },
+    {
+      "id": "be-bern-sued",
+      "name": "Römisch-katholische Kirchgemeinde Bern-Süd",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bern-Süd",
+        "Kirchgemeinderat",
+        "c/o Seelsorgeraum Bern-Süd",
+        "Stapfenstrasse 25",
+        "3098 Köniz"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued/ueber-uns/kirchgemeinde",
+      "source": "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued/ueber-uns/kirchgemeinde",
+      "bfs": [
+        357,
+        852,
+        853,
+        855,
+        861,
+        869,
+        870,
+        877,
+        884,
+        888
+      ],
+      "partial_bfs": [
+        351,
+        355,
+        872,
+        879,
+        889
+      ],
+      "confidence": "low",
+      "ab": "2027-01-01",
+      "note": "Nachrecherche 28.10.2026: Neue Kirchgemeinde aus St. Josef Köniz und St. Michael Wabern ab 1.1.2027 (Fusionsvertrag vom 13.10.2025, Art. 1 und 8: https://web.archive.org/web/20251208004904/https://www.kathbern.ch/fileadmin/user_upload/Pfarreien/koeniz-wabern/Dokumente/Informationen/KGV_Einl.-Protokolle/13102025_Fusionsvertrag_final.pdf ; kantonale Liste der Kirchgemeindefusionen, Stand 1.3.2026, Geschäft 2025.DIJ.343). Gebiet = Gebiete der beiden bisherigen Kirchgemeinden. Eine eigene Adresse der neuen Kirchgemeinde ist noch nicht publiziert; verwendet wird die Adresse der bisher grösseren Kirchgemeinde St. Josef Köniz (Seelsorgeraum Bern-Süd), die auch die gemeinsame Kirchgemeinde-Seite nennt. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung (Organisationsreglement Bern-Süd Art. 1 Abs. 2)."
     },
     {
       "id": "be-konolfingen",
@@ -416,22 +463,20 @@
       "name": "Paroisse catholique romaine de La Neuveville",
       "postal": [
         "Paroisse catholique romaine de La Neuveville",
-        "Conseil de paroisse",
-        "c/o Unité pastorale / Cure Sainte-Marie",
-        "Faubourg du Jura 47",
-        "2502 Bienne"
+        "Rue des Mornets 15",
+        "2520 La Neuveville"
       ],
-      "address_type": "pfarramt",
+      "address_type": "uid",
       "website": "https://www.cathberne.ch/region-de-bienne/unite-pastorale-bienne-la-neuveville/a-propos-de-nous/administration",
-      "source": "https://www.cathberne.ch/region-de-bienne/unite-pastorale-bienne-la-neuveville/a-propos-de-nous/paroisse-de-la-neuveville/conseil-de-paroisse",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE100163281",
       "bfs": [
         723,
         724,
         726
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Die Seite der Paroisse nennt nur die Adresse der Unité pastorale Bienne – La Neuveville in Biel. Postadresse auf der Website prüfen."
+      "confidence": "medium",
+      "note": "Die Seite der Paroisse nennt nur die Adresse der Unité pastorale Bienne – La Neuveville in Biel. Postadresse auf der Website prüfen. | Nachrecherche 28.10.2026: UID CHE-100.163.281 «Paroisse Catholique la Neuveville» mit Sitz Rue des Mornets 15 (Kirche), ohne c/o, Zustellbarkeit bestätigt (Prüfung 02.10.2026). Die Seite «Conseil de paroisse» auf cathberne.ch nennt weiterhin nur die Unité pastorale in Biel (Faubourg du Jura 47, 2502 Biel/Bienne)."
     },
     {
       "id": "be-seeland-lyss",
@@ -955,12 +1000,13 @@
       "postal": [
         "Commune ecclésiastique catholique romaine de Moutier",
         "Conseil de la commune ecclésiastique",
+        "Secrétariat",
         "Place du Marché 3",
         "2740 Moutier"
       ],
-      "address_type": "pfarramt",
-      "website": "https://www.jurapastoral.ch/vallee-de-delemont-moutier/paroisses/paroisse-de-moutier/communes-ecclesiastiques/",
-      "source": "https://web.archive.org/web/20260721192922/https://www.jurapastoral.ch/vallee-de-delemont-prevote/paroisses/paroisse-de-moutier/contacts/",
+      "address_type": "sekretariat",
+      "website": "https://www.jurapastoral.ch/communes/moutier/",
+      "source": "https://www.jurapastoral.ch/communes/moutier/",
       "bfs": [
         681,
         687,
@@ -971,27 +1017,27 @@
         704
       ],
       "partial_bfs": [],
-      "confidence": "medium",
-      "note": "Seit 1.1.2026 kantonsübergreifende Kirchgemeinde unter jurassischem Recht (Accord d’exécution n° 2, BSG 105.235.1-2); umfasst Moutier (JU) und die Berner Gemeinden Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches. Adresse = «Secrétariat Paroisse catholique romaine de Moutier» (Cure) laut archivierter Kontaktseite von jurapastoral.ch (Juli 2026); Live-Seite nicht abrufbar."
+      "confidence": "high",
+      "note": "Seit 1.1.2026 kantonsübergreifende Kirchgemeinde unter jurassischem Recht (Accord d’exécution n° 2, BSG 105.235.1-2); umfasst Moutier (JU) und die Berner Gemeinden Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches. Adresse = «Secrétariat Paroisse catholique romaine de Moutier» (Cure) laut archivierter Kontaktseite von jurapastoral.ch (Juli 2026); Live-Seite nicht abrufbar. | Nachrecherche 28.10.2026: Live-Seite der Commune ecclésiastique (jurapastoral.ch/communes/moutier) und Kontaktseite der Pfarrei bestätigen das Sekretariat an der Place du Marché 3; UID CHE-108.939.335 «Paroisse catholique Romaine de Moutier» mit gleichem Sitz, Zustellbarkeit bestätigt.",
+      "email": "secretariat@notredame.ch"
     },
     {
       "id": "be-ju-undervelier",
       "name": "Commune ecclésiastique catholique romaine d’Undervelier",
       "postal": [
         "Commune ecclésiastique catholique romaine d’Undervelier",
-        "c/o Secrétariat de la commune ecclésiastique Bassecourt",
-        "Rue de Prayé 6",
-        "2854 Bassecourt"
+        "La Vorde 8",
+        "2863 Undervelier"
       ],
-      "address_type": "sekretariat",
+      "address_type": "uid",
       "website": "https://www.jurapastoral.ch/communes/undervelier/",
-      "source": "https://web.archive.org/web/20260515175020/https://www.jurapastoral.ch/communes/undervelier/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE401193843",
       "bfs": [],
       "partial_bfs": [
         716
       ],
       "confidence": "medium",
-      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Adresse aus archivierter Seite von jurapastoral.ch (Mai 2026), Live-Seite nicht abrufbar."
+      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Adresse aus archivierter Seite von jurapastoral.ch (Mai 2026), Live-Seite nicht abrufbar. | Nachrecherche 28.10.2026: Live-Seite der Commune ecclésiastique nennt nur Privatadressen von Sekretariat und Präsidium; das frühere gemeinsame Sekretariat in Bassecourt steht dort nicht mehr. UID CHE-401.193.843 «Paroisse catholique-romaine» mit Sitz in Undervelier, ohne c/o, Zustellbarkeit bestätigt (Prüfung 24.09.2026). Alternative: Pfarreisekretariat Stes-Marie et Colombe, Rue de Prayé 6, 2854 Bassecourt. Gleiche Adresse wie ju-undervelier in JU.json."
     },
     {
       "id": "be-ju-lajoux",
@@ -999,7 +1045,7 @@
       "postal": [
         "Commune ecclésiastique catholique romaine de Lajoux",
         "Case postale 10",
-        "2718 Lajoux"
+        "2718 Lajoux JU"
       ],
       "address_type": "verwaltung",
       "source": "https://www.lajoux.ch/Administration/Autorites-paroissiales",
@@ -1010,58 +1056,69 @@
         716
       ],
       "confidence": "high",
-      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Postadresse auf der Website prüfen (jurapastoral.ch nicht abrufbar). | Nachrecherche: Gemeinde Lajoux, Rubrik «Autorités paroissiales»: «Commune ecclésiastique catholique romaine, Case postale 10, 2718 Lajoux». UID CHE-134.890.255 nur mit PLZ/Ort. Journal officiel JU Nr. 36 vom 08.10.2026 nennt die KG als Bauherrin mit Dos la Velle 68, 2718 Lajoux (eigenes Gebäude)."
+      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Postadresse auf der Website prüfen (jurapastoral.ch nicht abrufbar). | Nachrecherche: Gemeinde Lajoux, Rubrik «Autorités paroissiales»: «Commune ecclésiastique catholique romaine, Case postale 10, 2718 Lajoux». UID CHE-134.890.255 nur mit PLZ/Ort. Journal officiel JU Nr. 36 vom 08.10.2026 nennt die KG als Bauherrin mit Dos la Velle 68, 2718 Lajoux (eigenes Gebäude). | Nachrecherche 28.10.2026: Postfachadresse auf lajoux.ch erneut bestätigt; amtlicher Ortsname «Lajoux JU». Die Pfarrei Sainte-Marie umfasst laut Pfarreiseite Lajoux, Fornet-Dessus, Fornet-Dessous und Rebévelier (https://www.jurapastoral.ch/franches-montagnes/paroisses/ste-marie-lajoux/).",
+      "website": "https://www.jurapastoral.ch/communes/lajoux/",
+      "email": "paroisselajoux@bluewin.ch"
     },
     {
       "id": "be-ju-mervelier",
       "name": "Commune ecclésiastique catholique romaine de Mervelier",
       "postal": [
         "Commune ecclésiastique catholique romaine de Mervelier",
-        "Le Cornat 1",
-        "2827 Mervelier"
+        "Secrétariat de la paroisse St-Germain",
+        "La Pran 2",
+        "2824 Vicques"
       ],
-      "address_type": "uid",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE212936180",
+      "address_type": "pfarramt",
+      "source": "https://www.jurapastoral.ch/vallee-de-delemont-moutier/paroisses/unite-pastorale-saint-germain/contacts/",
       "bfs": [
         708
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Nur Privatadressen von Sekretariat und Präsidium publiziert. Postadresse auf der Website prüfen. | Nachrecherche: UID CHE-212.936.180 «Paroisse Catholique-romaine de Mervelier» mit c/o einer Privatperson (Name weggelassen), Zustellbarkeit nicht bestätigt; die Person steht auf der archivierten CE-Seite (Wayback 16.01.2026) nicht als Sekretariat/Präsidium, Eintrag evtl. veraltet. Ersatz: Secrétariat de la paroisse St-Germain (UP Saint Germain), Rue de la Pran 2, 2824 Vicques (https://web.archive.org/web/20260809210447/https://www.jurapastoral.ch/vallee-de-delemont-prevote/paroisses/unite-pastorale-saint-germain/contacts/). JO nennt die KG «Mervelier – La Scheulte»."
+      "confidence": "medium",
+      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Nur Privatadressen von Sekretariat und Präsidium publiziert. Postadresse auf der Website prüfen. | Nachrecherche: UID CHE-212.936.180 «Paroisse Catholique-romaine de Mervelier» mit c/o einer Privatperson (Name weggelassen), Zustellbarkeit nicht bestätigt; die Person steht auf der archivierten CE-Seite (Wayback 16.01.2026) nicht als Sekretariat/Präsidium, Eintrag evtl. veraltet. Ersatz: Secrétariat de la paroisse St-Germain (UP Saint Germain), Rue de la Pran 2, 2824 Vicques (https://web.archive.org/web/20260809210447/https://www.jurapastoral.ch/vallee-de-delemont-prevote/paroisses/unite-pastorale-saint-germain/contacts/). JO nennt die KG «Mervelier – La Scheulte». | Nachrecherche 28.10.2026: Live-Seite der Commune ecclésiastique nennt nur Privatadressen; die c/o-Person im UID steht dort nicht mehr als Amtsträger, der UID-Eintrag (nicht zustellbar) gilt als veraltet. Adresse = Pfarreisekretariat St-Germain (amtlich «La Pran 2»).",
+      "email": "upsaintgermain@jurapastoral.ch",
+      "website": "https://www.jurapastoral.ch/communes/mervelier/"
     },
     {
       "id": "be-ju-vermes",
       "name": "Commune ecclésiastique catholique romaine de Vermes",
       "postal": [
         "Commune ecclésiastique catholique romaine de Vermes",
-        "Rue de la Pran 2",
+        "Secrétariat de la paroisse St-Germain",
+        "La Pran 2",
         "2824 Vicques"
       ],
       "address_type": "pfarramt",
-      "source": "https://web.archive.org/web/20260809210447/https://www.jurapastoral.ch/vallee-de-delemont-prevote/paroisses/unite-pastorale-saint-germain/contacts/",
+      "source": "https://www.jurapastoral.ch/vallee-de-delemont-moutier/paroisses/unite-pastorale-saint-germain/contacts/",
       "bfs": [
         709
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Publiziert sind nur Adressen von Sekretärin und Präsidentin. Postadresse auf der Website prüfen. | Nachrecherche: Secrétariat de la paroisse St-Germain (UP Saint Germain, zu der Vermes und Elay/Seehof gehören); amtlicher Strassenname laut Gebäudeadressverzeichnis «La Pran 2». UID CHE-330.909.684 nur «2829 Vermes» ohne Strasse; die CE-Seite (Wayback 16.01.2026) nennt nur Privatadressen."
+      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Publiziert sind nur Adressen von Sekretärin und Präsidentin. Postadresse auf der Website prüfen. | Nachrecherche: Secrétariat de la paroisse St-Germain (UP Saint Germain, zu der Vermes und Elay/Seehof gehören); amtlicher Strassenname laut Gebäudeadressverzeichnis «La Pran 2». UID CHE-330.909.684 nur «2829 Vermes» ohne Strasse; die CE-Seite (Wayback 16.01.2026) nennt nur Privatadressen. | Nachrecherche 28.10.2026: Live-Seiten bestätigen: Commune ecclésiastique nennt nur Privatadressen, Pfarreisekretariat St-Germain an La Pran 2, 2824 Vicques.",
+      "email": "upsaintgermain@jurapastoral.ch",
+      "website": "https://www.jurapastoral.ch/communes/vermes/"
     },
     {
       "id": "be-ju-les-bois",
       "name": "Commune ecclésiastique catholique romaine des Bois",
       "postal": [
         "Commune ecclésiastique catholique romaine des Bois",
-        "Bel-Air 1",
-        "2350 Saignelégier"
+        "Secrétariat de l'Unité pastorale Franches-Montagnes",
+        "Rue Saint-Hubert 4c",
+        "2340 Le Noirmont"
       ],
-      "address_type": "pfarramt",
-      "source": "https://web.archive.org/web/20260508111323/https://www.jurapastoral.ch/franches-montagnes/contact/",
+      "address_type": "sekretariat",
+      "source": "https://www.jurapastoral.ch/communes/les-bois/",
       "bfs": [
         435
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Postadresse auf der Website prüfen (jurapastoral.ch nicht abrufbar). | Nachrecherche: Hauptsekretariat der UP Franches-Montagnes (amtlich «Rue Bel-Air 1»); welches der drei UP-Sekretariate Les Bois betreut, ist nicht belegt (alternativ Le Noirmont, Rue St-Hubert 4C, 2340 Le Noirmont). UID CHE-489.490.725 «Paroisse Catholique-romaine Les Bois» nur «2336 Les Bois» ohne Strasse; eigene CE-Seite nicht archiviert, Gemeinde-Website ohne Pfarreiadresse."
+      "confidence": "medium",
+      "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Postadresse auf der Website prüfen (jurapastoral.ch nicht abrufbar). | Nachrecherche: Hauptsekretariat der UP Franches-Montagnes (amtlich «Rue Bel-Air 1»); welches der drei UP-Sekretariate Les Bois betreut, ist nicht belegt (alternativ Le Noirmont, Rue St-Hubert 4C, 2340 Le Noirmont). UID CHE-489.490.725 «Paroisse Catholique-romaine Les Bois» nur «2336 Les Bois» ohne Strasse; eigene CE-Seite nicht archiviert, Gemeinde-Website ohne Pfarreiadresse. | Nachrecherche 28.10.2026: Live-Seite der Commune ecclésiastique nennt als Kontakt das Sekretariat der Unité pastorale in Le Noirmont (amtlich «Rue Saint-Hubert 4c»); die Pfarreiseite Sainte-Foy nennt Le Noirmont als «secrétariat référent» und La Ferrière als Teil der Pfarrei.",
+      "email": "franchesmontagnes@jurapastoral.ch",
+      "website": "https://www.jurapastoral.ch/communes/les-bois/"
     }
   ],
   "split": [
@@ -1078,7 +1135,7 @@
     },
     {
       "bfs": 351,
-      "how": "Die Stadt Bern ist auf sieben Kirchgemeinden verteilt. Grob: Bümpliz/Bethlehem und der Westen → Bern-West; Engehalbinsel nördlich Stauwehr–Studerstrasse–Seftausteg → Heiligkreuz; Nordquartier rechts der Aare (Lorraine, Breitenrain, bis Papiermühlestrasse) → St. Marien; Stadtgebiet nördlich der Ostermundigenstrasse zwischen Pulverweg und Gemeindegrenze → Guthirt Ostermundigen; übriges Gebiet rechts der Aare (Kirchenfeld ohne unteres Kirchenfeld, Schosshalde) → Bruder Klaus; Innere Stadt, Länggasse, Mattenhof und unteres Kirchenfeld → Dreifaltigkeit; ein kleines Gebiet links der Aare südlich der Linie Aare–Dorngasse–Roschistrasse–Seftigenstrasse → St. Michael Wabern. Verbindlich sind die kantonalen Geodaten (LKV Art. 19).",
+      "how": "Die Stadt Bern ist auf sieben Kirchgemeinden verteilt. Grob: Bümpliz/Bethlehem und der Westen → Bern-West; Engehalbinsel nördlich Stauwehr–Studerstrasse–Seftausteg → Heiligkreuz; Nordquartier rechts der Aare (Lorraine, Breitenrain, bis Papiermühlestrasse) → St. Marien; Stadtgebiet nördlich der Ostermundigenstrasse zwischen Pulverweg und Gemeindegrenze → Guthirt Ostermundigen; übriges Gebiet rechts der Aare (Kirchenfeld ohne unteres Kirchenfeld, Schosshalde) → Bruder Klaus; Innere Stadt, Länggasse, Mattenhof und unteres Kirchenfeld → Dreifaltigkeit; ein kleines Gebiet links der Aare südlich der Linie Aare–Dorngasse–Roschistrasse–Seftigenstrasse → St. Michael Wabern. Verbindlich sind die kantonalen Geodaten (LKV Art. 19). Ab 1. Januar 2027 gehören die Gebiete von St. Josef Köniz und St. Michael Wabern zur fusionierten Kirchgemeinde Bern-Süd.",
       "finder": null,
       "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
       "ortsteile": {
@@ -1109,7 +1166,7 @@
     },
     {
       "bfs": 355,
-      "how": "Wangental (Niederwangen, Oberwangen, Thörishaus, Liebewil) → Bern-West; Wabern und der östliche Teil des Spiegels (Grenze Bellevuestrasse–Spiegelstrasse–Chaumontweg–Gurtentalstrasse) → St. Michael Wabern; übriges Gemeindegebiet (Köniz, Liebefeld, Schliern, Niederscherli, Gasel, Mittelhäusern, übriger Spiegel) → St. Josef Köniz.",
+      "how": "Wangental (Niederwangen, Oberwangen, Thörishaus, Liebewil) → Bern-West; Wabern und der östliche Teil des Spiegels (Grenze Bellevuestrasse–Spiegelstrasse–Chaumontweg–Gurtentalstrasse) → St. Michael Wabern; übriges Gemeindegebiet (Köniz, Liebefeld, Schliern, Niederscherli, Gasel, Mittelhäusern, übriger Spiegel) → St. Josef Köniz. Ab 1. Januar 2027 gehören die Gebiete von St. Josef Köniz und St. Michael Wabern zur fusionierten Kirchgemeinde Bern-Süd.",
       "finder": null,
       "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
       "ortsteile": {
@@ -1188,7 +1245,7 @@
     },
     {
       "bfs": 872,
-      "how": "Das Gebiet der früheren Gemeinde Gelterfingen gehört zur Kirchgemeinde St. Michael Wabern, das übrige Gemeindegebiet (Kirchdorf, Mühledorf, Noflen) zu Thun.",
+      "how": "Das Gebiet der früheren Gemeinde Gelterfingen gehört zur Kirchgemeinde St. Michael Wabern, das übrige Gemeindegebiet (Kirchdorf, Mühledorf, Noflen) zu Thun. Ab 1. Januar 2027 gehören die Gebiete von St. Josef Köniz und St. Michael Wabern zur fusionierten Kirchgemeinde Bern-Süd.",
       "finder": null,
       "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
       "ortsteile": {
@@ -1200,7 +1257,7 @@
     },
     {
       "bfs": 879,
-      "how": "Das Gebiet der früheren Gemeinde Rümligen gehört zur Kirchgemeinde St. Michael Wabern, das übrige Gemeindegebiet (Riggisberg, Rüti b. Riggisberg) zu Thun.",
+      "how": "Das Gebiet der früheren Gemeinde Rümligen gehört zur Kirchgemeinde St. Michael Wabern, das übrige Gemeindegebiet (Riggisberg, Rüti b. Riggisberg) zu Thun. Ab 1. Januar 2027 gehören die Gebiete von St. Josef Köniz und St. Michael Wabern zur fusionierten Kirchgemeinde Bern-Süd.",
       "finder": null,
       "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
       "ortsteile": {
@@ -1211,7 +1268,7 @@
     },
     {
       "bfs": 889,
-      "how": "Das Gebiet der früheren Gemeinde Kirchenthurnen gehört zur Kirchgemeinde St. Michael Wabern, Mühlethurnen und Lohnstorf gehören zu Thun.",
+      "how": "Das Gebiet der früheren Gemeinde Kirchenthurnen gehört zur Kirchgemeinde St. Michael Wabern, Mühlethurnen und Lohnstorf gehören zu Thun. Ab 1. Januar 2027 gehören die Gebiete von St. Josef Köniz und St. Michael Wabern zur fusionierten Kirchgemeinde Bern-Süd.",
       "finder": null,
       "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
       "ortsteile": {
@@ -1223,14 +1280,16 @@
   ],
   "unmapped_bfs": [],
   "issues": [
+    "Bern-Stadt (351) und Köniz (355): Die Ortsteil-Zuordnung in split ist nur eine grobe Orientierung (Grossratsbeschluss 2012); massgebend sind die Geodaten ADMKG. Für eine Strassensuche fehlen die ADMKG-Grenzen in data-src/geo.",
+    "Bern-Süd: Eine eigene Postadresse der neuen Kirchgemeinde ist noch nicht publiziert (Eintrag nutzt den Seelsorgeraum Bern-Süd, confidence low); nach dem 1.1.2027 auf kathbern.ch prüfen."
+  ],
+  "grundlage": [
     "Zuordnung Gemeinde → Kirchgemeinde aus den rechtsverbindlichen Geodaten ADMKG (Nachführung 1.1.2026) per Flächenverschnitt mit den Gemeindegrenzen ADMGDE berechnet; Splitter unter 0,2 % Fläche (Grenzungenauigkeiten) ignoriert.",
     "Kirchgemeinde-Postadressen: Die meisten Kirchgemeinden publizieren keine eigene Verwaltungsadresse, sondern das Pfarrei-/Pfarramtssekretariat (address_type pfarramt).",
-    "Gesamtkirchgemeinde Bern und Umgebung: führt das Mitgliederverzeichnis zentral (Organisationsreglement Art. 10 Abs. 2); ob sie als «bezeichnete Stelle» für Austritte gilt, ist nicht publiziert. Adressiert wird deshalb der Kirchgemeinderat der jeweiligen Kirchgemeinde.",
+    "Gesamtkirchgemeinde Bern und Umgebung: führt das Mitgliederverzeichnis zentral (Organisationsreglement Art. 10 Abs. 2), nimmt Austritte aber nicht zentral entgegen. Die Austrittsseiten von kathbern.ch (Landeskirche und Pfarreien der Region Bern, Stand 28.10.2026) verlangen das Schreiben an die zuständige Pfarrei; die Kirchgemeinde bestätigt den Austritt. Adressiert wird deshalb die jeweilige Kirchgemeinde.",
     "Paroisse catholique de langue française de Berne et environs (Rainmattstrasse 20, 3011 Bern): Personalpfarrei/-kirchgemeinde für französischsprachige Mitglieder im Gebiet der Gesamtkirchgemeinde (Wahlrecht nach Art. 24 LKV); ohne eigenes Gebiet, daher kein eigener Eintrag. Wer ihr angehört, richtet den Austritt an sie.",
-    "St. Josef Köniz und St. Michael Wabern fusionieren per 1.1.2027 zur Kirchgemeinde Bern-Süd; Einträge dann zusammenführen.",
-    "Moutier (seit 1.1.2026 JU): Die Commune ecclésiastique de Moutier umfasst weiterhin Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches (BE); seit dem Transfer gilt für Austritte jurassisches Recht (Accord d’exécution n° 2, Art. 8). Adresse (Cure, Place du Marché 3) nur über das Internet Archive bestätigt.",
-    "Die Berner Gemeinden La Ferrière (Les Bois), Rebévelier (Lajoux), Schelten (Mervelier), Seehof (Vermes) und Petit-Val (Undervelier/Lajoux) gehören zu jurassischen Kirchgemeinden; jurapastoral.ch war nicht abrufbar (TLS-Abbruch), Adressen nur teilweise über das Internet Archive. Für Lajoux, Mervelier, Vermes und Les Bois fehlt eine Postadresse ohne Privatperson.",
-    "La Neuveville: Die Paroisse publiziert nur die Adresse der Unité pastorale in Biel (Cure Sainte-Marie); eigene Postadresse unklar.",
-    "Bern-Stadt: Die Ortsteil-Zuordnung in split ist nur eine grobe Orientierung nach dem Grossratsbeschluss 2012; massgebend sind die Geodaten ADMKG."
+    "Fusion St. Josef Köniz + St. Michael Wabern → Kirchgemeinde Bern-Süd per 1.1.2027: Fusionsvertrag vom 13.10.2025 und kantonale Liste der Kirchgemeindefusionen (beschlossen, Geschäft 2025.DIJ.343); umgesetzt mit bis/nachfolger bzw. ab.",
+    "Moutier (seit 1.1.2026 JU): Die Commune ecclésiastique de Moutier umfasst weiterhin Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches (BE); seit dem Transfer gilt für Austritte jurassisches Recht (Accord d’exécution n° 2, Art. 8).",
+    "Die Berner Gemeinden La Ferrière (Les Bois), Rebévelier (Lajoux), Schelten (Mervelier), Seehof (Vermes) und Petit-Val (Undervelier/Lajoux) gehören zu jurassischen Kirchgemeinden (LKV Anhang 2 Art. A2-6); Adressen von den Live-Seiten auf jurapastoral.ch, aus dem UID-Register bzw. der Gemeinde Lajoux (28.10.2026)."
   ]
 }

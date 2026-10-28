@@ -16,7 +16,7 @@
     "form": "schriftlich («Déclaration de sortie»)",
     "beglaubigung": false,
     "wirkung": "Rückerstattung des Kultusanteils der Gemeindesteuer ab der Sortie, nicht rückwirkend (Beispiel Montreux: bis fünf Steuerperioden, nach Taxation).",
-    "notes": "Keine Kirchensteuer: Die Kultuskosten tragen Kanton und Gemeinden aus den allgemeinen Steuern. Kantonal gibt es keinen Abzug für Konfessionslose; die Gemeinden erstatten auf Gesuch den Kultusanteil der Gemeindesteuer (in Montreux ca. 0,4 %).",
+    "notes": "Keine Kirchensteuer: Die Kultuskosten tragen Kanton und Gemeinden aus den allgemeinen Steuern. Kantonal gibt es keinen Abzug für Konfessionslose; die Gemeinden erstatten auf Gesuch den Kultusanteil der Gemeindesteuer (in Montreux ca. 0,4 %). | Nachrecherche 28.10.2026: LREEDP (BLV 180.05) im Volltext geprüft: Sie regelt weder Mitgliedschaft noch Austritt noch eine Rückerstattung. Der Kanton finanziert die Kirchen über eine Subvention (Art. 13–18), die Gemeinden tragen Kultusorte und weitere Leistungen (Art. 21–24); die Kirchen erhalten von der Einwohnerkontrolle nur Daten von Personen, die die Konfession angegeben haben (Art. 10). Nach LFEDEC-VD (BLV 180.21) Art. 3 und 8 sind die Pfarreivereine (associations paroissiales, Privatrecht) Mitglieder der FEDEC-VD; Mitglieder eines Pfarreivereins sind laut Statuts-types die Katholikinnen und Katholiken ab 18 Jahren im Pfarreigebiet.",
     "source": "https://www.montreux.ch/fileadmin/documents/commune-de-montreux.ch/pdf/Pilier_public/Divers/DIR_Rbt_ImpotEcclesiastique_PartCommunale_VF.pdf"
   },
   "finder": null,
@@ -30,10 +30,15 @@
     "https://www.cath-vd.ch/wp-content/uploads/2022/12/Depliant-Eclairez-nous.pdf",
     "https://www.montreux.ch/fileadmin/documents/commune-de-montreux.ch/pdf/Pilier_public/Divers/DIR_Rbt_ImpotEcclesiastique_PartCommunale_VF.pdf",
     "https://www.lutry.ch/fileadmin/user_upload/user_upload/religion_declaration_depliant.pdf",
-    "https://www.cath-vd.ch/"
+    "https://www.cath-vd.ch/",
+    "https://lexfind.ch/tolv/134713/fr",
+    "https://www.lexfind.ch/tolv/124771/fr"
   ],
   "issues": [
-    "Verfahren der Rückerstattung ist kommunal geregelt; belegt nur am Beispiel Montreux.",
-    "Kantonales Gesetz (LREEDP, BLV 180.05) nicht im Volltext abgerufen."
+    "Rückerstattung des Kultusanteils der Gemeindesteuer: kantonal nicht geregelt (LREEDP), Verfahren je Gemeinde; belegt nur für Montreux (Merkblatt) und Lutry (Faltblatt). Fehlt: Bestätigung, dass die übrigen Gemeinden ebenso erstatten."
+  ],
+  "grundlage": [
+    "LREEDP BLV 180.05 (lexfind, Fassung in Kraft seit 1.5.2010, Dokument von 2019): Art. 10 Datenweitergabe der Einwohnerkontrolle, Art. 13 Staatssubvention, Art. 21–24 Leistungen der Gemeinden; keine Regeln zu Austritt oder Rückerstattung.",
+    "LFEDEC-VD BLV 180.21 Art. 3 und 8; Statuts-types der Pfarreivereine (Beispiel Yverdon, https://www.cath-vd.ch/wp-content/uploads/2022/12/Statuts-version-finalisee-FEDEC-signes.pdf) Art. 4: Mitglieder sind die Katholikinnen und Katholiken ab 18 Jahren im Pfarreigebiet."
   ]
 }

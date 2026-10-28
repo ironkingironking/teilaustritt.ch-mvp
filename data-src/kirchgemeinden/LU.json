@@ -44,7 +44,13 @@
     "https://www.pastoralraum-im-rottal.ch/ueber-uns/kirchgemeinden",
     "https://kathmichelsamt.ch/kirchgemeinden/pfeffikon/geschichte-bauten",
     "https://www.pr-oberseetal.ch/kirchgemeinde/",
-    "https://opendata.swiss/de/dataset/einteilung-katholischer-kirchgemeinden-geodienst-wfs"
+    "https://opendata.swiss/de/dataset/einteilung-katholischer-kirchgemeinden-geodienst-wfs",
+    "https://map.stadtluzern.ch/server/rest/services/OGD/einteilung_katholische_kirchgemeinden/MapServer/14",
+    "https://www.kathluzern.ch/meine-kirche/news/artikel/deutliche-zustimmung-zur-fusion-der-kirchgemeinden-reussbuehl-und-luzern",
+    "https://www.lukath.ch/aktuelles/beitraege/synode-ringt-um-die-verwendung-des-ueberschusses",
+    "https://www.pfarrei-root.ch/wp-content/uploads/2026/03/MM-Abstimmungsergebnis-Fusion-Kirchgemeinden-Rontal.pdf",
+    "https://www.seepfarreien.ch/fusion/",
+    "https://www.lukath.ch/aktuelles/beitraege/kirchgemeinden-planen-fusionen-die-strukturen-deckungsgleich-machen"
   ],
   "kirchgemeinden": [
     {
@@ -65,7 +71,9 @@
         1061
       ],
       "confidence": "high",
-      "note": "Umfasst die Stadt Luzern ohne die Stadtteile Littau und Reussbühl. Fusion mit der Kirchgemeinde Reussbühl angekündigt (Legislatur bis 31.12.2026 verlängert)."
+      "note": "Umfasst die Stadt Luzern ohne die Stadtteile Littau und Reussbühl. Fusion mit der Kirchgemeinde Reussbühl angekündigt (Legislatur bis 31.12.2026 verlängert). | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-luzern-2027.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-luzern-2027"
     },
     {
       "id": "lu-littau",
@@ -85,7 +93,7 @@
         1062
       ],
       "confidence": "high",
-      "note": "Stadtteil Littau der Stadt Luzern (Dorf Littau, Rönnimoos, Bahnhofquartier/Littauer Boden, Littauerberg) sowie laut Kirchgemeinde Malters einige Gehöfte/Quartiere der Gemeinde Malters. Von der Kirchgemeinde publizierte Kontaktadresse = Pfarrei St. Theodul."
+      "note": "Stadtteil Littau der Stadt Luzern (Dorf Littau, Rönnimoos, Bahnhofquartier/Littauer Boden, Littauerberg) sowie laut Kirchgemeinde Malters einige Gehöfte/Quartiere der Gemeinde Malters. Von der Kirchgemeinde publizierte Kontaktadresse = Pfarrei St. Theodul. | Nachrecherche 28.10.2026: Laut Geodaten der Stadt Luzern gehört auch der städtische Teil der PLZ 6016 Hellbühl (Stächerain) zur Kirchgemeinde Littau."
     },
     {
       "id": "lu-reussbuehl",
@@ -104,7 +112,30 @@
         1061
       ],
       "confidence": "high",
-      "note": "Ortsteil Reussbühl der Stadt Luzern. Fusion mit der Kirchgemeinde Luzern angekündigt; Adresse vor Versand prüfen."
+      "note": "Ortsteil Reussbühl der Stadt Luzern. Fusion mit der Kirchgemeinde Luzern angekündigt; Adresse vor Versand prüfen. | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-luzern-2027.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-luzern-2027"
+    },
+    {
+      "id": "lu-luzern-2027",
+      "name": "Katholische Kirchgemeinde Luzern",
+      "postal": [
+        "Katholische Kirchgemeinde Luzern",
+        "Geschäftsstelle",
+        "Brünigstrasse 20",
+        "6005 Luzern"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kathluzern.ch",
+      "website": "https://www.kathluzern.ch/",
+      "source": "https://www.kathluzern.ch/meine-kirche/news/artikel/deutliche-zustimmung-zur-fusion-der-kirchgemeinden-reussbuehl-und-luzern",
+      "bfs": [],
+      "partial_bfs": [
+        1061
+      ],
+      "confidence": "low",
+      "ab": "2027-01-01",
+      "note": "Nachrecherche 28.10.2026: Fusion der Kirchgemeinden Reussbühl und Luzern, Urnenabstimmung 22.03.2026 (kathluzern.ch), von der Synode am 6.5.2026 genehmigt (lukath.ch), in Kraft 1.1.2027; die fusionierte Kirchgemeinde heisst Kirchgemeinde Luzern. Eine Adresse der neuen Kirchgemeinde ist noch nicht publiziert; erfasst ist die Geschäftsstelle der bisherigen Kirchgemeinde Luzern (grössere Kirchgemeinde). Gebiet: Stadt Luzern ohne Littau."
     },
     {
       "id": "lu-emmen",
@@ -295,7 +326,9 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Sekretariat der Pfarrei/Kirchgemeinde. Ob der zur Gemeinde Root gehörende Teil von Perlen ebenfalls zu Buchrain-Perlen gehört, ist nicht publiziert."
+      "note": "Sekretariat der Pfarrei/Kirchgemeinde. Ob der zur Gemeinde Root gehörende Teil von Perlen ebenfalls zu Buchrain-Perlen gehört, ist nicht publiziert. | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-rontal.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-rontal"
     },
     {
       "id": "lu-ebikon",
@@ -314,7 +347,9 @@
       ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Geschäftsstelle führt Verwaltung und Rechnung der Kirchgemeinde Ebikon (kathrontal.ch/kirchgemeindeverband)."
+      "note": "Geschäftsstelle führt Verwaltung und Rechnung der Kirchgemeinde Ebikon (kathrontal.ch/kirchgemeindeverband). | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-rontal.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-rontal"
     },
     {
       "id": "lu-root",
@@ -335,7 +370,33 @@
       ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Dierikon und Gisikon gehören laut Steuereinheiten 2026 zur Kirchgemeinde Root. Adresse = Pfarreisekretariat, als Kontakt des Kirchenratspräsidiums publiziert."
+      "note": "Dierikon und Gisikon gehören laut Steuereinheiten 2026 zur Kirchgemeinde Root. Adresse = Pfarreisekretariat, als Kontakt des Kirchenratspräsidiums publiziert. | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-rontal.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-rontal"
+    },
+    {
+      "id": "lu-rontal",
+      "name": "Katholische Kirchgemeinde Rontal",
+      "postal": [
+        "Katholische Kirchgemeinde Rontal",
+        "Geschäftsstelle",
+        "Dorfstrasse 7",
+        "6030 Ebikon"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kathrontal.ch/",
+      "source": "https://www.pfarrei-root.ch/wp-content/uploads/2026/03/MM-Abstimmungsergebnis-Fusion-Kirchgemeinden-Rontal.pdf",
+      "bfs": [
+        1052,
+        1054,
+        1065,
+        1053,
+        1055
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "ab": "2027-01-01",
+      "note": "Nachrecherche 28.10.2026: Fusion der Kirchgemeinden Buchrain-Perlen, Ebikon und Root zur Katholischen Kirchgemeinde Rontal, Urnenabstimmung 22.03.2026 (Medienmitteilung), von der Synode am 6.5.2026 genehmigt (lukath.ch), in Kraft 1.1.2027. Adresse der neuen Kirchgemeinde noch nicht publiziert; erfasst ist die Geschäftsstelle Ebikon (bisher grösste Kirchgemeinde). Gebiet: Buchrain, Ebikon, Root, Dierikon, Gisikon."
     },
     {
       "id": "lu-greppen",
@@ -354,7 +415,9 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau."
+      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau. | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-greppen-weggis-vitznau.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-greppen-weggis-vitznau"
     },
     {
       "id": "lu-weggis",
@@ -373,7 +436,9 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau."
+      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau. | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-greppen-weggis-vitznau.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-greppen-weggis-vitznau"
     },
     {
       "id": "lu-vitznau",
@@ -392,7 +457,31 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau."
+      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau. | Nachrecherche 28.10.2026: Fusion per 1.1.2027 beschlossen (Urnenabstimmung, von der Synode am 6.5.2026 genehmigt); Nachfolger lu-greppen-weggis-vitznau.",
+      "bis": "2026-12-31",
+      "nachfolger": "lu-greppen-weggis-vitznau"
+    },
+    {
+      "id": "lu-greppen-weggis-vitznau",
+      "name": "Römisch-katholische Kirchgemeinde Greppen, Weggis und Vitznau",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Greppen, Weggis und Vitznau",
+        "Kirchenrat",
+        "Rigiblickstrasse 5",
+        "6353 Weggis"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.seepfarreien.ch/",
+      "source": "https://www.seepfarreien.ch/fusion/",
+      "bfs": [
+        1056,
+        1069,
+        1068
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "ab": "2027-01-01",
+      "note": "Nachrecherche 28.10.2026: Fusion der Kirchgemeinden Greppen, Weggis und Vitznau, Abstimmung 25.02.2026, neue Kirchgemeinde ab 1.1.2027 (seepfarreien.ch/fusion), von der Synode am 6.5.2026 genehmigt (lukath.ch). Adresse der neuen Kirchgemeinde noch nicht publiziert; erfasst ist das gemeinsame Sekretariat in Weggis, das die drei bisherigen Kirchgemeinden schon nutzen (Weggis = grösste Kirchgemeinde). Die politischen Gemeinden Greppen und Weggis fusionieren ebenfalls per 1.1.2027 (BFS-Nummern nach dem nächsten Ortschaftenverzeichnis nachführen)."
     },
     {
       "id": "lu-meierskappel",
@@ -867,11 +956,10 @@
       "partial_bfs": [
         1093,
         1098,
-        1062,
-        1061
+        1062
       ],
       "confidence": "medium",
-      "note": "Gebiet um Hellbühl über die Gemeindegrenzen von Neuenkirch, Ruswil, Malters und Luzern (Littau) hinweg; Grenzkarte: https://www.pfarrei-hellbuehl.ch/grenzkarte-kirchgemeinde-pfarrei/ (Plan 2008). Adresse = Pfarrei-Sekretariat."
+      "note": "Gebiet um Hellbühl über die Gemeindegrenzen von Neuenkirch, Ruswil und Malters hinweg; Grenzkarte: https://www.pfarrei-hellbuehl.ch/grenzkarte-kirchgemeinde-pfarrei/ (Plan 2008). Adresse = Pfarrei-Sekretariat. | Nachrecherche 28.10.2026: Die Geodaten der Stadt Luzern «Einteilung katholische Kirchgemeinden» (WFS/REST, abgerufen 28.10.2026) teilen das ganze Stadtgebiet auf Luzern, Reussbühl und Littau auf; der städtische Teil der PLZ 6016 (u. a. Stächerain) liegt im Polygon Littau. Die Grenzkarte von 2008 zeigt die Pfarrei Hellbühl, die dort über die Kirchgemeindegrenze reicht. Die Stadt Luzern ist deshalb nicht mehr Hellbühl zugeordnet."
     },
     {
       "id": "lu-sempach",
@@ -880,7 +968,7 @@
         "Katholische Kirchgemeinde Sempach",
         "Kirchenrat",
         "Büelgass 3",
-        "6204 Sempach Stadt"
+        "6204 Sempach"
       ],
       "address_type": "pfarramt",
       "website": "https://www.pfarreisempach.ch/",
@@ -890,7 +978,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren. | Nachrecherche 28.10.2026: PLZ-Ortsname auf den amtlichen Namen gemäss Ortschaftenverzeichnis angepasst."
     },
     {
       "id": "lu-eich",
@@ -899,7 +987,7 @@
         "Katholische Kirchgemeinde Eich",
         "Kirchenrat",
         "Büelgass 3",
-        "6204 Sempach Stadt"
+        "6204 Sempach"
       ],
       "address_type": "pfarramt",
       "email": "praesident@pfarrei-eich.ch",
@@ -910,7 +998,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Das Pfarreiverzeichnis nennt für die Pfarrei Eich die Adresse Büelgass 3 in Sempach Stadt. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+      "note": "Das Pfarreiverzeichnis nennt für die Pfarrei Eich die Adresse Büelgass 3 in Sempach Stadt. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren. | Nachrecherche 28.10.2026: PLZ-Ortsname auf den amtlichen Namen gemäss Ortschaftenverzeichnis angepasst."
     },
     {
       "id": "lu-buttisholz",
@@ -1246,7 +1334,7 @@
         1151
       ],
       "confidence": "medium",
-      "note": "Laut Steuereinheiten 2026 Kirchgemeinde der Gemeinde Willisau (inkl. Gettnau; die Kirchgemeinde Gettnau steht 2026 nicht mehr im Verzeichnis). Einige Höfe gehören zu Zell. Website prrw.ch nicht erreichbar. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+      "note": "Laut Steuereinheiten 2026 Kirchgemeinde der Gemeinde Willisau (inkl. Gettnau; die Kirchgemeinde Gettnau steht 2026 nicht mehr im Verzeichnis). Einige Höfe gehören zu Zell. Website prrw.ch nicht erreichbar. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren. | Nachrecherche 28.10.2026: Fusion der Kirchgemeinden Gettnau und Willisau per 1.1.2026 laut Fusionsübersicht der Landeskirche (lukath.ch, 10.12.2024: «1. Januar 2026: Geplante Fusion der Kirchgemeinden Gettnau und Willisau») und Stellenausschreibung der Kirchgemeinde Willisau (2025: fusioniert per 1.1.2026 mit Gettnau); Gettnau fehlt im Verzeichnis und in den Steuereinheiten 2026."
     },
     {
       "id": "lu-menznau",
@@ -1621,14 +1709,14 @@
   "split": [
     {
       "bfs": 1061,
-      "how": "Stadtteil Littau (PLZ 6014: Dorf Littau, Rönnimoos, Littauer Boden, Littauerberg) → Littau; Ortsteil Reussbühl (PLZ 6015) → Reussbühl; Gebiet um Hellbühl (PLZ 6016) → Hellbühl; übrige Stadt → Luzern. Im Zweifel Geodaten der Stadt Luzern bzw. Kirchgemeinde fragen.",
+      "how": "Die Stadt Luzern ist auf drei Kirchgemeinden aufgeteilt: Stadtteil Littau (PLZ 6014, auch das Stadtgebiet mit PLZ 6016 Hellbühl) → Littau; Ortsteil Reussbühl (PLZ 6015) → Reussbühl; übrige Stadt → Luzern. Mit der Strasse ermittelt die Seite die Kirchgemeinde genau. Ab 1. Januar 2027 gehört Reussbühl zur Kirchgemeinde Luzern.",
       "finder": null,
-      "geodata": "https://map.stadtluzern.ch/server/services/OGD/einteilung_katholische_kirchgemeinden/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "geodata": "https://map.stadtluzern.ch/server/rest/services/OGD/einteilung_katholische_kirchgemeinden/MapServer/14/query?where=1%3D1&outFields=*&f=geojson",
       "ortsteile": {
         "Luzern (alte Stadt, PLZ 6003–6006)": "lu-luzern",
         "Littau (6014 Luzern)": "lu-littau",
         "Reussbühl (6015 Luzern)": "lu-reussbuehl",
-        "Hellbühl (6016)": "lu-hellbuehl"
+        "Stadtgebiet mit PLZ 6016 Hellbühl (Stächerain)": "lu-littau"
       }
     },
     {
@@ -1963,14 +2051,18 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Gebietsgrundlage: Die Kirchenverfassung (Anhang, Ausgabe 2002) nennt nur die Namen der Kirchgemeinden, keine Gebiete. Die Hauptzuordnung je Gemeinde stammt aus den Steuereinheiten 2026 der Dienststelle Steuern (eine Kirchgemeinde je Gemeinde); Abweichungen (Ortsteile, Weiler, Höfe) aus den Selbstbeschreibungen der Kirchgemeinden. Wo eine Gemeinde laut Kirchgemeinde auch nur einzelne Höfe an eine andere Kirchgemeinde abgibt, ist sie als geteilt erfasst.",
-    "Viele Kirchgemeinden publizieren keine eigene Postadresse, nur Namen und Privatadressen von Behördenmitgliedern. Dort ist die Adresse des Pfarramts bzw. Pastoralraum-Sekretariats erfasst (address_type pfarramt/sekretariat), adressiert an den Kirchenrat. Das widerspricht dem Wunsch, die Pfarrei nicht zu informieren; vor Produktivsetzung klären.",
-    "Das Verzeichnis «Kirchgemeinden und Präsidien» der Landeskirche nennt je Kirchenrat eine Adresse, die meist die Privatadresse des Präsidiums ist; diese Strassenadressen wurden nicht übernommen.",
-    "Stadt Luzern: Der WFS «Einteilung katholischer Kirchgemeinden» (map.stadtluzern.ch) war am 28.10.2026 nicht erreichbar (TLS-Abbruch); die Ortsteil-Zuordnung beruht auf den Angaben der Kirchgemeinden Littau und Reussbühl. Die Fusion Luzern–Reussbühl ist angekündigt (Legislatur bis 31.12.2026 verlängert); Reussbühl-Adresse ab 2027 prüfen.",
-    "Gettnau: Kirchgemeinde Gettnau erscheint noch in den Finanzkennzahlen 2024, aber nicht mehr im Verzeichnis 2026 und nicht in den Steuereinheiten 2026; angenommen ist, dass sie in Willisau aufgegangen ist (nicht explizit bestätigt).",
-    "Region Willisau (Willisau, Menznau, Geiss, Menzberg, Hergiswil): Website prrw.ch liefert 404; Gebiete von Geiss und Menzberg und die Adressen nur aus dem Pfarreiverzeichnis.",
-    "Pastoralraum Baldeggersee (Hochdorf, Hohenrain, Kleinwangen, Römerswil): Website prbs.ch nur per JavaScript, nicht ausgewertet; Abgrenzung Hohenrain/Kleinwangen nicht publiziert.",
-    "Nicht publizierte Abgrenzungen: Teile von Wolhusen, Menznau und Romoos (→ Doppleschwand), Schachen (Werthenstein/Malters), der Sursee-Anteil in Beromünster, Mueshütten (Flühli), Perlen-Teil der Gemeinde Root, Altishofen-Ortschaft 6263 Richenthal.",
+    "Viele Kirchgemeinden publizieren keine eigene Postadresse, nur Namen und Privatadressen von Behördenmitgliedern. Dort ist die Adresse des Pfarramts bzw. Pastoralraum-Sekretariats erfasst (address_type pfarramt/sekretariat). Das widerspricht dem Wunsch, die Pfarrei nicht zu informieren; vor Produktivsetzung klären.",
+    "Fusionen 1.1.2027: Adressen der neuen Kirchgemeinden Luzern, Rontal und Greppen-Weggis-Vitznau im Januar 2027 prüfen (erfasst sind bisherige Geschäftsstellen, confidence low).",
+    "Region Willisau (Willisau, Menznau, Geiss, Menzberg, Hergiswil): prrw.ch liefert weiterhin 404; Gebiete von Geiss und Menzberg und die Adressen nur aus dem Pfarreiverzeichnis.",
+    "Pastoralraum Baldeggersee (Hochdorf, Hohenrain, Kleinwangen, Römerswil): prbs.ch lädt Inhalte nur per JavaScript; Abgrenzung Hohenrain/Kleinwangen nicht publiziert.",
+    "Nicht publizierte Abgrenzungen: Teile von Wolhusen, Menznau und Romoos (→ Doppleschwand), Schachen (Werthenstein/Malters), der Sursee-Anteil in Beromünster, Mueshütten (Flühli), Perlen-Teil der Gemeinde Root, Escholzmatt-Marbach (Höfe mit PLZ 3555, 6170, 6173, 6197), Altishofen-Ortschaft 6263 Richenthal.",
     "Austritt: Die Kirchenverfassung verlangt die Erklärung, der Konfession nicht mehr anzugehören; das Bundesgericht (BGE 134 I 75, Luzern) hat den Austritt nur aus der staatskirchenrechtlichen Körperschaft für zulässig erklärt. Ab wann die Kirchensteuerpflicht endet, ist kantonal nicht auf den Seiten der Landeskirche publiziert (Hitzkirchertal: gültig mit Datum des Poststempels)."
+  ],
+  "grundlage": [
+    "Gebietsgrundlage: Die Kirchenverfassung (Anhang, Ausgabe 2002) nennt nur die Namen der Kirchgemeinden, keine Gebiete. Die Hauptzuordnung je Gemeinde stammt aus den Steuereinheiten 2026 der Dienststelle Steuern (eine Kirchgemeinde je Gemeinde); Abweichungen (Ortsteile, Weiler, Höfe) aus den Selbstbeschreibungen der Kirchgemeinden. Wo eine Gemeinde laut Kirchgemeinde auch nur einzelne Höfe an eine andere Kirchgemeinde abgibt, ist sie als geteilt erfasst.",
+    "Das Verzeichnis «Kirchgemeinden und Präsidien» der Landeskirche nennt je Kirchenrat eine Adresse, die meist die Privatadresse des Präsidiums ist; diese Strassenadressen wurden nicht übernommen.",
+    "Stadt Luzern: Grenzen aus dem Geodienst der Stadt Luzern «Einteilung katholische Kirchgemeinden» (OGD, REST-Layer 14, abgerufen 28.10.2026, drei Polygone Stadt Luzern, Reussbühl, Littau), aufbereitet als data-src/geo/lu-stadt.geojson. Das ganze Landgebiet der Stadt ist abgedeckt; der städtische Teil der PLZ 6016 Hellbühl liegt bei Littau, die Kirchgemeinde Hellbühl reicht nicht in die Stadt. Die Hellbühler Grenzkarte von 2008 betrifft die Pfarrei.",
+    "Fusionen per 1.1.2027, von der Synode am 6.5.2026 genehmigt (lukath.ch): Reussbühl + Luzern → Kirchgemeinde Luzern; Buchrain-Perlen + Ebikon + Root → Kirchgemeinde Rontal; Greppen + Weggis + Vitznau → Kirchgemeinde Greppen, Weggis und Vitznau. Alte Einträge mit «bis» 2026-12-31, Nachfolger mit «ab» 2027-01-01.",
+    "Gettnau: Fusion mit Willisau per 1.1.2026 (Fusionsübersicht der Landeskirche 10.12.2024, Stellenausschreibung der Kirchgemeinde Willisau 2025); Gettnau steht 2026 weder im Verzeichnis noch in den Steuereinheiten."
   ]
 }

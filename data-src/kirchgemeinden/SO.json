@@ -1,1565 +1,1598 @@
 {
- "canton": "SO",
- "body": {
-  "name": "Römisch-Katholische Synode des Kantons Solothurn",
-  "short": "Synode SO (röm.-kath.)",
-  "website": "https://www.synode-so.ch",
-  "postal": [
-   "Römisch-Katholische Synode des Kantons Solothurn",
-   "Bahnhofstrasse 276",
-   "Postfach 308",
-   "4563 Gerlafingen"
+  "canton": "SO",
+  "body": {
+    "name": "Römisch-Katholische Synode des Kantons Solothurn",
+    "short": "Synode SO (röm.-kath.)",
+    "website": "https://www.synode-so.ch",
+    "postal": [
+      "Römisch-Katholische Synode des Kantons Solothurn",
+      "Bahnhofstrasse 276",
+      "Postfach 308",
+      "4563 Gerlafingen"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchgemeinderat der Wohnsitz-Kirchgemeinde (Art. 55 Abs. 2 KV SO)",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftliche Mitteilung (Art. 55 Abs. 2 KV SO); jederzeit möglich",
+    "beglaubigung": false,
+    "wirkung": "Von der Kirchensteuer befreit ist, wer beim Kirchgemeinderat schriftlich erklärt, der Konfession nicht mehr anzugehören (§ 249 Abs. 5 Steuergesetz, BGS 614.11); einen Stichtag nennt das Gesetz nicht.",
+    "notes": "Die Synode ist der Zusammenschluss der Kirchgemeinden und nimmt keine Austritte entgegen. Die Gebietseinteilung der 72 Kirchgemeinden steht im Verzeichnis der solothurnischen Gemeinden (BGS 131.3 § 4).",
+    "source": "https://bgs.so.ch/app/de/texts_of_law/111.1"
+  },
+  "finder": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://bgs.so.ch/app/de/texts_of_law/131.3",
+    "https://bgs.so.ch/app/de/texts_of_law/111.1",
+    "https://bgs.so.ch/app/de/texts_of_law/614.11",
+    "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+    "https://www.synode-so.ch/"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "so-solothurn",
+      "name": "Römisch-katholische Kirchgemeinde Solothurn",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Solothurn",
+        "Verwaltung",
+        "Hauptgasse 75",
+        "4500 Solothurn"
+      ],
+      "address_type": "verwaltung",
+      "email": "kg-verwaltung@kath-solothurn.ch",
+      "website": "https://www.kath-solothurn.ch/solothurn",
+      "source": "https://www.kath-solothurn.ch/solothurn",
+      "bfs": [],
+      "partial_bfs": [
+        2601
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "so-bellach",
+      "name": "Römisch-katholische Kirchgemeinde Bellach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bellach",
+        "Kirchgemeinderat",
+        "c/o Pfarrei Bellach",
+        "Friedhofstrasse 5",
+        "4512 Bellach"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.bellach@pastoralraum-mlb.ch",
+      "website": "https://pastoralraum-mlb.ch/kirchgemeinden/bellach/",
+      "source": "https://pastoralraum-mlb.ch/kirchgemeinden/bellach/",
+      "bfs": [
+        2542
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kirchgemeinde-Seite im Pastoralraum Mittlerer Leberberg nennt nur das Pfarreisekretariat."
+    },
+    {
+      "id": "so-bettlach",
+      "name": "Römisch-katholische Kirchgemeinde Bettlach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bettlach",
+        "Verwaltung",
+        "Kirchgasse 7",
+        "2544 Bettlach"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://wandflue.ch/pastoralraum/kirchgemeinde-bettlach/",
+      "source": "https://wandflue.ch/kontakt/verwaltung/",
+      "bfs": [
+        2543
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Auftritt als Kirchgemeinde St. Klemenz (Pastoralraum Wandflue)."
+    },
+    {
+      "id": "so-flumenthal-hubersdorf",
+      "name": "Römisch-katholische Kirchgemeinde Flumenthal-Hubersdorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Flumenthal-Hubersdorf",
+        "Verwaltung",
+        "Kirchgasse 32",
+        "4534 Flumenthal"
+      ],
+      "address_type": "verwaltung",
+      "email": "flumenthal@kath-solothurn.ch",
+      "website": "https://www.kath-solothurn.ch/flumenthal-hubersdorf",
+      "source": "https://www.kath-solothurn.ch/flumenthal-hubersdorf",
+      "bfs": [
+        2545,
+        2548
+      ],
+      "partial_bfs": [
+        2549,
+        2554
+      ],
+      "confidence": "high",
+      "note": "Verwaltung am Pfarrei-Standort Kirchgasse 32 (auch im Synode-Verzeichnis so angegeben)."
+    },
+    {
+      "id": "so-grenchen",
+      "name": "Römisch-katholische Kirchgemeinde Grenchen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Grenchen",
+        "Verwaltung",
+        "Schulstrasse 1",
+        "2540 Grenchen"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung.grenchen@wandflue.ch",
+      "website": "https://wandflue.ch/pastoralraum/kirchgemeinde-grenchen/",
+      "source": "https://wandflue.ch/kontakt/verwaltung/",
+      "bfs": [
+        2546
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Auftritt als Kirchgemeinde St. Eusebius (Pastoralraum Wandflue)."
+    },
+    {
+      "id": "so-guensberg-niederwil-balm",
+      "name": "Römisch-katholische Kirchgemeinde Günsberg-Niederwil-Balm",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Günsberg-Niederwil-Balm",
+        "Kirchgemeinderat",
+        "c/o Pfarrei Günsberg-Niederwil-Balm",
+        "Kirchgasse 1",
+        "4524 Günsberg"
+      ],
+      "address_type": "pfarramt",
+      "email": "guensberg@kath-solothurn.ch",
+      "website": "https://www.kath-solothurn.ch/guensberg",
+      "source": "https://www.kath-solothurn.ch/quicklinks/kontakte",
+      "bfs": [
+        2541,
+        2547
+      ],
+      "partial_bfs": [
+        2549,
+        2554
+      ],
+      "confidence": "medium",
+      "note": "Für Präsidium und Finanzverwaltung sind nur Personenadressen publiziert; Postadresse ist das Pfarreisekretariat."
+    },
+    {
+      "id": "so-oberdorf",
+      "name": "Römisch-katholische Kirchgemeinde Oberdorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oberdorf",
+        "Kirchgemeinderat",
+        "c/o Pfarreien OLLA",
+        "Stöcklimattstr. 22",
+        "4513 Langendorf"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.olla@pastoralraum-mlb.ch",
+      "website": "https://pastoralraum-mlb.ch/kirchgemeinden/oberdorf/",
+      "source": "https://pastoralraum-mlb.ch/kirchgemeinden/oberdorf/",
+      "bfs": [
+        2550,
+        2551,
+        2553
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Eine Kirchgemeinde für die Pfarreien Oberdorf, Lommiswil und Langendorf («OLLA»); Postadresse ist das gemeinsame Pfarreisekretariat in Langendorf."
+    },
+    {
+      "id": "so-selzach",
+      "name": "Römisch-katholische Kirchgemeinde Selzach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Selzach",
+        "Kirchgemeinderat",
+        "c/o Pfarrei Selzach",
+        "Dorfstr. 35",
+        "2545 Selzach"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.selzach@pastoralraum-mlb.ch",
+      "website": "https://pastoralraum-mlb.ch/kirchgemeinden/selzach/",
+      "source": "https://pastoralraum-mlb.ch/kirchgemeinden/selzach/",
+      "bfs": [
+        2556
+      ],
+      "partial_bfs": [],
+      "confidence": "medium"
+    },
+    {
+      "id": "so-st-niklaus",
+      "name": "Römisch-katholische Kirchgemeinde St. Niklaus",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde St. Niklaus",
+        "Kirchgemeinderat",
+        "c/o Pfarrei St. Niklaus",
+        "St. Niklausstrasse 79",
+        "4500 Solothurn"
+      ],
+      "address_type": "pfarramt",
+      "email": "stniklaus@kath-solothurn.ch",
+      "website": "https://www.kath-solothurn.ch/st-niklaus",
+      "source": "https://www.kath-solothurn.ch/st-niklaus",
+      "bfs": [
+        2544,
+        2555
+      ],
+      "partial_bfs": [
+        2554,
+        2601
+      ],
+      "confidence": "medium",
+      "note": "Finanzverwaltung durch ein externes Treuhandbüro; Präsidium nur mit Privatadresse publiziert."
+    },
+    {
+      "id": "so-aeschi",
+      "name": "Römisch-katholische Kirchgemeinde Aeschi",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Aeschi",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Luzernstrasse 14",
+        "4556 Aeschi"
+      ],
+      "address_type": "pfarramt",
+      "email": "aeschi@pawa-ost.ch",
+      "website": "https://annapfarrei.ch/kirchgemeinde/",
+      "source": "https://annapfarrei.ch/kirchgemeinderat-2/",
+      "bfs": [
+        2511,
+        2514,
+        2518,
+        2524
+      ],
+      "partial_bfs": [
+        2535
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "so-deitingen",
+      "name": "Römisch-katholische Kirchgemeinde Deitingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Deitingen",
+        "c/o Pfarramt",
+        "Derendingenstrasse 5",
+        "4543 Deitingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "deitingen@pawa-ost.ch",
+      "website": "https://www.kirchgemeinde-deitingen.ch",
+      "source": "https://www.kirchgemeinde-deitingen.ch/impressum",
+      "bfs": [
+        2516
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Kontakt und Impressum nennen «Röm.-kath. Kirchgemeinde Deitingen, Pfarramt: Derendingenstrasse 5»."
+    },
+    {
+      "id": "so-derendingen",
+      "name": "Römisch-katholische Kirchgemeinde Derendingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Derendingen",
+        "Kirchgemeinderat",
+        "c/o Sekretariat",
+        "Hauptstrasse 51",
+        "4552 Derendingen"
+      ],
+      "address_type": "sekretariat",
+      "email": "derendingen@pawa-ost.ch",
+      "website": "https://www.herzjesu-derendingen.ch/",
+      "source": "https://www.herzjesu-derendingen.ch/",
+      "bfs": [
+        2517
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat von Pfarrei und Kirchgemeinde Herz Jesu."
+    },
+    {
+      "id": "so-luterbach",
+      "name": "Römisch-katholische Kirchgemeinde Luterbach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Luterbach",
+        "Kirchgemeinderat",
+        "c/o Pfarramt St. Josef",
+        "Hauptstrasse 2",
+        "4542 Luterbach"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesidium@stjosef-luterbach.ch",
+      "website": "https://www.stjosef-luterbach.ch/gemeinde/kirchgemeinde/",
+      "source": "https://www.stjosef-luterbach.ch/",
+      "bfs": [
+        2527
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Auftritt als Röm.-kath. Kirchgemeinde St. Joseph Luterbach; keine eigene Kirchgemeinde-Postadresse publiziert."
+    },
+    {
+      "id": "so-subingen",
+      "name": "Römisch-katholische Kirchgemeinde Subingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Subingen",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Luzernstrasse 49",
+        "4553 Subingen"
+      ],
+      "address_type": "pfarramt",
+      "source": "https://subingen.ch/de/Leben-Wohnen/Kirchen/Roem-Kath-Kirche",
+      "bfs": [
+        2532
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Im Synode-Verzeichnis nur Privatadresse des Präsidiums; keine eigene Website gefunden (Pastoralraum Wasseramt Ost). | Nachrecherche 28.10.2026: Luzernstrasse 49 ist laut Website der Einwohnergemeinde Pfarrhaus/Pfarramt St. Urs und Viktor mit Pfarreisekretariat; dieselbe Adresse ist im UID-Register als Sitz der Kirchgemeinde eingetragen (CHE-108.947.837, Zustellbarkeit nicht bestätigt, Prüfung 26.09.2026). Präsidium mit Funktionsadresse praesidium@pfarramt-subingen.ch.",
+      "email": "praesidium@pfarramt-subingen.ch"
+    },
+    {
+      "id": "so-wasseramt-west-bucheggberg",
+      "name": "Römisch-katholische Kirchgemeinde Wasseramt West - Bucheggberg",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wasseramt West - Bucheggberg",
+        "Verwaltung",
+        "Grundmattstrasse 2",
+        "4566 Kriegstetten"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@pastoralraum-wwb.ch",
+      "website": "https://www.pastoralraum-wwb.ch/page.cfm?id=88&abt=Kirchgemeinde",
+      "source": "https://www.pastoralraum-wwb.ch/page.cfm?id=206&abt=Kirchgemeinde&rub=Verwaltung",
+      "bfs": [
+        2445,
+        2455,
+        2457,
+        2461,
+        2463,
+        2464,
+        2465,
+        2513,
+        2519,
+        2523,
+        2525,
+        2526,
+        2528,
+        2530
+      ],
+      "partial_bfs": [
+        2535
+      ],
+      "confidence": "high",
+      "note": "Fusionierte Kirchgemeinde (u. a. Biberist, Gerlafingen, Kriegstetten, Lohn-Ammannsegg und Bucheggberg)."
+    },
+    {
+      "id": "so-zuchwil",
+      "name": "Römisch-katholische Kirchgemeinde Zuchwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Zuchwil",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Hauptstrasse 32",
+        "4528 Zuchwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "zuchwil@pawa-ost.ch",
+      "website": "https://www.pfarrei-zuchwil.ch/f%C3%BCr-sie-da/kirchgemeinde/",
+      "source": "https://www.pfarrei-zuchwil.ch/",
+      "bfs": [
+        2534
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Die Verwaltung besorgt ein externes Treuhandbüro in Zuchwil; Postadresse ist das Pfarramt."
+    },
+    {
+      "id": "so-aedermannsdorf",
+      "name": "Römisch-katholische Kirchgemeinde Aedermannsdorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Aedermannsdorf",
+        "Kirchgemeinderat",
+        "c/o Pastoralraum Dünnernthal (Pfarrhaus)",
+        "Kirchstrasse 176",
+        "4714 Aedermannsdorf"
+      ],
+      "address_type": "pfarramt",
+      "email": "verwaltung@kg-aedermannsdorf.ch",
+      "website": "https://prduennernthal.ch/pfarreien/aedermannsdorf/",
+      "source": "https://prduennernthal.ch/pfarreien/aedermannsdorf/kirchgemeinderat/",
+      "bfs": [
+        2421
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Der Kirchgemeinderat publiziert nur Privatadressen; Kirchstrasse 176 ist das Sekretariat des Pastoralraums Dünnernthal im Pfarrhaus Aedermannsdorf. | Nachrecherche 28.10.2026: UID CHE-490.098.788 «Röm.- katholische Kirchgemeinde Aedermannsdorf» hat ihren Sitz an der Kirchstrasse 176 (Prüfung 16.09.2026); die Adresse ist damit auch die eingetragene Sitzadresse."
+    },
+    {
+      "id": "so-balsthal",
+      "name": "Römisch-katholische Kirchgemeinde Balsthal",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Balsthal",
+        "Kirchgemeinderat",
+        "St. Annagasse 2",
+        "4710 Balsthal"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "kgr@kath-pfarrei-balsthal.ch",
+      "website": "https://www.st-wolfgang-im-thal.ch/",
+      "source": "https://www.st-wolfgang-im-thal.ch/tp01/balsthal/kirchgemeinderat.html",
+      "bfs": [
+        2422
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Seite nennt «Anschrift röm.-kath. Kirchgemeinde, St. Annagasse 2»; Finanzverwalter-Seite: «röm.-kath. Kirchgemeinde Verwaltung, St. Annagasse 2» (verwaltung@kath-pfarrei-balsthal.ch). Gleiche Adresse wie Pfarramt."
+    },
+    {
+      "id": "so-herbetswil",
+      "name": "Römisch-katholische Kirchgemeinde Herbetswil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Herbetswil",
+        "Verwaltung",
+        "Kirchstrasse 71",
+        "4715 Herbetswil"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat-he@prduennernthal.ch",
+      "website": "https://prduennernthal.ch/pfarreien/herbetswil/",
+      "source": "https://prduennernthal.ch/pfarreien/herbetswil/kirchgemeinderat/",
+      "bfs": [
+        2424
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KGR-Liste führt die Verwaltung an Kirchstrasse 71; dort ist auch das Pfarreisekretariat Herbetswil (dessen Leiterin hat separate Privatadresse) – also Büroadresse, nicht privat. E-Mail = Pfarreisekretariat."
+    },
+    {
+      "id": "so-holderbank",
+      "name": "Römisch-katholische Kirchgemeinde Holderbank",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Holderbank",
+        "c/o Pfarreisekretariat Holderbank",
+        "St. Annagasse 2",
+        "4710 Balsthal"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@kath-pfarrei-holderbank.ch",
+      "website": "https://www.st-wolfgang-im-thal.ch/tp01/holderbank/holderbank.html",
+      "source": "https://www.st-wolfgang-im-thal.ch/tp01/holderbank/holderbank/sekretariat.html",
+      "bfs": [
+        2425
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Kontakt- und KGR-Seite nennen nur Privatadressen (Präsidium, Verwalter in Balsthal). Pfarreisekretariat Holderbank sitzt im Pfarrhaus Balsthal (St. Annagasse 2), wird aber nicht als KG-Adresse genannt. Pfarrei umfasst auch Langenbruck (BL). | Nachrecherche 28.10.2026: UID-Eintrag CHE-108.935.610 (Wiesweidweg 222, Holderbank) ist gelöscht; der aktive Eintrag CHE-183.884.509 hat seinen Sitz c/o einer Person (Name weggelassen), Hinterrainweg 13, 4710 Balsthal, zustellbar (Prüfung 16.10.2026). Laut amtlichem Gebäuderegister ein Mehrfamilienhaus; ohne c/o-Zeile ist die Zustellung nicht gesichert. Alternative: Pfarrhaus Balsthal, St. Annagasse 2. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Eingetragen ist das Pfarreisekretariat Holderbank; es sitzt laut Pastoralraum-Website «im Pfarrhaus in Balsthal», St. Annagasse 2 (Adresse des Pastoralraums St. Wolfgang im Thal)."
+    },
+    {
+      "id": "so-laupersdorf",
+      "name": "Römisch-katholische Kirchgemeinde Laupersdorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Laupersdorf",
+        "c/o Sekretariat Pastoralraum Dünnernthal",
+        "Kirchstrasse 176",
+        "4714 Aedermannsdorf"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://prduennernthal.ch/pfarreien/laupersdorf/",
+      "source": "https://prduennernthal.ch/pfarreien/laupersdorf/",
+      "bfs": [
+        2426
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. KGR-Liste nur mit Privatadressen; Pfarreisekretariat nur «Pfarreisaal (Gemeindezentrum), 4712 Laupersdorf» ohne Strasse (sekretariat-la@prduennernthal.ch). | Nachrecherche 28.10.2026: UID CHE-108.952.732 «Röm.- kath. Kirchgemeinde» mit Sitz Oberdorf 53, 4712 Laupersdorf, Zustellbarkeit nicht bestätigt (Prüfung 24.09.2026); laut Gebäuderegister ein Einfamilienhaus (evtl. Privathaushalt). Alternative: Sekretariat Pastoralraum Dünnernthal, Kirchstrasse 176, 4714 Aedermannsdorf. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Eingetragen ist das Sekretariat des Pastoralraums Dünnernthal, Kirchstrasse 176, 4714 Aedermannsdorf (Kontakt auf der Pfarreiseite Laupersdorf); das Pfarreisekretariat Laupersdorf nennt keine Strasse und ist nur einmal im Monat besetzt.",
+      "email": "sekretariat@prduennernthal.ch"
+    },
+    {
+      "id": "so-matzendorf",
+      "name": "Römisch-katholische Kirchgemeinde Matzendorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Matzendorf",
+        "Verwaltung",
+        "c/o Schürmann Treuhand AG",
+        "Bahnhofstrasse 11",
+        "4622 Egerkingen"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://prduennernthal.ch/pfarreien/matzendorf/",
+      "source": "https://prduennernthal.ch/pfarreien/matzendorf/kirchgemeinderat/",
+      "bfs": [
+        2427
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KGR-Liste nennt als Verwaltung die Firma Schürmann Treuhand AG (externe Verwaltung, Sitz Egerkingen). Alternative vor Ort: Pfarreisekretariat Matzendorf, Gartenstrasse 2 (Pfarreiheim), 4713 Matzendorf, sekretariat-ma@prduennernthal.ch."
+    },
+    {
+      "id": "so-muemliswil",
+      "name": "Römisch-katholische Kirchgemeinde Mümliswil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Mümliswil",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Kirchweg 9",
+        "4717 Mümliswil"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramtmuemliswil@ggs.ch",
+      "website": "https://www.st-wolfgang-im-thal.ch/tp01/muemliswil.html",
+      "source": "https://www.st-wolfgang-im-thal.ch/tp01/data-storage/impressum.html",
+      "bfs": [],
+      "partial_bfs": [
+        2428
+      ],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Der Kirchgemeinderat publiziert nur Privatadressen; Kirchweg 9 ist das röm.-kath. Pfarramt Mümliswil (Impressum der Pastoralraum-Website). | Nachrecherche 28.10.2026: UID CHE-196.875.394 «Römisch-katholische Kirchgemeinde Mümliswil» mit Sitz c/o Pfarreisekretariat, Kirchweg 9, 4717 Mümliswil (Prüfung 28.10.2026); bestätigt die eingetragene Adresse."
+    },
+    {
+      "id": "so-ramiswil",
+      "name": "Römisch-katholische Kirchgemeinde Ramiswil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Ramiswil",
+        "c/o Pastoralraum St. Wolfgang im Thal",
+        "St. Annagasse 2",
+        "4710 Balsthal"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.st-wolfgang-im-thal.ch/tp01/ramiswil.html",
+      "source": "https://www.st-wolfgang-im-thal.ch/tp01/kontakt.html",
+      "bfs": [],
+      "partial_bfs": [
+        2428
+      ],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. KGR-Seite nur Privatadressen; Verwalterin identisch mit KG Mümliswil (Privatadresse in Mümliswil); Pfarreisekretariat ebenfalls Privatadresse. Synode-Verzeichnis Hausnummer weicht von Website ab. Eigene KG trotz politischer Gemeinde Mümliswil-Ramiswil. | Nachrecherche 28.10.2026: UID CHE-135.235.254 «Röm.-kath. Kirchgemeinde Ramiswil» mit Sitz c/o einer Person (Name weggelassen), Passwangstrasse 15, 4719 Ramiswil, zustellbar (Prüfung 10.09.2026). Laut Gebäuderegister ein Zweifamilienhaus; ohne c/o-Zeile ist die Zustellung nicht gesichert. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Das Pfarreisekretariat Ramiswil nennt nur eine Personenadresse; eingetragen ist deshalb die Kontaktadresse des Pastoralraums St. Wolfgang im Thal, St. Annagasse 2, 4710 Balsthal (Pfarrhaus Balsthal)."
+    },
+    {
+      "id": "so-welschenrohr-gaensbrunnen",
+      "name": "Römisch-katholische Kirchgemeinde Welschenrohr-Gänsbrunnen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Welschenrohr-Gänsbrunnen",
+        "Verwaltung",
+        "c/o Allemann Treuhand",
+        "Goldgasse 14",
+        "4710 Balsthal"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://prduennernthal.ch/pfarreien/welschenrohr/",
+      "source": "https://prduennernthal.ch/pfarreien/welschenrohr/kirchgemeinderat/",
+      "bfs": [
+        2430
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KGR-Liste nennt als Verwaltung die Firma Allemann Treuhand, Balsthal (externe Verwaltung). Pfarreisekretariat (sekretariat-we@prduennernthal.ch) liegt an einer Adresse, die auch als Privatadresse der Aktuarin erscheint – nicht verwendet."
+    },
+    {
+      "id": "so-egerkingen",
+      "name": "Römisch-katholische Kirchgemeinde Egerkingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Egerkingen",
+        "c/o Römisch-katholisches Pfarramt",
+        "Domherrenstrasse 1",
+        "4622 Egerkingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.egerkingen@pastoralraum-gaeu.ch",
+      "website": "https://pastoralraum-gaeu.ch/egerkingen/",
+      "source": "https://pastoralraum-gaeu.ch/egerkingen/kontakt/",
+      "bfs": [
+        2401
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kontaktblock der Pfarrei nennt Pfarramt-Adresse und Kirchgemeindepräsidium (ohne eigene Adresse); KG publiziert keine separate Postadresse. E-Mail = Pfarreisekretariat."
+    },
+    {
+      "id": "so-haerkingen",
+      "name": "Römisch-katholische Kirchgemeinde Härkingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Härkingen",
+        "Verwaltung",
+        "Hauptgasse 28",
+        "4624 Härkingen"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@kirchgemeinde-haerkingen.ch",
+      "website": "https://pastoralraum-gaeu.ch/haerkingen/",
+      "source": "https://pastoralraum-gaeu.ch/haerkingen/kontakt/",
+      "bfs": [
+        2402
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Hauptgasse 28 = Pfarreisekretariat; dieselbe Person führt laut Pfarreiseite die KG-Verwaltung (verwaltung@/praesidium@/steuer@kirchgemeinde-haerkingen.ch). Synode-Verzeichnis nennt für die KG ebenfalls Hauptgasse 28."
+    },
+    {
+      "id": "so-kestenholz",
+      "name": "Römisch-katholische Kirchgemeinde Kestenholz",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Kestenholz",
+        "c/o Pfarramt",
+        "Kirchweg 3",
+        "4703 Kestenholz"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfr.kestenholz@bluewin.ch",
+      "website": "https://www.pfarrei-kestenholz.ch/",
+      "source": "https://www.pfarrei-kestenholz.ch/",
+      "bfs": [
+        2403
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Von der Synode als KG-Website verlinkt; einzige nicht-private Adresse dort ist «Pfarramt Kestenholz, Kirchweg 3». KGR-Seite ohne Adresse, Präsidium nur mit Privatadresse."
+    },
+    {
+      "id": "so-neuendorf",
+      "name": "Römisch-katholische Kirchgemeinde Neuendorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Neuendorf",
+        "c/o Römisch-katholisches Pfarramt",
+        "Dorfstrasse 88",
+        "4623 Neuendorf"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesidium@kirchgemeinde-neuendorf.ch",
+      "website": "https://pastoralraum-gaeu.ch/neuendorf/",
+      "source": "https://pastoralraum-gaeu.ch/neuendorf/",
+      "bfs": [
+        2404
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kontaktblock der Pfarrei nennt Pfarramt Dorfstrasse 88 und das KG-Präsidium mit Funktionsadresse praesidium@kirchgemeinde-neuendorf.ch; keine separate KG-Postadresse. Unterseite /neuendorf/kontakt/ zeigt die Strasse nicht."
+    },
+    {
+      "id": "so-niederbuchsiten",
+      "name": "Römisch-katholische Kirchgemeinde Niederbuchsiten",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Niederbuchsiten",
+        "Dorfstrasse 26",
+        "4626 Niederbuchsiten"
+      ],
+      "address_type": "uid",
+      "email": "sekretariat@pfarrei-niederbuchsiten.ch",
+      "website": "https://www.pfarrei-niederbuchsiten.ch/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE170174120",
+      "bfs": [
+        2405
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenstandort Dorfstrasse 24 ausdrücklich «Bitte keine Korrespondenz an diese Adresse!»; Pfarreisekretariat und Präsidium nur mit Privatadressen, Finanzverwaltung extern (Firma, laut Gemeinde-Website ohne PLZ angegeben). E-Mail = Pfarreisekretariat. | Nachrecherche 28.10.2026: UID CHE-170.174.120 «Röm.- katholische Kirchgemeinde» mit Sitz Dorfstrasse 26, 4626 Niederbuchsiten, Zustellbarkeit nicht bestätigt (Prüfung 27.09.2026). Das Gebäude heisst im amtlichen Gebäuderegister «Pfarrhaus». Die Bitte der Website, keine Korrespondenz zu senden, betrifft den Kirchenstandort Dorfstrasse 24."
+    },
+    {
+      "id": "so-oberbuchsiten",
+      "name": "Römisch-katholische Kirchgemeinde Oberbuchsiten",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oberbuchsiten",
+        "Postfach 16",
+        "4625 Oberbuchsiten"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.oberbuchsiten@pastoralraum-gaeu.ch",
+      "website": "https://pastoralraum-gaeu.ch/oberbuchsiten/",
+      "source": "https://pastoralraum-gaeu.ch/oberbuchsiten/kontakt/",
+      "bfs": [
+        2406
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postfach 16 übereinstimmend beim Pfarreisekretariat und im Synode-Verzeichnis (KG). Hausnummer widersprüchlich: Kirchgasse 24 (Kontaktseite), 62 (Pfarreiseite), 6 (Synode) – deshalb nur Postfach."
+    },
+    {
+      "id": "so-oensingen",
+      "name": "Römisch-katholische Kirchgemeinde Oensingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oensingen",
+        "Postfach 278",
+        "4702 Oensingen"
+      ],
+      "address_type": "verwaltung",
+      "email": "rkkg@pfarrei-oensingen.ch",
+      "website": "https://www.pfarrei-oensingen.ch/",
+      "source": "https://www.pfarrei-oensingen.ch/",
+      "bfs": [
+        2407
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Fusszeile aller Seiten: «Röm.-Kath. Kirchgemeinde, Postfach 278, 4702 Oensingen». Pfarrei St. Georg separat: Ausserbergstrasse 12. Präsidium laut Website inzwischen neu besetzt (Synode-Verzeichnis veraltet)."
+    },
+    {
+      "id": "so-wolfwil",
+      "name": "Römisch-katholische Kirchgemeinde Wolfwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wolfwil",
+        "c/o Pfarramt",
+        "Kirchstrasse 2",
+        "4628 Wolfwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "kath.pfarramt.wolfwil@ggs.ch",
+      "website": "https://wallfahrtsort-wolfwil.ch/",
+      "source": "https://wallfahrtsort-wolfwil.ch/wordpress/kontakt-2/",
+      "bfs": [
+        2408
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Synode-Verzeichnis nennt für die KG Kirchstrasse 2 und die Pfarramts-E-Mail (das Präsidium wohnt laut KGR-Seite anderswo) – KG nutzt also das Pfarramt als Kontaktadresse."
+    },
+    {
+      "id": "so-dulliken",
+      "name": "Römisch-katholische Kirchgemeinde Dulliken",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Dulliken",
+        "c/o Pfarreisekretariat",
+        "Bahnhofstrasse 44",
+        "4657 Dulliken"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://niederamtsued.ch/dulliken/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108935857",
+      "bfs": [
+        2573
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Nur Privatkontakte des Kirchgemeinderats publiziert; Pfarreisekretariat Dulliken: Bahnhofstrasse 44, 4657 Dulliken (kein KG-Bezug angegeben). | Nachrecherche 28.10.2026: UID CHE-108.935.857 «Röm.- kath. Kirchgemeinde Dulliken» mit Sitz Bahnhofstrasse 44, 4657 Dulliken (= Pfarreisekretariat laut niederamtsued.ch), Zustellbarkeit nicht bestätigt (Prüfung 19.10.2026)."
+    },
+    {
+      "id": "so-fulenbach",
+      "name": "Römisch-katholische Kirchgemeinde Fulenbach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Fulenbach",
+        "Kirchgemeinderat",
+        "c/o Römisch-katholisches Pfarramt",
+        "Dorfstrasse 4",
+        "4629 Fulenbach"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.fulenbach@pastoralraum-gaeu.ch",
+      "website": "https://pastoralraum-gaeu.ch/fulenbach/",
+      "source": "https://pastoralraum-gaeu.ch/fulenbach/kontakt/",
+      "bfs": [
+        2575
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse; Kontaktseite nennt Pfarramt, KG-Präsidium/Finanzverwaltung nur mit Privatadressen. KGR-Schreiberin ist zugleich Pfarreisekretärin."
+    },
+    {
+      "id": "so-gretzenbach-daeniken",
+      "name": "Römisch-katholische Kirchgemeinde Gretzenbach-Däniken",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Gretzenbach-Däniken",
+        "c/o Pfarramt Gretzenbach",
+        "Kirchweg 9",
+        "5014 Gretzenbach"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://niederamtsued.ch/daeniken/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE282214525",
+      "bfs": [
+        2572,
+        2576
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Nur Privatkontakte des Kirchgemeinderats publiziert; Pfarreisekretariate: Josefstrasse 3, 4658 Däniken / Kirchweg 9, 5014 Gretzenbach. | Nachrecherche 28.10.2026: UID CHE-282.214.525 «Röm.-kath. Kirchgemeinde» mit Sitz c/o Pfarramt Gretzenbach, Kirchweg 9, 5014 Gretzenbach, zustellbar (Prüfung 28.09.2026); deckt sich mit dem Pfarreisekretariat Gretzenbach (niederamtsued.ch)."
+    },
+    {
+      "id": "so-gunzgen",
+      "name": "Römisch-katholische Kirchgemeinde Gunzgen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Gunzgen",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Kath. Kirche Untergäu",
+        "Mittelgäustrasse 31",
+        "4616 Kappel"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesidium.gunzgen@kath-untergaeu.ch",
+      "website": "https://kath-untergaeu.ch/kirchgemeinde-gunzgen-1/",
+      "source": "https://kath-untergaeu.ch/kirchgemeinde-gunzgen-1/",
+      "bfs": [
+        2578
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse; KG-Seite nennt als ADRESSE das gemeinsame Sekretariat Kath. Kirche Untergäu (Gunzgen-Hägendorf-Kappel)."
+    },
+    {
+      "id": "so-haegendorf-rickenbach",
+      "name": "Römisch-katholische Kirchgemeinde Hägendorf-Rickenbach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Hägendorf-Rickenbach",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Kath. Kirche Untergäu",
+        "Mittelgäustrasse 31",
+        "4616 Kappel"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesidium.haegendorf@kath-untergaeu.ch",
+      "website": "https://kath-untergaeu.ch/kirchgemeinde-haegendorf/",
+      "source": "https://kath-untergaeu.ch/kirchgemeinde-haegendorf/",
+      "bfs": [
+        2579,
+        2582
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse; KG-Seite nennt als ADRESSE das gemeinsame Sekretariat Kath. Kirche Untergäu (Gunzgen-Hägendorf-Kappel)."
+    },
+    {
+      "id": "so-kappel-boningen",
+      "name": "Römisch-katholische Kirchgemeinde Kappel-Boningen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Kappel-Boningen",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Kath. Kirche Untergäu",
+        "Mittelgäustrasse 31",
+        "4616 Kappel"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesidium.kappel@kath-untergaeu.ch",
+      "website": "https://kath-untergaeu.ch/kirchgemeinde-kappel/",
+      "source": "https://kath-untergaeu.ch/kirchgemeinde-kappel/",
+      "bfs": [
+        2571,
+        2580
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Postadresse; KG-Seite nennt als ADRESSE das gemeinsame Sekretariat Kath. Kirche Untergäu (Gunzgen-Hägendorf-Kappel). Website nennt sie «Kirchgemeinde Kappel»."
+    },
+    {
+      "id": "so-olten-starrkirch-wil",
+      "name": "Römisch-katholische Kirchgemeinde Olten/Starrkirch-Wil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Olten/Starrkirch-Wil",
+        "Verwaltung",
+        "Grundstrasse 4",
+        "4600 Olten"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@rkkgolten.ch",
+      "website": "https://xn--rmisch-katholische-kirchgemeinde-olten-starrkirch-wil-dhf.ch/",
+      "source": "https://xn--rmisch-katholische-kirchgemeinde-olten-starrkirch-wil-dhf.ch/verwaltung",
+      "bfs": [
+        2581,
+        2584
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Verwaltung bearbeitet laut Website Kirchenein- und -austritte; Adresse auch im Impressum und auf katholten.ch."
+    },
+    {
+      "id": "so-schoenenwerd-eppenberg-woeschnau",
+      "name": "Römisch-katholische Kirchgemeinde Schönenwerd-Eppenberg-Wöschnau",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Schönenwerd-Eppenberg-Wöschnau",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Schmiedengasse 49",
+        "5012 Schönenwerd"
+      ],
+      "address_type": "pfarramt",
+      "email": "schoenenwerd@niederamtsued.ch",
+      "website": "https://niederamtsued.ch/schoenenwerd/",
+      "source": "https://niederamtsued.ch/",
+      "bfs": [
+        2574,
+        2583
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Schmiedengasse 49 = Pfarreisekretariat (niederamtsued.ch) und Präsidiumsadresse im Synode-Verzeichnis. Alternative: KG-Verwaltung extern bei KSG Kompetenzzentrum für Städte und Gemeinden, Graben 10, 5000 Aarau."
+    },
+    {
+      "id": "so-walterswil-rothacker",
+      "name": "Römisch-katholische Kirchgemeinde Walterswil-Rothacker",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Walterswil-Rothacker",
+        "c/o Pfarreisekretariat Schönenwerd und Walterswil",
+        "Schmiedengasse 49",
+        "5012 Schönenwerd"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://niederamtsued.ch/walterswill/",
+      "source": "https://niederamtsued.ch/",
+      "bfs": [
+        2585
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Nur Privatkontakte des Kirchgemeinderats publiziert; Pfarreisekretariat Schönenwerd und Walterswil: Schmiedengasse 49, 5012 Schönenwerd. | Nachrecherche 28.10.2026: UID CHE-457.173.769 «Röm.- kath. Kirchgemeinde Walterswil» mit Sitz Rothackerstrasse 21, 5746 Walterswil SO, Zustellbarkeit nicht bestätigt (Prüfung 29.09.2026); laut Gebäuderegister ein Wohnhaus (evtl. Privathaushalt). Alternative: Pfarreisekretariat Schmiedengasse 49, 5012 Schönenwerd. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Eingetragen ist das Pfarreisekretariat Schönenwerd und Walterswil, Schmiedengasse 49, 5012 Schönenwerd (Startseite Pastoralraum Niederamt). Der UID-Sitz Rothackerstrasse 21 ist laut Agenda des Pastoralraums der Standort der Pfarrei Walterswil.",
+      "email": "walterswil@niederamtsued.ch"
+    },
+    {
+      "id": "so-wangen-bei-olten",
+      "name": "Römisch-katholische Kirchgemeinde Wangen bei Olten",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wangen bei Olten",
+        "Verwaltung",
+        "Postfach",
+        "4612 Wangen b. Olten"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kirchgemeinde-wangen.ch/cms/",
+      "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+      "bfs": [
+        2586
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Synode: «KG Verwaltung, Postfach» (ohne Fachnummer). KG-Merkblatt Mitgliedschaft nennt «Röm.-Kath. Kirchgemeinde, 4612 Wangen bei Olten» ohne Strasse. Pfarramt (Website-Inhaber): Kirchweg 2, 4612 Wangen bei Olten."
+    },
+    {
+      "id": "so-erlinsbach",
+      "name": "Römisch-katholische Kirchgemeinde Erlinsbach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Erlinsbach",
+        "Kirchgemeinderat",
+        "Rainlistrasse 2",
+        "5015 Erlinsbach SO"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "sekretariat.erlinsbach@pr-goesgen.ch",
+      "website": "https://www.pr-goesgen.ch/erlinsbach/",
+      "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+      "bfs": [
+        2503
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Synode: «Rainlistrasse 2 c/o Röm.-kath. KG»; laut pr-goesgen.ch (Sekretariate) Röm.-kath. Pfarramt Erlinsbach, gleiche Telefonnummer wie der Kirchgemeinderat."
+    },
+    {
+      "id": "so-ifenthal",
+      "name": "Römisch-katholische Kirchgemeinde Ifenthal",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Ifenthal",
+        "c/o Sekretariat St. Mauritius Trimbach",
+        "Kirchfeldstrasse 40",
+        "4632 Trimbach"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.katholten.ch/ueber-uns/kirchgemeinden/",
+      "source": "https://www.katholten.ch/ueber-uns/st-katharina-ifenthal-hauenstein/",
+      "bfs": [
+        2491
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Als Kontakt nur Privatadresse der Präsidentin; Sekretariat Pastoralraum Olten: Kirchfeldstrasse 40, 4632 Trimbach. Website-Name «Kirchgemeinde Ifenthal-Hauenstein». | Nachrecherche 28.10.2026: UID CHE-419.016.005 «Römisch Katholische Kirchgemeinde Hauenstein-Ifenthal» nennt als Sitz nur «Ifenthalerstrasse, 4633 Hauenstein» ohne Hausnummer (Strasse mit über 30 Gebäuden), daher nicht verwendet. Eingetragen ist das Sekretariat des Pastoralraums Olten in Trimbach (katholten.ch). Berichtigung: Die Pfarreiseite St. Katharina nennt als Kontakt das Sekretariat Kirchfeldstrasse 40, 4632 Trimbach (Pfarreisekretariat Trimbach); die Postadresse des Pastoralraums ist Engelbergstrasse 25, 4600 Olten. | Entscheid 28.10.2026: Pfarreisekretariat in Nachbarort wie Gempen/Hochwald/Laupersdorf, daher medium.",
+      "email": "sekretariat@katholten.ch"
+    },
+    {
+      "id": "so-kienberg",
+      "name": "Römisch-katholische Kirchgemeinde Kienberg",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Kienberg",
+        "Kirchgemeinderat",
+        "Kirchgasse 71",
+        "4468 Kienberg"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "pfarrei.kienberg@bluewin.ch",
+      "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/kienberg",
+      "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+      "bfs": [
+        2492
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Synode: «Röm.-kath. Kirchgemeinde, Kirchgasse 71». Website nennt keine Strasse; Jahresrechnung 2025 führt Kirchgasse 71 als KG-eigenes Ex-Pfarrhaus. Pastoralraum Oberes Fricktal (AG)."
+    },
+    {
+      "id": "so-lostorf",
+      "name": "Römisch-katholische Kirchgemeinde Lostorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Lostorf",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Räckholdernstrasse 3",
+        "4654 Lostorf"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.lostorf@pr-goesgen.ch",
+      "website": "https://www.pr-goesgen.ch/lostorf/",
+      "source": "https://www.pr-goesgen.ch/userfiles/dbdocs/Lostorf/Ben%C3%BCtzungsgesuch_Sigristenhaus_Lostorf(1).pdf",
+      "bfs": [
+        2493
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KG-Formular trägt Kopf «Römisch-katholische Kirchgemeinde Lostorf / Röm.-kath. Pfarramt / Räckholdernstrasse 3»; KGR-Seite nur mit Privatadressen."
+    },
+    {
+      "id": "so-niedergoesgen",
+      "name": "Römisch-katholische Kirchgemeinde Niedergösgen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Niedergösgen",
+        "c/o Röm.-kath. Pfarramt",
+        "Kreuzstrasse 42",
+        "5013 Niedergösgen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-goesgen.ch/niedergoesgen/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108936271",
+      "bfs": [
+        2495
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. KGR-Seite nennt nur Privatadressen; Röm. kath. Pfarramt Niedergösgen: Kreuzstrasse 42, 5013 Niedergösgen. Impressum-Adresse des Zweckverbands (Rainstrasse 43) ist die Privatadresse des Präsidenten. | Nachrecherche 28.10.2026: UID CHE-108.936.271 «Röm.- katholische Kirchgemeinde» mit Sitz Kreuzstrasse 42, 5013 Niedergösgen (= Röm.-kath. Pfarramt Niedergösgen), Zustellbarkeit nicht bestätigt (Prüfung 18.09.2026)."
+    },
+    {
+      "id": "so-obergoesgen",
+      "name": "Römisch-katholische Kirchgemeinde Obergösgen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Obergösgen",
+        "Kirchweg 2",
+        "4653 Obergösgen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-goesgen.ch/obergoesgen/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108935834",
+      "bfs": [
+        2497
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. KGR-Seite nennt nur Privatadressen; Röm. kath. Pfarramt Obergösgen: Kirchweg 2, 4653 Obergösgen. | Nachrecherche 28.10.2026: UID CHE-108.935.834 «Röm.- katholische Kirchgemeinde Obergösgen» mit Sitz Kirchweg 2, 4653 Obergösgen (= Röm.-kath. Pfarramt; im Gebäuderegister «Haus der Begegnung»), Zustellbarkeit nicht bestätigt (Prüfung 22.09.2026)."
+    },
+    {
+      "id": "so-stuesslingen",
+      "name": "Römisch-katholische Kirchgemeinde Stüsslingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Stüsslingen",
+        "c/o Röm.-kath. Pfarramt",
+        "Hauptstrasse 25",
+        "4655 Stüsslingen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-goesgen.ch/stuesslingen/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108945672",
+      "bfs": [
+        2499
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. KGR-Seite nennt nur Privatadressen; Röm. kath. Pfarramt Stüsslingen/Rohr: Hauptstrasse 25, 4655 Stüsslingen. | Nachrecherche 28.10.2026: UID CHE-108.945.672 «Römisch Katholische Kirchgemeinde Stüsslingen - Rohr» mit Sitz Hauptstrasse 25, 4655 Stüsslingen (= Röm.-kath. Pfarramt Stüsslingen/Rohr), Zustellbarkeit nicht bestätigt (Prüfung 15.10.2026)."
+    },
+    {
+      "id": "so-trimbach-wisen",
+      "name": "Römisch-katholische Kirchgemeinde Trimbach-Wisen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Trimbach-Wisen",
+        "c/o Sekretariat St. Mauritius",
+        "Kirchfeldstrasse 40",
+        "4632 Trimbach"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.katholten.ch/ueber-uns/kirchgemeinden/",
+      "source": "https://www.katholten.ch/ueber-uns/sankt-mauritius-trimbach/",
+      "bfs": [
+        2500,
+        2502
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. KG nennt als «Kontaktadresse» die Privatadresse des Präsidenten; Sekretariat Pastoralraum Olten: Kirchfeldstrasse 40, 4632 Trimbach. | Nachrecherche 28.10.2026: UID CHE-108.935.509 «Röm.- katholische Kirchgemeinde Trimbach-Wisen» mit Sitz Schoneflüeliweg 14, 4632 Trimbach, Zustellbarkeit nicht bestätigt (Prüfung 28.09.2026); laut Gebäuderegister ein Einfamilienhaus, vermutlich die Kontaktadresse des Präsidiums. Alternative: Sekretariat Pastoralraum Olten, Kirchfeldstrasse 40, 4632 Trimbach. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Eingetragen ist das Sekretariat der Pfarrei St. Mauritius Trimbach, Kirchfeldstrasse 40 (katholten.ch, Kontakt der Pfarrei).",
+      "email": "sekretariat@katholten.ch"
+    },
+    {
+      "id": "so-winznau",
+      "name": "Römisch-katholische Kirchgemeinde Winznau",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Winznau",
+        "Kirchgemeinderat",
+        "c/o Röm.-kath. Pfarramt",
+        "Kirchweg 1",
+        "4652 Winznau"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.winznau@pr-goesgen.ch",
+      "website": "https://www.pr-goesgen.ch/winznau/",
+      "source": "https://www.pr-goesgen.ch/userfiles/dbdocs/Winznau/Ben%C3%BCtzungsreglement_Pfarrsaal_Winznau.pdf",
+      "bfs": [
+        2501
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "KG-Reglement nennt das Pfarramt Kirchweg 1 als «Pfarreisekretariat der Kirchgemeinde»; gleiche Adresse auf pr-goesgen.ch (Sekretariate). KGR-Seite nur mit Privatadressen."
+    },
+    {
+      "id": "so-bueren",
+      "name": "Römisch-katholische Kirchgemeinde Büren",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Büren",
+        "c/o Röm.-kath. Pfarramt",
+        "Seewenstrasse 5",
+        "4413 Büren"
+      ],
+      "address_type": "pfarramt",
+      "email": "ssvbueren@gmx.ch",
+      "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
+      "bfs": [
+        2472
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramt/Sekretariat Seelsorgeverband Büren-St. Pantaleon-Nuglar-Seewen (Pfarrblatt Lichtblick 22/2026); bestätigt auf https://www.bueren-so.ch/wohnen-arbeiten/kirchen.html/46. Keine eigene KG-Adresse publiziert."
+    },
+    {
+      "id": "so-dornach",
+      "name": "Römisch-katholische Kirchgemeinde Dornach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Dornach",
+        "c/o Kath. Pfarramt",
+        "Bruggweg 106",
+        "4143 Dornach"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchgemeinde.dornach@mail.dogeho.ch",
+      "website": "https://dogeho.ch/",
+      "source": "https://dogeho.ch/seelsorgeverband/team/",
+      "bfs": [
+        2473
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Seelsorgeverband Dornach-Gempen-Hochwald (Pastoralraum Birstal, BL). E-Mail Kirchenrat Dornach von https://dogeho.ch/seelsorgeverband/kirchenrat/. | Nachrecherche 28.10.2026: UID CHE-108.934.651 «Röm.- kath. Kirchgemeinde Dornach» nennt Bruggweg 104 (Website: Pfarramt Bruggweg 106); nicht geändert."
+    },
+    {
+      "id": "so-gempen",
+      "name": "Römisch-katholische Kirchgemeinde Gempen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Gempen",
+        "c/o Kath. Pfarramt Seelsorgeverband Dornach-Gempen-Hochwald",
+        "Bruggweg 106",
+        "4143 Dornach"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@dogeho.ch",
+      "website": "https://dogeho.ch/",
+      "source": "https://dogeho.ch/seelsorgeverband/team/",
+      "bfs": [
+        2474
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Adresse; nur Sammeladresse des Seelsorgeverbands in Dornach. Präsidium nur mit persönlicher Adresse/E-Mail. Gemeinde-Website nennt «Kath. Kirchgemeinde Dornach-Gempen-Hochwald» (gemeint: Seelsorgeverband). Postadresse prüfen. | Nachrecherche 28.10.2026: UID CHE-210.749.224 «Röm.- kath. Kirchgemeinde Gempen» mit Sitz Hauptstrasse 11, 4145 Gempen, Zustellbarkeit nicht bestätigt (Prüfung 30.09.2026); laut Gebäuderegister Wohnhaus mit Nebennutzung. Bisherige Adresse als Alternative: c/o Kath. Pfarramt Seelsorgeverband Dornach-Gempen-Hochwald, Bruggweg 106, 4143 Dornach. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Eingetragen ist wieder das Kath. Pfarramt des Seelsorgeverbands Dornach-Gempen-Hochwald, Bruggweg 106 (Sekretariat Mo, Mi, Do 9–11 Uhr)."
+    },
+    {
+      "id": "so-hochwald",
+      "name": "Römisch-katholische Kirchgemeinde Hochwald",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Hochwald",
+        "c/o Kath. Pfarramt Seelsorgeverband Dornach-Gempen-Hochwald",
+        "Bruggweg 106",
+        "4143 Dornach"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchgemeinde.hochwald@mail.dogeho.ch",
+      "website": "https://dogeho.ch/",
+      "source": "https://dogeho.ch/seelsorgeverband/team/",
+      "bfs": [
+        2475
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene KG-Adresse; nur Sammeladresse des Seelsorgeverbands in Dornach. KG-E-Mail von https://dogeho.ch/seelsorgeverband/kirchenrat/. Postadresse prüfen. | Nachrecherche 28.10.2026: UID CHE-146.141.781 «Röm.- kath. Kirchgemeinde Hochwald» mit Sitz Hauptstrasse 4, 4146 Hochwald, Zustellbarkeit nicht bestätigt (Prüfung 30.09.2026); laut Gebäuderegister ein Gebäude ohne Wohnnutzung. Bisherige Adresse als Alternative: c/o Kath. Pfarramt Seelsorgeverband Dornach-Gempen-Hochwald, Bruggweg 106, 4143 Dornach. | Entscheid 28.10.2026: Sekretariat statt UID-Sitz. Eingetragen ist wieder das Kath. Pfarramt des Seelsorgeverbands Dornach-Gempen-Hochwald, Bruggweg 106 (Sekretariat Mo, Mi, Do 9–11 Uhr)."
+    },
+    {
+      "id": "so-hofstetten-flueh",
+      "name": "Römisch-katholische Kirchgemeinde Hofstetten-Flüh",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Hofstetten-Flüh",
+        "Verwaltung",
+        "Flühstrasse 40",
+        "4114 Hofstetten SO"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@rkk-hofstetten-flueh.ch",
+      "website": "https://www.rkk-hofstetten-flueh.ch/",
+      "source": "https://www.rkk-hofstetten-flueh.ch/impressum/",
+      "bfs": [
+        2476
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Impressum: Herausgeberin Röm.-kath. Kirchgemeinde Hofstetten-Flüh, Flühstrasse 40, 4114 Hofstetten-Flüh (= Pfarrei St. Nikolaus, «4114 Hofstetten/SO»)."
+    },
+    {
+      "id": "so-metzerlen-mariastein",
+      "name": "Römisch-katholische Kirchgemeinde Metzerlen-Mariastein",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Metzerlen-Mariastein",
+        "c/o Pfarramt St. Remigius",
+        "Rotbergstrasse 4",
+        "4116 Metzerlen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarreimetzerlen@bluewin.ch",
+      "website": "https://rkk-metzerlen-mariastein.ch/",
+      "source": "https://rkk-metzerlen-mariastein.ch/pfarrei/pfarramt/",
+      "bfs": [
+        2477
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarramt Metzerlen-Mariastein / Burg i. L. Rotbergstrasse 4 auf Pfarramt-, Kontakt-Seite und Flyer 09/2026; die Fusszeile («Kontaktadresse») nennt abweichend Rotbergstrasse 2. Keine eigene KG-Adresse; Präsidium nur persönlich. | Nachrecherche 28.10.2026: Rotbergstrasse 2 ist laut amtlichem Gebäuderegister die Kirche St. Remigius, Nr. 4 das Pfarrhaus; UID CHE-401.967.208 «Röm.- katholische Kirchgemeinde» hat ihren Sitz an der Rotbergstrasse 4."
+    },
+    {
+      "id": "so-rodersdorf",
+      "name": "Römisch-katholische Kirchgemeinde Rodersdorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Rodersdorf",
+        "Kirchgemeindeverwaltung",
+        "Leimenstrasse 5",
+        "4118 Rodersdorf"
+      ],
+      "address_type": "verwaltung",
+      "email": "kg-rodersdorf@bluewin.ch",
+      "website": "https://rkk-rodersdorf.ch/",
+      "source": "http://rkk-rodersdorf.ch/kirchgemeinde/verwaltung-der-kirchgemeinde/",
+      "bfs": [
+        2479
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Kirchgemeindeverwaltung am Pfarramt St. Laurentius (gleiche Adresse)."
+    },
+    {
+      "id": "so-seewen",
+      "name": "Römisch-katholische Kirchgemeinde Seewen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Seewen",
+        "c/o Röm.-kath. Pfarramt Seelsorgeverband",
+        "Seewenstrasse 5",
+        "4413 Büren"
+      ],
+      "address_type": "pfarramt",
+      "email": "ssvbueren@gmx.ch",
+      "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
+      "bfs": [
+        2480
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Keine eigene KG-Adresse; Sekretariat des Seelsorgeverbands Büren-St. Pantaleon-Nuglar-Seewen in Büren (auch auf https://www.seewen.ch/roemkath als Pfarrer-Adresse). Präsidentin nur mit Privatadresse. Postadresse prüfen. | Nachrecherche 28.10.2026: UID CHE-489.010.580 «Römisch-katholische Kirchgemeinde Seewen» nennt als Sitz nur «Kirchweg, 4206 Seewen SO» ohne Hausnummer; deshalb bleibt das Sekretariat des Seelsorgeverbands eingetragen."
+    },
+    {
+      "id": "so-st-pantaleon-nuglar",
+      "name": "Römisch-katholische Kirchgemeinde St. Pantaleon-Nuglar",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde St. Pantaleon-Nuglar",
+        "c/o Röm.-kath. Pfarramt Seelsorgeverband",
+        "Seewenstrasse 5",
+        "4413 Büren"
+      ],
+      "address_type": "pfarramt",
+      "email": "ssvbueren@gmx.ch",
+      "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
+      "bfs": [
+        2478
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Keine eigene KG-Adresse; Sekretariat des Seelsorgeverbands in Büren (auch auf https://www.nuglar.ch/freizeit-kultur-gewerbe/kirchen als Pfarrer-Adresse). Präsidium und Verwalterin nur mit Privatadressen. Postadresse prüfen. | Nachrecherche 28.10.2026: Im UID-Register keinen Eintrag mit Strassenadresse gefunden; Adresse unverändert."
+    },
+    {
+      "id": "so-witterswil",
+      "name": "Römisch-katholische Kirchgemeinde Witterswil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Witterswil",
+        "Verwaltung",
+        "Ettingerstrasse 2",
+        "4108 Witterswil"
+      ],
+      "address_type": "verwaltung",
+      "email": "rkkirchgemeinde@bluewin.ch",
+      "website": "https://rkk-witterswil-bättwil.ch/",
+      "source": "https://xn--rkk-witterswil-bttwil-l2b.ch/kirchgemeinde/verwaltung-der-kirchgemeinde/",
+      "bfs": [
+        2471,
+        2481
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "BGS-Name «Witterswil» (Gebiet Bättwil, Witterswil); KG nennt sich «Witterswil-Bättwil». Pfarrei gleiche Adresse mit Postfach 43."
+    },
+    {
+      "id": "so-baerschwil",
+      "name": "Römisch-katholische Kirchgemeinde Bärschwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bärschwil",
+        "Kirchgemeindeverwaltung",
+        "c/o Bringold Treuhand AG",
+        "Bahnhofstrasse 28",
+        "4242 Laufen"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarramt.baerschwil@gmx.ch",
+      "website": "https://www.pr-thierstein.ch/kirchgemeinde-baerschwil.html",
+      "source": "https://www.baerschwil.ch/_doc/6296296",
+      "bfs": [
+        2611
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Liste «Kirchgemeinderat Bärschwil» (PDF auf baerschwil.ch, KG-Rubrik): Kirchgemeindeverwalterin Bringold Treuhand AG, Laufen. Pfarreisekretariat und Präsidium nur mit Privatadressen. E-Mail = Pfarreisekretariat."
+    },
+    {
+      "id": "so-beinwil",
+      "name": "Römisch-katholische Kirchgemeinde Beinwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Beinwil",
+        "c/o Katholisches Pfarramt",
+        "Passwangstrasse 274",
+        "4229 Beinwil SO"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-thierstein.ch/kirchgemeinde-beinwil.html",
+      "source": "https://www.pr-thierstein.ch/kirchgemeinde-beinwil.html",
+      "bfs": [
+        2612
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "«Katholisches Pfarramt/Pfarreisekretariat» – gleich auf https://www.beinwil-so.ch/leben/kirchen/römisch-katholische-kirche unter «Römisch-katholische Kirchgemeinde Beinwil – Kontakt». Telefon identisch mit Gemeindeverwaltung Beinwil. Keine Funktions-E-Mail. | Nachrecherche 28.10.2026: UID CHE-108.934.622 «Röm.- katholische Kirchgemeinde» in Beinwil nennt Kirchgasse 3, 4229 Beinwil SO (Zustellbarkeit nicht bestätigt); eingetragen bleibt das Pfarramt laut Pastoralraum und Einwohnergemeinde. Ortszeile auf den amtlichen Namen «4229 Beinwil SO» korrigiert."
+    },
+    {
+      "id": "so-breitenbach-fehren-schindelboden",
+      "name": "Römisch-katholische Kirchgemeinde Breitenbach-Fehren-Schindelboden",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Breitenbach-Fehren-Schindelboden",
+        "Sekretariat",
+        "Bodenackerstrasse 3",
+        "4226 Breitenbach"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@kath-breitenbach.ch",
+      "website": "https://www.kath-breitenbach.ch/",
+      "source": "https://www.kath-breitenbach.ch/kontakt.html",
+      "bfs": [
+        2613,
+        2616
+      ],
+      "partial_bfs": [
+        2618
+      ],
+      "confidence": "medium",
+      "note": "Kontakt-Seite der KG-Website: Sekretariat und Büro der Pfarreileitung (zugleich Pastoralraum Thierstein). KG-Seite nennt sonst nur Präsidium mit Privatadresse."
+    },
+    {
+      "id": "so-buesserach",
+      "name": "Römisch-katholische Kirchgemeinde Büsserach",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Büsserach",
+        "c/o Pfarramt",
+        "Pfarrgasse 10",
+        "4227 Büsserach"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.buesserach@bluewin.ch",
+      "website": "https://www.pr-thierstein.ch/kirchgemeinde-buesserach.html",
+      "source": "https://www.pr-thierstein.ch/kirchgemeinde-buesserach.html",
+      "bfs": [
+        2614
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kirchgemeindepräsidium vakant (Synode nennt Michel Thüring); Verwaltung extern (BDO AG Laufen, ohne Adresse)."
+    },
+    {
+      "id": "so-erschwil",
+      "name": "Römisch-katholische Kirchgemeinde Erschwil",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Erschwil",
+        "c/o Pfarramt, Pfarrhaus",
+        "Schmelzistrasse 35",
+        "4228 Erschwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "kgverwaltungerschwil@bluewin.ch",
+      "website": "https://www.pr-thierstein.ch/kirchgemeinde-erschwil.html",
+      "source": "https://www.erschwil.ch/kirchgemeinden-friedhof.html",
+      "bfs": [
+        2615
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Quelle ist die Website der Einwohnergemeinde (Pastoralraum-Seite ohne Postadresse). KG-Verwaltung nur mit Personenadresse in Himmelried (nicht übernommen). E-Mail = KG-Verwaltung."
+    },
+    {
+      "id": "so-grindel",
+      "name": "Römisch-katholische Kirchgemeinde Grindel",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Grindel",
+        "Pfarreisekretariat",
+        "Hofackerweg 238",
+        "4247 Grindel"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt.grindel@ebmnet.ch",
+      "website": "https://www.pr-thierstein.ch/kirchgemeinde-grindel.html",
+      "source": "https://www.pr-thierstein.ch/kirchgemeinde-grindel.html",
+      "bfs": [
+        2617
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Ausdrücklich als «Römisch-Katholische Kirchgemeinde Grindel, Pfarreisekretariat» publiziert; Hofackerweg 238 könnte das Heimbüro der Sekretärin sein."
+    },
+    {
+      "id": "so-himmelried",
+      "name": "Römisch-katholische Kirchgemeinde Himmelried",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Himmelried",
+        "c/o Pfarramt Seelsorgeverband Himmelried-Meltingen-Oberkirch",
+        "Oberkirch 1",
+        "4208 Nunningen"
+      ],
+      "address_type": "pfarramt",
+      "email": "kghimmelried@bluewin.ch",
+      "website": "https://ssv-himmelried-meltingen-oberkirch.ch/",
+      "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
+      "bfs": [],
+      "partial_bfs": [
+        2618
+      ],
+      "confidence": "low",
+      "note": "Keine eigene KG-Adresse; Sekretariat des Seelsorgeverbands (betreut pfarramt.himmel@bluewin.ch) in Oberkirch/Nunningen. Präsident nur mit Privatadresse (himmelried.ch). E-Mail = KG-Verwaltung. Postadresse prüfen. | Nachrecherche 28.10.2026: UID CHE-108.934.591 «Röm.- kath. Kirchgemeinde Himmelried» nennt Hauptstrasse 1, 4204 Himmelried; diese Hausnummer fehlt im amtlichen Gebäudeadressverzeichnis, daher nicht verwendet."
+    },
+    {
+      "id": "so-kleinluetzel",
+      "name": "Römisch-katholische Kirchgemeinde Kleinlützel",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Kleinlützel",
+        "c/o Röm.-kath. Pfarramt",
+        "Frohmattrain 288",
+        "4245 Kleinlützel"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.kleinluetzel@bluewin.ch",
+      "website": "https://www.prll.ch/pfarreien",
+      "source": "https://www.prll.ch/pfarreien",
+      "bfs": [
+        2619
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gehört zum Pastoralraum Laufental-Lützeltal (BL), nicht Thierstein. Adresse auch im Pfarrblatt Lichtblick 22/2026. Keine eigene KG-Adresse gefunden."
+    },
+    {
+      "id": "so-meltingen",
+      "name": "Römisch-katholische Kirchgemeinde Meltingen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Meltingen",
+        "c/o Pfarramt Seelsorgeverband Himmelried-Meltingen-Oberkirch",
+        "Oberkirch 1",
+        "4208 Nunningen"
+      ],
+      "address_type": "pfarramt",
+      "email": "rkkg.meltingen@bluewin.ch",
+      "website": "https://ssv-himmelried-meltingen-oberkirch.ch/",
+      "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
+      "bfs": [
+        2620
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Keine eigene KG-Adresse; Synode-Adresse «Pfarrhausweg 27» ist laut Telefonverzeichnis eine Privatadresse (nicht übernommen). Sekretariat des Seelsorgeverbands in Oberkirch/Nunningen. E-Mail = KG-Verwaltung. Postadresse prüfen. | Nachrecherche 28.10.2026: UID CHE-288.880.956 «Römisch-Katholische Kirchgemeinde Meltingen» ohne Strasse (nur 4233 Meltingen); Adresse unverändert."
+    },
+    {
+      "id": "so-oberkirch",
+      "name": "Römisch-katholische Kirchgemeinde Oberkirch",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oberkirch",
+        "c/o Pfarramt Seelsorgeverband",
+        "Oberkirch 1",
+        "4208 Nunningen"
+      ],
+      "address_type": "pfarramt",
+      "email": "verwaltung@kg-oberkirch.ch",
+      "website": "https://ssv-himmelried-meltingen-oberkirch.ch/",
+      "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
+      "bfs": [
+        2621,
+        2622
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarrhaus Oberkirch (Gemeindegebiet Nunningen), Sekretariat Seelsorgeverband Himmelried-Meltingen-Oberkirch. E-Mail = KG-Verwaltung (von ssv-…/die-rate/). kg-oberkirch.ch ist nur Platzhalter."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 2601,
+      "how": "Das Steingrubenquartier gehört zur Kirchgemeinde St. Niklaus, das übrige Stadtgebiet zur Kirchgemeinde Solothurn (BGS 131.3 § 4).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Steingrubenquartier": "so-st-niklaus",
+        "Solothurn (übriges Stadtgebiet)": "so-solothurn"
+      }
+    },
+    {
+      "bfs": 2549,
+      "how": "Die Ortsteile vorderer und hinterer Mattenhof gehören zur Kirchgemeinde Günsberg-Niederwil-Balm, das übrige Gemeindegebiet zu Flumenthal-Hubersdorf (BGS 131.3 § 4).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "vorderer Mattenhof": "so-guensberg-niederwil-balm",
+        "hinterer Mattenhof": "so-guensberg-niederwil-balm",
+        "Kammersrohr (übriges Gemeindegebiet)": "so-flumenthal-hubersdorf"
+      }
+    },
+    {
+      "bfs": 2554,
+      "how": "Ortsteil Kellenmatt → Flumenthal-Hubersdorf; Ortsteil Niederwil → Günsberg-Niederwil-Balm; übriges Gemeindegebiet (Riedholz) → St. Niklaus (BGS 131.3 § 4).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Kellenmatt": "so-flumenthal-hubersdorf",
+        "Niederwil": "so-guensberg-niederwil-balm",
+        "Riedholz (übriges Gemeindegebiet)": "so-st-niklaus"
+      }
+    },
+    {
+      "bfs": 2535,
+      "how": "Ortsteil Winistorf → Kirchgemeinde Aeschi; Ortsteile Heinrichswil und Hersiwil → Wasseramt West - Bucheggberg (BGS 131.3 § 4).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Winistorf": "so-aeschi",
+        "Heinrichswil": "so-wasseramt-west-bucheggberg",
+        "Hersiwil": "so-wasseramt-west-bucheggberg"
+      }
+    },
+    {
+      "bfs": 2428,
+      "how": "Ortsteil Mümliswil → Kirchgemeinde Mümliswil; Ortsteil Ramiswil → Kirchgemeinde Ramiswil (BGS 131.3 § 4).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Mümliswil": "so-muemliswil",
+        "Ramiswil": "so-ramiswil"
+      }
+    },
+    {
+      "bfs": 2618,
+      "how": "Ortsteil Schindelboden → Kirchgemeinde Breitenbach-Fehren-Schindelboden; übriges Gemeindegebiet → Kirchgemeinde Himmelried (BGS 131.3 § 4).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Schindelboden": "so-breitenbach-fehren-schindelboden",
+        "Himmelried (übriges Gemeindegebiet)": "so-himmelried"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Niederbuchsiten: eingetragen ist nur der UID-Sitz (Pfarrhaus Dorfstrasse 26), Zustellbarkeit nicht bestätigt; Pfarreisekretariat und Präsidium nennen nur Personenadressen. Zur Klärung fehlt eine Bestätigung der Kirchgemeinde.",
+    "Ohne Adresse im eigenen Ort und ohne vollständigen UID-Sitz (c/o Seelsorgeverband bzw. Pfarreisekretariat, confidence low): Seewen und St. Pantaleon-Nuglar (Büren), Himmelried und Meltingen (Oberkirch, Nunningen).",
+    "Teilgebiete ohne Grenzdaten: Steingrubenquartier (Solothurn), Mattenhof (Kammersrohr), Kellenmatt und Niederwil (Riedholz), Winistorf/Heinrichswil/Hersiwil (Drei Höfe), Schindelboden (Himmelried) und die Ortsteile von Mümliswil-Ramiswil sind nur textlich umschrieben. In Mümliswil-Ramiswil liegen zudem Höfe mit PLZ 4229 Beinwil SO (Schilt) und 4418 Reigoldswil (Hintere Wasserfallen); ob sie zur Kirchgemeinde Mümliswil oder Ramiswil gehören, ist nicht belegt."
+  ],
+  "grundlage": [
+    "Zuordnung Gemeinde → Kirchgemeinde nach BGS 131.3 § 4 (Fassung in Kraft seit 1.1.2026); 72 Kirchgemeinden, deckungsgleich mit dem Verzeichnis der Synode.",
+    "Das Synode-Verzeichnis nennt fast nur Privatadressen der Präsidien; diese wurden nicht übernommen. Reihenfolge der Adressquellen: eigene Adresse der Kirchgemeinde oder Verwaltung; UID-Sitz nur, wenn die Zustellbarkeit laut UID bestätigt ist und er nicht vermutlich in einem Privathaus liegt; sonst das belegte Pfarrei- bzw. Pastoralraum-Sekretariat (Entscheid 28.10.2026). Nachrecherche 28.10.2026: die 13 Einträge ohne Strasse ergänzt (UID-Register, Websites der Pfarreien und Pastoralräume, Website der Einwohnergemeinde Subingen, amtliches Gebäuderegister).",
+    "Externe Treuhandfirmen als Kirchgemeindeverwaltung: Matzendorf (Egerkingen), Welschenrohr-Gänsbrunnen (Balsthal), Bärschwil (Laufen). Bei Zuchwil, St. Niklaus, Schönenwerd und Niedergösgen ist stattdessen das Pfarramt eingetragen. Die UID-Sitze von Matzendorf (Gartenstrasse 2, Pfarreiheim) und Welschenrohr (Röthlenweg 107) weichen davon ab.",
+    "Namensabweichungen zu BGS 131.3: «Witterswil» nennt sich Witterswil-Bättwil, «Ifenthal» Ifenthal-Hauenstein (UID: Hauenstein-Ifenthal), «Stüsslingen» im UID Stüsslingen - Rohr, «Kappel-Boningen» teils Kirchgemeinde Kappel; Olten/Starrkirch-Wil: die Verwaltung bearbeitet laut Website Kirchenein- und -austritte.",
+    "Das Synode-Verzeichnis ist teilweise veraltet (z. B. Oensingen, Büsserach, Ramiswil).",
+    "UID-Sitze, die von eingetragenen Adressen abweichen und nicht übernommen wurden, weil Kirchgemeinde oder Pfarrei selbst eine andere Adresse nennen: Beinwil (Kirchgasse 3), Dornach (Bruggweg 104), Oberbuchsiten (Kirchgasse 6), Oensingen (Ausserbergstrasse 12)."
   ]
- },
- "austritt": {
-  "recipient": "Kirchgemeinderat der Wohnsitz-Kirchgemeinde (Art. 55 Abs. 2 KV SO)",
-  "recipient_level": "kirchgemeinde",
-  "form": "schriftliche Mitteilung (Art. 55 Abs. 2 KV SO); jederzeit möglich",
-  "beglaubigung": false,
-  "wirkung": "Von der Kirchensteuer befreit ist, wer beim Kirchgemeinderat schriftlich erklärt, der Konfession nicht mehr anzugehören (§ 249 Abs. 5 Steuergesetz, BGS 614.11); einen Stichtag nennt das Gesetz nicht.",
-  "notes": "Die Synode ist der Zusammenschluss der Kirchgemeinden und nimmt keine Austritte entgegen. Die Gebietseinteilung der 72 Kirchgemeinden steht im Verzeichnis der solothurnischen Gemeinden (BGS 131.3 § 4).",
-  "source": "https://bgs.so.ch/app/de/texts_of_law/111.1"
- },
- "finder": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
- "stand": "2026-10-28",
- "sources": [
-  "https://bgs.so.ch/app/de/texts_of_law/131.3",
-  "https://bgs.so.ch/app/de/texts_of_law/111.1",
-  "https://bgs.so.ch/app/de/texts_of_law/614.11",
-  "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
-  "https://www.synode-so.ch/"
- ],
- "kirchgemeinden": [
-  {
-   "id": "so-solothurn",
-   "name": "Römisch-katholische Kirchgemeinde Solothurn",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Solothurn",
-    "Verwaltung",
-    "Hauptgasse 75",
-    "4500 Solothurn"
-   ],
-   "address_type": "verwaltung",
-   "email": "kg-verwaltung@kath-solothurn.ch",
-   "website": "https://www.kath-solothurn.ch/solothurn",
-   "source": "https://www.kath-solothurn.ch/solothurn",
-   "bfs": [],
-   "partial_bfs": [
-    2601
-   ],
-   "confidence": "high"
-  },
-  {
-   "id": "so-bellach",
-   "name": "Römisch-katholische Kirchgemeinde Bellach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Bellach",
-    "Kirchgemeinderat",
-    "c/o Pfarrei Bellach",
-    "Friedhofstrasse 5",
-    "4512 Bellach"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.bellach@pastoralraum-mlb.ch",
-   "website": "https://pastoralraum-mlb.ch/kirchgemeinden/bellach/",
-   "source": "https://pastoralraum-mlb.ch/kirchgemeinden/bellach/",
-   "bfs": [
-    2542
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kirchgemeinde-Seite im Pastoralraum Mittlerer Leberberg nennt nur das Pfarreisekretariat."
-  },
-  {
-   "id": "so-bettlach",
-   "name": "Römisch-katholische Kirchgemeinde Bettlach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Bettlach",
-    "Verwaltung",
-    "Kirchgasse 7",
-    "2544 Bettlach"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://wandflue.ch/pastoralraum/kirchgemeinde-bettlach/",
-   "source": "https://wandflue.ch/kontakt/verwaltung/",
-   "bfs": [
-    2543
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Auftritt als Kirchgemeinde St. Klemenz (Pastoralraum Wandflue)."
-  },
-  {
-   "id": "so-flumenthal-hubersdorf",
-   "name": "Römisch-katholische Kirchgemeinde Flumenthal-Hubersdorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Flumenthal-Hubersdorf",
-    "Verwaltung",
-    "Kirchgasse 32",
-    "4534 Flumenthal"
-   ],
-   "address_type": "verwaltung",
-   "email": "flumenthal@kath-solothurn.ch",
-   "website": "https://www.kath-solothurn.ch/flumenthal-hubersdorf",
-   "source": "https://www.kath-solothurn.ch/flumenthal-hubersdorf",
-   "bfs": [
-    2545,
-    2548
-   ],
-   "partial_bfs": [
-    2549,
-    2554
-   ],
-   "confidence": "high",
-   "note": "Verwaltung am Pfarrei-Standort Kirchgasse 32 (auch im Synode-Verzeichnis so angegeben)."
-  },
-  {
-   "id": "so-grenchen",
-   "name": "Römisch-katholische Kirchgemeinde Grenchen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Grenchen",
-    "Verwaltung",
-    "Schulstrasse 1",
-    "2540 Grenchen"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung.grenchen@wandflue.ch",
-   "website": "https://wandflue.ch/pastoralraum/kirchgemeinde-grenchen/",
-   "source": "https://wandflue.ch/kontakt/verwaltung/",
-   "bfs": [
-    2546
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Auftritt als Kirchgemeinde St. Eusebius (Pastoralraum Wandflue)."
-  },
-  {
-   "id": "so-guensberg-niederwil-balm",
-   "name": "Römisch-katholische Kirchgemeinde Günsberg-Niederwil-Balm",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Günsberg-Niederwil-Balm",
-    "Kirchgemeinderat",
-    "c/o Pfarrei Günsberg-Niederwil-Balm",
-    "Kirchgasse 1",
-    "4524 Günsberg"
-   ],
-   "address_type": "pfarramt",
-   "email": "guensberg@kath-solothurn.ch",
-   "website": "https://www.kath-solothurn.ch/guensberg",
-   "source": "https://www.kath-solothurn.ch/quicklinks/kontakte",
-   "bfs": [
-    2541,
-    2547
-   ],
-   "partial_bfs": [
-    2549,
-    2554
-   ],
-   "confidence": "medium",
-   "note": "Für Präsidium und Finanzverwaltung sind nur Personenadressen publiziert; Postadresse ist das Pfarreisekretariat."
-  },
-  {
-   "id": "so-oberdorf",
-   "name": "Römisch-katholische Kirchgemeinde Oberdorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Oberdorf",
-    "Kirchgemeinderat",
-    "c/o Pfarreien OLLA",
-    "Stöcklimattstr. 22",
-    "4513 Langendorf"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.olla@pastoralraum-mlb.ch",
-   "website": "https://pastoralraum-mlb.ch/kirchgemeinden/oberdorf/",
-   "source": "https://pastoralraum-mlb.ch/kirchgemeinden/oberdorf/",
-   "bfs": [
-    2550,
-    2551,
-    2553
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Eine Kirchgemeinde für die Pfarreien Oberdorf, Lommiswil und Langendorf («OLLA»); Postadresse ist das gemeinsame Pfarreisekretariat in Langendorf."
-  },
-  {
-   "id": "so-selzach",
-   "name": "Römisch-katholische Kirchgemeinde Selzach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Selzach",
-    "Kirchgemeinderat",
-    "c/o Pfarrei Selzach",
-    "Dorfstr. 35",
-    "2545 Selzach"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.selzach@pastoralraum-mlb.ch",
-   "website": "https://pastoralraum-mlb.ch/kirchgemeinden/selzach/",
-   "source": "https://pastoralraum-mlb.ch/kirchgemeinden/selzach/",
-   "bfs": [
-    2556
-   ],
-   "partial_bfs": [],
-   "confidence": "medium"
-  },
-  {
-   "id": "so-st-niklaus",
-   "name": "Römisch-katholische Kirchgemeinde St. Niklaus",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde St. Niklaus",
-    "Kirchgemeinderat",
-    "c/o Pfarrei St. Niklaus",
-    "St. Niklausstrasse 79",
-    "4500 Solothurn"
-   ],
-   "address_type": "pfarramt",
-   "email": "stniklaus@kath-solothurn.ch",
-   "website": "https://www.kath-solothurn.ch/st-niklaus",
-   "source": "https://www.kath-solothurn.ch/st-niklaus",
-   "bfs": [
-    2544,
-    2555
-   ],
-   "partial_bfs": [
-    2554,
-    2601
-   ],
-   "confidence": "medium",
-   "note": "Finanzverwaltung durch ein externes Treuhandbüro; Präsidium nur mit Privatadresse publiziert."
-  },
-  {
-   "id": "so-aeschi",
-   "name": "Römisch-katholische Kirchgemeinde Aeschi",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Aeschi",
-    "Kirchgemeinderat",
-    "c/o Röm.-kath. Pfarramt",
-    "Luzernstrasse 14",
-    "4556 Aeschi"
-   ],
-   "address_type": "pfarramt",
-   "email": "aeschi@pawa-ost.ch",
-   "website": "https://annapfarrei.ch/kirchgemeinde/",
-   "source": "https://annapfarrei.ch/kirchgemeinderat-2/",
-   "bfs": [
-    2511,
-    2514,
-    2518,
-    2524
-   ],
-   "partial_bfs": [
-    2535
-   ],
-   "confidence": "medium"
-  },
-  {
-   "id": "so-deitingen",
-   "name": "Römisch-katholische Kirchgemeinde Deitingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Deitingen",
-    "c/o Pfarramt",
-    "Derendingenstrasse 5",
-    "4543 Deitingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "deitingen@pawa-ost.ch",
-   "website": "https://www.kirchgemeinde-deitingen.ch",
-   "source": "https://www.kirchgemeinde-deitingen.ch/impressum",
-   "bfs": [
-    2516
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Kontakt und Impressum nennen «Röm.-kath. Kirchgemeinde Deitingen, Pfarramt: Derendingenstrasse 5»."
-  },
-  {
-   "id": "so-derendingen",
-   "name": "Römisch-katholische Kirchgemeinde Derendingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Derendingen",
-    "Kirchgemeinderat",
-    "c/o Sekretariat",
-    "Hauptstrasse 51",
-    "4552 Derendingen"
-   ],
-   "address_type": "sekretariat",
-   "email": "derendingen@pawa-ost.ch",
-   "website": "https://www.herzjesu-derendingen.ch/",
-   "source": "https://www.herzjesu-derendingen.ch/",
-   "bfs": [
-    2517
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Sekretariat von Pfarrei und Kirchgemeinde Herz Jesu."
-  },
-  {
-   "id": "so-luterbach",
-   "name": "Römisch-katholische Kirchgemeinde Luterbach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Luterbach",
-    "Kirchgemeinderat",
-    "c/o Pfarramt St. Josef",
-    "Hauptstrasse 2",
-    "4542 Luterbach"
-   ],
-   "address_type": "pfarramt",
-   "email": "praesidium@stjosef-luterbach.ch",
-   "website": "https://www.stjosef-luterbach.ch/gemeinde/kirchgemeinde/",
-   "source": "https://www.stjosef-luterbach.ch/",
-   "bfs": [
-    2527
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Auftritt als Röm.-kath. Kirchgemeinde St. Joseph Luterbach; keine eigene Kirchgemeinde-Postadresse publiziert."
-  },
-  {
-   "id": "so-subingen",
-   "name": "Römisch-katholische Kirchgemeinde Subingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Subingen",
-    "4553 Subingen"
-   ],
-   "address_type": "praesidium",
-   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
-   "bfs": [
-    2532
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Im Synode-Verzeichnis nur Privatadresse des Präsidiums; keine eigene Website gefunden (Pastoralraum Wasseramt Ost)."
-  },
-  {
-   "id": "so-wasseramt-west-bucheggberg",
-   "name": "Römisch-katholische Kirchgemeinde Wasseramt West - Bucheggberg",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Wasseramt West - Bucheggberg",
-    "Verwaltung",
-    "Grundmattstrasse 2",
-    "4566 Kriegstetten"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@pastoralraum-wwb.ch",
-   "website": "https://www.pastoralraum-wwb.ch/page.cfm?id=88&abt=Kirchgemeinde",
-   "source": "https://www.pastoralraum-wwb.ch/page.cfm?id=206&abt=Kirchgemeinde&rub=Verwaltung",
-   "bfs": [
-    2445,
-    2455,
-    2457,
-    2461,
-    2463,
-    2464,
-    2465,
-    2513,
-    2519,
-    2523,
-    2525,
-    2526,
-    2528,
-    2530
-   ],
-   "partial_bfs": [
-    2535
-   ],
-   "confidence": "high",
-   "note": "Fusionierte Kirchgemeinde (u. a. Biberist, Gerlafingen, Kriegstetten, Lohn-Ammannsegg und Bucheggberg)."
-  },
-  {
-   "id": "so-zuchwil",
-   "name": "Römisch-katholische Kirchgemeinde Zuchwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Zuchwil",
-    "Kirchgemeinderat",
-    "c/o Röm.-kath. Pfarramt",
-    "Hauptstrasse 32",
-    "4528 Zuchwil"
-   ],
-   "address_type": "pfarramt",
-   "email": "zuchwil@pawa-ost.ch",
-   "website": "https://www.pfarrei-zuchwil.ch/f%C3%BCr-sie-da/kirchgemeinde/",
-   "source": "https://www.pfarrei-zuchwil.ch/",
-   "bfs": [
-    2534
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Die Verwaltung besorgt ein externes Treuhandbüro in Zuchwil; Postadresse ist das Pfarramt."
-  },
-  {
-   "id": "so-aedermannsdorf",
-   "name": "Römisch-katholische Kirchgemeinde Aedermannsdorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Aedermannsdorf",
-    "Kirchgemeinderat",
-    "c/o Pastoralraum Dünnernthal (Pfarrhaus)",
-    "Kirchstrasse 176",
-    "4714 Aedermannsdorf"
-   ],
-   "address_type": "pfarramt",
-   "email": "verwaltung@kg-aedermannsdorf.ch",
-   "website": "https://prduennernthal.ch/pfarreien/aedermannsdorf/",
-   "source": "https://prduennernthal.ch/pfarreien/aedermannsdorf/kirchgemeinderat/",
-   "bfs": [
-    2421
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Der Kirchgemeinderat publiziert nur Privatadressen; Kirchstrasse 176 ist das Sekretariat des Pastoralraums Dünnernthal im Pfarrhaus Aedermannsdorf."
-  },
-  {
-   "id": "so-balsthal",
-   "name": "Römisch-katholische Kirchgemeinde Balsthal",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Balsthal",
-    "Kirchgemeinderat",
-    "St. Annagasse 2",
-    "4710 Balsthal"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "kgr@kath-pfarrei-balsthal.ch",
-   "website": "https://www.st-wolfgang-im-thal.ch/",
-   "source": "https://www.st-wolfgang-im-thal.ch/tp01/balsthal/kirchgemeinderat.html",
-   "bfs": [
-    2422
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Seite nennt «Anschrift röm.-kath. Kirchgemeinde, St. Annagasse 2»; Finanzverwalter-Seite: «röm.-kath. Kirchgemeinde Verwaltung, St. Annagasse 2» (verwaltung@kath-pfarrei-balsthal.ch). Gleiche Adresse wie Pfarramt."
-  },
-  {
-   "id": "so-herbetswil",
-   "name": "Römisch-katholische Kirchgemeinde Herbetswil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Herbetswil",
-    "Verwaltung",
-    "Kirchstrasse 71",
-    "4715 Herbetswil"
-   ],
-   "address_type": "verwaltung",
-   "email": "sekretariat-he@prduennernthal.ch",
-   "website": "https://prduennernthal.ch/pfarreien/herbetswil/",
-   "source": "https://prduennernthal.ch/pfarreien/herbetswil/kirchgemeinderat/",
-   "bfs": [
-    2424
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KGR-Liste führt die Verwaltung an Kirchstrasse 71; dort ist auch das Pfarreisekretariat Herbetswil (dessen Leiterin hat separate Privatadresse) – also Büroadresse, nicht privat. E-Mail = Pfarreisekretariat."
-  },
-  {
-   "id": "so-holderbank",
-   "name": "Römisch-katholische Kirchgemeinde Holderbank",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Holderbank",
-    "4718 Holderbank"
-   ],
-   "address_type": "praesidium",
-   "email": "info@kath-pfarrei-holderbank.ch",
-   "website": "https://www.st-wolfgang-im-thal.ch/tp01/holderbank/holderbank.html",
-   "source": "https://www.st-wolfgang-im-thal.ch/tp01/holderbank/holderbank/kirchgemeinderat.html",
-   "bfs": [
-    2425
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Kontakt- und KGR-Seite nennen nur Privatadressen (Präsidium, Verwalter in Balsthal). Pfarreisekretariat Holderbank sitzt im Pfarrhaus Balsthal (St. Annagasse 2), wird aber nicht als KG-Adresse genannt. Pfarrei umfasst auch Langenbruck (BL)."
-  },
-  {
-   "id": "so-laupersdorf",
-   "name": "Römisch-katholische Kirchgemeinde Laupersdorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Laupersdorf",
-    "4712 Laupersdorf"
-   ],
-   "address_type": "praesidium",
-   "website": "https://prduennernthal.ch/pfarreien/laupersdorf/",
-   "source": "https://prduennernthal.ch/pfarreien/laupersdorf/kirchgemeinderat-laupersdorf/",
-   "bfs": [
-    2426
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. KGR-Liste nur mit Privatadressen; Pfarreisekretariat nur «Pfarreisaal (Gemeindezentrum), 4712 Laupersdorf» ohne Strasse (sekretariat-la@prduennernthal.ch)."
-  },
-  {
-   "id": "so-matzendorf",
-   "name": "Römisch-katholische Kirchgemeinde Matzendorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Matzendorf",
-    "Verwaltung",
-    "c/o Schürmann Treuhand AG",
-    "Bahnhofstrasse 11",
-    "4622 Egerkingen"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://prduennernthal.ch/pfarreien/matzendorf/",
-   "source": "https://prduennernthal.ch/pfarreien/matzendorf/kirchgemeinderat/",
-   "bfs": [
-    2427
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KGR-Liste nennt als Verwaltung die Firma Schürmann Treuhand AG (externe Verwaltung, Sitz Egerkingen). Alternative vor Ort: Pfarreisekretariat Matzendorf, Gartenstrasse 2 (Pfarreiheim), 4713 Matzendorf, sekretariat-ma@prduennernthal.ch."
-  },
-  {
-   "id": "so-muemliswil",
-   "name": "Römisch-katholische Kirchgemeinde Mümliswil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Mümliswil",
-    "Kirchgemeinderat",
-    "c/o Röm.-kath. Pfarramt",
-    "Kirchweg 9",
-    "4717 Mümliswil"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramtmuemliswil@ggs.ch",
-   "website": "https://www.st-wolfgang-im-thal.ch/tp01/muemliswil.html",
-   "source": "https://www.st-wolfgang-im-thal.ch/tp01/data-storage/impressum.html",
-   "bfs": [],
-   "partial_bfs": [
-    2428
-   ],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Der Kirchgemeinderat publiziert nur Privatadressen; Kirchweg 9 ist das röm.-kath. Pfarramt Mümliswil (Impressum der Pastoralraum-Website)."
-  },
-  {
-   "id": "so-ramiswil",
-   "name": "Römisch-katholische Kirchgemeinde Ramiswil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Ramiswil",
-    "4719 Ramiswil"
-   ],
-   "address_type": "praesidium",
-   "website": "https://www.st-wolfgang-im-thal.ch/tp01/ramiswil.html",
-   "source": "https://www.st-wolfgang-im-thal.ch/tp01/ramiswil/kirchgemeinderat.html",
-   "bfs": [],
-   "partial_bfs": [
-    2428
-   ],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. KGR-Seite nur Privatadressen; Verwalterin identisch mit KG Mümliswil (Privatadresse in Mümliswil); Pfarreisekretariat ebenfalls Privatadresse. Synode-Verzeichnis Hausnummer weicht von Website ab. Eigene KG trotz politischer Gemeinde Mümliswil-Ramiswil."
-  },
-  {
-   "id": "so-welschenrohr-gaensbrunnen",
-   "name": "Römisch-katholische Kirchgemeinde Welschenrohr-Gänsbrunnen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Welschenrohr-Gänsbrunnen",
-    "Verwaltung",
-    "c/o Allemann Treuhand",
-    "Goldgasse 14",
-    "4710 Balsthal"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://prduennernthal.ch/pfarreien/welschenrohr/",
-   "source": "https://prduennernthal.ch/pfarreien/welschenrohr/kirchgemeinderat/",
-   "bfs": [
-    2430
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KGR-Liste nennt als Verwaltung die Firma Allemann Treuhand, Balsthal (externe Verwaltung). Pfarreisekretariat (sekretariat-we@prduennernthal.ch) liegt an einer Adresse, die auch als Privatadresse der Aktuarin erscheint – nicht verwendet."
-  },
-  {
-   "id": "so-egerkingen",
-   "name": "Römisch-katholische Kirchgemeinde Egerkingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Egerkingen",
-    "c/o Römisch-katholisches Pfarramt",
-    "Domherrenstrasse 1",
-    "4622 Egerkingen"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat.egerkingen@pastoralraum-gaeu.ch",
-   "website": "https://pastoralraum-gaeu.ch/egerkingen/",
-   "source": "https://pastoralraum-gaeu.ch/egerkingen/kontakt/",
-   "bfs": [
-    2401
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kontaktblock der Pfarrei nennt Pfarramt-Adresse und Kirchgemeindepräsidium (ohne eigene Adresse); KG publiziert keine separate Postadresse. E-Mail = Pfarreisekretariat."
-  },
-  {
-   "id": "so-haerkingen",
-   "name": "Römisch-katholische Kirchgemeinde Härkingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Härkingen",
-    "Verwaltung",
-    "Hauptgasse 28",
-    "4624 Härkingen"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@kirchgemeinde-haerkingen.ch",
-   "website": "https://pastoralraum-gaeu.ch/haerkingen/",
-   "source": "https://pastoralraum-gaeu.ch/haerkingen/kontakt/",
-   "bfs": [
-    2402
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Hauptgasse 28 = Pfarreisekretariat; dieselbe Person führt laut Pfarreiseite die KG-Verwaltung (verwaltung@/praesidium@/steuer@kirchgemeinde-haerkingen.ch). Synode-Verzeichnis nennt für die KG ebenfalls Hauptgasse 28."
-  },
-  {
-   "id": "so-kestenholz",
-   "name": "Römisch-katholische Kirchgemeinde Kestenholz",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Kestenholz",
-    "c/o Pfarramt",
-    "Kirchweg 3",
-    "4703 Kestenholz"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfr.kestenholz@bluewin.ch",
-   "website": "https://www.pfarrei-kestenholz.ch/",
-   "source": "https://www.pfarrei-kestenholz.ch/",
-   "bfs": [
-    2403
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Von der Synode als KG-Website verlinkt; einzige nicht-private Adresse dort ist «Pfarramt Kestenholz, Kirchweg 3». KGR-Seite ohne Adresse, Präsidium nur mit Privatadresse."
-  },
-  {
-   "id": "so-neuendorf",
-   "name": "Römisch-katholische Kirchgemeinde Neuendorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Neuendorf",
-    "c/o Römisch-katholisches Pfarramt",
-    "Dorfstrasse 88",
-    "4623 Neuendorf"
-   ],
-   "address_type": "pfarramt",
-   "email": "praesidium@kirchgemeinde-neuendorf.ch",
-   "website": "https://pastoralraum-gaeu.ch/neuendorf/",
-   "source": "https://pastoralraum-gaeu.ch/neuendorf/",
-   "bfs": [
-    2404
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kontaktblock der Pfarrei nennt Pfarramt Dorfstrasse 88 und das KG-Präsidium mit Funktionsadresse praesidium@kirchgemeinde-neuendorf.ch; keine separate KG-Postadresse. Unterseite /neuendorf/kontakt/ zeigt die Strasse nicht."
-  },
-  {
-   "id": "so-niederbuchsiten",
-   "name": "Römisch-katholische Kirchgemeinde Niederbuchsiten",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Niederbuchsiten",
-    "4626 Niederbuchsiten"
-   ],
-   "address_type": "praesidium",
-   "email": "sekretariat@pfarrei-niederbuchsiten.ch",
-   "website": "https://www.pfarrei-niederbuchsiten.ch/",
-   "source": "https://www.pfarrei-niederbuchsiten.ch/",
-   "bfs": [
-    2405
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Kirchenstandort Dorfstrasse 24 ausdrücklich «Bitte keine Korrespondenz an diese Adresse!»; Pfarreisekretariat und Präsidium nur mit Privatadressen, Finanzverwaltung extern (Firma, laut Gemeinde-Website ohne PLZ angegeben). E-Mail = Pfarreisekretariat."
-  },
-  {
-   "id": "so-oberbuchsiten",
-   "name": "Römisch-katholische Kirchgemeinde Oberbuchsiten",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Oberbuchsiten",
-    "Postfach 16",
-    "4625 Oberbuchsiten"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat.oberbuchsiten@pastoralraum-gaeu.ch",
-   "website": "https://pastoralraum-gaeu.ch/oberbuchsiten/",
-   "source": "https://pastoralraum-gaeu.ch/oberbuchsiten/kontakt/",
-   "bfs": [
-    2406
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Postfach 16 übereinstimmend beim Pfarreisekretariat und im Synode-Verzeichnis (KG). Hausnummer widersprüchlich: Kirchgasse 24 (Kontaktseite), 62 (Pfarreiseite), 6 (Synode) – deshalb nur Postfach."
-  },
-  {
-   "id": "so-oensingen",
-   "name": "Römisch-katholische Kirchgemeinde Oensingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Oensingen",
-    "Postfach 278",
-    "4702 Oensingen"
-   ],
-   "address_type": "verwaltung",
-   "email": "rkkg@pfarrei-oensingen.ch",
-   "website": "https://www.pfarrei-oensingen.ch/",
-   "source": "https://www.pfarrei-oensingen.ch/",
-   "bfs": [
-    2407
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Fusszeile aller Seiten: «Röm.-Kath. Kirchgemeinde, Postfach 278, 4702 Oensingen». Pfarrei St. Georg separat: Ausserbergstrasse 12. Präsidium laut Website inzwischen neu besetzt (Synode-Verzeichnis veraltet)."
-  },
-  {
-   "id": "so-wolfwil",
-   "name": "Römisch-katholische Kirchgemeinde Wolfwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Wolfwil",
-    "c/o Pfarramt",
-    "Kirchstrasse 2",
-    "4628 Wolfwil"
-   ],
-   "address_type": "pfarramt",
-   "email": "kath.pfarramt.wolfwil@ggs.ch",
-   "website": "https://wallfahrtsort-wolfwil.ch/",
-   "source": "https://wallfahrtsort-wolfwil.ch/wordpress/kontakt-2/",
-   "bfs": [
-    2408
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Synode-Verzeichnis nennt für die KG Kirchstrasse 2 und die Pfarramts-E-Mail (das Präsidium wohnt laut KGR-Seite anderswo) – KG nutzt also das Pfarramt als Kontaktadresse."
-  },
-  {
-   "id": "so-dulliken",
-   "name": "Römisch-katholische Kirchgemeinde Dulliken",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Dulliken",
-    "4657 Dulliken"
-   ],
-   "address_type": "praesidium",
-   "website": "https://niederamtsued.ch/dulliken/",
-   "source": "https://niederamtsued.ch/dulliken/",
-   "bfs": [
-    2573
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Nur Privatkontakte des Kirchgemeinderats publiziert; Pfarreisekretariat Dulliken: Bahnhofstrasse 44, 4657 Dulliken (kein KG-Bezug angegeben)."
-  },
-  {
-   "id": "so-fulenbach",
-   "name": "Römisch-katholische Kirchgemeinde Fulenbach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Fulenbach",
-    "Kirchgemeinderat",
-    "c/o Römisch-katholisches Pfarramt",
-    "Dorfstrasse 4",
-    "4629 Fulenbach"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat.fulenbach@pastoralraum-gaeu.ch",
-   "website": "https://pastoralraum-gaeu.ch/fulenbach/",
-   "source": "https://pastoralraum-gaeu.ch/fulenbach/kontakt/",
-   "bfs": [
-    2575
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse; Kontaktseite nennt Pfarramt, KG-Präsidium/Finanzverwaltung nur mit Privatadressen. KGR-Schreiberin ist zugleich Pfarreisekretärin."
-  },
-  {
-   "id": "so-gretzenbach-daeniken",
-   "name": "Römisch-katholische Kirchgemeinde Gretzenbach-Däniken",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Gretzenbach-Däniken",
-    "4658 Däniken"
-   ],
-   "address_type": "praesidium",
-   "website": "https://niederamtsued.ch/daeniken/",
-   "source": "https://niederamtsued.ch/daeniken/",
-   "bfs": [
-    2572,
-    2576
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Nur Privatkontakte des Kirchgemeinderats publiziert; Pfarreisekretariate: Josefstrasse 3, 4658 Däniken / Kirchweg 9, 5014 Gretzenbach."
-  },
-  {
-   "id": "so-gunzgen",
-   "name": "Römisch-katholische Kirchgemeinde Gunzgen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Gunzgen",
-    "Kirchgemeinderat",
-    "c/o Sekretariat Kath. Kirche Untergäu",
-    "Mittelgäustrasse 31",
-    "4616 Kappel"
-   ],
-   "address_type": "pfarramt",
-   "email": "praesidium.gunzgen@kath-untergaeu.ch",
-   "website": "https://kath-untergaeu.ch/kirchgemeinde-gunzgen-1/",
-   "source": "https://kath-untergaeu.ch/kirchgemeinde-gunzgen-1/",
-   "bfs": [
-    2578
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse; KG-Seite nennt als ADRESSE das gemeinsame Sekretariat Kath. Kirche Untergäu (Gunzgen-Hägendorf-Kappel)."
-  },
-  {
-   "id": "so-haegendorf-rickenbach",
-   "name": "Römisch-katholische Kirchgemeinde Hägendorf-Rickenbach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Hägendorf-Rickenbach",
-    "Kirchgemeinderat",
-    "c/o Sekretariat Kath. Kirche Untergäu",
-    "Mittelgäustrasse 31",
-    "4616 Kappel"
-   ],
-   "address_type": "pfarramt",
-   "email": "praesidium.haegendorf@kath-untergaeu.ch",
-   "website": "https://kath-untergaeu.ch/kirchgemeinde-haegendorf/",
-   "source": "https://kath-untergaeu.ch/kirchgemeinde-haegendorf/",
-   "bfs": [
-    2579,
-    2582
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse; KG-Seite nennt als ADRESSE das gemeinsame Sekretariat Kath. Kirche Untergäu (Gunzgen-Hägendorf-Kappel)."
-  },
-  {
-   "id": "so-kappel-boningen",
-   "name": "Römisch-katholische Kirchgemeinde Kappel-Boningen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Kappel-Boningen",
-    "Kirchgemeinderat",
-    "c/o Sekretariat Kath. Kirche Untergäu",
-    "Mittelgäustrasse 31",
-    "4616 Kappel"
-   ],
-   "address_type": "pfarramt",
-   "email": "praesidium.kappel@kath-untergaeu.ch",
-   "website": "https://kath-untergaeu.ch/kirchgemeinde-kappel/",
-   "source": "https://kath-untergaeu.ch/kirchgemeinde-kappel/",
-   "bfs": [
-    2571,
-    2580
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Keine eigene KG-Postadresse; KG-Seite nennt als ADRESSE das gemeinsame Sekretariat Kath. Kirche Untergäu (Gunzgen-Hägendorf-Kappel). Website nennt sie «Kirchgemeinde Kappel»."
-  },
-  {
-   "id": "so-olten-starrkirch-wil",
-   "name": "Römisch-katholische Kirchgemeinde Olten/Starrkirch-Wil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Olten/Starrkirch-Wil",
-    "Verwaltung",
-    "Grundstrasse 4",
-    "4600 Olten"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@rkkgolten.ch",
-   "website": "https://xn--rmisch-katholische-kirchgemeinde-olten-starrkirch-wil-dhf.ch/",
-   "source": "https://xn--rmisch-katholische-kirchgemeinde-olten-starrkirch-wil-dhf.ch/verwaltung",
-   "bfs": [
-    2581,
-    2584
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Verwaltung bearbeitet laut Website Kirchenein- und -austritte; Adresse auch im Impressum und auf katholten.ch."
-  },
-  {
-   "id": "so-schoenenwerd-eppenberg-woeschnau",
-   "name": "Römisch-katholische Kirchgemeinde Schönenwerd-Eppenberg-Wöschnau",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Schönenwerd-Eppenberg-Wöschnau",
-    "Kirchgemeinderat",
-    "c/o Röm.-kath. Pfarramt",
-    "Schmiedengasse 49",
-    "5012 Schönenwerd"
-   ],
-   "address_type": "pfarramt",
-   "email": "schoenenwerd@niederamtsued.ch",
-   "website": "https://niederamtsued.ch/schoenenwerd/",
-   "source": "https://niederamtsued.ch/",
-   "bfs": [
-    2574,
-    2583
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Schmiedengasse 49 = Pfarreisekretariat (niederamtsued.ch) und Präsidiumsadresse im Synode-Verzeichnis. Alternative: KG-Verwaltung extern bei KSG Kompetenzzentrum für Städte und Gemeinden, Graben 10, 5000 Aarau."
-  },
-  {
-   "id": "so-walterswil-rothacker",
-   "name": "Römisch-katholische Kirchgemeinde Walterswil-Rothacker",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Walterswil-Rothacker",
-    "5746 Walterswil"
-   ],
-   "address_type": "praesidium",
-   "website": "https://niederamtsued.ch/walterswill/",
-   "source": "https://niederamtsued.ch/walterswill/",
-   "bfs": [
-    2585
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Nur Privatkontakte des Kirchgemeinderats publiziert; Pfarreisekretariat Schönenwerd und Walterswil: Schmiedengasse 49, 5012 Schönenwerd."
-  },
-  {
-   "id": "so-wangen-bei-olten",
-   "name": "Römisch-katholische Kirchgemeinde Wangen bei Olten",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Wangen bei Olten",
-    "Verwaltung",
-    "Postfach",
-    "4612 Wangen b. Olten"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://www.kirchgemeinde-wangen.ch/cms/",
-   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
-   "bfs": [
-    2586
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Synode: «KG Verwaltung, Postfach» (ohne Fachnummer). KG-Merkblatt Mitgliedschaft nennt «Röm.-Kath. Kirchgemeinde, 4612 Wangen bei Olten» ohne Strasse. Pfarramt (Website-Inhaber): Kirchweg 2, 4612 Wangen bei Olten."
-  },
-  {
-   "id": "so-erlinsbach",
-   "name": "Römisch-katholische Kirchgemeinde Erlinsbach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Erlinsbach",
-    "Kirchgemeinderat",
-    "Rainlistrasse 2",
-    "5015 Erlinsbach SO"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "sekretariat.erlinsbach@pr-goesgen.ch",
-   "website": "https://www.pr-goesgen.ch/erlinsbach/",
-   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
-   "bfs": [
-    2503
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Synode: «Rainlistrasse 2 c/o Röm.-kath. KG»; laut pr-goesgen.ch (Sekretariate) Röm.-kath. Pfarramt Erlinsbach, gleiche Telefonnummer wie der Kirchgemeinderat."
-  },
-  {
-   "id": "so-ifenthal",
-   "name": "Römisch-katholische Kirchgemeinde Ifenthal",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Ifenthal",
-    "4633 Hauenstein"
-   ],
-   "address_type": "praesidium",
-   "website": "https://www.katholten.ch/ueber-uns/kirchgemeinden/",
-   "source": "https://www.katholten.ch/ueber-uns/kirchgemeinden/",
-   "bfs": [
-    2491
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. Als Kontakt nur Privatadresse der Präsidentin; Sekretariat Pastoralraum Olten: Kirchfeldstrasse 40, 4632 Trimbach. Website-Name «Kirchgemeinde Ifenthal-Hauenstein»."
-  },
-  {
-   "id": "so-kienberg",
-   "name": "Römisch-katholische Kirchgemeinde Kienberg",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Kienberg",
-    "Kirchgemeinderat",
-    "Kirchgasse 71",
-    "4468 Kienberg"
-   ],
-   "address_type": "kirchenpflege",
-   "email": "pfarrei.kienberg@bluewin.ch",
-   "website": "https://www.kath-oberesfricktal.ch/ueber-uns/kirchgemeinden/kienberg",
-   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
-   "bfs": [
-    2492
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Synode: «Röm.-kath. Kirchgemeinde, Kirchgasse 71». Website nennt keine Strasse; Jahresrechnung 2025 führt Kirchgasse 71 als KG-eigenes Ex-Pfarrhaus. Pastoralraum Oberes Fricktal (AG)."
-  },
-  {
-   "id": "so-lostorf",
-   "name": "Römisch-katholische Kirchgemeinde Lostorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Lostorf",
-    "Kirchgemeinderat",
-    "c/o Röm.-kath. Pfarramt",
-    "Räckholdernstrasse 3",
-    "4654 Lostorf"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat.lostorf@pr-goesgen.ch",
-   "website": "https://www.pr-goesgen.ch/lostorf/",
-   "source": "https://www.pr-goesgen.ch/userfiles/dbdocs/Lostorf/Ben%C3%BCtzungsgesuch_Sigristenhaus_Lostorf(1).pdf",
-   "bfs": [
-    2493
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KG-Formular trägt Kopf «Römisch-katholische Kirchgemeinde Lostorf / Röm.-kath. Pfarramt / Räckholdernstrasse 3»; KGR-Seite nur mit Privatadressen."
-  },
-  {
-   "id": "so-niedergoesgen",
-   "name": "Römisch-katholische Kirchgemeinde Niedergösgen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Niedergösgen",
-    "5013 Niedergösgen"
-   ],
-   "address_type": "praesidium",
-   "website": "https://www.pr-goesgen.ch/niedergoesgen/",
-   "source": "https://www.pr-goesgen.ch/page.cfm?id=173&abt=Kirchgemeinde&rub=Kirchgemeinderat",
-   "bfs": [
-    2495
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. KGR-Seite nennt nur Privatadressen; Röm. kath. Pfarramt Niedergösgen: Kreuzstrasse 42, 5013 Niedergösgen. Impressum-Adresse des Zweckverbands (Rainstrasse 43) ist die Privatadresse des Präsidenten."
-  },
-  {
-   "id": "so-obergoesgen",
-   "name": "Römisch-katholische Kirchgemeinde Obergösgen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Obergösgen",
-    "4653 Obergösgen"
-   ],
-   "address_type": "praesidium",
-   "website": "https://www.pr-goesgen.ch/obergoesgen/",
-   "source": "https://www.pr-goesgen.ch/page.cfm?id=610&abt=Kirchgemeinde&rub=Kirchgemeinderat",
-   "bfs": [
-    2497
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. KGR-Seite nennt nur Privatadressen; Röm. kath. Pfarramt Obergösgen: Kirchweg 2, 4653 Obergösgen."
-  },
-  {
-   "id": "so-stuesslingen",
-   "name": "Römisch-katholische Kirchgemeinde Stüsslingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Stüsslingen",
-    "4655 Stüsslingen"
-   ],
-   "address_type": "praesidium",
-   "website": "https://www.pr-goesgen.ch/stuesslingen/",
-   "source": "https://www.pr-goesgen.ch/page.cfm?id=222&abt=Kirchgemeinde&rub=Kirchgemeinderat",
-   "bfs": [
-    2499
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. KGR-Seite nennt nur Privatadressen; Röm. kath. Pfarramt Stüsslingen/Rohr: Hauptstrasse 25, 4655 Stüsslingen."
-  },
-  {
-   "id": "so-trimbach-wisen",
-   "name": "Römisch-katholische Kirchgemeinde Trimbach-Wisen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Trimbach-Wisen",
-    "4632 Trimbach"
-   ],
-   "address_type": "praesidium",
-   "website": "https://www.katholten.ch/ueber-uns/kirchgemeinden/",
-   "source": "https://www.katholten.ch/ueber-uns/kirchgemeinden/",
-   "bfs": [
-    2500,
-    2502
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen. KG nennt als «Kontaktadresse» die Privatadresse des Präsidenten; Sekretariat Pastoralraum Olten: Kirchfeldstrasse 40, 4632 Trimbach."
-  },
-  {
-   "id": "so-winznau",
-   "name": "Römisch-katholische Kirchgemeinde Winznau",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Winznau",
-    "Kirchgemeinderat",
-    "c/o Röm.-kath. Pfarramt",
-    "Kirchweg 1",
-    "4652 Winznau"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat.winznau@pr-goesgen.ch",
-   "website": "https://www.pr-goesgen.ch/winznau/",
-   "source": "https://www.pr-goesgen.ch/userfiles/dbdocs/Winznau/Ben%C3%BCtzungsreglement_Pfarrsaal_Winznau.pdf",
-   "bfs": [
-    2501
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "KG-Reglement nennt das Pfarramt Kirchweg 1 als «Pfarreisekretariat der Kirchgemeinde»; gleiche Adresse auf pr-goesgen.ch (Sekretariate). KGR-Seite nur mit Privatadressen."
-  },
-  {
-   "id": "so-bueren",
-   "name": "Römisch-katholische Kirchgemeinde Büren",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Büren",
-    "c/o Röm.-kath. Pfarramt",
-    "Seewenstrasse 5",
-    "4413 Büren"
-   ],
-   "address_type": "pfarramt",
-   "email": "ssvbueren@gmx.ch",
-   "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
-   "bfs": [
-    2472
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramt/Sekretariat Seelsorgeverband Büren-St. Pantaleon-Nuglar-Seewen (Pfarrblatt Lichtblick 22/2026); bestätigt auf https://www.bueren-so.ch/wohnen-arbeiten/kirchen.html/46. Keine eigene KG-Adresse publiziert."
-  },
-  {
-   "id": "so-dornach",
-   "name": "Römisch-katholische Kirchgemeinde Dornach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Dornach",
-    "c/o Kath. Pfarramt",
-    "Bruggweg 106",
-    "4143 Dornach"
-   ],
-   "address_type": "pfarramt",
-   "email": "kirchgemeinde.dornach@mail.dogeho.ch",
-   "website": "https://dogeho.ch/",
-   "source": "https://dogeho.ch/seelsorgeverband/team/",
-   "bfs": [
-    2473
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Seelsorgeverband Dornach-Gempen-Hochwald (Pastoralraum Birstal, BL). E-Mail Kirchenrat Dornach von https://dogeho.ch/seelsorgeverband/kirchenrat/."
-  },
-  {
-   "id": "so-gempen",
-   "name": "Römisch-katholische Kirchgemeinde Gempen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Gempen",
-    "c/o Kath. Pfarramt Seelsorgeverband Dornach-Gempen-Hochwald",
-    "Bruggweg 106",
-    "4143 Dornach"
-   ],
-   "address_type": "pfarramt",
-   "email": "sekretariat@dogeho.ch",
-   "website": "https://dogeho.ch/",
-   "source": "https://dogeho.ch/seelsorgeverband/team/",
-   "bfs": [
-    2474
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Keine eigene KG-Adresse; nur Sammeladresse des Seelsorgeverbands in Dornach. Präsidium nur mit persönlicher Adresse/E-Mail. Gemeinde-Website nennt «Kath. Kirchgemeinde Dornach-Gempen-Hochwald» (gemeint: Seelsorgeverband). Postadresse prüfen."
-  },
-  {
-   "id": "so-hochwald",
-   "name": "Römisch-katholische Kirchgemeinde Hochwald",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Hochwald",
-    "c/o Kath. Pfarramt Seelsorgeverband Dornach-Gempen-Hochwald",
-    "Bruggweg 106",
-    "4143 Dornach"
-   ],
-   "address_type": "pfarramt",
-   "email": "kirchgemeinde.hochwald@mail.dogeho.ch",
-   "website": "https://dogeho.ch/",
-   "source": "https://dogeho.ch/seelsorgeverband/team/",
-   "bfs": [
-    2475
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Keine eigene KG-Adresse; nur Sammeladresse des Seelsorgeverbands in Dornach. KG-E-Mail von https://dogeho.ch/seelsorgeverband/kirchenrat/. Postadresse prüfen."
-  },
-  {
-   "id": "so-hofstetten-flueh",
-   "name": "Römisch-katholische Kirchgemeinde Hofstetten-Flüh",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Hofstetten-Flüh",
-    "Verwaltung",
-    "Flühstrasse 40",
-    "4114 Hofstetten SO"
-   ],
-   "address_type": "verwaltung",
-   "email": "verwaltung@rkk-hofstetten-flueh.ch",
-   "website": "https://www.rkk-hofstetten-flueh.ch/",
-   "source": "https://www.rkk-hofstetten-flueh.ch/impressum/",
-   "bfs": [
-    2476
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Impressum: Herausgeberin Röm.-kath. Kirchgemeinde Hofstetten-Flüh, Flühstrasse 40, 4114 Hofstetten-Flüh (= Pfarrei St. Nikolaus, «4114 Hofstetten/SO»)."
-  },
-  {
-   "id": "so-metzerlen-mariastein",
-   "name": "Römisch-katholische Kirchgemeinde Metzerlen-Mariastein",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Metzerlen-Mariastein",
-    "c/o Pfarramt St. Remigius",
-    "Rotbergstrasse 4",
-    "4116 Metzerlen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarreimetzerlen@bluewin.ch",
-   "website": "https://rkk-metzerlen-mariastein.ch/",
-   "source": "https://rkk-metzerlen-mariastein.ch/pfarrei/pfarramt/",
-   "bfs": [
-    2477
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarramt Metzerlen-Mariastein / Burg i. L. Rotbergstrasse 4 auf Pfarramt-, Kontakt-Seite und Flyer 09/2026; die Fusszeile («Kontaktadresse») nennt abweichend Rotbergstrasse 2. Keine eigene KG-Adresse; Präsidium nur persönlich."
-  },
-  {
-   "id": "so-rodersdorf",
-   "name": "Römisch-katholische Kirchgemeinde Rodersdorf",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Rodersdorf",
-    "Kirchgemeindeverwaltung",
-    "Leimenstrasse 5",
-    "4118 Rodersdorf"
-   ],
-   "address_type": "verwaltung",
-   "email": "kg-rodersdorf@bluewin.ch",
-   "website": "https://rkk-rodersdorf.ch/",
-   "source": "http://rkk-rodersdorf.ch/kirchgemeinde/verwaltung-der-kirchgemeinde/",
-   "bfs": [
-    2479
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Kirchgemeindeverwaltung am Pfarramt St. Laurentius (gleiche Adresse)."
-  },
-  {
-   "id": "so-seewen",
-   "name": "Römisch-katholische Kirchgemeinde Seewen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Seewen",
-    "c/o Röm.-kath. Pfarramt Seelsorgeverband",
-    "Seewenstrasse 5",
-    "4413 Büren"
-   ],
-   "address_type": "pfarramt",
-   "email": "ssvbueren@gmx.ch",
-   "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
-   "bfs": [
-    2480
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Keine eigene KG-Adresse; Sekretariat des Seelsorgeverbands Büren-St. Pantaleon-Nuglar-Seewen in Büren (auch auf https://www.seewen.ch/roemkath als Pfarrer-Adresse). Präsidentin nur mit Privatadresse. Postadresse prüfen."
-  },
-  {
-   "id": "so-st-pantaleon-nuglar",
-   "name": "Römisch-katholische Kirchgemeinde St. Pantaleon-Nuglar",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde St. Pantaleon-Nuglar",
-    "c/o Röm.-kath. Pfarramt Seelsorgeverband",
-    "Seewenstrasse 5",
-    "4413 Büren"
-   ],
-   "address_type": "pfarramt",
-   "email": "ssvbueren@gmx.ch",
-   "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
-   "bfs": [
-    2478
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Keine eigene KG-Adresse; Sekretariat des Seelsorgeverbands in Büren (auch auf https://www.nuglar.ch/freizeit-kultur-gewerbe/kirchen als Pfarrer-Adresse). Präsidium und Verwalterin nur mit Privatadressen. Postadresse prüfen."
-  },
-  {
-   "id": "so-witterswil",
-   "name": "Römisch-katholische Kirchgemeinde Witterswil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Witterswil",
-    "Verwaltung",
-    "Ettingerstrasse 2",
-    "4108 Witterswil"
-   ],
-   "address_type": "verwaltung",
-   "email": "rkkirchgemeinde@bluewin.ch",
-   "website": "https://rkk-witterswil-bättwil.ch/",
-   "source": "https://xn--rkk-witterswil-bttwil-l2b.ch/kirchgemeinde/verwaltung-der-kirchgemeinde/",
-   "bfs": [
-    2471,
-    2481
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "BGS-Name «Witterswil» (Gebiet Bättwil, Witterswil); KG nennt sich «Witterswil-Bättwil». Pfarrei gleiche Adresse mit Postfach 43."
-  },
-  {
-   "id": "so-baerschwil",
-   "name": "Römisch-katholische Kirchgemeinde Bärschwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Bärschwil",
-    "Kirchgemeindeverwaltung",
-    "c/o Bringold Treuhand AG",
-    "Bahnhofstrasse 28",
-    "4242 Laufen"
-   ],
-   "address_type": "verwaltung",
-   "email": "pfarramt.baerschwil@gmx.ch",
-   "website": "https://www.pr-thierstein.ch/kirchgemeinde-baerschwil.html",
-   "source": "https://www.baerschwil.ch/_doc/6296296",
-   "bfs": [
-    2611
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Liste «Kirchgemeinderat Bärschwil» (PDF auf baerschwil.ch, KG-Rubrik): Kirchgemeindeverwalterin Bringold Treuhand AG, Laufen. Pfarreisekretariat und Präsidium nur mit Privatadressen. E-Mail = Pfarreisekretariat."
-  },
-  {
-   "id": "so-beinwil",
-   "name": "Römisch-katholische Kirchgemeinde Beinwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Beinwil",
-    "c/o Katholisches Pfarramt",
-    "Passwangstrasse 274",
-    "4229 Beinwil"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://www.pr-thierstein.ch/kirchgemeinde-beinwil.html",
-   "source": "https://www.pr-thierstein.ch/kirchgemeinde-beinwil.html",
-   "bfs": [
-    2612
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "«Katholisches Pfarramt/Pfarreisekretariat» – gleich auf https://www.beinwil-so.ch/leben/kirchen/römisch-katholische-kirche unter «Römisch-katholische Kirchgemeinde Beinwil – Kontakt». Telefon identisch mit Gemeindeverwaltung Beinwil. Keine Funktions-E-Mail."
-  },
-  {
-   "id": "so-breitenbach-fehren-schindelboden",
-   "name": "Römisch-katholische Kirchgemeinde Breitenbach-Fehren-Schindelboden",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Breitenbach-Fehren-Schindelboden",
-    "Sekretariat",
-    "Bodenackerstrasse 3",
-    "4226 Breitenbach"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt@kath-breitenbach.ch",
-   "website": "https://www.kath-breitenbach.ch/",
-   "source": "https://www.kath-breitenbach.ch/kontakt.html",
-   "bfs": [
-    2613,
-    2616
-   ],
-   "partial_bfs": [
-    2618
-   ],
-   "confidence": "medium",
-   "note": "Kontakt-Seite der KG-Website: Sekretariat und Büro der Pfarreileitung (zugleich Pastoralraum Thierstein). KG-Seite nennt sonst nur Präsidium mit Privatadresse."
-  },
-  {
-   "id": "so-buesserach",
-   "name": "Römisch-katholische Kirchgemeinde Büsserach",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Büsserach",
-    "c/o Pfarramt",
-    "Pfarrgasse 10",
-    "4227 Büsserach"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.buesserach@bluewin.ch",
-   "website": "https://www.pr-thierstein.ch/kirchgemeinde-buesserach.html",
-   "source": "https://www.pr-thierstein.ch/kirchgemeinde-buesserach.html",
-   "bfs": [
-    2614
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kirchgemeindepräsidium vakant (Synode nennt Michel Thüring); Verwaltung extern (BDO AG Laufen, ohne Adresse)."
-  },
-  {
-   "id": "so-erschwil",
-   "name": "Römisch-katholische Kirchgemeinde Erschwil",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Erschwil",
-    "c/o Pfarramt, Pfarrhaus",
-    "Schmelzistrasse 35",
-    "4228 Erschwil"
-   ],
-   "address_type": "pfarramt",
-   "email": "kgverwaltungerschwil@bluewin.ch",
-   "website": "https://www.pr-thierstein.ch/kirchgemeinde-erschwil.html",
-   "source": "https://www.erschwil.ch/kirchgemeinden-friedhof.html",
-   "bfs": [
-    2615
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Quelle ist die Website der Einwohnergemeinde (Pastoralraum-Seite ohne Postadresse). KG-Verwaltung nur mit Personenadresse in Himmelried (nicht übernommen). E-Mail = KG-Verwaltung."
-  },
-  {
-   "id": "so-grindel",
-   "name": "Römisch-katholische Kirchgemeinde Grindel",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Grindel",
-    "Pfarreisekretariat",
-    "Hofackerweg 238",
-    "4247 Grindel"
-   ],
-   "address_type": "sekretariat",
-   "email": "pfarramt.grindel@ebmnet.ch",
-   "website": "https://www.pr-thierstein.ch/kirchgemeinde-grindel.html",
-   "source": "https://www.pr-thierstein.ch/kirchgemeinde-grindel.html",
-   "bfs": [
-    2617
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Ausdrücklich als «Römisch-Katholische Kirchgemeinde Grindel, Pfarreisekretariat» publiziert; Hofackerweg 238 könnte das Heimbüro der Sekretärin sein."
-  },
-  {
-   "id": "so-himmelried",
-   "name": "Römisch-katholische Kirchgemeinde Himmelried",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Himmelried",
-    "c/o Pfarramt Seelsorgeverband Himmelried-Meltingen-Oberkirch",
-    "Oberkirch 1",
-    "4208 Nunningen"
-   ],
-   "address_type": "pfarramt",
-   "email": "kghimmelried@bluewin.ch",
-   "website": "https://ssv-himmelried-meltingen-oberkirch.ch/",
-   "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
-   "bfs": [],
-   "partial_bfs": [
-    2618
-   ],
-   "confidence": "low",
-   "note": "Keine eigene KG-Adresse; Sekretariat des Seelsorgeverbands (betreut pfarramt.himmel@bluewin.ch) in Oberkirch/Nunningen. Präsident nur mit Privatadresse (himmelried.ch). E-Mail = KG-Verwaltung. Postadresse prüfen."
-  },
-  {
-   "id": "so-kleinluetzel",
-   "name": "Römisch-katholische Kirchgemeinde Kleinlützel",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Kleinlützel",
-    "c/o Röm.-kath. Pfarramt",
-    "Frohmattrain 288",
-    "4245 Kleinlützel"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.kleinluetzel@bluewin.ch",
-   "website": "https://www.prll.ch/pfarreien",
-   "source": "https://www.prll.ch/pfarreien",
-   "bfs": [
-    2619
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Gehört zum Pastoralraum Laufental-Lützeltal (BL), nicht Thierstein. Adresse auch im Pfarrblatt Lichtblick 22/2026. Keine eigene KG-Adresse gefunden."
-  },
-  {
-   "id": "so-meltingen",
-   "name": "Römisch-katholische Kirchgemeinde Meltingen",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Meltingen",
-    "c/o Pfarramt Seelsorgeverband Himmelried-Meltingen-Oberkirch",
-    "Oberkirch 1",
-    "4208 Nunningen"
-   ],
-   "address_type": "pfarramt",
-   "email": "rkkg.meltingen@bluewin.ch",
-   "website": "https://ssv-himmelried-meltingen-oberkirch.ch/",
-   "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
-   "bfs": [
-    2620
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Keine eigene KG-Adresse; Synode-Adresse «Pfarrhausweg 27» ist laut Telefonverzeichnis eine Privatadresse (nicht übernommen). Sekretariat des Seelsorgeverbands in Oberkirch/Nunningen. E-Mail = KG-Verwaltung. Postadresse prüfen."
-  },
-  {
-   "id": "so-oberkirch",
-   "name": "Römisch-katholische Kirchgemeinde Oberkirch",
-   "postal": [
-    "Römisch-katholische Kirchgemeinde Oberkirch",
-    "c/o Pfarramt Seelsorgeverband",
-    "Oberkirch 1",
-    "4208 Nunningen"
-   ],
-   "address_type": "pfarramt",
-   "email": "verwaltung@kg-oberkirch.ch",
-   "website": "https://ssv-himmelried-meltingen-oberkirch.ch/",
-   "source": "https://www.pr-thierstein.ch/?file=files/cto_layout/docs/KIRCHEheute/2026/Ausgabe%2022.pdf",
-   "bfs": [
-    2621,
-    2622
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Pfarrhaus Oberkirch (Gemeindegebiet Nunningen), Sekretariat Seelsorgeverband Himmelried-Meltingen-Oberkirch. E-Mail = KG-Verwaltung (von ssv-…/die-rate/). kg-oberkirch.ch ist nur Platzhalter."
-  }
- ],
- "split": [
-  {
-   "bfs": 2601,
-   "how": "Das Steingrubenquartier gehört zur Kirchgemeinde St. Niklaus, das übrige Stadtgebiet zur Kirchgemeinde Solothurn (BGS 131.3 § 4).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Steingrubenquartier": "so-st-niklaus",
-    "Solothurn (übriges Stadtgebiet)": "so-solothurn"
-   }
-  },
-  {
-   "bfs": 2549,
-   "how": "Die Ortsteile vorderer und hinterer Mattenhof gehören zur Kirchgemeinde Günsberg-Niederwil-Balm, das übrige Gemeindegebiet zu Flumenthal-Hubersdorf (BGS 131.3 § 4).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "vorderer Mattenhof": "so-guensberg-niederwil-balm",
-    "hinterer Mattenhof": "so-guensberg-niederwil-balm",
-    "Kammersrohr (übriges Gemeindegebiet)": "so-flumenthal-hubersdorf"
-   }
-  },
-  {
-   "bfs": 2554,
-   "how": "Ortsteil Kellenmatt → Flumenthal-Hubersdorf; Ortsteil Niederwil → Günsberg-Niederwil-Balm; übriges Gemeindegebiet (Riedholz) → St. Niklaus (BGS 131.3 § 4).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Kellenmatt": "so-flumenthal-hubersdorf",
-    "Niederwil": "so-guensberg-niederwil-balm",
-    "Riedholz (übriges Gemeindegebiet)": "so-st-niklaus"
-   }
-  },
-  {
-   "bfs": 2535,
-   "how": "Ortsteil Winistorf → Kirchgemeinde Aeschi; Ortsteile Heinrichswil und Hersiwil → Wasseramt West - Bucheggberg (BGS 131.3 § 4).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Winistorf": "so-aeschi",
-    "Heinrichswil": "so-wasseramt-west-bucheggberg",
-    "Hersiwil": "so-wasseramt-west-bucheggberg"
-   }
-  },
-  {
-   "bfs": 2428,
-   "how": "Ortsteil Mümliswil → Kirchgemeinde Mümliswil; Ortsteil Ramiswil → Kirchgemeinde Ramiswil (BGS 131.3 § 4).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Mümliswil": "so-muemliswil",
-    "Ramiswil": "so-ramiswil"
-   }
-  },
-  {
-   "bfs": 2618,
-   "how": "Ortsteil Schindelboden → Kirchgemeinde Breitenbach-Fehren-Schindelboden; übriges Gemeindegebiet → Kirchgemeinde Himmelried (BGS 131.3 § 4).",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "Schindelboden": "so-breitenbach-fehren-schindelboden",
-    "Himmelried (übriges Gemeindegebiet)": "so-himmelried"
-   }
-  }
- ],
- "unmapped_bfs": [],
- "issues": [
-  "Zuordnung Gemeinde → Kirchgemeinde nach BGS 131.3 § 4 (Fassung in Kraft seit 1.1.2026); 72 Kirchgemeinden, deckungsgleich mit dem Verzeichnis der Synode.",
-  "Das Synode-Verzeichnis nennt fast nur Privatadressen der Präsidien; diese wurden nicht übernommen. Wo keine Kirchgemeinde-Adresse auffindbar war, steht nur «PLZ Ort» (address_type praesidium, confidence low).",
-  "Nur «PLZ Ort» ohne Strasse (nur Privatadressen publiziert): Subingen, Holderbank, Laupersdorf, Ramiswil, Niederbuchsiten, Dulliken, Gretzenbach-Däniken, Walterswil-Rothacker, Ifenthal, Niedergösgen, Obergösgen, Stüsslingen, Trimbach-Wisen. Die notes nennen jeweils das Pfarramt vor Ort als mögliche Alternative.",
-  "c/o Seelsorgeverband in einem anderen Ort (confidence low): Gempen, Hochwald (Dornach), Seewen, St. Pantaleon-Nuglar (Büren), Himmelried, Meltingen (Oberkirch/Nunningen); dazu Aedermannsdorf und Mümliswil c/o Pfarrhaus im eigenen Ort.",
-  "Externe Treuhandfirmen als Kirchgemeindeverwaltung: Matzendorf (Egerkingen), Welschenrohr-Gänsbrunnen (Balsthal), Bärschwil (Laufen). Bei Zuchwil, St. Niklaus, Schönenwerd und Niedergösgen wurde stattdessen das Pfarramt gewählt.",
-  "Namensabweichungen zu BGS 131.3: «Witterswil» nennt sich Witterswil-Bättwil, «Ifenthal» Ifenthal-Hauenstein, «Kappel-Boningen» teils Kirchgemeinde Kappel; Olten/Starrkirch-Wil: die Verwaltung bearbeitet laut Website Kirchenein- und -austritte.",
-  "Das Synode-Verzeichnis ist teilweise veraltet (z. B. Oensingen, Büsserach, Ramiswil).",
-  "Teilgebiete (Steingrubenquartier, Mattenhof, Kellenmatt, Niederwil, Winistorf/Heinrichswil/Hersiwil, Ramiswil, Schindelboden) sind nur textlich umschrieben; keine öffentlichen Geodaten der Kirchgemeindegrenzen gefunden."
- ]
 }

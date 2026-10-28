@@ -171,7 +171,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Website nennt Pfarrei St. Mauritius, Stallikerstrasse 2; zhkath-Datenbank nennt Stallikerstrasse 10. [Kirchenordnung (LS 182.10), Anhang: «Bonstetten» – Bonstetten, Stallikon, Wettswil a. A.]"
+      "note": "Website nennt Pfarrei St. Mauritius, Stallikerstrasse 2; zhkath-Datenbank nennt Stallikerstrasse 10. [Kirchenordnung (LS 182.10), Anhang: «Bonstetten» – Bonstetten, Stallikon, Wettswil a. A.] | Nachrecherche 28.10.2026: Stallikerstrasse 2 ist laut amtlichem Gebäuderegister die katholische Kirche (Pfarrei St. Mauritius), Nr. 10 gehört zu einem Mehrfamilienhaus. Der Eintrag der zhkath-Datenbank ist veraltet (auch Homepage und E-Mail)."
     },
     {
       "id": "zh-buelach",
@@ -385,7 +385,8 @@
       ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Website: «Als Anschrift für die Kirchgemeinde gilt» diese Adresse. Sie bittet zugleich, Austrittserklärungen an das für die Wohngemeinde zuständige Pfarramt zu richten (Herz Jesu Hausen, Bifangstrasse 4, 8915 Hausen am Albis, bzw. St. Burkard Mettmenstetten); Korrespondenz wird intern weitergeleitet. [Kirchenordnung (LS 182.10), Anhang: «Hausen-Mettmenstetten» – Hausen a. A., Kappel a. A., Knonau, Maschwanden, Mettmenstetten, Rifferswil]"
+      "note": "Website: «Als Anschrift für die Kirchgemeinde gilt» diese Adresse. Sie bittet zugleich, Austrittserklärungen an das für die Wohngemeinde zuständige Pfarramt zu richten (Herz Jesu Hausen, Bifangstrasse 4, 8915 Hausen am Albis, bzw. St. Burkard Mettmenstetten); Korrespondenz wird intern weitergeleitet. [Kirchenordnung (LS 182.10), Anhang: «Hausen-Mettmenstetten» – Hausen a. A., Kappel a. A., Knonau, Maschwanden, Mettmenstetten, Rifferswil] | Nachrecherche 28.10.2026: Wortlaut im Impressum unverändert («Erklärungen über Wiedereintritt oder Austritt richten Sie bitte an das Pfarramt, welches für Ihre Wohngemeinde zuständig ist»; Korrespondenz wird intern weitergeleitet). Zuordnung der Wohngemeinden zu den Pfarreien laut Startseite. Der UID-Sitz der KG (CHE-108.931.664) ist das Pfarramt Herz Jesu, Bifangstrasse 4, Hausen am Albis.",
+      "public_note": "Die Kirchgemeinde bittet, Austritte an das Pfarramt der Wohngemeinde zu schicken: Hausen am Albis, Kappel am Albis und Rifferswil an das Kath. Pfarramt Herz Jesu, Bifangstrasse 4, 8915 Hausen am Albis; Mettmenstetten, Knonau und Maschwanden an das Kath. Pfarramt St. Burkard, Rüteliweg 4, 8932 Mettmenstetten (die Adresse oben). Post an die Kirchgemeinde wird intern weitergeleitet."
     },
     {
       "id": "zh-herrliberg",
@@ -423,7 +424,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Kontaktadresse der Kath. Pfarrei Hinwil (Impressum). Die Domain kath-pfarrei-hinwil.ch aus der zhkath-Datenbank ist nicht erreichbar. [Kirchenordnung (LS 182.10), Anhang: «Hinwil» – Hinwil]"
+      "note": "Kontaktadresse der Kath. Pfarrei Hinwil (Impressum). Die Domain kath-pfarrei-hinwil.ch aus der zhkath-Datenbank ist nicht erreichbar. [Kirchenordnung (LS 182.10), Anhang: «Hinwil» – Hinwil] | Nachrecherche 28.10.2026: UID CHE-108.935.917 «Röm.-kath. Kirchgemeinde Hinwil» hat ihren Sitz an der Untere Bahnhofstrasse 17 (laut Gebäuderegister kirchliches Gebäude, Kirche 17a); Impressum und Kontaktseite nennen dieselbe Adresse."
     },
     {
       "id": "zh-hombrechtikon",
@@ -741,7 +742,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Website nennt keine Postadresse; Adresse des Kath. Pfarramts aus der Adressdatenbank der Katholischen Kirche im Kanton Zürich. [Kirchenordnung (LS 182.10), Anhang: «Rheinau» – Rheinau]"
+      "note": "Website nennt keine Postadresse; Adresse des Kath. Pfarramts aus der Adressdatenbank der Katholischen Kirche im Kanton Zürich. [Kirchenordnung (LS 182.10), Anhang: «Rheinau» – Rheinau] | Nachrecherche 28.10.2026: Bestätigt durch UID CHE-108.930.883 «Katholische Kirchgemeinde Rheinau» (Sitz Untere Steig 2), die Pfarreiseite im Pfarrblatt forum (https://www.forum-magazin.ch/rheinau/) und kathrheinau.ch/reservationen; laut Gebäuderegister das Pfarrhaus."
     },
     {
       "id": "zh-richterswil",
@@ -1073,18 +1074,18 @@
         "Langfurrenstrasse 10",
         "8623 Wetzikon"
       ],
-      "address_type": "sekretariat",
+      "address_type": "verwaltung",
       "email": "sekretariat@kath-wetzikon.ch",
       "website": "https://www.kath-wetzikon.ch",
-      "source": "https://www.kath-wetzikon.ch/sekretariat1",
+      "source": "https://kirchgemeinde-wetzikon.ch/behoerde/kirchenpflege/",
       "bfs": [
         115,
         119,
         121
       ],
       "partial_bfs": [],
-      "confidence": "medium",
-      "note": "Website nennt Langfurrenstrasse 10; die zhkath-Datenbank noch Messikommerstrasse 14. Umfasst Wetzikon, Gossau, Seegräben. [Kirchenordnung (LS 182.10), Anhang: «Wetzikon» – Gossau, Seegräben, Wetzikon]"
+      "confidence": "high",
+      "note": "Website nennt Langfurrenstrasse 10; die zhkath-Datenbank noch Messikommerstrasse 14. Umfasst Wetzikon, Gossau, Seegräben. [Kirchenordnung (LS 182.10), Anhang: «Wetzikon» – Gossau, Seegräben, Wetzikon] | Nachrecherche 28.10.2026: UID CHE-108.930.860 «Römisch Katholische Kirchgemeinde Wetzikon-Gossau-Seegräben» hat ihren Sitz an der Langfurrenstrasse 10; die Website der Kirchgemeinde führt die Kirchenpflege unter dieser Adresse. Messikommerstrasse 14 ist die Kirche St. Franziskus (zhkath-Datenbank veraltet)."
     },
     {
       "id": "zh-winterthur",
@@ -1274,15 +1275,15 @@
         "Saumackerstrasse 83",
         "8048 Zürich"
       ],
-      "address_type": "pfarramt",
+      "address_type": "verwaltung",
       "website": "https://heilig-kreuz.ch",
-      "source": "https://www.zhkath.ch/ueber-uns/pfarreien?&pfarreiid=1887&la=d",
+      "source": "https://heilig-kreuz.ch/impressum",
       "bfs": [],
       "partial_bfs": [
         261
       ],
-      "confidence": "medium",
-      "note": "Adresse des Kath. Pfarramts (Altstetten) aus der Adressdatenbank der Katholischen Kirche im Kanton Zürich; Website konnte nicht abgerufen werden (TLS-Fehler). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Heilig Kreuz»]"
+      "confidence": "high",
+      "note": "Adresse des Kath. Pfarramts (Altstetten) aus der Adressdatenbank der Katholischen Kirche im Kanton Zürich; Website konnte nicht abgerufen werden (TLS-Fehler). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Heilig Kreuz»] | Nachrecherche 28.10.2026: Website wieder erreichbar; das Impressum nennt «Röm.-kath. Kirchgemeinde Heilig Kreuz, Saumackerstrasse 83, 8048 Zürich»."
     },
     {
       "id": "zh-zuerich-oerlikon",
@@ -1634,13 +1635,14 @@
   ],
   "unmapped_bfs": [],
   "issues": [
+    "Bubikon: Zuordnung per PLZ 8608/8633 ist eine Näherung an die Gemeindeteile Bubikon-Dorf und Wolfhausen."
+  ],
+  "grundlage": [
     "Gebietszuordnung aus dem Anhang der Kirchenordnung (LS 182.10, Nachtrag 134, Stand 1.10.2026). Die 2023 angenommene neue Kirchenordnung ist in der Gesetzessammlung noch nicht als geltende Fassung publiziert.",
     "Viele Kirchgemeinden publizieren keine eigene Postadresse der Kirchenpflege; dort ist die Adresse von Pfarramt oder Sekretariat eingetragen (address_type pfarramt/sekretariat, confidence medium). Laut zhkath zählt der Eingang bei Kirchenpflege oder Pfarrei.",
-    "Kirchgemeinde Hausen-Mettmenstetten bittet, Austritte an das Pfarramt der Wohngemeinde zu senden; eingetragen ist die offizielle Kirchgemeinde-Anschrift in Mettmenstetten.",
-    "Rheinau und Zürich-Heilig Kreuz: Adresse nur aus der zhkath-Adressdatenbank (Website ohne Adresse bzw. nicht abrufbar).",
-    "Abweichungen Website vs. zhkath-Datenbank: Bonstetten (Stallikerstrasse 2 vs. 10), Wetzikon (Langfurrenstrasse 10 vs. Messikommerstrasse 14), Hinwil (Domain kath-pfarrei-hinwil.ch nicht erreichbar, neu kath-hinwil.ch). Website-Angabe übernommen.",
+    "Hausen-Mettmenstetten: eingetragen ist die offizielle Anschrift der Kirchgemeinde (Rüteliweg 4, Mettmenstetten); der Hinweis an die Besucher nennt die Pfarrämter, an die die Kirchgemeinde Austritte erbittet.",
+    "Adressen, die von der zhkath-Datenbank abweichen, sind nach Website, UID-Register und amtlichem Gebäuderegister geklärt (Bonstetten, Wetzikon, Hinwil, Rheinau, Zürich-Heilig Kreuz).",
     "Stadt Zürich: Ortsteil-Liste nur für 13 vollständig enthaltene statistische Quartiere; die Grenzen der übrigen Quartiere stimmen nicht mit den Kirchgemeindegrenzen überein. Für eine sichere Zuordnung braucht es die Geokodierung der Wohnadresse gegen die Polygone.",
-    "Bubikon: Zuordnung per PLZ 8608/8633 ist eine Näherung an die Gemeindeteile Bubikon-Dorf und Wolfhausen.",
     "opendata.swiss blockiert automatische Abrufe (HTTP 403); die GeoJSON-Ressource «geojson_link» der Stadt Zürich liefert eine HTML-Seite. Als direkte Download-URL ist der WFS-GetFeature-Aufruf (GeoJSON, WGS84) eingetragen."
   ]
 }

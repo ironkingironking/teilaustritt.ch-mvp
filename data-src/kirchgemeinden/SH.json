@@ -1,187 +1,188 @@
 {
- "canton": "SH",
- "body": {
-  "name": "Römisch-katholische Landeskirche des Kantons Schaffhausen",
-  "short": "Katholische Landeskirche Schaffhausen",
-  "website": "https://www.kathschaffhausen.ch",
-  "postal": [
-   "Röm.-kath. Landeskirche des Kantons Schaffhausen",
-   "Fäsenstaubstrasse 4",
-   "8200 Schaffhausen"
+  "canton": "SH",
+  "body": {
+    "name": "Römisch-katholische Landeskirche des Kantons Schaffhausen",
+    "short": "Katholische Landeskirche Schaffhausen",
+    "website": "https://www.kathschaffhausen.ch",
+    "postal": [
+      "Röm.-kath. Landeskirche des Kantons Schaffhausen",
+      "Fäsenstaubstrasse 4",
+      "8200 Schaffhausen"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchenstand der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich (Kantonsverfassung Art. 110 Abs. 2; Organisation Art. 19)",
+    "beglaubigung": false,
+    "wirkung": "",
+    "notes": "Der Austritt ist jederzeit durch schriftliche Erklärung möglich. Für Kinder unter 16 Jahren erklären die Inhaber der elterlichen Sorge den Austritt (Organisation Art. 19).",
+    "source": "https://rechtsbuch.sh.ch/api/de/versions/2058/pdf_file_with_annexes"
+  },
+  "finder": "https://www.kathschaffhausen.ch/de/bistum-pastoralraeume-pfarreien/pfarreien-und-pastoralraeume-im-kanton-schaffhausen",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://rechtsbuch.sh.ch/api/de/versions/2058/pdf_file_with_annexes",
+    "https://www.kathschaffhausen.ch/sites/default/files/2024-06/Organisation%20LK_SH_1991_03_10.pdf",
+    "https://www.kathschaffhausen.ch/de/verwaltung-gpk",
+    "https://www.kathschaffhausen.ch/de/dokumente-0",
+    "https://www.kathschaffhausen.ch/de/bistum-pastoralraeume-pfarreien/pfarreien-und-pastoralraeume-im-kanton-schaffhausen",
+    "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-schaffhausen/info-kirchgemeinde-schaffhausen",
+    "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-thayngen",
+    "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-neuhausen-0",
+    "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-hallau-0",
+    "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-ramsen-buch/kg-ramsen-buch-adresse",
+    "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-stein-am-rhein-hemishofen/kg-stein-am-rhein-hemishofen-adresse"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "sh-schaffhausen",
+      "name": "Röm.-kath. Kirchgemeinde Schaffhausen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Schaffhausen",
+        "Verwaltung",
+        "Fäsenstaubstrasse 4",
+        "Postfach",
+        "8201 Schaffhausen"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-schaffhausen-reiat.ch",
+      "source": "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-schaffhausen/info-kirchgemeinde-schaffhausen",
+      "bfs": [
+        2931,
+        2936,
+        2919,
+        2939
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse der Verwaltung» laut Kirchgemeinde. Gebiet laut Organisation Art. 18a: Schaffhausen (inkl. Hemmental), Bargen, Merishausen, Stetten."
+    },
+    {
+      "id": "sh-thayngen",
+      "name": "Röm.-kath. Kirchgemeinde Thayngen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Thayngen",
+        "Verwaltung",
+        "Schlatterweg 7",
+        "8240 Thayngen"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-schaffhausen-reiat.ch",
+      "source": "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-thayngen",
+      "bfs": [
+        2914,
+        2915,
+        2917,
+        2920
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "«Adresse der Verwaltung: Kath. Pfarramt, Schlatterweg 7». Gebiet laut Organisation Art. 18a: Thayngen (inkl. Altdorf, Barzheim, Bibern, Hofen, Opfertshofen), Büttenhardt, Dörflingen, Lohn."
+    },
+    {
+      "id": "sh-neuhausen",
+      "name": "Röm.-kath. Kirchgemeinde Neuhausen am Rheinfall",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Neuhausen am Rheinfall",
+        "Kirchenstand",
+        "Rheinfallstrasse 2a",
+        "8212 Neuhausen am Rheinfall"
+      ],
+      "address_type": "sekretariat",
+      "email": "verwaltung@kath.neuhausen-hallau.ch",
+      "website": "https://kath.neuhausen-hallau.ch",
+      "source": "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-neuhausen-0",
+      "bfs": [
+        2903,
+        2932,
+        2933,
+        2937,
+        2938,
+        2951,
+        2952,
+        2953
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kirchgemeindeseite nennt nur das Kirchgemeindesekretariat; Postadresse ist die des Pastoralraums Neuhausen-Hallau (Rheinfallstr. 2a). Gebiet laut Organisation Art. 18a: Neuhausen, Beggingen, Beringen, Buchberg, Löhningen (inkl. Guntmadingen), Rüdlingen, Schleitheim, Siblingen. | Nachrecherche 28.10.2026: Laut UID-Register (CHE-108.932.190 «Röm.- Kath. Kirchgemeinde Neuhausen am Rheinfall») ist Rheinfallstrasse 2a auch der Sitz der Kirchgemeinde (laut Gebäuderegister das Pfarrhaus). Eine andere eigene Adresse gibt es nicht; das Kirchgemeindesekretariat hat nur eine E-Mail-Adresse."
+    },
+    {
+      "id": "sh-hallau",
+      "name": "Röm.-kath. Kirchgemeinde Hallau",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Hallau",
+        "Kirchenstand",
+        "Bahnhofstrasse 90",
+        "8215 Hallau"
+      ],
+      "address_type": "sekretariat",
+      "email": "hallau@kath.neuhausen-hallau.ch",
+      "website": "https://kath.neuhausen-hallau.ch",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108935768",
+      "bfs": [
+        2901,
+        2904,
+        2971,
+        2972,
+        2973,
+        2974
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen: Die Kirchgemeinde publiziert keine eigene Postadresse, nur das Kirchgemeindesekretariat (Sekretariat Hallau, Telefon/E-Mail); eingetragen ist die einzige publizierte Adresse (Pastoralraum-Sekretariat in Neuhausen). Gebiet laut Organisation Art. 18a: Hallau, Gächlingen, Neunkirch, Oberhallau, Trasadingen, Wilchingen (inkl. Osterfingen). | Nachrecherche 28.10.2026: UID CHE-108.935.768 «Katholische Kirchgemeinde Hallau» hat ihren Sitz an der Bahnhofstrasse 90, 8215 Hallau (Zustellbarkeit nicht bestätigt, Prüfung 17.09.2026). Laut amtlichem Gebäuderegister das Pfarrhaus; die Website nennt die Adresse für die Kirche Bruder Klaus Hallau, das Telefonbuch dort die Nummer des Kirchgemeindesekretariats Hallau."
+    },
+    {
+      "id": "sh-ramsen-buch",
+      "name": "Kath. Kirchgemeinde Ramsen-Buch",
+      "postal": [
+        "Kath. Kirchgemeinde Ramsen-Buch",
+        "Kirchenstand",
+        "Pfarrhofweg 241",
+        "8262 Ramsen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.ramsen@kath-amseeundrhy.ch",
+      "website": "https://www.kath-amseeundrhy.ch",
+      "source": "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-ramsen-buch/kg-ramsen-buch-adresse",
+      "bfs": [
+        2961,
+        2963
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Adresse der Kirchgemeinde (zugleich Sekretariat Ramsen). In der Organisation Art. 18a «Ramsen» (Ramsen und Buch)."
+    },
+    {
+      "id": "sh-stein-am-rhein",
+      "name": "Kath. Kirchgemeinde Stein am Rhein-Hemishofen",
+      "postal": [
+        "Kath. Kirchgemeinde Stein am Rhein-Hemishofen",
+        "Kirchenstand",
+        "Grossi Schanz 15",
+        "8260 Stein am Rhein"
+      ],
+      "address_type": "verwaltung",
+      "email": "kirchenstand@kg-steinamrhein.ch",
+      "website": "https://www.kath-amseeundrhy.ch",
+      "source": "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-stein-am-rhein-hemishofen/kg-stein-am-rhein-hemishofen-adresse",
+      "bfs": [
+        2962,
+        2964
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Adresse der Kirchgemeinde laut Website des Pastoralraums Am See und Rhy. In der Organisation Art. 18a «Stein am Rhein» (Stein am Rhein und Hemishofen)."
+    }
+  ],
+  "split": [],
+  "unmapped_bfs": [],
+  "issues": [
+    "Empfänger nicht ausdrücklich geregelt: Kantonsverfassung Art. 110 Abs. 2 und Organisation Art. 19 verlangen nur eine schriftliche Erklärung; die Kirchgemeinde (Kirchenstand) führt das Stimm- und Steuerregister (Organisation Art. 29). Keine Beglaubigungspflicht gefunden. Kein offizielles Merkblatt zum Austritt gefunden.",
+    "Wirkung/Ende der Steuerpflicht ist in den gefundenen Quellen nicht geregelt."
+  ],
+  "grundlage": [
+    "Gebietseinteilung aus «Organisation der römisch-katholischen Landeskirche und der römisch-katholischen Kirchgemeinden im Kanton Schaffhausen» (1991, Art. 18a Fassung 2000), als aktuelles Dokument auf kathschaffhausen.ch publiziert; die Namen der heutigen Gemeinden nach Fusionen (Hemmental, Guntmadingen, Osterfingen, Altdorf, Barzheim, Bibern, Hofen, Opfertshofen) sind abgeleitet.",
+    "Hallau: Postadresse ist der UID-Sitz Bahnhofstrasse 90 (Pfarrhaus bei der Kirche Bruder Klaus). Neuhausen: Rheinfallstrasse 2a ist zugleich UID-Sitz der Kirchgemeinde und Adresse des Pastoralraums."
   ]
- },
- "austritt": {
-  "recipient": "Kirchenstand der Wohnsitz-Kirchgemeinde",
-  "recipient_level": "kirchgemeinde",
-  "form": "schriftlich (Kantonsverfassung Art. 110 Abs. 2; Organisation Art. 19)",
-  "beglaubigung": false,
-  "wirkung": "",
-  "notes": "Der Austritt ist jederzeit durch schriftliche Erklärung möglich. Für Kinder unter 16 Jahren erklären die Inhaber der elterlichen Sorge den Austritt (Organisation Art. 19).",
-  "source": "https://rechtsbuch.sh.ch/api/de/versions/2058/pdf_file_with_annexes"
- },
- "finder": "https://www.kathschaffhausen.ch/de/bistum-pastoralraeume-pfarreien/pfarreien-und-pastoralraeume-im-kanton-schaffhausen",
- "stand": "2026-10-28",
- "sources": [
-  "https://rechtsbuch.sh.ch/api/de/versions/2058/pdf_file_with_annexes",
-  "https://www.kathschaffhausen.ch/sites/default/files/2024-06/Organisation%20LK_SH_1991_03_10.pdf",
-  "https://www.kathschaffhausen.ch/de/verwaltung-gpk",
-  "https://www.kathschaffhausen.ch/de/dokumente-0",
-  "https://www.kathschaffhausen.ch/de/bistum-pastoralraeume-pfarreien/pfarreien-und-pastoralraeume-im-kanton-schaffhausen",
-  "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-schaffhausen/info-kirchgemeinde-schaffhausen",
-  "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-thayngen",
-  "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-neuhausen-0",
-  "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-hallau-0",
-  "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-ramsen-buch/kg-ramsen-buch-adresse",
-  "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-stein-am-rhein-hemishofen/kg-stein-am-rhein-hemishofen-adresse"
- ],
- "kirchgemeinden": [
-  {
-   "id": "sh-schaffhausen",
-   "name": "Röm.-kath. Kirchgemeinde Schaffhausen",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Schaffhausen",
-    "Verwaltung",
-    "Fäsenstaubstrasse 4",
-    "Postfach",
-    "8201 Schaffhausen"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://www.kath-schaffhausen-reiat.ch",
-   "source": "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-schaffhausen/info-kirchgemeinde-schaffhausen",
-   "bfs": [
-    2931,
-    2936,
-    2919,
-    2939
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "«Adresse der Verwaltung» laut Kirchgemeinde. Gebiet laut Organisation Art. 18a: Schaffhausen (inkl. Hemmental), Bargen, Merishausen, Stetten."
-  },
-  {
-   "id": "sh-thayngen",
-   "name": "Röm.-kath. Kirchgemeinde Thayngen",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Thayngen",
-    "Verwaltung",
-    "Schlatterweg 7",
-    "8240 Thayngen"
-   ],
-   "address_type": "verwaltung",
-   "website": "https://www.kath-schaffhausen-reiat.ch",
-   "source": "https://www.kath-schaffhausen-reiat.ch/de/kirchgemeinden-3/kirchgemeinde-thayngen",
-   "bfs": [
-    2914,
-    2915,
-    2917,
-    2920
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "«Adresse der Verwaltung: Kath. Pfarramt, Schlatterweg 7». Gebiet laut Organisation Art. 18a: Thayngen (inkl. Altdorf, Barzheim, Bibern, Hofen, Opfertshofen), Büttenhardt, Dörflingen, Lohn."
-  },
-  {
-   "id": "sh-neuhausen",
-   "name": "Röm.-kath. Kirchgemeinde Neuhausen am Rheinfall",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Neuhausen am Rheinfall",
-    "Kirchenstand",
-    "Rheinfallstrasse 2a",
-    "8212 Neuhausen am Rheinfall"
-   ],
-   "address_type": "sekretariat",
-   "email": "verwaltung@kath.neuhausen-hallau.ch",
-   "website": "https://kath.neuhausen-hallau.ch",
-   "source": "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-neuhausen-0",
-   "bfs": [
-    2903,
-    2932,
-    2933,
-    2937,
-    2938,
-    2951,
-    2952,
-    2953
-   ],
-   "partial_bfs": [],
-   "confidence": "medium",
-   "note": "Kirchgemeindeseite nennt nur das Kirchgemeindesekretariat; Postadresse ist die des Pastoralraums Neuhausen-Hallau (Rheinfallstr. 2a). Gebiet laut Organisation Art. 18a: Neuhausen, Beggingen, Beringen, Buchberg, Löhningen (inkl. Guntmadingen), Rüdlingen, Schleitheim, Siblingen."
-  },
-  {
-   "id": "sh-hallau",
-   "name": "Röm.-kath. Kirchgemeinde Hallau",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Hallau",
-    "Kirchenstand",
-    "c/o Pastoralraum Neuhausen-Hallau",
-    "Rheinfallstrasse 2a",
-    "8212 Neuhausen am Rheinfall"
-   ],
-   "address_type": "pfarramt",
-   "email": "hallau@kath.neuhausen-hallau.ch",
-   "website": "https://kath.neuhausen-hallau.ch",
-   "source": "https://kath.neuhausen-hallau.ch/de/kirchgemeinde-hallau-0",
-   "bfs": [
-    2901,
-    2904,
-    2971,
-    2972,
-    2973,
-    2974
-   ],
-   "partial_bfs": [],
-   "confidence": "low",
-   "note": "Postadresse auf der Website prüfen: Die Kirchgemeinde publiziert keine eigene Postadresse, nur das Kirchgemeindesekretariat (Sekretariat Hallau, Telefon/E-Mail); eingetragen ist die einzige publizierte Adresse (Pastoralraum-Sekretariat in Neuhausen). Gebiet laut Organisation Art. 18a: Hallau, Gächlingen, Neunkirch, Oberhallau, Trasadingen, Wilchingen (inkl. Osterfingen)."
-  },
-  {
-   "id": "sh-ramsen-buch",
-   "name": "Kath. Kirchgemeinde Ramsen-Buch",
-   "postal": [
-    "Kath. Kirchgemeinde Ramsen-Buch",
-    "Kirchenstand",
-    "Pfarrhofweg 241",
-    "8262 Ramsen"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat.ramsen@kath-amseeundrhy.ch",
-   "website": "https://www.kath-amseeundrhy.ch",
-   "source": "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-ramsen-buch/kg-ramsen-buch-adresse",
-   "bfs": [
-    2961,
-    2963
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Adresse der Kirchgemeinde (zugleich Sekretariat Ramsen). In der Organisation Art. 18a «Ramsen» (Ramsen und Buch)."
-  },
-  {
-   "id": "sh-stein-am-rhein",
-   "name": "Kath. Kirchgemeinde Stein am Rhein-Hemishofen",
-   "postal": [
-    "Kath. Kirchgemeinde Stein am Rhein-Hemishofen",
-    "Kirchenstand",
-    "Grossi Schanz 15",
-    "8260 Stein am Rhein"
-   ],
-   "address_type": "verwaltung",
-   "email": "kirchenstand@kg-steinamrhein.ch",
-   "website": "https://www.kath-amseeundrhy.ch",
-   "source": "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-stein-am-rhein-hemishofen/kg-stein-am-rhein-hemishofen-adresse",
-   "bfs": [
-    2962,
-    2964
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Adresse der Kirchgemeinde laut Website des Pastoralraums Am See und Rhy. In der Organisation Art. 18a «Stein am Rhein» (Stein am Rhein und Hemishofen)."
-  }
- ],
- "split": [],
- "unmapped_bfs": [],
- "issues": [
-  "Empfänger nicht ausdrücklich geregelt: Kantonsverfassung Art. 110 Abs. 2 und Organisation Art. 19 verlangen nur eine schriftliche Erklärung; die Kirchgemeinde (Kirchenstand) führt das Stimm- und Steuerregister (Organisation Art. 29). Keine Beglaubigungspflicht gefunden. Kein offizielles Merkblatt zum Austritt gefunden.",
-  "Gebietseinteilung aus «Organisation der römisch-katholischen Landeskirche und der römisch-katholischen Kirchgemeinden im Kanton Schaffhausen» (1991, Art. 18a Fassung 2000), als aktuelles Dokument auf kathschaffhausen.ch publiziert; die Namen der heutigen Gemeinden nach Fusionen (Hemmental, Guntmadingen, Osterfingen, Altdorf, Barzheim, Bibern, Hofen, Opfertshofen) sind abgeleitet.",
-  "Hallau: keine eigene Postadresse publiziert (confidence low). Neuhausen: Postadresse = Pastoralraum-Adresse; ein nicht mehr abrufbares Stelleninserat nannte «Kath. Kirchgemeinde Neuhausen am Rheinfall, Rheinfallstrasse 2a».",
-  "Wirkung/Ende der Steuerpflicht ist in den gefundenen Quellen nicht geregelt."
- ]
 }

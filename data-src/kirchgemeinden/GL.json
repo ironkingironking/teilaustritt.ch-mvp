@@ -1,193 +1,203 @@
 {
- "canton": "GL",
- "body": {
-  "name": "Römisch-katholische Landeskirche des Kantons Glarus (Verband der römisch-katholischen Kirchgemeinden des Kantons Glarus)",
-  "short": "Katholische Landeskirche Kanton Glarus",
-  "website": "https://www.kath-glarus.ch",
-  "postal": [
-   "Katholische Landeskirche Kanton Glarus",
-   "Burgstrasse 36",
-   "8750 Glarus"
+  "canton": "GL",
+  "body": {
+    "name": "Römisch-katholische Landeskirche des Kantons Glarus (Verband der römisch-katholischen Kirchgemeinden des Kantons Glarus)",
+    "short": "Katholische Landeskirche Kanton Glarus",
+    "website": "https://www.kath-glarus.ch",
+    "postal": [
+      "Katholische Landeskirche Kanton Glarus",
+      "Burgstrasse 36",
+      "8750 Glarus"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchenrat der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich gegenüber der Kirchgemeinde",
+    "beglaubigung": false,
+    "wirkung": "",
+    "notes": "Mitglied ist, wer im Kirchgemeindegebiet wohnt und nicht gegenüber seiner Kirchgemeinde schriftlich den Austritt oder die Nichtzugehörigkeit erklärt hat (Verfassung Art. 26).",
+    "source": "https://gl.lexwork.naz.ch/de/dta/IV-A.1.6.pdf"
+  },
+  "finder": "https://www.kath-glarus.ch/pfarreien",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://gl.lexwork.naz.ch/de/dta/IV-A.1.6.pdf",
+    "https://www.kath-glarus.ch/kirchgemeinden",
+    "https://www.kath-glarus.ch/pfarreien",
+    "https://www.kath-glarus.ch/ueberuns",
+    "https://www.gl.ch/public/upload/assets/46288/14_10_Kirchgemeinden%20kath..pdf?fp=1",
+    "https://sankt-fridolin.ch/wp-content/uploads/2021/12/2017.06.18_Kirchgemeindeordnung_Glarus-Riedern-Ennenda.pdf",
+    "https://www.kathglarussued.ch/Namen-Fakten/Geschichte-Seelsorgeraum/",
+    "https://www.pfarrei-naefels.ch/kirchgemeinde/kirchgemeinde-naefels",
+    "https://gesetze.gl.ch/api/de/versions/2603/pdf_file_with_annexes",
+    "https://hls-dhs-dss.ch/de/articles/007550/",
+    "https://hls-dhs-dss.ch/de/articles/000779/",
+    "https://hls-dhs-dss.ch/de/articles/000774/"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "gl-glarus-sued",
+      "name": "Röm.-kath. Kirchgemeinde Glarus Süd",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Glarus Süd",
+        "Kirchenrat",
+        "Rütelistrasse 24",
+        "8762 Schwanden GL"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kathglarussued.ch",
+      "website": "https://www.kathglarussued.ch",
+      "source": "https://www.kathglarussued.ch/Namen-Fakten/Kirchenrat/",
+      "bfs": [
+        1631
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Katholisches Pfarramt Glarus Süd (auf der Kirchgemeinde-Website als Kontakt angegeben). Umfasst laut Kirchgemeinde Linthal, Braunwald, Rüti, Betschwanden, Diesbach, Hätzingen, Luchsingen, Leuggelbach, Haslen, Nidfurn, Schwändi, Elm, Matt, Engi, Sool, Schwanden und Mitlödi."
+    },
+    {
+      "id": "gl-glarus-riedern-ennenda",
+      "name": "Röm.-kath. Kirchgemeinde Glarus-Riedern-Ennenda",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Glarus-Riedern-Ennenda",
+        "Kirchenrat",
+        "Ägidius-Tschudi-Strasse 8",
+        "8750 Glarus"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei@sankt-fridolin.ch",
+      "website": "https://sankt-fridolin.ch",
+      "source": "https://sankt-fridolin.ch/kirchgemeinde/kirchenrat/",
+      "bfs": [],
+      "partial_bfs": [
+        1632
+      ],
+      "confidence": "medium",
+      "note": "Adresse der Katholischen Pfarrei St. Fridolin; eine separate Kirchenrat-Adresse ist nicht publiziert. Gebiet laut Gemeindeordnung 2017 Art. 2: Ortsgemeinden Glarus, Riedern und Ennenda."
+    },
+    {
+      "id": "gl-netstal",
+      "name": "Röm.-kath. Kirchgemeinde Netstal",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Netstal",
+        "Kirchenrat",
+        "Kreuzbühlstrasse 9",
+        "8754 Netstal"
+      ],
+      "address_type": "pfarramt",
+      "email": "kath.pfarramt.netstal@bluewin.ch",
+      "website": "https://www.kath-glarus.ch/pfarreien",
+      "source": "https://www.kath-glarus.ch/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1632
+      ],
+      "confidence": "medium",
+      "note": "Röm.-kath. Pfarramt Netstal (Kontaktliste der Landeskirche); keine eigene Website gefunden. Gebiet: Dorf Netstal (aus Name und Staatskalender abgeleitet)."
+    },
+    {
+      "id": "gl-naefels",
+      "name": "Katholische Kirchgemeinde Näfels",
+      "postal": [
+        "Katholische Kirchgemeinde Näfels",
+        "Kirchenrat",
+        "Denkmalweg 1",
+        "8752 Näfels"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarramt@kath-naefels.ch",
+      "website": "https://www.pfarrei-naefels.ch",
+      "source": "https://www.pfarrei-naefels.ch/kirchgemeinde/kirchgemeinde-naefels",
+      "bfs": [],
+      "partial_bfs": [
+        1630
+      ],
+      "confidence": "high",
+      "note": "Postadresse der Kirchgemeinde (zugleich Kath. Pfarramt). Gebiet laut Staatskalender: Näfels mit Mollis, Filzbach, Obstalden und Mühlehorn."
+    },
+    {
+      "id": "gl-oberurnen",
+      "name": "Röm.-kath. Kirchgemeinde Oberurnen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Oberurnen",
+        "Kirchenrat",
+        "Poststrasse 1",
+        "8868 Oberurnen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://katholisch-oberurnen.com",
+      "source": "https://www.kath-glarus.ch/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1630
+      ],
+      "confidence": "medium",
+      "note": "Adresse des Pfarramts Oberurnen aus der Kontaktliste der Landeskirche (dort mit Namen des Pfarrers); die Pfarrei-Website enthält keine Adresse."
+    },
+    {
+      "id": "gl-niederurnen-bilten",
+      "name": "Röm.-kath. Kirchgemeinde Niederurnen-Bilten",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Niederurnen-Bilten",
+        "Kirchenrat",
+        "Ziegelbrückstrasse 15",
+        "8867 Niederurnen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.niederurnen@bluewin.ch",
+      "website": "https://www.kath-glarus.ch/pfarreien",
+      "source": "https://www.kath-glarus.ch/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1630
+      ],
+      "confidence": "medium",
+      "note": "Kath. Pfarramt Niederurnen (Kontaktliste der Landeskirche); keine eigene Website gefunden. Gebiet: Niederurnen und Bilten (aus Name und Staatskalender abgeleitet)."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 1630,
+      "how": "Glarus Nord ist auf drei Kirchgemeinden verteilt, nach ehemaligen Gemeinden/Dörfern: Näfels, Mollis, Filzbach, Obstalden, Mühlehorn → Näfels; Oberurnen → Oberurnen; Niederurnen und Bilten → Niederurnen-Bilten. Der Glarner Teil von Ziegelbrücke gehörte zu Niederurnen, die Glarner Gebiete mit PLZ 8872 Weesen (Gäsi, Flechsen) und 8754 Netstal zu Mollis.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "8752 Näfels": "gl-naefels",
+        "8753 Mollis": "gl-naefels",
+        "8757 Filzbach": "gl-naefels",
+        "8758 Obstalden": "gl-naefels",
+        "8874 Mühlehorn": "gl-naefels",
+        "8868 Oberurnen": "gl-oberurnen",
+        "8867 Niederurnen": "gl-niederurnen-bilten",
+        "8865 Bilten": "gl-niederurnen-bilten",
+        "8866 Ziegelbrücke (Glarner Teil, ehemals Gemeinde Niederurnen)": "gl-niederurnen-bilten",
+        "8872 Weesen (Glarner Teil, ehemals Gemeinde Mollis)": "gl-naefels",
+        "8754 Netstal (Teil in Glarus Nord, ehemals Gemeinde Mollis)": "gl-naefels"
+      }
+    },
+    {
+      "bfs": 1632,
+      "how": "Die Gemeinde Glarus ist auf zwei Kirchgemeinden verteilt: ehemalige Ortsgemeinden Glarus, Riedern und Ennenda → Glarus-Riedern-Ennenda; Netstal → Netstal.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "8750 Glarus": "gl-glarus-riedern-ennenda",
+        "8750 Riedern": "gl-glarus-riedern-ennenda",
+        "8755 Ennenda": "gl-glarus-riedern-ennenda",
+        "8754 Netstal": "gl-netstal"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "8750 Klöntal (Gemeinde Glarus) ist über die PLZ 8750 Glarus-Riedern-Ennenda zugeordnet; dass das Klöntal zur ehemaligen Ortsgemeinde Glarus bzw. zur Kirchgemeinde gehört, ist nicht ausdrücklich belegt.",
+    "8754 Netstal/8872 Weesen in Glarus Nord: Zuordnung zu Näfels über die ehemalige Gemeinde Mollis (HLS) hergeleitet, nicht von der Kirchgemeinde bestätigt.",
+    "Oberurnen, Netstal, Niederurnen-Bilten, Glarus-Riedern-Ennenda: nur Pfarramtsadressen publiziert (confidence medium). Die Website der Landeskirche nennt als Kontakt eine c/o-Adresse eines Behördenmitglieds; eingetragen ist die Fusszeilenadresse Burgstrasse 36, Glarus.",
+    "Beglaubigung: keine Vorschrift gefunden. Wirkung/Ende der Steuerpflicht nicht geregelt in den gefundenen Quellen. Der Staatskalender-Auszug ist undatiert."
+  ],
+  "grundlage": [
+    "Keine kantonale Rechtsgrundlage mit der Gebietseinteilung gefunden; Gebiete aus Kirchgemeindeordnung (Glarus-Riedern-Ennenda), Website (Glarus Süd), Staatskalender (Näfels mit Mollis, Filzbach, Obstalden, Mühlehorn) und Kirchgemeindenamen (Netstal, Oberurnen, Niederurnen-Bilten) abgeleitet.",
+    "Glarus Nord, PLZ über Gemeindegrenzen: Ziegelbrücke (Glarner Teil, links des Linthkanals) gehörte zur Gemeinde Niederurnen (HLS Ziegelbrücke 007550, HLS Niederurnen 000779). Das Gebiet der Gemeinde Mollis reichte vom Linthkanal und Walensee bis zum Schlattbach bei Netstal (HLS Mollis 000774); die Gebäude mit PLZ 8872 Weesen auf Glarner Boden liegen an Gäsi- und Flechsenstrasse beim Bahnhof Weesen (Mollis-Gebiet), jenes mit PLZ 8754 Netstal am Chräberg (GWR, Abfrage 28.10.2026). Mollis gehört zur Kirchgemeinde Näfels (Staatskalender)."
   ]
- },
- "austritt": {
-  "recipient": "Kirchenrat der Wohnsitz-Kirchgemeinde",
-  "recipient_level": "kirchgemeinde",
-  "form": "schriftlich gegenüber der Kirchgemeinde",
-  "beglaubigung": false,
-  "wirkung": "",
-  "notes": "Mitglied ist, wer im Kirchgemeindegebiet wohnt und nicht gegenüber seiner Kirchgemeinde schriftlich den Austritt oder die Nichtzugehörigkeit erklärt hat (Verfassung Art. 26).",
-  "source": "https://gl.lexwork.naz.ch/de/dta/IV-A.1.6.pdf"
- },
- "finder": "https://www.kath-glarus.ch/pfarreien",
- "stand": "2026-10-28",
- "sources": [
-  "https://gl.lexwork.naz.ch/de/dta/IV-A.1.6.pdf",
-  "https://www.kath-glarus.ch/kirchgemeinden",
-  "https://www.kath-glarus.ch/pfarreien",
-  "https://www.kath-glarus.ch/ueberuns",
-  "https://www.gl.ch/public/upload/assets/46288/14_10_Kirchgemeinden%20kath..pdf?fp=1",
-  "https://sankt-fridolin.ch/wp-content/uploads/2021/12/2017.06.18_Kirchgemeindeordnung_Glarus-Riedern-Ennenda.pdf",
-  "https://www.kathglarussued.ch/Namen-Fakten/Geschichte-Seelsorgeraum/",
-  "https://www.pfarrei-naefels.ch/kirchgemeinde/kirchgemeinde-naefels",
-  "https://gesetze.gl.ch/api/de/versions/2603/pdf_file_with_annexes"
- ],
- "kirchgemeinden": [
-  {
-   "id": "gl-glarus-sued",
-   "name": "Röm.-kath. Kirchgemeinde Glarus Süd",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Glarus Süd",
-    "Kirchenrat",
-    "Rütelistrasse 24",
-    "8762 Schwanden GL"
-   ],
-   "address_type": "sekretariat",
-   "email": "sekretariat@kathglarussued.ch",
-   "website": "https://www.kathglarussued.ch",
-   "source": "https://www.kathglarussued.ch/Namen-Fakten/Kirchenrat/",
-   "bfs": [
-    1631
-   ],
-   "partial_bfs": [],
-   "confidence": "high",
-   "note": "Katholisches Pfarramt Glarus Süd (auf der Kirchgemeinde-Website als Kontakt angegeben). Umfasst laut Kirchgemeinde Linthal, Braunwald, Rüti, Betschwanden, Diesbach, Hätzingen, Luchsingen, Leuggelbach, Haslen, Nidfurn, Schwändi, Elm, Matt, Engi, Sool, Schwanden und Mitlödi."
-  },
-  {
-   "id": "gl-glarus-riedern-ennenda",
-   "name": "Röm.-kath. Kirchgemeinde Glarus-Riedern-Ennenda",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Glarus-Riedern-Ennenda",
-    "Kirchenrat",
-    "Ägidius-Tschudi-Strasse 8",
-    "8750 Glarus"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarrei@sankt-fridolin.ch",
-   "website": "https://sankt-fridolin.ch",
-   "source": "https://sankt-fridolin.ch/kirchgemeinde/kirchenrat/",
-   "bfs": [],
-   "partial_bfs": [
-    1632
-   ],
-   "confidence": "medium",
-   "note": "Adresse der Katholischen Pfarrei St. Fridolin; eine separate Kirchenrat-Adresse ist nicht publiziert. Gebiet laut Gemeindeordnung 2017 Art. 2: Ortsgemeinden Glarus, Riedern und Ennenda."
-  },
-  {
-   "id": "gl-netstal",
-   "name": "Röm.-kath. Kirchgemeinde Netstal",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Netstal",
-    "Kirchenrat",
-    "Kreuzbühlstrasse 9",
-    "8754 Netstal"
-   ],
-   "address_type": "pfarramt",
-   "email": "kath.pfarramt.netstal@bluewin.ch",
-   "website": "https://www.kath-glarus.ch/pfarreien",
-   "source": "https://www.kath-glarus.ch/pfarreien",
-   "bfs": [],
-   "partial_bfs": [
-    1632
-   ],
-   "confidence": "medium",
-   "note": "Röm.-kath. Pfarramt Netstal (Kontaktliste der Landeskirche); keine eigene Website gefunden. Gebiet: Dorf Netstal (aus Name und Staatskalender abgeleitet)."
-  },
-  {
-   "id": "gl-naefels",
-   "name": "Katholische Kirchgemeinde Näfels",
-   "postal": [
-    "Katholische Kirchgemeinde Näfels",
-    "Kirchenrat",
-    "Denkmalweg 1",
-    "8752 Näfels"
-   ],
-   "address_type": "verwaltung",
-   "email": "pfarramt@kath-naefels.ch",
-   "website": "https://www.pfarrei-naefels.ch",
-   "source": "https://www.pfarrei-naefels.ch/kirchgemeinde/kirchgemeinde-naefels",
-   "bfs": [],
-   "partial_bfs": [
-    1630
-   ],
-   "confidence": "high",
-   "note": "Postadresse der Kirchgemeinde (zugleich Kath. Pfarramt). Gebiet laut Staatskalender: Näfels mit Mollis, Filzbach, Obstalden und Mühlehorn."
-  },
-  {
-   "id": "gl-oberurnen",
-   "name": "Röm.-kath. Kirchgemeinde Oberurnen",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Oberurnen",
-    "Kirchenrat",
-    "Poststrasse 1",
-    "8868 Oberurnen"
-   ],
-   "address_type": "pfarramt",
-   "website": "https://katholisch-oberurnen.com",
-   "source": "https://www.kath-glarus.ch/pfarreien",
-   "bfs": [],
-   "partial_bfs": [
-    1630
-   ],
-   "confidence": "medium",
-   "note": "Adresse des Pfarramts Oberurnen aus der Kontaktliste der Landeskirche (dort mit Namen des Pfarrers); die Pfarrei-Website enthält keine Adresse."
-  },
-  {
-   "id": "gl-niederurnen-bilten",
-   "name": "Röm.-kath. Kirchgemeinde Niederurnen-Bilten",
-   "postal": [
-    "Röm.-kath. Kirchgemeinde Niederurnen-Bilten",
-    "Kirchenrat",
-    "Ziegelbrückstrasse 15",
-    "8867 Niederurnen"
-   ],
-   "address_type": "pfarramt",
-   "email": "pfarramt.niederurnen@bluewin.ch",
-   "website": "https://www.kath-glarus.ch/pfarreien",
-   "source": "https://www.kath-glarus.ch/pfarreien",
-   "bfs": [],
-   "partial_bfs": [
-    1630
-   ],
-   "confidence": "medium",
-   "note": "Kath. Pfarramt Niederurnen (Kontaktliste der Landeskirche); keine eigene Website gefunden. Gebiet: Niederurnen und Bilten (aus Name und Staatskalender abgeleitet)."
-  }
- ],
- "split": [
-  {
-   "bfs": 1630,
-   "how": "Glarus Nord ist auf drei Kirchgemeinden verteilt, nach ehemaligen Gemeinden/Dörfern: Näfels, Mollis, Filzbach, Obstalden, Mühlehorn → Näfels; Oberurnen → Oberurnen; Niederurnen und Bilten → Niederurnen-Bilten. Für Adressen mit PLZ 8754 Netstal, 8866 Ziegelbrücke oder 8872 Weesen auf Glarner Boden das ehemalige Dorf bestimmen.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "8752 Näfels": "gl-naefels",
-    "8753 Mollis": "gl-naefels",
-    "8757 Filzbach": "gl-naefels",
-    "8758 Obstalden": "gl-naefels",
-    "8874 Mühlehorn": "gl-naefels",
-    "8868 Oberurnen": "gl-oberurnen",
-    "8867 Niederurnen": "gl-niederurnen-bilten",
-    "8865 Bilten": "gl-niederurnen-bilten"
-   }
-  },
-  {
-   "bfs": 1632,
-   "how": "Die Gemeinde Glarus ist auf zwei Kirchgemeinden verteilt: ehemalige Ortsgemeinden Glarus, Riedern und Ennenda → Glarus-Riedern-Ennenda; Netstal → Netstal.",
-   "finder": null,
-   "geodata": null,
-   "ortsteile": {
-    "8750 Glarus": "gl-glarus-riedern-ennenda",
-    "8750 Riedern": "gl-glarus-riedern-ennenda",
-    "8755 Ennenda": "gl-glarus-riedern-ennenda",
-    "8754 Netstal": "gl-netstal"
-   }
-  }
- ],
- "unmapped_bfs": [],
- "issues": [
-  "Keine kantonale Rechtsgrundlage mit der Gebietseinteilung gefunden; Gebiete aus Kirchgemeindeordnung (Glarus-Riedern-Ennenda), Website (Glarus Süd), Staatskalender (Näfels mit Mollis, Filzbach, Obstalden, Mühlehorn) und Kirchgemeindenamen (Netstal, Oberurnen, Niederurnen-Bilten) abgeleitet.",
-  "Ortschaften ohne gesicherte Zuordnung: 8750 Klöntal (Gemeinde Glarus), 8866 Ziegelbrücke, 8754 Netstal und 8872 Weesen (Teile von Glarus Nord). Vermutlich Glarus-Riedern-Ennenda bzw. Niederurnen-Bilten/Näfels, nicht belegt.",
-  "Oberurnen, Netstal, Niederurnen-Bilten, Glarus-Riedern-Ennenda: nur Pfarramtsadressen publiziert (confidence medium). Die Website der Landeskirche nennt als Kontakt eine c/o-Adresse eines Behördenmitglieds; eingetragen ist die Fusszeilenadresse Burgstrasse 36, Glarus.",
-  "Beglaubigung: keine Vorschrift gefunden. Wirkung/Ende der Steuerpflicht nicht geregelt in den gefundenen Quellen. Der Staatskalender-Auszug ist undatiert."
- ]
 }

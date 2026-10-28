@@ -334,12 +334,13 @@
     },
     {
       "bfs": 1508,
-      "how": "Oberdorf gehört grösstenteils zur Kirchgemeinde Stans (Art. 103 KV NW); Büren ist eigene Kapellgemeinde. Für Niederrickenbach bei der Landeskirche nachfragen.",
+      "how": "Oberdorf gehört grösstenteils zur Kirchgemeinde Stans (Art. 103 KV NW), auch das Gebiet mit PLZ 6370; Büren (6382) ist eigene Kapellgemeinde. Für Niederrickenbach bei der Landeskirche nachfragen.",
       "finder": null,
       "geodata": null,
       "ortsteile": {
         "Oberdorf NW": "nw-stans",
-        "Büren NW": "nw-bueren"
+        "Büren NW": "nw-bueren",
+        "Oberdorfer Gebiet mit PLZ 6370 (Oberdorf NW, Stans)": "nw-stans"
       }
     },
     {
@@ -368,9 +369,13 @@
   ],
   "unmapped_bfs": [],
   "issues": [
+    "Strassengenaue Grenzen der Kapellgemeinden Büren, Kehrsiten, Oberrickenbach und der Kirchgemeinde Obbürgen sind nicht publiziert; die Ortsteil-Zuordnung folgt den Ortsnamen bzw. der PLZ 6363. Offen: Niederrickenbach (6383, Gemeinden Oberdorf und Wolfenschiessen), Grafenort (6388, Wolfenschiessen) und die Oberdorfer Häuser mit PLZ 6374 Buochs. Der Landratsbeschluss über die Gliederung der Kirche (Art. 6 Gemeindegesetz) wurde in der Gesetzessammlung nicht gefunden.",
+    "Nur Beckenried, Emmetten, Stansstad und Obbürgen publizieren eine Adresse ausdrücklich für die Kirchgemeinde/den Kirchenrat. Bei den übrigen ist die Pfarramts- bzw. Seelsorgeraum-Adresse erfasst (Dallenwil und Oberrickenbach: Sekretariat in Wolfenschiessen). Kehrsiten hat nur die Privatadresse der Sekretärin, deshalb ohne Strasse."
+  ],
+  "grundlage": [
     "Die 14 Kirch- und Kapellgemeinden stammen aus der Fussnote zu Art. 2 der Landeskirchen-Verfassung (Stand 2001, Liste gemäss Art. 6 Gemeindegesetz, heute in einem Landratsbeschluss). Die Aufteilung je politischer Gemeinde ist durch die Steuerfusstabelle 2026 der Steuerverwaltung NW belegt (Ennetbürgen/Obbürgen, Oberdorf/Büren, Stansstad/Kehrsiten/Obbürgen, Wolfenschiessen/Oberrickenbach).",
-    "Strassengenaue Grenzen der Kapellgemeinden Büren, Kehrsiten, Oberrickenbach und der Kirchgemeinde Obbürgen sind nicht publiziert; die Ortsteil-Zuordnung folgt den Ortsnamen bzw. der PLZ 6363 (laut Kirchgemeinde Obbürgen). Unklar sind Niederrickenbach (Oberdorf/Wolfenschiessen) und Grafenort (Wolfenschiessen).",
-    "Nur Beckenried, Emmetten, Stansstad und Obbürgen publizieren eine Adresse ausdrücklich für die Kirchgemeinde/den Kirchenrat. Bei den übrigen ist die Pfarramts- bzw. Seelsorgeraum-Adresse erfasst (Dallenwil und Oberrickenbach: Sekretariat in Wolfenschiessen). Kehrsiten hat nur die Privatadresse der Sekretärin, deshalb ohne Strasse.",
-    "Die Verfassung der Landeskirche hat den Stand 14.03.2001; jüngere Fusionen von Kirch- oder Kapellgemeinden wären dort nicht erfasst, die Steuerfusstabelle 2026 zeigt aber dieselben Körperschaften."
+    "Die Verfassung der Landeskirche hat den Stand 14.03.2001; jüngere Fusionen von Kirch- oder Kapellgemeinden wären dort nicht erfasst, die Steuerfusstabelle 2026 zeigt aber dieselben Körperschaften.",
+    "Austritt: Art. 38 KV NW: Übertritt und Austritt erfolgen durch schriftliche Erklärung an den Präsidenten der Kirchgemeinde oder Kapellgemeinde.",
+    "Oberdorf: Art. 103 KV NW und Art. 229 Gemeindegesetz NW nennen den «zur römisch-katholischen Kirchgemeinde Stans gehörenden Teil der Gemeinde Oberdorf»; das Gebiet mit PLZ 6370 (Oberdorf NW und Stans) ist deshalb Stans zugeordnet, Büren hat PLZ 6382."
   ]
 }

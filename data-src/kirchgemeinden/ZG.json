@@ -4,7 +4,11 @@
     "name": "Vereinigung der Katholischen Kirchgemeinden des Kantons Zug (VKKZ)",
     "short": "Katholische Kirche Zug",
     "website": "https://www.zgkath.ch/",
-    "postal": ["Vereinigung der Katholischen Kirchgemeinden des Kantons Zug VKKZ", "Landhausstrasse 15", "6340 Baar"]
+    "postal": [
+      "Vereinigung der Katholischen Kirchgemeinden des Kantons Zug VKKZ",
+      "Landhausstrasse 15",
+      "6340 Baar"
+    ]
   },
   "austritt": {
     "recipient": "Kirchenrat der Wohnsitz-Kirchgemeinde",
@@ -32,18 +36,26 @@
     "https://kirchgemeinde-steinhausen.ch/kirchenaustritt/",
     "https://kath-unteraegeri.ch/kirchgemeinde/",
     "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-walchwil",
-    "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-zug"
+    "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-zug",
+    "https://www.kg-risch.ch/kontakt/"
   ],
   "kirchgemeinden": [
     {
       "id": "zg-baar",
       "name": "Katholische Kirchgemeinde Baar",
-      "postal": ["Katholische Kirchgemeinde Baar", "Kirchenrat", "Kirchmattweg 3", "6340 Baar"],
+      "postal": [
+        "Katholische Kirchgemeinde Baar",
+        "Kirchenrat",
+        "Kirchmattweg 3",
+        "6340 Baar"
+      ],
       "address_type": "kirchenrat",
       "email": "kirchenrat@kath-baar.ch",
       "website": "https://kirchgemeinde-baar.ch/",
       "source": "https://kirchgemeinde-baar.ch/kontakt/",
-      "bfs": [1701],
+      "bfs": [
+        1701
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Umfasst die Pfarreien St. Martin Baar und St. Wendelin Allenwinden; Verwaltung am Kirchmattweg 3."
@@ -51,11 +63,19 @@
     {
       "id": "zg-cham-huenenberg",
       "name": "Katholische Kirchgemeinde Cham-Hünenberg",
-      "postal": ["Katholische Kirchgemeinde Cham-Hünenberg", "Geschäftsstelle", "Bahnhofstrasse 3", "6330 Cham"],
+      "postal": [
+        "Katholische Kirchgemeinde Cham-Hünenberg",
+        "Geschäftsstelle",
+        "Bahnhofstrasse 3",
+        "6330 Cham"
+      ],
       "address_type": "verwaltung",
       "website": "https://kkg-cham-huenenberg.ch/",
       "source": "https://kkg-cham-huenenberg.ch/geschaeftsstelle/",
-      "bfs": [1702, 1703],
+      "bfs": [
+        1702,
+        1703
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Umfasst laut Kirchgemeinde die Pfarreien der politischen Gemeinden Cham und Hünenberg."
@@ -63,23 +83,37 @@
     {
       "id": "zg-menzingen",
       "name": "Katholische Kirchgemeinde Menzingen",
-      "postal": ["Katholische Kirchgemeinde Menzingen", "Kirchenrat", "Holzhäusernstrasse 1", "6313 Menzingen"],
+      "postal": [
+        "Katholische Kirchgemeinde Menzingen",
+        "Kirchenrat",
+        "Holzhäusernstrasse 1",
+        "6313 Menzingen"
+      ],
       "address_type": "kirchenrat",
       "website": "https://pfarrei-menzingen.ch/kirchgemeinde-wir-uebernehmen-verantwortung/",
       "source": "https://pfarrei-menzingen.ch/kirchgemeinde-wir-uebernehmen-verantwortung/",
-      "bfs": [1704],
+      "bfs": [
+        1704
+      ],
       "partial_bfs": [],
       "confidence": "high"
     },
     {
       "id": "zg-neuheim",
       "name": "Katholische Kirchgemeinde Neuheim",
-      "postal": ["Katholische Kirchgemeinde Neuheim", "Kirchenrat", "Dorfplatz 13", "6345 Neuheim"],
+      "postal": [
+        "Katholische Kirchgemeinde Neuheim",
+        "Kirchenrat",
+        "Dorfplatz 13",
+        "6345 Neuheim"
+      ],
       "address_type": "kirchenrat",
       "email": "kirchenrat@kath-neuheim.ch",
       "website": "https://pfarrei-neuheim.ch/kontakt/",
       "source": "https://pfarrei-neuheim.ch/kontakt/",
-      "bfs": [1705],
+      "bfs": [
+        1705
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Kirchgemeinde und Pfarrei haben dieselbe Adresse (Dorfplatz 13)."
@@ -87,11 +121,18 @@
     {
       "id": "zg-oberaegeri",
       "name": "Katholische Kirchgemeinde Oberägeri",
-      "postal": ["Katholische Kirchgemeinde Oberägeri", "Kirchenrat", "Bachweg 13", "6315 Oberägeri"],
+      "postal": [
+        "Katholische Kirchgemeinde Oberägeri",
+        "Kirchenrat",
+        "Bachweg 13",
+        "6315 Oberägeri"
+      ],
       "address_type": "kirchenrat",
       "website": "https://www.pfarrei-oberaegeri.ch/kirchgemeinde",
       "source": "https://www.pfarrei-oberaegeri.ch/kirchgemeinde",
-      "bfs": [1706],
+      "bfs": [
+        1706
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Von der Kirchgemeinde publizierte Adresse; identisch mit dem Pfarramt (Bachweg 13)."
@@ -99,36 +140,57 @@
     {
       "id": "zg-risch",
       "name": "Katholische Kirchgemeinde Risch",
-      "postal": ["Katholische Kirchenverwaltung Risch", "Postfach 422", "6343 Risch-Rotkreuz"],
+      "postal": [
+        "Katholische Kirchgemeinde Risch",
+        "Zentrum Dorfmatt",
+        "Postfach 422",
+        "6343 Rotkreuz"
+      ],
       "address_type": "verwaltung",
-      "website": "https://pastoralraum-zugersee.ch/kirchenrat-risch-rotkreuz/",
-      "source": "https://pastoralraum-zugersee.ch/kirchenrat-risch-rotkreuz/",
-      "bfs": [1707],
+      "website": "https://www.kg-risch.ch/",
+      "source": "https://www.kg-risch.ch/kontakt/",
+      "bfs": [
+        1707
+      ],
       "partial_bfs": [],
-      "confidence": "medium",
-      "note": "Umfasst die Pfarreien Risch und Rotkreuz. Die eigene Website kg-risch.ch leitet am 28.10.2026 auf google.ch um; Adresse daher von der Kirchenrat-Seite des Pastoralraums Zugersee Südwest."
+      "confidence": "high",
+      "note": "Umfasst die Pfarreien Risch und Rotkreuz. | Nachrecherche 28.10.2026: kg-risch.ch wieder erreichbar; Kontakt- und Impressumsseite nennen «Kath. Kirchgemeinde Risch, Zentrum Dorfmatt, Postfach 422, 6343 Rotkreuz»; UID CHE-108.929.354 mit Postfach 422, 6343 Rotkreuz (zustellbar).",
+      "email": "info@kg-risch.ch"
     },
     {
       "id": "zg-steinhausen",
       "name": "Katholische Kirchgemeinde Steinhausen",
-      "postal": ["Katholische Kirchgemeinde Steinhausen", "Kanzlei", "Zugerstrasse 6", "6312 Steinhausen"],
+      "postal": [
+        "Katholische Kirchgemeinde Steinhausen",
+        "Kanzlei",
+        "Zugerstrasse 6",
+        "6312 Steinhausen"
+      ],
       "address_type": "verwaltung",
       "email": "kanzlei@kirchgemeinde-steinhausen.ch",
       "website": "https://kirchgemeinde-steinhausen.ch/",
       "source": "https://kirchgemeinde-steinhausen.ch/kontakt/",
-      "bfs": [1708],
+      "bfs": [
+        1708
+      ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Die Austrittsseite der Kirchgemeinde nennt als Empfänger das Katholische Pfarramt, Dorfplatz 1, 6312 Steinhausen; hier ist bewusst die Adresse der Kirchgemeinde-Kanzlei erfasst."
+      "note": "Die Austrittsseite der Kirchgemeinde nennt als Empfänger das Katholische Pfarramt, Dorfplatz 1, 6312 Steinhausen; hier ist bewusst die Adresse der Kirchgemeinde-Kanzlei erfasst. | Nachrecherche 28.10.2026: Austrittsseite unverändert: «Bitte richten Sie Ihr Austrittsschreiben an: Katholisches Pfarramt, Dorfplatz 1, 6312 Steinhausen»; Kontaktseite der Kirchgemeinde: Zugerstrasse 6 (Kanzlei). UID-Eintrag der Kirchgemeinde (CHE-108.932.511) mit c/o einer Privatperson, Zugerstrasse 8, Zustellbarkeit nicht bestätigt."
     },
     {
       "id": "zg-unteraegeri",
       "name": "Katholische Kirchgemeinde Unterägeri",
-      "postal": ["Katholische Kirchgemeinde Unterägeri", "Postfach", "6314 Unterägeri"],
+      "postal": [
+        "Katholische Kirchgemeinde Unterägeri",
+        "Postfach",
+        "6314 Unterägeri"
+      ],
       "address_type": "verwaltung",
       "website": "https://kath-unteraegeri.ch/kirchgemeinde/",
       "source": "https://kath-unteraegeri.ch/kirchgemeinde/",
-      "bfs": [1709],
+      "bfs": [
+        1709
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Postfachadresse ohne Nummer, so von der Kirchgemeinde publiziert."
@@ -136,11 +198,18 @@
     {
       "id": "zg-walchwil",
       "name": "Katholische Kirchgemeinde Walchwil",
-      "postal": ["Katholische Kirchgemeinde Walchwil", "Kirchenrat", "Kirchgasse 8", "6318 Walchwil"],
+      "postal": [
+        "Katholische Kirchgemeinde Walchwil",
+        "Kirchenrat",
+        "Kirchgasse 8",
+        "6318 Walchwil"
+      ],
       "address_type": "kirchenrat",
       "website": "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-walchwil",
       "source": "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-walchwil",
-      "bfs": [1710],
+      "bfs": [
+        1710
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Von der Kirchgemeinde publizierte Adresse; identisch mit dem Pfarramt St. Johannes der Täufer."
@@ -148,12 +217,19 @@
     {
       "id": "zg-zug",
       "name": "Katholische Kirchgemeinde Zug",
-      "postal": ["Katholische Kirchgemeinde Zug", "Kirchenrat", "St.-Oswalds-Gasse 5", "6300 Zug"],
+      "postal": [
+        "Katholische Kirchgemeinde Zug",
+        "Kirchenrat",
+        "St.-Oswalds-Gasse 5",
+        "6300 Zug"
+      ],
       "address_type": "kirchenrat",
       "email": "kirchenrat@kath-zug.ch",
       "website": "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-zug",
       "source": "https://katholisch-zug-walchwil.ch/meine-kirche/kirchgemeinde-zug",
-      "bfs": [1711],
+      "bfs": [
+        1711
+      ],
       "partial_bfs": [],
       "confidence": "high",
       "note": "Umfasst die Stadtpfarreien St. Michael, St. Johannes der Täufer, Gut Hirt und Bruder Klaus Oberwil."
@@ -162,8 +238,9 @@
   "split": [],
   "unmapped_bfs": [],
   "issues": [
-    "Die Gebietszuordnung beruht auf § 127 Gemeindegesetz ZG (BGS 171.1), das die zehn Kirchgemeinden nur namentlich aufzählt. Dass Cham-Hünenberg Cham und Hünenberg umfasst und Steinhausen die ganze politische Gemeinde, sagen die Kirchgemeinden selbst; bei den übrigen folgt es aus dem gleichen Namen.",
-    "Risch: kg-risch.ch leitet auf google.ch um. Die Adresse stammt von der Pastoralraum-Seite und sollte erneut geprüft werden, sobald die Website wieder erreichbar ist.",
-    "Steinhausen: Die Kirchgemeinde bittet, Austrittsschreiben ans Katholische Pfarramt (Dorfplatz 1) zu senden. Erfasst ist die Kanzlei der Kirchgemeinde (Zugerstrasse 6); klären, ob beide Adressen angenommen werden."
+    "Steinhausen: Die Kirchgemeinde bittet, Austrittsschreiben ans Katholische Pfarramt (Dorfplatz 1) zu senden; erfasst ist die Kanzlei der Kirchgemeinde (Zugerstrasse 6). Entscheid nötig: Pfarramt-Adresse übernehmen (Wunsch der Kirchgemeinde) oder Kanzlei behalten (Pfarrei nicht einbeziehen); allenfalls bei der Kanzlei bestätigen lassen, dass sie Austritte ebenfalls annimmt."
+  ],
+  "grundlage": [
+    "Die Gebietszuordnung beruht auf § 127 Gemeindegesetz ZG (BGS 171.1), das die zehn Kirchgemeinden nur namentlich aufzählt. Dass Cham-Hünenberg Cham und Hünenberg umfasst und Steinhausen die ganze politische Gemeinde, sagen die Kirchgemeinden selbst; bei den übrigen folgt es aus dem gleichen Namen."
   ]
 }

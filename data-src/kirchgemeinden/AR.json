@@ -32,7 +32,8 @@
     "https://se-ueb.ch/pfarreien/heiden/",
     "https://se-ueb.ch/pfarreien/walzenhausen/",
     "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
-    "https://public.madd.bfs.admin.ch/ar.zip"
+    "https://public.madd.bfs.admin.ch/ar.zip",
+    "https://www.kath-buechberg.ch/uploads/69f46538a73c20d3e0987144/-/Amtsbericht%202025.pdf"
   ],
   "kirchgemeinden": [
     {
@@ -85,7 +86,7 @@
         "Katholische Kirchgemeinde Rotbachtal",
         "Präsidium Kirchenverwaltungsrat",
         "Stofelweid 1b",
-        "9053 Teufen"
+        "9053 Teufen AR"
       ],
       "address_type": "sekretariat",
       "email": "sekretariat@kath-teufen.ch",
@@ -100,7 +101,7 @@
         3005
       ],
       "confidence": "high",
-      "note": "KG Rotbachtal (Teufen, Bühler, nördlicher Teil von Stein, Gais), KVR seit 29.11.2025 konstituiert; Ordnung Art. 20 Abs. 1 nennt noch «Teufen-Bühler-Stein Nord» und «Gais» getrennt. Kontaktadresse des Präsidiums laut KG-Website."
+      "note": "KG Rotbachtal (Teufen, Bühler, nördlicher Teil von Stein, Gais), KVR seit 29.11.2025 konstituiert; Ordnung Art. 20 Abs. 1 nennt noch «Teufen-Bühler-Stein Nord» und «Gais» getrennt. Kontaktadresse des Präsidiums laut KG-Website. | Nachrecherche 28.10.2026: Ortsname amtlich «Teufen AR» (Ortschaftenverzeichnis)."
     },
     {
       "id": "ar-speicher-trogen-wald",
@@ -172,17 +173,19 @@
       "name": "Katholische Kirchgemeinde Wienacht-Tobel",
       "postal": [
         "Katholische Kirchgemeinde Wienacht-Tobel",
-        "9405 Wienacht-Tobel"
+        "c/o Katholisches Pfarramt Buechen-Staad",
+        "Wartbüchel 2a",
+        "9422 Staad SG"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "website": "https://www.kath-buechberg.ch/",
-      "source": "https://www.kath-kirche-ar.ch/unsere-kirchgemeinden",
+      "source": "https://www.kath-buechberg.ch/uploads/69f46538a73c20d3e0987144/-/Amtsbericht%202025.pdf",
       "bfs": [],
       "partial_bfs": [
         3033
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen (nur Privatadresse des Präsidiums publiziert). Seelsorgeeinheit Buechberg."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen (nur Privatadresse des Präsidiums publiziert). Seelsorgeeinheit Buechberg. | Nachrecherche 28.10.2026: Amtsbericht 2025 der Seelsorgeeinheit Buechberg/KG Thal: Die Pfarrei Buechen-Staad zählt «plus 95 in Wienacht» und führt das Kath. Pfarramt Buechen-Staad und Altenrhein unter Wartbüchel 2a, Staad (GWR: 9422 Staad SG). Eigene Adresse der KG Wienacht-Tobel weiterhin nicht publiziert; Postadresse beim Pfarramt bestätigen lassen."
     },
     {
       "id": "sg-st-peterzell",
@@ -212,7 +215,7 @@
         "Römisch-katholische Kirchgemeinde Haslen",
         "Kirchenrat",
         "Dorfstrasse 53",
-        "9054 Haslen"
+        "9054 Haslen AI"
       ],
       "address_type": "pfarramt",
       "website": "https://kath-haslen.ch/",
@@ -222,7 +225,7 @@
       "partial_bfs": [
         3005
       ],
-      "note": "Innerrhoder KG; umfasst vertraglich die Katholiken im südlichen Teil von Stein (Ordnung Art. 20 Abs. 4; Konkordat bGS 162.1); es gilt Innerrhoder Recht."
+      "note": "Innerrhoder KG; umfasst vertraglich die Katholiken im südlichen Teil von Stein (Ordnung Art. 20 Abs. 4; Konkordat bGS 162.1); es gilt Innerrhoder Recht. | Nachrecherche 28.10.2026: Ortsname amtlich «Haslen AI» (Ortschaftenverzeichnis)."
     },
     {
       "id": "sg-thal",
@@ -287,10 +290,12 @@
   "split": [
     {
       "bfs": 3005,
-      "how": "Nördlicher Teil von Stein: KG Rotbachtal. Südlicher Teil von Stein: KG Haslen (AI) (Ordnung Art. 20). Die Grenze ist nicht publiziert und in keinem Geodatensatz verfügbar – beim Pfarramt Teufen (KG Rotbachtal) nachfragen.",
+      "how": "Nördlicher Teil von Stein: KG Rotbachtal; dazu gehört der Kubel an der Nordspitze (PLZ 9014 St. Gallen). Südlicher Teil von Stein: KG Haslen (Innerrhoden), dort gilt Innerrhoder Recht. Die Grenze im Dorf Stein ist nicht veröffentlicht – beim Pfarramt Teufen (KG Rotbachtal) oder bei der Pfarrei Haslen-Stein nachfragen.",
       "finder": null,
       "geodata": null,
-      "ortsteile": {}
+      "ortsteile": {
+        "Kubel (9014 St. Gallen)": "ar-rotbachtal"
+      }
     },
     {
       "bfs": 3032,
@@ -305,7 +310,7 @@
     },
     {
       "bfs": 3033,
-      "how": "Dorf Wienacht und Tobel (Wienacht, Unterwienacht, Kapf, Unterer Kapf, Tolen, Tan, Grund): KG Wienacht-Tobel. Östlicher Teil der Gemeinde (Haufen, Brenden, Oberbrenden, Hof, Hellbüchel, Dorfhalde, Engelgass, Gstell, Fuchsacker, Gitzbüchel, Blatten): KG Thal (SG) (Ordnung Art. 20). Für Häuser an der Strasse «Tobel» (9405) widersprechen sich die Ordnung (Wienacht-Tobel) und der Geodatensatz SG00090 (Thal) – nachfragen.",
+      "how": "Dorf Wienacht und Tobel (PLZ 9405 Wienacht-Tobel: Wienacht, Unterwienacht, Kapf, Unterer Kapf, Tolen, Tan, Grund): KG Wienacht-Tobel. Östlicher Teil der Gemeinde (PLZ 9426 Lutzenberg und 9427 Wolfhalden: Haufen, Brenden, Oberbrenden, Hof, Hellbüchel, Dorfhalde, Engelgass, Gstell, Fuchsacker, Gitzbüchel, Blatten): KG Thal (St. Gallen), dort gilt st. gallisches Recht. Für Häuser an den Strassen «Tobel» und «Seebeli» sowie im östlichen Teil von «Grund» (9405) bei der KG Wienacht-Tobel nachfragen.",
       "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0&E=2752000&N=1254000&zoom=6",
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
@@ -325,22 +330,26 @@
         "Engelgass": "sg-thal",
         "Gstell": "sg-thal",
         "Fuchsacker": "sg-thal",
-        "Gitzbüchel": "sg-thal"
+        "Gitzbüchel": "sg-thal",
+        "9405 Wienacht-Tobel": "ar-wienacht-tobel",
+        "9426 Lutzenberg": "sg-thal",
+        "9427 Wolfhalden, Teil der Gemeinde Lutzenberg": "sg-thal"
       }
     },
     {
       "bfs": 3035,
-      "how": "Gemeinde Reute (Reute AR, Schachen b. Reute): KG Oberegg (AI). Für den Weiler Mohren nennt die Ordnung (Art. 20 Abs. 4) sowohl Oberegg als auch Marbach (SG); der Geodatensatz SG00090 rechnet Mohren nicht zu Marbach – bei der KG Oberegg nachfragen.",
+      "how": "Gemeinde Reute (Reute AR, Schachen b. Reute, Bruggtobel mit PLZ 9437 Marbach): KG Oberegg (Innerrhoden), dort gilt Innerrhoder Recht. Für den Weiler Mohren nennt die Ordnung sowohl Oberegg als auch Marbach (SG) – bei der KG Oberegg nachfragen.",
       "finder": null,
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
         "Reute AR (9411), ohne Mohren": "ai-oberegg",
-        "Schachen b. Reute (9411)": "ai-oberegg"
+        "Schachen b. Reute (9411)": "ai-oberegg",
+        "Bruggtobel (9437 Marbach SG)": "ai-oberegg"
       }
     },
     {
       "bfs": 3038,
-      "how": "Südlicher Teil mit Dorf (u. a. Hinterergeten, Luchten, Alte Landstrasse, Schönenbühl, Hinteregg, Lippenrüti, Oberdorf, Friedberg, Tanne, Wüschbach, Kronenstrasse): KG Heiden-Rehetobel. Nördlicher Teil mit den Weilern Boden, Hasle, Hinterlochen, Lüchli, Bühel, Tobelmühle, Aussertobel (laut Geodatensatz SG00090 u. a. auch Mühltobel, Hinterbühle, Vorder-/Hinterhasli, Augsti, Hueb, Zelg, Höhe, Plätzli, Lehn, Högli): KG Thal (SG). Bleichestrasse und Unterwolfhalden sind geteilt – im Zweifel im Geoportal prüfen.",
+      "how": "Südlicher Teil mit Dorf (u. a. Hinterergeten, Luchten, Alte Landstrasse, Schönenbühl, Hinteregg, Lippenrüti, Oberdorf, Friedberg, Tanne, Wüschbach, Kronenstrasse): KG Heiden-Rehetobel. Nördlicher Teil mit den Weilern Boden, Hasle, Hinterlochen, Lüchli, Bühel, Tobelmühle, Aussertobel (laut Geodatensatz SG00090 u. a. auch Mühltobel, Hinterbühle, Vorder-/Hinterhasli, Augsti, Hueb, Zelg, Höhe, Plätzli, Lehn, Högli): KG Thal (SG). Bleichestrasse und Unterwolfhalden sind geteilt – im Zweifel im Geoportal prüfen. Adressen mit PLZ 9410 Heiden: KG Heiden-Rehetobel; Adressen mit PLZ 9425 Thal und 9428 Walzenhausen: KG Thal (St. Gallen).",
       "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0&E=2752000&N=1254000&zoom=6",
       "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
       "ortsteile": {
@@ -359,18 +368,24 @@
         "Tobelmühle": "sg-thal",
         "Lüchli": "sg-thal",
         "Bühel": "sg-thal",
-        "Boden": "sg-thal"
+        "Boden": "sg-thal",
+        "9410 Heiden, Teil der Gemeinde Wolfhalden": "ar-heiden-rehetobel",
+        "9425 Thal, Teil der Gemeinde Wolfhalden": "sg-thal",
+        "9428 Walzenhausen, Teil der Gemeinde Wolfhalden": "sg-thal"
       }
     }
   ],
   "unmapped_bfs": [],
+  "grundlage": [
+    "Beglaubigung: Art. 3 Abs. 2 der Ordnung des Verbands (Teilrevision in Kraft seit 1.1.2026) verlangt eine «schriftliche und amtlich beglaubigte Austrittserklärung».",
+    "Ordnung Art. 20: Abs. 1 listet 8 KG (Teufen-Bühler-Stein Nord und Gais getrennt), Abs. 2 nur 7 (Rotbachtal, seit 29.11.2025 konstituiert). Rehetobel fehlt in Abs. 2 lit. e; die Pfarreiseite se-ueb.ch/pfarreien/heiden/ nennt «Heiden, Rehetobel, Grub AR und den südlichen Teil von Wolfhalden» – Zuordnung zu Heiden-Rehetobel damit belegt.",
+    "Zuordnungen in Wolfhalden, Lutzenberg, Heiden, Reute und Schönengrund aus Ordnung Art. 20 Abs. 4 und dem Geodatensatz SG00090 (enthält angrenzende Gebiete) mit GWR-Gebäudeeingängen (Stand 28.10.2026); Konkordat AR–AI (bGS 162.1) erlaubt die Vollmitgliedschaft in Innerrhoder KG per Vertrag (Verträge nicht publiziert).",
+    "Kein KG publiziert eine Postadresse des KVR-Präsidiums ausser über Privatadressen; verwendet sind Pfarrei-/Sekretariatsadressen (medium). Verband ohne Geschäftsstelle (body.postal leer)."
+  ],
   "issues": [
-    "Beglaubigung bestätigt: Art. 3 Abs. 2 der Ordnung des Verbands (Teilrevision in Kraft seit 1.1.2026) verlangt eine «schriftliche und amtlich beglaubigte Austrittserklärung».",
-    "Ordnung Art. 20 ist intern widersprüchlich: Abs. 1 listet 8 KG (Teufen-Bühler-Stein Nord und Gais getrennt), Abs. 2 nur 7 (Rotbachtal). Rehetobel fehlt in Abs. 2 lit. e; die Zuordnung zu Heiden-Rehetobel stützt sich auf den Namen der KG und se-ueb.ch.",
-    "Weiler Mohren (Reute) wird in Art. 20 Abs. 4 sowohl Oberegg (AI) als auch Marbach (SG) zugewiesen; der Geodatensatz SG00090 rechnet ihn nicht zu Marbach.",
-    "Lutzenberg: Für die Strasse «Tobel» (9405) widersprechen sich Ordnung (KG Wienacht-Tobel) und Geodatensatz SG00090 (KG Thal).",
-    "Stein AR: Grenze zwischen Stein Nord (Rotbachtal) und Stein Süd (Haslen AI) nicht publiziert.",
-    "Kein KG publiziert eine Postadresse des KVR-Präsidiums ausser über Privatadressen; verwendet sind Pfarrei-/Sekretariatsadressen (medium). Wienacht-Tobel: nur Privatadresse → ohne Strasse (low). Verband ohne Geschäftsstelle (body.postal leer).",
-    "Zuordnungen in Wolfhalden, Lutzenberg, Heiden und Schönengrund aus Ordnung Art. 20 und dem Geodatensatz SG00090 (enthält «angrenzende Gebiete») mit GWR-Gebäudeeingängen abgeleitet."
+    "Weiler Mohren (Reute) wird in Art. 20 Abs. 4 sowohl Oberegg (AI) als auch Marbach (SG) zugewiesen; der Geodatensatz SG00090 rechnet ihn nicht zu Marbach (umgesetzt: Oberegg). Fehlt: Auskunft KG Oberegg oder Marbach.",
+    "Lutzenberg: Für die Strassen «Tobel», «Seebeli» und Teile von «Grund» (9405) widersprechen sich Ordnung (KG Wienacht-Tobel) und Geodatensatz SG00090 (KG Thal).",
+    "Stein AR: Grenze zwischen Stein Nord (Rotbachtal) und Stein Süd (Haslen AI) nicht publiziert; 9063 Stein AR bleibt zur Auswahl. Fehlt: Vertrag Verband AR–KG Haslen oder Strassenliste der Pfarrei Haslen-Stein.",
+    "Wienacht-Tobel: keine eigene Adresse; verwendet Pfarramt Buechen-Staad (betreut Wienacht laut Amtsbericht 2025), bestätigen lassen."
   ]
 }

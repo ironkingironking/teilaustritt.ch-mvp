@@ -30,7 +30,8 @@
     "https://sz.kath.ch/kirchgemeinden/",
     "https://sz.kath.ch/pfarreien/",
     "https://www.sz.ch/public/upload/assets/90947/Steuerfusstabelle_2026.pdf?fp=4",
-    "https://www.sz.ch/public/upload/assets/91583/Schwyzer_Steuerbuch_90_11_Steuerfusstabelle_2026.pdf"
+    "https://www.sz.ch/public/upload/assets/91583/Schwyzer_Steuerbuch_90_11_Steuerfusstabelle_2026.pdf",
+    "https://www.uid.admin.ch/"
   ],
   "kirchgemeinden": [
     {
@@ -295,7 +296,7 @@
         "Römisch-katholische Kirchgemeinde Lachen",
         "Kirchenrat",
         "Kirchweg 1",
-        "8853 Lachen"
+        "8853 Lachen SZ"
       ],
       "address_type": "pfarramt",
       "website": "https://www.kirchelachen.ch/kirchenrat",
@@ -305,7 +306,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Kanzlei der Kirchgemeinde und Pfarreisekretariat sind unter dem Kath. Pfarramt Heilig Kreuz, Kirchweg 1, aufgeführt."
+      "note": "Kanzlei der Kirchgemeinde und Pfarreisekretariat sind unter dem Kath. Pfarramt Heilig Kreuz, Kirchweg 1, aufgeführt. | Nachrecherche 28.10.2026: PLZ-Ortsname auf den amtlichen Namen gemäss Ortschaftenverzeichnis angepasst."
     },
     {
       "id": "sz-lauerz",
@@ -332,20 +333,18 @@
       "name": "Römisch-katholische Kirchgemeinde Merlischachen",
       "postal": [
         "Römisch-katholische Kirchgemeinde Merlischachen",
-        "Kirchenrat",
-        "c/o Kath. Pfarramt Küssnacht",
-        "Pfarrhausplatz 1",
-        "6403 Küssnacht am Rigi"
+        "Luzernerstrasse 199",
+        "6402 Merlischachen"
       ],
-      "address_type": "pfarramt",
+      "address_type": "uid",
       "website": "https://pfarrei-kuessnacht.ch/ueber-uns/kirchgemeinden/",
-      "source": "https://pfarrei-kuessnacht.ch/ueber-uns/kirchgemeinden/",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108933918",
       "bfs": [],
       "partial_bfs": [
         1331
       ],
       "confidence": "low",
-      "note": "Keine eigene Adresse; Website und Kantonalkirche nennen nur das Pfarramt Küssnacht. Postadresse auf der Website prüfen."
+      "note": "Keine eigene Adresse; Website und Kantonalkirche nennen nur das Pfarramt Küssnacht. | Nachrecherche 28.10.2026: UID CHE-108.933.918 «Röm.-katholische Kirchgemeinde Merlischachen», Sitz Luzernerstrasse 199, 6402 Merlischachen, Zustellbarkeit laut UID nicht bestätigt (Prüfung 29.09.2026). Vorher erfasst: c/o Kath. Pfarramt Küssnacht, Pfarrhausplatz 1, 6403 Küssnacht am Rigi."
     },
     {
       "id": "sz-morschach-stoos",
@@ -392,18 +391,19 @@
       "postal": [
         "Römisch-katholische Kirchgemeinde Nuolen",
         "Kirchenrat",
+        "c/o Katholisches Pfarramt Nuolen",
         "Seestrasse 71",
-        "8855 Nuolen"
+        "8855 Wangen SZ"
       ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-nuolen.ch/",
-      "source": "https://www.pfarrei-wangensz.ch/kirche/ueber-uns/kirchenrat.html/326",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE250496348",
       "bfs": [],
       "partial_bfs": [
         1349
       ],
-      "confidence": "low",
-      "note": "Adresse der Katholischen Kirche bzw. des Pfarramts Nuolen (Kantonalkirche und Website Wangen). Die eigene Website nennt nur das gemeinsame Pfarreisekretariat Nuolen/Wangen, Dorfplatz 8, 8855 Wangen. Postadresse auf der Website prüfen."
+      "confidence": "medium",
+      "note": "Adresse der Katholischen Kirche bzw. des Pfarramts Nuolen (Kantonalkirche und Website Wangen). Die eigene Website nennt nur das gemeinsame Pfarreisekretariat Nuolen/Wangen, Dorfplatz 8, 8855 Wangen. | Nachrecherche 28.10.2026: UID CHE-250.496.348 «Katholisches Pfarramt Nuolen», Seestrasse 71, 8855 Wangen SZ (zustellbar, Prüfung 30.09.2026); amtlicher Ortsname damit 8855 Wangen SZ statt «8855 Nuolen». Kein UID-Eintrag der Kirchgemeinde selbst gefunden."
     },
     {
       "id": "sz-oberiberg",
@@ -643,7 +643,7 @@
         1375
       ],
       "confidence": "low",
-      "note": "Keine eigene Website gefunden; das Pfarreienverzeichnis der Kantonalkirche nennt für Studen das Pfarramt St. Josef in Unteriberg. Postadresse auf der Website prüfen."
+      "note": "Keine eigene Website gefunden; das Pfarreienverzeichnis der Kantonalkirche nennt für Studen das Pfarramt St. Josef in Unteriberg. | Nachrecherche 28.10.2026: Kein UID-Eintrag der Kirchgemeinde Studen gefunden; Adresse unverändert."
     },
     {
       "id": "sz-tuggen",
@@ -712,7 +712,7 @@
         "Kirchenrat",
         "c/o Röm. kath. Pfarramt Wangen SZ",
         "Dorfplatz 8",
-        "8855 Wangen"
+        "8855 Wangen SZ"
       ],
       "address_type": "pfarramt",
       "website": "https://www.pfarrei-wangensz.ch/",
@@ -722,7 +722,7 @@
         1349
       ],
       "confidence": "medium",
-      "note": "Kirchenrat ohne eigene Postadresse publiziert; Adresse des Pfarramts."
+      "note": "Kirchenrat ohne eigene Postadresse publiziert; Adresse des Pfarramts. | Nachrecherche 28.10.2026: PLZ-Ortsname auf den amtlichen Namen gemäss Ortschaftenverzeichnis angepasst."
     },
     {
       "id": "sz-wollerau",
@@ -823,13 +823,15 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Bestand der 36 Kirchgemeinden nach Anhang I der Verfassung der Kantonalkirche (SRSZ 160.210.1, Stand 1.2.2022) und der Kirchgemeinden-Liste auf sz.kath.ch; Zuordnung zu den Gemeinden nach der Steuerfusstabelle 2026 der Steuerverwaltung (Kombinationen Gemeinde/Kirchgemeinde). Eine amtliche Gebietsbeschreibung oder Geodaten der Kirchgemeindegrenzen wurden nicht gefunden (WFS wfs.geo.sz.ch ohne Kirchgemeinde-Ebene).",
-    "Geteilte Gemeinden (Feusisberg, Wollerau, Küssnacht, Galgenen, Schübelbach, Wangen, Unteriberg): Die Ortsteil-Zuordnung folgt den Namen der Steuerfusstabelle. Wo PLZ-Ortschaften über die Gemeindegrenze reichen (z. B. 8832 Wollerau in Feusisberg, 8853 Lachen SZ in Galgenen und Wangen, 8855 Wangen SZ in Schübelbach, 8844 Euthal in Unteriberg, 8806 Bäch und 8833 Samstagern in Wollerau), ist die Kirchgemeinde nicht belegt; vermutlich die Hauptkirchgemeinde der politischen Gemeinde.",
-    "Muotathal: Die Steuerfusstabelle kennt keine Kombination Muotathal/Morschach-Stoos; Bewohner des Stoos auf Muotathaler Gebiet gehören demnach zur Kirchgemeinde Muotathal.",
-    "Viele Kirchgemeinden publizieren keine eigene Postadresse, sondern nur das Pfarramt (address_type pfarramt) oder Privatadressen von Behördenmitgliedern. Echte Kirchgemeinde-Adressen gibt es nur für Arth-Goldau, Freienbach, Ingenbohl-Brunnen, Morschach-Stoos, Schwyz und Wägital.",
-    "Steinerberg: nur Privatadressen (auch das Pfarramt läuft laut Kantonalkirche c/o einer Privatperson), daher ohne Strasse. Merlischachen, Nuolen und Studen haben keine eigene Adresse; erfasst ist das zuständige Pfarramt, unbedingt prüfen.",
-    "Nuolen: Die publizierte Ortschaft «8855 Nuolen» ist kein amtlicher PLZ-Ortsname (amtlich 8855 Wangen SZ); so übernommen wie von Kantonalkirche und Pfarrei publiziert.",
+    "Geteilte Gemeinden (Feusisberg, Wollerau, Küssnacht, Galgenen, Schübelbach, Wangen, Unteriberg): Die Ortsteil-Zuordnung folgt den Namen der Steuerfusstabelle. Wo PLZ-Ortschaften über die Gemeindegrenze reichen (z. B. 8832 Wollerau in Feusisberg, 8853 Lachen SZ in Galgenen und Wangen, 8855 Wangen SZ in Schübelbach, 8844 Euthal in Unteriberg, 8806 Bäch und 8833 Samstagern in Wollerau), ist die Kirchgemeinde nicht belegt; 8853 Lachen SZ in Wangen bleibt deshalb ohne Vorschlag. Klärung beim jeweiligen Steueramt.",
+    "Viele Kirchgemeinden publizieren keine eigene Postadresse, sondern nur das Pfarramt oder Privatadressen von Behördenmitgliedern. Echte Kirchgemeinde-Adressen gibt es nur für Arth-Goldau, Freienbach, Ingenbohl-Brunnen, Morschach-Stoos, Schwyz und Wägital.",
+    "Steinerberg: nur Privatadressen (auch das Pfarramt läuft laut Kantonalkirche c/o einer Privatperson), daher ohne Strasse. Merlischachen: UID-Sitz ohne bestätigte Zustellbarkeit (low). Studen: nur Pfarramt St. Josef Unteriberg, kein UID-Eintrag.",
     "Wirkung des Austritts (Datum, Ende der Kultussteuerpflicht) ist in den gefundenen offiziellen Quellen des Kantons Schwyz nicht geregelt bzw. nicht publiziert; keine Beglaubigungspflicht gefunden.",
     "Die Website von Küssnacht spricht noch von «37 Kirchgemeinden» (Stand vor der Fusion Arth-Goldau 2022); Verfassung und Kantonalkirche nennen 36."
+  ],
+  "grundlage": [
+    "Bestand der 36 Kirchgemeinden nach Anhang I der Verfassung der Kantonalkirche (SRSZ 160.210.1, Stand 1.2.2022) und der Kirchgemeinden-Liste auf sz.kath.ch; Zuordnung zu den Gemeinden nach der Steuerfusstabelle 2026 der Steuerverwaltung (Kombinationen Gemeinde/Kirchgemeinde). Eine amtliche Gebietsbeschreibung oder Geodaten der Kirchgemeindegrenzen wurden nicht gefunden (WFS wfs.geo.sz.ch ohne Kirchgemeinde-Ebene).",
+    "Muotathal: Die Steuerfusstabelle kennt keine Kombination Muotathal/Morschach-Stoos; Bewohner des Stoos auf Muotathaler Gebiet gehören demnach zur Kirchgemeinde Muotathal.",
+    "Nuolen: Pfarramt Seestrasse 71 im UID-Register unter 8855 Wangen SZ (amtlicher Ortsname) eingetragen."
   ]
 }

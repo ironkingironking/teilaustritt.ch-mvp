@@ -61,7 +61,12 @@
     "https://www.medel.ch/habitar-e-viver/pleiv/",
     "https://www.pleiv-laax-falera.ch/impressum/",
     "https://www.falera.net/gemeinde/kirche/",
-    "https://gemeinde.safiental.ch/DE/gemeinde/kultur/kirchen-friedhoefe.html"
+    "https://gemeinde.safiental.ch/DE/gemeinde/kultur/kirchen-friedhoefe.html",
+    "https://www.lumnezia.ch/rm/vischnaunca/habitar/pleivs",
+    "https://www.pleivlumnezia.ch/",
+    "http://web.archive.org/web/20260410155937/https://www.kath-albula.ch/kopie-von-kirchgemeinde-albula-alvra",
+    "https://www.brusio.ch/cultura-e-tempo-libero/chiese",
+    "https://api3.geo.admin.ch/rest/services/api/MapServer/identify"
   ],
   "kirchgemeinden": [
     {
@@ -78,7 +83,7 @@
         3762
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gebiet innerhalb der Gemeinde Scuol nicht offiziell abgegrenzt (Ardez; vermutlich auch Guarda/Ftan)."
+      "note": "Postadresse auf der Website prüfen. Gebiet innerhalb der Gemeinde Scuol nicht offiziell abgegrenzt (Ardez; vermutlich auch Guarda/Ftan). | Nachrecherche 28.10.2026: UID CHE-454.221.774 «Kath. Kirchgemeinde Ardez», 7546 Ardez ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort."
     },
     {
       "id": "gr-martina",
@@ -94,7 +99,7 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Zuordnung Valsot indirekt: kath. Steuerfuss Valsot/Ramosch/Tschlin 5 % = Steuerfuss der Corporaziun Martina (Jahresbericht Landeskirche)."
+      "note": "Postadresse auf der Website prüfen. Zuordnung Valsot indirekt: kath. Steuerfuss Valsot/Ramosch/Tschlin 5 % = Steuerfuss der Corporaziun Martina (Jahresbericht Landeskirche). | Nachrecherche 28.10.2026: Weder UID-Register noch Telefonbuch nennen eine Strasse; keine institutionelle Adresse gefunden."
     },
     {
       "id": "gr-scuol-sent",
@@ -472,7 +477,7 @@
         3921
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Fraktion Maladers (Gemeinde Chur); Calfreisen, Castiel, Lüen (Gemeinde Arosa) indirekt zugeordnet (gleicher kath. Steuerfuss 17 %, Wahlkreis Schanfigg: Arosa, Maladers)."
+      "note": "Postadresse auf der Website prüfen. Fraktion Maladers (Gemeinde Chur); Calfreisen, Castiel, Lüen (Gemeinde Arosa) indirekt zugeordnet (gleicher kath. Steuerfuss 17 %, Wahlkreis Schanfigg: Arosa, Maladers). | Nachrecherche 28.10.2026: UID CHE-209.808.340 «Katholische Kirchgemeinde Maladers», 7026 Maladers ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort."
     },
     {
       "id": "gr-mastrils",
@@ -736,7 +741,8 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Website kath-albula.ch war nicht erreichbar. Schmitten und Bergün Filisur indirekt zugeordnet (keine andere KG im Gebiet, gleicher kath. Steuerfuss 15 %); Davos Wiesen gehört politisch zu Davos."
+      "note": "Website kath-albula.ch war nicht erreichbar. Schmitten und Bergün Filisur indirekt zugeordnet (keine andere KG im Gebiet, gleicher kath. Steuerfuss 15 %); Davos Wiesen gehört politisch zu Davos. | Nachrecherche 28.10.2026: Verfassung der KG Albula (Scan, kath-albula.ch, über web.archive.org, Stand 10.04.2026) Art. 1 Abs. 2: Gebiet = politische Gemeinden Bergün Filisur, Schmitten und Albula/Alvra ohne die ehemalige Gemeinde Brienz/Brinzauls. Der Entwurf einer neuen Verfassung nennt Albula/Alvra, Bergün/Filisur und Schmitten und vermerkt «Mutten?». Die Website führt die Pfarreien Alvaneu Dorf, Alvaneu Bad, Alvaschein, Bergün, Brienz, Mistail, Mon, Filisur, Schmitten, Stierva, Surava, Tiefencastel. Kontaktseite nennt Postfach 22 statt Postfach 9 (Fusszeile und Adressliste: Postfach 9); UID CHE-453.123.927 Veia Baselgia 3, 7450 Tiefencastel.",
+      "website": "https://www.kath-albula.ch"
     },
     {
       "id": "gr-tarasp-zernez",
@@ -796,7 +802,7 @@
         3837
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Arvigo» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Arvigo» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums. | Nachrecherche 28.10.2026: UID CHE-231.656.999 «Comune parrocchiale d'Arvigo», 6543 Arvigo ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "website": "https://parrocchiecalanca.ch/parrocchie/arvigo/"
     },
     {
@@ -813,7 +819,7 @@
         3837
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Landarenca» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Landarenca» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums. | Nachrecherche 28.10.2026: UID CHE-415.113.589 «Comune Parrocchiale Landarenca», 6545 Selma ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "website": "https://parrocchiecalanca.ch/parrocchie/landarenca/"
     },
     {
@@ -830,7 +836,7 @@
         3837
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Braggio» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Braggio» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums. | Nachrecherche 28.10.2026: UID CHE-405.386.708 «Comune parrocchiale di Braggio», 6544 Braggio (c/o Privatperson) ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "website": "https://parrocchiecalanca.ch/parrocchie/braggio/"
     },
     {
@@ -847,7 +853,7 @@
         3837
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Cauco» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Cauco» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums. | Nachrecherche 28.10.2026: UID CHE-206.774.957 «Comune parrocchiale di Cauco», 6546 Cauco ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "website": "https://parrocchiecalanca.ch/"
     },
     {
@@ -864,7 +870,7 @@
         3837
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Selma» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Calanca geteilt; Fraktion «Calanca/Selma» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). Liste der Landeskirche nennt nur die Privatadresse des Präsidiums. | Nachrecherche 28.10.2026: Im UID keine eigene Einheit mit Strasse gefunden; das Pfarramt der Valle Calanca (Telefonbuch: 6541 Sta. Maria in Calanca) hat keine publizierte Strasse.",
       "website": "https://parrocchiecalanca.ch/parrocchie/selma/"
     },
     {
@@ -881,7 +887,7 @@
         3808
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Rossa umfasst drei Comuni parrocchiali (Augio, Rossa, Sta. Domenica); Zuordnung nach Fraktion, Steuerfussliste zeigt für Rossa nur einen Satz.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Rossa umfasst drei Comuni parrocchiali (Augio, Rossa, Sta. Domenica); Zuordnung nach Fraktion, Steuerfussliste zeigt für Rossa nur einen Satz. | Nachrecherche 28.10.2026: UID CHE-181.720.541 «Comune Parrocchiale Cattolica di Augio», 6548 Augio ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "website": "https://parrocchiecalanca.ch/parrocchie/augio/"
     },
     {
@@ -898,7 +904,7 @@
         3808
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Rossa umfasst drei Comuni parrocchiali (Augio, Rossa, Sta. Domenica); Zuordnung nach Fraktion, Steuerfussliste zeigt für Rossa nur einen Satz.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Rossa umfasst drei Comuni parrocchiali (Augio, Rossa, Sta. Domenica); Zuordnung nach Fraktion, Steuerfussliste zeigt für Rossa nur einen Satz. | Nachrecherche 28.10.2026: UID «Comune parrocchiale di Rossa» (CHE-244.309.828) ist gelöscht und ohne Strasse; die Comune parrocchiale steht aber in Adressliste und Jahresbericht 2025/26. Keine institutionelle Adresse gefunden.",
       "website": "https://parrocchiecalanca.ch/parrocchie/rossa/"
     },
     {
@@ -915,7 +921,7 @@
         3808
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Rossa umfasst drei Comuni parrocchiali (Augio, Rossa, Sta. Domenica); Zuordnung nach Fraktion, Steuerfussliste zeigt für Rossa nur einen Satz.",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Rossa umfasst drei Comuni parrocchiali (Augio, Rossa, Sta. Domenica); Zuordnung nach Fraktion, Steuerfussliste zeigt für Rossa nur einen Satz. | Nachrecherche 28.10.2026: UID «Comune parrocchiale Sta. Domenica» (CHE-150.799.274, 6546 Cauco) ist gelöscht und ohne Strasse; die Comune parrocchiale steht aber in Adressliste und Jahresbericht 2025/26. Keine institutionelle Adresse gefunden.",
       "website": "https://parrocchiecalanca.ch/parrocchie/santa-domenica/"
     },
     {
@@ -932,7 +938,7 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen",
+      "note": "Postadresse auf der Website prüfen | Nachrecherche 28.10.2026: UID CHE-444.695.604 «Comune Parrocchiale di Buseno», 6542 Buseno ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "website": "https://parrocchiecalanca.ch/parrocchie/buseno/"
     },
     {
@@ -960,6 +966,7 @@
       "postal": [
         "Comune parrocchiale cattolico Sta. Maria in Calanca",
         "c/o M Fiduciaria SA",
+        "Via Camoghè 13",
         "6593 Cadenazzo"
       ],
       "address_type": "verwaltung",
@@ -970,7 +977,7 @@
       ],
       "partial_bfs": [],
       "confidence": "medium",
-      "note": "Postadresse c/o Treuhandbüro in Cadenazzo TI laut Adressliste der Landeskirche (ohne Strasse); in der Liste mit Namen einer Kontaktperson."
+      "note": "Postadresse c/o Treuhandbüro in Cadenazzo TI laut Adressliste der Landeskirche (ohne Strasse); in der Liste mit Namen einer Kontaktperson. | Nachrecherche 28.10.2026: Strasse der Treuhandstelle ergänzt aus dem UID-Register (M Fiduciaria SA, CHE-110.109.277, Via Camoghè 13, 6593 Cadenazzo, laut UID zustellbar; https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-110.109.277); c/o laut Adressliste der Landeskirche."
     },
     {
       "id": "gr-cama",
@@ -1020,7 +1027,7 @@
         3832
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Grono (Fusion 2017 mit Leggia und Verdabbio) geteilt; Fraktion «Leggia» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026)."
+      "note": "Postadresse auf der Website prüfen. Gemeinde Grono (Fusion 2017 mit Leggia und Verdabbio) geteilt; Fraktion «Leggia» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). | Nachrecherche 28.10.2026: UID CHE-239.720.224 «Comune Parrocchiale», 6556 Leggia ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort."
     },
     {
       "id": "gr-verdabbio",
@@ -1036,7 +1043,7 @@
         3832
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Grono (Fusion 2017 mit Leggia und Verdabbio) geteilt; Fraktion «Verdabbio» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026)."
+      "note": "Postadresse auf der Website prüfen. Gemeinde Grono (Fusion 2017 mit Leggia und Verdabbio) geteilt; Fraktion «Verdabbio» mit eigenem kath. Steuerfuss (Steuerverwaltung 2026). | Nachrecherche 28.10.2026: Weder UID-Register noch Telefonbuch nennen eine Strasse; keine institutionelle Adresse gefunden. | Nachrecherche 28.10.2026: Umfasst auch die Häuser mit PLZ 6557 Cama auf Gemeindegebiet Grono (Pian di Verdabbio): alle 24 Gebäude dieses Teils lagen 2016 in der Gemeinde Verdabbio (Gebäuderegister und Gemeindegrenzen 2016, geo.admin.ch)."
     },
     {
       "id": "gr-lostallo",
@@ -1086,24 +1093,24 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen"
+      "note": "Postadresse auf der Website prüfen | Nachrecherche 28.10.2026: UID CHE-108.928.314 «Comune Parrocchiale», 6562 Soazza ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort."
     },
     {
       "id": "gr-roveredo",
       "name": "Comune parrocchiale cattolico Roveredo",
       "postal": [
         "Comune parrocchiale di Roveredo GR",
-        "Cornaa",
+        "Cornaa 2",
         "6535 Roveredo GR"
       ],
-      "address_type": "uid",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-454.652.832",
+      "address_type": "pfarramt",
+      "source": "https://search.ch/tel/?was=parrocchia&wo=Roveredo+GR",
       "bfs": [
         3834
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Umfasst auch Laura (eine Steuerfusszeile für Roveredo). | Nachrecherche: UID «Comune Parrocchiale Cattolica» ohne Hausnummer, Zustellbarkeit nicht bestätigt; Telefonbuch: Parrocchia Cattolica, Cornaa 2. Name laut Briefkopf der Convocazione 2021 (roveredo.ch)."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Umfasst auch Laura (eine Steuerfusszeile für Roveredo). | Nachrecherche: UID «Comune Parrocchiale Cattolica» ohne Hausnummer, Zustellbarkeit nicht bestätigt; Telefonbuch: Parrocchia Cattolica, Cornaa 2. Name laut Briefkopf der Convocazione 2021 (roveredo.ch). | Nachrecherche 28.10.2026: Hausnummer ergänzt: Telefonbuch führt «Parrocchia Cattolica, Cornaa 2, 6535 Roveredo GR» (search.ch); die Adresse steht im amtlichen Gebäudeadressverzeichnis (geo.admin.ch). UID-Sitz Cornaa ohne Nummer, laut UID nicht zustellbar (Prüfung 21.10.2026)."
     },
     {
       "id": "gr-san-vittore",
@@ -1155,7 +1162,7 @@
         3561
       ],
       "confidence": "medium",
-      "note": "Postadresse auf der Website prüfen. 2019 fusioniert aus Poschiavo, Cologna, San Carlo/Aino, Angeli Custodi und Pagnoncini (Protokoll Assemblea 15.05.2025; Stiftungen je Ort bleiben). Die Liste nennt nur die Privatadresse des Präsidiums in 7745 Li Curt. | Nachrecherche: Parrocchia Cattolica San Vittore Mauro (Kontaktseite 2026); L'Amico 7/2025 nannte Via dal Cunvent 2. Comune parrocchiale 2019 fusioniert (Poschiavo, Cologna, San Carlo-Angeli Custodi, Pagnoncini)."
+      "note": "Postadresse auf der Website prüfen. 2019 fusioniert aus Poschiavo, Cologna, San Carlo/Aino, Angeli Custodi und Pagnoncini (Protokoll Assemblea 15.05.2025; Stiftungen je Ort bleiben). Die Liste nennt nur die Privatadresse des Präsidiums in 7745 Li Curt. | Nachrecherche: Parrocchia Cattolica San Vittore Mauro (Kontaktseite 2026); L'Amico 7/2025 nannte Via dal Cunvent 2. Comune parrocchiale 2019 fusioniert (Poschiavo, Cologna, San Carlo-Angeli Custodi, Pagnoncini). | Nachrecherche 28.10.2026: PLZ 7745 Li Curt umfasst laut Adressliste Prada (Prada 137), Campiglioni und S. Antonio; deshalb kein automatischer Vorschlag mehr für 7745 Li Curt und für den Poschiavo-Teil von Miralago (vorher über den Gemeindenamen Poschiavo)."
     },
     {
       "id": "gr-le-prese-sant-antonio",
@@ -1196,16 +1203,17 @@
       "name": "Comune parrocchiale cattolico Brusio",
       "postal": [
         "Comune parrocchiale cattolico Brusio",
+        "Ginetto 469C",
         "7743 Brusio"
       ],
-      "address_type": "praesidium",
-      "source": "https://www.gr.kath.ch/wp-content/uploads/2026/01/Adressliste-Kirchgemeinde_Homepage-01.01.2026.pdf",
+      "address_type": "uid",
+      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-108.935.136",
       "bfs": [],
       "partial_bfs": [
         3551
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Brusio geteilt (Brusio, Campocologno, Viano mit je eigener Steuerfusszeile)."
+      "note": "Postadresse auf der Website prüfen. Gemeinde Brusio geteilt (Brusio, Campocologno, Viano mit je eigener Steuerfusszeile). | Nachrecherche 28.10.2026: UID «Comune Parrocchiale Cattolica» (CHE-108.935.136) mit Sitz Ginetto 496c, 7743 Brusio, laut UID nicht zustellbar (Prüfung 16.10.2026). Die Hausnummer 496c gibt es im amtlichen Gebäudeadressverzeichnis nicht, wohl aber Ginetto 469C (so auch in der Adressliste der Landeskirche); daher 469C eingesetzt, ohne Personennamen."
     },
     {
       "id": "gr-campocologno",
@@ -1221,7 +1229,7 @@
         3551
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Name in der Adressliste abgeschnitten («Comune parrocchiale catt.»), Ort Campocologno; im Anhang GWLKP als Kirchgemeinde «Campocologno» geführt."
+      "note": "Postadresse auf der Website prüfen. Name in der Adressliste abgeschnitten («Comune parrocchiale catt.»), Ort Campocologno; im Anhang GWLKP als Kirchgemeinde «Campocologno» geführt. | Nachrecherche 28.10.2026: Weder UID-Register noch Telefonbuch nennen eine Strasse; keine institutionelle Adresse gefunden."
     },
     {
       "id": "gr-viano",
@@ -1237,7 +1245,7 @@
         3551
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Fraktion «Viano» der Gemeinde Brusio mit eigener Steuerfusszeile; im Anhang GWLKP als Kirchgemeinde «Viano» geführt."
+      "note": "Postadresse auf der Website prüfen. Fraktion «Viano» der Gemeinde Brusio mit eigener Steuerfusszeile; im Anhang GWLKP als Kirchgemeinde «Viano» geführt. | Nachrecherche 28.10.2026: Weder UID-Register noch Telefonbuch nennen eine Strasse; keine institutionelle Adresse gefunden."
     },
     {
       "id": "gr-ilanz",
@@ -1256,7 +1264,7 @@
         3619
       ],
       "confidence": "medium",
-      "note": "Glennerstrasse 5 ist laut UID-Register (CHE-108.929.911) auch Sitz der Kirchgemeinde; das Pfarramt Ilanz führt laut Website die Administration der Pfarreien Ilanz, Sagogn, Schluein und Sevgein. Umfasst die Fraktion Ilanz; Luven und Schnaus nur indirekt erschlossen (kath. Steuerfuss 17 % wie Ilanz, kein eigenes kath. Gemeinwesen dort).",
+      "note": "Glennerstrasse 5 ist laut UID-Register (CHE-108.929.911) auch Sitz der Kirchgemeinde; das Pfarramt Ilanz führt laut Website die Administration der Pfarreien Ilanz, Sagogn, Schluein und Sevgein. Umfasst die Fraktion Ilanz; Luven und Schnaus nur indirekt erschlossen (kath. Steuerfuss 17 % wie Ilanz, kein eigenes kath. Gemeinwesen dort). | Nachrecherche 28.10.2026: Das einzige Gebäude mit PLZ 7142 Cumbel auf Gemeindegebiet Ilanz/Glion lag 2013 in der Gemeinde Luven (Gebäuderegister und Gemeindegrenzen 2013, geo.admin.ch); daher Glion/Ilanz.",
       "bfs": []
     },
     {
@@ -1426,7 +1434,7 @@
         3603
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Adressliste der Landeskirche nennt nur eine Privatadresse; UID-Register führt die Kirchgemeinde unter Mura 153, 7132 Vals (Art der Adresse unklar). Zugehörigkeit von St. Martin offen. | Nachrecherche: UID-Sitzadresse mit c/o einer Privatperson (Name weggelassen), Zustellbarkeit nicht bestätigt. Telefonbuch: röm.-kath. Pfarramt 7132 Vals ohne Strasse.",
+      "note": "Postadresse auf der Website prüfen. Adressliste der Landeskirche nennt nur eine Privatadresse; UID-Register führt die Kirchgemeinde unter Mura 153, 7132 Vals (Art der Adresse unklar). Zugehörigkeit von St. Martin offen. | Nachrecherche: UID-Sitzadresse mit c/o einer Privatperson (Name weggelassen), Zustellbarkeit nicht bestätigt. Telefonbuch: röm.-kath. Pfarramt 7132 Vals ohne Strasse. | Nachrecherche 28.10.2026: St. Martin zur KG Vals: Die Pleiv catolica-romana da Lumnezia nennt als ihre Dörfer Cumbel, Peiden, Camuns, Tersnaus, Uors, Surcasti, Lumbrein, Surin und Vrin, ohne St. Martin (pleivlumnezia.ch; ebenso lumnezia.ch, Seite Pleivs); St. Martin hat in der Steuerfussliste 2026 dieselben Sätze wie Vals.",
       "bfs": []
     },
     {
@@ -1445,7 +1453,7 @@
         3618
       ],
       "confidence": "high",
-      "note": "«Pfarramt und Kirchgemeinde Lumnezia miez», auch UID-Register (CHE-379.116.153). Gebiet laut Constituziun: ganze Territorien der vischinadis Degen, Morissen, Vella und Vignogn (mit Weilern, u. a. Vattiz).",
+      "note": "«Pfarramt und Kirchgemeinde Lumnezia miez», auch UID-Register (CHE-379.116.153). Gebiet laut Constituziun: ganze Territorien der vischinadis Degen, Morissen, Vella und Vignogn (mit Weilern, u. a. Vattiz). | Nachrecherche 28.10.2026: Gebiet direkt belegt: Gemeinde Lumnezia, Seite Pleivs: «Vischnaunca da pleiv Lumnezia-miez (Degen, Morissen, Vella, Vignogn)», Uffeci parochial Sutvitg 28C, 7144 Vella.",
       "bfs": []
     },
     {
@@ -1462,7 +1470,7 @@
         3618
       ],
       "confidence": "high",
-      "note": "Postadresse auf der Website prüfen. Nur Privatadresse in der Adressliste der Landeskirche, keine Website gefunden. Gebiet (Cumbel, Lumbrein, Vrin, Camuns, Peiden, Surcasti, Tersnaus, Uors) nur indirekt erschlossen: einzige weitere KG im Wahlkreis Lumnezia (GWLKP Anhang 2025) neben Lumnezia miez. | Nachrecherche: Secretariat der Pleiv (mit Bürozeiten), ebenso auf lumnezia.ch (Pleivs). Gebiet laut Pleiv und Gemeinde: Cumbel/Peiden, Lumbrein, Suraua (Camuns, Surcasti, Tersnaus, Uors), Vrin. Das UID führt noch «Kath. Kirchgemeinde Cumbel/Peiden», Cadruvi 10.",
+      "note": "Postadresse auf der Website prüfen. Nur Privatadresse in der Adressliste der Landeskirche, keine Website gefunden. Gebiet (Cumbel, Lumbrein, Vrin, Camuns, Peiden, Surcasti, Tersnaus, Uors) nur indirekt erschlossen: einzige weitere KG im Wahlkreis Lumnezia (GWLKP Anhang 2025) neben Lumnezia miez. | Nachrecherche: Secretariat der Pleiv (mit Bürozeiten), ebenso auf lumnezia.ch (Pleivs). Gebiet laut Pleiv und Gemeinde: Cumbel/Peiden, Lumbrein, Suraua (Camuns, Surcasti, Tersnaus, Uors), Vrin. Das UID führt noch «Kath. Kirchgemeinde Cumbel/Peiden», Cadruvi 10. | Nachrecherche 28.10.2026: Gebiet direkt belegt: Gemeinde Lumnezia, Seite Pleivs (https://www.lumnezia.ch/rm/vischnaunca/habitar/pleivs): «Pleiv catolica-romana da Lumnezia (Cumbel/Peiden, Lumbrein, Suraua, Vrin)», Secretariat Cadruvi 8, 7142 Cumbel.",
       "bfs": []
     },
     {
@@ -1522,7 +1530,7 @@
         3985
       ],
       "confidence": "medium",
-      "note": "Secretariat/Administraziun laut Website (mit Personennamen, evtl. Wohnadresse der Sekretärin); alternativ Uffeci parochial, Casa pervenda, Via Surrein 11, 7172 Rabius. Seit 2017 eine Pleiv für die ganze Gemeinde (Fusion Rabius, Sumvitg/Cumpadials, Surrein; Gemeinde Sumvitg). UID CHE-138.098.114.",
+      "note": "Secretariat/Administraziun laut Website (mit Personennamen, evtl. Wohnadresse der Sekretärin); alternativ Uffeci parochial, Casa pervenda, Via Surrein 11, 7172 Rabius. Seit 2017 eine Pleiv für die ganze Gemeinde (Fusion Rabius, Sumvitg/Cumpadials, Surrein; Gemeinde Sumvitg). UID CHE-138.098.114. | Nachrecherche 28.10.2026: Die Pleiv publiziert Via Sursilvana 66 auf ihrer Kontaktseite als «Secretariat / Administraziun» (institutionelle Angabe, beibehalten); Pfarrhaus (Casa pervenda) Via Surrein 11, 7172 Rabius bleibt Alternative.",
       "partial_bfs": []
     },
     {
@@ -1579,7 +1587,7 @@
         3983
       ],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Adressliste der Landeskirche nennt nur eine Privatadresse; UID-Register ohne Strasse; Gemeindewebsite nennt Sekretariat nur per Telefon/E-Mail.",
+      "note": "Postadresse auf der Website prüfen. Adressliste der Landeskirche nennt nur eine Privatadresse; UID-Register ohne Strasse; Gemeindewebsite nennt Sekretariat nur per Telefon/E-Mail. | Nachrecherche 28.10.2026: UID CHE-336.918.061 «Kath. Kirchgemeinde Medel / Lucmagn», 7184 Curaglia ohne Strasse; keine andere institutionelle Adresse gefunden (Telefonbuch, Website). Bleibt Name + PLZ Ort.",
       "partial_bfs": []
     }
   ],
@@ -1605,7 +1613,7 @@
     },
     {
       "bfs": 3551,
-      "how": "Brusio ist auf drei Kirchgemeinden verteilt: Brusio, Campocologno und Viano (je eigene Steuerfusszeile). Zugehörigkeit von Campascio und Miralago ist nicht belegt.",
+      "how": "Brusio ist auf drei Kirchgemeinden verteilt: Brusio, Campocologno und Viano. Für Campascio und Miralago ist die Zuständigkeit nicht geklärt; vorgeschlagen wird Brusio.",
       "finder": null,
       "geodata": null,
       "ortsteile": {
@@ -1616,13 +1624,13 @@
     },
     {
       "bfs": 3561,
-      "how": "Poschiavo: Borgo, Cologna, San Carlo/Aino, Angeli Custodi, Pagnoncini und der Norden (La Rösa, Sfazù, Alp Grüm, Ospizio Bernina) gehören zur Comune parrocchiale di Poschiavo; Le Prese und Sant'Antonio zu Le Prese e Sant'Antonio; Prada zu Prada. Miralago (eigene Steuerfusszeile, Zugehörigkeit nicht belegt, evtl. Brusio) und der Weiler Li Curt sind offen.",
+      "how": "Poschiavo: Borgo, Cologna, San Carlo/Aino, Angeli Custodi, Pagnoncini und der Norden (La Rösa, Sfazù, Alp Grüm, Ospizio Bernina) gehören zur Comune parrocchiale di Poschiavo; Le Prese und Sant'Antonio zu Le Prese e Sant'Antonio; Prada zu Prada. Die Postleitzahl 7745 Li Curt umfasst Häuser in Prada, Sant'Antonio, Campiglioni und Li Curt; bitte die Kirchgemeinde nach dem Wohnort wählen. Für Miralago ist die Zuständigkeit nicht geklärt.",
       "finder": null,
       "geodata": null,
       "ortsteile": {
-        "Poschiavo": "gr-poschiavo",
+        "7742 Poschiavo": "gr-poschiavo",
         "Cologna": "gr-poschiavo",
-        "S. Carlo (Poschiavo)": "gr-poschiavo",
+        "7741 S. Carlo": "gr-poschiavo",
         "Pagnoncini": "gr-poschiavo",
         "La Rösa": "gr-poschiavo",
         "Sfazù": "gr-poschiavo",
@@ -1635,17 +1643,18 @@
     },
     {
       "bfs": 3603,
-      "how": "Vals: Dorf Vals → KG Vals. St. Martin (frühere Gemeinde, seit 2015 bei Vals) hat in der kantonalen Steuerliste eine eigene Zeile; ob die Katholiken dort zur KG Vals oder zur Pleiv da Lumnezia gehören, ist offen.",
+      "how": "Vals mit St. Martin (frühere Gemeinde, seit 2015 bei Vals): Katholische Kirchgemeinde Vals.",
       "finder": null,
       "geodata": null,
       "ortsteile": {
-        "Vals": "gr-vals"
+        "Vals": "gr-vals",
+        "7116 St. Martin": "gr-vals"
       }
     },
     {
       "bfs": 3618,
-      "how": "Lumnezia: frühere Gemeinden Degen (mit Vattiz), Morissen, Vella, Vignogn → Pleiv Lumnezia miez; Cumbel, Lumbrein, Vrin und Suraua (Camuns, Peiden, Surcasti, Tersnaus, Uors) → Pleiv catolica-romana da Lumnezia (indirekt erschlossen).",
-      "finder": null,
+      "how": "Lumnezia: Degen (mit Vattiz), Morissen, Vella und Vignogn → Pleiv Lumnezia miez; Cumbel/Peiden, Lumbrein, Vrin und Suraua (Camuns, Surcasti, Tersnaus, Uors) → Pleiv catolica-romana da Lumnezia.",
+      "finder": "https://www.lumnezia.ch/rm/vischnaunca/habitar/pleivs",
       "geodata": null,
       "ortsteile": {
         "Degen": "gr-lumnezia-miez",
@@ -1665,7 +1674,7 @@
     },
     {
       "bfs": 3619,
-      "how": "Ilanz/Glion ist auf mehrere katholische Kirchgemeinden verteilt; massgebend ist die frühere Gemeinde (Fraktion) des Wohnorts: Ilanz (und Strada), Luven, Schnaus → Glion/Ilanz; Sevgein, Castrisch, Riein → Sevgein/Castrisch/Riein; Ladir → Ladir; Rueun, Ruschein, Siat, Pigniu → Rueun-Ruschein-Siat-Pigniu. Pitasch und Duvin: Zuständigkeit offen (kath. Steuerfuss 15 %, keine Quelle). PLZ-Überlappungen 7122 Valendas und 7142 Cumbel nach Fraktion bestimmen.",
+      "how": "Ilanz/Glion ist auf mehrere katholische Kirchgemeinden verteilt; massgebend ist die frühere Gemeinde (Fraktion) des Wohnorts: Ilanz (und Strada), Luven, Schnaus → Glion/Ilanz; Sevgein, Castrisch, Riein → Sevgein/Castrisch/Riein; Ladir → Ladir; Rueun, Ruschein, Siat, Pigniu → Rueun-Ruschein-Siat-Pigniu. Pitasch und Duvin: Zuständigkeit offen. Häuser mit Postleitzahl 7142 Cumbel auf Gemeindegebiet Ilanz/Glion liegen in der Fraktion Luven (Glion/Ilanz). Bei Postleitzahl 7122 Valendas nach Fraktion wählen.",
       "finder": "https://www.ilanz-glion.ch/leben-arbeiten/kirche-religion",
       "geodata": null,
       "ortsteile": {
@@ -1679,7 +1688,8 @@
         "Rueun": "gr-rueun-ruschein-siat-pigniu",
         "Ruschein": "gr-rueun-ruschein-siat-pigniu",
         "Siat": "gr-rueun-ruschein-siat-pigniu",
-        "Pigniu": "gr-rueun-ruschein-siat-pigniu"
+        "Pigniu": "gr-rueun-ruschein-siat-pigniu",
+        "7142 Cumbel (Gebiet der Fraktion Luven)": "gr-ilanz"
       }
     },
     {
@@ -1766,13 +1776,14 @@
     },
     {
       "bfs": 3832,
-      "how": "Grono (seit 2017 mit Leggia und Verdabbio) hat je Fraktion eine eigene Comune parrocchiale. Der zur PLZ 6557 Cama gehörende Teil des Gemeindegebiets ist nicht belegt.",
+      "how": "Grono (seit 2017 mit Leggia und Verdabbio) hat je Fraktion eine eigene Comune parrocchiale: Grono, Leggia und Verdabbio. Die Häuser von Pian di Verdabbio mit der Postleitzahl 6557 Cama (Stradon, Rónch, Stráda di Pián, al Mái) liegen auf dem Gebiet der früheren Gemeinde Verdabbio und gehören zu Verdabbio.",
       "finder": null,
       "geodata": null,
       "ortsteile": {
         "Grono": "gr-grono",
         "Leggia": "gr-leggia",
-        "Verdabbio": "gr-verdabbio"
+        "Verdabbio": "gr-verdabbio",
+        "6557 Cama (Gebiet der früheren Gemeinde Verdabbio)": "gr-verdabbio"
       }
     },
     {
@@ -1849,26 +1860,35 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Rongellen: Verfassung der KG Thusis (1998) zählt Rongellen zu Thusis, die kantonale Steuerfussliste 2026 nennt aber 16 % (Thusis 15 %, Schams-Avers-Rheinwald 16 %). Vorläufig KG Thusis.",
-    "Mutten (Gemeinde Thusis): keine Quelle zur Kirchgemeinde gefunden (Thusis oder Albula; historisch kirchlich zu Stierva).",
-    "Scuol: Guarda und Ftan ohne belegte Zuordnung zu Ardez oder Scuol-Sent; Vulpera über die ehemalige Gemeinde Tarasp der KG Tarasp-Zernez zugeordnet.",
-    "Albula: Website kath-albula.ch nicht erreichbar; Zuordnung Schmitten und Bergün Filisur nur indirekt.",
-    "Viele Kirchgemeinden publizieren nur Privatadressen ihrer Präsidien (Liste der Landeskirche 01.01.2026); dort ist keine Strasse erfasst.",
-    "Safiental: Website der KG Bonaduz nennt die ganze Gemeinde Safiental, die Gemeinde Safiental ordnet Valendas dem Pfarramt Sagogn zu (Steuerfuss 18 % wie Sagogn); Valendas hier bei Sagogn.",
-    "Arosa/Maladers: Calfreisen, Castiel, Lüen nur über den kath. Steuerfuss (17 %) der KG Maladers zugeordnet.",
-    "Italienischsprachige GR-Kirchgemeinden haben fast keine eigenen Websites; die Adressliste der Landeskirche (01.01.2026) nennt meist Präsidien mit Privatadresse. Deshalb bei 24 von 27 Einträgen nur Name + PLZ Ort (praesidium, low); institutionell nur Lostallo (Casella postale 4), Mesocco (Casella postale 131, mit Personennamen) und Sta. Maria (c/o M Fiduciaria SA, Cadenazzo).",
-    "Poschiavo: Comune parrocchiale 2019 fusioniert (Poschiavo, Cologna, San Carlo/Aino, Angeli Custodi, Pagnoncini). Der Anhang GWLKP (Botschaft 2025) führt Angeli Custodi, Cologna, San Carlo/Aino und Pagnoncini noch separat; das ist veraltet. Die Adressliste 2026 führt «Curazia di Pagnoncini» noch als eigenen Eintrag (Kontaktperson sitzt im Consiglio von Poschiavo und legt die Rechnung der Stiftung Pagnoncini vor); hier nicht als eigene Kirchgemeinde erfasst, Pagnoncini -> gr-poschiavo. Bitte bei der Landeskirche verifizieren.",
-    "Poschiavo: Die Privatadresse des Präsidiums der Comune parrocchiale di Poschiavo liegt laut Liste in «S. Antonio», obwohl die Steuerfraktion «Le Prese/S. Antonio» und der Name der KG Le Prese e Sant'Antonio auf diese KG deuten. Grenze Poschiavo / Le Prese e Sant'Antonio / Prada im Raum Sant'Antonio-Li Curt unklar; Li Curt und Miralago (Poschiavo-Teil) nicht zugeordnet.",
-    "Brusio: Campascio und der Brusio-Teil von Miralago nicht belegt zugeordnet (Brusio oder Campocologno). Die eigene Steuerfusszeile «Miralago» in Poschiavo deutet an, dass Miralago insgesamt zur KG Brusio gehören könnte.",
-    "Grono: Der zur PLZ 6557 Cama gehörende Teil der Gemeinde Grono ist keiner der drei Comuni parrocchiali belegt zugeordnet.",
-    "Bregaglia: Casaccia (eigene Steuerfusszeile, kath. 15 % wie Bregaglia) indirekt Bregaglia Valle zugeordnet; Maloja -> gr-st-moritz (vom Hauptbearbeiter erfasst). Gemeinde Bregaglia nennt einen anderen Präsidenten als die Adressliste der Landeskirche.",
-    "Rossa: Steuerfussliste zeigt nur einen kath. Satz für die ganze Gemeinde; Aufteilung auf Augio, Rossa, Sta. Domenica nur über die Namen der Comuni parrocchiali erschlossen.",
-    "Ilanz/Glion: Kirchgemeinde der Katholiken in den Fraktionen Pitasch und Duvin nicht belegt (kath. Steuerfuss 15 % wie Sevgein, Ladir, Lumnezia); in split nicht zugeordnet.",
-    "Ilanz/Glion: Luven und Schnaus nur über den kath. Steuerfuss (17 % wie Ilanz) der KG Glion/Ilanz zugeordnet.",
-    "Vals: Zugehörigkeit von St. Martin (KG Vals oder Pleiv da Lumnezia) offen; eigene Zeile in der Steuerliste 2026.",
-    "Lumnezia: Gebiet der Pleiv catolica-romana da Lumnezia nicht direkt belegt; UID-Register führt noch eine «Kath. Kirchgemeinde Cumbel/Peiden» (Cadruvi 10, 7142 Cumbel), die in der Adressliste 2026 fehlt (vermutlich fusioniert).",
-    "Tujetsch: zwei institutionelle Adressen (Cadruvi 4 Sedrun laut Landeskirche/UID; Sekretariat Via Sogn Gions 8 Disentis laut Website).",
-    "Postfach-/Strassenlose Fallbacks (praesidium) für Vals, Medel/Lucmagn, Rueun-Ruschein-Siat-Pigniu, Lumnezia: Adressen vor Versand prüfen.",
-    "Sumvitg: Sekretariatsadresse evtl. Wohnadresse der Sekretärin; alternativ Pfarrhaus Rabius."
+    "Ohne Strasse/Postfach (nur Name + PLZ Ort): Ardez, Martina, Maladers, Arvigo, Landarenca, Braggio, Cauco, Selma, Augio, Rossa, Sta. Domenica, Buseno, Leggia, Verdabbio, Soazza, Campocologno, Viano, Medel/Lucmagn. Adressliste 2026 nennt nur Präsidien mit Privatadresse, UID-Einträge ohne Strasse. Zustelladressen bei der Landeskirche erfragen.",
+    "Brusio: UID-Sitz «Ginetto 496c» gibt es nicht (laut UID nicht zustellbar); eingesetzt ist Ginetto 469C (Gebäudeadresse, auch in der Adressliste). Bestätigen lassen.",
+    "Vals (Mura 153) und Rueun-Ruschein-Siat-Pigniu (Vegna 9): UID-Sitzadressen, Zustellbarkeit laut UID nicht bestätigt.",
+    "Mutten (Gemeinde Thusis): Kirchgemeinde nicht belegt. Verfassung KG Thusis (1998) nennt Mutten nicht, der Verfassungsentwurf der KG Albula vermerkt «Mutten?»; kath. 15 % wie beide. Vorläufig Thusis. Klärung bei der Landeskirche.",
+    "Rongellen: Verfassung KG Thusis (1998) zählt Rongellen zu Thusis, die Steuerfussliste 2026 nennt aber kath. 16 % (Thusis 15 %, Schams-Avers-Rheinwald 16 %). Vorläufig Thusis.",
+    "Scuol: Guarda und Ftan ohne belegte Zuordnung (Ardez oder Scuol-Sent); vorgeschlagen wird Scuol-Sent. Klärung bei der Corporaziun Ardez oder Scuol-Sent.",
+    "Ilanz/Glion: Pitasch und Duvin ohne belegte Kirchgemeinde (kath. 15 %; weder Sevgein/Castrisch/Riein noch Lumnezia miez nennt sie). Klärung bei der Landeskirche.",
+    "Brusio: Campascio und Miralago (beide Gemeindeteile) nicht belegt zugeordnet (Brusio, Campocologno; für den Poschiavo-Teil auch Le Prese e Sant'Antonio). Die eigenen Steuerzeilen «Miralago» (Poschiavo) und «Viano», «Campocologno» (Brusio) haben gleiche Sätze und klären es nicht.",
+    "Poschiavo: Grenze Poschiavo / Le Prese e Sant'Antonio / Prada im Raum Sant'Antonio–Li Curt nicht publiziert (das Präsidium von Poschiavo wohnt laut Adressliste in S. Antonio); PLZ 7745 Li Curt deshalb ohne Vorschlag.",
+    "Poschiavo/Brusio: Adressliste 2026 und GWLKP-Anhang 2026 führen Pagnoncini (bzw. Cologna, San Carlo/Aino, Angeli Custodi) noch als Kirchgemeinden, der Jahresbericht 2025/26 nicht; ebenso fehlt Viano im Jahresbericht. Hier Pagnoncini → Poschiavo, Viano eigene KG. Klärung bei der Landeskirche.",
+    "Brienz/Brinzauls: Die Verfassung der KG Albula (2022) nimmt Brienz aus und das UID führt noch eine «Katholische Kirchgemeinde Brienz» (CHE-425.201.611, ohne Strasse). Hier bei Albula; ob Brienz formell eingegliedert ist, ist nicht publiziert."
+  ],
+  "grundlage": [
+    "Adressen: Die Adressliste der Landeskirche (01.01.2026) nennt bei vielen Kirchgemeinden, besonders den italienischsprachigen Comuni parrocchiali, nur Präsidien mit Privatadresse. Diese werden nicht übernommen; Reihenfolge: eigene Adresse der Kirchgemeinde, UID-Sitz, Pfarramt/Sekretariat vor Ort, sonst Name + PLZ Ort (praesidium).",
+    "Zuordnung nach Fraktion: Die Steuerfussliste 2026 der Steuerverwaltung GR führt in geteilten Gemeinden Fraktionszeilen mit eigenem kath. Steuerfuss; sie dienen als Beleg oder Hinweis für die Zuordnung (Calanca, Rossa, Grono, Brusio, Poschiavo, Ilanz/Glion, Arosa, Safiental, Lumnezia, Bregaglia).",
+    "Calanca: Arvigo, Landarenca, Braggio, Cauco, Selma je eigene Fraktionszeile mit kath. Steuerfuss in der Steuerfussliste 2026.",
+    "Rossa: eine kath. Steuerfusszeile für die ganze Gemeinde; Augio, Rossa und Sta. Domenica nach der Ortschaft der gleichnamigen Comune parrocchiale zugeordnet.",
+    "Grono: Die Comuni parrocchiali entsprechen den früheren Gemeinden (Fraktionszeilen Leggia, Verdabbio). Die 24 Gebäude mit PLZ 6557 Cama auf Gemeindegebiet Grono lagen 2016 alle in der Gemeinde Verdabbio (Gebäude- und Wohnungsregister und swissBOUNDARIES3D 2016 über api3.geo.admin.ch, Abfrage 28.10.2026).",
+    "Ilanz/Glion: Luven und Schnaus → Glion/Ilanz (kath. 17 % wie Ilanz; Castrisch/Riein/Sevgein, Ladir, Duvin, Pitasch 15 %; Pigniu/Rueun/Siat, Ruschein 16 %). Die Pleiv Sevgein umfasst laut eigener Website Sevgein, Castrisch und Riein. Das Gebäude mit PLZ 7142 Cumbel auf Gemeindegebiet Ilanz/Glion lag 2013 in Luven (geo.admin.ch, Abfrage 28.10.2026).",
+    "Safiental: Valendas → Sagogn (kath. 18 % wie Sagogn; Gemeinde Safiental: Pfarramt Sagogn betreut Valendas); Safien, Tenna, Versam → Bonaduz (kath. 11 % wie Bonaduz).",
+    "Arosa: Calfreisen, Castiel, Lüen → Maladers (eigene Fraktionszeile mit kath. 17 % wie Maladers, Arosa 13 %; Wahlkreis Schanfigg mit Arosa und Maladers).",
+    "Lumnezia: Gemeinde Lumnezia (Seite Pleivs) und Website der Pleiv da Lumnezia: Lumnezia miez = Degen, Morissen, Vella, Vignogn (so auch Verfassung Lumnezia miez); Pleiv da Lumnezia = Cumbel/Peiden, Lumbrein, Suraua (Camuns, Surcasti, Tersnaus, Uors), Vrin mit Surin. Das UID führt noch eine «Kath. Kirchgemeinde Cumbel/Peiden» (Cadruvi 10, 7142 Cumbel), die in der Pleiv da Lumnezia aufgegangen ist.",
+    "Vals: St. Martin (seit 2015 Gemeinde Vals) → KG Vals; die Pleiv da Lumnezia zählt ihre Dörfer ohne St. Martin auf, Steuerfüsse St. Martin = Vals (historisch war St. Martin Filiale von Tersnaus).",
+    "Albula: Verfassung der KG Albula Art. 1 Abs. 2 (Scan 2022, kath-albula.ch über web.archive.org): Bergün Filisur, Schmitten und Albula/Alvra ohne die ehemalige Gemeinde Brienz/Brinzauls. Brienz/Brinzauls trotzdem bei Albula: Die Landeskirche kennt 2026 keine KG Brienz (Adressliste, Jahresbericht 2025/26, Wahlkreis Albula-Lantsch), die Steuerfussliste hat für Albula/Alvra nur eine Zeile, der Verfassungsentwurf umfasst ganz Albula/Alvra.",
+    "Bregaglia: Maloja → St. Moritz-Sils-Silvaplana-Maloja (kath. 6 %); Casaccia → Bregaglia Valle (kath. 15 % wie Bregaglia, nicht 6 % wie Maloja).",
+    "Scuol: Vulpera über die ehemalige Gemeinde Tarasp der KG Tarasp-Zernez zugeordnet; die Steuerzeile «Ardez, Ftan, Guarda» betrifft die evangelische Kirchgemeinde (kath. überall 15 %).",
+    "Valsot: ganze Gemeinde → Corporaziun catolica Martina (kath. 5 % = Steuerfuss Martina laut Jahresbericht 2025/26).",
+    "Poschiavo: Comune parrocchiale 2019 fusioniert (Poschiavo, Cologna, San Carlo/Aino, Angeli Custodi, Pagnoncini); der Jahresbericht 2025/26 führt nur noch Poschiavo.",
+    "Tujetsch: Cadruvi 4, 7188 Sedrun laut Adressliste und UID; die Website nennt zusätzlich das Sekretariat in Disentis (Via Sogn Gions 8).",
+    "Sumvitg: Secretariat/Administraziun laut Kontaktseite der Pleiv; Pfarrhaus (Casa pervenda) Via Surrein 11, 7172 Rabius als Alternative."
   ]
 }

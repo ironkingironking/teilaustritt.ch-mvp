@@ -36,7 +36,8 @@
     "https://kath-eggerstanden.ch/",
     "https://kath-oberegg.ch/Raete-und-Sekretariat/Kirchverwaltung/",
     "https://public.madd.bfs.admin.ch/ai.zip",
-    "https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20080801_Zugehoerigkeit_und_Austritt__Dok_IRR__d.pdf"
+    "https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20080801_Zugehoerigkeit_und_Austritt__Dok_IRR__d.pdf",
+    "https://ai.clex.ch/app/de/texts_of_law/180.201"
   ],
   "kirchgemeinden": [
     {
@@ -92,7 +93,7 @@
         "Römisch-katholische Kirchgemeinde Haslen",
         "Kirchenrat",
         "Dorfstrasse 53",
-        "9054 Haslen"
+        "9054 Haslen AI"
       ],
       "address_type": "pfarramt",
       "website": "https://kath-haslen.ch/",
@@ -102,7 +103,7 @@
         3104
       ],
       "confidence": "medium",
-      "note": "Postadresse ist die der Pfarrei Maria Hilf. Die KG umfasst vertraglich auch Katholiken im südlichen Teil von Stein AR (Konkordat GS 180.101, Ordnung des AR-Verbands Art. 20 Abs. 4)."
+      "note": "Postadresse ist die der Pfarrei Maria Hilf. Die KG umfasst vertraglich auch Katholiken im südlichen Teil von Stein AR (Konkordat GS 180.101, Ordnung des AR-Verbands Art. 20 Abs. 4). | Nachrecherche 28.10.2026: Ortsname amtlich «Haslen AI» (Ortschaftenverzeichnis)."
     },
     {
       "id": "ai-schwende",
@@ -234,7 +235,7 @@
     },
     {
       "bfs": 3104,
-      "how": "Haslen (Ortschaft Haslen AI ohne Leimensteigstrasse und einzelne Häuser in Vorderhaslen, Bezirksteil mit PLZ 9053 Teufen AR, Hintere Göbsi bei 9055 Bühler): KG Haslen. Schlatt, Enggenhütten, Leimensteigstrasse (Haslen), die Bezirksteile mit PLZ 9055 Bühler (ohne Hintere Göbsi) und 9056 Gais: KG Appenzell (Pfarrei Schlatt). Einzelne Häuser an der Enggenhüttenstrasse gehören zur KG Gonten. Die Exklave Wonnenstein (9052 Niederteufen) ist in der Karte keiner KG zugeordnet.",
+      "how": "Haslen (Ortschaft Haslen AI ohne Leimensteigstrasse und einzelne Häuser in Vorderhaslen, Bezirksteil mit PLZ 9053 Teufen AR, Hintere Göbsi bei 9055 Bühler): KG Haslen. Schlatt, Enggenhütten, Leimensteigstrasse (Haslen), die Bezirksteile mit PLZ 9055 Bühler (ohne Hintere Göbsi) und 9056 Gais: KG Appenzell (Pfarrei Schlatt). Einzelne Häuser an der Enggenhüttenstrasse und die Adressen mit PLZ 9108 Gonten (Rüeggerstrasse) gehören zur KG Gonten. Die Exklave Wonnenstein (9052 Niederteufen) ist in der Karte keiner KG zugeordnet.",
       "finder": "https://www.geoportal.ch/ktai/map/1620",
       "geodata": "https://www.geoportal.ch/services/wms/ktai?SERVICE=WMS&REQUEST=GetCapabilities",
       "ortsteile": {
@@ -244,12 +245,13 @@
         "Haslen AI (9054), ohne Leimensteig": "ai-haslen",
         "Teufen AR (9053), Teil des Bezirks Schlatt-Haslen": "ai-haslen",
         "Hintere Göbsi (9055 Bühler)": "ai-haslen",
-        "Gais (9056), Teil des Bezirks Schlatt-Haslen": "ai-appenzell"
+        "Gais (9056), Teil des Bezirks Schlatt-Haslen": "ai-appenzell",
+        "Gonten (9108), Teil des Bezirks Schlatt-Haslen": "ai-gonten"
       }
     },
     {
       "bfs": 3112,
-      "how": "Rüte-Teil mit PLZ 9050 Appenzell und Steinegg (ohne Egglistrasse-Ost): KG Appenzell. Eggerstanden und Meistersrüte (sowie ein Teil der Egglistrasse): KG Eggerstanden. Schwende, Wasserauen und Weissbad: KG Schwende, ausser Bergerstrasse und Leugangenstrasse (Weissbad) sowie Widderalp/Bogarten (Wasserauen): KG Brülisau; Haslerstegstrasse und Weissbadstrasse (Weissbad) teils KG Appenzell. Brülisau: KG Brülisau. Einzelne Alp- und Berggebiete (Kronberg, Scheidegg) gehören zur KG Gonten. Im Zweifel im Geoportal prüfen.",
+      "how": "Rüte-Teil mit PLZ 9050 Appenzell und Steinegg (ohne Egglistrasse-Ost): KG Appenzell. Eggerstanden und Meistersrüte (sowie ein Teil der Egglistrasse): KG Eggerstanden. Schwende, Wasserauen und Weissbad: KG Schwende, ausser Bergerstrasse und Leugangenstrasse (Weissbad) sowie Widderalp/Bogarten (Wasserauen): KG Brülisau; Haslerstegstrasse und Weissbadstrasse (Weissbad) teils KG Appenzell. Brülisau: KG Brülisau. Einzelne Alp- und Berggebiete (Kronberg, Scheidegg) gehören zur KG Gonten. Adressen mit fremder Postleitzahl: Scheidegg (9108 Gonten) KG Gonten, Hintere und Mittlere Wartegg sowie Blatten (9108 Gonten) KG Appenzell; Säntis (9107 Urnäsch) KG Schwende, Langälpli (9107 Urnäsch) KG Appenzell; Stauberen (9467 Frümsen) KG Brülisau. Im Zweifel im Geoportal prüfen.",
       "finder": "https://www.geoportal.ch/ktai/map/1620",
       "geodata": "https://www.geoportal.ch/services/wms/ktai?SERVICE=WMS&REQUEST=GetCapabilities",
       "ortsteile": {
@@ -264,7 +266,13 @@
         "Leugangenstrasse (9057 Weissbad)": "ai-bruelisau",
         "Widderalp (9057 Wasserauen)": "ai-bruelisau",
         "Brülisau (9058)": "ai-bruelisau",
-        "Scheidegg (9108 Gonten)": "ai-gonten"
+        "Scheidegg (9108 Gonten)": "ai-gonten",
+        "Stauberen (9467 Frümsen)": "ai-bruelisau",
+        "Säntis (9107 Urnäsch)": "ai-schwende",
+        "Langälpli (9107 Urnäsch)": "ai-appenzell",
+        "Hintere Wartegg": "ai-appenzell",
+        "Mittlere Wartegg": "ai-appenzell",
+        "Weiler Blatten (bei Gonten)": "ai-appenzell"
       }
     },
     {
@@ -286,12 +294,15 @@
     }
   ],
   "unmapped_bfs": [],
-  "issues": [
-    "Beglaubigung: Die Behauptung der Seite (beglaubigte Unterschrift auch in AI) liess sich nicht belegen. Weder Kantonsverfassung, Steuergesetz/-verordnung noch die Websites der Kirchgemeinden nennen eine Beglaubigungspflicht; die Dokumentation des Instituts für Religionsrecht (2008) findet im AI-Recht keine Formvorschrift. Medien (SRF Espresso) behaupten eine Beglaubigungspflicht ohne Quelle. Vorsorglich kann eine Beglaubigung empfohlen werden; bei der Kirchgemeinde nachfragen.",
-    "Keine kantonale Körperschaft mit Geschäftsstelle; body.postal leer. Der Verein «Katholische Kirchgemeinden Innerrhodens» (Mitglieder: Appenzell, Gonten, Brülisau, Schwende, Haslen, Eggerstanden, Oberegg) hat keine eigene Website gefunden.",
+  "grundlage": [
+    "Keine kantonale Körperschaft mit Geschäftsstelle; body.postal leer. Verein «Katholische Kirchgemeinden Innerrhodens» (Mitglieder: Appenzell, Gonten, Brülisau, Schwende, Haslen, Eggerstanden, Oberegg) ohne eigene Website.",
     "Ausser Appenzell (Verwaltung) publizieren die KG keine eigene Kirchenrats-Postadresse; verwendet sind die Pfarrei-/Sekretariatsadressen (address_type pfarramt, medium). Brülisau: keine Strasse in Brülisau publiziert, Sekretariat in Schwende verwendet.",
-    "Split-Zuordnung aus der Karte «Katholische Kirchgemeinden Kt AI» (geoportal.ch, WMS GetMap/GetFeatureInfo) und den Gebäudeeingängen des GWR (Stand 28.10.2026) abgeleitet; geodata verweist auf einen WMS (kein WFS/GeoJSON verfügbar), Attribut «Kirchgemeinde».",
-    "Exklave Wonnenstein (Bezirk Schlatt-Haslen, 9052 Niederteufen, 7 Gebäudeeingänge) liegt ausserhalb der KG-Karte; Zuständigkeit unklar.",
-    "Oberegg: Die AI-Karte bezeichnet die Gebiete von Berneck und Marbach als «pastorale Zugehörigkeit», der Geodatensatz SG00090 rechnet sie den KG Berneck/Marbach zu (Konkordat GS 180.201 erlaubt die Vollmitgliedschaft per Vertrag). Ob der Vertrag für alle Bewohner gilt, ist nicht belegt (confidence medium)."
+    "Split-Zuordnung aus der Karte «Katholische Kirchgemeinden Kt AI» (geoportal.ch, WMS GetFeatureInfo, Attribut «Kirchgemeinde») und den GWR-Gebäudeeingängen (Stand 28.10.2026); kein WFS/GeoJSON verfügbar. Nachrecherche 28.10.2026: Adressen mit fremder PLZ (9107 Urnäsch, 9108 Gonten, 9467 Frümsen) einzeln abgefragt.",
+    "Oberegg: Konkordat GS 180.201 ermächtigt Berneck und Marbach, die Oberegger Pfarreiangehörigen (Weiler gemäss Art. 1 Abs. 2/3) per Vertrag als vollberechtigte Mitglieder anzuerkennen; Steuer nach Innerrhoder Recht. Der Geodatensatz SG00090 (Layer «überlagernde Hinweise») vermerkt «Zugehörigkeit zu Berneck/Marbach aufgrund Konkordat 180.201»."
+  ],
+  "issues": [
+    "Beglaubigung: Pflicht zur amtlichen Beglaubigung in AI nicht belegt (Kantonsverfassung, Steuergesetz/-verordnung, KG-Websites ohne Formvorschrift; Dokumentation IRR 2008 ebenso). Medien behaupten sie ohne Quelle. Fehlt: Kirchgemeindeordnungen bzw. Auskunft der KG.",
+    "Exklave Wonnenstein (Bezirk Schlatt-Haslen, 9052 Niederteufen; 7 Gebäude, laut GWR ohne Wohnungen, Kloster) liegt ausserhalb der KG-Karte; Zuständigkeit unklar, Ortschaft bleibt zur Auswahl. Fehlt: Auskunft Bezirk Schlatt-Haslen oder KG Haslen.",
+    "Oberegg: Der Vertrag nach GS 180.201 ist nicht publiziert; die AI-Karte spricht nur von «pastoraler Zugehörigkeit». Ob alle Bewohner der Weiler Vollmitglieder von Berneck/Marbach sind, ist nicht belegt (confidence medium)."
   ]
 }

@@ -16,7 +16,7 @@
     "form": "schriftliches Gesuch an den Gemeinderat",
     "beglaubigung": false,
     "wirkung": "Die Reduktion wird nach der Rechnung des Vorjahres berechnet (Art. 13 Abs. 2 GVKS; Ausführungsreglement 180.100).",
-    "notes": "Pfarreien erheben keine eigene Kirchensteuer; die Einwohnergemeinden decken die ungedeckten Kultuskosten aus dem allgemeinen Budget (Art. 13 GVKS) oder über eine kommunale Kultussteuer (Art. 14 GVKS). Das Verfahren für die Befreiung regelt das jeweilige Gemeindereglement.",
+    "notes": "Pfarreien erheben keine eigene Kirchensteuer; die Einwohnergemeinden decken die ungedeckten Kultuskosten aus dem allgemeinen Budget (Art. 13 GVKS) oder über eine kommunale Kultussteuer (Art. 14 GVKS). Das Verfahren für die Befreiung regelt das jeweilige Gemeindereglement. | Nachrecherche 28.10.2026: Ausführungsreglement 180.100 im amtlichen Volltext geprüft (lex.vs.ch, Fassung 1.9.2025): Art. 20 bestätigt nur die Berechnung nach der Rechnung des Vorjahres, ein Formular oder eine Frist sieht es nicht vor. GVKS Art. 13 Abs. 3: Gehört nur ein Ehegatte einer anerkannten Kirche an, halbiert sich die Reduktion; Abs. 4: Bei Streit entscheidet der Gemeinderat, Beschwerde an den Staatsrat.",
     "source": "https://lex.vs.ch/app/de/texts_of_law/180.1"
   },
   "finder": null,
@@ -29,11 +29,13 @@
   "sources": [
     "https://lex.vs.ch/app/de/texts_of_law/180.1",
     "https://www.lexfind.ch/tolv/97759/de",
-    "https://diocese-sion.ch/"
+    "https://diocese-sion.ch/",
+    "https://lex.vs.ch/app/de/texts_of_law/180.100"
   ],
   "issues": [
-    "Welche Einwohnergemeinden aktuell eine Kultussteuer erheben, wurde nicht amtlich verifiziert; ein Kantonsgerichtsentscheid von 2012 (RVJ/ZVR 2013, A1 11 183, nur über Drittquelle gefunden) nennt Savièse, Sitten, Törbel, Vouvry und einige Gemeinden des Eifischtals.",
-    "Ausführungsreglement 180.100 (Art. 20 ff., Verfahren der Reduktion) nicht im amtlichen Volltext abgerufen.",
-    "recipient_level 'gemeinde' ist kein Wert aus dem Brief-Schema (kirchgemeinde|kanton): Adressat ist die politische Einwohnergemeinde."
+    "Welche Einwohnergemeinden heute eine Kultussteuer (Art. 14 GVKS) erheben, ist nicht amtlich belegt; ein Kantonsgerichtsentscheid von 2012 (RVJ/ZVR 2013, A1 11 183, nur über Drittquelle) nennt Savièse, Sitten, Törbel, Vouvry und einige Gemeinden des Eifischtals. Fehlt: aktuelle Liste (z. B. genehmigte Gemeindereglemente beim Staatsrat)."
+  ],
+  "grundlage": [
+    "GVKS 180.1 Art. 13 Abs. 2–4 und Art. 14 Abs. 3; Ausführungsreglement 180.100 Art. 20 (lex.vs.ch, amtlicher Volltext, 28.10.2026)."
   ]
 }

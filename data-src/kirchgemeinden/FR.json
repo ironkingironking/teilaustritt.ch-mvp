@@ -15,13 +15,14 @@
     "recipient_level": "kirchgemeinde",
     "form": "schriftlich und unterschrieben; ausdrücklich angeben, ob vollständiger oder teilweiser Austritt (sortie partielle)",
     "beglaubigung": false,
+    "bistum_informiert": true,
     "wirkung": "rückwirkend auf den Tag der Einreichung (Art. 11 Abs. 3 Statut); beendet die Kirchensteuerpflicht",
     "notes": "Wird die Erklärung direkt an den Conseil paroissial geschickt, geht ein Exemplar an den Pfarrer; der Conseil paroissial meldet den Austritt der Einwohnerkontrolle, der kantonalen Steuerverwaltung und der Diözesanbehörde (Art. 9 Abs. 2 und Art. 11 Abs. 2bis Statut). Der Conseil paroissial schickt in der Regel ein Formular und bestätigt den Austritt innert 30 Tagen.",
     "source": "https://www.cath-fr.ch/corporation-cantonale/sortie-deglise/",
-    "public_hinweis": "Im Kanton Freiburg geht laut Statut ein Exemplar der Erklärung an den Pfarrer, und der Austritt wird dem Bistum gemeldet. Die Bitte um Vertraulichkeit im Brief ändert daran nichts.",
-    "public_hinweis_fr": "Dans le canton de Fribourg, selon le statut, un exemplaire de la déclaration est remis au curé et la sortie est annoncée à l'évêché. La demande de confidentialité dans la lettre n'y change rien.",
-    "public_hinweis_it": "Nel Cantone di Friburgo, secondo lo statuto, una copia della dichiarazione va al parroco e l'uscita viene notificata alla diocesi. La richiesta di riservatezza nella lettera non cambia nulla.",
-    "public_hinweis_en": "In the canton of Fribourg, the statute requires a copy of the declaration to go to the parish priest and the exit to be reported to the diocese. The confidentiality request in the letter does not change this."
+    "public_hinweis": "Im Kanton Freiburg geht laut Statut ein Exemplar der Erklärung an den Pfarrer, und der Austritt wird dem Bistum gemeldet. Der Brief bittet deshalb nur um vertrauliche Behandlung gegenüber Dritten, nicht gegenüber Pfarrei und Bistum.",
+    "public_hinweis_fr": "Dans le canton de Fribourg, selon le statut, un exemplaire de la déclaration est remis au curé et la sortie est annoncée à l'évêché. La lettre demande donc seulement un traitement confidentiel envers les tiers, pas envers la cure et l'évêché.",
+    "public_hinweis_it": "Nel Cantone di Friburgo, secondo lo statuto, una copia della dichiarazione va al parroco e l'uscita viene notificata alla diocesi. La lettera chiede quindi solo un trattamento riservato nei confronti di terzi, non della parrocchia e della diocesi.",
+    "public_hinweis_en": "In the canton of Fribourg, the statute requires a copy of the declaration to go to the parish priest and the exit to be reported to the diocese. The letter therefore only asks for confidential treatment towards third parties, not towards the parish and the diocese."
   },
   "finder": "https://www.cath-fr.ch/ressources/paroisses-et-unites-pastorales/",
   "stand": "2026-10-28",
@@ -128,17 +129,19 @@
       "postal": [
         "Paroisse d'Avry-devant-Pont",
         "Conseil paroissial",
-        "1644 Avry-devant-Pont"
+        "Secrétariat UP Notre-Dame de Compassion",
+        "Rue du Marché 32",
+        "1630 Bulle"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "website": "https://upcompassion.ch/paroisses/avry-devant-pont/",
-      "source": "https://upcompassion.ch/paroisses/avry-devant-pont/",
+      "source": "https://upcompassion.ch/unite-pastorale/secretariat/",
       "bfs": [
         2122
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen; UP-Website nennt nur Kontaktadresse des Präsidiums (Gumefens), Verzeichnis eine abweichende Adresse in Le Bry (Art unklar); beide nicht übernommen. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22"
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen; UP-Website nennt nur Kontaktadresse des Präsidiums (Gumefens), Verzeichnis eine abweichende Adresse in Le Bry (Art unklar); beide nicht übernommen. Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-04-22 | Nachrecherche 28.10.2026: Website jetzt direkt erreichbar; sie nennt als Kontakt nur die Privatadresse des Präsidiums (Gumefens), das cath-fr-Verzeichnis eine andere Adresse in Le Bry (Art unbelegt), UID CHE-260.103.633 nur mit PLZ/Ort. Neu: Sekretariat der UP Notre-Dame de Compassion an der Cure Bulle (wie Sâles, Sorens, Vaulruz, Vuadens). Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»."
     },
     {
       "id": "fr-barbereche",
@@ -229,8 +232,10 @@
       "name": "Paroisse Saint-Maurice, Billens",
       "postal": [
         "Paroisse Saint-Maurice, Billens",
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
         "Rue de l'Eglise 106",
-        "1680 Romont"
+        "1680 Romont FR"
       ],
       "address_type": "pfarramt",
       "email": "Billens@upglane.ch",
@@ -240,8 +245,8 @@
         2063
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die Website nennt Route de l'Eglise 5; laut Telefonbuch ein Privathaushalt (vermutlich Präsidium). Verzeichnis nur «1681 Billens». Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-332.916.844 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Die Website nennt Route de l'Eglise 5; laut Telefonbuch ein Privathaushalt (vermutlich Präsidium). Verzeichnis nur «1681 Billens». Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-332.916.844 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt. | Nachrecherche 28.10.2026: Confidence auf medium: Das UP-Sekretariat (Cure Romont, Sitz zweier Priester der UP) ist das Pfarramt der UP. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial». Ortsname amtlich «Romont FR»."
     },
     {
       "id": "fr-bosingen",
@@ -368,19 +373,21 @@
       "name": "Paroisse Sainte-Anne, Châtonnaye",
       "postal": [
         "Paroisse Sainte-Anne, Châtonnaye",
-        "Route de Romont 20",
-        "1553 Châtonnaye"
+        "Commission administrative exceptionnelle",
+        "c/o Corporation ecclésiastique catholique du canton de Fribourg",
+        "Boulevard de Pérolles 38",
+        "1700 Fribourg"
       ],
-      "address_type": "uid",
+      "address_type": "verwaltung",
       "email": "Chatonnaye@upglane.ch",
       "website": "https://www.upglane.ch/paroisses/chatonnaye",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE426270968",
+      "source": "https://www.upglane.ch/paroisses/chatonnaye/annuaire-de-chatonnaye",
       "bfs": [
         2068
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website nennt nur eine Person mit Privatadresse. Pfarrei wird derzeit von einer «Commission administrative exceptionnelle» (mit Administrator der Corporation ecclésiastique cantonale) statt eines Conseil paroissial geführt: https://www.upglane.ch/paroisses/chatonnaye/annuaire-de-chatonnaye | Nachrecherche: UID CHE-426.270.968, ohne c/o, aber laut UID nicht zustellbar (Prüfung 08.09.2026). Die Pfarrei wird von einer «Commission administrative exceptionnelle» mit einem Administrator der kantonalen Körperschaft (CEC) geführt (https://www.upglane.ch/paroisses/chatonnaye/annuaire-de-chatonnaye); Rückfrage dort sinnvoll."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur eine Person mit Privatadresse. Pfarrei wird derzeit von einer «Commission administrative exceptionnelle» (mit Administrator der Corporation ecclésiastique cantonale) statt eines Conseil paroissial geführt: https://www.upglane.ch/paroisses/chatonnaye/annuaire-de-chatonnaye | Nachrecherche: UID CHE-426.270.968, ohne c/o, aber laut UID nicht zustellbar (Prüfung 08.09.2026). Die Pfarrei wird von einer «Commission administrative exceptionnelle» mit einem Administrator der kantonalen Körperschaft (CEC) geführt (https://www.upglane.ch/paroisses/chatonnaye/annuaire-de-chatonnaye); Rückfrage dort sinnvoll. | Nachrecherche 28.10.2026: UID-Adresse laut UID nicht zustellbar, deshalb nicht mehr verwendet. Die Pfarrei wird von einer «Commission administrative exceptionnelle» geführt; Präsidium und Administrator haben Adressen @cath-fr.ch, der Administrator die Telefonnummer der kantonalen Körperschaft (026 426 34 00, laut https://www.cath-fr.ch/corporation-cantonale/). Neu: c/o Corporation ecclésiastique catholique, Boulevard de Pérolles 38, 1700 Fribourg. Dass die Commission ihre Post dort empfängt, ist abgeleitet, nicht ausdrücklich publiziert."
     },
     {
       "id": "fr-christ-roi-fribourg",
@@ -459,7 +466,7 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die Pfarrei hat kein Sekretariat; Website nennt nur eine P.A.-Adresse beim Pfarreisekretär (Privatadresse in 1721 Misery), das Verzeichnis eine p.a.-Privatadresse. Umfasst Cormérod, Cournillens, Courtion, Misery. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat"
+      "note": "Postadresse auf der Website prüfen. Die Pfarrei hat kein Sekretariat; Website nennt nur eine P.A.-Adresse beim Pfarreisekretär (Privatadresse in 1721 Misery), das Verzeichnis eine p.a.-Privatadresse. Umfasst Cormérod, Cournillens, Courtion, Misery. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat | Nachrecherche 28.10.2026: Pfarreiseite nennt als «Adresse postale» nur «P.A.» den Pfarreisekretär (Privatadresse in Misery) und sagt: «La paroisse de Courtion n'a pas de secrétariat». UID CHE-327.153.299 nur mit PLZ/Ort; Gemeindebroschüre Misery-Courtion ohne Postadresse. Das UP-Sekretariat (Belfaux) verweist Anliegen wie Steuern ausdrücklich an die Pfarrei, deshalb kein Ersatz."
     },
     {
       "id": "fr-cressier-sur-morat",
@@ -596,7 +603,7 @@
       "address_type": "sekretariat",
       "email": "info@psle.ch",
       "website": "https://www.paroisse-st-laurent-estavayer.ch/",
-      "source": "https://paroisse-st-laurent-estavayer.ch/wp-content/uploads/bsk-pdf-manager/2025/11/Semaine-49.pdf",
+      "source": "https://paroisse-st-laurent-estavayer.ch/contact/secretariat/",
       "bfs": [
         2008,
         2055,
@@ -610,7 +617,7 @@
       ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Sekretariat Rue St-Laurent 9 deckt sich mit Verzeichnis und Pfarreidokumenten 2025/2026 (Wochenblatt, Tätigkeitsbericht 2025). Die Pfarrei-Website war von hier aus technisch nicht abrufbar (TLS-Fehler); Bestätigung über den Suchindex dieser PDFs. Verzeichnis-Mail: paroisse@paroisse-st-laurent-estavayer.ch."
+      "note": "Sekretariat Rue St-Laurent 9 deckt sich mit Verzeichnis und Pfarreidokumenten 2025/2026 (Wochenblatt, Tätigkeitsbericht 2025). Die Pfarrei-Website war von hier aus technisch nicht abrufbar (TLS-Fehler); Bestätigung über den Suchindex dieser PDFs. Verzeichnis-Mail: paroisse@paroisse-st-laurent-estavayer.ch. | Nachrecherche 28.10.2026: Pfarrei-Website jetzt direkt erreichbar; Kontaktseite «Secrétariat» bestätigt Rue St-Laurent 9, 1470 Estavayer-le-Lac, Mail info@psle.ch."
     },
     {
       "id": "fr-farvagny",
@@ -1071,27 +1078,31 @@
       "name": "Paroisse Notre-Dame de l'Epine, Mézières",
       "postal": [
         "Paroisse Notre-Dame de l'Epine, Mézières",
-        "Chemin de la Côte 22",
-        "1684 Mézières FR"
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
+        "Rue de l'Eglise 106",
+        "1680 Romont FR"
       ],
-      "address_type": "uid",
+      "address_type": "pfarramt",
       "email": "ND-Epine-Mezieres@upglane.ch",
       "website": "https://www.upglane.ch/paroisses/berlens-mezieres",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE130530846",
+      "source": "https://www.upglane.ch/paroisses/berlens-mezieres",
       "bfs": [
         2087
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website nennt Postadresse «p.a.» einer Privatperson. Fusion Berlens/Mézières per 1.1.2014. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: UID CHE-130.530.846, ohne c/o, aber laut UID nicht zustellbar (Prüfung 30.09.2026). Keine weitere Quelle bestätigt die Adresse. Ersatz: UP-Sekretariat Rue de l'Eglise 106, 1680 Romont (nur für Sakramentsfragen genannt)."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website nennt Postadresse «p.a.» einer Privatperson. Fusion Berlens/Mézières per 1.1.2014. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: UID CHE-130.530.846, ohne c/o, aber laut UID nicht zustellbar (Prüfung 30.09.2026). Keine weitere Quelle bestätigt die Adresse. Ersatz: UP-Sekretariat Rue de l'Eglise 106, 1680 Romont (nur für Sakramentsfragen genannt). | Nachrecherche 28.10.2026: UID-Adresse (CHE-130.530.846) laut UID nicht zustellbar (Prüfung 30.09.2026, heute erneut bestätigt), deshalb nicht mehr verwendet. Neu: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das die Pfarreiseite nennt. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»."
     },
     {
       "id": "fr-middes-torny-pittet",
       "name": "Paroisse Saint-Martin, Torny-Pittet",
       "postal": [
         "Paroisse Saint-Martin, Torny-Pittet",
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
         "Rue de l'Eglise 106",
-        "1680 Romont"
+        "1680 Romont FR"
       ],
       "address_type": "pfarramt",
       "email": "Torny-Pittet@upglane.ch",
@@ -1101,26 +1112,28 @@
       "partial_bfs": [
         2115
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website nennt nur «1749 Middes»; Strasse im Verzeichnis (Route de Payerne 51) ist laut Telefonbuch die Privatadresse des Präsidiums. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-262.960.944 («Paroisse de Middes») nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website nennt nur «1749 Middes»; Strasse im Verzeichnis (Route de Payerne 51) ist laut Telefonbuch die Privatadresse des Präsidiums. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-262.960.944 («Paroisse de Middes») nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt. | Nachrecherche 28.10.2026: Confidence auf medium: Das UP-Sekretariat (Cure Romont, Sitz zweier Priester der UP) ist das Pfarramt der UP. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial». Ortsname amtlich «Romont FR»."
     },
     {
       "id": "fr-montagny-tours",
       "name": "Paroisse de Montagny-Tours",
       "postal": [
         "Paroisse de Montagny-Tours",
-        "Route de Belmont 27",
-        "1776 Montagny-la-Ville"
+        "Conseil paroissial",
+        "Cure de Montagny",
+        "Route du Pavement 26",
+        "1774 Montagny-les-Monts"
       ],
-      "address_type": "uid",
+      "address_type": "kirchenpflege",
       "website": "https://upnotredamedetours.ch/2017/10/26/paroisse-de-montagny-tours/",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE108933611",
+      "source": "https://upnotredamedetours.ch/2017/10/26/paroisse-de-montagny-tours/",
       "bfs": [],
       "partial_bfs": [
         2029
       ],
-      "confidence": "low",
-      "note": "Vor Versand prüfen: Route du Pavement 26 (Cure de Montagny) ist auf der Website die Adresse des Ratsmitglieds für «Administration générale»; am selben Ort sitzt das UP-Sekretariat, das keine Austritte bearbeitet. Verzeichnis: Chapellenie Notre-Dame de Tours, 1774 Cousset (ohne Strasse). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/ | Nachrecherche: Nicht in open-FR.json, aber im Auftrag genannt. UID CHE-108.933.611 mit c/o einer Person (Name weggelassen), zustellbar (22.09.2026); die Person steht nicht im aktuellen Conseil (https://upnotredamedetours.ch/2017/10/26/paroisse-de-montagny-tours/, Präsidium dort: Route du Pavement 26 = Cure/UP-Sekretariat, das keine Austritte bearbeitet). Eintrag evtl. veraltet."
+      "confidence": "medium",
+      "note": "Vor Versand prüfen: Route du Pavement 26 (Cure de Montagny) ist auf der Website die Adresse des Ratsmitglieds für «Administration générale»; am selben Ort sitzt das UP-Sekretariat, das keine Austritte bearbeitet. Verzeichnis: Chapellenie Notre-Dame de Tours, 1774 Cousset (ohne Strasse). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/ | Nachrecherche: Nicht in open-FR.json, aber im Auftrag genannt. UID CHE-108.933.611 mit c/o einer Person (Name weggelassen), zustellbar (22.09.2026); die Person steht nicht im aktuellen Conseil (https://upnotredamedetours.ch/2017/10/26/paroisse-de-montagny-tours/, Präsidium dort: Route du Pavement 26 = Cure/UP-Sekretariat, das keine Austritte bearbeitet). Eintrag evtl. veraltet. | Nachrecherche 28.10.2026: Die Pfarreiseite nennt für die Präsidentin des Conseil de paroisse die Route du Pavement 26, 1774 Montagny-les-Monts; dort ist laut UP-Seite die Cure de Montagny (Sitz des UP-Sekretariats). Die UID-Adresse (c/o einer Person, die nicht mehr im Conseil sitzt) wird nicht mehr verwendet. Das UP-Sekretariat bearbeitet keine Austritte; der Brief ist deshalb an den Conseil paroissial adressiert. Die UP bittet, Austritte per A-Post und nicht eingeschrieben zu senden."
     },
     {
       "id": "fr-morlon",
@@ -1197,19 +1210,21 @@
       "name": "Paroisse Saints-Pierre-et-Paul, Orsonnens",
       "postal": [
         "Paroisse Saints-Pierre-et-Paul, Orsonnens",
-        "Chemin de l'Eglise 23",
-        "1694 Orsonnens"
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
+        "Rue de l'Eglise 106",
+        "1680 Romont FR"
       ],
-      "address_type": "uid",
+      "address_type": "pfarramt",
       "email": "Orsonnens@upglane.ch",
       "website": "https://www.upglane.ch/paroisses/orsonnens",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE175478426",
+      "source": "https://www.upglane.ch/paroisses/orsonnens",
       "bfs": [],
       "partial_bfs": [
         2114
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen nur «1693 Orsonnens» ohne Strasse; Telefon gehört zum Präsidium. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. Website/Verzeichnis schreiben «1693 Orsonnens»; amtliche PLZ laut Ortschaftenverzeichnis ist 1694. | Nachrecherche: UID CHE-175.478.426 «Paroisse Catholique d'Orsonnens», ohne c/o, aber laut UID nicht zustellbar (Prüfung 17.09.2026). Wohngebäude bei der Kirche (evtl. Cure), nicht belegt. Ersatz: UP-Sekretariat Rue de l'Eglise 106, 1680 Romont."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen nur «1693 Orsonnens» ohne Strasse; Telefon gehört zum Präsidium. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. Website/Verzeichnis schreiben «1693 Orsonnens»; amtliche PLZ laut Ortschaftenverzeichnis ist 1694. | Nachrecherche: UID CHE-175.478.426 «Paroisse Catholique d'Orsonnens», ohne c/o, aber laut UID nicht zustellbar (Prüfung 17.09.2026). Wohngebäude bei der Kirche (evtl. Cure), nicht belegt. Ersatz: UP-Sekretariat Rue de l'Eglise 106, 1680 Romont. | Nachrecherche 28.10.2026: UID-Adresse (CHE-175.478.426) laut UID nicht zustellbar (Prüfung 17.09.2026), deshalb nicht mehr verwendet. Neu: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das die Pfarreiseite nennt. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»."
     },
     {
       "id": "fr-plaffeien",
@@ -1254,25 +1269,27 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Website nennt keine Postadresse (nur «Pfarrei Plasselb, Verwaltung/Sekretariat», Mail, Tel.); Verzeichnis nur «Pfarramt, 1737 Plasselb». Postfach 12 steht nur im Pfarrblatt SE Sense-Oberland Nov. 2026 beim Eintrag Pfarreiverwaltung (seit 1.10.2026 neu besetzt; frühere Ausgaben nannten eine Privatadresse); dass es ein Postfach der Pfarrei ist, ist nicht bestätigt. Postadresse auf der Website prüfen."
+      "note": "Website nennt keine Postadresse (nur «Pfarrei Plasselb, Verwaltung/Sekretariat», Mail, Tel.); Verzeichnis nur «Pfarramt, 1737 Plasselb». Postfach 12 steht nur im Pfarrblatt SE Sense-Oberland Nov. 2026 beim Eintrag Pfarreiverwaltung (seit 1.10.2026 neu besetzt; frühere Ausgaben nannten eine Privatadresse); dass es ein Postfach der Pfarrei ist, ist nicht bestätigt. Postadresse auf der Website prüfen. | Nachrecherche 28.10.2026: Website weiter ohne Postadresse; UID CHE-288.578.670 nur mit PLZ/Ort. Pfarrblatt Nov. 2026 nennt Postfach 12 bei der Pfarreiverwaltung (seit 10/2026 die Sekretärin der SE Sense-Oberland); ein Mitglied der Pastoralgruppe hat ebenfalls ein eigenes Postfach, ob Postfach 12 der Pfarrei gehört, bleibt offen."
     },
     {
       "id": "fr-pont-la-ville",
       "name": "Paroisse de Pont-la-Ville",
       "postal": [
         "Paroisse de Pont-la-Ville",
-        "Impasse de Thusy 89",
-        "1649 Pont-la-Ville"
+        "Conseil paroissial",
+        "Secrétariat UP Notre-Dame de Compassion",
+        "Rue du Marché 32",
+        "1630 Bulle"
       ],
-      "address_type": "uid",
+      "address_type": "pfarramt",
       "website": "https://upcompassion.ch/paroisses/pont-la-ville/",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE294685334",
+      "source": "https://upcompassion.ch/unite-pastorale/secretariat/",
       "bfs": [
         2147
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen; UP-Website nennt nur Kontaktadresse des Präsidiums (nicht übernommen), Verzeichnis nur «1634 La Roche». Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-03-14 | Nachrecherche: UID CHE-294.685.334 mit c/o des Präsidenten (Name weggelassen), Zustellbarkeit im UID nicht bestätigt. UP-Seite (Wayback 14.03.2026, https://web.archive.org/web/20260314135849/https://upcompassion.ch/paroisses/pont-la-ville/) nennt dieselbe Adresse als Kontakt des Präsidenten. Privathaushalt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen; UP-Website nennt nur Kontaktadresse des Präsidiums (nicht übernommen), Verzeichnis nur «1634 La Roche». Website direkt nicht erreichbar (TLS-Abbruch), geprüft über Wayback-Snapshot 2026-03-14 | Nachrecherche: UID CHE-294.685.334 mit c/o des Präsidenten (Name weggelassen), Zustellbarkeit im UID nicht bestätigt. UP-Seite (Wayback 14.03.2026, https://web.archive.org/web/20260314135849/https://upcompassion.ch/paroisses/pont-la-ville/) nennt dieselbe Adresse als Kontakt des Präsidenten. Privathaushalt. | Nachrecherche 28.10.2026: UID CHE-294.685.334 laut UID nicht zustellbar (Prüfung 12.09.2026); die Adresse ist laut UP-Seite (jetzt direkt erreichbar) die Kontaktadresse des Präsidenten, also ein Privathaushalt. Neu: Sekretariat der UP Notre-Dame de Compassion an der Cure Bulle. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»."
     },
     {
       "id": "fr-ponthaux",
@@ -1444,18 +1461,20 @@
       "postal": [
         "Paroisse de Rossens",
         "Conseil paroissial",
-        "1728 Rossens"
+        "Secrétariat UP Saint-Protais",
+        "Route de Posieux 1",
+        "1730 Ecuvillens"
       ],
-      "address_type": "praesidium",
+      "address_type": "pfarramt",
       "email": "paroisserossens@etik.com",
       "website": "https://up-st-protais.ch/paroisses/rossens",
-      "source": "https://up-st-protais.ch/paroisses/rossens",
+      "source": "https://up-st-protais.ch/up-saint-protais/secretariat-de-lup",
       "bfs": [],
       "partial_bfs": [
         2236
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen nur eine p.a.-Adresse bei der Präsidentin (Privatadresse). Sekretariat der UP Saint-Protais: Route de Posieux 1, 1730 Ecuvillens (nicht als Pfarreiadresse bestätigt)."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen nur eine p.a.-Adresse bei der Präsidentin (Privatadresse). Sekretariat der UP Saint-Protais: Route de Posieux 1, 1730 Ecuvillens (nicht als Pfarreiadresse bestätigt). | Nachrecherche 28.10.2026: Pfarreiseite nennt als «Adresse postale» nur «p.a.» die Präsidentin (Privatadresse); UID CHE-464.388.944 nur mit PLZ/Ort. Neu: Sekretariat der UP Saint-Protais, Route de Posieux 1, 1730 Ecuvillens; dort hat auch der Curé modérateur der UP (zu der Rossens gehört) seine Adresse. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»."
     },
     {
       "id": "fr-rue",
@@ -1495,7 +1514,7 @@
       ],
       "partial_bfs": [],
       "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Fusion 1.1.2025 aus Carignan-Vallon, Gletterens und Delley-Portalban. Weder UP-Seite noch Gemeinde-Websites (Vallon, Delley-Portalban, Gletterens) noch Wochenblatt nennen eine Postadresse oder Case postale, nur Personen; Ort = Wohnort des Präsidiums laut UP-Seite. Alte Verzeichniseinträge: p.a. UP Notre-Dame de Tours (bearbeitet keine Austritte). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/"
+      "note": "Postadresse auf der Website prüfen. Fusion 1.1.2025 aus Carignan-Vallon, Gletterens und Delley-Portalban. Weder UP-Seite noch Gemeinde-Websites (Vallon, Delley-Portalban, Gletterens) noch Wochenblatt nennen eine Postadresse oder Case postale, nur Personen; Ort = Wohnort des Präsidiums laut UP-Seite. Alte Verzeichniseinträge: p.a. UP Notre-Dame de Tours (bearbeitet keine Austritte). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/ | Nachrecherche 28.10.2026: UP-Seite (Stand 17.02.2025) erneut geprüft: nur Namen, Mail und Telefon des Conseil, keine Postadresse. UID CHE-239.675.670 nur mit PLZ/Ort (1568 Portalban). Das UP-Sekretariat (Cure Montagny) bearbeitet laut UP keine Austritte, deshalb kein Ersatz über das Pfarramt."
     },
     {
       "id": "fr-saint-martin",
@@ -1605,8 +1624,10 @@
       "name": "Paroisse Notre-Dame de l'Assomption, Sommentier",
       "postal": [
         "Paroisse Notre-Dame de l'Assomption, Sommentier",
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
         "Rue de l'Eglise 106",
-        "1680 Romont"
+        "1680 Romont FR"
       ],
       "address_type": "pfarramt",
       "email": "Sommentier@upglane.ch",
@@ -1616,8 +1637,8 @@
       "partial_bfs": [
         2113
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website nennt als Adresse eine Privatperson (Sekretariat). Weitere Funktionsadresse: paroisse.sommentier@gmail.com. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-475.081.148 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website nennt als Adresse eine Privatperson (Sekretariat). Weitere Funktionsadresse: paroisse.sommentier@gmail.com. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-475.081.148 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt. | Nachrecherche 28.10.2026: Confidence auf medium: Das UP-Sekretariat (Cure Romont, Sitz zweier Priester der UP) ist das Pfarramt der UP. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial». Ortsname amtlich «Romont FR»."
     },
     {
       "id": "fr-sorens",
@@ -1834,16 +1855,16 @@
         "Au Village 36",
         "1528 Surpierre"
       ],
-      "address_type": "sekretariat",
+      "address_type": "verwaltung",
       "email": "paroisse.surpierre@bluewin.ch",
       "website": "https://www.paroissesurpierre.ch/",
-      "source": "https://www.cath-fr.ch/wp-json/mapsvg/v1/shortcodes/%5Bckc_addresses%20type%3D%22institution%22%20inst_id%3D%221611%22%5D",
+      "source": "https://www.paroissesurpierre.ch/administration/",
       "bfs": [
         2044
       ],
       "partial_bfs": [],
-      "confidence": "medium",
-      "note": "Nur Verzeichnis; laut Telefonbuch «Bureau paroissial de Surpierre». Pfarrei-Website von hier aus nicht abrufbar. Gehört zur UP St-Barnabé (Sekretariat Rue de Guillermaux 17, 1530 Payerne)."
+      "confidence": "high",
+      "note": "Nur Verzeichnis; laut Telefonbuch «Bureau paroissial de Surpierre». Pfarrei-Website von hier aus nicht abrufbar. Gehört zur UP St-Barnabé (Sekretariat Rue de Guillermaux 17, 1530 Payerne). | Nachrecherche 28.10.2026: Pfarrei-Website jetzt direkt erreichbar: «Bureau à la cure de Surpierre», «Adresse postale: Au Village 36, 1528 Surpierre» (Seite Administration); deckt sich mit Verzeichnis und Telefonbuch."
     },
     {
       "id": "fr-tafers",
@@ -1872,8 +1893,10 @@
       "name": "Paroisse Saint-Nicolas de Myre, Torny-le-Grand",
       "postal": [
         "Paroisse Saint-Nicolas de Myre, Torny-le-Grand",
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
         "Rue de l'Eglise 106",
-        "1680 Romont"
+        "1680 Romont FR"
       ],
       "address_type": "pfarramt",
       "email": "Torny-le-Grand@upglane.ch",
@@ -1883,8 +1906,8 @@
       "partial_bfs": [
         2115
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website nennt als Adresse eine Privatperson (Sekretariat). Eigene Site paroisse-torny-le-grand.ch ohne Adresse (veraltet); Funktionsadresse dort: secretariat@paroisse-torny-le-grand.ch. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-315.760.104 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website nennt als Adresse eine Privatperson (Sekretariat). Eigene Site paroisse-torny-le-grand.ch ohne Adresse (veraltet); Funktionsadresse dort: secretariat@paroisse-torny-le-grand.ch. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-315.760.104 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt. | Nachrecherche 28.10.2026: Confidence auf medium: Das UP-Sekretariat (Cure Romont, Sitz zweier Priester der UP) ist das Pfarramt der UP. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial». Ortsname amtlich «Romont FR»."
     },
     {
       "id": "fr-treyvaux",
@@ -2036,8 +2059,10 @@
       "name": "Paroisse Saint-Théodule, Villarsiviriaux",
       "postal": [
         "Paroisse Saint-Théodule, Villarsiviriaux",
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
         "Rue de l'Eglise 106",
-        "1680 Romont"
+        "1680 Romont FR"
       ],
       "address_type": "pfarramt",
       "email": "Villarsiviriaux@upglane.ch",
@@ -2047,8 +2072,8 @@
       "partial_bfs": [
         2114
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die auf der Website genannte Strasse ist laut Verzeichnis die Adresse «p.a.» einer Privatperson (Sekretariat). Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-367.873.460 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Die auf der Website genannte Strasse ist laut Verzeichnis die Adresse «p.a.» einer Privatperson (Sekretariat). Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: Pfarrei nennt auf ihrer Seite keine Postadresse (nur Personen mit Mail/Telefon); UID CHE-367.873.460 nur mit PLZ/Ort ohne Strasse. Ersatz: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das auf der Pfarreiseite nur für Sakramentsfragen genannt wird; Weiterleitung an den Conseil paroissial nicht belegt. | Nachrecherche 28.10.2026: Confidence auf medium: Das UP-Sekretariat (Cure Romont, Sitz zweier Priester der UP) ist das Pfarramt der UP. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial». Ortsname amtlich «Romont FR»."
     },
     {
       "id": "fr-villaz",
@@ -2137,19 +2162,21 @@
       "name": "Paroisse Notre-Dame de la Nativité, Vuisternens-La Joux",
       "postal": [
         "Paroisse Notre-Dame de la Nativité, Vuisternens-La Joux",
-        "Impasse Derrière l'Eglise 3",
-        "1687 Vuisternens-devant-Romont"
+        "Conseil paroissial",
+        "Secrétariat UP Sainte Marguerite Bays",
+        "Rue de l'Eglise 106",
+        "1680 Romont FR"
       ],
-      "address_type": "uid",
+      "address_type": "pfarramt",
       "email": "ND-Nativite-Vuisternens@upglane.ch",
       "website": "https://www.upglane.ch/paroisses/vuisternens-dt-romont",
-      "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE399841174",
+      "source": "https://www.upglane.ch/paroisses/vuisternens-dt-romont",
       "bfs": [],
       "partial_bfs": [
         2113
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen «p.a.» das Präsidium (Privatadresse in Villariaz). Fusion Vuisternens-devant-Romont/La Joux per 1.1.2023. Weitere Funktionsadresse: paroisse.vuisternens@gmail.com. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: UID CHE-399.841.174 lautet noch «Paroisse catholique romaine de Vuisternens-dt-Romont» (vor Fusion mit La Joux 2023), ohne c/o, Zustellbarkeit nicht bestätigt. Für die fusionierte Pfarrei kein eigener UID-Eintrag gefunden. Website/Verzeichnis nennen nur das Präsidium (Privatadresse)."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Website und Verzeichnis nennen «p.a.» das Präsidium (Privatadresse in Villariaz). Fusion Vuisternens-devant-Romont/La Joux per 1.1.2023. Weitere Funktionsadresse: paroisse.vuisternens@gmail.com. Das UP-Sekretariat (Rue de l'Eglise 106, 1680 Romont) wird nur für Sakramentsfragen genannt. | Nachrecherche: UID CHE-399.841.174 lautet noch «Paroisse catholique romaine de Vuisternens-dt-Romont» (vor Fusion mit La Joux 2023), ohne c/o, Zustellbarkeit nicht bestätigt. Für die fusionierte Pfarrei kein eigener UID-Eintrag gefunden. Website/Verzeichnis nennen nur das Präsidium (Privatadresse). | Nachrecherche 28.10.2026: UID-Adresse (CHE-399.841.174) laut UID nicht zustellbar (Prüfung 21.09.2026), deshalb nicht mehr verwendet. Neu: Sekretariat der UP Sainte Marguerite Bays (Cure Romont), das die Pfarreiseite nennt. Statut Art. 9 Abs. 1 erlaubt die Abgabe bei der kirchlichen Behörde, die an den Conseil paroissial weiterleitet; cath-fr.ch (Sortie d'Église): «Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»."
     },
     {
       "id": "fr-wallenried",
@@ -2434,13 +2461,16 @@
   ],
   "unmapped_bfs": [],
   "issues": [
+    "Ohne Strasse bleiben Saint-François d'Orsens (Gletterens, Vallon, Delley, Portalban) und Courtion (Cormérod, Cournillens, Courtion, Misery): Beide publizieren nur Personen bzw. eine «P.A.»-Privatadresse, die UID-Einträge haben keine Strasse, und die UP-Sekretariate nehmen Austritte bzw. Steuerfragen ausdrücklich nicht an. Fehlt: eine Postadresse oder ein Postfach der Pfarrei (Rückfrage beim Conseil). Menschlicher Entscheid möglich: «p.a. Secrétaire/Président» ohne Namen an die publizierte Adresse.",
+    "Plasselb: Postfach 12 nur im Pfarrblatt bei der Pfarreiverwaltung; ob es ein Postfach der Pfarrei ist, ist unbestätigt (low).",
+    "Châtonnaye: Adresse c/o kantonale Körperschaft (CEC) aus den CEC-Kontaktdaten der Commission administrative abgeleitet; Bestätigung durch die CEC fehlt.",
+    "Fusionsprojekt Chapelle-Gillarens: an der Pfarreiversammlung vom 24.3.2026 traktandiert; kein Beschluss und kein Stichtag publiziert (cath-fr-Fusionsliste ohne Eintrag für 2027, Stand 28.10.2026). Fehlt: Beschluss bzw. Bischofsdekret mit Datum."
+  ],
+  "grundlage": [
     "Zuordnung Gemeinde → Pfarrei aus der amtlichen Liste «Coefficients d'impôt des paroisses catholiques, état au 1er août 2026» (fr.ch); Ortsteile geteilter Gemeinden aus den amtlichen Pfarreigrenzen (maps.fr.ch OpenData, Stand Fusion 2025) geschnitten mit dem amtlichen Gebäudeadressverzeichnis (swisstopo, 27.10.2026). Grenzfälle einzelner Adressen bleiben möglich.",
-    "Konflikt mit dem Briefinhalt: Laut Statut Art. 9 Abs. 2 und Art. 11 Abs. 2bis gehen Austritt bzw. Kopie an Pfarrer und Diözesanbehörde; die Bitte, Pfarrei und Bistum nicht zu informieren, kann in FR nicht durchgesetzt werden.",
-    "Viele Pfarreien (v. a. Glâne, Broye, Teile der Sarine/Gruyère) publizieren nur Präsidiums- oder Privatadressen: dort steht nur Pfarreiname + PLZ Ort (confidence low, 'Postadresse auf der Website prüfen'). Betroffen u. a. Saint-François d'Orsens (Fusion 1.1.2025, keine Postadresse gefunden), Mannens-Grandsivaz, Villarepos, Autigny, Courtion, Ponthaux, Rossens, Vuisternens-en-Ogoz, Avry-devant-Pont, Crésuz, Haut-Intyamon, Pont-la-Ville und zehn Glâne-Pfarreien.",
-    "UP Notre-Dame de Tours: das UP-Sekretariat (Route du Pavement 26, Montagny-les-Monts) bearbeitet ausdrücklich keine Austritte; Montagny-Tours hat dieselbe Adresse (low).",
-    "Mehrere Websites (Infomaniak-Hosting, z. B. upcompassion.ch, paroisse-st-laurent-estavayer.ch, paroissesurpierre.ch) waren aus dieser Umgebung nicht abrufbar; geprüft über Wayback-Snapshots 2026 bzw. das cath-fr.ch-Verzeichnis (siehe note).",
-    "Das cath-fr.ch-Adressverzeichnis enthält veraltete Einträge (vor Fusionen, alte Web-/Mailadressen, Tippfehler wie «Duenstrasse»); wo Pfarrei-Websites abwichen, wurde die Website übernommen.",
-    "Châtonnaye wird derzeit von einer «Commission administrative exceptionnelle» statt eines Conseil paroissial geführt.",
-    "Für Chapelle-Gillarens ist ein Fusionsprojekt (2026) traktandiert; Pfarreigrenzen und Adressen können sich zum 1.1.2027 ändern."
+    "Pfarreien ohne eigene Postadresse (nur Präsidiums- oder Privatadressen): Brief an den Conseil paroissial über das Pfarramt bzw. das UP-Sekretariat (address_type pfarramt, medium). Grundlage: Statut Art. 9 Abs. 1 (Erklärung kann der kirchlichen Behörde abgegeben werden, die sie dem Conseil paroissial übermittelt) und cath-fr.ch «Sortie d'Église» («Si vous l'avez remise à l'autorité ecclésiale (par exemple au curé), celle-ci la transmettra au Conseil paroissial»). Ausgenommen sind UP, die Austritte ausdrücklich nicht annehmen (Notre-Dame de Tours, Sainte-Trinité für Steuerfragen).",
+    "UID-Adressen, die laut UID nicht zustellbar sind (deliverable = false), werden nicht verwendet, wenn ein Pfarramt bzw. UP-Sekretariat zur Verfügung steht.",
+    "Das cath-fr.ch-Adressverzeichnis enthält veraltete Einträge (vor Fusionen, alte Web-/Mailadressen, Tippfehler); wo Pfarrei-Websites abwichen, wurde die Website übernommen.",
+    "Die Infomaniak-Seiten (upcompassion.ch, paroisse-st-laurent-estavayer.ch, paroissesurpierre.ch) waren am 28.10.2026 direkt erreichbar; live geprüft wurden Avry-devant-Pont, Pont-la-Ville, Echarlens, Sâles, Estavayer und Surpierre. Die übrigen Einträge mit Vermerk «Wayback-Snapshot» stützen sich weiter auf Snapshots 2026."
   ]
 }
