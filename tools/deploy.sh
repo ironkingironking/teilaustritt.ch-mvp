@@ -15,7 +15,8 @@ APPLY=0
 
 cd "$(dirname "$0")/.."
 
-git fetch -q origin
+# HTTPS-Remote ohne gespeicherte Zugangsdaten: einmalig die Anmeldung von gh verwenden
+git fetch -q origin 2>/dev/null || git -c credential.helper= -c credential.helper='!gh auth git-credential' fetch -q origin
 if [[ -n "$(git status --porcelain --untracked-files=no)" ]]; then
   echo "Abbruch: Arbeitsbaum hat uncommittete Änderungen." >&2; exit 1
 fi
