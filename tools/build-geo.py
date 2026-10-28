@@ -50,6 +50,36 @@ def round_ring(ring, crs):
     nd = 1 if crs == "EPSG:2056" else 6
     return [[round(x, nd), round(y, nd)] for x, y in ring]
 
+def ring_area(ring):
+    return abs(sum(x1 * y2 - x2 * y1 for (x1, y1), (x2, y2) in zip(ring, ring[1:] + ring[:1]))) / 2
+
+def point_in_ring(pt, ring):
+    x, y = pt
+    inside, j = False, len(ring) - 1
+    for i in range(len(ring)):
+        (xi, yi), (xj, yj) = ring[i], ring[j]
+        if (yi > y) != (yj > y) and x < (xj - xi) * (y - yi) / (yj - yi) + xi:
+            inside = not inside
+        j = i
+    return inside
+
+def inside(ring, other):
+    """Liegt der Ring in «other»? Mehrheit der Eckpunkte, weil Ringe sich in einzelnen Punkten berühren dürfen."""
+    return sum(point_in_ring(pt, other) for pt in ring) * 2 > len(ring)
+
+def fix_rings(poly):
+    """Manche Quellen (SG00090) speichern eigene Flächen als «Loch» einer kleineren Fläche. Die Seite
+    erwartet je Polygon den Aussenring zuerst. Ein Ring, der in einer grösseren Fläche liegt (und nicht
+    in einem ihrer Löcher), ist deren Loch, sonst eine eigene Fläche."""
+    parts = []
+    for ring in sorted(poly, key=ring_area, reverse=True):
+        host = next((p for p in parts if inside(ring, p[0]) and not any(inside(ring, h) for h in p[1:])), None)
+        if host:
+            host.append(ring)
+        else:
+            parts.append([ring])
+    return parts
+
 def main():
     args = [a for a in sys.argv[1:] if a != "--skip-unmatched"]
     skip = len(args) != len(sys.argv) - 1
@@ -85,7 +115,8 @@ def main():
             kg = hits[0]
         g = f["geometry"]
         polys = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]
-        polys = [[round_ring(simplify(r, tol), crs) if tol else round_ring(r, crs) for r in poly] for poly in polys]
+        polys = [part for poly in polys
+                 for part in fix_rings([round_ring(simplify(r, tol), crs) if tol else round_ring(r, crs) for r in poly])]
         features.append({"type": "Feature", "properties": {"kg": kg, "name": label},
                          "geometry": {"type": "MultiPolygon", "coordinates": polys}})
     if problems:

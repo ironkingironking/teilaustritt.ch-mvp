@@ -275,8 +275,10 @@ async function streetLookup(street) {
     const pt = geo.crs === "EPSG:4326" ? [Number(hit.attrs.lon), Number(hit.attrs.lat)] : [Number(hit.attrs.y), Number(hit.attrs.x)];
     const feature = geo.features.find((f) => pointInGeometry(pt, f.geometry));
     const label = String(hit.attrs.label || "").replace(/<[^>]+>/g, "");
-    if (feature && state.split.ids.includes(feature.properties.kg)) {
-      setKg(kt, feature.properties.kg);
+    // Grenzen tragen die bisherigen ids; nach einer Fusion gilt der Nachfolger
+    const found = feature && current(state.registries[kt], feature.properties.kg);
+    if (found && state.split.ids.includes(found)) {
+      setKg(kt, found);
       state.streetHit = label;
       state.streetMsg = "";
       if (!$("strasse").value.trim()) $("strasse").value = street.trim();
