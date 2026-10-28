@@ -454,10 +454,11 @@
       "name": "Paroisse de Courtion",
       "postal": [
         "Paroisse de Courtion",
-        "Conseil paroissial",
-        "1721 Courtion"
+        "c/o M. Romain Zahno",
+        "Champ Babou 11",
+        "1721 Misery"
       ],
-      "address_type": "praesidium",
+      "address_type": "sekretariat",
       "email": "courtionparoisse@outlook.com",
       "website": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-courtion",
       "source": "https://www.upsaintetrinite.ch/paroisses/paroisse-de-courtion",
@@ -465,8 +466,8 @@
         2272
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Die Pfarrei hat kein Sekretariat; Website nennt nur eine P.A.-Adresse beim Pfarreisekretär (Privatadresse in 1721 Misery), das Verzeichnis eine p.a.-Privatadresse. Umfasst Cormérod, Cournillens, Courtion, Misery. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat | Nachrecherche 28.10.2026: Pfarreiseite nennt als «Adresse postale» nur «P.A.» den Pfarreisekretär (Privatadresse in Misery) und sagt: «La paroisse de Courtion n'a pas de secrétariat». UID CHE-327.153.299 nur mit PLZ/Ort; Gemeindebroschüre Misery-Courtion ohne Postadresse. Das UP-Sekretariat (Belfaux) verweist Anliegen wie Steuern ausdrücklich an die Pfarrei, deshalb kein Ersatz."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Die Pfarrei hat kein Sekretariat; Website nennt nur eine P.A.-Adresse beim Pfarreisekretär (Privatadresse in 1721 Misery), das Verzeichnis eine p.a.-Privatadresse. Umfasst Cormérod, Cournillens, Courtion, Misery. Hinweis zu Austritten: UP Sainte-Trinité: Das UP-Sekretariat (Belfaux) ist für pastorale Anliegen zuständig; für andere administrative Anliegen wie Steuern direkt an das Sekretariat der eigenen Pfarrei wenden – https://www.upsaintetrinite.ch/unite-pastorale/secretariat | Nachrecherche 28.10.2026: Pfarreiseite nennt als «Adresse postale» nur «P.A.» den Pfarreisekretär (Privatadresse in Misery) und sagt: «La paroisse de Courtion n'a pas de secrétariat». UID CHE-327.153.299 nur mit PLZ/Ort; Gemeindebroschüre Misery-Courtion ohne Postadresse. Das UP-Sekretariat (Belfaux) verweist Anliegen wie Steuern ausdrücklich an die Pfarrei, deshalb kein Ersatz. | Owner-Entscheid 28.10.2026: vollständige «Adresse postale» der Pfarreiseite übernommen (p.a. Pfarreisekretär), weil die Pfarrei keine andere Postadresse hat. Beim Wechsel des Sekretärs nachführen."
     },
     {
       "id": "fr-cressier-sur-morat",
@@ -2461,7 +2462,7 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Ohne Strasse bleiben Saint-François d'Orsens (Gletterens, Vallon, Delley, Portalban) und Courtion (Cormérod, Cournillens, Courtion, Misery): Beide publizieren nur Personen bzw. eine «P.A.»-Privatadresse, die UID-Einträge haben keine Strasse, und die UP-Sekretariate nehmen Austritte bzw. Steuerfragen ausdrücklich nicht an. Fehlt: eine Postadresse oder ein Postfach der Pfarrei (Rückfrage beim Conseil). Menschlicher Entscheid möglich: «p.a. Secrétaire/Président» ohne Namen an die publizierte Adresse.",
+    "Ohne Postadresse bleibt Saint-François d'Orsens (Gletterens, Vallon, Delley, Portalban): Pfarreiseite, UP und Gemeinden nennen nur Namen, Mail und Telefon des Conseil, das UID nur «1568 Portalban». Fehlt: eine Postadresse der Pfarrei (Anfrage beim Conseil).",
     "Plasselb: Postfach 12 nur im Pfarrblatt bei der Pfarreiverwaltung; ob es ein Postfach der Pfarrei ist, ist unbestätigt (low).",
     "Châtonnaye: Adresse c/o kantonale Körperschaft (CEC) aus den CEC-Kontaktdaten der Commission administrative abgeleitet; Bestätigung durch die CEC fehlt.",
     "Fusionsprojekt Chapelle-Gillarens: an der Pfarreiversammlung vom 24.3.2026 traktandiert; kein Beschluss und kein Stichtag publiziert (cath-fr-Fusionsliste ohne Eintrag für 2027, Stand 28.10.2026). Fehlt: Beschluss bzw. Bischofsdekret mit Datum."

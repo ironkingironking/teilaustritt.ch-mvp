@@ -1177,7 +1177,6 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Ederswiler: gehört zur basellandschaftlichen Kirchgemeinde Roggenburg-Ederswiler (Eintrag bl-roggenburg, BL-Regeln). Offen ist, ob für den Austritt jurassisches Recht (LREE) gilt – der Kanton Jura führt für Ederswiler einen katholischen Kirchensteuersatz (10,0 %, Quotités 2026). Zur Klärung fehlt die Vereinbarung CEC – Landeskirche BL bzw. eine Auskunft der CEC.",
     "Kleine Gemeindeteile ohne belegte Zuordnung: Les Ecorcheresses (Teil von Haute-Sorne), PLZ 2832 Rebeuvelier in Val Terbi, PLZ 2915 Bure in Basse-Allaine, PLZ 2718 Lajoux in Montfaucon, PLZ 2345 Les Breuleux in Muriaux. Zur Klärung fehlen die Grenzen der früheren Gemeinden bzw. eine Auskunft der betroffenen Communes ecclésiastiques."
   ],
   "grundlage": [
@@ -1186,6 +1185,7 @@
     "Zuordnung Gemeinde → Commune ecclésiastique: Name der Commune ecclésiastique = (frühere) Gemeinde, gestützt auf die kantonale Liste der kirchlichen Steuersätze 2026 (eigene Sätze je früherer Gemeinde) und die Ortsangaben der Pfarreiseiten («rassemble les localités»). Eine Gebietsliste der CEC gibt es nicht: Arrêté 45.005 teilt nur die Communes ecclésiastiques den Wahlkreisen zu, Ordonnance 37.009 regelt das Fusionsverfahren.",
     "Zusätzlich ausgewertet: alle Journal-officiel-Ausgaben 2025/2026 (rsju.jura.ch, Versammlungsanzeigen der Communes ecclésiastiques), u. a. Fusion zur CE Haute-Ajoie (CEC-Arrêté 46.009), Gebiet von Saint-Randoald (Arrêté 46.008), Saint-Brais sowie Les Sources (Arrêté 46.007).",
     "Wortlaut: LREE spricht vom Austritt aus der anerkannten Kirche (öffentlich-rechtliche Körperschaft); die Erklärung geht an die Paroisse/Commune ecclésiastique des Wohnsitzes.",
-    "Moutier ist seit 1.1.2026 jurassisch; die Commune ecclésiastique de Moutier umfasst weiterhin die bernischen Gemeinden Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches (siehe BE.json)."
+    "Moutier ist seit 1.1.2026 jurassisch; die Commune ecclésiastique de Moutier umfasst weiterhin die bernischen Gemeinden Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches (siehe BE.json).",
+    "Ederswiler gehört zur basellandschaftlichen Kirchgemeinde Roggenburg-Ederswiler; für den Austritt gelten die Regeln von Basel-Landschaft (Owner-Entscheid 28.10.2026). Der Kanton Jura führt für Ederswiler trotzdem einen katholischen Steuersatz."
   ]
 }

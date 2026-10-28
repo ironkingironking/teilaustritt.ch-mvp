@@ -161,21 +161,20 @@
       "id": "zg-steinhausen",
       "name": "Katholische Kirchgemeinde Steinhausen",
       "postal": [
-        "Katholische Kirchgemeinde Steinhausen",
-        "Kanzlei",
-        "Zugerstrasse 6",
+        "Katholisches Pfarramt Steinhausen",
+        "Dorfplatz 1",
         "6312 Steinhausen"
       ],
-      "address_type": "verwaltung",
+      "address_type": "pfarramt",
       "email": "kanzlei@kirchgemeinde-steinhausen.ch",
       "website": "https://kirchgemeinde-steinhausen.ch/",
-      "source": "https://kirchgemeinde-steinhausen.ch/kontakt/",
+      "source": "https://kirchgemeinde-steinhausen.ch/kirchenaustritt/",
       "bfs": [
         1708
       ],
       "partial_bfs": [],
       "confidence": "high",
-      "note": "Die Austrittsseite der Kirchgemeinde nennt als Empfänger das Katholische Pfarramt, Dorfplatz 1, 6312 Steinhausen; hier ist bewusst die Adresse der Kirchgemeinde-Kanzlei erfasst. | Nachrecherche 28.10.2026: Austrittsseite unverändert: «Bitte richten Sie Ihr Austrittsschreiben an: Katholisches Pfarramt, Dorfplatz 1, 6312 Steinhausen»; Kontaktseite der Kirchgemeinde: Zugerstrasse 6 (Kanzlei). UID-Eintrag der Kirchgemeinde (CHE-108.932.511) mit c/o einer Privatperson, Zugerstrasse 8, Zustellbarkeit nicht bestätigt."
+      "note": "Die Austrittsseite der Kirchgemeinde nennt als Empfänger das Katholische Pfarramt, Dorfplatz 1, 6312 Steinhausen; hier ist bewusst die Adresse der Kirchgemeinde-Kanzlei erfasst. | Nachrecherche 28.10.2026: Austrittsseite unverändert: «Bitte richten Sie Ihr Austrittsschreiben an: Katholisches Pfarramt, Dorfplatz 1, 6312 Steinhausen»; Kontaktseite der Kirchgemeinde: Zugerstrasse 6 (Kanzlei). UID-Eintrag der Kirchgemeinde (CHE-108.932.511) mit c/o einer Privatperson, Zugerstrasse 8, Zustellbarkeit nicht bestätigt. | Owner-Entscheid 28.10.2026: Adresse des Pfarramts, weil die Austrittsseite der Kirchgemeinde das Pfarramt als Empfänger nennt."
     },
     {
       "id": "zg-unteraegeri",
@@ -237,10 +236,9 @@
   ],
   "split": [],
   "unmapped_bfs": [],
-  "issues": [
-    "Steinhausen: Die Kirchgemeinde bittet, Austrittsschreiben ans Katholische Pfarramt (Dorfplatz 1) zu senden; erfasst ist die Kanzlei der Kirchgemeinde (Zugerstrasse 6). Entscheid nötig: Pfarramt-Adresse übernehmen (Wunsch der Kirchgemeinde) oder Kanzlei behalten (Pfarrei nicht einbeziehen); allenfalls bei der Kanzlei bestätigen lassen, dass sie Austritte ebenfalls annimmt."
-  ],
+  "issues": [],
   "grundlage": [
-    "Die Gebietszuordnung beruht auf § 127 Gemeindegesetz ZG (BGS 171.1), das die zehn Kirchgemeinden nur namentlich aufzählt. Dass Cham-Hünenberg Cham und Hünenberg umfasst und Steinhausen die ganze politische Gemeinde, sagen die Kirchgemeinden selbst; bei den übrigen folgt es aus dem gleichen Namen."
+    "Die Gebietszuordnung beruht auf § 127 Gemeindegesetz ZG (BGS 171.1), das die zehn Kirchgemeinden nur namentlich aufzählt. Dass Cham-Hünenberg Cham und Hünenberg umfasst und Steinhausen die ganze politische Gemeinde, sagen die Kirchgemeinden selbst; bei den übrigen folgt es aus dem gleichen Namen.",
+    "Steinhausen: Austritte gehen ans Katholische Pfarramt, Dorfplatz 1, wie es die Austrittsseite der Kirchgemeinde verlangt (Owner-Entscheid 28.10.2026)."
   ]
 }

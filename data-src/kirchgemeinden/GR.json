@@ -1212,8 +1212,8 @@
       "partial_bfs": [
         3551
       ],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Gemeinde Brusio geteilt (Brusio, Campocologno, Viano mit je eigener Steuerfusszeile). | Nachrecherche 28.10.2026: UID «Comune Parrocchiale Cattolica» (CHE-108.935.136) mit Sitz Ginetto 496c, 7743 Brusio, laut UID nicht zustellbar (Prüfung 16.10.2026). Die Hausnummer 496c gibt es im amtlichen Gebäudeadressverzeichnis nicht, wohl aber Ginetto 469C (so auch in der Adressliste der Landeskirche); daher 469C eingesetzt, ohne Personennamen."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Gemeinde Brusio geteilt (Brusio, Campocologno, Viano mit je eigener Steuerfusszeile). | Nachrecherche 28.10.2026: UID «Comune Parrocchiale Cattolica» (CHE-108.935.136) mit Sitz Ginetto 496c, 7743 Brusio, laut UID nicht zustellbar (Prüfung 16.10.2026). Die Hausnummer 496c gibt es im amtlichen Gebäudeadressverzeichnis nicht, wohl aber Ginetto 469C (so auch in der Adressliste der Landeskirche); daher 469C eingesetzt, ohne Personennamen. | Owner-Entscheid 28.10.2026: Ginetto 469C (Adresse des Präsidiums laut Adressliste der Landeskirche) bleibt."
     },
     {
       "id": "gr-campocologno",
@@ -1861,7 +1861,6 @@
   "unmapped_bfs": [],
   "issues": [
     "Ohne Strasse/Postfach (nur Name + PLZ Ort): Ardez, Martina, Maladers, Arvigo, Landarenca, Braggio, Cauco, Selma, Augio, Rossa, Sta. Domenica, Buseno, Leggia, Verdabbio, Soazza, Campocologno, Viano, Medel/Lucmagn. Adressliste 2026 nennt nur Präsidien mit Privatadresse, UID-Einträge ohne Strasse. Zustelladressen bei der Landeskirche erfragen.",
-    "Brusio: UID-Sitz «Ginetto 496c» gibt es nicht (laut UID nicht zustellbar); eingesetzt ist Ginetto 469C (Gebäudeadresse, auch in der Adressliste). Bestätigen lassen.",
     "Vals (Mura 153) und Rueun-Ruschein-Siat-Pigniu (Vegna 9): UID-Sitzadressen, Zustellbarkeit laut UID nicht bestätigt.",
     "Mutten (Gemeinde Thusis): Kirchgemeinde nicht belegt. Verfassung KG Thusis (1998) nennt Mutten nicht, der Verfassungsentwurf der KG Albula vermerkt «Mutten?»; kath. 15 % wie beide. Vorläufig Thusis. Klärung bei der Landeskirche.",
     "Rongellen: Verfassung KG Thusis (1998) zählt Rongellen zu Thusis, die Steuerfussliste 2026 nennt aber kath. 16 % (Thusis 15 %, Schams-Avers-Rheinwald 16 %). Vorläufig Thusis.",
@@ -1889,6 +1888,7 @@
     "Valsot: ganze Gemeinde → Corporaziun catolica Martina (kath. 5 % = Steuerfuss Martina laut Jahresbericht 2025/26).",
     "Poschiavo: Comune parrocchiale 2019 fusioniert (Poschiavo, Cologna, San Carlo/Aino, Angeli Custodi, Pagnoncini); der Jahresbericht 2025/26 führt nur noch Poschiavo.",
     "Tujetsch: Cadruvi 4, 7188 Sedrun laut Adressliste und UID; die Website nennt zusätzlich das Sekretariat in Disentis (Via Sogn Gions 8).",
-    "Sumvitg: Secretariat/Administraziun laut Kontaktseite der Pleiv; Pfarrhaus (Casa pervenda) Via Surrein 11, 7172 Rabius als Alternative."
+    "Sumvitg: Secretariat/Administraziun laut Kontaktseite der Pleiv; Pfarrhaus (Casa pervenda) Via Surrein 11, 7172 Rabius als Alternative.",
+    "Brusio: Ginetto 469C ist die Adresse des Präsidiums laut Adressliste der Landeskirche; der UID-Sitz «496c» ist ein Zahlendreher (Owner-Entscheid 28.10.2026)."
   ]
 }

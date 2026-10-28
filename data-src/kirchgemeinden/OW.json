@@ -159,33 +159,32 @@
       "id": "ow-engelberg",
       "name": "Römisch-katholische Kirchgemeinde Engelberg",
       "postal": [
-        "Römisch-katholische Kirchgemeinde Engelberg",
-        "c/o Einwohnergemeinde Engelberg",
-        "Gemeinderat",
-        "Dorfstrasse 1",
+        "Katholisches Pfarramt Engelberg",
+        "Benediktinerkloster 1",
         "6390 Engelberg"
       ],
-      "address_type": "gemeinde",
+      "address_type": "pfarramt",
       "website": "https://kloster-engelberg.ch/pfarrei/",
-      "source": "https://gdb.ow.ch/app/de/texts_of_law/101.0",
+      "source": "https://kloster-engelberg.ch/pfarrei/pfarreiteam/",
       "bfs": [
         1402
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "public_note": "In Engelberg gibt es keine eigenständige Kirchgemeinde mit eigenem Rat; die Pfarrei ist Klosterpfarrei. Nach der Kantonsverfassung (Art. 101) bilden die Katholiken der Einwohnergemeinde die Kirchgemeinde, deshalb geht das Schreiben an die Einwohnergemeinde. Frag vor dem Versand bei der Gemeindeverwaltung nach, ob sie den Austritt entgegennimmt.",
-      "note": "Nachrecherche 28.10.2026: Art. 101 Abs. 1 KV OW: Die katholischen Konfessionsangehörigen der Einwohnergemeinde bilden die katholische Kirchgemeinde; eine selbständige Kirchgemeinde mit eigenem Kirchgemeinderat entsteht nur durch Beschluss oder Gesetz. Für Engelberg gibt es keine solche: kein UID-Eintrag einer kath. Kirchgemeinde Engelberg (die übrigen OW-Kirchgemeinden sind eingetragen), das Steuergesetz (Übergangsbestimmungen, Verteilschlüssel des Steuerstrategieausgleichs zu Art. 317) führt für Engelberg nur die Einwohnergemeinde, Engelberg gehört nicht zum Kirchgemeindeverband. Adresse: UID CHE-115.079.933 Einwohnergemeinde Engelberg, Dorfstrasse 1, 6390 Engelberg (zustellbar, Prüfung 28.10.2026). Pfarrei: Kloster Engelberg, Pfarramt, Benediktinerkloster 1, 6390 Engelberg (kloster-engelberg.ch/pfarrei/pfarreiteam). Die Website der Gemeinde (gemeinde-engelberg.ch) war am 28.10.2026 nicht erreichbar (Timeout), eine ausdrückliche Austrittsregel der Gemeinde wurde nicht gefunden. Umfasst auch Grafenort (Gemeindeteil Engelberg)."
+      "confidence": "medium",
+      "public_note": "In Engelberg gibt es keine eigenständige Kirchgemeinde mit eigenem Rat; die Pfarrei ist Klosterpfarrei. Das Schreiben geht deshalb ans Pfarramt des Klosters.",
+      "note": "Nachrecherche 28.10.2026: Art. 101 Abs. 1 KV OW: Die katholischen Konfessionsangehörigen der Einwohnergemeinde bilden die katholische Kirchgemeinde; eine selbständige Kirchgemeinde mit eigenem Kirchgemeinderat entsteht nur durch Beschluss oder Gesetz. Für Engelberg gibt es keine solche: kein UID-Eintrag einer kath. Kirchgemeinde Engelberg (die übrigen OW-Kirchgemeinden sind eingetragen), das Steuergesetz (Übergangsbestimmungen, Verteilschlüssel des Steuerstrategieausgleichs zu Art. 317) führt für Engelberg nur die Einwohnergemeinde, Engelberg gehört nicht zum Kirchgemeindeverband. Adresse: UID CHE-115.079.933 Einwohnergemeinde Engelberg, Dorfstrasse 1, 6390 Engelberg (zustellbar, Prüfung 28.10.2026). Pfarrei: Kloster Engelberg, Pfarramt, Benediktinerkloster 1, 6390 Engelberg (kloster-engelberg.ch/pfarrei/pfarreiteam). Die Website der Gemeinde (gemeinde-engelberg.ch) war am 28.10.2026 nicht erreichbar (Timeout), eine ausdrückliche Austrittsregel der Gemeinde wurde nicht gefunden. Umfasst auch Grafenort (Gemeindeteil Engelberg). | Owner-Entscheid 28.10.2026: Empfänger ist das Pfarramt der Klosterpfarrei (Benediktinerkloster 1) statt der Einwohnergemeinde.",
+      "email": "pfarramt@kloster-engelberg.ch"
     }
   ],
   "split": [],
   "unmapped_bfs": [],
   "issues": [
-    "Engelberg: Ob die Einwohnergemeinde (Gemeinderat) Austrittserklärungen für die katholische Kirchgemeinde entgegennimmt oder an die Klosterpfarrei verweist, ist nicht ausdrücklich publiziert; gemeinde-engelberg.ch war am 28.10.2026 nicht erreichbar. Bei der Gemeindeverwaltung (Dorfstrasse 1) oder der kantonalen Steuerverwaltung bestätigen lassen; ebenso, ob dort Kirchensteuer erhoben wird.",
     "Austrittsregeln stammen von den Websites der Kirchgemeinden Sarnen und Alpnach; eine kantonale Regel (Gesetz oder Verbandsstatut) zum Austritt wurde nicht gefunden."
   ],
   "grundlage": [
     "Gebietszuordnung nach Art. 103 KV OW: Der Sprengel einer katholischen Kirchgemeinde deckt sich grundsätzlich mit dem Gebiet der Einwohnergemeinde; Teilungen oder Vereinigungen sind nicht bekannt.",
     "Engelberg: Nach Art. 101 Abs. 1 KV OW bilden die Katholiken der Einwohnergemeinde die Kirchgemeinde; eine selbständige Kirchgemeinde mit eigenem Rat besteht in Engelberg nicht (kein UID-Eintrag, Steuergesetz nennt nur die Einwohnergemeinde, nicht Mitglied des Kirchgemeindeverbands). Erfasst ist deshalb die Einwohnergemeinde als Empfängerin (confidence low, mit Hinweis für Besucher).",
-    "Kerns: Pfarramtsadresse Stanserstrasse 2 ist zugleich UID-Sitz der Kirchgemeinde."
+    "Kerns: Pfarramtsadresse Stanserstrasse 2 ist zugleich UID-Sitz der Kirchgemeinde.",
+    "Engelberg: Mangels eigenständiger Kirchgemeinde geht der Austritt ans Pfarramt der Klosterpfarrei (Owner-Entscheid 28.10.2026)."
   ]
 }

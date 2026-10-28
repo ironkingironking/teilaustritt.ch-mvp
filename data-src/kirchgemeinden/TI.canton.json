@@ -17,7 +17,24 @@
     "beglaubigung": false,
     "wirkung": "Mit der Austrittserklärung ist die Person von allen Rechten und Pflichten gegenüber der kirchlichen Körperschaft befreit (Art. 5 Abs. 2 Statuto diocesano). Befreiung von der Imposta di culto: im ersten Jahr innert eines Monats nach Mitteilung der Eintragung in den Steuerkatalog mit Wirkung für dasselbe Jahr, danach jederzeit mit Wirkung ab dem folgenden Kalenderjahr (Art. 8 Decreto; Art. 6 Regolamento).",
     "notes": "Steuerpflichtig sind die zu Jahresbeginn im Catalogo tributario der Pfarrei eingetragenen Personen (Art. 5–6). Viele Pfarreien erheben keine Imposta di culto und werden von den politischen Gemeinden mitfinanziert. | Nachrecherche 28.10.2026: Legge sulla Chiesa cattolica (RL 2.3.1.1, 16.12.2002) Art. 2: Mitgliedschaft und Austritt regelt das Statuto ecclesiastico; Art. 3: Stimmrecht nur, wer den Austritt nicht erklärt hat und im Catalogo parrocchiale steht. Statuto diocesano (RL 191.115) Art. 5: Austritt durch schriftliche Mitteilung an den Consiglio parrocchiale der eigenen Pfarrei. Regolamento 643.110 Art. 6: Befreiungserklärung als istanza scritta an den Consiglio parrocchiale.",
-    "source": "https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi/pdfatto/atto/88"
+    "source": "https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi/pdfatto/atto/88",
+    "brief": {
+      "it": {
+        "subject": "Dichiarazione di uscita dalla parrocchia quale corporazione di diritto pubblico ed esenzione dall'imposta di culto",
+        "declare": "Con la presente dichiaro la mia uscita dalla parrocchia del mio luogo di domicilio quale corporazione di diritto pubblico.",
+        "zusatz": "Chiedo inoltre l'esenzione dall'imposta di culto e la cancellazione dal catalogo tributario della parrocchia."
+      },
+      "de": {
+        "subject": "Austrittserklärung aus der Pfarrei als öffentlich-rechtliche Körperschaft und Befreiung von der Kultussteuer",
+        "declare": "Hiermit erkläre ich meinen Austritt aus der Pfarrei an meinem Wohnort als öffentlich-rechtliche Körperschaft.",
+        "zusatz": "Zudem ersuche ich um Befreiung von der Kultussteuer (imposta di culto) und um Streichung aus dem Steuerkatalog der Pfarrei."
+      },
+      "fr": {
+        "subject": "Déclaration de sortie de la paroisse en tant que corporation de droit public et exonération de l'impôt de culte",
+        "declare": "Par la présente, je déclare ma sortie de la paroisse de mon lieu de domicile en tant que corporation de droit public.",
+        "zusatz": "Je demande en outre l'exonération de l'impôt de culte (imposta di culto) et la radiation du rôle fiscal de la paroisse."
+      }
+    }
   },
   "finder": null,
   "has_kirchensteuer": "teilweise",

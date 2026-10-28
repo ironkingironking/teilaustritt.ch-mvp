@@ -78,9 +78,9 @@
       "system": "pflicht",
       "firmen": "ja",
       "tipp": "Wer keiner anerkannten Kirche angehört, kann von der Einwohnergemeinde den Pro-Kopf-Anteil ihres Beitrags an die Kirchgemeinden zurückfordern.",
-      "tipp_fr": "Les personnes qui n'appartiennent à aucune Église reconnue peuvent demander à leur commune le remboursement de la part par habitant de sa contribution aux paroisses.",
-      "tipp_it": "Chi non appartiene a una Chiesa riconosciuta può chiedere al proprio comune il rimborso della quota pro capite del suo contributo alle parrocchie.",
-      "tipp_en": "If you do not belong to a recognised church, you can reclaim from your municipality the per-capita share of its contribution to the parishes."
+      "tipp_fr": "Les personnes qui n'appartiennent à aucune Église reconnue peuvent demander à leur commune le remboursement de la part par habitant de sa contribution aux communes ecclésiastiques.",
+      "tipp_it": "Chi non appartiene a una Chiesa riconosciuta può chiedere al proprio comune il rimborso della quota pro capite del suo contributo ai comuni parrocchiali.",
+      "tipp_en": "If you do not belong to a recognised church, you can reclaim from your municipality the per-capita share of its contribution to the church municipalities."
     },
     "SH": {
       "ende": "jahr",

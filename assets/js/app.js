@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028d";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028e";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -551,7 +551,11 @@ function bodyNames() {
   return state.kg?.n && !state.manualRecipient ? [state.kg.n] : [];
 }
 
+// Kantonale Briefvariante (TI: Austritt aus der Pfarrei und Befreiung von der Kultussteuer)
+const cantonLetter = () => rulesCanton()?.austritt?.brief?.[letterLang()] || {};
+
 function buildBody(L) {
+  const B = cantonLetter();
   const name = [val("vorname"), val("nachname")].filter(Boolean).join(" ");
   const dob = val("geburtsdatum");
   const addr = [val("strasse"), [val("plz"), val("wohnort")].filter(Boolean).join(" ")].filter(Boolean).join(", ");
@@ -561,7 +565,8 @@ function buildBody(L) {
   return [
     L.salutation,
     "",
-    L.declare(bodyNames()),
+    B.declare || L.declare(bodyNames()),
+    ...(B.zusatz ? ["", B.zusatz] : []),
     "",
     L.personal,
     `${L.name}${L.sep}${name || ph(L.ph.name)}`,
@@ -588,7 +593,7 @@ function letterModel() {
     sender,
     recipient,
     placeDate: L.placeDate(val("wohnort") || ph(L.ph.ort), date),
-    subject: L.subject,
+    subject: cantonLetter().subject || L.subject,
     body: state.bodyEdited ? $("body-edit").value : buildBody(L),
     closing: L.closing,
     name: name || ph(L.ph.name),
