@@ -108,6 +108,17 @@ legend{padding:0}
 .kg-meta{display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:10px; font-size:13px; color:var(--muted)}
 .kg-meta a{white-space:nowrap}
 .kg p{margin:8px 0 0; font-size:14px}
+.kg-facts{list-style:none; margin:12px 0 0; padding:0; display:grid; gap:6px; font-size:14px; color:var(--muted)}
+.kg-facts li{position:relative; padding-left:16px}
+.kg-facts li::before{content:""; position:absolute; left:2px; top:.6em; width:6px; height:6px; border-radius:50%; background:var(--soft)}
+.kg-actions{display:flex; flex-wrap:wrap; align-items:center; gap:8px 14px; margin-top:14px}
+.notice p{margin:4px 0 0}
+.notice p:first-of-type{margin-top:2px}
+.ready{margin:0 0 10px; font-size:14px; color:var(--muted); padding:8px 12px; border-radius:var(--radius-sm); background:var(--tint)}
+.ready.ok{color:var(--ok); background:var(--ok-tint)}
+.ready.ok::before{content:"✓ "; font-weight:700}
+.step.done .step-num{font-size:0}
+.step.done .step-num::after{content:"✓"; font-size:15px}
 .kg .alts{margin-top:10px}
 .notice{border-left:3px solid var(--warn-line); background:var(--warn-tint); padding:10px 12px; border-radius:0 8px 8px 0; font-size:14px; margin-top:12px}
 .notice.info{border-left-color:#b2ccff; background:var(--accent-tint)}
@@ -120,7 +131,7 @@ legend{padding:0}
 .btn:hover{background:#082d60; color:#fff}
 .btn.secondary{background:#fff; color:var(--accent-strong); border-color:var(--line-strong)}
 .btn.secondary:hover{background:var(--tint)}
-.btn.small{min-height:36px; padding:6px 12px; font-size:14px}
+.btn.small{min-height:36px; padding:6px 12px; font-size:14px; color:#fff}
 .btn[disabled]{opacity:.6; cursor:progress}
 .status{font-size:14px; color:var(--muted); min-height:1.5em; margin:8px 0 0}
 .status.ok{color:var(--ok)} .status.err{color:var(--err)}

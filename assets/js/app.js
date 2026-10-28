@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028b";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028c";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -314,11 +314,6 @@ function taxText(canton) {
   return [T.taxEnd[st.ende], loc(st, "tipp")].filter(Boolean).join(" ");
 }
 
-function taxLine(canton) {
-  const text = taxText(canton);
-  return text ? `<p class="small"><strong>${esc(t("taxLabel"))}</strong> ${esc(text)} <a href="#kirchensteuer">${esc(t("more"))}</a></p>` : "";
-}
-
 // Übersicht «Ab wann keine Kirchensteuer mehr?», eigener Kanton hervorgehoben
 function renderTaxSection() {
   const kantone = state.kantone;
@@ -372,21 +367,28 @@ function reportLink(subjectExtra) {
 // Kirchgemeinde ohne Strasse oder Postfach in der Postadresse (ns wird beim Build gesetzt)
 const needsStreet = (kg) => Boolean(kg?.ns) || kg?.t === "praesidium";
 
-function addressNotice(kg) {
-  if (state.manualRecipient) return "";
-  if (needsStreet(kg)) {
-    return `<div class="notice"><strong>${esc(t("streetMissingTitle"))}</strong>${esc(t("streetMissingText"))}</div>`;
-  }
+// Alle Hinweise zur Kirchgemeinde in einem Kasten statt vieler einzelner
+function addressNotice(kg, hint) {
   const parts = [];
-  if (kg.t === "pfarramt") parts.push(t("pfarramtText"));
-  if (kg.c !== "high") {
-    parts.push(kg.note || (kg.t === "sekretariat" ? t("sekretariatText") : kg.t === "pfarramt" ? "" : t("unsureText")));
-  } else if (kg.note) {
-    parts.push(kg.note);
+  let title = t("goodToKnow");
+  if (!state.manualRecipient) {
+    if (needsStreet(kg)) {
+      title = t("streetMissingTitle");
+      parts.push(t("streetMissingText"));
+    } else {
+      if (kg.t === "pfarramt") parts.push(t("pfarramtText"));
+      if (kg.c !== "high") {
+        title = t("checkTitle");
+        parts.push(kg.note || (kg.t === "sekretariat" ? t("sekretariatText") : kg.t === "pfarramt" ? "" : t("unsureText")));
+      } else if (kg.note) {
+        parts.push(kg.note);
+      }
+    }
   }
+  if (hint) parts.push(hint);
   const text = parts.filter(Boolean);
   if (!text.length) return "";
-  return `<div class="notice"><strong>${esc(kg.c !== "high" ? t("checkTitle") : t("hintTitle"))}</strong>${text.map(esc).join(" ")}</div>`;
+  return `<div class="notice"><strong>${esc(title)}</strong>${text.map((p) => `<p>${esc(p)}</p>`).join("")}</div>`;
 }
 
 function recipientEditor() {
@@ -431,25 +433,31 @@ function render() {
       ${state.editingRecipient ? recipientEditor() : ""}</div>`;
   } else if (state.kg) {
     const kg = state.kg;
-    const lines = state.manualRecipient || kg.p;
+    // Der Name steht schon in der Überschrift; im Adressblock nur Strasse und Ort
+    const lines = state.manualRecipient || (kg.p[0] === kg.n ? kg.p.slice(1) : kg.p);
     const central = canton?.austritt?.recipient_level === "kanton";
     const rules = rulesCanton();
     const hint = loc(rules?.austritt, "public_hinweis");
+    const facts = [
+      central && esc(t("central", cname(kt))),
+      kg.home && state.kantone?.[kg.home] && esc(t("homeCanton", cname(kg.home))),
+      rules?.austritt?.beglaubigung && `<strong>${esc(t("certified"))}</strong> ${esc(t("seeStep3"))}`,
+      taxText(rules) && `${esc(taxText(rules))} <a href="#kirchensteuer">${esc(t("more"))}</a>`,
+    ].filter(Boolean);
     html += `<div class="kg ok"><p class="kg-kicker">${esc(t("responsibleFor", gname))}</p>
       <h3>${esc(kg.n)}</h3>
       <address>${lines.map(esc).join("<br>")}</address>
       <div class="kg-meta">${kgLinks(kg)}</div>
-      ${central ? `<p>${esc(t("central", cname(kt)))}</p>` : ""}
-      ${kg.home && state.kantone?.[kg.home] ? `<p class="small">${esc(t("homeCanton", cname(kg.home)))}</p>` : ""}
-      ${rules?.austritt?.beglaubigung ? `<p class="small"><strong>${esc(t("certified"))}</strong> ${esc(t("seeStep3"))}</p>` : ""}
-      ${hint ? `<div class="notice"><strong>${esc(t("goodToKnow"))}</strong>${esc(hint)}</div>` : ""}
-      ${taxLine(rules)}
-      ${addressNotice(kg)}
-      <p class="small"><button type="button" class="linkbtn" data-action="edit-recipient">${esc(t("editAddress"))}</button> · ${reportLink(kg.n)}</p>
+      ${facts.length ? `<ul class="kg-facts">${facts.map((f) => `<li>${f}</li>`).join("")}</ul>` : ""}
+      ${addressNotice(kg, hint)}
       ${state.editingRecipient ? recipientEditor() : ""}
       ${state.split ? `<div class="notice info"><strong>${esc(t("splitTitle", gname, state.split.ids.length))}</strong>${esc(state.streetHit
         ? t("splitExact", state.streetHit)
-        : t("splitLikely", `${place.plz} ${place.ort}`))}${splitBlock(gname, kt)}</div>` : ""}</div>`;
+        : t("splitLikely", `${place.plz} ${place.ort}`))}${splitBlock(gname, kt)}</div>` : ""}
+      <div class="kg-actions">
+        <button type="button" class="btn small" data-action="next">${esc(t("next"))}</button>
+        <span class="small"><button type="button" class="linkbtn" data-action="edit-recipient">${esc(t("editAddress"))}</button> · ${reportLink(kg.n)}</span>
+      </div></div>`;
   } else if (state.split) {
     html += `<div class="kg warn"><p class="kg-kicker">${esc(t("splitTitle", gname, state.split.ids.length))}</p>
       <h3>${esc(t("splitDepends"))}</h3>
@@ -492,6 +500,10 @@ function wireResult() {
     }
   });
   out.addEventListener("click", (ev) => {
+    if (ev.target.dataset.action === "next") {
+      $("step-person").scrollIntoView({ behavior: "smooth", block: "start" });
+      setTimeout(() => (["vorname", "nachname", "strasse"].map($).find((el) => !el.value.trim()) || $("vorname")).focus({ preventScroll: true }), 300);
+    }
     if (ev.target.dataset.action === "show-munis") {
       state.showMuniSelect = true;
       render();
@@ -588,6 +600,18 @@ function renderLetter() {
   renderChecklist();
   const personDone = ["vorname", "nachname", "strasse", "plz", "wohnort"].every((id) => val(id));
   $("step-person").classList.toggle("done", personDone);
+  renderReadiness();
+}
+
+// Zeigt laufend, was vor dem Download noch fehlt, statt erst beim Klick zu warnen
+function renderReadiness() {
+  const el = $("ready");
+  if (!el) return;
+  const missing = missingFields(false);
+  // Vor der ersten Eingabe nichts anzeigen
+  el.hidden = !state.place && Object.keys(t("fields")).every((id) => !val(id));
+  el.className = "ready" + (missing.length ? "" : " ok");
+  el.textContent = missing.length ? t("notReady", missing.map((m) => m.label).join(", ")) : t("ready");
 }
 
 // Massgebend sind die Regeln des Kantons der Kirchgemeinde (z. B. KG Wil SG für Rickenbach TG)
@@ -603,7 +627,7 @@ function renderChecklist() {
   const to = state.manualRecipient?.[0] || state.kg?.n || t("toDefault");
   const items = [
     `<li>${esc(t("c1"))}<small>${esc(t("c1s"))}</small></li>`,
-    `<li>${esc(t("c2"))}</li>`,
+    `<li>${esc(t("c2"))}<small>${esc(t("c2s"))}</small></li>`,
   ];
   if (a?.beglaubigung) {
     const note = LANG === "de" && a.beglaubigung_note ? a.beglaubigung_note : t("c3note", cname(kt));
@@ -614,11 +638,11 @@ function renderChecklist() {
   $("checklist").innerHTML = items.join("");
 }
 
-function missingFields() {
+function missingFields(mark = true) {
   const missing = [];
   for (const [id, label] of Object.entries(t("fields"))) {
     const empty = !val(id);
-    $(id).setAttribute("aria-invalid", String(empty));
+    if (mark) $(id).setAttribute("aria-invalid", String(empty));
     if (empty) missing.push({ id, label });
   }
   if (!state.manualRecipient && !state.kg) missing.unshift({ id: "ort", label: t("needRecipient") });
@@ -708,8 +732,17 @@ async function downloadDocx() {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
+// Geburtsdatum beim Tippen als TT.MM.JJJJ formatieren (nur Ziffern, Punkte von selbst)
+function formatDob(ev) {
+  const el = ev.target;
+  if (ev.inputType?.startsWith("delete")) return;
+  const d = el.value.replace(/\D/g, "").slice(0, 8);
+  el.value = [d.slice(0, 2), d.slice(2, 4), d.slice(4)].filter(Boolean).join(".");
+}
+
 function wireLetter() {
   $("person").addEventListener("input", (ev) => {
+    if (ev.target.id === "geburtsdatum") formatDob(ev);
     if (ev.target.value.trim()) ev.target.removeAttribute("aria-invalid");
     renderLetter();
   });
@@ -738,11 +771,16 @@ function wireLetter() {
     const el = $(btn);
     el.disabled = true;
     setStatus(t("creating", label));
-    try { await fn(); setStatus(t("created", label), "ok"); }
+    try {
+      await fn();
+      setStatus(t("created", label), "ok");
+      // Auf schmalen Bildschirmen steht die Versand-Checkliste unter dem Brief
+      if (window.matchMedia("(max-width: 960px)").matches) $("step-versand").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     catch (e) { setStatus(t("failed", label), "err"); }
     finally { el.disabled = false; }
   });
-  run("btn-pdf", "PDF", downloadPdf);
+  run("btn-pdf", t("pdfFile"), downloadPdf);
   run("btn-docx", t("wordFile"), downloadDocx);
   $("btn-print").addEventListener("click", () => { if (checkReady()) window.print(); });
 }

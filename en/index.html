@@ -18,7 +18,7 @@
   <meta property="og:locale" content="en_GB">
   <meta name="theme-color" content="#0b3a7a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3a7a'/%3E%3Cpath d='M10 9h12v3h-4.5v12h-3V12H10z' fill='%23fff'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="../assets/css/site.css?v=20261028b">
+  <link rel="stylesheet" href="../assets/css/site.css?v=20261028c">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,7 +34,7 @@
     ]
   }
   </script>
-  <script type="module" src="../assets/js/app.js?v=20261028b"></script>
+  <script type="module" src="../assets/js/app.js?v=20261028c"></script>
 </head>
 <body>
   <a class="skip" href="#tool">Skip to the form</a>
@@ -66,10 +66,10 @@
   <main id="main" class="wrap">
     <section class="intro" id="top">
       <h1>Leaving the parish and the cantonal church</h1>
-      <p>Find the responsible Roman Catholic parish (Kirchgemeinde) and prepare your declaration in three steps. For all Swiss cantons. The letter itself is written in the official language of your place of residence.</p>
+      <p>Enter where you live and we'll show you which Roman Catholic parish (Kirchgemeinde) is responsible for you. In a few minutes you'll have a finished letter that you only need to sign and send – in any Swiss canton. The letter itself is written in the official language of your place of residence.</p>
       <ul class="facts">
-        <li>Free, no registration</li>
-        <li>Your details stay in your browser</li>
+        <li>Free, no registration needed</li>
+        <li>Your details never leave your browser</li>
         <li>No legal advice</li>
       </ul>
     </section>
@@ -82,7 +82,7 @@
             <span class="step-num" aria-hidden="true">1</span>
             <div>
               <h2 id="h-ort">Where do you live?</h2>
-              <p>We look up the responsible parish.</p>
+              <p>This tells us which parish is responsible.</p>
             </div>
           </div>
           <label for="ort">Postcode or town</label>
@@ -91,7 +91,7 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ort-list" aria-describedby="ort-help">
             <ul id="ort-list" class="combo-list" role="listbox" aria-label="Matching places" hidden></ul>
           </div>
-          <p class="help" id="ort-help">The search runs in your browser. Nothing is sent.</p>
+          <p class="help" id="ort-help">The search runs right in your browser; nothing is sent anywhere.</p>
           <div id="kg-result" class="result" aria-live="polite"></div>
         </section>
 
@@ -100,7 +100,7 @@
             <span class="step-num" aria-hidden="true">2</span>
             <div>
               <h2 id="h-person">Your details</h2>
-              <p>So that the parish can find you in its register.</p>
+              <p>So the parish can find you in its register without doubt.</p>
             </div>
           </div>
           <form id="person" novalidate autocomplete="on">
@@ -130,12 +130,12 @@
               <div>
                 <label for="geburtsdatum">Date of birth <span class="opt-tag">(recommended)</span></label>
                 <input id="geburtsdatum" name="bday" autocomplete="bday" inputmode="numeric" placeholder="DD.MM.YYYY" aria-describedby="geb-help">
-                <p class="help" id="geb-help">Helps if someone has the same name.</p>
+                <p class="help" id="geb-help">Helps if someone else has the same name.</p>
               </div>
               <div>
                 <label for="email">Email <span class="opt-tag">(optional)</span></label>
                 <input id="email" name="email" type="email" autocomplete="email" aria-describedby="mail-help">
-                <p class="help" id="mail-help">Shown in the sender block, for the confirmation.</p>
+                <p class="help" id="mail-help">Appears in the sender block so the parish can reply to you.</p>
               </div>
             </div>
             <fieldset>
@@ -157,11 +157,11 @@
             <span class="step-num" aria-hidden="true">3</span>
             <div>
               <h2 id="h-versand">Sign and send</h2>
-              <p>This is how leaving takes effect.</p>
+              <p>Here's how your exit takes effect.</p>
             </div>
           </div>
           <ol class="checklist" id="checklist"></ol>
-          <p class="small">Terms, responsibilities and legal effects differ from canton to canton. The final assessment lies with the responsible authorities.</p>
+          <p class="small">Terms, responsibilities and legal effects vary from canton to canton; the final word lies with the responsible authorities.</p>
         </section>
       </div>
 
@@ -179,6 +179,7 @@
           <select id="letter-lang"><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option></select>
           <span class="help">By default the official language at your place of residence.</span>
         </div>
+        <p class="ready" id="ready" aria-live="polite" hidden></p>
         <p class="status" id="status" role="status"></p>
         <article class="paper" id="paper" aria-label="Letter preview">
           <div class="sender" id="l-sender"></div>
@@ -277,19 +278,19 @@
 
     <section class="section" id="fragen" aria-labelledby="h-fragen">
       <h2 id="h-fragen">Questions and answers</h2>
-      <p class="lead">Short and to the point. Legal debate distinguishes between state law on religion (membership of a public-law corporation, tax liability) and church law (canon law, sacramental order).</p>
+      <p class="lead">Here are the key answers. One distinction helps: state law governs membership of the public-law corporation and tax liability, while church law (canon law, sacramental order) governs life in the community of faith.</p>
       <div class="faq">
         <details>
           <summary>What is a partial withdrawal (Teilaustritt)?</summary>
           <div class="a">
             <p>Many cantons have a dual system: alongside the Roman Catholic Church as a religious community there are public-law church corporations (cantonal churches and parishes, known as Landeskirchen and Kirchgemeinden). They are organised under public law and are funded, among other things, by church tax.</p>
-            <p>A partial withdrawal means leaving this public-law corporation. It does not necessarily mean breaking with the community of faith.</p>
+            <p>With a partial withdrawal you leave this public-law corporation, without necessarily breaking with the community of faith.</p>
           </div>
         </details>
         <details>
           <summary>Can I still receive the sacraments or be a godparent?</summary>
           <div class="a">
-            <p>Yes. Leaving the parish and the cantonal church is separate from the question of membership of the Roman Catholic Church. Only if the person leaving also makes clear that they no longer accept central tenets of the faith could canonical sanctions possibly be imposed on them.</p>
+            <p>Yes. Leaving the parish and the cantonal church is separate from membership of the Roman Catholic Church. Canonical sanctions would only come into question if the person also made clear that they no longer accept central tenets of the faith.</p>
           </div>
         </details>
         <details>
@@ -308,7 +309,7 @@
         <details>
           <summary>Do I need a confirmation?</summary>
           <div class="a">
-            <p>A written confirmation is useful, stating the effective date and the end of tax liability. To end membership, however, proof that the declaration was delivered to the right office is enough.</p>
+            <p>It's useful because it records from when your exit applies and tax liability ends. To end membership, though, it's enough that your declaration demonstrably reached the right office.</p>
           </div>
         </details>
         <details>
@@ -321,7 +322,7 @@
           <summary>How reliable is the parish search?</summary>
           <div class="a">
             <p>The mapping from place to municipality comes from the official Swiss locality directory (swisstopo). We collected the parishes and their postal addresses from the directories of the cantonal churches and parishes. Every entry shows its source and date.</p>
-            <p>Parish names and addresses are given in the local official language. Some details are only available in German. Addresses change: check the address on the parish website before sending. Please report errors to <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
+            <p>Parish names and addresses are given in the local official language. Some details are only available in German. Since addresses change, a quick look at the parish website before sending is worth it. Please report errors to <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
           </div>
         </details>
         <details>

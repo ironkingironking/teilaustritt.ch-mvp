@@ -18,7 +18,7 @@
   <meta property="og:locale" content="de_CH">
   <meta name="theme-color" content="#0b3a7a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3a7a'/%3E%3Cpath d='M10 9h12v3h-4.5v12h-3V12H10z' fill='%23fff'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/css/site.css?v=20261028b">
+  <link rel="stylesheet" href="assets/css/site.css?v=20261028c">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -35,7 +35,7 @@
     ]
   }
   </script>
-  <script type="module" src="assets/js/app.js?v=20261028b"></script>
+  <script type="module" src="assets/js/app.js?v=20261028c"></script>
 </head>
 <body>
   <a class="skip" href="#tool">Zum Formular springen</a>
@@ -67,10 +67,10 @@
   <main id="main" class="wrap">
     <section class="intro" id="top">
       <h1>Austritt aus Kirchgemeinde und Landeskirche</h1>
-      <p>Finde die zuständige römisch-katholische Kirchgemeinde und erstelle dein Austrittsschreiben in drei Schritten. Für alle Kantone der Schweiz.</p>
+      <p>Gib deinen Wohnort ein, und wir zeigen dir, welche römisch-katholische Kirchgemeinde für dich zuständig ist. Daraus entsteht in wenigen Minuten ein fertiges Austrittsschreiben, das du nur noch unterschreiben und abschicken musst – in jedem Kanton der Schweiz.</p>
       <ul class="facts">
-        <li>Kostenlos, ohne Registrierung</li>
-        <li>Deine Angaben bleiben in deinem Browser</li>
+        <li>Kostenlos und ohne Registrierung</li>
+        <li>Deine Angaben verlassen deinen Browser nicht</li>
         <li>Keine Rechtsberatung</li>
       </ul>
     </section>
@@ -83,7 +83,7 @@
             <span class="step-num" aria-hidden="true">1</span>
             <div>
               <h2 id="h-ort">Wo wohnst du?</h2>
-              <p>Wir suchen die zuständige Kirchgemeinde.</p>
+              <p>Daraus ergibt sich, welche Kirchgemeinde zuständig ist.</p>
             </div>
           </div>
           <label for="ort">PLZ oder Ort</label>
@@ -92,7 +92,7 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ort-list" aria-describedby="ort-help">
             <ul id="ort-list" class="combo-list" role="listbox" aria-label="Passende Orte" hidden></ul>
           </div>
-          <p class="help" id="ort-help">Die Suche läuft in deinem Browser. Es wird nichts verschickt.</p>
+          <p class="help" id="ort-help">Die Suche läuft direkt in deinem Browser, es wird nichts übermittelt.</p>
           <div id="kg-result" class="result" aria-live="polite"></div>
         </section>
 
@@ -101,7 +101,7 @@
             <span class="step-num" aria-hidden="true">2</span>
             <div>
               <h2 id="h-person">Deine Angaben</h2>
-              <p>Damit dich die Kirchgemeinde im Register findet.</p>
+              <p>Damit dich die Kirchgemeinde in ihrem Register eindeutig findet.</p>
             </div>
           </div>
           <form id="person" novalidate autocomplete="on">
@@ -131,12 +131,12 @@
               <div>
                 <label for="geburtsdatum">Geburtsdatum <span class="opt-tag">(empfohlen)</span></label>
                 <input id="geburtsdatum" name="bday" autocomplete="bday" inputmode="numeric" placeholder="TT.MM.JJJJ" aria-describedby="geb-help">
-                <p class="help" id="geb-help">Hilft bei Namensgleichheit.</p>
+                <p class="help" id="geb-help">Hilft, falls jemand gleich heisst wie du.</p>
               </div>
               <div>
                 <label for="email">E-Mail <span class="opt-tag">(optional)</span></label>
                 <input id="email" name="email" type="email" autocomplete="email" aria-describedby="mail-help">
-                <p class="help" id="mail-help">Erscheint im Absender, für die Bestätigung.</p>
+                <p class="help" id="mail-help">Steht im Absender, damit dir die Kirchgemeinde antworten kann.</p>
               </div>
             </div>
             <fieldset>
@@ -157,12 +157,12 @@
           <div class="step-head">
             <span class="step-num" aria-hidden="true">3</span>
             <div>
-              <h2 id="h-versand">Unterschreiben und senden</h2>
-              <p>So wird der Austritt wirksam.</p>
+              <h2 id="h-versand">Unterschreiben und abschicken</h2>
+              <p>So wird dein Austritt wirksam.</p>
             </div>
           </div>
           <ol class="checklist" id="checklist"></ol>
-          <p class="small">Je nach Kanton unterscheiden sich Begriffe, Zuständigkeiten und Rechtsfolgen. Die definitive Beurteilung liegt bei den zuständigen Stellen.</p>
+          <p class="small">Begriffe, Zuständigkeiten und Rechtsfolgen sind von Kanton zu Kanton verschieden; verbindlich entscheiden am Ende die zuständigen Stellen.</p>
         </section>
       </div>
 
@@ -180,6 +180,7 @@
           <select id="letter-lang"><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option></select>
           <span class="help">Standard ist die Amtssprache an deinem Wohnort.</span>
         </div>
+        <p class="ready" id="ready" aria-live="polite" hidden></p>
         <p class="status" id="status" role="status"></p>
         <article class="paper" id="paper" aria-label="Vorschau des Schreibens">
           <div class="sender" id="l-sender"></div>
@@ -195,7 +196,7 @@
         <details class="edit no-print" id="edit">
           <summary>Brieftext anpassen</summary>
           <textarea id="body-edit" aria-label="Brieftext"></textarea>
-          <p class="help" id="edit-help">Absender, Empfänger und Datum füllen sich weiter automatisch aus.
+          <p class="help" id="edit-help">Absender, Empfänger und Datum füllen sich weiter von selbst aus.
             <button type="button" class="linkbtn" id="body-reset" hidden>Text auf Vorlage zurücksetzen</button></p>
         </details>
       </div>
@@ -203,11 +204,11 @@
 
     <section class="section" id="kirchensteuer" aria-labelledby="h-steuer">
       <h2 id="h-steuer">Kirchensteuer: das Wichtigste</h2>
-      <p class="lead">Kirchensteuer zahlen nur Mitglieder einer anerkannten Kirche. Das folgt aus der Glaubens- und Gewissensfreiheit (Art. 15 BV). Jeder Kanton regelt die Einzelheiten selbst, deshalb gibt es 26 verschiedene Systeme.</p>
+      <p class="lead">Kirchensteuer zahlt nur, wer einer anerkannten Kirche angehört – das ergibt sich aus der Glaubens- und Gewissensfreiheit (Art. 15 BV). Wie sie erhoben wird und wann sie nach einem Austritt endet, regelt jeder Kanton selbst. Deshalb gibt es in der Schweiz 26 verschiedene Systeme.</p>
 
       <div class="card tax-end">
         <h3>Ab wann zahlst du keine Kirchensteuer mehr?</h3>
-        <p class="small">Nach dem Bundesgericht endet die Steuerpflicht, sobald deine Austrittserklärung bei der zuständigen Stelle eingegangen ist. Die Kantone setzen das unterschiedlich um:</p>
+        <p class="small">Grundsätzlich endet die Steuerpflicht, sobald deine Austrittserklärung bei der zuständigen Stelle eingetroffen ist; so hat es das Bundesgericht festgehalten. Die Kantone setzen das allerdings unterschiedlich um:</p>
         <p class="tax-mine" id="tax-mine" hidden></p>
         <div class="tax-groups">
           <div>
@@ -231,8 +232,8 @@
         <details>
           <summary>Wie wird die Kirchensteuer berechnet?</summary>
           <div class="a">
-            <p>Meist als Prozentsatz der einfachen Kantonssteuer, in einigen Kantonen als Vielfaches davon oder als Anteil der geschuldeten Kantonssteuer. Grundlage sind Einkommen und Vermögen, in manchen Kantonen auch Grundstückgewinne.</p>
-            <p>Den Steuerfuss legt in der Regel die Kirchgemeindeversammlung jedes Jahr fest. Er ist deshalb von Kirchgemeinde zu Kirchgemeinde verschieden.</p>
+            <p>Meist als Prozentsatz der einfachen Kantonssteuer; einige Kantone rechnen mit einem Vielfachen davon oder mit einem Anteil der geschuldeten Kantonssteuer. Grundlage sind Einkommen und Vermögen, in manchen Kantonen auch Grundstückgewinne.</p>
+            <p>Den Steuerfuss legt in der Regel die Kirchgemeindeversammlung jedes Jahr neu fest, darum ist er von Kirchgemeinde zu Kirchgemeinde verschieden.</p>
           </div>
         </details>
         <details>
@@ -252,14 +253,14 @@
         <details>
           <summary>Ich habe eine eigene Firma (AG, GmbH)</summary>
           <div class="a">
-            <p>Dein persönlicher Austritt ändert nichts an der Kirchensteuer deiner Firma. Juristische Personen können sich laut Bundesgericht nicht auf die Glaubens- und Gewissensfreiheit berufen und deshalb nicht austreten. Ausgenommen sind nur Organisationen, die selbst religiöse Zwecke verfolgen.</p>
+            <p>An der Kirchensteuer deiner Firma ändert dein persönlicher Austritt nichts. Juristische Personen können sich laut Bundesgericht nicht auf die Glaubens- und Gewissensfreiheit berufen und deshalb auch nicht austreten – ausgenommen sind nur Organisationen, die selbst religiöse Zwecke verfolgen.</p>
             <p>Keine Kirchensteuer für Firmen erheben Basel-Stadt, Schaffhausen, Appenzell Ausserrhoden, Aargau und Genf. In Solothurn und St. Gallen fliesst stattdessen ein Teil der Firmensteuern in den Finanzausgleich der Kirchgemeinden.</p>
           </div>
         </details>
         <details>
           <summary>Auf meiner Steuerrechnung steht trotzdem Kirchensteuer</summary>
           <div class="a">
-            <p>Prüfe nach dem Austritt die nächste Veranlagung. Ist sie noch nicht rechtskräftig, kannst du innert Frist Einsprache erheben. Lege die Austrittsbestätigung oder den Einlieferungsbeleg bei.</p>
+            <p>Wirf nach dem Austritt einen Blick auf die nächste Veranlagung. Solange sie nicht rechtskräftig ist, kannst du innert Frist Einsprache erheben; leg am besten die Austrittsbestätigung oder den Einlieferungsbeleg bei.</p>
             <p>Bei bereits rechtskräftigen Veranlagungen ist eine Rückzahlung nur eingeschränkt möglich. Ausdrücklich gesetzlich vorgesehen ist sie in Nidwalden, Graubünden und im Jura. In Zürich, Basel-Stadt und St. Gallen geht es über eine Revision oder Berichtigung.</p>
           </div>
         </details>
@@ -278,57 +279,57 @@
 
     <section class="section" id="fragen" aria-labelledby="h-fragen">
       <h2 id="h-fragen">Fragen und Antworten</h2>
-      <p class="lead">Kurz und nüchtern. Die Fachdebatte unterscheidet zwischen staatlichem Religionsrecht (Mitgliedschaft in einer öffentlich-rechtlichen Körperschaft, Steuerpflicht) und kirchlichem Recht (kanonisches Recht, Sakramentenordnung).</p>
+      <p class="lead">Hier findest du die wichtigsten Antworten. Hilfreich ist eine Unterscheidung, die auch die Fachdebatte macht: Das staatliche Religionsrecht regelt die Mitgliedschaft in der öffentlich-rechtlichen Körperschaft und die Steuerpflicht, das kirchliche Recht (kanonisches Recht, Sakramentenordnung) das Leben in der Glaubensgemeinschaft.</p>
       <div class="faq">
         <details>
           <summary>Was ist ein Teilaustritt?</summary>
           <div class="a">
-            <p>In vielen Kantonen gibt es ein duales System: Neben der römisch-katholischen Kirche als Religionsgemeinschaft bestehen staatskirchenrechtliche Körperschaften (Landeskirchen und Kirchgemeinden). Sie sind öffentlich-rechtlich organisiert und finanzieren sich unter anderem über die Kirchensteuer.</p>
-            <p>Ein Teilaustritt zielt auf den Austritt aus dieser öffentlich-rechtlichen Körperschaft. Er bedeutet nicht zwingend einen Bruch mit der Glaubensgemeinschaft.</p>
+            <p>In vielen Kantonen gibt es ein duales System: Neben der römisch-katholischen Kirche als Religionsgemeinschaft bestehen staatskirchenrechtliche Körperschaften, also Landeskirchen und Kirchgemeinden. Sie sind öffentlich-rechtlich organisiert und finanzieren sich unter anderem über die Kirchensteuer.</p>
+            <p>Mit einem Teilaustritt verlässt du diese öffentlich-rechtliche Körperschaft. Das bedeutet nicht zwingend einen Bruch mit der Glaubensgemeinschaft.</p>
           </div>
         </details>
         <details>
           <summary>Kann ich danach noch Sakramente empfangen oder Pate werden?</summary>
           <div class="a">
-            <p>Ja. Der Austritt aus Kirchgemeinde und Landeskirche ist losgelöst von der Frage nach der Mitgliedschaft in der römisch-katholischen Kirche. Nur wenn die austretende Person gleichzeitig zu erkennen gibt, dass sie zentrale Glaubensinhalte nicht mehr anerkennt, könnten allenfalls kirchenrechtliche Sanktionen gegen sie verhängt werden.</p>
+            <p>Ja. Der Austritt aus Kirchgemeinde und Landeskirche ist von der Mitgliedschaft in der römisch-katholischen Kirche losgelöst. Kirchenrechtliche Sanktionen kämen allenfalls dann in Frage, wenn die austretende Person zugleich zu erkennen gibt, dass sie zentrale Glaubensinhalte nicht mehr anerkennt.</p>
           </div>
         </details>
         <details>
           <summary>An wen schicke ich das Schreiben?</summary>
           <div class="a">
-            <p>An die Kirchgemeinde an deinem Wohnsitz. Es gilt das Territorialprinzip: Wer Kirchensteuer zahlt, ist in fast allen Fällen automatisch Mitglied der Kirchgemeinde am Wohnsitz. In Schritt 1 findest du die zuständige Kirchgemeinde mit Postadresse.</p>
+            <p>An die Kirchgemeinde an deinem Wohnsitz. Es gilt das Territorialprinzip: Wer Kirchensteuer zahlt, ist in fast allen Fällen automatisch Mitglied der Kirchgemeinde, in der er oder sie wohnt. Die zuständige Kirchgemeinde samt Postadresse findest du in Schritt 1.</p>
           </div>
         </details>
         <details>
           <summary>Welche Form braucht es?</summary>
           <div class="a">
-            <p>In der Deutschschweiz und im Jura muss die Austrittserklärung schriftlich an die Kirchgemeinde am Wohnsitz gehen. Aus Beweisgründen am besten per Einschreiben oder A-Post Plus.</p>
-            <p id="faq-beglaubigung">In einigen Kantonen muss die Unterschrift zusätzlich amtlich beglaubigt werden, durch die Gemeinde oder ein Notariat. Schritt 3 zeigt dir, ob das für deinen Wohnort gilt.</p>
+            <p>In der Deutschschweiz und im Jura muss die Austrittserklärung schriftlich an die Kirchgemeinde am Wohnsitz gehen, aus Beweisgründen am besten per Einschreiben oder A-Post Plus.</p>
+            <p id="faq-beglaubigung">In einigen Kantonen muss die Unterschrift zusätzlich von der Gemeinde oder einem Notariat beglaubigt werden. Ob das für deinen Wohnort gilt, siehst du in Schritt 3.</p>
           </div>
         </details>
         <details>
           <summary>Brauche ich eine Bestätigung?</summary>
           <div class="a">
-            <p>Eine schriftliche Bestätigung ist sinnvoll, mit dem Datum der Wirksamkeit und dem Ende der Steuerpflicht. Für die Beendigung der Mitgliedschaft genügt aber die nachweisliche Zustellung der Austrittserklärung an die richtige Stelle.</p>
+            <p>Sinnvoll ist sie, weil sie festhält, ab wann der Austritt gilt und die Steuerpflicht endet. Für das Ende der Mitgliedschaft genügt aber bereits, dass deine Austrittserklärung nachweislich bei der richtigen Stelle angekommen ist.</p>
           </div>
         </details>
         <details>
           <summary>Was passiert mit meinen Daten im Register?</summary>
           <div class="a">
-            <p>Datenschutz- und Registerfragen sind zentral: Eintrag, Korrektur, Löschung, Auskunft. Wünsche dazu kannst du im Feld «Zusatz» ergänzen.</p>
+            <p>Fragen zu Datenschutz und Register sind wichtig, etwa zu Eintrag, Korrektur, Löschung oder Auskunft. Entsprechende Wünsche kannst du im Feld «Zusatz» gleich mitschicken.</p>
           </div>
         </details>
         <details>
           <summary>Wie zuverlässig ist die Kirchgemeinde-Suche?</summary>
           <div class="a">
-            <p>Die Zuordnung Wohnort → Gemeinde stammt aus dem amtlichen Ortschaftenverzeichnis von swisstopo. Die Kirchgemeinden und ihre Postadressen haben wir aus den Verzeichnissen der Landeskirchen und Kirchgemeinden zusammengetragen. Jede Angabe nennt ihre Quelle und ihren Stand.</p>
-            <p>Adressen ändern sich. Prüfe die Adresse vor dem Versand kurz auf der Website der Kirchgemeinde. Fehler meldest du an <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
+            <p>Welche Gemeinde zu deinem Wohnort gehört, stammt aus dem amtlichen Ortschaftenverzeichnis von swisstopo. Die Kirchgemeinden und ihre Postadressen haben wir aus den Verzeichnissen der Landeskirchen und Kirchgemeinden zusammengetragen; bei jeder Angabe stehen Quelle und Stand.</p>
+            <p>Weil sich Adressen ändern, lohnt sich vor dem Versand ein kurzer Blick auf die Website der Kirchgemeinde. Fehler meldest du an <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
           </div>
         </details>
         <details>
           <summary>Gilt das auch für reformierte oder christkatholische Mitglieder?</summary>
           <div class="a">
-            <p>Die Kirchgemeinde-Suche kennt nur römisch-katholische Kirchgemeinden. Die Rechtsfragen auf dieser Seite betreffen die römisch-katholische Kirche. Für andere Landeskirchen gelten eigene Regeln.</p>
+            <p>Die Suche kennt nur römisch-katholische Kirchgemeinden, und auch die Rechtsfragen auf dieser Seite beziehen sich auf die römisch-katholische Kirche. Für andere Landeskirchen gelten eigene Regeln.</p>
           </div>
         </details>
       </div>
@@ -336,7 +337,7 @@
 
     <section class="section" id="quellen" aria-labelledby="h-quellen">
       <h2 id="h-quellen">Quellen und Literatur</h2>
-      <p class="lead">Als Einstieg: offizielle Dokumente, akademische Gutachten und Praxismerkblätter.</p>
+      <p class="lead">Zum Weiterlesen: offizielle Dokumente, akademische Gutachten und Merkblätter aus der Praxis.</p>
       <ul class="sources">
         <li><strong>RKZ</strong>, Erklärung zum Kirchenaustritt (rechtliche Konsequenzen), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20030531_Erklaerung_Kirchenaustritt_-_rechtliche_Konsequenzen_d.pdf" target="_blank" rel="noopener">PDF auf rkz.ch</a></li>
         <li><strong>RKZ</strong>, Kirchenzugehörigkeit und Kirchenaustrittserklärung (Positionspapier 2003), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.1_Postitions-_Strategiepapiere/3.1.20031029_Kirchenzugehoerigkeit_Kirchenaustritt.pdf" target="_blank" rel="noopener">PDF auf rkz.ch</a></li>

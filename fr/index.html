@@ -18,7 +18,7 @@
   <meta property="og:locale" content="fr_CH">
   <meta name="theme-color" content="#0b3a7a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3a7a'/%3E%3Cpath d='M10 9h12v3h-4.5v12h-3V12H10z' fill='%23fff'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="../assets/css/site.css?v=20261028b">
+  <link rel="stylesheet" href="../assets/css/site.css?v=20261028c">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,7 +34,7 @@
     ]
   }
   </script>
-  <script type="module" src="../assets/js/app.js?v=20261028b"></script>
+  <script type="module" src="../assets/js/app.js?v=20261028c"></script>
 </head>
 <body>
   <a class="skip" href="#tool">Aller au formulaire</a>
@@ -66,10 +66,10 @@
   <main id="main" class="wrap">
     <section class="intro" id="top">
       <h1>Sortie de la paroisse et de l'Église cantonale</h1>
-      <p>Trouvez la paroisse catholique romaine compétente et rédigez votre déclaration de sortie en trois étapes. Pour tous les cantons suisses.</p>
+      <p>Indiquez votre lieu de domicile : nous vous montrons quelle paroisse catholique romaine est compétente et préparons en quelques minutes une déclaration de sortie qu'il ne vous reste plus qu'à signer et à envoyer – dans tous les cantons suisses.</p>
       <ul class="facts">
-        <li>Gratuit, sans inscription</li>
-        <li>Vos données restent dans votre navigateur</li>
+        <li>Gratuit et sans inscription</li>
+        <li>Vos données ne quittent pas votre navigateur</li>
         <li>Pas de conseil juridique</li>
       </ul>
     </section>
@@ -82,7 +82,7 @@
             <span class="step-num" aria-hidden="true">1</span>
             <div>
               <h2 id="h-ort">Où habitez-vous ?</h2>
-              <p>Nous cherchons la paroisse compétente.</p>
+              <p>C'est lui qui détermine la paroisse compétente.</p>
             </div>
           </div>
           <label for="ort">NPA ou localité</label>
@@ -91,7 +91,7 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ort-list" aria-describedby="ort-help">
             <ul id="ort-list" class="combo-list" role="listbox" aria-label="Localités correspondantes" hidden></ul>
           </div>
-          <p class="help" id="ort-help">La recherche se fait dans votre navigateur. Rien n'est envoyé.</p>
+          <p class="help" id="ort-help">La recherche se fait directement dans votre navigateur ; rien n'est transmis.</p>
           <div id="kg-result" class="result" aria-live="polite"></div>
         </section>
 
@@ -100,7 +100,7 @@
             <span class="step-num" aria-hidden="true">2</span>
             <div>
               <h2 id="h-person">Vos données</h2>
-              <p>Pour que la paroisse vous trouve dans son registre.</p>
+              <p>Pour que la paroisse vous retrouve sans hésitation dans son registre.</p>
             </div>
           </div>
           <form id="person" novalidate autocomplete="on">
@@ -130,12 +130,12 @@
               <div>
                 <label for="geburtsdatum">Date de naissance <span class="opt-tag">(recommandée)</span></label>
                 <input id="geburtsdatum" name="bday" autocomplete="bday" inputmode="numeric" placeholder="JJ.MM.AAAA" aria-describedby="geb-help">
-                <p class="help" id="geb-help">Utile en cas d'homonymie.</p>
+                <p class="help" id="geb-help">Utile si quelqu'un porte le même nom que vous.</p>
               </div>
               <div>
                 <label for="email">E-mail <span class="opt-tag">(facultatif)</span></label>
                 <input id="email" name="email" type="email" autocomplete="email" aria-describedby="mail-help">
-                <p class="help" id="mail-help">Figure dans l'en-tête, pour la confirmation.</p>
+                <p class="help" id="mail-help">Figure dans l'en-tête, pour que la paroisse puisse vous répondre.</p>
               </div>
             </div>
             <fieldset>
@@ -157,11 +157,11 @@
             <span class="step-num" aria-hidden="true">3</span>
             <div>
               <h2 id="h-versand">Signer et envoyer</h2>
-              <p>C'est ainsi que la sortie prend effet.</p>
+              <p>Voici comment votre sortie prend effet.</p>
             </div>
           </div>
           <ol class="checklist" id="checklist"></ol>
-          <p class="small">Selon le canton, les notions, les compétences et les effets juridiques diffèrent. L'appréciation définitive appartient aux autorités compétentes.</p>
+          <p class="small">Les notions, les compétences et les effets juridiques varient d'un canton à l'autre ; ce sont les autorités compétentes qui tranchent en définitive.</p>
         </section>
       </div>
 
@@ -179,6 +179,7 @@
           <select id="letter-lang"><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option></select>
           <span class="help">Par défaut, la langue officielle de votre lieu de domicile.</span>
         </div>
+        <p class="ready" id="ready" aria-live="polite" hidden></p>
         <p class="status" id="status" role="status"></p>
         <article class="paper" id="paper" aria-label="Aperçu de la lettre">
           <div class="sender" id="l-sender"></div>
@@ -277,19 +278,19 @@
 
     <section class="section" id="fragen" aria-labelledby="h-fragen">
       <h2 id="h-fragen">Questions et réponses</h2>
-      <p class="lead">En bref et en toute sobriété. Le débat juridique distingue le droit public ecclésiastique de l'État (appartenance à une corporation de droit public, obligation fiscale) et le droit de l'Église (droit canonique, ordre des sacrements).</p>
+      <p class="lead">Voici les réponses essentielles. Une distinction aide à s'y retrouver : le droit public de l'État règle l'appartenance à la corporation de droit public et l'obligation fiscale, tandis que le droit de l'Église (droit canonique, ordre des sacrements) régit la vie dans la communauté de foi.</p>
       <div class="faq">
         <details>
           <summary>Qu'est-ce qu'une sortie partielle ?</summary>
           <div class="a">
             <p>Dans de nombreux cantons existe un système dual : à côté de l'Église catholique romaine en tant que communauté religieuse, il existe des corporations ecclésiastiques de droit public (Églises cantonales et paroisses). Elles sont organisées selon le droit public et se financent notamment par l'impôt ecclésiastique.</p>
-            <p>La sortie partielle vise la sortie de cette corporation de droit public. Elle ne signifie pas forcément une rupture avec la communauté de foi.</p>
+            <p>Avec une sortie partielle, vous quittez cette corporation de droit public, sans forcément rompre avec la communauté de foi.</p>
           </div>
         </details>
         <details>
           <summary>Puis-je encore recevoir les sacrements ou être parrain ou marraine ?</summary>
           <div class="a">
-            <p>Oui. La sortie de la paroisse et de l'Église cantonale est distincte de la question de l'appartenance à l'Église catholique romaine. Ce n'est que si la personne qui sort indique en même temps qu'elle ne reconnaît plus des contenus essentiels de la foi que des sanctions canoniques pourraient éventuellement être prononcées contre elle.</p>
+            <p>Oui. La sortie de la paroisse et de l'Église cantonale est indépendante de l'appartenance à l'Église catholique romaine. Des sanctions canoniques ne seraient envisageables que si la personne indiquait en même temps ne plus reconnaître des contenus essentiels de la foi.</p>
           </div>
         </details>
         <details>
@@ -308,7 +309,7 @@
         <details>
           <summary>Ai-je besoin d'une confirmation ?</summary>
           <div class="a">
-            <p>Une confirmation écrite est utile, avec la date de prise d'effet et la fin de l'obligation fiscale. Pour mettre fin à l'appartenance, la preuve de la remise de la déclaration à l'office compétent suffit toutefois.</p>
+            <p>Elle est utile, car elle indique à partir de quand la sortie s'applique et l'obligation fiscale prend fin. Pour mettre fin à l'appartenance, il suffit toutefois que votre déclaration soit prouvablement parvenue à l'office compétent.</p>
           </div>
         </details>
         <details>
@@ -321,7 +322,7 @@
           <summary>Quelle est la fiabilité de la recherche de paroisse ?</summary>
           <div class="a">
             <p>L'attribution localité → commune provient du répertoire officiel des localités de swisstopo. Les paroisses et leurs adresses postales ont été rassemblées à partir des annuaires des Églises cantonales et des paroisses. Chaque indication mentionne sa source et sa date.</p>
-            <p>Les noms et adresses des paroisses figurent dans la langue officielle locale. Certaines indications détaillées n'existent qu'en allemand. Les adresses changent : vérifiez brièvement l'adresse sur le site web de la paroisse avant l'envoi. Signalez les erreurs à <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
+            <p>Les noms et adresses des paroisses figurent dans la langue officielle locale. Certaines indications détaillées n'existent qu'en allemand. Comme les adresses changent, un coup d'œil au site web de la paroisse avant l'envoi vaut la peine. Signalez les erreurs à <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
           </div>
         </details>
         <details>
