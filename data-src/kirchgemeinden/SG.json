@@ -1,0 +1,2562 @@
+{
+  "canton": "SG",
+  "body": {
+    "name": "Katholischer Konfessionsteil des Kantons St.Gallen",
+    "short": "Katholischer Konfessionsteil St.Gallen",
+    "website": "https://sg.kath.ch/",
+    "postal": [
+      "Katholischer Konfessionsteil des Kantons St.Gallen",
+      "Klosterhof 6a",
+      "9000 St.Gallen"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchenverwaltungsrat der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich, eigenhändig unterschrieben, Unterschrift amtlich beglaubigt",
+    "beglaubigung": true,
+    "beglaubigung_note": "Beglaubigung der Unterschrift durch Gemeindepräsidium oder Gemeinderatsschreiber/in der politischen Gemeinde, Amtsnotariat, Staatskanzlei oder eine Anwältin/einen Anwalt bzw. Rechtsagenten mit Sitz im Kanton (Art. 35ter EG-ZGB, sGS 911.1).",
+    "wirkung": "Die Kirchensteuerpflicht erlischt nach Ablauf des Tages, an dem die formgültige Erklärung bei der Kirchgemeinde eingegangen ist (Steuerbuch SG, StB 3 Nr. 1; Art. 1 Abs. 2 StV).",
+    "notes": "Art. 6 Abs. 2 VKK (sGS 173.5): «Die Zugehörigkeit erlischt, wenn dem Kirchenverwaltungsrat schriftlich und mit beglaubigter Unterschrift der Austritt aus der römisch-katholischen Kirche mitgeteilt wird.» Laut Steuerbuch darf der formell korrekte Austritt an keine Bedingungen (z. B. Gespräch) geknüpft werden.",
+    "source": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/173.5"
+  },
+  "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/173.5",
+    "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/911.1",
+    "https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-1-12-stg/003_1.pdf.ocFile/003_1.pdf",
+    "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/171.0",
+    "https://metadata.geo.sg.ch/produkte/90",
+    "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+    "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+    "https://sg.kath.ch/kirchgemeinden/",
+    "https://sg.kath.ch/kontakt/",
+    "https://public.madd.bfs.admin.ch/sg.zip",
+    "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-abtwil-st-josefen/kontakt/",
+    "https://www.seotog.ch/de/Seelsorgeeinheit/Kontakte/Sekretariate.14.html",
+    "https://www.kath-altstaetten.ch/about/",
+    "https://kath-alttoggenburg.ch/gesch%C3%A4ftsleitung",
+    "https://kath-gaster.ch/amden/pfarreisekretariat/",
+    "https://www.kathandwilarnegg.ch/kvr",
+    "https://kath-au.ch/impressum/",
+    "https://www.setamina.ch/kontakt-badragaz.html",
+    "https://kath-balgach.ch/impressum-datenschutz/",
+    "https://www.benken.ch/kathkirche",
+    "https://pfarrei-berg-freidorf.ch/behoerden/kirchenverwaltungsrat/",
+    "https://kath-berneck.ch/impressum/",
+    "https://www.kathbernhardzell.ch/",
+    "https://www.sesowa.ch/berschis-tscherlach/kontakte/",
+    "https://www.kath-uzwil.ch/kontakte/verwaltungen/kvr-bi-ou",
+    "https://www.kathwerdenberg.ch/Portals/0/adam/Content/Kq2pN7wUmkmar7aHvocYqQ/Text/Jahresrechnung%202025.pdf",
+    "https://www.seut.ch/kontakt/",
+    "https://kath-diepoldsau.ch/impressum-datenschutz/",
+    "https://www.ebnat-kappel.ch/kirchen/9075",
+    "https://se-ueb.ch/pfarreien/eggersriet/",
+    "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-engelburg/kontakt/",
+    "https://kath-eschenbach.ch/kirchgemeinde/geschaeftsstelle/",
+    "https://www.flums.ch/news/3022426",
+    "https://www.kathwerdenberg.ch/gams/pfarrei/kirchenverwaltungsrat",
+    "https://www.kathgossau.ch/sekretariat",
+    "https://kath-heerbrugg.ch/ueber-uns/personen/kirchenverwaltung/",
+    "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+    "https://www.kath-uzwil.ch/kontakte/verwaltungen/kvr-he-nu",
+    "https://altkon.ch/pfarreisekretariate",
+    "https://www.kath-uzwil.ch/kontakte/verwaltungen/kvr-jo",
+    "https://kath-gaster.ch/kaltbrunn/kirchenverwaltung/",
+    "https://www.se-blattenberg.ch/de/kobelwald/wir-sind-fuer-sie-da",
+    "https://www.se-blattenberg.ch/de/kriessern/wir-sind-fuer-sie-da",
+    "https://www.semf.ch/kontakt.html",
+    "https://www.lichtensteig.ch/kirchen",
+    "https://www.kirche-luechingen.ch/about/",
+    "https://kirche-marbach.ch/impressum/",
+    "https://www.kath-msl.ch/kirchgemeinde-mels/",
+    "https://www.sesowa.ch/mols-murg-quarten/kontakte/",
+    "https://www.se-blattenberg.ch/de/montlingen-eichenwies/wir-sind-fuer-sie-da",
+    "https://www.mosnang.ch/de/Leben-in-Mosnang/Kultur-und-Freizeit/Kirchen",
+    "https://altkon.ch/impressum",
+    "https://pfarrei-moerschwil.ch/kirchenverwaltung/",
+    "https://www.sse-onn.ch/zweckverband_portrait",
+    "https://www.se-blattenberg.ch/de/oberriet/wir-sind-fuer-sie-da",
+    "https://www.kath-obersee.ch/fileadmin/kundendaten/dateien/06_verwaltung/92510786_KG_Obersee_JR24_GzD-def.pdf",
+    "https://www.setamina.ch/kontakt-pfaefers.html",
+    "https://krj.ch/kirchgemeinde/geschaeftsstelle/",
+    "https://www.kathrebstein.ch/about/",
+    "https://www.se-ma.ch/kontakt/",
+    "https://kkrr.ch/kontakt",
+    "https://www.kath-buechberg.ch/uploads/69ea295ae54f288218eca834/-/Amtsbericht%202025.pdf",
+    "https://www.se-blattenberg.ch/de/ruethi-lienz/wir-sind-fuer-sie-da",
+    "https://www.kath-msl.ch/kirchgemeinde-sargans/",
+    "https://kath-gaster.ch/wp-content/uploads/2026/03/kg-schaenis-kirchbuergerversammlung-einladung-26.pdf",
+    "https://www.kathwerdenberg.ch/sennwald/pfarrei/kontakt",
+    "https://www.sevelen.ch/kirchen",
+    "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-stadt-st-gallen/kontakt-und-team/",
+    "https://www.kath-buechberg.ch/pfarrei-st-margrethen/personen/sekretariat",
+    "https://pfarrei-steinach.ch/behoerden/kirchenrat/",
+    "https://www.kath-buechberg.ch/uploads/69f46538a73c20d3e0987144/-/Amtsbericht%202025.pdf",
+    "https://xn--pfarrei-tbach-4ob.ch/kirchenrat/",
+    "https://www.setamina.ch/kontakt-valens.html",
+    "https://www.kath-msl.ch/kirchgemeinde-vilters/",
+    "https://www.setamina.ch/kontakt-vaettis.html",
+    "https://www.kathwaldkirch.ch/kirchenverwaltung",
+    "https://www.sesowa.ch/walenstadt/kontakte/",
+    "https://www.kath-msl.ch/kirchgemeinde-wangs/",
+    "https://www.kathwerdenberg.ch/wartau/pfarrei/kontakt",
+    "https://kath-gaster.ch/weesen/kirchenverwaltung/",
+    "https://www.kath-msl.ch/impressum/",
+    "https://kath-widnau.ch/kontakte/",
+    "https://kathwil.ch/ueber-uns/administration/"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "sg-abtwil-st-josefen",
+      "name": "Katholische Kirchgemeinde Abtwil-St.Josefen",
+      "postal": [
+        "Katholische Kirchgemeinde Abtwil-St.Josefen",
+        "Pfarreisekretariat Abtwil",
+        "Kirchweg 7",
+        "9030 Abtwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarreisekretariat@kath-abtwil.ch",
+      "website": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-abtwil-st-josefen/",
+      "source": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-abtwil-st-josefen/kontakt/",
+      "confidence": "medium",
+      "note": "Kontaktseite der KG nennt nur das Pfarreisekretariat als Postadresse; KVR-Präsidium per Funktionsadresse praesidium@kath-abtwil.ch erreichbar.",
+      "bfs": [],
+      "partial_bfs": [
+        3442
+      ]
+    },
+    {
+      "id": "sg-alt-st-johann",
+      "name": "Katholische Kirchgemeinde Alt St. Johann",
+      "postal": [
+        "Katholische Kirchgemeinde Alt St. Johann",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Oberes Toggenburg",
+        "Johanneumstrasse 1",
+        "9652 Neu St. Johann"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvrpraesident@sanktjohann.ch",
+      "website": "https://www.seotog.ch/",
+      "source": "https://www.seotog.ch/de/Seelsorgeeinheit/Kontakte/Sekretariate.14.html",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; Sekretariat der Seelsorgeeinheit Oberes Toggenburg (für alle Pfarreien zuständig). Alternative: Propstei, Kirchplatz 1, 9656 Alt St. Johann (https://www.sanktjohann.ch/kontakt/, Raumvermietung der KG).",
+      "bfs": [],
+      "partial_bfs": [
+        3359
+      ]
+    },
+    {
+      "id": "sg-altstaetten",
+      "name": "Röm.-katholische Kirchgemeinde Altstätten",
+      "postal": [
+        "Röm.-katholische Kirchgemeinde Altstätten",
+        "Kirchplatz 2",
+        "9450 Altstätten SG"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-altstaetten.ch",
+      "website": "https://www.kath-altstaetten.ch",
+      "source": "https://www.kath-altstaetten.ch/about/",
+      "confidence": "high",
+      "note": "Impressum: Postanschrift der KG (Pfarreisekretariat). KG umfasst auch Pfarrei Hinterforst-Eichberg.",
+      "bfs": [
+        3252
+      ],
+      "partial_bfs": [
+        3251
+      ]
+    },
+    {
+      "id": "sg-alttoggenburg",
+      "name": "Katholische Kirchgemeinde Alttoggenburg",
+      "postal": [
+        "Katholische Kirchgemeinde Alttoggenburg",
+        "Geschäftsstelle",
+        "Kirchgasse 11",
+        "9602 Bazenheid"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kath-alttoggenburg.ch",
+      "website": "https://kath-alttoggenburg.ch/",
+      "source": "https://kath-alttoggenburg.ch/gesch%C3%A4ftsleitung",
+      "confidence": "high",
+      "note": "Fusion: seit 1.1.2024 Kirche Alttoggenburg mit den Pfarreien Bazenheid, Gähwil und Kirchberg (Website); Name laut Jahresbericht 2025 «Katholische Kirchgemeinde Alttoggenburg».",
+      "bfs": [],
+      "partial_bfs": [
+        3392
+      ]
+    },
+    {
+      "id": "sg-amden",
+      "name": "Katholische Kirchgemeinde Amden",
+      "postal": [
+        "Katholische Kirchgemeinde Amden",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat",
+        "Dorfstrasse 37a",
+        "8873 Amden"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kath-gaster.ch/",
+      "source": "https://kath-gaster.ch/amden/pfarreisekretariat/",
+      "confidence": "medium",
+      "note": "Auf der KVR-Seite nur Adresse des Präsidiums (vermutlich privat, nicht übernommen); Pfarreisekretariat Amden.",
+      "bfs": [],
+      "partial_bfs": [
+        3311
+      ]
+    },
+    {
+      "id": "sg-andwil-arnegg",
+      "name": "Katholische Kirchgemeinde Andwil-Arnegg",
+      "postal": [
+        "Katholische Kirchgemeinde Andwil-Arnegg",
+        "Katholische Kirchenverwaltung Andwil-Arnegg",
+        "Arneggerstrasse 3",
+        "9204 Andwil"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kathandwilarnegg.ch/",
+      "source": "https://www.kathandwilarnegg.ch/kvr",
+      "confidence": "high",
+      "note": "otmarpfarrei.ch leitet auf kathandwilarnegg.ch um; Kirchenverwaltung und Pfarramt unter derselben Adresse.",
+      "bfs": [
+        3441
+      ],
+      "partial_bfs": [
+        3443,
+        3444
+      ]
+    },
+    {
+      "id": "sg-au",
+      "name": "Katholische Kirchgemeinde Au SG",
+      "postal": [
+        "Katholische Kirchgemeinde Au SG",
+        "c/o Pfarreisekretariat",
+        "Kirchweg 10",
+        "9434 Au"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-au.ch",
+      "website": "https://kath-au.ch",
+      "source": "https://kath-au.ch/impressum/",
+      "confidence": "medium",
+      "note": "KVR-Kontakt nur Privatadresse des Präsidiums (auch für Anträge, Jahresrechnung 2025); Kontaktadresse der Pfarrei Au SG.",
+      "bfs": [],
+      "partial_bfs": [
+        3231
+      ]
+    },
+    {
+      "id": "sg-bad-ragaz",
+      "name": "Katholische Kirchgemeinde Bad Ragaz",
+      "postal": [
+        "Katholische Kirchgemeinde Bad Ragaz",
+        "Kirchenverwaltungsrat",
+        "Sarganserstrasse 4",
+        "Postfach 193",
+        "7310 Bad Ragaz"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.setamina.ch",
+      "source": "https://www.setamina.ch/kontakt-badragaz.html",
+      "confidence": "high",
+      "note": "Alle KVR-Mitglieder unter dieser Adresse publiziert (Sekretariat der Seelsorgeeinheit im selben Haus).",
+      "bfs": [
+        3291
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-balgach",
+      "name": "Katholische Kirchgemeinde Balgach",
+      "postal": [
+        "Katholische Kirchgemeinde Balgach",
+        "Hauptstrasse 35",
+        "9436 Balgach"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-balgach.ch",
+      "website": "https://kath-balgach.ch",
+      "source": "https://kath-balgach.ch/impressum-datenschutz/",
+      "confidence": "high",
+      "note": "Impressum: Herausgeber Kath. Kirchgemeinde Balgach an Adresse des Pfarreisekretariats.",
+      "bfs": [],
+      "partial_bfs": [
+        3232
+      ]
+    },
+    {
+      "id": "sg-benken",
+      "name": "Katholische Kirchgemeinde Benken",
+      "postal": [
+        "Katholische Kirchgemeinde Benken",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat",
+        "Schulstrasse 7",
+        "8717 Benken"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.benken@kath-gaster.ch",
+      "website": "https://kath-gaster.ch/",
+      "source": "https://www.benken.ch/kathkirche",
+      "confidence": "high",
+      "note": "Politische Gemeinde nennt Sekretariat Schulstrasse 7 als Kontakt der Kath. Kirchgemeinde; = Pfarramt Benken (https://kath-gaster.ch/benken/pfarreisekretariat/).",
+      "bfs": [
+        3312
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-berg-freidorf",
+      "name": "Katholische Kirchgemeinde Berg-Freidorf",
+      "postal": [
+        "Katholische Kirchgemeinde Berg-Freidorf",
+        "Kirchenverwaltungsrat, Geschäftsführung",
+        "Hauptstrasse 36",
+        "9323 Steinach"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://pfarrei-berg-freidorf.ch/",
+      "source": "https://pfarrei-berg-freidorf.ch/behoerden/kirchenverwaltungsrat/",
+      "confidence": "medium",
+      "note": "KVR-Seite nennt die Geschäftsführung (Zweckverband SE Steinerburg) im Pfarramt Steinach. Alternative lokal: Pfarramt Berg-Freidorf, Wiedenhubstrasse 1, 9305 Berg, sekretariat@pfarrei-berg-freidorf.ch. Fusion: Berg-Freidorf, Mörschwil, Steinach und Tübach vereinigen sich zur Katholischen Kirchgemeinde Steinerburg, Start 1.1.2028 (Mitteilung der vier Kirchenverwaltungsräte, Mai 2026; im kantonalen Geodatensatz nicht vermerkt).",
+      "bfs": [
+        3211
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-berneck",
+      "name": "Katholische Kirchgemeinde Berneck",
+      "postal": [
+        "Katholische Kirchgemeinde Berneck",
+        "c/o Pfarreisekretariat",
+        "Rathausplatz 4a",
+        "9442 Berneck"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-berneck.ch",
+      "website": "https://kath-berneck.ch",
+      "source": "https://kath-berneck.ch/impressum/",
+      "confidence": "medium",
+      "note": "KVR nur mit privaten Kontakten publiziert; Kontaktadresse der Pfarrei Berneck.",
+      "bfs": [],
+      "partial_bfs": [
+        3233
+      ]
+    },
+    {
+      "id": "sg-bernhardzell",
+      "name": "Katholische Kirchgemeinde Bernhardzell",
+      "postal": [
+        "Katholische Kirchgemeinde Bernhardzell",
+        "Katholische Kirchenverwaltung Bernhardzell",
+        "Kirchstrasse 19",
+        "9304 Bernhardzell"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kathbernhardzell.ch/",
+      "source": "https://www.kathbernhardzell.ch/",
+      "confidence": "high",
+      "note": "Kirchenverwaltung und Pfarramt St. Johannes Baptist unter derselben Adresse.",
+      "bfs": [],
+      "partial_bfs": [
+        3444
+      ]
+    },
+    {
+      "id": "sg-berschis",
+      "name": "Katholische Kirchgemeinde Berschis",
+      "postal": [
+        "Katholische Kirchgemeinde Berschis",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Berschis-Tscherlach",
+        "Schulhausstrasse 4",
+        "8892 Berschis"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.berschis-tscherlach@sesowa.ch",
+      "website": "https://www.sesowa.ch/",
+      "source": "https://www.sesowa.ch/berschis-tscherlach/kontakte/",
+      "confidence": "medium",
+      "note": "Gemeinsames Pfarreisekretariat mit Tscherlach (eigene KVR je KG); KG selbst publiziert keine Postadresse.",
+      "bfs": [],
+      "partial_bfs": [
+        3298
+      ]
+    },
+    {
+      "id": "sg-bichwil-oberuzwil",
+      "name": "Katholische Kirchgemeinde Bichwil-Oberuzwil",
+      "postal": [
+        "Katholische Kirchgemeinde Bichwil-Oberuzwil",
+        "Geschäftsführungsstelle Kirchenverwaltung",
+        "Neugasse 14",
+        "9242 Oberuzwil"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarramt.oberuzwil@kath-uzwil.ch",
+      "website": "https://www.kath-uzwil.ch/",
+      "source": "https://www.kath-uzwil.ch/kontakte/verwaltungen/kvr-bi-ou",
+      "confidence": "high",
+      "note": "Geschäftsführungsstelle der Seelsorgeeinheit Uzwil und Umgebung im Pfarrhaus Oberuzwil (gleiche Adresse wie Pfarramt Oberuzwil).",
+      "bfs": [],
+      "partial_bfs": [
+        3407,
+        3408
+      ]
+    },
+    {
+      "id": "sg-buchs-grabs",
+      "name": "Katholische Kirchgemeinde Buchs-Grabs",
+      "postal": [
+        "Katholische Kirchgemeinde Buchs-Grabs",
+        "Kirchenverwaltungsrat",
+        "Pfrundgutstrasse 5",
+        "9470 Buchs SG"
+      ],
+      "address_type": "sekretariat",
+      "email": "aktuariat@kathbuchs.ch",
+      "website": "https://www.kathwerdenberg.ch/buchs-grabs",
+      "source": "https://www.kathwerdenberg.ch/Portals/0/adam/Content/Kq2pN7wUmkmar7aHvocYqQ/Text/Jahresrechnung%202025.pdf",
+      "confidence": "high",
+      "note": "Jahresrechnung 2025: Kontaktadresse der KG und Aktuariat. kathbuchs.ch per curl nicht erreichbar (TLS).",
+      "bfs": [
+        3271,
+        3273
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-buetschwil-ganterschwil",
+      "name": "Katholische Kirchgemeinde Bütschwil-Ganterschwil",
+      "postal": [
+        "Katholische Kirchgemeinde Bütschwil-Ganterschwil",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Bütschwil",
+        "Kirchplatz 6",
+        "9606 Bütschwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.buetschwil@seut.ch",
+      "website": "https://www.seut.ch/",
+      "source": "https://www.seut.ch/kontakt/",
+      "confidence": "medium",
+      "note": "KG selbst publiziert keine Postadresse; gemeinsames Pfarreisekretariat der Seelsorgeeinheit Unteres Toggenburg. Gemeinde-Website buetschwil-ganterschwil.ch gesperrt (403).",
+      "bfs": [],
+      "partial_bfs": [
+        3395
+      ]
+    },
+    {
+      "id": "sg-diepoldsau-schmitter",
+      "name": "Katholische Kirchgemeinde Diepoldsau-Schmitter",
+      "postal": [
+        "Katholische Kirchgemeinde Diepoldsau-Schmitter",
+        "Kapellweg 1a",
+        "9444 Diepoldsau"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@kath-diepoldsau.ch",
+      "website": "https://kath-diepoldsau.ch",
+      "source": "https://kath-diepoldsau.ch/impressum-datenschutz/",
+      "confidence": "high",
+      "note": "Impressum: Herausgeber KG an Adresse von Pfarrhaus/Pfarramt.",
+      "bfs": [],
+      "partial_bfs": [
+        3234
+      ]
+    },
+    {
+      "id": "sg-ebnat-kappel",
+      "name": "Katholische Kirchgemeinde Ebnat-Kappel",
+      "postal": [
+        "Katholische Kirchgemeinde Ebnat-Kappel",
+        "Kirchenverwaltungsrat",
+        "c/o Kirchgemeindesekretariat",
+        "Oberdorfstrasse 20",
+        "9642 Ebnat-Kappel"
+      ],
+      "address_type": "sekretariat",
+      "email": "praesident-ek@seotog.ch",
+      "website": "https://www.seotog.ch/",
+      "source": "https://www.ebnat-kappel.ch/kirchen/9075",
+      "confidence": "high",
+      "note": "Gleiche Adresse im Impressum von seotog.ch («c/o Kirchgemeindesekretariat / Oberdorfstr. 20»); Pfarreisekretariat der Seelsorgeeinheit sonst zentral in 9652 Neu St. Johann.",
+      "bfs": [
+        3352
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-eggersriet-grub",
+      "name": "Katholische Kirchgemeinde Eggersriet-Grub SG",
+      "postal": [
+        "Katholische Kirchgemeinde Eggersriet-Grub SG",
+        "Pfarreisekretariat",
+        "St. Gallerstrasse 3",
+        "9034 Eggersriet"
+      ],
+      "address_type": "pfarramt",
+      "email": "info.kath-eggersriet@se-ueb.ch",
+      "website": "https://se-ueb.ch/pfarreien/eggersriet/",
+      "source": "https://se-ueb.ch/pfarreien/eggersriet/",
+      "confidence": "medium",
+      "note": "Website der Seelsorgeeinheit über dem Bodensee (se-ueb.ch), verlinkt von eggersriet.ch; Kirchenverwaltung nur mit Namen publiziert.",
+      "bfs": [
+        3212
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-engelburg",
+      "name": "Katholische Kirchgemeinde Engelburg",
+      "postal": [
+        "Katholische Kirchgemeinde Engelburg",
+        "Katholisches Pfarramt Engelburg",
+        "Tannenbergstrasse 1",
+        "9032 Engelburg"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@pfarrei-engelburg.ch",
+      "website": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-engelburg/",
+      "source": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-engelburg/kontakt/",
+      "confidence": "medium",
+      "note": "Kontaktseite der KG nennt Pfarreiheim/Sekretariat Tannenbergstrasse 1; Bezeichnung 'Katholisches Pfarramt Engelburg' laut kathsg.ch/ueber-uns/standorte/engelburg/.",
+      "bfs": [],
+      "partial_bfs": [
+        3442,
+        3444
+      ]
+    },
+    {
+      "id": "sg-eschenbach",
+      "name": "Katholische Kirchgemeinde Eschenbach",
+      "postal": [
+        "Katholische Kirchgemeinde Eschenbach",
+        "Geschäftsstelle",
+        "Müliweierstrasse 9",
+        "8733 Eschenbach"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://kath-eschenbach.ch/",
+      "source": "https://kath-eschenbach.ch/kirchgemeinde/geschaeftsstelle/",
+      "confidence": "medium",
+      "note": "Von der KG publizierte Kontaktadresse der Geschäftsstelle (Aktuariat/Kassieramt), an die Stelleninhaberin gebunden (wohl Büro im Wohnhaus). Alternative: Pfarramt Kirchweg 4, 8733 Eschenbach SG. KG umfasst Pfarreien Eschenbach, Goldingen, St. Gallenkappel, Walde; keine neue Fusion gefunden.",
+      "bfs": [
+        3342
+      ],
+      "partial_bfs": [
+        3341
+      ]
+    },
+    {
+      "id": "sg-flums",
+      "name": "Katholische Kirchgemeinde Flums",
+      "postal": [
+        "Katholische Kirchgemeinde Flums",
+        "Kirchenverwaltungsrat",
+        "Marktstrasse 23",
+        "8890 Flums"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.flums@sesowa.ch",
+      "website": "https://www.sesowa.ch/",
+      "source": "https://www.flums.ch/news/3022426",
+      "confidence": "high",
+      "note": "KG nennt Marktstrasse 23 als eigene Adresse (Baugesuch 26.10.2026); zugleich Kath. Pfarramt Flums (https://www.sesowa.ch/flums/kontakte/) und Sitz Zweckverband SE Walensee.",
+      "bfs": [
+        3292
+      ],
+      "partial_bfs": [
+        3298
+      ]
+    },
+    {
+      "id": "sg-gams",
+      "name": "Katholische Kirchgemeinde Gams",
+      "postal": [
+        "Katholische Kirchgemeinde Gams",
+        "Kirchenverwaltungsrat",
+        "Postfach 150",
+        "9473 Gams"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kathwerdenberg.ch/gams",
+      "source": "https://www.kathwerdenberg.ch/gams/pfarrei/kirchenverwaltungsrat",
+      "confidence": "high",
+      "note": "Auf der KVR-Seite als Adresse der Kath. Kirchgemeinde publiziert. Pfarramt: Bsetzi 4, 9473 Gams.",
+      "bfs": [
+        3272
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-gossau",
+      "name": "Katholische Kirchgemeinde Gossau",
+      "postal": [
+        "Katholische Kirchgemeinde Gossau",
+        "Katholische Kirchenverwaltung Gossau",
+        "Herisauerstrasse 5",
+        "9200 Gossau"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kathgossau.ch/",
+      "source": "https://www.kathgossau.ch/sekretariat",
+      "confidence": "high",
+      "note": "Kirchenverwaltung mit Kirchgemeindesekretariat im selben Haus wie das Pfarramt.",
+      "bfs": [],
+      "partial_bfs": [
+        3443
+      ]
+    },
+    {
+      "id": "sg-heerbrugg",
+      "name": "Katholische Kirchgemeinde Heerbrugg",
+      "postal": [
+        "Katholische Kirchgemeinde Heerbrugg",
+        "Kirchenverwaltung",
+        "Kirchstrasse 4",
+        "9435 Heerbrugg"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-heerbrugg.ch",
+      "website": "https://kath-heerbrugg.ch",
+      "source": "https://kath-heerbrugg.ch/ueber-uns/personen/kirchenverwaltung/",
+      "confidence": "high",
+      "note": "Pfarreisekretariat, auf der Kirchenverwaltungs-Seite als Kontakt genannt.",
+      "bfs": [],
+      "partial_bfs": [
+        3231,
+        3232,
+        3233
+      ]
+    },
+    {
+      "id": "sg-hemberg",
+      "name": "Katholische Kirchgemeinde Hemberg",
+      "postal": [
+        "Katholische Kirchgemeinde Hemberg",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.hemberg@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; KVR über Sekretariat der Seelsorgeeinheit (Zweckverband Neutoggenburg). Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen.",
+      "bfs": [],
+      "partial_bfs": [
+        3396
+      ]
+    },
+    {
+      "id": "sg-henau-niederuzwil",
+      "name": "Katholische Kirchgemeinde Henau-Niederuzwil",
+      "postal": [
+        "Katholische Kirchgemeinde Henau-Niederuzwil",
+        "Kirchenverwaltungsrat",
+        "Bahnhofstrasse 124",
+        "9244 Niederuzwil"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarramt.niederuzwil@kath-uzwil.ch",
+      "website": "https://www.kath-uzwil.ch/",
+      "source": "https://www.kath-uzwil.ch/kontakte/verwaltungen/kvr-he-nu",
+      "confidence": "high",
+      "note": "KVR, Rechnungswesen und Pfarreisekretariat Henau-Niederuzwil unter dieser Adresse. Die Geschäftsführungsstelle (auch Kirchenverwaltung Henau-Niederuzwil) sitzt an der Neugasse 14, 9242 Oberuzwil.",
+      "bfs": [],
+      "partial_bfs": [
+        3408,
+        3424
+      ]
+    },
+    {
+      "id": "sg-haeggenschwil",
+      "name": "Katholische Kirchgemeinde Häggenschwil",
+      "postal": [
+        "Katholische Kirchgemeinde Häggenschwil",
+        "Pfarreisekretariat Häggenschwil",
+        "Kirchweg 2",
+        "9312 Häggenschwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.haeggenschwil@altkon.ch",
+      "website": "https://altkon.ch/",
+      "source": "https://altkon.ch/pfarreisekretariate",
+      "confidence": "medium",
+      "note": "KVR nur mit Privatadressen publiziert. KG umfasst laut Kanton TG auch Teile von Roggwil TG. Fusion: Häggenschwil, Muolen und Wittenbach vereinigen sich zur Katholischen Kirchgemeinde Alte Konstanzerstrasse, Start 1.1.2028 (Stelleninserat der neuen KG, inzwischen offline); konstituierende Kirchbürgerversammlung 28.10.2026 (haeggenschwil.ch). Bis Ende 2027 bleibt die bisherige KG Empfängerin.",
+      "bfs": [
+        3201
+      ],
+      "partial_bfs": [
+        3204
+      ]
+    },
+    {
+      "id": "sg-jonschwil",
+      "name": "Katholische Kirchgemeinde Jonschwil",
+      "postal": [
+        "Katholische Kirchgemeinde Jonschwil",
+        "Kirchenverwaltungsrat",
+        "Kirchstrasse 3",
+        "9243 Jonschwil"
+      ],
+      "address_type": "verwaltung",
+      "email": "pfarramt.jonschwil@kath-uzwil.ch",
+      "website": "https://www.kath-uzwil.ch/",
+      "source": "https://www.kath-uzwil.ch/kontakte/verwaltungen/kvr-jo",
+      "confidence": "high",
+      "note": "KVR-Präsidium im Pfarrhaus Jonschwil publiziert (gleiche Adresse wie Pfarreisekretariat). Umfasst Jonschwil und Schwarzenbach.",
+      "bfs": [],
+      "partial_bfs": [
+        3405
+      ]
+    },
+    {
+      "id": "sg-kaltbrunn",
+      "name": "Katholische Kirchgemeinde Kaltbrunn",
+      "postal": [
+        "Katholische Kirchgemeinde Kaltbrunn",
+        "Kirchenverwaltungsrat",
+        "Dorfstrasse 21",
+        "8722 Kaltbrunn"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://kath-gaster.ch/",
+      "source": "https://kath-gaster.ch/kaltbrunn/kirchenverwaltung/",
+      "confidence": "high",
+      "note": "KVR-Seite nennt «Kath. Kirchgemeinde Kaltbrunn, Dorfstr. 21»; zugleich Pfarreisekretariat. Sitz des Zweckverbands Gaster in Kaltbrunn.",
+      "bfs": [
+        3313
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-kobelwald",
+      "name": "Katholische Kirchgemeinde Kobelwald",
+      "postal": [
+        "Katholische Kirchgemeinde Kobelwald",
+        "c/o Sekretariat der Seelsorgeeinheit Blattenberg",
+        "Kirchstrasse 3",
+        "9463 Oberriet SG"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@se-blattenberg.ch",
+      "website": "https://www.se-blattenberg.ch/de/kobelwald/home",
+      "source": "https://www.se-blattenberg.ch/de/kobelwald/wir-sind-fuer-sie-da",
+      "confidence": "medium",
+      "note": "Sekretariat auch der Pfarrämter Kobelwald; KVR-Kontakt nur Privatadresse.",
+      "bfs": [],
+      "partial_bfs": [
+        3251,
+        3254
+      ]
+    },
+    {
+      "id": "sg-kriessern",
+      "name": "Katholische Kirchgemeinde Kriessern",
+      "postal": [
+        "Katholische Kirchgemeinde Kriessern",
+        "c/o Sekretariat des Pfarramtes Kriessern",
+        "Schulstrasse 1",
+        "9451 Kriessern"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.se-blattenberg.ch/de/kriessern/home",
+      "source": "https://www.se-blattenberg.ch/de/kriessern/wir-sind-fuer-sie-da",
+      "confidence": "medium",
+      "note": "KVR-Kontakte nur Privatadressen; Pfarramtssekretariat.",
+      "bfs": [],
+      "partial_bfs": [
+        3254
+      ]
+    },
+    {
+      "id": "sg-lenggenwil",
+      "name": "Katholische Kirchgemeinde Lenggenwil",
+      "postal": [
+        "Katholische Kirchgemeinde Lenggenwil",
+        "c/o Sekretariat Seelsorgeeinheit Mittleres Fürstenland",
+        "Kirchstrasse 34",
+        "9524 Zuzwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@semf.ch",
+      "website": "https://www.semf.ch/",
+      "source": "https://www.semf.ch/kontakt.html",
+      "confidence": "medium",
+      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich).",
+      "bfs": [],
+      "partial_bfs": [
+        3423
+      ]
+    },
+    {
+      "id": "sg-libingen",
+      "name": "Katholische Kirchgemeinde Libingen",
+      "postal": [
+        "Katholische Kirchgemeinde Libingen",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Mosnang",
+        "Kirchplatz 1",
+        "9607 Mosnang"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.mosnang@seut.ch",
+      "website": "https://www.seut.ch/",
+      "source": "https://www.seut.ch/kontakt/",
+      "confidence": "medium",
+      "note": "KG selbst publiziert keine Postadresse; gemeinsames Pfarreisekretariat der Seelsorgeeinheit Unteres Toggenburg. Gemeinde Mosnang nennt nur «Kath. Kirche Libingen, Dorf 16, 9614 Libingen» (Kirchenstandort).",
+      "bfs": [],
+      "partial_bfs": [
+        3394
+      ]
+    },
+    {
+      "id": "sg-lichtensteig",
+      "name": "Katholische Kirchgemeinde Lichtensteig",
+      "postal": [
+        "Katholische Kirchgemeinde Lichtensteig",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.lichtensteig@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://www.lichtensteig.ch/kirchen",
+      "confidence": "high",
+      "note": "Politische Gemeinde Lichtensteig nennt für die Katholische Kirchgemeinde ausdrücklich dieses Sekretariat. Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen.",
+      "bfs": [
+        3374
+      ],
+      "partial_bfs": [
+        3379
+      ]
+    },
+    {
+      "id": "sg-luechingen",
+      "name": "Katholische Kirchgemeinde Lüchingen",
+      "postal": [
+        "Katholische Kirchgemeinde Lüchingen",
+        "Kirchweg 7a",
+        "9450 Lüchingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kirche-luechingen.ch",
+      "website": "https://www.kirche-luechingen.ch",
+      "source": "https://www.kirche-luechingen.ch/about/",
+      "confidence": "high",
+      "note": "Impressum: öffentlich-rechtliche Trägerschaft KG Lüchingen an Adresse des Pfarramts.",
+      "bfs": [],
+      "partial_bfs": [
+        3251
+      ]
+    },
+    {
+      "id": "sg-luetisburg",
+      "name": "Katholische Kirchgemeinde Lütisburg",
+      "postal": [
+        "Katholische Kirchgemeinde Lütisburg",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Bütschwil",
+        "Kirchplatz 6",
+        "9606 Bütschwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.buetschwil@seut.ch",
+      "website": "https://www.seut.ch/",
+      "source": "https://www.seut.ch/kontakt/",
+      "confidence": "medium",
+      "note": "KG selbst publiziert keine Postadresse; gemeinsames Pfarreisekretariat der Seelsorgeeinheit Unteres Toggenburg. Gemeinde-Website luetisburg.ch gesperrt (403).",
+      "bfs": [],
+      "partial_bfs": [
+        3393,
+        3405,
+        3407
+      ]
+    },
+    {
+      "id": "sg-marbach",
+      "name": "Katholische Kirchgemeinde Marbach",
+      "postal": [
+        "Katholische Kirchgemeinde Marbach",
+        "c/o Pfarreisekretariat Marbach",
+        "Kirchweg 7a",
+        "9450 Lüchingen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kirche-marbach.ch",
+      "source": "https://kirche-marbach.ch/impressum/",
+      "confidence": "medium",
+      "note": "Website-Kontakt nennt nur «Kirchgemeinde Marbach, 9437 Marbach» ohne Strasse; Impressum: Pfarreisekretariat Marbach in Lüchingen (gemeinsam mit Lüchingen). KVR-Adressen privat.",
+      "bfs": [
+        3253
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-mels",
+      "name": "Katholische Kirchgemeinde Mels",
+      "postal": [
+        "Katholische Kirchgemeinde Mels",
+        "c/o Pfarreisekretariat",
+        "Kirchweg 13",
+        "8887 Mels"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.mels@kath-msl.ch",
+      "website": "https://www.kath-msl.ch/kirchgemeinde-mels/",
+      "source": "https://www.kath-msl.ch/kirchgemeinde-mels/",
+      "confidence": "medium",
+      "note": "KVR-Adressen privat; Pfarreisekretariat. KG Mels umfasst auch Pfarrei Heiligkreuz (eigene Unterseite auf kath-msl.ch).",
+      "bfs": [],
+      "partial_bfs": [
+        3293
+      ]
+    },
+    {
+      "id": "sg-mogelsberg",
+      "name": "Katholische Kirchgemeinde Mogelsberg",
+      "postal": [
+        "Katholische Kirchgemeinde Mogelsberg",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.mogelsberg@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; KVR über Sekretariat der Seelsorgeeinheit (Zweckverband Neutoggenburg). Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen.",
+      "bfs": [],
+      "partial_bfs": [
+        3396
+      ]
+    },
+    {
+      "id": "sg-mols-murg-quarten",
+      "name": "Katholische Kirchgemeinde Mols-Murg-Quarten",
+      "postal": [
+        "Katholische Kirchgemeinde Mols-Murg-Quarten",
+        "Kirchenverwaltungsrat",
+        "c/o Katholisches Pfarramt Mols-Murg-Quarten",
+        "Alte Staatsstrasse 5",
+        "8877 Murg"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.mmq@sesowa.ch",
+      "website": "https://www.sesowa.ch/",
+      "source": "https://www.sesowa.ch/mols-murg-quarten/kontakte/",
+      "confidence": "medium",
+      "note": "KG selbst publiziert keine Postadresse (auch quarten.ch nur Personen ohne Adresse); Pfarreisekretariat in Murg.",
+      "bfs": [
+        3295
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-montlingen-eichenwies",
+      "name": "Katholische Kirchgemeinde Montlingen-Eichenwies",
+      "postal": [
+        "Katholische Kirchgemeinde Montlingen-Eichenwies",
+        "c/o Sekretariat des Pfarramtes",
+        "Dorfstrasse 3",
+        "9462 Montlingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.montlingen@se-blattenberg.ch",
+      "website": "https://www.se-blattenberg.ch/de/montlingen-eichenwies/home",
+      "source": "https://www.se-blattenberg.ch/de/montlingen-eichenwies/wir-sind-fuer-sie-da",
+      "confidence": "medium",
+      "note": "KVR-Kontakte nur Privatadressen; Pfarramtssekretariat.",
+      "bfs": [],
+      "partial_bfs": [
+        3254
+      ]
+    },
+    {
+      "id": "sg-mosnang",
+      "name": "Katholische Kirchgemeinde Mosnang",
+      "postal": [
+        "Katholische Kirchgemeinde Mosnang",
+        "Kirchenverwaltungsrat",
+        "Kirchplatz 1",
+        "9607 Mosnang"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.mosnang@seut.ch",
+      "website": "https://www.seut.ch/",
+      "source": "https://www.mosnang.ch/de/Leben-in-Mosnang/Kultur-und-Freizeit/Kirchen",
+      "confidence": "high",
+      "note": "Politische Gemeinde nennt «Kath. Kirchgemeinde Mosnang, Kirchplatz 1»; = Pfarreisekretariat Mosnang (https://www.seut.ch/kontakt/).",
+      "bfs": [],
+      "partial_bfs": [
+        3394
+      ]
+    },
+    {
+      "id": "sg-muolen",
+      "name": "Katholische Kirchgemeinde Muolen",
+      "postal": [
+        "Katholische Kirchgemeinde Muolen",
+        "c/o Seelsorgeeinheit Alte Konstanzerstrasse",
+        "Dorfstrasse 24",
+        "9300 Wittenbach"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt.muolen@altkon.ch",
+      "website": "https://altkon.ch/",
+      "source": "https://altkon.ch/impressum",
+      "confidence": "low",
+      "note": "Keine taugliche Adresse in Muolen: das Pfarreisekretariat Muolen ist unter derselben Adresse publiziert wie ein KVR-Mitglied (wohl Privatadresse), daher nicht übernommen. Verwendet ist die Kontaktadresse der Seelsorgeeinheit (Wittenbach); Postadresse auf der Website prüfen. Fusion: Häggenschwil, Muolen und Wittenbach vereinigen sich zur Katholischen Kirchgemeinde Alte Konstanzerstrasse, Start 1.1.2028 (Stelleninserat der neuen KG, inzwischen offline); konstituierende Kirchbürgerversammlung 28.10.2026 (haeggenschwil.ch). Bis Ende 2027 bleibt die bisherige KG Empfängerin.",
+      "bfs": [],
+      "partial_bfs": [
+        3202
+      ]
+    },
+    {
+      "id": "sg-moerschwil",
+      "name": "Katholische Kirchgemeinde Mörschwil",
+      "postal": [
+        "Katholische Kirchgemeinde Mörschwil",
+        "Kirchenverwaltung, Geschäftsführung",
+        "Hauptstrasse 36",
+        "9323 Steinach"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://pfarrei-moerschwil.ch/",
+      "source": "https://pfarrei-moerschwil.ch/kirchenverwaltung/",
+      "confidence": "medium",
+      "note": "Seite Kirchenverwaltung nennt die Geschäftsführung (Zweckverband SE Steinerburg) im Pfarramt Steinach. Alternative lokal: Pfarramt Mörschwil, Schulstrasse 6, 9402 Mörschwil, pfarramt@pfarrei-moerschwil.ch. Fusion: Berg-Freidorf, Mörschwil, Steinach und Tübach vereinigen sich zur Katholischen Kirchgemeinde Steinerburg, Start 1.1.2028 (Mitteilung der vier Kirchenverwaltungsräte, Mai 2026; im kantonalen Geodatensatz nicht vermerkt).",
+      "bfs": [],
+      "partial_bfs": [
+        3214
+      ]
+    },
+    {
+      "id": "sg-muehlrueti",
+      "name": "Katholische Kirchgemeinde Mühlrüti",
+      "postal": [
+        "Katholische Kirchgemeinde Mühlrüti",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Mosnang",
+        "Kirchplatz 1",
+        "9607 Mosnang"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.mosnang@seut.ch",
+      "website": "https://www.seut.ch/",
+      "source": "https://www.seut.ch/kontakt/",
+      "confidence": "medium",
+      "note": "KG selbst publiziert keine Postadresse; gemeinsames Pfarreisekretariat der Seelsorgeeinheit Unteres Toggenburg. Gemeinde Mosnang nennt nur «Kath. Kirche Mühlrüti, Kirchweg 2, 9613 Mühlrüti» (Kirchenstandort).",
+      "bfs": [],
+      "partial_bfs": [
+        3394
+      ]
+    },
+    {
+      "id": "sg-neu-st-johann-stein",
+      "name": "Katholische Kirchgemeinde Neu St. Johann-Stein",
+      "postal": [
+        "Katholische Kirchgemeinde Neu St. Johann-Stein",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Neu St. Johann",
+        "Johanneumstrasse 1",
+        "9652 Neu St. Johann"
+      ],
+      "address_type": "sekretariat",
+      "email": "praesident.kvr-nsj@seotog.ch",
+      "website": "https://www.seotog.ch/",
+      "source": "https://www.seotog.ch/de/Seelsorgeeinheit/Kontakte/Sekretariate.14.html",
+      "confidence": "high",
+      "note": "Fusion: KG Neu St. Johann und KG Stein per 1.1.2026 vereinigt (Jahresrechnung 2025, https://www.seotog.ch/resources/Kath-Kirchgemeinde-NSJ-Stein_Jahresrechnung-2025_WEB1.pdf); KG verweist dort für Stimmausweise/Unterlagen aufs Pfarreisekretariat Neu St. Johann.",
+      "bfs": [
+        3360
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-niederbueren",
+      "name": "Katholische Kirchgemeinde Niederbüren",
+      "postal": [
+        "Katholische Kirchgemeinde Niederbüren",
+        "c/o Geschäftsstelle Zweckverband ONN",
+        "Spitzrütistrasse 4",
+        "9245 Oberbüren"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.sse-onn.ch/",
+      "source": "https://www.sse-onn.ch/zweckverband_portrait",
+      "confidence": "high",
+      "note": "Die Geschäftsstelle des Zweckverbands Oberbüren-Niederbüren-Niederwil führt laut Website das Sekretariat der Kirchgemeinden (Pfarreiheim Oberbüren). Pfarramt: Gossauerstrasse 18, 9246 Niederbüren.",
+      "bfs": [],
+      "partial_bfs": [
+        3422
+      ]
+    },
+    {
+      "id": "sg-niederhelfenschwil",
+      "name": "Katholische Kirchgemeinde Niederhelfenschwil",
+      "postal": [
+        "Katholische Kirchgemeinde Niederhelfenschwil",
+        "c/o Sekretariat Seelsorgeeinheit Mittleres Fürstenland",
+        "Kirchstrasse 34",
+        "9524 Zuzwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@semf.ch",
+      "website": "https://www.semf.ch/",
+      "source": "https://www.semf.ch/kontakt.html",
+      "confidence": "medium",
+      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich).",
+      "bfs": [],
+      "partial_bfs": [
+        3423
+      ]
+    },
+    {
+      "id": "sg-niederwil",
+      "name": "Katholische Kirchgemeinde Niederwil",
+      "postal": [
+        "Katholische Kirchgemeinde Niederwil",
+        "c/o Geschäftsstelle Zweckverband ONN",
+        "Spitzrütistrasse 4",
+        "9245 Oberbüren"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.sse-onn.ch/",
+      "source": "https://www.sse-onn.ch/zweckverband_portrait",
+      "confidence": "high",
+      "note": "Die Geschäftsstelle des Zweckverbands Oberbüren-Niederbüren-Niederwil führt laut Website das Sekretariat der Kirchgemeinden (Pfarreiheim Oberbüren). Pfarramt: Gossauerstrasse 18, 9246 Niederbüren.",
+      "bfs": [],
+      "partial_bfs": [
+        3422,
+        3424
+      ]
+    },
+    {
+      "id": "sg-oberbueren",
+      "name": "Katholische Kirchgemeinde Oberbüren",
+      "postal": [
+        "Katholische Kirchgemeinde Oberbüren",
+        "c/o Geschäftsstelle Zweckverband ONN",
+        "Spitzrütistrasse 4",
+        "9245 Oberbüren"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.sse-onn.ch/",
+      "source": "https://www.sse-onn.ch/zweckverband_portrait",
+      "confidence": "high",
+      "note": "Die Geschäftsstelle des Zweckverbands Oberbüren-Niederbüren-Niederwil führt laut Website das Sekretariat der Kirchgemeinden (Pfarreiheim Oberbüren). Pfarramt: Gossauerstrasse 18, 9246 Niederbüren.",
+      "bfs": [],
+      "partial_bfs": [
+        3424
+      ]
+    },
+    {
+      "id": "sg-oberhelfenschwil-brunnadern",
+      "name": "Katholische Kirchgemeinde Oberhelfenschwil-Brunnadern",
+      "postal": [
+        "Katholische Kirchgemeinde Oberhelfenschwil-Brunnadern",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.oberhelfenschwil@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; KVR über Sekretariat der Seelsorgeeinheit (Zweckverband Neutoggenburg). Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen. Website/Gemeinde nennen den KVR meist kurz «Oberhelfenschwil»; Amtsbericht 2025: «Kirchgemeinde Oberhelfenschwil-Brunnadern».",
+      "bfs": [],
+      "partial_bfs": [
+        3395,
+        3396
+      ]
+    },
+    {
+      "id": "sg-oberriet",
+      "name": "Katholische Kirchgemeinde Oberriet",
+      "postal": [
+        "Katholische Kirchgemeinde Oberriet",
+        "c/o Sekretariat der Seelsorgeeinheit Blattenberg",
+        "Kirchstrasse 3",
+        "9463 Oberriet SG"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@se-blattenberg.ch",
+      "website": "https://www.se-blattenberg.ch/de/oberriet/home",
+      "source": "https://www.se-blattenberg.ch/de/oberriet/wir-sind-fuer-sie-da",
+      "confidence": "medium",
+      "note": "Sekretariat des Pfarramts Oberriet; KVR-Kontakt laut Website ein «Kurator» mit Adresse ausserhalb der Gemeinde (Sonderlage, ggf. prüfen).",
+      "bfs": [],
+      "partial_bfs": [
+        3254
+      ]
+    },
+    {
+      "id": "sg-obersee",
+      "name": "Katholische Kirchgemeinde Obersee",
+      "postal": [
+        "Katholische Kirchgemeinde Obersee",
+        "Verwaltung",
+        "Städtchen 27",
+        "8730 Uznach"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-obersee.ch/",
+      "source": "https://www.kath-obersee.ch/fileadmin/kundendaten/dateien/06_verwaltung/92510786_KG_Obersee_JR24_GzD-def.pdf",
+      "confidence": "high",
+      "note": "Adresse aus Jahresrechnung 2024 (Einladung KBV 24.4.2025); Verwaltungsseite der Website lädt Kontakte nur per Skript. KG Obersee = Vereinigung Uznach/Schmerikon/Gommiswald (Gebiet ohne Ricken und Gebertingen), Gemeindeordnung in Kraft 1.1.2020; keine neue Fusion 2025 gefunden.",
+      "bfs": [
+        3338,
+        3339
+      ],
+      "partial_bfs": [
+        3341
+      ]
+    },
+    {
+      "id": "sg-pfaefers",
+      "name": "Katholische Kirchgemeinde Pfäfers",
+      "postal": [
+        "Katholische Kirchgemeinde Pfäfers",
+        "c/o Sekretariat Seelsorgeeinheit Bad Ragaz Taminatal",
+        "Pavillonstrasse 2",
+        "7312 Pfäfers"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.setamina.ch",
+      "source": "https://www.setamina.ch/kontakt-pfaefers.html",
+      "confidence": "medium",
+      "note": "KVR nur mit Privatadressen; Sekretariat unter «Kontakt Pfäfers».",
+      "bfs": [],
+      "partial_bfs": [
+        3294
+      ]
+    },
+    {
+      "id": "sg-rapperswil-jona",
+      "name": "Katholische Kirchgemeinde Rapperswil-Jona",
+      "postal": [
+        "Katholische Kirchgemeinde Rapperswil-Jona",
+        "Geschäftsstelle",
+        "Friedhofstrasse 3",
+        "Postfach 2141",
+        "8645 Jona"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@krj.ch",
+      "website": "https://krj.ch/",
+      "source": "https://krj.ch/kirchgemeinde/geschaeftsstelle/",
+      "confidence": "high",
+      "note": "Keine Fusion auf der Website erkennbar (Geodaten-Mutation 21.10.2025).",
+      "bfs": [
+        3340
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-rebstein",
+      "name": "Katholische Kirchgemeinde Rebstein",
+      "postal": [
+        "Katholische Kirchgemeinde Rebstein",
+        "Burgstrasse 6",
+        "9445 Rebstein"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kathrebstein.ch",
+      "source": "https://www.kathrebstein.ch/about/",
+      "confidence": "high",
+      "note": "Impressum: Kontaktadresse der KG = Pfarreisekretariat.",
+      "bfs": [
+        3255
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-region-flawil-degersheim",
+      "name": "Katholische Kirchgemeinde Region Flawil-Degersheim",
+      "postal": [
+        "Katholische Kirchgemeinde Region Flawil-Degersheim",
+        "Geschäftsstelle",
+        "Enzenbühlstrasse 20",
+        "9230 Flawil"
+      ],
+      "address_type": "verwaltung",
+      "email": "geschaeftsstelle@se-ma.ch",
+      "website": "https://www.se-ma.ch/",
+      "source": "https://www.se-ma.ch/kontakt/",
+      "confidence": "high",
+      "note": "Website der Seelsorgeeinheit Magdenau (SEMA); KG umfasst die Pfarreien Flawil, Niederglatt, Degersheim und Wolfertswil-Magdenau.",
+      "bfs": [
+        3401,
+        3402
+      ],
+      "partial_bfs": [
+        3393,
+        3396,
+        3407,
+        3424
+      ]
+    },
+    {
+      "id": "sg-region-rorschach",
+      "name": "Katholische Kirchgemeinde Region Rorschach",
+      "postal": [
+        "Katholische Kirchgemeinde Region Rorschach",
+        "Kirchenverwaltung",
+        "Mariabergstrasse 18",
+        "9400 Rorschach"
+      ],
+      "address_type": "verwaltung",
+      "email": "admin@kkrr.ch",
+      "website": "https://kkrr.ch/",
+      "source": "https://kkrr.ch/kontakt",
+      "confidence": "high",
+      "note": "Umfasst Rorschach, Rorschacherberg, Goldach und Untereggen (Gemeindeordnung). Kontaktseite beschriftet den Block als 'Katholische Kirchgemeinde Rorschach, Kirchenverwaltung'.",
+      "bfs": [
+        3213,
+        3215,
+        3216,
+        3219
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-rheineck",
+      "name": "Katholische Kirchgemeinde Rheineck",
+      "postal": [
+        "Katholische Kirchgemeinde Rheineck",
+        "Kirchenverwaltungsrat",
+        "Grüenaustrasse 2",
+        "Postfach 257",
+        "9424 Rheineck"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@kath-rheineck.ch",
+      "website": "https://www.kath-rheineck.ch",
+      "source": "https://www.kath-buechberg.ch/uploads/69ea295ae54f288218eca834/-/Amtsbericht%202025.pdf",
+      "confidence": "high",
+      "note": "Adresse = Pfarreisekretariat; Amtsbericht 2025 nennt sie ausdrücklich für Anträge an den KVR. Vereinigungsverhandlung Thal–Rheineck abgebrochen.",
+      "bfs": [
+        3235
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-ricken",
+      "name": "Katholische Kirchgemeinde Ricken",
+      "postal": [
+        "Katholische Kirchgemeinde Ricken",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.ricken@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; KVR über Sekretariat der Seelsorgeeinheit (Zweckverband Neutoggenburg). Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen.",
+      "bfs": [],
+      "partial_bfs": [
+        3341,
+        3379
+      ]
+    },
+    {
+      "id": "sg-ruethi",
+      "name": "Katholische Kirchgemeinde Rüthi",
+      "postal": [
+        "Katholische Kirchgemeinde Rüthi",
+        "Kath. Kirchenverwaltung",
+        "Postfach 29",
+        "9464 Rüthi"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.se-blattenberg.ch/de/ruethi-lienz/home",
+      "source": "https://www.se-blattenberg.ch/de/ruethi-lienz/wir-sind-fuer-sie-da",
+      "confidence": "high",
+      "note": "Ausdrücklich als Postadresse des Kirchenverwaltungsrats publiziert (Pfarrei Rüthi-Lienz).",
+      "bfs": [
+        3256
+      ],
+      "partial_bfs": [
+        3251
+      ]
+    },
+    {
+      "id": "sg-sargans",
+      "name": "Katholische Kirchgemeinde Sargans",
+      "postal": [
+        "Katholische Kirchgemeinde Sargans",
+        "Kirchenverwaltungsrat",
+        "Städtchenstrasse 66",
+        "7320 Sargans"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.sargans@kath-msl.ch",
+      "website": "https://www.kath-msl.ch/kirchgemeinde-sargans/",
+      "source": "https://www.kath-msl.ch/kirchgemeinde-sargans/",
+      "confidence": "high",
+      "note": "Pfarreisekretariat; Aktuariat des KVR an derselben Adresse publiziert.",
+      "bfs": [
+        3296
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-schaenis-maseltrangen",
+      "name": "Katholische Kirchgemeinde Schänis-Maseltrangen",
+      "postal": [
+        "Katholische Kirchgemeinde Schänis-Maseltrangen",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat",
+        "Rathausplatz 16",
+        "8718 Schänis"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.schaenis@kath-gaster.ch",
+      "website": "https://kath-gaster.ch/",
+      "source": "https://kath-gaster.ch/wp-content/uploads/2026/03/kg-schaenis-kirchbuergerversammlung-einladung-26.pdf",
+      "confidence": "high",
+      "note": "KVR verweist in der Einladung 2026 für KG-Unterlagen ans Pfarreisekretariat Rathausplatz 16 (auch https://kath-gaster.ch/schaenis/pfarreisekretariat/).",
+      "bfs": [
+        3315
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-sennwald",
+      "name": "Katholische Kirchgemeinde Sennwald",
+      "postal": [
+        "Katholische Kirchgemeinde Sennwald",
+        "c/o Kath. Pfarramt Sennwald",
+        "Dornen 24 A",
+        "Postfach 116",
+        "9466 Sennwald"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrbuero@kathsennwald.ch",
+      "website": "https://www.kathwerdenberg.ch/sennwald",
+      "source": "https://www.kathwerdenberg.ch/sennwald/pfarrei/kontakt",
+      "confidence": "medium",
+      "note": "KVR nur mit Funktions-E-Mails, ohne Postadresse; Pfarramt. kathsennwald.ch per curl nicht erreichbar (TLS), Inhalte auf kathwerdenberg.ch.",
+      "bfs": [
+        3274
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-sevelen",
+      "name": "Katholische Kirchgemeinde Sevelen",
+      "postal": [
+        "Katholische Kirchgemeinde Sevelen",
+        "c/o Kath. Pfarreibüro",
+        "Bahnhofstrasse 32",
+        "9475 Sevelen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kathwerdenberg.ch/sevelen",
+      "source": "https://www.sevelen.ch/kirchen",
+      "confidence": "medium",
+      "note": "Strasse auch auf kathwerdenberg.ch/sevelen/pfarrei/kontakt (Pfarrbüro nur Di/Fr besetzt, Sekretariat in Buchs). Keine KVR-Postadresse publiziert.",
+      "bfs": [
+        3275
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-st-gallen",
+      "name": "Katholische Kirchgemeinde St.Gallen",
+      "postal": [
+        "Katholische Kirchgemeinde St.Gallen",
+        "Kirchenverwaltung St.Gallen",
+        "Gallusstrasse 34",
+        "Postfach 1117",
+        "9001 St.Gallen"
+      ],
+      "address_type": "verwaltung",
+      "email": "verwaltung@kathsg.ch",
+      "website": "https://kathsg.ch/",
+      "source": "https://kathsg.ch/ueber-uns/kirchgemeinden/kirchgemeinde-stadt-st-gallen/kontakt-und-team/",
+      "confidence": "high",
+      "note": "Umfasst auch einen Teil der politischen Gemeinde Wittenbach. Laut kathsg.ch/katholisch-werden verlangt die KG für den Austritt eine handschriftliche, amtlich beglaubigte Unterschrift.",
+      "bfs": [
+        3203
+      ],
+      "partial_bfs": [
+        3204
+      ]
+    },
+    {
+      "id": "sg-st-margrethen",
+      "name": "Katholische Kirchgemeinde St. Margrethen",
+      "postal": [
+        "Katholische Kirchgemeinde St. Margrethen",
+        "c/o Katholisches Pfarramt",
+        "Kaplaneistrasse 3",
+        "9430 St. Margrethen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-stmargrethen.ch",
+      "website": "https://www.kath-stmargrethen.ch",
+      "source": "https://www.kath-buechberg.ch/pfarrei-st-margrethen/personen/sekretariat",
+      "confidence": "medium",
+      "note": "KG nennt keine eigene Postadresse (Amtsbericht 2025: Unterlagen beim Aktuariat an Privatadresse); Pfarrsekretariat. Gemeinde-Website stmargrethen.ch mit curl/WebFetch 403.",
+      "bfs": [
+        3236
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-st-peterzell",
+      "name": "Katholische Kirchgemeinde St. Peterzell",
+      "postal": [
+        "Katholische Kirchgemeinde St. Peterzell",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.st.peterzell@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; KVR über Sekretariat der Seelsorgeeinheit (Zweckverband Neutoggenburg). Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen.",
+      "bfs": [],
+      "partial_bfs": [
+        3396
+      ]
+    },
+    {
+      "id": "sg-steinach",
+      "name": "Katholische Kirchgemeinde Steinach",
+      "postal": [
+        "Katholische Kirchgemeinde Steinach",
+        "Kirchenverwaltungsrat",
+        "Hauptstrasse 36",
+        "9323 Steinach"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@pfarrei-steinach.ch",
+      "website": "https://pfarrei-steinach.ch/",
+      "source": "https://pfarrei-steinach.ch/behoerden/kirchenrat/",
+      "confidence": "high",
+      "note": "Geschäftsführung des Kirchenrats und Pfarramt Steinach unter derselben Adresse. Fusion: Berg-Freidorf, Mörschwil, Steinach und Tübach vereinigen sich zur Katholischen Kirchgemeinde Steinerburg, Start 1.1.2028 (Mitteilung der vier Kirchenverwaltungsräte, Mai 2026; im kantonalen Geodatensatz nicht vermerkt).",
+      "bfs": [
+        3217
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-thal",
+      "name": "Katholische Kirchgemeinde Thal",
+      "postal": [
+        "Katholische Kirchgemeinde Thal",
+        "Sekretariat der Kirchenverwaltung",
+        "Kirchstrasse 9",
+        "9423 Altenrhein"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-thal.ch",
+      "source": "https://www.kath-buechberg.ch/uploads/69f46538a73c20d3e0987144/-/Amtsbericht%202025.pdf",
+      "confidence": "high",
+      "note": "Amtsbericht 2025 (Bürgerversammlung April 2026); KG umfasst Pfarreien Thal, Altenrhein, Buechen-Staad. Vereinigungsverhandlung Thal–Rheineck abgebrochen.",
+      "bfs": [
+        3237
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-tscherlach",
+      "name": "Katholische Kirchgemeinde Tscherlach",
+      "postal": [
+        "Katholische Kirchgemeinde Tscherlach",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat Berschis-Tscherlach",
+        "Schulhausstrasse 4",
+        "8892 Berschis"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.berschis-tscherlach@sesowa.ch",
+      "website": "https://www.sesowa.ch/",
+      "source": "https://www.sesowa.ch/berschis-tscherlach/kontakte/",
+      "confidence": "medium",
+      "note": "Gemeinsames Pfarreisekretariat mit Berschis (in Berschis); KG selbst publiziert keine Postadresse.",
+      "bfs": [],
+      "partial_bfs": [
+        3298
+      ]
+    },
+    {
+      "id": "sg-tuebach",
+      "name": "Katholische Kirchgemeinde Tübach",
+      "postal": [
+        "Katholische Kirchgemeinde Tübach",
+        "Kirchenverwaltungsrat",
+        "Kirchstrasse 17",
+        "9327 Tübach"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@pfarrei-tuebach.ch",
+      "website": "https://xn--pfarrei-tbach-4ob.ch/",
+      "source": "https://xn--pfarrei-tbach-4ob.ch/kirchenrat/",
+      "confidence": "medium",
+      "note": "Kirchstrasse 17 ist die Adresse der Pfarrei Tübach; das KVR-Präsidium ist unter derselben Adresse publiziert. Gemeinsame Geschäftsführung des Zweckverbands: Hauptstrasse 36, 9323 Steinach. Fusion: Berg-Freidorf, Mörschwil, Steinach und Tübach vereinigen sich zur Katholischen Kirchgemeinde Steinerburg, Start 1.1.2028 (Mitteilung der vier Kirchenverwaltungsräte, Mai 2026; im kantonalen Geodatensatz nicht vermerkt).",
+      "bfs": [
+        3218
+      ],
+      "partial_bfs": [
+        3214
+      ]
+    },
+    {
+      "id": "sg-valens-vasoen",
+      "name": "Katholische Kirchgemeinde Valens-Vasön",
+      "postal": [
+        "Katholische Kirchgemeinde Valens-Vasön",
+        "c/o Sekretariat Seelsorgeeinheit Bad Ragaz Taminatal",
+        "Pavillonstrasse 2",
+        "7312 Pfäfers"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.setamina.ch",
+      "source": "https://www.setamina.ch/kontakt-valens.html",
+      "confidence": "medium",
+      "note": "Website nennt die KG nur «Valens»; KVR nur mit Privatadressen; Sekretariat der SE in Pfäfers unter «Kontakt Valens».",
+      "bfs": [],
+      "partial_bfs": [
+        3294
+      ]
+    },
+    {
+      "id": "sg-vilters",
+      "name": "Katholische Kirchgemeinde Vilters",
+      "postal": [
+        "Katholische Kirchgemeinde Vilters",
+        "c/o Pfarramt St. Medard",
+        "Sonnenbergstrasse 12",
+        "7324 Vilters"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.vilters@kath-msl.ch",
+      "website": "https://www.kath-msl.ch/kirchgemeinde-vilters/",
+      "source": "https://www.kath-msl.ch/kirchgemeinde-vilters/",
+      "confidence": "medium",
+      "note": "KVR-Adressen privat; Pfarramt (Sekretariat nur Mi besetzt).",
+      "bfs": [],
+      "partial_bfs": [
+        3297
+      ]
+    },
+    {
+      "id": "sg-vaettis",
+      "name": "Katholische Kirchgemeinde Vättis",
+      "postal": [
+        "Katholische Kirchgemeinde Vättis",
+        "c/o Sekretariat Seelsorgeeinheit Bad Ragaz Taminatal",
+        "Pavillonstrasse 2",
+        "7312 Pfäfers"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.setamina.ch",
+      "source": "https://www.setamina.ch/kontakt-vaettis.html",
+      "confidence": "medium",
+      "note": "KVR nur mit Privatadressen; Sekretariat der SE in Pfäfers unter «Kontakt Vättis». Im Geodatensatz Name mit Leerzeichen am Ende («Vättis »).",
+      "bfs": [],
+      "partial_bfs": [
+        3294
+      ]
+    },
+    {
+      "id": "sg-waldkirch",
+      "name": "Katholische Kirchgemeinde Waldkirch",
+      "postal": [
+        "Katholische Kirchgemeinde Waldkirch",
+        "Katholische Kirchenverwaltung Waldkirch",
+        "Dorfstrasse 24",
+        "9205 Waldkirch"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kathwaldkirch.ch/",
+      "source": "https://www.kathwaldkirch.ch/kirchenverwaltung",
+      "confidence": "high",
+      "note": "Kirchenverwaltung und Pfarramt St. Blasius unter derselben Adresse.",
+      "bfs": [],
+      "partial_bfs": [
+        3444
+      ]
+    },
+    {
+      "id": "sg-walenstadt",
+      "name": "Katholische Kirchgemeinde Walenstadt",
+      "postal": [
+        "Katholische Kirchgemeinde Walenstadt",
+        "Kirchenverwaltungsrat",
+        "c/o Pfarreisekretariat",
+        "Herrengasse 12",
+        "8880 Walenstadt"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.walenstadt@sesowa.ch",
+      "website": "https://www.sesowa.ch/",
+      "source": "https://www.sesowa.ch/walenstadt/kontakte/",
+      "confidence": "medium",
+      "note": "KG selbst publiziert keine Postadresse; Pfarreisekretariat Walenstadt.",
+      "bfs": [],
+      "partial_bfs": [
+        3298
+      ]
+    },
+    {
+      "id": "sg-wangs",
+      "name": "Katholische Kirchgemeinde Wangs",
+      "postal": [
+        "Katholische Kirchgemeinde Wangs",
+        "Kirchenverwaltungsrat",
+        "Schiggstrasse 21",
+        "7323 Wangs"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.wangs@kath-msl.ch",
+      "website": "https://www.kath-msl.ch/kirchgemeinde-wangs/",
+      "source": "https://www.kath-msl.ch/kirchgemeinde-wangs/",
+      "confidence": "high",
+      "note": "Pfarramt St. Antonius; KVR-Präsidium an derselben Adresse publiziert.",
+      "bfs": [],
+      "partial_bfs": [
+        3297
+      ]
+    },
+    {
+      "id": "sg-wartau",
+      "name": "Katholische Kirchgemeinde Wartau",
+      "postal": [
+        "Katholische Kirchgemeinde Wartau",
+        "c/o Pfarreisekretariat",
+        "Poststrasse 27",
+        "9478 Azmoos"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kathwerdenberg.ch/wartau",
+      "source": "https://www.kathwerdenberg.ch/wartau/pfarrei/kontakt",
+      "confidence": "medium",
+      "note": "KVR nur mit privaten E-Mails, ohne Postadresse; Pfarreisekretariat.",
+      "bfs": [
+        3276
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "sg-wattwil",
+      "name": "Katholische Kirchgemeinde Wattwil",
+      "postal": [
+        "Katholische Kirchgemeinde Wattwil",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.wattwil@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; KVR über Sekretariat der Seelsorgeeinheit (Zweckverband Neutoggenburg). Vereinigung aller KG der Seelsorgeeinheit in Prüfung (Amtsbericht 2025), noch nicht beschlossen. Sekretariat liegt in Wattwil (Pfarreizentrum).",
+      "bfs": [],
+      "partial_bfs": [
+        3379
+      ]
+    },
+    {
+      "id": "sg-weesen",
+      "name": "Katholische Kirchgemeinde Weesen",
+      "postal": [
+        "Katholische Kirchgemeinde Weesen",
+        "Kath. Kirchenverwaltung",
+        "Hofstrasse 2",
+        "8872 Weesen"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://kath-gaster.ch/",
+      "source": "https://kath-gaster.ch/weesen/kirchenverwaltung/",
+      "confidence": "high",
+      "note": "Finanzverwaltung der KG an Hofstrasse 2 (zugleich Röm.-kath. Pfarramt Weesen).",
+      "bfs": [
+        3316
+      ],
+      "partial_bfs": [
+        3311
+      ]
+    },
+    {
+      "id": "sg-weisstannen",
+      "name": "Katholische Kirchgemeinde Weisstannen",
+      "postal": [
+        "Katholische Kirchgemeinde Weisstannen",
+        "c/o Seelsorgeeinheit Mittleres Sarganserland",
+        "Städtchenstrasse 66",
+        "7320 Sargans"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.se@kath-msl.ch",
+      "website": "https://www.kath-msl.ch/kirchgemeinde-weisstannen/",
+      "source": "https://www.kath-msl.ch/impressum/",
+      "confidence": "low",
+      "note": "KG publiziert als Standort/Kontakt nur die Privatadresse des KVR-Präsidiums, kein Sekretariat; Ersatz: Sekretariat der Seelsorgeeinheit. Postadresse auf der Website prüfen.",
+      "bfs": [],
+      "partial_bfs": [
+        3293
+      ]
+    },
+    {
+      "id": "sg-widnau",
+      "name": "Katholische Kirchgemeinde Widnau",
+      "postal": [
+        "Katholische Kirchgemeinde Widnau",
+        "c/o Pfarreisekretariat",
+        "Rütistrasse 17",
+        "9443 Widnau"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-widnau.ch",
+      "website": "https://kath-widnau.ch",
+      "source": "https://kath-widnau.ch/kontakte/",
+      "confidence": "medium",
+      "note": "Impressum nennt KG Widnau «Pfarrhaus, 9443 Widnau» ohne Strasse; Strasse vom Pfarreisekretariat. Jahresbericht 2024 nutzte Aktuariat an Privatadresse.",
+      "bfs": [
+        3238
+      ],
+      "partial_bfs": [
+        3234
+      ]
+    },
+    {
+      "id": "sg-wil",
+      "name": "Katholische Kirchgemeinde Wil",
+      "postal": [
+        "Katholische Kirchgemeinde Wil",
+        "Administration Pfarreizentrum Wil",
+        "Lerchenfeldstrasse 3",
+        "9500 Wil"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kathwil.ch",
+      "website": "https://kathwil.ch/",
+      "source": "https://kathwil.ch/ueber-uns/administration/",
+      "confidence": "high",
+      "note": "Administration ist für die Gesamtverwaltung der Pfarr- und Kirchgemeinde zuständig. KG-Gebiet umfasst laut Website auch Wilen TG und Rickenbach TG sowie Teile von Kirchberg SG und Zuzwil SG.",
+      "bfs": [
+        3427
+      ],
+      "partial_bfs": [
+        3392,
+        3426
+      ]
+    },
+    {
+      "id": "sg-wildhaus",
+      "name": "Katholische Kirchgemeinde Wildhaus",
+      "postal": [
+        "Katholische Kirchgemeinde Wildhaus",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Oberes Toggenburg",
+        "Johanneumstrasse 1",
+        "9652 Neu St. Johann"
+      ],
+      "address_type": "sekretariat",
+      "email": "praesident-wh@seotog.ch",
+      "website": "https://www.seotog.ch/",
+      "source": "https://www.seotog.ch/de/Seelsorgeeinheit/Kontakte/Sekretariate.14.html",
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der KG publiziert; Sekretariat der Seelsorgeeinheit Oberes Toggenburg (für alle Pfarreien zuständig). Website der politischen Gemeinde (wildhaus-altstjohann.ch) mit curl/WebFetch gesperrt (403).",
+      "bfs": [],
+      "partial_bfs": [
+        3359
+      ]
+    },
+    {
+      "id": "sg-wittenbach",
+      "name": "Katholische Kirchgemeinde Wittenbach",
+      "postal": [
+        "Katholische Kirchgemeinde Wittenbach",
+        "Pfarreisekretariat Wittenbach",
+        "Dorfstrasse 24",
+        "9300 Wittenbach"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt.wittenbach@altkon.ch",
+      "website": "https://altkon.ch/",
+      "source": "https://altkon.ch/pfarreisekretariate",
+      "confidence": "medium",
+      "note": "KVR nur mit Privatadressen publiziert; Dorfstrasse 24 ist Pfarreisekretariat und Kontaktadresse der Seelsorgeeinheit (Impressum). Fusion: Häggenschwil, Muolen und Wittenbach vereinigen sich zur Katholischen Kirchgemeinde Alte Konstanzerstrasse, Start 1.1.2028 (Stelleninserat der neuen KG, inzwischen offline); konstituierende Kirchbürgerversammlung 28.10.2026 (haeggenschwil.ch). Bis Ende 2027 bleibt die bisherige KG Empfängerin.",
+      "bfs": [],
+      "partial_bfs": [
+        3204
+      ]
+    },
+    {
+      "id": "sg-zuzwil-zueberwangen",
+      "name": "Katholische Kirchgemeinde Zuzwil-Züberwangen",
+      "postal": [
+        "Katholische Kirchgemeinde Zuzwil-Züberwangen",
+        "c/o Sekretariat Seelsorgeeinheit Mittleres Fürstenland",
+        "Kirchstrasse 34",
+        "9524 Zuzwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@semf.ch",
+      "website": "https://www.semf.ch/",
+      "source": "https://www.semf.ch/kontakt.html",
+      "confidence": "medium",
+      "note": "Kirchenverwaltungsrat nur mit Privatadressen publiziert; einziges Sekretariat ist das der Seelsorgeeinheit (Zuordnung zur KG nicht ausdrücklich).",
+      "bfs": [],
+      "partial_bfs": [
+        3426
+      ]
+    }
+  ],
+  "split": [
+    {
+      "bfs": 3202,
+      "how": "Grösster Teil: KG Muolen. Keiner st. gallischen Kirchgemeinde zugeordnet (laut Geodatensatz; vermutlich thurgauische KG – bei der politischen Gemeinde nachfragen): Adressen mit PLZ/Ort 8580 Hagenwil b. Amriswil, 9220 Bischofszell; Strassen/Weiler Hueb (Muolen), Rotzenwil (Muolen), Blasenberg (Muolen), Holzbifang (Muolen), Chatzensteig (Muolen), Sibenhusen (Muolen), Sonnental (teilweise) (Muolen), Grüenholz (Muolen), Höchi (Muolen), Unterfeld (Muolen) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9308 Lömmenschwil": "sg-muolen"
+      }
+    },
+    {
+      "bfs": 3204,
+      "how": "Grösster Teil: KG Wittenbach. KG St.Gallen: Adressen mit PLZ/Ort 9008 St. Gallen. KG Häggenschwil: Adressen mit PLZ/Ort 9308 Lömmenschwil. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9008 St. Gallen": "sg-st-gallen",
+        "9300 Wittenbach": "sg-wittenbach",
+        "9308 Lömmenschwil": "sg-haeggenschwil"
+      }
+    },
+    {
+      "bfs": 3214,
+      "how": "Grösster Teil: KG Mörschwil. KG Tübach: Adressen mit PLZ/Ort 9327 Tübach. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9327 Tübach": "sg-tuebach",
+        "9402 Mörschwil": "sg-moerschwil"
+      }
+    },
+    {
+      "bfs": 3231,
+      "how": "Grösster Teil: KG Au. KG Heerbrugg: Adressen mit PLZ/Ort 9435 Heerbrugg. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9434 Au SG": "sg-au",
+        "9435 Heerbrugg": "sg-heerbrugg"
+      }
+    },
+    {
+      "bfs": 3232,
+      "how": "Grösster Teil: KG Balgach. KG Heerbrugg: Strassen/Weiler Sonnenbergstrasse (Heerbrugg), Schlossstrasse (Heerbrugg), Heinrich-Wild-Strasse (teilweise) (Heerbrugg), Berneckerstrasse (Heerbrugg), Haldenstrasse (teilweise) (Balgach), Balgacherstrasse (teilweise) (Heerbrugg), Max-Schmidheiny-Strasse (Heerbrugg), Hümpelerstrasse (Heerbrugg), Hümpelerstrasse (Balgach), Ziegeleiweg (Heerbrugg) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9436 Balgach": "sg-balgach",
+        "9445 Rebstein": "sg-balgach",
+        "Sonnenbergstrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Schlossstrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Berneckerstrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Max-Schmidheiny-Strasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Hümpelerstrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Hümpelerstrasse (9436 Balgach)": "sg-heerbrugg",
+        "Ziegeleiweg (9435 Heerbrugg)": "sg-heerbrugg"
+      }
+    },
+    {
+      "bfs": 3233,
+      "how": "Grösster Teil: KG Berneck. KG Heerbrugg: Strassen/Weiler Bahnstrasse (Heerbrugg), Brändlistrasse (Heerbrugg), Gmündstrasse (Heerbrugg), Brändlihangstrasse (Heerbrugg), Alte Landstrasse (Heerbrugg). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9411 Reute AR": "sg-berneck",
+        "9434 Au SG": "sg-berneck",
+        "9442 Berneck": "sg-berneck",
+        "9442 Büriswilen": "sg-berneck",
+        "Brändlistrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Gmündstrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Brändlihangstrasse (9435 Heerbrugg)": "sg-heerbrugg",
+        "Alte Landstrasse (9435 Heerbrugg)": "sg-heerbrugg"
+      }
+    },
+    {
+      "bfs": 3234,
+      "how": "Grösster Teil: KG Diepoldsau-Schmitter. KG Widnau: Adressen mit PLZ/Ort 9443 Widnau. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9436 Balgach": "sg-diepoldsau-schmitter",
+        "9443 Widnau": "sg-widnau",
+        "9444 Diepoldsau": "sg-diepoldsau-schmitter"
+      }
+    },
+    {
+      "bfs": 3251,
+      "how": "Grösster Teil: KG Altstätten. KG Lüchingen: Adressen mit PLZ/Ort 9450 Lüchingen. KG Rüthi: Adressen mit PLZ/Ort 9058 Brülisau, 9464 Lienz, 9464 Rüthi (Rheintal). KG Kobelwald: Strassen/Weiler Hub (Oberriet SG), Kobelwies (Oberriet SG), Mettlenstrasse (Oberriet SG), Oberaustrasse (Eichberg), Hard (Oberriet SG), Städelimadweg (Oberriet SG), Kobelwieserweg (Oberriet SG), Watt (Oberriet SG), Sägestrasse (Oberriet SG), Schneiderweg (Oberriet SG) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9058 Brülisau": "sg-ruethi",
+        "9450 Altstätten SG": "sg-altstaetten",
+        "9450 Lüchingen": "sg-luechingen",
+        "9452 Hinterforst": "sg-altstaetten",
+        "9464 Lienz": "sg-ruethi",
+        "9464 Rüthi (Rheintal)": "sg-ruethi",
+        "Hub (9463 Oberriet SG)": "sg-kobelwald",
+        "Kobelwies (9463 Oberriet SG)": "sg-kobelwald",
+        "Mettlenstrasse (9463 Oberriet SG)": "sg-kobelwald",
+        "Oberaustrasse (9453 Eichberg)": "sg-kobelwald",
+        "Hard (9463 Oberriet SG)": "sg-kobelwald",
+        "Städelimadweg (9463 Oberriet SG)": "sg-kobelwald",
+        "Kobelwieserweg (9463 Oberriet SG)": "sg-kobelwald",
+        "Watt (9463 Oberriet SG)": "sg-kobelwald",
+        "Sägestrasse (9463 Oberriet SG)": "sg-kobelwald",
+        "Schneiderweg (9463 Oberriet SG)": "sg-kobelwald"
+      }
+    },
+    {
+      "bfs": 3254,
+      "how": "Grösster Teil: KG Montlingen-Eichenwies. KG Oberriet: Strassen/Weiler Staatsstrasse (teilweise) (Oberriet SG), Neudorfstrasse (Oberriet SG), Industriestrasse (Oberriet SG), Bachstrasse (Oberriet SG), Kellenstrasse (Oberriet SG), Feldhofstrasse (Oberriet SG), Loogartenstrasse (Oberriet SG), Rheinstrasse (Oberriet SG), Kronengasse (Oberriet SG), Buckstrasse (Oberriet SG) u. a. KG Kriessern: Adressen mit PLZ/Ort 9436 Balgach, 9451 Kriessern; Strassen/Weiler Lindenmad (teilweise) (Montlingen), Binnenkanal West (teilweise) (Montlingen). KG Kobelwald: Strassen/Weiler Hard (Oberriet SG), Freienbach (Oberriet SG), Stein (Oberriet SG), Bergstrasse (Oberriet SG), Grubachstrasse (Oberriet SG), Watt (Oberriet SG), Oberkobelwies (Oberriet SG), Kobelwies (Oberriet SG), Kobelwiesstrasse (Oberriet SG), Chienbergstrasse (Oberriet SG) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9436 Balgach": "sg-kriessern",
+        "9451 Kriessern": "sg-kriessern",
+        "9462 Montlingen": "sg-montlingen-eichenwies",
+        "Neudorfstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Industriestrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Bachstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Kellenstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Feldhofstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Loogartenstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Rheinstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Kronengasse (9463 Oberriet SG)": "sg-oberriet",
+        "Buckstrasse (9463 Oberriet SG)": "sg-oberriet",
+        "Hard (9463 Oberriet SG)": "sg-kobelwald",
+        "Freienbach (9463 Oberriet SG)": "sg-kobelwald",
+        "Stein (9463 Oberriet SG)": "sg-kobelwald",
+        "Grubachstrasse (9463 Oberriet SG)": "sg-kobelwald",
+        "Watt (9463 Oberriet SG)": "sg-kobelwald",
+        "Oberkobelwies (9463 Oberriet SG)": "sg-kobelwald",
+        "Kobelwies (9463 Oberriet SG)": "sg-kobelwald",
+        "Kobelwiesstrasse (9463 Oberriet SG)": "sg-kobelwald",
+        "Chienbergstrasse (9463 Oberriet SG)": "sg-kobelwald"
+      }
+    },
+    {
+      "bfs": 3293,
+      "how": "Grösster Teil: KG Mels. KG Weisstannen: Adressen mit PLZ/Ort 7325 Schwendi im Weisstannental, 7326 Weisstannen; Strassen/Weiler Prechtstrasse (teilweise) (Mels), Untervermolstrasse (teilweise) (Mädris-Vermol), Weisstannerstrasse (teilweise) (Mels). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "7325 Schwendi im Weisstannental": "sg-weisstannen",
+        "7326 Weisstannen": "sg-weisstannen",
+        "8886 Mädris-Vermol": "sg-mels",
+        "8887 Mels": "sg-mels",
+        "8888 Heiligkreuz (Mels)": "sg-mels",
+        "8889 Plons": "sg-mels"
+      }
+    },
+    {
+      "bfs": 3294,
+      "how": "Grösster Teil: KG Pfäfers. KG Vättis: Adressen mit PLZ/Ort 7315 Vättis. KG Valens-Vasön: Adressen mit PLZ/Ort 7317 Valens; Strassen/Weiler Valenserberg (Vasön), Duonigstrasse (Vasön), Valenserstrasse (Vasön), Dörflistrasse (Vasön), Madrusstrasse (Vasön), Sergeurisstrasse (Vasön), Schulhausstrasse (Vasön), Tschenner (Vasön), Glarinaweg (Vasön), Taminaplatz (Vasön) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "7312 Pfäfers": "sg-pfaefers",
+        "7313 St. Margrethenberg": "sg-pfaefers",
+        "7314 Vadura": "sg-pfaefers",
+        "7315 Vättis": "sg-vaettis",
+        "7317 Valens": "sg-valens-vasoen",
+        "Valenserberg (7317 Vasön)": "sg-valens-vasoen",
+        "Duonigstrasse (7317 Vasön)": "sg-valens-vasoen",
+        "Valenserstrasse (7317 Vasön)": "sg-valens-vasoen",
+        "Dörflistrasse (7317 Vasön)": "sg-valens-vasoen",
+        "Madrusstrasse (7317 Vasön)": "sg-valens-vasoen",
+        "Sergeurisstrasse (7317 Vasön)": "sg-valens-vasoen",
+        "Schulhausstrasse (7317 Vasön)": "sg-valens-vasoen",
+        "Tschenner (7317 Vasön)": "sg-valens-vasoen",
+        "Glarinaweg (7317 Vasön)": "sg-valens-vasoen",
+        "Taminaplatz (7317 Vasön)": "sg-valens-vasoen"
+      }
+    },
+    {
+      "bfs": 3297,
+      "how": "Grösster Teil: KG Wangs. KG Vilters: Adressen mit PLZ/Ort 7324 Vilters; Strassen/Weiler Brunnenwiesenstrasse (Wangs), Valeis-Alpweg (teilweise) (Wangs), Alp- und Waldwege Vilters (teilweise) (Wangs), Aeulistrasse (teilweise) (Wangs), Gaschielsweg (Wangs). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "7323 Wangs": "sg-wangs",
+        "7324 Vilters": "sg-vilters",
+        "Brunnenwiesenstrasse (7323 Wangs)": "sg-vilters",
+        "Gaschielsweg (7323 Wangs)": "sg-vilters"
+      }
+    },
+    {
+      "bfs": 3298,
+      "how": "Grösster Teil: KG Walenstadt. KG Berschis: Adressen mit PLZ/Ort 8890 Flums; Strassen/Weiler Allmendstrasse (Berschis), Unterdorfstrasse (Berschis), Vorderdorfstrasse (Berschis), Schulhausstrasse (Berschis), Winkelstrasse (Berschis), Nachtwächterstrasse (Berschis), Cavortschstrasse (teilweise) (Berschis), Hinterfeldstrasse (Berschis), Oberdorfstrasse (Berschis), Seilereistrasse (Berschis) u. a. KG Tscherlach: Strassen/Weiler Oberdorfgasse (Tscherlach), Dorfstrasse (Tscherlach), Valungagasse (Tscherlach), Brüsisgasse (Tscherlach), Sonnentalstrasse (Tscherlach), Johannesstrasse (Tscherlach), Höflistrasse (Tscherlach), Alte Landstrasse (teilweise) (Walenstadt), Steinbündtweg (Tscherlach), Verachta (Tscherlach) u. a. KG Flums: Adressen mit PLZ/Ort 8893 Flums Hochwiese, 8896 Flumserberg Bergheim; Strassen/Weiler Valaschgastrasse (Berschis), Sersaxstrasse (Berschis), Cavortschstrasse (teilweise) (Berschis), Valaschgaweg (Berschis), Forggelsweg (teilweise) (Berschis), Fäschstrasse (Walenstadt), Cavörtschli (Berschis). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "8878 Quinten": "sg-walenstadt",
+        "8881 Walenstadtberg": "sg-walenstadt",
+        "8890 Flums": "sg-berschis",
+        "8893 Flums Hochwiese": "sg-flums",
+        "8896 Flumserberg Bergheim": "sg-flums",
+        "Allmendstrasse (8892 Berschis)": "sg-berschis",
+        "Unterdorfstrasse (8892 Berschis)": "sg-berschis",
+        "Vorderdorfstrasse (8892 Berschis)": "sg-berschis",
+        "Schulhausstrasse (8892 Berschis)": "sg-berschis",
+        "Winkelstrasse (8892 Berschis)": "sg-berschis",
+        "Nachtwächterstrasse (8892 Berschis)": "sg-berschis",
+        "Hinterfeldstrasse (8892 Berschis)": "sg-berschis",
+        "Oberdorfstrasse (8892 Berschis)": "sg-berschis",
+        "Seilereistrasse (8892 Berschis)": "sg-berschis",
+        "Oberdorfgasse (8881 Tscherlach)": "sg-tscherlach",
+        "Dorfstrasse (8881 Tscherlach)": "sg-tscherlach",
+        "Valungagasse (8881 Tscherlach)": "sg-tscherlach",
+        "Brüsisgasse (8881 Tscherlach)": "sg-tscherlach",
+        "Sonnentalstrasse (8881 Tscherlach)": "sg-tscherlach",
+        "Johannesstrasse (8881 Tscherlach)": "sg-tscherlach",
+        "Höflistrasse (8881 Tscherlach)": "sg-tscherlach",
+        "Steinbündtweg (8881 Tscherlach)": "sg-tscherlach",
+        "Verachta (8881 Tscherlach)": "sg-tscherlach",
+        "Sersaxstrasse (8892 Berschis)": "sg-flums",
+        "Valaschgaweg (8892 Berschis)": "sg-flums",
+        "Fäschstrasse (8880 Walenstadt)": "sg-flums",
+        "Cavörtschli (8892 Berschis)": "sg-flums"
+      }
+    },
+    {
+      "bfs": 3311,
+      "how": "Grösster Teil: KG Amden. KG Weesen: Strassen/Weiler Betliserstrasse (Weesen), Amdenerstrasse (Weesen), Sittenweg (Weesen), Fliweg (Weesen), Mülistrasse (Weesen), Sägeweg (Weesen), Seehofstrasse (Weesen), Leistchammweg (Weesen), Tafeli (Weesen), Sattel (Weesen) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "8873 Amden": "sg-amden",
+        "Sittenweg (8872 Weesen)": "sg-weesen",
+        "Fliweg (8872 Weesen)": "sg-weesen",
+        "Mülistrasse (8872 Weesen)": "sg-weesen",
+        "Sägeweg (8872 Weesen)": "sg-weesen",
+        "Seehofstrasse (8872 Weesen)": "sg-weesen",
+        "Leistchammweg (8872 Weesen)": "sg-weesen",
+        "Tafeli (8872 Weesen)": "sg-weesen",
+        "Sattel (8872 Weesen)": "sg-weesen"
+      }
+    },
+    {
+      "bfs": 3341,
+      "how": "Grösster Teil: KG Obersee. KG Eschenbach: Adressen mit PLZ/Ort 8725 Gebertingen; Strassen/Weiler Sonnenbergstrasse (Ernetschwil), Hinterschümbergstrasse (Ricken SG), Büntstrasse (Ernetschwil), Rickenstrasse (Ernetschwil), Züblistrasse (Ernetschwil), Schulstrasse (Ernetschwil), Vorderschümberg (Ricken SG), Breitenaustrasse (Ernetschwil), Sonneckstrasse (Ernetschwil), Huobstrasse (Ernetschwil) u. a. KG Ricken: Strassen/Weiler Waldestrasse (Ricken SG), Fichtenweg (Ricken SG), Rapperswilerstrasse (Ricken SG), Uznacherstrasse (Ricken SG), Allmeind (Ricken SG), Wattwilerstrasse (Ricken SG), Rickendorfstrasse (Ricken SG), Schönenbergstrasse (Ricken SG), Durschlagen (teilweise) (Ricken SG), Camping Rapperswilerstrasse (Ricken SG) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "8725 Gebertingen": "sg-eschenbach",
+        "8730 Uznach": "sg-obersee",
+        "8737 Gommiswald": "sg-obersee",
+        "8738 Uetliburg SG": "sg-obersee",
+        "8739 Rieden SG": "sg-obersee",
+        "Sonnenbergstrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Hinterschümbergstrasse (8726 Ricken SG)": "sg-eschenbach",
+        "Büntstrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Rickenstrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Züblistrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Schulstrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Vorderschümberg (8726 Ricken SG)": "sg-eschenbach",
+        "Breitenaustrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Sonneckstrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Huobstrasse (8725 Ernetschwil)": "sg-eschenbach",
+        "Waldestrasse (8726 Ricken SG)": "sg-ricken",
+        "Fichtenweg (8726 Ricken SG)": "sg-ricken",
+        "Rapperswilerstrasse (8726 Ricken SG)": "sg-ricken",
+        "Uznacherstrasse (8726 Ricken SG)": "sg-ricken",
+        "Wattwilerstrasse (8726 Ricken SG)": "sg-ricken",
+        "Rickendorfstrasse (8726 Ricken SG)": "sg-ricken",
+        "Schönenbergstrasse (8726 Ricken SG)": "sg-ricken",
+        "Camping Rapperswilerstrasse (8726 Ricken SG)": "sg-ricken"
+      }
+    },
+    {
+      "bfs": 3359,
+      "how": "Grösster Teil: KG Alt St.Johann. KG Wildhaus: Adressen mit PLZ/Ort 9107 Urnäsch; Strassen/Weiler Hauptstrasse (Wildhaus), Schönenbodenstrasse (Wildhaus), Moosstrasse (Wildhaus), Vordere Schwendistrasse (Wildhaus), Oberdorfstrasse (Wildhaus), Steinrütistrasse (Wildhaus), Befangstrasse (teilweise) (Wildhaus), Untere Riethaldenstrasse (Wildhaus), Munzenrietstrasse (Wildhaus), Ahornstrasse (Wildhaus) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9107 Urnäsch": "sg-wildhaus",
+        "9656 Alt St. Johann": "sg-alt-st-johann",
+        "9657 Unterwasser": "sg-alt-st-johann",
+        "Hauptstrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Schönenbodenstrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Vordere Schwendistrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Oberdorfstrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Steinrütistrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Untere Riethaldenstrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Munzenrietstrasse (9658 Wildhaus)": "sg-wildhaus",
+        "Ahornstrasse (9658 Wildhaus)": "sg-wildhaus"
+      }
+    },
+    {
+      "bfs": 3379,
+      "how": "Grösster Teil: KG Wattwil. KG Lichtensteig: Adressen mit PLZ/Ort 9615 Dietfurt; Strassen/Weiler Poststrasse (Krinau), Dorf (Krinau), Hintergurtberg (Krinau), Schaufelberg (Lichtensteig), Mühle (Krinau), Altschwil (Krinau), Lohstrasse (Krinau), Feldmoos (Krinau), Rotenfluh (Krinau), Bühl (Krinau) u. a. KG Ricken: Strassen/Weiler Hinterer Hummelwald (Ricken SG), Lindboden (Ricken SG), Wattwilerstrasse (Ricken SG), Hinterer Schönenberg (Wattwil), Hinterer Schönenberg (Ricken SG), Niederlaad (Ricken SG), Reisenbach (Ricken SG), Gallenmüsli (Ricken SG), Schwantlen (Ricken SG), Lindboden (Wattwil) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9615 Dietfurt": "sg-lichtensteig",
+        "9630 Wattwil": "sg-wattwil",
+        "9631 Ulisbach": "sg-wattwil",
+        "9633 Hemberg": "sg-wattwil",
+        "9642 Ebnat-Kappel": "sg-wattwil",
+        "Poststrasse (9622 Krinau)": "sg-lichtensteig",
+        "Dorf (9622 Krinau)": "sg-lichtensteig",
+        "Hintergurtberg (9622 Krinau)": "sg-lichtensteig",
+        "Mühle (9622 Krinau)": "sg-lichtensteig",
+        "Altschwil (9622 Krinau)": "sg-lichtensteig",
+        "Lohstrasse (9622 Krinau)": "sg-lichtensteig",
+        "Feldmoos (9622 Krinau)": "sg-lichtensteig",
+        "Rotenfluh (9622 Krinau)": "sg-lichtensteig",
+        "Bühl (9622 Krinau)": "sg-lichtensteig",
+        "Lindboden (8726 Ricken SG)": "sg-ricken",
+        "Wattwilerstrasse (8726 Ricken SG)": "sg-ricken",
+        "Hinterer Schönenberg (9630 Wattwil)": "sg-ricken",
+        "Hinterer Schönenberg (8726 Ricken SG)": "sg-ricken",
+        "Niederlaad (8726 Ricken SG)": "sg-ricken",
+        "Reisenbach (8726 Ricken SG)": "sg-ricken",
+        "Gallenmüsli (8726 Ricken SG)": "sg-ricken",
+        "Schwantlen (8726 Ricken SG)": "sg-ricken",
+        "Lindboden (9630 Wattwil)": "sg-ricken"
+      }
+    },
+    {
+      "bfs": 3392,
+      "how": "Grösster Teil: KG Alttoggenburg. KG Wil: Adressen mit PLZ/Ort 9500 Wil SG, 9532 Rickenbach b. Wil; Strassen/Weiler Oberbruberg (Kirchberg SG), Engi (Kirchberg SG), Underbruberg (Kirchberg SG), Fetzhof (Kirchberg SG), Rütihof (Kirchberg SG), Fetzwald (Kirchberg SG), Cholberg (teilweise) (Kirchberg SG), Sedelhof (Kirchberg SG), Langenau (teilweise) (Kirchberg SG), Ägelseehalden (Kirchberg SG) u. a. Keiner st. gallischen Kirchgemeinde zugeordnet (laut Geodatensatz; vermutlich thurgauische KG – bei der politischen Gemeinde nachfragen): Adressen mit PLZ/Ort 8376 Fischingen; Strassen/Weiler Underschönau (Kirchberg SG), Oberschönau (Kirchberg SG), Gruebhalden (Kirchberg SG), Lettenbergweg (Kirchberg SG), Schönauer Halde (Kirchberg SG). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9500 Wil SG": "sg-wil",
+        "9532 Rickenbach b. Wil": "sg-wil",
+        "9534 Gähwil": "sg-alttoggenburg",
+        "9601 Lütisburg Station": "sg-alttoggenburg",
+        "9602 Bazenheid": "sg-alttoggenburg",
+        "9602 Müselbach": "sg-alttoggenburg",
+        "9613 Mühlrüti": "sg-alttoggenburg",
+        "Oberbruberg (9533 Kirchberg SG)": "sg-wil",
+        "Engi (9533 Kirchberg SG)": "sg-wil",
+        "Underbruberg (9533 Kirchberg SG)": "sg-wil",
+        "Fetzhof (9533 Kirchberg SG)": "sg-wil",
+        "Rütihof (9533 Kirchberg SG)": "sg-wil",
+        "Fetzwald (9533 Kirchberg SG)": "sg-wil",
+        "Sedelhof (9533 Kirchberg SG)": "sg-wil",
+        "Ägelseehalden (9533 Kirchberg SG)": "sg-wil"
+      }
+    },
+    {
+      "bfs": 3393,
+      "how": "Grösster Teil: KG Lütisburg. KG Region Flawil-Degersheim: Adressen mit PLZ/Ort 9123 Nassen; Strassen/Weiler Alenschwanden (Lütisburg). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9123 Nassen": "sg-region-flawil-degersheim",
+        "9243 Jonschwil": "sg-luetisburg",
+        "9601 Lütisburg Station": "sg-luetisburg",
+        "9602 Bazenheid": "sg-luetisburg",
+        "9604 Lütisburg": "sg-luetisburg",
+        "9604 Oberrindal": "sg-luetisburg",
+        "9604 Unterrindal": "sg-luetisburg",
+        "9608 Ganterschwil": "sg-luetisburg",
+        "Alenschwanden (9604 Lütisburg)": "sg-region-flawil-degersheim"
+      }
+    },
+    {
+      "bfs": 3394,
+      "how": "Grösster Teil: KG Mosnang. KG Libingen: Adressen mit PLZ/Ort 9614 Libingen, 9615 Dietfurt, 9630 Wattwil. KG Mühlrüti: Adressen mit PLZ/Ort 8376 Au TG, 8496 Steg im Tösstal; Strassen/Weiler Ricketschwendi (Mühlrüti), Dorf (Mühlrüti), Untere Hulftegg (Mühlrüti), Kirchweg (Mühlrüti), Bennenmoos (Mühlrüti), Berlig (Mühlrüti), Sonnenbergstrasse (Mühlrüti), Breitenmoos (Mühlrüti), Bechten (Mühlrüti), Hüttenwiese (Mühlrüti) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "8376 Au TG": "sg-muehlrueti",
+        "8496 Steg im Tösstal": "sg-muehlrueti",
+        "9601 Lütisburg Station": "sg-mosnang",
+        "9607 Mosnang": "sg-mosnang",
+        "9612 Dreien": "sg-mosnang",
+        "9614 Libingen": "sg-libingen",
+        "9615 Dietfurt": "sg-libingen",
+        "9630 Wattwil": "sg-libingen",
+        "Ricketschwendi (9613 Mühlrüti)": "sg-muehlrueti",
+        "Dorf (9613 Mühlrüti)": "sg-muehlrueti",
+        "Untere Hulftegg (9613 Mühlrüti)": "sg-muehlrueti",
+        "Kirchweg (9613 Mühlrüti)": "sg-muehlrueti",
+        "Bennenmoos (9613 Mühlrüti)": "sg-muehlrueti",
+        "Berlig (9613 Mühlrüti)": "sg-muehlrueti",
+        "Sonnenbergstrasse (9613 Mühlrüti)": "sg-muehlrueti",
+        "Breitenmoos (9613 Mühlrüti)": "sg-muehlrueti",
+        "Bechten (9613 Mühlrüti)": "sg-muehlrueti",
+        "Hüttenwiese (9613 Mühlrüti)": "sg-muehlrueti"
+      }
+    },
+    {
+      "bfs": 3395,
+      "how": "Grösster Teil: KG Bütschwil-Ganterschwil. KG Oberhelfenschwil-Brunnadern: Strassen/Weiler Geissberg (teilweise) (Ganterschwil). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9601 Lütisburg Station": "sg-buetschwil-ganterschwil",
+        "9606 Bütschwil": "sg-buetschwil-ganterschwil",
+        "9608 Ganterschwil": "sg-buetschwil-ganterschwil",
+        "9614 Libingen": "sg-buetschwil-ganterschwil",
+        "9615 Dietfurt": "sg-buetschwil-ganterschwil",
+        "9620 Lichtensteig": "sg-buetschwil-ganterschwil",
+        "9621 Oberhelfenschwil": "sg-buetschwil-ganterschwil"
+      }
+    },
+    {
+      "bfs": 3396,
+      "how": "Grösster Teil: KG Mogelsberg. KG Oberhelfenschwil-Brunnadern: Adressen mit PLZ/Ort 9620 Lichtensteig, 9621 Oberhelfenschwil, 9630 Wattwil; Strassen/Weiler Furtstrasse (teilweise) (Brunnadern), Dorfstrasse (teilweise) (Brunnadern), Hauptstrasse (teilweise) (Necker), Homberg (Brunnadern), Steigstrasse (Brunnadern), Bitzistrasse (Brunnadern), Rennen (Necker), Metzwil (Necker), Wasserfluhstrasse (Brunnadern), Hinteregg (Brunnadern) u. a. KG St.Peterzell: Adressen mit PLZ/Ort 9103 Schwellbrunn, 9105 Schönengrund, 9115 Dicken, 9127 St. Peterzell; Strassen/Weiler Enzenberg (Brunnadern), Furtstrasse (teilweise) (Brunnadern), Strick (Brunnadern), Siggetschwil (Brunnadern), Auboden (Brunnadern), Schwendi (teilweise) (Brunnadern), Furt (Brunnadern), Breiten (Brunnadern), Stofelegg (Brunnadern), Schluchenegg (Brunnadern) u. a. KG Hemberg: Adressen mit PLZ/Ort 9107 Urnäsch, 9633 Bächli (Hemberg), 9633 Hemberg; Strassen/Weiler Brunau (St. Peterzell). KG Region Flawil-Degersheim: Adressen mit PLZ/Ort 9116 Wolfertswil; Strassen/Weiler Wolfensberg (Degersheim), Wolfensbergstrasse (Degersheim), Schwendi (Degersheim), Bächi (Nassen), Wolfensbergweg (Degersheim), Tannenstrasse (Degersheim), Tannen (Degersheim). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9103 Schwellbrunn": "sg-st-peterzell",
+        "9105 Schönengrund": "sg-st-peterzell",
+        "9107 Urnäsch": "sg-hemberg",
+        "9114 Hoffeld": "sg-mogelsberg",
+        "9115 Dicken": "sg-st-peterzell",
+        "9116 Wolfertswil": "sg-region-flawil-degersheim",
+        "9122 Ebersol": "sg-mogelsberg",
+        "9122 Mogelsberg": "sg-mogelsberg",
+        "9123 Nassen": "sg-mogelsberg",
+        "9127 St. Peterzell": "sg-st-peterzell",
+        "9620 Lichtensteig": "sg-oberhelfenschwil-brunnadern",
+        "9621 Oberhelfenschwil": "sg-oberhelfenschwil-brunnadern",
+        "9630 Wattwil": "sg-oberhelfenschwil-brunnadern",
+        "9633 Bächli (Hemberg)": "sg-hemberg",
+        "9633 Hemberg": "sg-hemberg",
+        "Homberg (9125 Brunnadern)": "sg-oberhelfenschwil-brunnadern",
+        "Steigstrasse (9125 Brunnadern)": "sg-oberhelfenschwil-brunnadern",
+        "Metzwil (9126 Necker)": "sg-oberhelfenschwil-brunnadern",
+        "Wasserfluhstrasse (9125 Brunnadern)": "sg-oberhelfenschwil-brunnadern",
+        "Hinteregg (9125 Brunnadern)": "sg-oberhelfenschwil-brunnadern",
+        "Enzenberg (9125 Brunnadern)": "sg-st-peterzell",
+        "Strick (9125 Brunnadern)": "sg-st-peterzell",
+        "Siggetschwil (9125 Brunnadern)": "sg-st-peterzell",
+        "Auboden (9125 Brunnadern)": "sg-st-peterzell",
+        "Furt (9125 Brunnadern)": "sg-st-peterzell",
+        "Breiten (9125 Brunnadern)": "sg-st-peterzell",
+        "Stofelegg (9125 Brunnadern)": "sg-st-peterzell",
+        "Schluchenegg (9125 Brunnadern)": "sg-st-peterzell",
+        "Brunau (9127 St. Peterzell)": "sg-hemberg",
+        "Wolfensberg (9113 Degersheim)": "sg-region-flawil-degersheim"
+      }
+    },
+    {
+      "bfs": 3405,
+      "how": "Grösster Teil: KG Jonschwil. KG Lütisburg: Adressen mit PLZ/Ort 9604 Oberrindal. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9242 Oberuzwil": "sg-jonschwil",
+        "9243 Jonschwil": "sg-jonschwil",
+        "9532 Rickenbach b. Wil": "sg-jonschwil",
+        "9536 Schwarzenbach SG": "sg-jonschwil",
+        "9604 Oberrindal": "sg-luetisburg"
+      }
+    },
+    {
+      "bfs": 3407,
+      "how": "Grösster Teil: KG Bichwil-Oberuzwil. KG Region Flawil-Degersheim: Adressen mit PLZ/Ort 9244 Niederuzwil; Strassen/Weiler Wilen (Niederglatt SG), Watt (Niederglatt SG), Städeli (teilweise) (Niederglatt SG), Wilenwies (Niederglatt SG), Niederglatt (Niederglatt SG), Saurenmoos (Niederglatt SG), Heiligenschwil (Niederglatt SG), Wilerstrasse (Flawil), Häuslen (Niederglatt SG), Homberg (Niederglatt SG) u. a. KG Lütisburg: Strassen/Weiler Ramsau (Oberrindal), Ritzenhüsli (Oberrindal), Sonder (teilweise) (Oberrindal), Oberrindal (Oberrindal), Paradies (Oberrindal), Weid (Bichwil), Untere Langegg (Oberrindal), Stockacker (Oberrindal), Neuhof (Oberrindal). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9242 Oberuzwil": "sg-bichwil-oberuzwil",
+        "9244 Niederuzwil": "sg-region-flawil-degersheim",
+        "9248 Bichwil": "sg-bichwil-oberuzwil",
+        "Wilen (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Watt (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Wilenwies (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Niederglatt (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Saurenmoos (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Heiligenschwil (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Wilerstrasse (9230 Flawil)": "sg-region-flawil-degersheim",
+        "Häuslen (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Homberg (9240 Niederglatt SG)": "sg-region-flawil-degersheim",
+        "Ramsau (9604 Oberrindal)": "sg-luetisburg",
+        "Ritzenhüsli (9604 Oberrindal)": "sg-luetisburg",
+        "Oberrindal (9604 Oberrindal)": "sg-luetisburg",
+        "Paradies (9604 Oberrindal)": "sg-luetisburg",
+        "Weid (9248 Bichwil)": "sg-luetisburg",
+        "Untere Langegg (9604 Oberrindal)": "sg-luetisburg",
+        "Stockacker (9604 Oberrindal)": "sg-luetisburg",
+        "Neuhof (9604 Oberrindal)": "sg-luetisburg"
+      }
+    },
+    {
+      "bfs": 3408,
+      "how": "Grösster Teil: KG Henau-Niederuzwil. KG Bichwil-Oberuzwil: Strassen/Weiler Stolzenberg (Uzwil), Buecherholz (Uzwil), Stolzenbergweier (Uzwil). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9242 Oberuzwil": "sg-henau-niederuzwil",
+        "9244 Niederuzwil": "sg-henau-niederuzwil",
+        "9247 Henau": "sg-henau-niederuzwil",
+        "9249 Algetshausen": "sg-henau-niederuzwil",
+        "9249 Niederstetten": "sg-henau-niederuzwil",
+        "9249 Oberstetten": "sg-henau-niederuzwil",
+        "9536 Schwarzenbach SG": "sg-henau-niederuzwil",
+        "Stolzenberg (9240 Uzwil)": "sg-bichwil-oberuzwil",
+        "Buecherholz (9240 Uzwil)": "sg-bichwil-oberuzwil",
+        "Stolzenbergweier (9240 Uzwil)": "sg-bichwil-oberuzwil"
+      }
+    },
+    {
+      "bfs": 3422,
+      "how": "Grösster Teil: KG Niederbüren. KG Niederwil: Adressen mit PLZ/Ort 9203 Niederwil SG. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9200 Gossau SG": "sg-niederbueren",
+        "9203 Niederwil SG": "sg-niederwil",
+        "9246 Niederbüren": "sg-niederbueren"
+      }
+    },
+    {
+      "bfs": 3423,
+      "how": "Grösster Teil: KG Niederhelfenschwil. KG Lenggenwil: Adressen mit PLZ/Ort 9245 Oberbüren, 9245 Sonnental, 9524 Zuzwil SG, 9525 Lenggenwil. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9223 Schweizersholz": "sg-niederhelfenschwil",
+        "9245 Oberbüren": "sg-lenggenwil",
+        "9245 Sonnental": "sg-lenggenwil",
+        "9524 Zuzwil SG": "sg-lenggenwil",
+        "9525 Lenggenwil": "sg-lenggenwil",
+        "9526 Zuckenriet": "sg-niederhelfenschwil",
+        "9527 Niederhelfenschwil": "sg-niederhelfenschwil"
+      }
+    },
+    {
+      "bfs": 3424,
+      "how": "Grösster Teil: KG Oberbüren. KG Niederwil: Adressen mit PLZ/Ort 9203 Niederwil SG, 9230 Flawil; Strassen/Weiler Unterer Iselberg (Oberbüren), Pfifen (Oberbüren), Iselberg (Oberbüren), Hummelwald (Oberbüren). KG Henau-Niederuzwil: Adressen mit PLZ/Ort 9245 Sonnental; Strassen/Weiler Abt Bedastrasse (Oberbüren), Haldenwis (Oberbüren), Brübach (Oberbüren), Thurstegstrasse (Oberbüren), Unterfeld (Oberbüren), Winkelwiese (Oberbüren), Oberfeld (Oberbüren), Lehstrasse (Oberbüren), Weidweg (Oberbüren), Kreuzwiese (Oberbüren) u. a. KG Region Flawil-Degersheim: Adressen mit PLZ/Ort 9240 Niederglatt SG. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9203 Niederwil SG": "sg-niederwil",
+        "9230 Flawil": "sg-niederwil",
+        "9240 Niederglatt SG": "sg-region-flawil-degersheim",
+        "9245 Oberbüren": "sg-oberbueren",
+        "9245 Sonnental": "sg-henau-niederuzwil",
+        "Unterer Iselberg (9245 Oberbüren)": "sg-niederwil",
+        "Pfifen (9245 Oberbüren)": "sg-niederwil",
+        "Iselberg (9245 Oberbüren)": "sg-niederwil",
+        "Hummelwald (9245 Oberbüren)": "sg-niederwil",
+        "Haldenwis (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Brübach (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Thurstegstrasse (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Unterfeld (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Winkelwiese (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Oberfeld (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Lehstrasse (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Weidweg (9245 Oberbüren)": "sg-henau-niederuzwil",
+        "Kreuzwiese (9245 Oberbüren)": "sg-henau-niederuzwil"
+      }
+    },
+    {
+      "bfs": 3426,
+      "how": "Grösster Teil: KG Zuzwil-Züberwangen. KG Wil: Strassen/Weiler Weidhof (Wil SG). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9515 Hosenruck": "sg-zuzwil-zueberwangen",
+        "9523 Züberwangen": "sg-zuzwil-zueberwangen",
+        "9524 Zuzwil SG": "sg-zuzwil-zueberwangen",
+        "Weidhof (9500 Wil SG)": "sg-wil"
+      }
+    },
+    {
+      "bfs": 3442,
+      "how": "Grösster Teil: KG Abtwil-St.Josefen. KG Engelburg: Adressen mit PLZ/Ort 9032 Engelburg, 9300 Wittenbach; Strassen/Weiler St. Gallerstrasse (teilweise) (St. Josefen). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9030 Abtwil SG": "sg-abtwil-st-josefen",
+        "9032 Engelburg": "sg-engelburg",
+        "9300 Wittenbach": "sg-engelburg"
+      }
+    },
+    {
+      "bfs": 3443,
+      "how": "Grösster Teil: KG Gossau. KG Andwil-Arnegg: Adressen mit PLZ/Ort 9212 Arnegg; Strassen/Weiler Wilen (Andwil SG), Matten (Andwil SG), Zinggenhueb (Andwil SG), Erlenmühle (Gossau SG), Obermatten (teilweise) (Andwil SG), St. Margreten (Andwil SG), Lätschen (Andwil SG), Lauchen (Andwil SG), Frohheim (Andwil SG), Gruenholz (teilweise) (Andwil SG) u. a. Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9015 St. Gallen": "sg-gossau",
+        "9030 Abtwil SG": "sg-gossau",
+        "9100 Herisau": "sg-gossau",
+        "9200 Gossau SG": "sg-gossau",
+        "9212 Arnegg": "sg-andwil-arnegg",
+        "Wilen (9204 Andwil SG)": "sg-andwil-arnegg",
+        "Matten (9204 Andwil SG)": "sg-andwil-arnegg",
+        "Zinggenhueb (9204 Andwil SG)": "sg-andwil-arnegg",
+        "Erlenmühle (9200 Gossau SG)": "sg-andwil-arnegg",
+        "St. Margreten (9204 Andwil SG)": "sg-andwil-arnegg",
+        "Lätschen (9204 Andwil SG)": "sg-andwil-arnegg",
+        "Lauchen (9204 Andwil SG)": "sg-andwil-arnegg",
+        "Frohheim (9204 Andwil SG)": "sg-andwil-arnegg"
+      }
+    },
+    {
+      "bfs": 3444,
+      "how": "Grösster Teil: KG Waldkirch. KG Bernhardzell: Adressen mit PLZ/Ort 9300 Wittenbach, 9304 Bernhardzell; Strassen/Weiler Tuggstein (Waldkirch), Leitobel (Waldkirch). Keiner st. gallischen Kirchgemeinde zugeordnet (laut Geodatensatz; vermutlich thurgauische KG – bei der politischen Gemeinde nachfragen): Adressen mit PLZ/Ort 9213 Hauptwil, 9246 Niederbüren. KG Andwil-Arnegg: Adressen mit PLZ/Ort 9204 Andwil SG; Strassen/Weiler Tal (Waldkirch), Sentiswis (Waldkirch), Anschwilerwald (Waldkirch). KG Engelburg: Adressen mit PLZ/Ort 9032 Engelburg; Strassen/Weiler Chorb (Waldkirch). Massgebend ist die Grenze im Geodatensatz SG00090 (Karte/WFS).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0,WMS%7C%7Cueberlagernde_Hinweise%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Cueberlagernde_Hinweise%7C%7C1.3.0&E=2726838.81&N=1259809.15&zoom=7",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "9032 Engelburg": "sg-engelburg",
+        "9204 Andwil SG": "sg-andwil-arnegg",
+        "9205 Waldkirch": "sg-waldkirch",
+        "9300 Wittenbach": "sg-bernhardzell",
+        "9304 Bernhardzell": "sg-bernhardzell",
+        "Tuggstein (9205 Waldkirch)": "sg-bernhardzell",
+        "Leitobel (9205 Waldkirch)": "sg-bernhardzell",
+        "Sentiswis (9205 Waldkirch)": "sg-andwil-arnegg",
+        "Anschwilerwald (9205 Waldkirch)": "sg-andwil-arnegg",
+        "Chorb (9205 Waldkirch)": "sg-engelburg"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Beglaubigung bestätigt: Art. 6 Abs. 2 VKK (sGS 173.5) verlangt Schriftlichkeit und beglaubigte Unterschrift gegenüber dem Kirchenverwaltungsrat; der Wortlaut spricht vom Austritt «aus der römisch-katholischen Kirche».",
+    "Zuordnung Gemeinde ↔ KG aus dem Geodatensatz SG00090 (Attribut «kath._Kirchgemeinde», 89 KG, Nachführung 06.08.2026) und den GWR-Gebäudeeingängen (Stand 28.10.2026) berechnet; Gemeinden mit Eingängen in mehreren KG sind als geteilt erfasst, auch bei wenigen Häusern.",
+    "Fusionen ab 1.1.2028 (noch nicht wirksam): Häggenschwil, Muolen, Wittenbach → KG «Alte Konstanzerstrasse»; Berg-Freidorf, Mörschwil, Steinach, Tübach → KG «Steinerburg» (nicht im Geodatensatz vermerkt). Vereinigung der 7 KG in Neutoggenburg in Prüfung.",
+    "Die Postadressen der KG-Präsidien im Verzeichnis sg.kath.ch sind Privatadressen und wurden nicht verwendet; viele KG publizieren keine eigene Adresse, daher Pfarrei-/Seelsorgeeinheits-Sekretariate (c/o, medium). Muolen: nur Kontaktadresse der Seelsorgeeinheit in Wittenbach (low).",
+    "Der Geodatensatz SG00090 umfasst auch Gebiete in TG, AR und AI (u. a. Freidorf/Roggwil TG, Rickenbach TG, Wilen TG, Schönengrund AR, Teile von Wolfhalden/Lutzenberg/Heiden AR und Oberegg AI); diese sind in den jeweiligen Kantonsdateien erfasst.",
+    "BFS 3202 Muolen: 221 Gebäudeeingänge liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 (8580 Hagenwil b. Amriswil, 9220 Bischofszell, 9313 Muolen); zuständige (vermutlich thurgauische) KG nicht ermittelt.",
+    "BFS 3392 Kirchberg (SG): 78 Gebäudeeingänge liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 (8376 Fischingen, 9533 Dietschwil); zuständige (vermutlich thurgauische) KG nicht ermittelt.",
+    "BFS 3444 Waldkirch: 36 Gebäudeeingänge liegen ausserhalb aller KG-Flächen des Geodatensatzes SG00090 (9213 Hauptwil, 9246 Niederbüren); zuständige (vermutlich thurgauische) KG nicht ermittelt."
+  ]
+}

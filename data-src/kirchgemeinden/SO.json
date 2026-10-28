@@ -1,0 +1,1302 @@
+{
+ "canton": "SO",
+ "body": {
+  "name": "Römisch-Katholische Synode des Kantons Solothurn",
+  "short": "Synode SO (röm.-kath.)",
+  "website": "https://www.synode-so.ch",
+  "postal": [
+   "Römisch-Katholische Synode des Kantons Solothurn",
+   "Bahnhofstrasse 276",
+   "Postfach 308",
+   "4563 Gerlafingen"
+  ]
+ },
+ "austritt": {
+  "recipient": "Kirchgemeinderat der Wohnsitz-Kirchgemeinde (Art. 55 Abs. 2 KV SO)",
+  "recipient_level": "kirchgemeinde",
+  "form": "schriftliche Mitteilung (Art. 55 Abs. 2 KV SO); jederzeit möglich",
+  "beglaubigung": false,
+  "wirkung": "Von der Kirchensteuer befreit ist, wer beim Kirchgemeinderat schriftlich erklärt, der Konfession nicht mehr anzugehören (§ 249 Abs. 5 Steuergesetz, BGS 614.11); einen Stichtag nennt das Gesetz nicht.",
+  "notes": "Die Synode ist der Zusammenschluss der Kirchgemeinden und nimmt keine Austritte entgegen. Die Gebietseinteilung der 72 Kirchgemeinden steht im Verzeichnis der solothurnischen Gemeinden (BGS 131.3 § 4).",
+  "source": "https://bgs.so.ch/app/de/texts_of_law/111.1"
+ },
+ "finder": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+ "stand": "2026-10-28",
+ "sources": [
+  "https://bgs.so.ch/app/de/texts_of_law/131.3",
+  "https://bgs.so.ch/app/de/texts_of_law/111.1",
+  "https://bgs.so.ch/app/de/texts_of_law/614.11",
+  "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+  "https://www.synode-so.ch/"
+ ],
+ "kirchgemeinden": [
+  {
+   "id": "so-solothurn",
+   "name": "Römisch-katholische Kirchgemeinde Solothurn",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Solothurn",
+    "Verwaltung",
+    "Hauptgasse 75",
+    "4500 Solothurn"
+   ],
+   "address_type": "verwaltung",
+   "email": "kg-verwaltung@kath-solothurn.ch",
+   "website": "https://www.kath-solothurn.ch/solothurn",
+   "source": "https://www.kath-solothurn.ch/solothurn",
+   "bfs": [],
+   "partial_bfs": [
+    2601
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "so-bellach",
+   "name": "Römisch-katholische Kirchgemeinde Bellach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Bellach",
+    "c/o Pfarrei Bellach",
+    "Friedhofstrasse 5",
+    "4512 Bellach"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt.bellach@pastoralraum-mlb.ch",
+   "website": "https://pastoralraum-mlb.ch/kirchgemeinden/bellach/",
+   "source": "https://pastoralraum-mlb.ch/kirchgemeinden/bellach/",
+   "bfs": [
+    2542
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite im Pastoralraum Mittlerer Leberberg nennt nur das Pfarreisekretariat."
+  },
+  {
+   "id": "so-bettlach",
+   "name": "Römisch-katholische Kirchgemeinde Bettlach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Bettlach",
+    "Verwaltung",
+    "Kirchgasse 7",
+    "2544 Bettlach"
+   ],
+   "address_type": "verwaltung",
+   "website": "https://wandflue.ch/pastoralraum/kirchgemeinde-bettlach/",
+   "source": "https://wandflue.ch/kontakt/verwaltung/",
+   "bfs": [
+    2543
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Auftritt als Kirchgemeinde St. Klemenz (Pastoralraum Wandflue)."
+  },
+  {
+   "id": "so-flumenthal-hubersdorf",
+   "name": "Römisch-katholische Kirchgemeinde Flumenthal-Hubersdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Flumenthal-Hubersdorf",
+    "Verwaltung",
+    "Kirchgasse 32",
+    "4534 Flumenthal"
+   ],
+   "address_type": "verwaltung",
+   "email": "flumenthal@kath-solothurn.ch",
+   "website": "https://www.kath-solothurn.ch/flumenthal-hubersdorf",
+   "source": "https://www.kath-solothurn.ch/flumenthal-hubersdorf",
+   "bfs": [
+    2545,
+    2548
+   ],
+   "partial_bfs": [
+    2549,
+    2554
+   ],
+   "confidence": "high",
+   "note": "Verwaltung am Pfarrei-Standort Kirchgasse 32 (auch im Synode-Verzeichnis so angegeben)."
+  },
+  {
+   "id": "so-grenchen",
+   "name": "Römisch-katholische Kirchgemeinde Grenchen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Grenchen",
+    "Verwaltung",
+    "Schulstrasse 1",
+    "2540 Grenchen"
+   ],
+   "address_type": "verwaltung",
+   "email": "verwaltung.grenchen@wandflue.ch",
+   "website": "https://wandflue.ch/pastoralraum/kirchgemeinde-grenchen/",
+   "source": "https://wandflue.ch/kontakt/verwaltung/",
+   "bfs": [
+    2546
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Auftritt als Kirchgemeinde St. Eusebius (Pastoralraum Wandflue)."
+  },
+  {
+   "id": "so-guensberg-niederwil-balm",
+   "name": "Römisch-katholische Kirchgemeinde Günsberg-Niederwil-Balm",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Günsberg-Niederwil-Balm",
+    "c/o Pfarrei Günsberg-Niederwil-Balm",
+    "Kirchgasse 1",
+    "4524 Günsberg"
+   ],
+   "address_type": "pfarramt",
+   "email": "guensberg@kath-solothurn.ch",
+   "website": "https://www.kath-solothurn.ch/guensberg",
+   "source": "https://www.kath-solothurn.ch/quicklinks/kontakte",
+   "bfs": [
+    2541,
+    2547
+   ],
+   "partial_bfs": [
+    2549,
+    2554
+   ],
+   "confidence": "medium",
+   "note": "Für Präsidium und Finanzverwaltung sind nur Personenadressen publiziert; Postadresse ist das Pfarreisekretariat."
+  },
+  {
+   "id": "so-oberdorf",
+   "name": "Römisch-katholische Kirchgemeinde Oberdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Oberdorf",
+    "c/o Pfarreien OLLA",
+    "Stöcklimattstr. 22",
+    "4513 Langendorf"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt.olla@pastoralraum-mlb.ch",
+   "website": "https://pastoralraum-mlb.ch/kirchgemeinden/oberdorf/",
+   "source": "https://pastoralraum-mlb.ch/kirchgemeinden/oberdorf/",
+   "bfs": [
+    2550,
+    2551,
+    2553
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Eine Kirchgemeinde für die Pfarreien Oberdorf, Lommiswil und Langendorf («OLLA»); Postadresse ist das gemeinsame Pfarreisekretariat in Langendorf."
+  },
+  {
+   "id": "so-selzach",
+   "name": "Römisch-katholische Kirchgemeinde Selzach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Selzach",
+    "c/o Pfarrei Selzach",
+    "Dorfstr. 35",
+    "2545 Selzach"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt.selzach@pastoralraum-mlb.ch",
+   "website": "https://pastoralraum-mlb.ch/kirchgemeinden/selzach/",
+   "source": "https://pastoralraum-mlb.ch/kirchgemeinden/selzach/",
+   "bfs": [
+    2556
+   ],
+   "partial_bfs": [],
+   "confidence": "medium"
+  },
+  {
+   "id": "so-st-niklaus",
+   "name": "Römisch-katholische Kirchgemeinde St. Niklaus",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Niklaus",
+    "c/o Pfarrei St. Niklaus",
+    "St. Niklausstrasse 79",
+    "4500 Solothurn"
+   ],
+   "address_type": "pfarramt",
+   "email": "stniklaus@kath-solothurn.ch",
+   "website": "https://www.kath-solothurn.ch/st-niklaus",
+   "source": "https://www.kath-solothurn.ch/st-niklaus",
+   "bfs": [
+    2544,
+    2555
+   ],
+   "partial_bfs": [
+    2554,
+    2601
+   ],
+   "confidence": "medium",
+   "note": "Finanzverwaltung durch ein externes Treuhandbüro; Präsidium nur mit Privatadresse publiziert."
+  },
+  {
+   "id": "so-aeschi",
+   "name": "Römisch-katholische Kirchgemeinde Aeschi",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Aeschi",
+    "c/o Röm.-kath. Pfarramt",
+    "Luzernstrasse 14",
+    "4556 Aeschi"
+   ],
+   "address_type": "pfarramt",
+   "email": "aeschi@pawa-ost.ch",
+   "website": "https://annapfarrei.ch/kirchgemeinde/",
+   "source": "https://annapfarrei.ch/kirchgemeinderat-2/",
+   "bfs": [
+    2511,
+    2514,
+    2518,
+    2524
+   ],
+   "partial_bfs": [
+    2535
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "so-deitingen",
+   "name": "Römisch-katholische Kirchgemeinde Deitingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Deitingen",
+    "c/o Pfarramt",
+    "Derendingenstrasse 5",
+    "4543 Deitingen"
+   ],
+   "address_type": "pfarramt",
+   "email": "deitingen@pawa-ost.ch",
+   "website": "https://www.kirchgemeinde-deitingen.ch",
+   "source": "https://www.kirchgemeinde-deitingen.ch/impressum",
+   "bfs": [
+    2516
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Kontakt und Impressum nennen «Röm.-kath. Kirchgemeinde Deitingen, Pfarramt: Derendingenstrasse 5»."
+  },
+  {
+   "id": "so-derendingen",
+   "name": "Römisch-katholische Kirchgemeinde Derendingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Derendingen",
+    "c/o Sekretariat",
+    "Hauptstrasse 51",
+    "4552 Derendingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "derendingen@pawa-ost.ch",
+   "website": "https://www.herzjesu-derendingen.ch/",
+   "source": "https://www.herzjesu-derendingen.ch/",
+   "bfs": [
+    2517
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Sekretariat von Pfarrei und Kirchgemeinde Herz Jesu."
+  },
+  {
+   "id": "so-luterbach",
+   "name": "Römisch-katholische Kirchgemeinde Luterbach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Luterbach",
+    "c/o Pfarramt St. Josef",
+    "Hauptstrasse 2",
+    "4542 Luterbach"
+   ],
+   "address_type": "pfarramt",
+   "email": "praesidium@stjosef-luterbach.ch",
+   "website": "https://www.stjosef-luterbach.ch/gemeinde/kirchgemeinde/",
+   "source": "https://www.stjosef-luterbach.ch/",
+   "bfs": [
+    2527
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Auftritt als Röm.-kath. Kirchgemeinde St. Joseph Luterbach; keine eigene Kirchgemeinde-Postadresse publiziert."
+  },
+  {
+   "id": "so-subingen",
+   "name": "Römisch-katholische Kirchgemeinde Subingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Subingen",
+    "4553 Subingen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2532
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. Im Synode-Verzeichnis nur Privatadresse des Präsidiums; keine eigene Website gefunden (Pastoralraum Wasseramt Ost)."
+  },
+  {
+   "id": "so-wasseramt-west-bucheggberg",
+   "name": "Römisch-katholische Kirchgemeinde Wasseramt West - Bucheggberg",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Wasseramt West - Bucheggberg",
+    "Verwaltung",
+    "Grundmattstrasse 2",
+    "4566 Kriegstetten"
+   ],
+   "address_type": "verwaltung",
+   "email": "verwaltung@pastoralraum-wwb.ch",
+   "website": "https://www.pastoralraum-wwb.ch/page.cfm?id=88&abt=Kirchgemeinde",
+   "source": "https://www.pastoralraum-wwb.ch/page.cfm?id=206&abt=Kirchgemeinde&rub=Verwaltung",
+   "bfs": [
+    2445,
+    2455,
+    2457,
+    2461,
+    2463,
+    2464,
+    2465,
+    2513,
+    2519,
+    2523,
+    2525,
+    2526,
+    2528,
+    2530
+   ],
+   "partial_bfs": [
+    2535
+   ],
+   "confidence": "high",
+   "note": "Fusionierte Kirchgemeinde (u. a. Biberist, Gerlafingen, Kriegstetten, Lohn-Ammannsegg und Bucheggberg)."
+  },
+  {
+   "id": "so-zuchwil",
+   "name": "Römisch-katholische Kirchgemeinde Zuchwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Zuchwil",
+    "c/o Röm.-kath. Pfarramt",
+    "Hauptstrasse 32",
+    "4528 Zuchwil"
+   ],
+   "address_type": "pfarramt",
+   "email": "zuchwil@pawa-ost.ch",
+   "website": "https://www.pfarrei-zuchwil.ch/f%C3%BCr-sie-da/kirchgemeinde/",
+   "source": "https://www.pfarrei-zuchwil.ch/",
+   "bfs": [
+    2534
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Die Verwaltung besorgt ein externes Treuhandbüro in Zuchwil; Postadresse ist das Pfarramt."
+  },
+  {
+   "id": "so-aedermannsdorf",
+   "name": "Römisch-katholische Kirchgemeinde Aedermannsdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Aedermannsdorf"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2421
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-balsthal",
+   "name": "Römisch-katholische Kirchgemeinde Balsthal",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Balsthal"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2422
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-herbetswil",
+   "name": "Römisch-katholische Kirchgemeinde Herbetswil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Herbetswil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2424
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-holderbank",
+   "name": "Römisch-katholische Kirchgemeinde Holderbank",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Holderbank"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2425
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-laupersdorf",
+   "name": "Römisch-katholische Kirchgemeinde Laupersdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Laupersdorf"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2426
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-matzendorf",
+   "name": "Römisch-katholische Kirchgemeinde Matzendorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Matzendorf"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2427
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-muemliswil",
+   "name": "Römisch-katholische Kirchgemeinde Mümliswil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Mümliswil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [],
+   "partial_bfs": [
+    2428
+   ],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-ramiswil",
+   "name": "Römisch-katholische Kirchgemeinde Ramiswil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Ramiswil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [],
+   "partial_bfs": [
+    2428
+   ],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-welschenrohr-gaensbrunnen",
+   "name": "Römisch-katholische Kirchgemeinde Welschenrohr-Gänsbrunnen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Welschenrohr-Gänsbrunnen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2430
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-egerkingen",
+   "name": "Römisch-katholische Kirchgemeinde Egerkingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Egerkingen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2401
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-haerkingen",
+   "name": "Römisch-katholische Kirchgemeinde Härkingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Härkingen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2402
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-kestenholz",
+   "name": "Römisch-katholische Kirchgemeinde Kestenholz",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Kestenholz"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2403
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-neuendorf",
+   "name": "Römisch-katholische Kirchgemeinde Neuendorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Neuendorf"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2404
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-niederbuchsiten",
+   "name": "Römisch-katholische Kirchgemeinde Niederbuchsiten",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Niederbuchsiten"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2405
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-oberbuchsiten",
+   "name": "Römisch-katholische Kirchgemeinde Oberbuchsiten",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Oberbuchsiten"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2406
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-oensingen",
+   "name": "Römisch-katholische Kirchgemeinde Oensingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Oensingen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2407
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-wolfwil",
+   "name": "Römisch-katholische Kirchgemeinde Wolfwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Wolfwil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2408
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-dulliken",
+   "name": "Römisch-katholische Kirchgemeinde Dulliken",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Dulliken"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2573
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-fulenbach",
+   "name": "Römisch-katholische Kirchgemeinde Fulenbach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Fulenbach"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2575
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-gretzenbach-daeniken",
+   "name": "Römisch-katholische Kirchgemeinde Gretzenbach-Däniken",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Gretzenbach-Däniken"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2572,
+    2576
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-gunzgen",
+   "name": "Römisch-katholische Kirchgemeinde Gunzgen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Gunzgen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2578
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-haegendorf-rickenbach",
+   "name": "Römisch-katholische Kirchgemeinde Hägendorf-Rickenbach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Hägendorf-Rickenbach"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2579,
+    2582
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-kappel-boningen",
+   "name": "Römisch-katholische Kirchgemeinde Kappel-Boningen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Kappel-Boningen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2571,
+    2580
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-olten-starrkirch-wil",
+   "name": "Römisch-katholische Kirchgemeinde Olten/Starrkirch-Wil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Olten/Starrkirch-Wil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2581,
+    2584
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-schoenenwerd-eppenberg-woeschnau",
+   "name": "Römisch-katholische Kirchgemeinde Schönenwerd-Eppenberg-Wöschnau",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Schönenwerd-Eppenberg-Wöschnau"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2574,
+    2583
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-walterswil-rothacker",
+   "name": "Römisch-katholische Kirchgemeinde Walterswil-Rothacker",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Walterswil-Rothacker"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2585
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-wangen-bei-olten",
+   "name": "Römisch-katholische Kirchgemeinde Wangen bei Olten",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Wangen bei Olten"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2586
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-erlinsbach",
+   "name": "Römisch-katholische Kirchgemeinde Erlinsbach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Erlinsbach"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2503
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-ifenthal",
+   "name": "Römisch-katholische Kirchgemeinde Ifenthal",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Ifenthal"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2491
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-kienberg",
+   "name": "Römisch-katholische Kirchgemeinde Kienberg",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Kienberg"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2492
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-lostorf",
+   "name": "Römisch-katholische Kirchgemeinde Lostorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Lostorf"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2493
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-niedergoesgen",
+   "name": "Römisch-katholische Kirchgemeinde Niedergösgen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Niedergösgen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2495
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-obergoesgen",
+   "name": "Römisch-katholische Kirchgemeinde Obergösgen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Obergösgen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2497
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-stuesslingen",
+   "name": "Römisch-katholische Kirchgemeinde Stüsslingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Stüsslingen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2499
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-trimbach-wisen",
+   "name": "Römisch-katholische Kirchgemeinde Trimbach-Wisen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Trimbach-Wisen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2500,
+    2502
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-winznau",
+   "name": "Römisch-katholische Kirchgemeinde Winznau",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Winznau"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2501
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-bueren",
+   "name": "Römisch-katholische Kirchgemeinde Büren",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Büren"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2472
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-dornach",
+   "name": "Römisch-katholische Kirchgemeinde Dornach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Dornach"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2473
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-gempen",
+   "name": "Römisch-katholische Kirchgemeinde Gempen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Gempen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2474
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-hochwald",
+   "name": "Römisch-katholische Kirchgemeinde Hochwald",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Hochwald"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2475
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-hofstetten-flueh",
+   "name": "Römisch-katholische Kirchgemeinde Hofstetten-Flüh",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Hofstetten-Flüh"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2476
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-metzerlen-mariastein",
+   "name": "Römisch-katholische Kirchgemeinde Metzerlen-Mariastein",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Metzerlen-Mariastein"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2477
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-rodersdorf",
+   "name": "Römisch-katholische Kirchgemeinde Rodersdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Rodersdorf"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2479
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-seewen",
+   "name": "Römisch-katholische Kirchgemeinde Seewen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Seewen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2480
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-st-pantaleon-nuglar",
+   "name": "Römisch-katholische Kirchgemeinde St. Pantaleon-Nuglar",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Pantaleon-Nuglar"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2478
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-witterswil",
+   "name": "Römisch-katholische Kirchgemeinde Witterswil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Witterswil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2471,
+    2481
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-baerschwil",
+   "name": "Römisch-katholische Kirchgemeinde Bärschwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Bärschwil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2611
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-beinwil",
+   "name": "Römisch-katholische Kirchgemeinde Beinwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Beinwil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2612
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-breitenbach-fehren-schindelboden",
+   "name": "Römisch-katholische Kirchgemeinde Breitenbach-Fehren-Schindelboden",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Breitenbach-Fehren-Schindelboden"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2613,
+    2616
+   ],
+   "partial_bfs": [
+    2618
+   ],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-buesserach",
+   "name": "Römisch-katholische Kirchgemeinde Büsserach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Büsserach"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2614
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-erschwil",
+   "name": "Römisch-katholische Kirchgemeinde Erschwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Erschwil"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2615
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-grindel",
+   "name": "Römisch-katholische Kirchgemeinde Grindel",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Grindel"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2617
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-himmelried",
+   "name": "Römisch-katholische Kirchgemeinde Himmelried",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Himmelried"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [],
+   "partial_bfs": [
+    2618
+   ],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-kleinluetzel",
+   "name": "Römisch-katholische Kirchgemeinde Kleinlützel",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Kleinlützel"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2619
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-meltingen",
+   "name": "Römisch-katholische Kirchgemeinde Meltingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Meltingen"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2620
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  },
+  {
+   "id": "so-oberkirch",
+   "name": "Römisch-katholische Kirchgemeinde Oberkirch",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Oberkirch"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.synode-so.ch/verzeichnis-kirchgemeinden.html",
+   "bfs": [
+    2621,
+    2622
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Postadresse auf der Website prüfen. (Noch nicht recherchiert)"
+  }
+ ],
+ "split": [
+  {
+   "bfs": 2601,
+   "how": "Das Steingrubenquartier gehört zur Kirchgemeinde St. Niklaus, das übrige Stadtgebiet zur Kirchgemeinde Solothurn (BGS 131.3 § 4).",
+   "finder": null,
+   "geodata": null,
+   "ortsteile": {
+    "Steingrubenquartier": "so-st-niklaus",
+    "Solothurn (übriges Stadtgebiet)": "so-solothurn"
+   }
+  },
+  {
+   "bfs": 2549,
+   "how": "Die Ortsteile vorderer und hinterer Mattenhof gehören zur Kirchgemeinde Günsberg-Niederwil-Balm, das übrige Gemeindegebiet zu Flumenthal-Hubersdorf (BGS 131.3 § 4).",
+   "finder": null,
+   "geodata": null,
+   "ortsteile": {
+    "vorderer Mattenhof": "so-guensberg-niederwil-balm",
+    "hinterer Mattenhof": "so-guensberg-niederwil-balm",
+    "Kammersrohr (übriges Gemeindegebiet)": "so-flumenthal-hubersdorf"
+   }
+  },
+  {
+   "bfs": 2554,
+   "how": "Ortsteil Kellenmatt → Flumenthal-Hubersdorf; Ortsteil Niederwil → Günsberg-Niederwil-Balm; übriges Gemeindegebiet (Riedholz) → St. Niklaus (BGS 131.3 § 4).",
+   "finder": null,
+   "geodata": null,
+   "ortsteile": {
+    "Kellenmatt": "so-flumenthal-hubersdorf",
+    "Niederwil": "so-guensberg-niederwil-balm",
+    "Riedholz (übriges Gemeindegebiet)": "so-st-niklaus"
+   }
+  },
+  {
+   "bfs": 2535,
+   "how": "Ortsteil Winistorf → Kirchgemeinde Aeschi; Ortsteile Heinrichswil und Hersiwil → Wasseramt West - Bucheggberg (BGS 131.3 § 4).",
+   "finder": null,
+   "geodata": null,
+   "ortsteile": {
+    "Winistorf": "so-aeschi",
+    "Heinrichswil": "so-wasseramt-west-bucheggberg",
+    "Hersiwil": "so-wasseramt-west-bucheggberg"
+   }
+  },
+  {
+   "bfs": 2428,
+   "how": "Ortsteil Mümliswil → Kirchgemeinde Mümliswil; Ortsteil Ramiswil → Kirchgemeinde Ramiswil (BGS 131.3 § 4).",
+   "finder": null,
+   "geodata": null,
+   "ortsteile": {
+    "Mümliswil": "so-muemliswil",
+    "Ramiswil": "so-ramiswil"
+   }
+  },
+  {
+   "bfs": 2618,
+   "how": "Ortsteil Schindelboden → Kirchgemeinde Breitenbach-Fehren-Schindelboden; übriges Gemeindegebiet → Kirchgemeinde Himmelried (BGS 131.3 § 4).",
+   "finder": null,
+   "geodata": null,
+   "ortsteile": {
+    "Schindelboden": "so-breitenbach-fehren-schindelboden",
+    "Himmelried (übriges Gemeindegebiet)": "so-himmelried"
+   }
+  }
+ ],
+ "unmapped_bfs": [],
+ "issues": [
+  "Zuordnung Gemeinde → Kirchgemeinde nach BGS 131.3 § 4 (Fassung in Kraft seit 1.1.2026); 72 Kirchgemeinden, deckungsgleich mit dem Verzeichnis der Synode.",
+  "Das Synode-Verzeichnis nennt fast nur Privatadressen der Präsidien; diese wurden nicht übernommen. Wo keine Kirchgemeinde-Adresse auffindbar war, steht nur «PLZ Ort» (address_type praesidium, confidence low).",
+  "Teilgebiete (Steingrubenquartier, Mattenhof, Kellenmatt, Niederwil, Winistorf/Heinrichswil/Hersiwil, Ramiswil, Schindelboden) sind nur textlich umschrieben; keine öffentlichen Geodaten der Kirchgemeindegrenzen gefunden."
+ ]
+}

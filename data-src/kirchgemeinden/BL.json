@@ -1,0 +1,767 @@
+{
+ "canton": "BL",
+ "body": {
+  "name": "Römisch-katholische Landeskirche des Kantons Basel-Landschaft",
+  "short": "Röm.-kath. Landeskirche BL",
+  "website": "https://www.kathbl.ch",
+  "postal": [
+   "Römisch-katholische Landeskirche des Kantons Basel-Landschaft",
+   "Munzachstrasse 2",
+   "Postfach",
+   "4410 Liestal"
+  ]
+ },
+ "austritt": {
+  "recipient": "Präsidium der Wohnsitz-Kirchgemeinde",
+  "recipient_level": "kirchgemeinde",
+  "form": "schriftliche Erklärung des Austritts oder der Nichtzugehörigkeit, von jeder austretenden Person ab 16 Jahren persönlich unterschrieben",
+  "beglaubigung": false,
+  "beglaubigung_note": "",
+  "wirkung": "Die Kirchensteuer ist bis und mit Vorjahr des Austritts zu entrichten (Verfassung RKLK BL § 32 Abs. 3).",
+  "notes": "Die Erklärung kann die eigenen Kinder unter 16 Jahren ausdrücklich einschliessen; Ehegatten und Kinder ab 16 müssen selbst erklären (RRB SGS 191.11 § 3, Handbuch Kirchgemeinderat 2026 Kap. 5.3.2). Der Kirchgemeinderat bestätigt den Austritt schriftlich.",
+  "source": "https://bl.clex.ch/app/de/texts_of_law/191.11"
+ },
+ "finder": "https://www.kathbl.ch/kirchgemeinden/",
+ "stand": "2026-10-28",
+ "sources": [
+  "https://bl.clex.ch/app/de/texts_of_law/191.11",
+  "https://www.kathbl.ch/sites/default/assets/File/Organisation/191%20Kirchengesetz%20-%20Stand%201_1_20.pdf",
+  "https://www.kathbl.ch/sites/default/assets/File/Rechtsgrundlagen/Verfassung%20der%20R%C3%B6m_-kath_%20Landeskirche%20BL%20vom%2010_%20Februar%201976%20(Stand%201_%20Januar%202015)(1).pdf",
+  "https://www.kathbl.ch/sites/default/assets/File/Rechtsgrundlagen/241128%20VO%20Gliederung%20der%20Landeskirche%20in%20Kirchgemeinden.pdf",
+  "https://www.kathbl.ch/sites/default/assets/File/Handb%C3%BCcher/Handbuch_Kirchgemeinderat_2026_Digital.pdf",
+  "https://www.kathbl.ch/kirchgemeinden/",
+  "https://www.kathbl.ch/kontakt/"
+ ],
+ "kirchgemeinden": [
+  {
+   "id": "bl-aesch",
+   "name": "Römisch-katholische Kirchgemeinde Aesch",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Aesch",
+    "Präsidium",
+    "Verwaltung Kirchgemeinde Aesch",
+    "Brüelweg 2",
+    "4147 Aesch BL"
+   ],
+   "address_type": "verwaltung",
+   "email": "aesch@rkk-angenstein.ch",
+   "website": "https://www.rkk-angenstein.ch/",
+   "source": "https://www.rkk-angenstein.ch/fuer-sie-da/verwaltung-kirchgemeinden-aesch-duggingen-und-pfeffingen",
+   "bfs": [
+    2761
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Adresse auch auf https://www.kathbl.ch/kirchgemeinden/aesch1/."
+  },
+  {
+   "id": "bl-allschwil",
+   "name": "Römisch-katholische Kirchgemeinde Allschwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Allschwil",
+    "Präsidium",
+    "c/o Pastoralraum Allschwil-Schönenbuch",
+    "Baslerstrasse 49",
+    "4123 Allschwil"
+   ],
+   "address_type": "sekretariat",
+   "email": "info@rkk-as.ch",
+   "website": "https://rkk-as.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/allschwil1/",
+   "bfs": [
+    2762
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Sekretariat des Pastoralraums, auch Kontakt des Kirchgemeinderats (rkk-as.ch/kontakt)."
+  },
+  {
+   "id": "bl-arlesheim",
+   "name": "Römisch-katholische Kirchgemeinde Arlesheim",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Arlesheim",
+    "Präsidium",
+    "Verwaltung",
+    "Domplatz 10",
+    "4144 Arlesheim"
+   ],
+   "address_type": "verwaltung",
+   "email": "sekretariat@rkk-arlesheim.ch",
+   "website": "https://rkk-arlesheim.ch/",
+   "source": "https://rkk-arlesheim.ch/",
+   "bfs": [
+    2763
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Sekretariat und Kirchgemeindeverwaltung an derselben Adresse."
+  },
+  {
+   "id": "bl-binningen-bottmingen",
+   "name": "Römisch-katholische Kirchgemeinde Binningen-Bottmingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Binningen-Bottmingen",
+    "Präsidium",
+    "Sekretariat / Verwaltung",
+    "Margarethenstrasse 32",
+    "4102 Binningen"
+   ],
+   "address_type": "verwaltung",
+   "email": "info@rkk-bibo.ch",
+   "website": "https://rkk-bibo.ch/",
+   "source": "https://rkk-bibo.ch/das-sind-wir/mitarbeitende/sekretariat-verwaltung/",
+   "bfs": [
+    2765,
+    2767
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024."
+  },
+  {
+   "id": "bl-birsfelden",
+   "name": "Römisch-katholische Kirchgemeinde Birsfelden",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Birsfelden",
+    "Präsidium",
+    "c/o Pfarramt",
+    "Hardstrasse 28",
+    "4127 Birsfelden"
+   ],
+   "address_type": "pfarramt",
+   "email": "info@kathki-birsfelden.ch",
+   "website": "https://kathki-birsfelden.ch/",
+   "source": "https://kathki-birsfelden.ch/was-tun-wenn/kirchenaustritt/",
+   "bfs": [
+    2766
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Die Kirchgemeinde nennt für den Austritt ausdrücklich diese Adresse (Brief mit Unterschrift an das Pfarramt); der Kirchgemeinderat nimmt den Austritt zur Kenntnis."
+  },
+  {
+   "id": "bl-blauen",
+   "name": "Römisch-katholische Kirchgemeinde Blauen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Blauen",
+    "Präsidium",
+    "c/o Pastoralraum am Blauen, Sekretariat",
+    "Kirchweg 4",
+    "4222 Zwingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "sekretariat@kircheamblauen.ch",
+   "website": "https://www.kircheamblauen.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/blauen/",
+   "bfs": [
+    2781
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Gemeinsames Sekretariat des Pastoralraums am Blauen (Zweckverband der Kirchgemeinden am Blauen); die kathbl-Seite der Kirchgemeinde nennt diese Kontaktadresse."
+  },
+  {
+   "id": "bl-brislach",
+   "name": "Römisch-katholische Kirchgemeinde Brislach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Brislach",
+    "Präsidium",
+    "c/o Röm.-kath. Pfarramt, Sekretariat",
+    "Breitenbachstrasse 10",
+    "4225 Brislach"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt.brislach@bluewin.ch",
+   "website": "https://www.rkkbrislach.ch/",
+   "source": "https://www.prll.ch/pfarreien",
+   "bfs": [
+    2782
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Postadresse des Sekretariats laut rkkbrislach.ch/wir-ueber-uns/sekretariat; keine eigene Kirchgemeindeadresse publiziert."
+  },
+  {
+   "id": "bl-burg",
+   "name": "Römisch-katholische Kirchgemeinde Burg",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Burg",
+    "Präsidium",
+    "c/o Pfarreisekretariat Burg i. L./Metzerlen-Mariastein",
+    "Rotbergstrasse 4",
+    "4116 Metzerlen"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarreimetzerlen@bluewin.ch",
+   "website": "http://rkk-burg.ch/",
+   "source": "https://rkk-burg.ch/kontakt/",
+   "bfs": [
+    2783
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Kirchgemeinde Burg im Leimental (BL); Pfarreisekretariat liegt in Metzerlen SO (kathbl: «Pfarreisekretariat der Kirchgemeinde Burg i. L. / Metzerlen-Mariastein»). Präsidium und Verwaltung sind nur mit Personenadressen publiziert."
+  },
+  {
+   "id": "bl-dittingen",
+   "name": "Römisch-katholische Kirchgemeinde Dittingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Dittingen",
+    "Präsidium",
+    "c/o Pastoralraum am Blauen, Sekretariat",
+    "Kirchweg 4",
+    "4222 Zwingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "sekretariat@kircheamblauen.ch",
+   "website": "https://www.kircheamblauen.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/dittingen/",
+   "bfs": [
+    2784
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Gemeinsames Sekretariat des Pastoralraums am Blauen (Zweckverband der Kirchgemeinden am Blauen); die kathbl-Seite der Kirchgemeinde nennt diese Kontaktadresse."
+  },
+  {
+   "id": "bl-duggingen",
+   "name": "Römisch-katholische Kirchgemeinde Duggingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Duggingen",
+    "Präsidium",
+    "Verwaltung Kirchgemeinde Duggingen",
+    "Allmendgasse 2",
+    "4148 Pfeffingen"
+   ],
+   "address_type": "verwaltung",
+   "email": "duggingen@rkk-angenstein.ch",
+   "website": "https://www.rkk-angenstein.ch/",
+   "source": "https://www.rkk-angenstein.ch/fuer-sie-da/verwaltung-kirchgemeinden-aesch-duggingen-und-pfeffingen",
+   "bfs": [
+    2785
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Verwaltung sitzt in Pfeffingen; kathbl nennt als Kontakt das Sekretariat des Seelsorgeverbands Angenstein, Brüelweg 2, 4147 Aesch."
+  },
+  {
+   "id": "bl-ettingen",
+   "name": "Römisch-katholische Kirchgemeinde Ettingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Ettingen",
+    "Präsidium",
+    "Kirchgasse 17",
+    "4107 Ettingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "info@rkk-ettingen.ch",
+   "website": "https://www.rkk-ettingen.ch/",
+   "source": "https://www.rkk-ettingen.ch/kontakt/sekretariat-und-dienste.html",
+   "bfs": [
+    2768
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Adresse wird als Adresse der Röm.-kath. Kirchgemeinde Ettingen publiziert (Sekretariat)."
+  },
+  {
+   "id": "bl-frenkendorf-fuellinsdorf",
+   "name": "Römisch-katholische Kirchgemeinde Frenkendorf-Füllinsdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Frenkendorf-Füllinsdorf",
+    "Präsidium",
+    "Sekretariat",
+    "Mühlemattstrasse 5",
+    "4414 Füllinsdorf"
+   ],
+   "address_type": "sekretariat",
+   "email": "info@pfarrei-dreikoenig.ch",
+   "website": "https://pfarrei-dreikoenig.ch/",
+   "source": "https://pfarrei-dreikoenig.ch/sekretariat/",
+   "bfs": [
+    2824,
+    2825
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Sekretariat der Pfarrei Dreikönig; das Präsidium ist über dieselbe Telefonnummer erreichbar (pfarrei-dreikoenig.ch/kirchgemeinderat)."
+  },
+  {
+   "id": "bl-gelterkinden",
+   "name": "Römisch-katholische Kirchgemeinde Gelterkinden",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Gelterkinden",
+    "Präsidium",
+    "c/o Pfarreisekretariat Maria Mittlerin",
+    "Brühlgasse 7",
+    "4460 Gelterkinden"
+   ],
+   "address_type": "pfarramt",
+   "email": "sekretariat@rkk-gelterkinden.ch",
+   "website": "https://www.ssv-ergolz.ch/rkk-gelterkinden/",
+   "source": "https://www.ssv-ergolz.ch/rkk-gelterkinden/kirchgemeinde/",
+   "bfs": [
+    2841,
+    2844,
+    2846,
+    2848,
+    2851,
+    2853,
+    2855,
+    2856,
+    2857,
+    2858,
+    2860,
+    2862,
+    2865,
+    2868
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Umfasst 14 Einwohnergemeinden. Keine eigene Kirchgemeindeadresse publiziert; Seelsorgeverband Ergolz wird per 31.12.2026 aufgelöst."
+  },
+  {
+   "id": "bl-grellingen",
+   "name": "Römisch-katholische Kirchgemeinde Grellingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Grellingen",
+    "Präsidium",
+    "c/o Pastoralraum am Blauen, Sekretariat",
+    "Kirchweg 4",
+    "4222 Zwingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "sekretariat@kircheamblauen.ch",
+   "website": "https://www.kircheamblauen.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/grellingen/",
+   "bfs": [
+    2786
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Gemeinsames Sekretariat des Pastoralraums am Blauen (Zweckverband der Kirchgemeinden am Blauen); die kathbl-Seite der Kirchgemeinde nennt diese Kontaktadresse."
+  },
+  {
+   "id": "bl-laufen",
+   "name": "Römisch-katholische Kirchgemeinde Laufen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Laufen",
+    "Präsidium",
+    "Finanzverwaltung",
+    "Röschenzstrasse 39",
+    "4242 Laufen"
+   ],
+   "address_type": "verwaltung",
+   "email": "kontakt@pfarrei-laufen.ch",
+   "website": "https://www.pfarrei-laufen.ch/",
+   "source": "https://www.pfarrei-laufen.ch/kirchgemeinde",
+   "bfs": [
+    2787
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Die Finanzverwaltung bearbeitet laut pfarrei-laufen.ch/kirchgemeinderat die Kircheneintritte und -austritte."
+  },
+  {
+   "id": "bl-liesberg",
+   "name": "Römisch-katholische Kirchgemeinde Liesberg",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Liesberg",
+    "Präsidium",
+    "c/o Röm.-kath. Pfarramt, Sekretariat",
+    "Bäumliweg 6",
+    "4254 Liesberg Dorf"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt.liesberg@bluewin.ch",
+   "website": "https://www.prll.ch/",
+   "source": "https://www.prll.ch/pfarreien",
+   "bfs": [
+    2788
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Keine eigene Kirchgemeindeadresse publiziert; kathbl nennt dieselbe Adresse."
+  },
+  {
+   "id": "bl-liestal",
+   "name": "Römisch-katholische Kirchgemeinde Liestal",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Liestal",
+    "Präsidium",
+    "c/o Pfarrei Bruder Klaus",
+    "Rheinstrasse 20b",
+    "4410 Liestal"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt@rkk-liestal.ch",
+   "website": "https://www.rkk-liestal.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/liestal/",
+   "bfs": [
+    2821,
+    2823,
+    2826,
+    2827,
+    2828,
+    2829,
+    2830,
+    2832,
+    2833,
+    2834
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Umfasst 10 Einwohnergemeinden. Hausnummer uneinheitlich: kathbl, Impressum und Standortseite 20b, Fusszeile/Kontakt von rkk-liestal.ch 20c. Kirchgemeindeverwaltung ohne eigene Postadresse publiziert."
+  },
+  {
+   "id": "bl-muenchenstein",
+   "name": "Römisch-katholische Kirchgemeinde Münchenstein",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Münchenstein",
+    "Präsidium",
+    "Loogstrasse 22",
+    "4142 Münchenstein"
+   ],
+   "address_type": "sekretariat",
+   "email": "pfarramt@pfarrei-muenchenstein.ch",
+   "website": "https://www.pfarrei-muenchenstein.ch/",
+   "source": "https://www.pfarrei-muenchenstein.ch/impressum",
+   "bfs": [
+    2769
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Adresse laut Impressum der Röm.-kath. Kirchgemeinde Münchenstein (zugleich Pfarramt)."
+  },
+  {
+   "id": "bl-muttenz",
+   "name": "Römisch-katholische Kirchgemeinde Muttenz",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Muttenz",
+    "Präsidium",
+    "c/o Röm.-kath. Pfarramt",
+    "Tramstrasse 55",
+    "4132 Muttenz"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt@rkk-muttenz.ch",
+   "website": "https://rkk-muttenz.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/muttenz/",
+   "bfs": [
+    2770
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Keine eigene Kirchgemeindeadresse publiziert; Sekretariat der Pfarrei Johannes Maria Vianney."
+  },
+  {
+   "id": "bl-nenzlingen",
+   "name": "Römisch-katholische Kirchgemeinde Nenzlingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Nenzlingen",
+    "Präsidium",
+    "c/o Pastoralraum am Blauen, Sekretariat",
+    "Kirchweg 4",
+    "4222 Zwingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "sekretariat@kircheamblauen.ch",
+   "website": "https://www.kircheamblauen.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/nenzlingen/",
+   "bfs": [
+    2789
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Gemeinsames Sekretariat des Pastoralraums am Blauen (Zweckverband der Kirchgemeinden am Blauen); die kathbl-Seite der Kirchgemeinde nennt diese Kontaktadresse."
+  },
+  {
+   "id": "bl-oberwil",
+   "name": "Römisch-katholische Kirchgemeinde Oberwil",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Oberwil",
+    "Präsidium",
+    "Bielstrasse 1",
+    "4104 Oberwil BL"
+   ],
+   "address_type": "sekretariat",
+   "email": "pfarramt@rkk-oberwil.ch",
+   "website": "https://www.rkk-oberwil.ch/",
+   "source": "https://www.rkk-oberwil.ch/ueber-uns/kontakt/",
+   "bfs": [
+    2771
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Pfarramt und Sekretariat, publiziert als «Röm.-kath. Kirchgemeinde Oberwil»; das Präsidium ist ebenfalls mit dieser Adresse aufgeführt."
+  },
+  {
+   "id": "bl-pfeffingen",
+   "name": "Römisch-katholische Kirchgemeinde Pfeffingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Pfeffingen",
+    "Präsidium",
+    "Verwaltung Kirchgemeinde Pfeffingen",
+    "Allmendgasse 2",
+    "4148 Pfeffingen"
+   ],
+   "address_type": "verwaltung",
+   "email": "pfeffingen@rkk-angenstein.ch",
+   "website": "https://www.rkk-angenstein.ch/",
+   "source": "https://www.rkk-angenstein.ch/fuer-sie-da/verwaltung-kirchgemeinden-aesch-duggingen-und-pfeffingen",
+   "bfs": [
+    2772
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Adresse auch auf https://www.kathbl.ch/kirchgemeinden/pfeffingen/."
+  },
+  {
+   "id": "bl-pratteln-augst",
+   "name": "Römisch-katholische Kirchgemeinde Pratteln-Augst",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Pratteln-Augst",
+    "Präsidium",
+    "Muttenzerstrasse 15",
+    "4133 Pratteln"
+   ],
+   "address_type": "sekretariat",
+   "email": "info@rkk-pratteln-augst.ch",
+   "website": "https://rkk-pratteln-augst.ch/",
+   "source": "https://rkk-pratteln-augst.ch/impressum/",
+   "bfs": [
+    2831,
+    2822
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Gemeinsame Adresse von Pfarrei St. Anton und Kath. Kirchgemeinde Pratteln-Augst (Impressum)."
+  },
+  {
+   "id": "bl-reinach",
+   "name": "Römisch-katholische Kirchgemeinde Reinach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Reinach",
+    "Präsidium",
+    "c/o Röm.-kath. Pfarramt St. Nikolaus",
+    "Kirchgasse 7A",
+    "4153 Reinach BL"
+   ],
+   "address_type": "pfarramt",
+   "email": "pfarramt@rkk-reinach.ch",
+   "website": "https://www.rkk-reinach.ch/",
+   "source": "https://www.rkk-reinach.ch/kontakt-pfarramt-notfall/",
+   "bfs": [
+    2773
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Keine eigene Kirchgemeindeadresse publiziert; kathbl nennt dieselbe Adresse."
+  },
+  {
+   "id": "bl-roeschenz",
+   "name": "Römisch-katholische Kirchgemeinde Röschenz",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Röschenz",
+    "Präsidium",
+    "c/o Pfarrhaus, Sekretariat",
+    "Pfarrweg 6",
+    "4244 Röschenz"
+   ],
+   "address_type": "pfarramt",
+   "email": "kircheroeschenz@bluewin.ch",
+   "website": "https://www.kircheroeschenz.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/roeschenz/",
+   "bfs": [
+    2791
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Strasse nur auf kathbl publiziert; die Website der Kirchgemeinde nennt das Sekretariat im Pfarrhaus ohne Strasse."
+  },
+  {
+   "id": "bl-roggenburg",
+   "name": "Römisch-katholische Kirchgemeinde Roggenburg-Ederswiler",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Roggenburg-Ederswiler",
+    "Präsidium",
+    "Kirchgasse 12",
+    "2814 Roggenburg"
+   ],
+   "address_type": "sekretariat",
+   "email": "st.martin.roggenburg-ederswiler@bluewin.ch",
+   "website": "https://www.prll.ch/",
+   "source": "https://www.prll.ch/pfarreien",
+   "bfs": [
+    2790
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Die VO Gliederung nennt die Kirchgemeinde «Roggenburg»; kathbl und Pastoralraum nennen sie «Roggenburg-Ederswiler». Sie umfasst als einzige BL-Kirchgemeinde auch eine Einwohnergemeinde ausserhalb des Kantons (Ederswiler JU, nicht in dieser Liste). Pfarreisekretariat: siehe Liesberg."
+  },
+  {
+   "id": "bl-schoenenbuch",
+   "name": "Römisch-katholische Kirchgemeinde Schönenbuch",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Schönenbuch",
+    "Präsidium",
+    "c/o Pastoralraum Allschwil-Schönenbuch",
+    "Baslerstrasse 49",
+    "4123 Allschwil"
+   ],
+   "address_type": "sekretariat",
+   "email": "info@rkk-as.ch",
+   "website": "https://rkk-as.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/schoenenbuch/",
+   "bfs": [
+    2774
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Sekretariat des Pastoralraums in Allschwil; eigene Kirchgemeinde Schönenbuch (rkk-as.ch/organisation/kirchgemeinden)."
+  },
+  {
+   "id": "bl-sissach",
+   "name": "Römisch-katholische Kirchgemeinde Sissach",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Sissach",
+    "Präsidium",
+    "c/o Pfarreisekretariat St. Josef",
+    "Felsenstrasse 16",
+    "4450 Sissach"
+   ],
+   "address_type": "pfarramt",
+   "email": "sekretariat@rkk-sissach.ch",
+   "website": "https://www.ssv-ergolz.ch/rkk-sissach/",
+   "source": "https://www.ssv-ergolz.ch/rkk-sissach/kirchgemeinde/",
+   "bfs": [
+    2842,
+    2843,
+    2884,
+    2845,
+    2885,
+    2847,
+    2849,
+    2850,
+    2852,
+    2854,
+    2859,
+    2861,
+    2863,
+    2864,
+    2866,
+    2867,
+    2869
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Umfasst 17 Einwohnergemeinden. Keine eigene Kirchgemeindeadresse publiziert; Seelsorgeverband Ergolz wird per 31.12.2026 aufgelöst."
+  },
+  {
+   "id": "bl-therwil-biel-benken",
+   "name": "Römisch-katholische Kirchgemeinde Therwil/Biel-Benken",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Therwil/Biel-Benken",
+    "Präsidium",
+    "c/o Pfarreisekretariat St. Stephan",
+    "Hinterkirchweg 31",
+    "4106 Therwil"
+   ],
+   "address_type": "pfarramt",
+   "email": "sekretariat@rkk-therwil.ch",
+   "website": "https://www.rkk-therwil.ch/",
+   "source": "https://www.rkk-therwil.ch/home/kontakt",
+   "bfs": [
+    2775,
+    2764
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Keine eigene Kirchgemeindeadresse publiziert; kathbl nennt dieselbe Adresse."
+  },
+  {
+   "id": "bl-wahlen",
+   "name": "Römisch-katholische Kirchgemeinde Wahlen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Wahlen",
+    "Präsidium",
+    "Breitenbachweg 7",
+    "4246 Wahlen"
+   ],
+   "address_type": "sekretariat",
+   "email": "pfarramtwahlen@gmx.ch",
+   "website": "https://www.prll.ch/",
+   "source": "http://www.gemeinde-wahlen.ch/de/verwaltungpolitik/politik/behoerden/welcome.php?amt_id=3115",
+   "bfs": [
+    2792
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Die Einwohnergemeinde Wahlen publiziert diese Adresse als «Röm.-kath. Kirchgemeinde» (zugleich Pfarramt/Sekretariat laut prll.ch)."
+  },
+  {
+   "id": "bl-waldenburgertal",
+   "name": "Römisch-katholische Kirchgemeinde Bruder Klaus Waldenburgertal",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Bruder Klaus Waldenburgertal",
+    "Präsidium",
+    "c/o Pfarreisekretariat",
+    "Futtersteigweg 1a",
+    "4436 Oberdorf BL"
+   ],
+   "address_type": "sekretariat",
+   "email": "sekretariat@rkk-oberdorf.ch",
+   "website": "https://www.rkk-oberdorf.ch/",
+   "source": "https://www.rkk-oberdorf.ch/was-tun-wenn/22-kirchenaustritt",
+   "bfs": [
+    2881,
+    2882,
+    2883,
+    2886,
+    2887,
+    2888,
+    2889,
+    2890,
+    2891,
+    2892,
+    2893,
+    2894,
+    2895
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Sitz in Oberdorf, umfasst 13 Einwohnergemeinden. Die Kirchgemeinde nennt für den Austritt ausdrücklich das Pfarreisekretariat (sie empfiehlt einen eingeschriebenen Brief); der Kirchgemeinderat genehmigt den Austritt und meldet ihn der Wohngemeinde."
+  },
+  {
+   "id": "bl-zwingen",
+   "name": "Römisch-katholische Kirchgemeinde Zwingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Zwingen",
+    "Präsidium",
+    "c/o Pastoralraum am Blauen, Sekretariat",
+    "Kirchweg 4",
+    "4222 Zwingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "sekretariat@kircheamblauen.ch",
+   "website": "https://www.kircheamblauen.ch/",
+   "source": "https://www.kathbl.ch/kirchgemeinden/zwingen/",
+   "bfs": [
+    2793
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Gebiet laut VO Gliederung der Landeskirche in Kirchgemeinden vom 27.11.2024. Gemeinsames Sekretariat des Pastoralraums am Blauen (Zweckverband der Kirchgemeinden am Blauen); die kathbl-Seite der Kirchgemeinde nennt diese Kontaktadresse."
+  }
+ ],
+ "split": [],
+ "unmapped_bfs": [],
+ "issues": [
+  "Die meisten Kirchgemeinden publizieren keine eigene Postadresse; verwendet wurde die Adresse, die kathbl.ch bzw. die Kirchgemeinde als Kontakt nennt (oft Pfarrei- oder Pastoralraum-Sekretariat). Massgeblich ist nach § 4 Abs. 1 der Kirchenverfassung und RRB SGS 191.11 § 2 das Präsidium; dessen Privatadressen wurden bewusst nicht übernommen.",
+  "Liestal: Hausnummer Rheinstrasse 20b (kathbl, Impressum, Standortseite) gegenüber 20c (Kontakt-/Fussbereich rkk-liestal.ch).",
+  "Duggingen: kathbl nennt Brüelweg 2, 4147 Aesch (Sekretariat Seelsorgeverband Angenstein); die Verwaltung der Kirchgemeinde Duggingen sitzt laut rkk-angenstein.ch an der Allmendgasse 2 in Pfeffingen (übernommen).",
+  "Roggenburg: VO Gliederung 2024 nennt «Roggenburg», kathbl/Pastoralraum «Roggenburg-Ederswiler»; Ederswiler (JU) gehört ebenfalls zu dieser Kirchgemeinde, ist aber nicht Teil der BL-Liste.",
+  "Burg im Leimental: Pfarreisekretariat in 4116 Metzerlen (SO); Präsidium und Verwaltung nur mit Personenadressen publiziert.",
+  "Gelterkinden und Sissach: Der Seelsorgeverband Ergolz wird per 31.12.2026 aufgelöst; die Sekretariatsadressen können sich danach ändern."
+ ]
+}

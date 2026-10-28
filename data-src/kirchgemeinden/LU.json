@@ -1,0 +1,1976 @@
+{
+  "canton": "LU",
+  "body": {
+    "name": "Römisch-katholische Landeskirche des Kantons Luzern",
+    "short": "Katholische Kirche im Kanton Luzern",
+    "website": "https://www.lukath.ch/",
+    "postal": [
+      "Römisch-katholische Landeskirche des Kantons Luzern",
+      "Abendweg 1",
+      "Postfach",
+      "6000 Luzern 6"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchenrat der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich, eigenhändig unterschrieben, per Post (E-Mail genügt nicht)",
+    "beglaubigung": false,
+    "beglaubigung_note": "",
+    "wirkung": "",
+    "notes": "§ 12 Kirchenverfassung: Als katholisch gilt, wer dem zuständigen Kirchenrat am Wohnsitz nicht schriftlich erklärt hat, der römisch-katholischen Konfession nicht mehr anzugehören; nach BGE 134 I 75 (Fall Luzern) genügt die Erklärung des Austritts aus Landeskirche und Kirchgemeinde. Viele Kirchgemeinden nehmen den Austritt auch über das Pfarramt entgegen; Jugendliche ab 16 unterschreiben selbst.",
+    "source": "https://www.lukath.ch/assets/Dokumente/Gesetzessammlung/Grundlagen/01_verfassung.pdf"
+  },
+  "finder": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/kirchgemeinden-und-praesidien",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.lukath.ch/ueber-uns/organisation/landeskirche/kirchgemeinden-und-praesidien",
+    "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+    "https://www.lukath.ch/assets/Dokumente/Gesetzessammlung/Grundlagen/01_verfassung.pdf",
+    "https://www.lukath.ch/assets/Dokumente/Gesetzessammlung/Grundlagen/40_g_kirchgemeindegesetz.pdf",
+    "https://steuern.lu.ch/-/media/Steuern/Dokumente/Publikationen/2026/Steuereinheiten_2026_NP.pdf",
+    "https://www.kath-hitzkirchertal.ch/service/mitgliedschaft/austritt.html",
+    "https://www.kathluzern.ch/meine-kirche/ueber-uns/organisation",
+    "https://www.pfarrei-littau.ch/ueber-uns/kirchgemeinde/unsere-kirchgemeinde",
+    "https://kath-msb.ch/pastoralraum/kirchgemeinde-malters/",
+    "https://www.pfarrei-hellbuehl.ch/grenzkarte-kirchgemeinde-pfarrei/",
+    "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/",
+    "https://www.pastoralraum-oe.ch/",
+    "https://www.pastoralraumluhinterland.ch/kirchgemeinden/",
+    "https://www.kath-prw.ch/kirchgemeinden/",
+    "https://www.pastoralraum-mw.ch/kirchgemeinden/",
+    "https://pr-surental.ch/verwaltung/triengen",
+    "https://pfarrei-sursee.ch/ueber-uns/kurzportraet-behoerde",
+    "https://www.pastoralraum-im-rottal.ch/ueber-uns/kirchgemeinden",
+    "https://kathmichelsamt.ch/kirchgemeinden/pfeffikon/geschichte-bauten",
+    "https://www.pr-oberseetal.ch/kirchgemeinde/",
+    "https://opendata.swiss/de/dataset/einteilung-katholischer-kirchgemeinden-geodienst-wfs"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "lu-luzern",
+      "name": "Katholische Kirchgemeinde Luzern",
+      "postal": [
+        "Katholische Kirchgemeinde Luzern",
+        "Geschäftsstelle",
+        "Brünigstrasse 20",
+        "6005 Luzern"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kathluzern.ch",
+      "website": "https://www.kathluzern.ch/",
+      "source": "https://www.kathluzern.ch/meine-kirche/ueber-uns/kontakt",
+      "bfs": [],
+      "partial_bfs": [
+        1061
+      ],
+      "confidence": "high",
+      "note": "Umfasst die Stadt Luzern ohne die Stadtteile Littau und Reussbühl. Fusion mit der Kirchgemeinde Reussbühl angekündigt (Legislatur bis 31.12.2026 verlängert)."
+    },
+    {
+      "id": "lu-littau",
+      "name": "Katholische Kirchgemeinde Littau",
+      "postal": [
+        "Katholische Kirchgemeinde Littau",
+        "Kirchenrat",
+        "Gasshofstrasse 2",
+        "6014 Luzern"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-littau.ch/",
+      "source": "https://www.pfarrei-littau.ch/ueber-uns/kirchgemeinde/kircheneintritt-und-wiedereintritt",
+      "bfs": [],
+      "partial_bfs": [
+        1061,
+        1062
+      ],
+      "confidence": "high",
+      "note": "Stadtteil Littau der Stadt Luzern (Dorf Littau, Rönnimoos, Bahnhofquartier/Littauer Boden, Littauerberg) sowie laut Kirchgemeinde Malters einige Gehöfte/Quartiere der Gemeinde Malters. Von der Kirchgemeinde publizierte Kontaktadresse = Pfarrei St. Theodul."
+    },
+    {
+      "id": "lu-reussbuehl",
+      "name": "Katholische Kirchgemeinde Reussbühl",
+      "postal": [
+        "Katholische Kirchgemeinde Reussbühl",
+        "Kirchenrat",
+        "Obermättlistrasse 1",
+        "6015 Luzern"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pfarrei-reussbuehl.ch/",
+      "source": "https://www.pfarrei-reussbuehl.ch/kirchgemeinde/kirchenrat",
+      "bfs": [],
+      "partial_bfs": [
+        1061
+      ],
+      "confidence": "high",
+      "note": "Ortsteil Reussbühl der Stadt Luzern. Fusion mit der Kirchgemeinde Luzern angekündigt; Adresse vor Versand prüfen."
+    },
+    {
+      "id": "lu-emmen",
+      "name": "Katholische Kirchgemeinde Emmen",
+      "postal": [
+        "Katholische Kirchgemeinde Emmen",
+        "Kirchgemeindeverwaltung",
+        "Schulhausstrasse 4",
+        "6020 Emmenbrücke"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath.emmen-rothenburg.ch/",
+      "source": "https://www.kath.emmen-rothenburg.ch/ueber-uns/kirchgemeinden/emmen",
+      "bfs": [
+        1024
+      ],
+      "partial_bfs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "lu-rothenburg",
+      "name": "Katholische Kirchgemeinde Rothenburg",
+      "postal": [
+        "Katholische Kirchgemeinde Rothenburg",
+        "Kirchenrat",
+        "Flecken 34",
+        "6023 Rothenburg"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.kath.emmen-rothenburg.ch/",
+      "source": "https://www.kath.emmen-rothenburg.ch/ueber-uns/kirchgemeinden/rothenburg",
+      "bfs": [
+        1040
+      ],
+      "partial_bfs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "lu-horw",
+      "name": "Katholische Kirchgemeinde Horw",
+      "postal": [
+        "Katholische Kirchgemeinde Horw",
+        "Kirchgemeindeamt",
+        "Zumhofstrasse 2",
+        "6048 Horw"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kathhorw.ch",
+      "website": "https://www.kathhorw.ch/",
+      "source": "https://www.kathhorw.ch/kirchgemeindeamt",
+      "bfs": [
+        1058
+      ],
+      "partial_bfs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "lu-kriens",
+      "name": "Katholische Kirchgemeinde Kriens",
+      "postal": [
+        "Katholische Kirchgemeinde Kriens",
+        "Kirchenrat",
+        "Alpenstrasse 20",
+        "6010 Kriens"
+      ],
+      "address_type": "kirchenrat",
+      "email": "sekretariat@kath-kriens.ch",
+      "website": "https://www.kath-kriens.ch/",
+      "source": "https://kath-kriens.ch/kontakt",
+      "bfs": [
+        1059
+      ],
+      "partial_bfs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "lu-malters",
+      "name": "Katholische Kirchgemeinde Malters",
+      "postal": [
+        "Katholische Kirchgemeinde Malters",
+        "Kirchenrat",
+        "Kirchrain 2",
+        "6102 Malters"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@kath-msb.ch",
+      "website": "https://kath-msb.ch/",
+      "source": "https://kath-msb.ch/pastoralraum/kirchgemeinde-malters/",
+      "bfs": [],
+      "partial_bfs": [
+        1062,
+        1009
+      ],
+      "confidence": "high",
+      "note": "Grenzen nicht identisch mit der Einwohnergemeinde: zusätzlich östlicher Teil von Schachen (Gemeinde Werthenstein); einige Gehöfte und Quartiere im Norden und Osten von Malters gehören zu Hellbühl bzw. Littau."
+    },
+    {
+      "id": "lu-schwarzenberg",
+      "name": "Katholische Kirchgemeinde Schwarzenberg",
+      "postal": [
+        "Katholische Kirchgemeinde Schwarzenberg",
+        "Kirchenrat",
+        "Kirchrain 2",
+        "6102 Malters"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@kath-msb.ch",
+      "website": "https://kath-msb.ch/",
+      "source": "https://kath-msb.ch/pastoralraum/kirchgemeinde-malters/",
+      "bfs": [
+        1066
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gemeinsames Sekretariat Katholische Kirche Malters-Schwarzenberg."
+    },
+    {
+      "id": "lu-adligenswil",
+      "name": "Katholische Kirchgemeinde Adligenswil",
+      "postal": [
+        "Katholische Kirchgemeinde Adligenswil",
+        "Kirchenrat",
+        "Dorfweg 1",
+        "6043 Adligenswil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kpm.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/kirchgemeinden-und-praesidien",
+      "bfs": [
+        1051
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Im Verzeichnis der Landeskirche angegebene Adresse; identisch mit dem Pfarramt St. Martin."
+    },
+    {
+      "id": "lu-meggen",
+      "name": "Katholische Kirchgemeinde Meggen",
+      "postal": [
+        "Katholische Kirchgemeinde Meggen",
+        "Kirchenrat",
+        "Schlösslistrasse 2",
+        "6045 Meggen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kpm.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1063
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-udligenswil",
+      "name": "Katholische Kirchgemeinde Udligenswil",
+      "postal": [
+        "Katholische Kirchgemeinde Udligenswil",
+        "Kirchenrat",
+        "Kirchrainstrasse 6",
+        "6044 Udligenswil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kpm.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1067
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-buchrain-perlen",
+      "name": "Katholische Kirchgemeinde Buchrain-Perlen",
+      "postal": [
+        "Katholische Kirchgemeinde Buchrain-Perlen",
+        "Kirchenrat",
+        "Kirchweg 6",
+        "6033 Buchrain"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kathbuchrainperlen.ch/",
+      "source": "https://kathbuchrainperlen.ch/impressum/",
+      "bfs": [
+        1052
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat der Pfarrei/Kirchgemeinde. Ob der zur Gemeinde Root gehörende Teil von Perlen ebenfalls zu Buchrain-Perlen gehört, ist nicht publiziert."
+    },
+    {
+      "id": "lu-ebikon",
+      "name": "Katholische Kirchgemeinde Ebikon",
+      "postal": [
+        "Katholische Kirchgemeinde Ebikon",
+        "Geschäftsstelle",
+        "Dorfstrasse 7",
+        "6030 Ebikon"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.pfarrei-ebikon.ch/",
+      "source": "https://www.pfarrei-ebikon.ch/uber-uns/",
+      "bfs": [
+        1054
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Geschäftsstelle führt Verwaltung und Rechnung der Kirchgemeinde Ebikon (kathrontal.ch/kirchgemeindeverband)."
+    },
+    {
+      "id": "lu-root",
+      "name": "Katholische Kirchgemeinde Root",
+      "postal": [
+        "Katholische Kirchgemeinde Root",
+        "Kirchenrat",
+        "Schulstrasse 7",
+        "6037 Root"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pfarrei-root.ch/",
+      "source": "https://www.pfarrei-root.ch/uber-uns/",
+      "bfs": [
+        1065,
+        1053,
+        1055
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Dierikon und Gisikon gehören laut Steuereinheiten 2026 zur Kirchgemeinde Root. Adresse = Pfarreisekretariat, als Kontakt des Kirchenratspräsidiums publiziert."
+    },
+    {
+      "id": "lu-greppen",
+      "name": "Katholische Kirchgemeinde Greppen",
+      "postal": [
+        "Katholische Kirchgemeinde Greppen",
+        "Kirchenrat",
+        "Rigiblickstrasse 5",
+        "6353 Weggis"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.seepfarreien.ch/",
+      "source": "https://www.seepfarreien.ch/impressum",
+      "bfs": [
+        1056
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau."
+    },
+    {
+      "id": "lu-weggis",
+      "name": "Katholische Kirchgemeinde Weggis",
+      "postal": [
+        "Katholische Kirchgemeinde Weggis",
+        "Kirchenrat",
+        "Rigiblickstrasse 5",
+        "6353 Weggis"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.seepfarreien.ch/",
+      "source": "https://www.seepfarreien.ch/impressum",
+      "bfs": [
+        1069
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau."
+    },
+    {
+      "id": "lu-vitznau",
+      "name": "Katholische Kirchgemeinde Vitznau",
+      "postal": [
+        "Katholische Kirchgemeinde Vitznau",
+        "Kirchenrat",
+        "Rigiblickstrasse 5",
+        "6353 Weggis"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.seepfarreien.ch/",
+      "source": "https://www.seepfarreien.ch/impressum",
+      "bfs": [
+        1068
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gemeinsames Sekretariat Luzerner Seepfarreien Greppen – Weggis – Vitznau."
+    },
+    {
+      "id": "lu-meierskappel",
+      "name": "Katholische Kirchgemeinde Meierskappel",
+      "postal": [
+        "Katholische Kirchgemeinde Meierskappel",
+        "Kirchenrat",
+        "Dorfstrasse 5",
+        "6344 Meierskappel"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://pastoralraum-zugersee.ch/pfarrei-meierskappel/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1064
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-aesch-mosen",
+      "name": "Katholische Kirchgemeinde Aesch-Mosen",
+      "postal": [
+        "Katholische Kirchgemeinde Aesch-Mosen",
+        "Kirchenrat",
+        "Altgass 8",
+        "6285 Hitzkirch"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kath-hitzkirchertal.ch/",
+      "source": "https://www.kath-hitzkirchertal.ch/im-notfall/hauptkontakte.html",
+      "bfs": [
+        1021
+      ],
+      "partial_bfs": [
+        1030,
+        1041
+      ],
+      "confidence": "medium",
+      "note": "Gebiet: Aesch, Mosen (Ortsteil von Hitzkirch) und Honeriweid (Ortsteil von Schongau). Gemeinsames Sekretariat im Pfarrhaus Hitzkirch."
+    },
+    {
+      "id": "lu-hitzkirch",
+      "name": "Katholische Kirchgemeinde Hitzkirch",
+      "postal": [
+        "Katholische Kirchgemeinde Hitzkirch",
+        "Kirchenrat",
+        "Altgass 8",
+        "6285 Hitzkirch"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kath-hitzkirchertal.ch/",
+      "source": "https://www.kath-hitzkirchertal.ch/kirchgemeinden/kirchgemeinde-hitzkirch.html",
+      "bfs": [
+        1025
+      ],
+      "partial_bfs": [
+        1030,
+        1039
+      ],
+      "confidence": "medium",
+      "note": "Gebiet: Altwis, Ermensee, Gelfingen, Hämikon, Hitzkirch, Laufenberg (Ortsteil von Römerswil), Retschwil, Richensee und Sulz. Gemeinsames Sekretariat im Pfarrhaus Hitzkirch."
+    },
+    {
+      "id": "lu-mueswangen",
+      "name": "Katholische Kirchgemeinde Müswangen",
+      "postal": [
+        "Katholische Kirchgemeinde Müswangen",
+        "Kirchenrat",
+        "Altgass 8",
+        "6285 Hitzkirch"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kath-hitzkirchertal.ch/",
+      "source": "https://www.kath-hitzkirchertal.ch/kirchgemeinden/kirchgemeinde-mueswangen.html",
+      "bfs": [],
+      "partial_bfs": [
+        1030
+      ],
+      "confidence": "medium",
+      "note": "Ortsteil Müswangen der Gemeinde Hitzkirch (Abgrenzung nicht publiziert, abgeleitet aus den Gebietslisten von Hitzkirch und Aesch-Mosen). Gemeinsames Sekretariat im Pfarrhaus Hitzkirch."
+    },
+    {
+      "id": "lu-schongau",
+      "name": "Katholische Kirchgemeinde Schongau",
+      "postal": [
+        "Katholische Kirchgemeinde Schongau",
+        "Kirchenrat",
+        "Altgass 8",
+        "6285 Hitzkirch"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kath-hitzkirchertal.ch/",
+      "source": "https://www.kath-hitzkirchertal.ch/kirchgemeinden/kirchgemeinde-schongau.html",
+      "bfs": [],
+      "partial_bfs": [
+        1041
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Schongau ohne Honeriweid (gehört zu Aesch-Mosen). Gemeinsames Sekretariat im Pfarrhaus Hitzkirch."
+    },
+    {
+      "id": "lu-ballwil",
+      "name": "Katholische Kirchgemeinde Ballwil",
+      "postal": [
+        "Katholische Kirchgemeinde Ballwil",
+        "Kirchenrat",
+        "Pfrundweg 2",
+        "6275 Ballwil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-oberseetal.ch/",
+      "source": "https://www.pr-oberseetal.ch/kirchgemeinde/kirchgemeinde-ballwil/die-kirchgemeinde-ballwil",
+      "bfs": [],
+      "partial_bfs": [
+        1023,
+        1026,
+        1033
+      ],
+      "confidence": "medium",
+      "note": "Gemeindegebiet Ballwil, die Weiler Gerligen, Gibelflüh und Ottenhusen sowie einzelne Höfe der Gemeinden Eschenbach und Inwil. Adresse = Pfarramt Ballwil."
+    },
+    {
+      "id": "lu-eschenbach",
+      "name": "Katholische Kirchgemeinde Eschenbach",
+      "postal": [
+        "Katholische Kirchgemeinde Eschenbach",
+        "Kirchenrat",
+        "Freiherrenweg 12",
+        "6274 Eschenbach LU"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pr-oberseetal.ch/",
+      "source": "https://www.pr-oberseetal.ch/kirchgemeinde/kirchgemeinde-eschenbach/die-kirchgemeinde-eschenbach",
+      "bfs": [],
+      "partial_bfs": [
+        1026
+      ],
+      "confidence": "high",
+      "note": "Von der Kirchgemeinde angegebene «Postzustellung für den Kirchenrat». Einzelne Höfe von Eschenbach gehören zu Ballwil bzw. Inwil."
+    },
+    {
+      "id": "lu-inwil",
+      "name": "Katholische Kirchgemeinde Inwil",
+      "postal": [
+        "Katholische Kirchgemeinde Inwil",
+        "Kirchenrat",
+        "Pfarrhof 2",
+        "6034 Inwil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-oberseetal.ch/",
+      "source": "https://www.pr-oberseetal.ch/kirchgemeinde/kirchgemeinde-inwil/die-kirchgemeinde-inwil",
+      "bfs": [],
+      "partial_bfs": [
+        1033,
+        1026,
+        1023
+      ],
+      "confidence": "medium",
+      "note": "Gemeindegebiet Inwil sowie einzelne Höfe und Weiler von Eschenbach und Ballwil. Adresse = Pfarramt Inwil."
+    },
+    {
+      "id": "lu-hochdorf",
+      "name": "Katholische Kirchgemeinde Hochdorf",
+      "postal": [
+        "Katholische Kirchgemeinde Hochdorf",
+        "Kirchenrat",
+        "Kirchplatz 2",
+        "6280 Hochdorf"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.prbs.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1031
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-hohenrain",
+      "name": "Katholische Kirchgemeinde Hohenrain",
+      "postal": [
+        "Katholische Kirchgemeinde Hohenrain",
+        "Kirchenrat",
+        "Kirchweg 2",
+        "6276 Hohenrain"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.prbs.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1032
+      ],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-kleinwangen",
+      "name": "Katholische Kirchgemeinde Kleinwangen",
+      "postal": [
+        "Katholische Kirchgemeinde Kleinwangen",
+        "Kirchenrat",
+        "Hauptstrasse 31",
+        "6277 Kleinwangen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.prbs.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1032
+      ],
+      "confidence": "medium",
+      "note": "Teil der Gemeinde Hohenrain (Kleinwangen/Lieli); Abgrenzung nicht publiziert. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-roemerswil",
+      "name": "Katholische Kirchgemeinde Römerswil",
+      "postal": [
+        "Katholische Kirchgemeinde Römerswil",
+        "Kirchenrat",
+        "Kirchplatz 1",
+        "6027 Römerswil LU"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.prbs.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1039
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Römerswil ohne Laufenberg (gehört zu Hitzkirch). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-rain",
+      "name": "Katholische Kirchgemeinde Rain",
+      "postal": [
+        "Katholische Kirchgemeinde Rain",
+        "Kirchenrat",
+        "Chilestrasse 6",
+        "6026 Rain"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-rain.ch/",
+      "source": "https://www.pfarrei-rain.ch/ueber-uns/kirchgemeinde/",
+      "bfs": [
+        1037
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kontaktadresse auf der Kirchgemeindeseite = Pfarramt Rain."
+    },
+    {
+      "id": "lu-hildisrieden",
+      "name": "Katholische Kirchgemeinde Hildisrieden",
+      "postal": [
+        "Katholische Kirchgemeinde Hildisrieden",
+        "Kirchenrat",
+        "Luzernerstrasse 5",
+        "6024 Hildisrieden"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-hildisrieden.ch/",
+      "source": "https://www.pfarrei-hildisrieden.ch/ueber-uns/kirchgemeinde/",
+      "bfs": [
+        1088
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kontaktadresse auf der Kirchgemeindeseite = Pfarramt Hildisrieden."
+    },
+    {
+      "id": "lu-beromuenster",
+      "name": "Katholische Kirchgemeinde Beromünster",
+      "postal": [
+        "Katholische Kirchgemeinde Beromünster",
+        "Kirchenrat",
+        "Chilegass 6",
+        "6215 Beromünster"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kathmichelsamt.ch/",
+      "source": "https://kathmichelsamt.ch/kirchgemeinden/beromuenster/informationen",
+      "bfs": [],
+      "partial_bfs": [
+        1081
+      ],
+      "confidence": "medium",
+      "note": "Sekretariat Pastoralraum Michelsamt. Weiler Maihusen (Ortsteil Gunzwil) gehört zu Pfeffikon; laut Kirchgemeinde Sursee wohnen auch in Beromünster Mitglieder der Kirchgemeinde Sursee."
+    },
+    {
+      "id": "lu-pfeffikon",
+      "name": "Katholische Kirchgemeinde Pfeffikon",
+      "postal": [
+        "Katholische Kirchgemeinde Pfeffikon",
+        "Kirchenrat",
+        "Chilegass 6",
+        "6215 Beromünster"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kathmichelsamt.ch/",
+      "source": "https://kathmichelsamt.ch/kirchgemeinden/pfeffikon/geschichte-bauten",
+      "bfs": [],
+      "partial_bfs": [
+        1097,
+        1081
+      ],
+      "confidence": "medium",
+      "note": "Pfeffikon (Gemeinde Rickenbach) mit dem Weiler Maihusen (Gemeinde Beromünster). Sekretariat Pastoralraum Michelsamt."
+    },
+    {
+      "id": "lu-rickenbach",
+      "name": "Katholische Kirchgemeinde Rickenbach",
+      "postal": [
+        "Katholische Kirchgemeinde Rickenbach",
+        "Kirchenrat",
+        "Chilegass 6",
+        "6215 Beromünster"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kathmichelsamt.ch/",
+      "source": "https://kathmichelsamt.ch/kirchgemeinden/rickenbach/informationen",
+      "bfs": [],
+      "partial_bfs": [
+        1097
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Rickenbach ohne Pfeffikon. Sekretariat Pastoralraum Michelsamt."
+    },
+    {
+      "id": "lu-sursee",
+      "name": "Katholische Kirchgemeinde Sursee",
+      "postal": [
+        "Katholische Kirchgemeinde Sursee",
+        "Verwaltung",
+        "Theaterstrasse 2",
+        "6210 Sursee"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.pfarrei-sursee.ch/",
+      "source": "https://www.pfarrei-sursee.ch/kontakt",
+      "bfs": [
+        1103,
+        1099,
+        1091
+      ],
+      "partial_bfs": [
+        1095,
+        1081
+      ],
+      "confidence": "high",
+      "note": "Mitglieder in Sursee, Schenkon, Mauensee, Oberkircherberg und Beromünster (laut Kirchgemeinde); Schenkon und Mauensee laut Steuereinheiten 2026 ganz."
+    },
+    {
+      "id": "lu-oberkirch",
+      "name": "Katholische Kirchgemeinde Oberkirch",
+      "postal": [
+        "Katholische Kirchgemeinde Oberkirch",
+        "Kirchenrat",
+        "Luzernstrasse 56",
+        "6208 Oberkirch LU"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesident@pfarrei-oberkirch.ch",
+      "website": "https://www.pfarrei-oberkirch.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1095
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Oberkirch ohne Oberkircherberg (gehört zu Sursee). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-geuensee",
+      "name": "Katholische Kirchgemeinde Geuensee",
+      "postal": [
+        "Katholische Kirchgemeinde Geuensee",
+        "Kirchenrat",
+        "Kirchenstrasse 1",
+        "6232 Geuensee"
+      ],
+      "address_type": "kirchenrat",
+      "email": "praesident@pfarrei-geuensee.ch",
+      "website": "https://www.pfarrei-geuensee.ch/",
+      "source": "https://www.pfarrei-geuensee.ch/impressum/",
+      "bfs": [
+        1085
+      ],
+      "partial_bfs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "lu-knutwil-st-erhard",
+      "name": "Katholische Kirchgemeinde Knutwil-St. Erhard",
+      "postal": [
+        "Katholische Kirchgemeinde Knutwil-St. Erhard",
+        "Kirchenrat",
+        "Chelerain 1",
+        "6213 Knutwil"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesident@pfarrei-knutwil.ch",
+      "website": "https://www.pfarrei-knutwil.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1089
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-nottwil",
+      "name": "Katholische Kirchgemeinde Nottwil",
+      "postal": [
+        "Katholische Kirchgemeinde Nottwil",
+        "Kirchenrat",
+        "Oberdorfstrasse 5",
+        "6207 Nottwil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-nottwil.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1094
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-neuenkirch",
+      "name": "Katholische Kirchgemeinde Neuenkirch",
+      "postal": [
+        "Katholische Kirchgemeinde Neuenkirch",
+        "Kirchenrat",
+        "Kirchmattstrasse 1",
+        "6206 Neuenkirch"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pfarreineuenkirch.ch/",
+      "source": "https://www.pfarreineuenkirch.ch/kontakte/",
+      "bfs": [],
+      "partial_bfs": [
+        1093
+      ],
+      "confidence": "high",
+      "note": "Gemeinde Neuenkirch ohne das Gebiet der Kirchgemeinde Hellbühl."
+    },
+    {
+      "id": "lu-hellbuehl",
+      "name": "Katholische Kirchgemeinde Hellbühl",
+      "postal": [
+        "Katholische Kirchgemeinde Hellbühl",
+        "Kirchenrat",
+        "Luzernstrasse 4",
+        "Postfach 18",
+        "6016 Hellbühl"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@pfarrei-hellbuehl.ch",
+      "website": "https://www.pfarrei-hellbuehl.ch/",
+      "source": "https://www.pfarrei-hellbuehl.ch/kirchenrat/",
+      "bfs": [],
+      "partial_bfs": [
+        1093,
+        1098,
+        1062,
+        1061
+      ],
+      "confidence": "medium",
+      "note": "Gebiet um Hellbühl über die Gemeindegrenzen von Neuenkirch, Ruswil, Malters und Luzern (Littau) hinweg; Grenzkarte: https://www.pfarrei-hellbuehl.ch/grenzkarte-kirchgemeinde-pfarrei/ (Plan 2008). Adresse = Pfarrei-Sekretariat."
+    },
+    {
+      "id": "lu-sempach",
+      "name": "Katholische Kirchgemeinde Sempach",
+      "postal": [
+        "Katholische Kirchgemeinde Sempach",
+        "Kirchenrat",
+        "Büelgass 3",
+        "6204 Sempach Stadt"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarreisempach.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1102
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-eich",
+      "name": "Katholische Kirchgemeinde Eich",
+      "postal": [
+        "Katholische Kirchgemeinde Eich",
+        "Kirchenrat",
+        "Büelgass 3",
+        "6204 Sempach Stadt"
+      ],
+      "address_type": "pfarramt",
+      "email": "praesident@pfarrei-eich.ch",
+      "website": "https://www.pfarreisempach.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1084
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Das Pfarreiverzeichnis nennt für die Pfarrei Eich die Adresse Büelgass 3 in Sempach Stadt. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-buttisholz",
+      "name": "Katholische Kirchgemeinde Buttisholz",
+      "postal": [
+        "Katholische Kirchgemeinde Buttisholz",
+        "Kirchenrat",
+        "Dorf 2",
+        "6018 Buttisholz"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-im-rottal.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1083
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-grosswangen",
+      "name": "Katholische Kirchgemeinde Grosswangen",
+      "postal": [
+        "Katholische Kirchgemeinde Grosswangen",
+        "Kirchenrat",
+        "Dorfstrasse 4",
+        "6022 Grosswangen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-im-rottal.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1086
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-ruswil",
+      "name": "Katholische Kirchgemeinde Ruswil",
+      "postal": [
+        "Katholische Kirchgemeinde Ruswil",
+        "Kirchenrat",
+        "Schwerzistrasse 8",
+        "6017 Ruswil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-region-werthenstein.ch/",
+      "source": "https://www.pastoralraum-region-werthenstein.ch/pastoralraum/kirchgemeindeverband/kirchgemeinderat-ruswil/",
+      "bfs": [],
+      "partial_bfs": [
+        1098
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Ruswil ohne das Gebiet der Kirchgemeinde Hellbühl. Adresse = Kath. Pfarramt St. Mauritius (auf der Kirchgemeinderatsseite angegeben)."
+    },
+    {
+      "id": "lu-bueron-schlierbach",
+      "name": "Katholische Kirchgemeinde Büron-Schlierbach",
+      "postal": [
+        "Katholische Kirchgemeinde Büron-Schlierbach",
+        "Kirchenrat",
+        "Gallus-Steigerstrasse 17",
+        "6233 Büron"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-surental.ch/",
+      "source": "https://pr-surental.ch/verwaltung/bueron-schlierbach",
+      "bfs": [
+        1082,
+        1100
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Büron, Schlierbach und Etzelwil. Adresse = Pfarrei Büron-Schlierbach."
+    },
+    {
+      "id": "lu-triengen",
+      "name": "Katholische Kirchgemeinde Triengen",
+      "postal": [
+        "Katholische Kirchgemeinde Triengen",
+        "Kirchenrat",
+        "Hubelstrasse 18",
+        "6234 Triengen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-surental.ch/",
+      "source": "https://pr-surental.ch/verwaltung/triengen",
+      "bfs": [],
+      "partial_bfs": [
+        1104
+      ],
+      "confidence": "medium",
+      "note": "Triengen, Kulmerau und Wilihof. Adresse = Pfarrei Triengen."
+    },
+    {
+      "id": "lu-winikon",
+      "name": "Katholische Kirchgemeinde Winikon",
+      "postal": [
+        "Katholische Kirchgemeinde Winikon",
+        "Kirchenrat",
+        "Schulhausstrasse 10",
+        "6235 Winikon"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pr-surental.ch/",
+      "source": "https://pr-surental.ch/verwaltung/winikon-reitnau-attelwil",
+      "bfs": [],
+      "partial_bfs": [
+        1104,
+        1125
+      ],
+      "confidence": "medium",
+      "note": "Ehemalige Gemeinde Winikon (heute Triengen) und der Dagmerseller Lätten. Adresse = Pfarrei Winikon."
+    },
+    {
+      "id": "lu-altishofen-nebikon",
+      "name": "Katholische Kirchgemeinde Altishofen-Nebikon",
+      "postal": [
+        "Katholische Kirchgemeinde Altishofen-Nebikon",
+        "Kirchenrat",
+        "Oberdorf 14",
+        "6246 Altishofen"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-mw.ch/",
+      "source": "https://www.pastoralraum-mw.ch/kirchgemeinden/altishofen-nebikon",
+      "bfs": [
+        1137
+      ],
+      "partial_bfs": [
+        1123
+      ],
+      "confidence": "high",
+      "note": "Pfarreien Altishofen/Ebersecken und Nebikon. Einige Höfe der Gemeinde Altishofen gehören zur Kirchgemeinde Zell."
+    },
+    {
+      "id": "lu-egolzwil-wauwil",
+      "name": "Katholische Kirchgemeinde Egolzwil-Wauwil",
+      "postal": [
+        "Katholische Kirchgemeinde Egolzwil-Wauwil",
+        "Kirchenrat",
+        "Dorfstrasse 38",
+        "6242 Wauwil"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-mw.ch/",
+      "source": "https://www.pastoralraum-mw.ch/kirchgemeinden/egolzwil-wauwil",
+      "bfs": [
+        1127,
+        1146
+      ],
+      "partial_bfs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "lu-schoetz-ohmstal",
+      "name": "Katholische Kirchgemeinde Schötz-Ohmstal",
+      "postal": [
+        "Katholische Kirchgemeinde Schötz-Ohmstal",
+        "Kirchenrat",
+        "Dorfchärn 3",
+        "6247 Schötz"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-mw.ch/",
+      "source": "https://www.pastoralraum-mw.ch/kirchgemeinden/schoetz-ohmstal",
+      "bfs": [],
+      "partial_bfs": [
+        1143
+      ],
+      "confidence": "high",
+      "note": "Einige Höfe der Gemeinde Schötz gehören zur Kirchgemeinde Zell."
+    },
+    {
+      "id": "lu-huerntal",
+      "name": "Katholische Kirchgemeinde Hürntal",
+      "postal": [
+        "Katholische Kirchgemeinde Hürntal",
+        "Kirchenrat",
+        "Kirchstrasse 3",
+        "6252 Dagmersellen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.hukath.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1125
+      ],
+      "confidence": "medium",
+      "note": "Dagmersellen mit Uffikon und Buchs (Steuereinheiten 2026); der Dagmerseller Lätten gehört zu Winikon. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-ettiswil",
+      "name": "Katholische Kirchgemeinde Ettiswil",
+      "postal": [
+        "Katholische Kirchgemeinde Ettiswil",
+        "Kirchenrat",
+        "Surseestrasse 2",
+        "6218 Ettiswil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-im-rottal.ch/",
+      "source": "https://www.pastoralraum-im-rottal.ch/impressum",
+      "bfs": [
+        1128,
+        1121
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Ettiswil und Alberswil. Adresse = Pastoralraum im Rottal / Pfarramt Ettiswil."
+    },
+    {
+      "id": "lu-grossdietwil",
+      "name": "Katholische Kirchgemeinde Grossdietwil",
+      "postal": [
+        "Katholische Kirchgemeinde Grossdietwil",
+        "Kirchenrat",
+        "Pfrundweg 1",
+        "6146 Grossdietwil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraumluhinterland.ch/kirchgemeinden/kirchgemeinde-grossdietwil/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1131,
+        1122
+      ],
+      "partial_bfs": [
+        1129
+      ],
+      "confidence": "medium",
+      "note": "Grossdietwil, Altbüron und der nicht zu Zell gehörende Teil von Fischbach (Steuereinheiten 2026). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-zell",
+      "name": "Katholische Kirchgemeinde Zell",
+      "postal": [
+        "Katholische Kirchgemeinde Zell",
+        "Kirchenrat",
+        "Chilerain 1",
+        "6144 Zell LU"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraumluhinterland.ch/kirchgemeinden/kirchgemeinde-zell/",
+      "source": "https://www.pastoralraumluhinterland.ch/kirchgemeinden/kirchgemeinde-zell/",
+      "bfs": [],
+      "partial_bfs": [
+        1150,
+        1129,
+        1123,
+        1143,
+        1151
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Zell (ohne drei Liegenschaften, die zu Ufhusen gehören), rund die Hälfte des an Zell angrenzenden Teils von Fischbach sowie einige Höfe der Gemeinden Altishofen, Schötz und Willisau. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-ufhusen",
+      "name": "Katholische Kirchgemeinde Ufhusen",
+      "postal": [
+        "Katholische Kirchgemeinde Ufhusen",
+        "Kirchenrat",
+        "Pilatusweg 1",
+        "6153 Ufhusen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraumluhinterland.ch/kirchgemeinden/kirchgemeinde-ufhusen/",
+      "source": "https://www.pastoralraumluhinterland.ch/kirchgemeinden/kirchgemeinde-ufhusen/",
+      "bfs": [
+        1145
+      ],
+      "partial_bfs": [
+        1150,
+        1135
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Ufhusen sowie drei Liegenschaften der Gemeinde Zell und eine Liegenschaft der Gemeinde Luthern. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-luthern",
+      "name": "Katholische Kirchgemeinde Luthern",
+      "postal": [
+        "Katholische Kirchgemeinde Luthern",
+        "Kirchenrat",
+        "Oberdorf 4",
+        "6156 Luthern"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraumluhinterland.ch/kirchgemeinden/kirchgemeinde-luthern/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1135
+      ],
+      "confidence": "medium",
+      "note": "Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-hergiswil",
+      "name": "Katholische Kirchgemeinde Hergiswil",
+      "postal": [
+        "Katholische Kirchgemeinde Hergiswil",
+        "Kirchenrat",
+        "Dorfstrasse 20",
+        "6133 Hergiswil b. Willisau"
+      ],
+      "address_type": "pfarramt",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [
+        1132
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Website prrw.ch am 28.10.2026 nicht erreichbar (404). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-willisau",
+      "name": "Katholische Kirchgemeinde Willisau",
+      "postal": [
+        "Katholische Kirchgemeinde Willisau",
+        "Kirchenrat",
+        "Müligass 6",
+        "6130 Willisau"
+      ],
+      "address_type": "pfarramt",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1151
+      ],
+      "confidence": "medium",
+      "note": "Laut Steuereinheiten 2026 Kirchgemeinde der Gemeinde Willisau (inkl. Gettnau; die Kirchgemeinde Gettnau steht 2026 nicht mehr im Verzeichnis). Einige Höfe gehören zu Zell. Website prrw.ch nicht erreichbar. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-menznau",
+      "name": "Katholische Kirchgemeinde Menznau",
+      "postal": [
+        "Katholische Kirchgemeinde Menznau",
+        "Kirchenrat",
+        "Willisauerstrasse 2",
+        "6122 Menznau"
+      ],
+      "address_type": "pfarramt",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1136
+      ],
+      "confidence": "medium",
+      "note": "Website prrw.ch nicht erreichbar. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-geiss",
+      "name": "Katholische Kirchgemeinde Geiss",
+      "postal": [
+        "Katholische Kirchgemeinde Geiss",
+        "Kirchenrat",
+        "Willisauerstrasse 2",
+        "6122 Menznau"
+      ],
+      "address_type": "pfarramt",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1136
+      ],
+      "confidence": "low",
+      "note": "Ortsteil Geiss der Gemeinde Menznau; Abgrenzung nicht publiziert. Pfarreiverzeichnis nennt für Geiss die Adresse des Pfarramts Menznau. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-menzberg",
+      "name": "Katholische Kirchgemeinde Menzberg",
+      "postal": [
+        "Katholische Kirchgemeinde Menzberg",
+        "Kirchenrat",
+        "Dorfstrasse 18",
+        "6125 Menzberg"
+      ],
+      "address_type": "pfarramt",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1136
+      ],
+      "confidence": "low",
+      "note": "Ortsteil Menzberg (Gemeinde Menznau); ob angrenzende Teile von Willisau oder Hergiswil dazugehören, ist nicht publiziert. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-pfaffnau-roggliswil",
+      "name": "Katholische Kirchgemeinde Pfaffnau-Roggliswil",
+      "postal": [
+        "Katholische Kirchgemeinde Pfaffnau-Roggliswil",
+        "Kirchenrat",
+        "Pfarrhof",
+        "Mülistrasse 4",
+        "6264 Pfaffnau"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-prw.ch/kirchgemeinden/pfaffnau-roggliswil",
+      "source": "https://www.kath-prw.ch/kirchgemeinden/pfaffnau-roggliswil",
+      "bfs": [
+        1142
+      ],
+      "partial_bfs": [
+        1139
+      ],
+      "confidence": "high",
+      "note": "Dörfer Pfaffnau und Roggliswil; der Ortsteil St. Urban bildet eine eigene Kirchgemeinde. Büro der Kirchmeierin im Pfarrhof."
+    },
+    {
+      "id": "lu-st-urban",
+      "name": "Katholische Kirchgemeinde St. Urban",
+      "postal": [
+        "Katholische Kirchgemeinde St. Urban",
+        "Kirchenrat",
+        "Untertor 6",
+        "4915 St. Urban"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-prw.ch/kirchgemeinden/st-urban",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1139
+      ],
+      "confidence": "medium",
+      "note": "Ortsteil St. Urban der Gemeinde Pfaffnau. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-reiden",
+      "name": "Katholische Kirchgemeinde Reiden",
+      "postal": [
+        "Katholische Kirchgemeinde Reiden",
+        "Kirchmeieramt",
+        "Feldstrasse 2",
+        "6260 Reiden"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-prw.ch/kirchgemeinden/reiden",
+      "source": "https://www.kath-prw.ch/kirchgemeinden/reiden",
+      "bfs": [
+        1147
+      ],
+      "partial_bfs": [
+        1140
+      ],
+      "confidence": "high",
+      "note": "Pfarrei Reiden-Wikon; Wikon gehört laut Steuereinheiten 2026 zur Kirchgemeinde Reiden. Ortsteile Langnau und Richenthal sind eigene Kirchgemeinden."
+    },
+    {
+      "id": "lu-langnau",
+      "name": "Katholische Kirchgemeinde Langnau",
+      "postal": [
+        "Katholische Kirchgemeinde Langnau",
+        "Kirchenrat",
+        "Kirchweg 10",
+        "6262 Langnau b. Reiden"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-prw.ch/kirchgemeinden/langnau",
+      "source": "https://www.kath-prw.ch/kirchgemeinden/langnau",
+      "bfs": [],
+      "partial_bfs": [
+        1140
+      ],
+      "confidence": "medium",
+      "note": "Gebiet der ehemaligen politischen Gemeinde Langnau (heute Reiden). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-richenthal",
+      "name": "Katholische Kirchgemeinde Richenthal",
+      "postal": [
+        "Katholische Kirchgemeinde Richenthal",
+        "Kirchenrat",
+        "Kirchweg 10",
+        "6262 Langnau b. Reiden"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-prw.ch/kirchgemeinden/richenthal",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1140
+      ],
+      "confidence": "medium",
+      "note": "Ortsteil Richenthal der Gemeinde Reiden (Abgrenzung nicht publiziert). Gemeinsames Pfarramt Langnau-Richenthal. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-doppleschwand",
+      "name": "Katholische Kirchgemeinde Doppleschwand",
+      "postal": [
+        "Katholische Kirchgemeinde Doppleschwand",
+        "Romooserstrasse 2",
+        "6112 Doppleschwand"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/doppleschwand",
+      "source": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/doppleschwand",
+      "bfs": [
+        1001
+      ],
+      "partial_bfs": [
+        1107,
+        1136,
+        1007
+      ],
+      "confidence": "high",
+      "note": "Gemeindegebiet Doppleschwand und Teile der Gemeinden Wolhusen, Menznau und Romoos."
+    },
+    {
+      "id": "lu-entlebuch",
+      "name": "Katholische Kirchgemeinde Entlebuch",
+      "postal": [
+        "Katholische Kirchgemeinde Entlebuch",
+        "Dorf 51",
+        "6162 Entlebuch"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/entlebuch",
+      "source": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/entlebuch",
+      "bfs": [],
+      "partial_bfs": [
+        1002
+      ],
+      "confidence": "high",
+      "note": "Gemeindegebiet Entlebuch mit Finsterwald, Rengg, Ebnet und Rotmoos; die Enklave Dieplischwand gehört zu Hasle."
+    },
+    {
+      "id": "lu-hasle",
+      "name": "Katholische Kirchgemeinde Hasle",
+      "postal": [
+        "Katholische Kirchgemeinde Hasle",
+        "Dorf 13",
+        "6166 Hasle LU"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/hasle",
+      "source": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/hasle",
+      "bfs": [
+        1005
+      ],
+      "partial_bfs": [
+        1008,
+        1002
+      ],
+      "confidence": "high",
+      "note": "Gemeinde Hasle, die Höfe Buechli und Telle (Gemeinde Schüpfheim) und die Enklave Dieplischwand (Gemeinde Entlebuch)."
+    },
+    {
+      "id": "lu-romoos-bramboden",
+      "name": "Katholische Kirchgemeinde Romoos-Bramboden",
+      "postal": [
+        "Katholische Kirchgemeinde Romoos-Bramboden",
+        "Dorf 20",
+        "6113 Romoos"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/romoos-bramboden",
+      "source": "https://www.pastoralraum-ue.ch/orte-raeume/kirchgemeinden/romoos-bramboden",
+      "bfs": [],
+      "partial_bfs": [
+        1007
+      ],
+      "confidence": "high",
+      "note": "Umfasst «in etwa» das Gemeindegebiet von Romoos inkl. Bramboden (seit 1.1.2022); Teile gehören zu Doppleschwand."
+    },
+    {
+      "id": "lu-schuepfheim",
+      "name": "Katholische Kirchgemeinde Schüpfheim",
+      "postal": [
+        "Katholische Kirchgemeinde Schüpfheim",
+        "Kirchenrat",
+        "Chilegass 2",
+        "6170 Schüpfheim"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-oe.ch/kirchgemeinde-schuepfheim",
+      "source": "https://www.pastoralraum-oe.ch/kirchgemeinde-schuepfheim",
+      "bfs": [],
+      "partial_bfs": [
+        1008
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Schüpfheim mit Ausnahme weniger Liegenschaften (u. a. Höfe Buechli und Telle → Hasle). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-escholzmatt",
+      "name": "Katholische Kirchgemeinde Escholzmatt",
+      "postal": [
+        "Katholische Kirchgemeinde Escholzmatt",
+        "Kirchenrat",
+        "Hauptstrasse 105",
+        "6182 Escholzmatt"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-oe.ch/kirchgemeinde-escholzmatt",
+      "source": "https://www.pastoralraum-oe.ch/kirchgemeinde-escholzmatt",
+      "bfs": [],
+      "partial_bfs": [
+        1010
+      ],
+      "confidence": "medium",
+      "note": "Pfarreien Escholzmatt und Wiggen sowie Höfe im Ortsteil Marbach (ab dem Hilfernbach Richtung Wiggen, Längmatten, Wissenbach, Schärligtal bis Schlattbrücke). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-marbach",
+      "name": "Katholische Kirchgemeinde Marbach",
+      "postal": [
+        "Katholische Kirchgemeinde Marbach",
+        "Kirchenrat",
+        "Dorfplatz 7",
+        "6196 Marbach LU"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-oe.ch/kirchgemeinde-marbach",
+      "source": "https://www.pastoralraum-oe.ch/kirchgemeinde-marbach",
+      "bfs": [],
+      "partial_bfs": [
+        1010
+      ],
+      "confidence": "medium",
+      "note": "Ortsteil Marbach der Gemeinde Escholzmatt-Marbach ohne die zu Escholzmatt gehörenden Höfe. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-fluehli",
+      "name": "Katholische Kirchgemeinde Flühli",
+      "postal": [
+        "Katholische Kirchgemeinde Flühli",
+        "Kirchenrat",
+        "Alte Gemeindestrasse 3",
+        "6173 Flühli LU"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-oe.ch/kirchgemeinde-fluehli",
+      "source": "https://www.pastoralraum-oe.ch/kirchgemeinde-fluehli",
+      "bfs": [],
+      "partial_bfs": [
+        1004,
+        1010
+      ],
+      "confidence": "medium",
+      "note": "Unterer Teil der Gemeinde Flühli von der Lammschlucht bis zur Hirsegg (ohne Mueshütten und Ober Mueshütten) sowie die Liegenschaften Tendli und Ober Tendli (Escholzmatt-Marbach). Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-soerenberg",
+      "name": "Katholische Kirchgemeinde Sörenberg",
+      "postal": [
+        "Katholische Kirchgemeinde Sörenberg",
+        "Kirchenrat",
+        "Marientalweg 1",
+        "6174 Sörenberg"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchgemeinde-soerenberg@pastoralraum-oe.ch",
+      "website": "https://www.pastoralraum-oe.ch/kirchgemeinde-soerenberg",
+      "source": "https://www.pastoralraum-oe.ch/kirchgemeinde-soerenberg",
+      "bfs": [],
+      "partial_bfs": [
+        1004
+      ],
+      "confidence": "medium",
+      "note": "Oberer Teil der Gemeinde Flühli. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    },
+    {
+      "id": "lu-werthenstein",
+      "name": "Katholische Kirchgemeinde Werthenstein",
+      "postal": [
+        "Katholische Kirchgemeinde Werthenstein",
+        "Kirchenrat",
+        "Oberdorfstrasse 9",
+        "6106 Werthenstein"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-region-werthenstein.ch/",
+      "source": "https://www.pastoralraum-region-werthenstein.ch/pastoralraum/kirchgemeindeverband/kirchgemeinderat-werthenstein/",
+      "bfs": [],
+      "partial_bfs": [
+        1009
+      ],
+      "confidence": "low",
+      "note": "Teil der Gemeinde Werthenstein; Abgrenzung zu Wolhusen und Malters nicht publiziert. Adresse = Kath. Pfarramt Maria Namen."
+    },
+    {
+      "id": "lu-wolhusen",
+      "name": "Katholische Kirchgemeinde Wolhusen",
+      "postal": [
+        "Katholische Kirchgemeinde Wolhusen",
+        "Kirchenrat",
+        "Kirchgasse 9",
+        "6110 Wolhusen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pastoralraum-region-werthenstein.ch/",
+      "source": "https://www.lukath.ch/ueber-uns/organisation/landeskirche/pfarreien",
+      "bfs": [],
+      "partial_bfs": [
+        1107,
+        1009
+      ],
+      "confidence": "medium",
+      "note": "Gemeinde Wolhusen (Teile gehören zu Doppleschwand) und laut Steuereinheiten 2026 die Gemeinde Werthenstein als Hauptkirchgemeinde. Keine eigene Postadresse der Kirchgemeinde publiziert; Adresse des Pfarramts bzw. Pastoralraum-Sekretariats aus dem Pfarreiverzeichnis der Landeskirche. An den Kirchenrat adressieren."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 1061,
+      "how": "Stadtteil Littau (PLZ 6014: Dorf Littau, Rönnimoos, Littauer Boden, Littauerberg) → Littau; Ortsteil Reussbühl (PLZ 6015) → Reussbühl; Gebiet um Hellbühl (PLZ 6016) → Hellbühl; übrige Stadt → Luzern. Im Zweifel Geodaten der Stadt Luzern bzw. Kirchgemeinde fragen.",
+      "finder": null,
+      "geodata": "https://map.stadtluzern.ch/server/services/OGD/einteilung_katholische_kirchgemeinden/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "ortsteile": {
+        "Luzern (alte Stadt, PLZ 6003–6006)": "lu-luzern",
+        "Littau (6014 Luzern)": "lu-littau",
+        "Reussbühl (6015 Luzern)": "lu-reussbuehl",
+        "Hellbühl (6016)": "lu-hellbuehl"
+      }
+    },
+    {
+      "bfs": 1062,
+      "how": "Grundsätzlich Kirchgemeinde Malters; einige Gehöfte und Quartiere im Norden (Richtung Hellbühl) gehören zu Hellbühl, im Osten zu Littau.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Malters (übriges Gebiet)": "lu-malters",
+        "Hellbühl (6016)": "lu-hellbuehl",
+        "Gebiet gegen Littau (Osten)": "lu-littau"
+      }
+    },
+    {
+      "bfs": 1009,
+      "how": "Wolhusen-Teil der Gemeinde (PLZ 6110) → Wolhusen; Werthenstein (6106) → Werthenstein; östlicher Teil von Schachen (6105) → Malters. Die übrige Abgrenzung von Schachen ist nicht publiziert.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Wolhusen (6110, Gemeindeteil Werthenstein)": "lu-wolhusen",
+        "Werthenstein (6106)": "lu-werthenstein",
+        "Schachen, östlicher Teil": "lu-malters"
+      }
+    },
+    {
+      "bfs": 1093,
+      "how": "Gebiet um Hellbühl (PLZ 6016) → Hellbühl (Grenzkarte der Kirchgemeinde); übrige Gemeinde → Neuenkirch.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Hellbühl (6016)": "lu-hellbuehl",
+        "Neuenkirch (übriges Gebiet)": "lu-neuenkirch"
+      }
+    },
+    {
+      "bfs": 1098,
+      "how": "Gebiet um Hellbühl (PLZ 6016) → Hellbühl (Grenzkarte der Kirchgemeinde); übrige Gemeinde → Ruswil.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Hellbühl (6016)": "lu-hellbuehl",
+        "Ruswil (übriges Gebiet)": "lu-ruswil"
+      }
+    },
+    {
+      "bfs": 1030,
+      "how": "Mosen → Aesch-Mosen; Müswangen → Müswangen; Altwis, Gelfingen, Hämikon, Hitzkirch, Retschwil, Richensee, Sulz → Hitzkirch.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Mosen": "lu-aesch-mosen",
+        "Müswangen": "lu-mueswangen",
+        "Hitzkirch": "lu-hitzkirch",
+        "Altwis": "lu-hitzkirch",
+        "Gelfingen": "lu-hitzkirch",
+        "Hämikon": "lu-hitzkirch",
+        "Retschwil": "lu-hitzkirch",
+        "Richensee": "lu-hitzkirch",
+        "Sulz": "lu-hitzkirch"
+      }
+    },
+    {
+      "bfs": 1041,
+      "how": "Honeriweid → Aesch-Mosen; übrige Gemeinde → Schongau.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Honeriweid": "lu-aesch-mosen",
+        "Schongau (übriges Gebiet)": "lu-schongau"
+      }
+    },
+    {
+      "bfs": 1039,
+      "how": "Laufenberg → Hitzkirch; übrige Gemeinde → Römerswil.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Laufenberg": "lu-hitzkirch",
+        "Römerswil (übriges Gebiet)": "lu-roemerswil"
+      }
+    },
+    {
+      "bfs": 1032,
+      "how": "Kleinwangen und Lieli (PLZ 6277) → Kleinwangen; Hohenrain (6276) → Hohenrain. Abgrenzung nicht publiziert, aus Pfarreisitz abgeleitet.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Hohenrain (6276)": "lu-hohenrain",
+        "Kleinwangen (6277)": "lu-kleinwangen",
+        "Lieli (6277)": "lu-kleinwangen"
+      }
+    },
+    {
+      "bfs": 1097,
+      "how": "Pfeffikon (PLZ 5735) → Pfeffikon; übrige Gemeinde → Rickenbach.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Pfeffikon (5735)": "lu-pfeffikon",
+        "Rickenbach (6221)": "lu-rickenbach"
+      }
+    },
+    {
+      "bfs": 1081,
+      "how": "Grundsätzlich Beromünster; Weiler Maihusen (Ortsteil Gunzwil) → Pfeffikon; laut Kirchgemeinde Sursee wohnen auch Mitglieder der Kirchgemeinde Sursee in Beromünster (Gebiet nicht publiziert).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Beromünster (übriges Gebiet)": "lu-beromuenster",
+        "Maihusen (Gunzwil)": "lu-pfeffikon",
+        "Teil mit Mitgliedern der Kirchgemeinde Sursee (Gebiet nicht publiziert)": "lu-sursee"
+      }
+    },
+    {
+      "bfs": 1095,
+      "how": "Oberkircherberg → Sursee; übrige Gemeinde → Oberkirch.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Oberkircherberg": "lu-sursee",
+        "Oberkirch (übriges Gebiet)": "lu-oberkirch"
+      }
+    },
+    {
+      "bfs": 1104,
+      "how": "Winikon (PLZ 6235) → Winikon; Triengen, Kulmerau, Wilihof → Triengen.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Winikon (6235)": "lu-winikon",
+        "Triengen": "lu-triengen",
+        "Kulmerau": "lu-triengen",
+        "Wilihof": "lu-triengen"
+      }
+    },
+    {
+      "bfs": 1125,
+      "how": "Dagmerseller Lätten → Winikon; übrige Gemeinde (Dagmersellen, Uffikon, Buchs) → Hürntal.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Lätten": "lu-winikon",
+        "Dagmersellen, Uffikon, Buchs": "lu-huerntal"
+      }
+    },
+    {
+      "bfs": 1136,
+      "how": "Geiss (6123) → Geiss; Menzberg (6125) → Menzberg; Menznau (6122) → Menznau; einzelne Teile gehören zu Doppleschwand. Abgrenzung nicht publiziert.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Menznau (6122)": "lu-menznau",
+        "Geiss (6123)": "lu-geiss",
+        "Menzberg (6125)": "lu-menzberg",
+        "Teile an der Grenze zu Doppleschwand (nicht publiziert)": "lu-doppleschwand"
+      }
+    },
+    {
+      "bfs": 1107,
+      "how": "Grundsätzlich Wolhusen; Teile der Gemeinde gehören zu Doppleschwand (Abgrenzung nicht publiziert).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Wolhusen (übriges Gebiet)": "lu-wolhusen",
+        "Teile an der Grenze zu Doppleschwand (nicht publiziert)": "lu-doppleschwand"
+      }
+    },
+    {
+      "bfs": 1007,
+      "how": "Grundsätzlich Romoos-Bramboden; Teile der Gemeinde gehören zu Doppleschwand (Abgrenzung nicht publiziert).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Romoos, Bramboden": "lu-romoos-bramboden",
+        "Teile an der Grenze zu Doppleschwand (nicht publiziert)": "lu-doppleschwand"
+      }
+    },
+    {
+      "bfs": 1139,
+      "how": "Ortsteil St. Urban (PLZ 4915) → St. Urban; Pfaffnau → Pfaffnau-Roggliswil.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "St. Urban (4915)": "lu-st-urban",
+        "Pfaffnau (6264)": "lu-pfaffnau-roggliswil"
+      }
+    },
+    {
+      "bfs": 1140,
+      "how": "Langnau (PLZ 6262, ehemalige Gemeinde Langnau) → Langnau; Richenthal (6263) → Richenthal; Reiden → Reiden.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Reiden (6260)": "lu-reiden",
+        "Langnau b. Reiden (6262)": "lu-langnau",
+        "Richenthal (6263)": "lu-richenthal"
+      }
+    },
+    {
+      "bfs": 1010,
+      "how": "Ortsteil Marbach → Marbach, ausser den Höfen ab dem Hilfernbach Richtung Wiggen, Längmatten, Wissenbach und Schärligtal bis Schlattbrücke (→ Escholzmatt); Escholzmatt und Wiggen → Escholzmatt; Liegenschaften Tendli und Ober Tendli → Flühli.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Escholzmatt": "lu-escholzmatt",
+        "Wiggen": "lu-escholzmatt",
+        "Marbach": "lu-marbach",
+        "Tendli, Ober Tendli": "lu-fluehli"
+      }
+    },
+    {
+      "bfs": 1004,
+      "how": "Unterer Gemeindeteil von der Lammschlucht bis zur Hirsegg (ohne Mueshütten und Ober Mueshütten) → Flühli; oberer Teil → Sörenberg.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Flühli (unterer Teil)": "lu-fluehli",
+        "Sörenberg (oberer Teil)": "lu-soerenberg"
+      }
+    },
+    {
+      "bfs": 1002,
+      "how": "Enklave Dieplischwand → Hasle; übrige Gemeinde (inkl. Finsterwald, Rengg, Ebnet, Rotmoos) → Entlebuch.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Dieplischwand": "lu-hasle",
+        "Entlebuch, Finsterwald, Rengg, Ebnet, Rotmoos": "lu-entlebuch"
+      }
+    },
+    {
+      "bfs": 1008,
+      "how": "Höfe Buechli und Telle → Hasle; übrige Gemeinde → Schüpfheim (mit Ausnahme weniger Liegenschaften).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Höfe Buechli und Telle": "lu-hasle",
+        "Schüpfheim (übriges Gebiet)": "lu-schuepfheim"
+      }
+    },
+    {
+      "bfs": 1129,
+      "how": "Rund die Hälfte des an Zell angrenzenden Teils → Zell; übrige Gemeinde → Grossdietwil (Steuereinheiten 2026). Genaue Grenze nicht publiziert.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Teil angrenzend an Zell": "lu-zell",
+        "Fischbach (übriges Gebiet)": "lu-grossdietwil"
+      }
+    },
+    {
+      "bfs": 1150,
+      "how": "Grundsätzlich Zell; drei Liegenschaften gehören zu Ufhusen.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Zell (übriges Gebiet)": "lu-zell",
+        "drei Liegenschaften an der Grenze zu Ufhusen (nicht publiziert)": "lu-ufhusen"
+      }
+    },
+    {
+      "bfs": 1135,
+      "how": "Grundsätzlich Luthern; eine Liegenschaft gehört zu Ufhusen.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Luthern (übriges Gebiet)": "lu-luthern",
+        "eine Liegenschaft an der Grenze zu Ufhusen (nicht publiziert)": "lu-ufhusen"
+      }
+    },
+    {
+      "bfs": 1123,
+      "how": "Grundsätzlich Altishofen-Nebikon; einige Höfe gehören zu Zell.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Altishofen, Ebersecken": "lu-altishofen-nebikon",
+        "einige Höfe an der Grenze zu Zell (nicht publiziert)": "lu-zell"
+      }
+    },
+    {
+      "bfs": 1143,
+      "how": "Grundsätzlich Schötz-Ohmstal; einige Höfe gehören zu Zell.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Schötz, Ohmstal": "lu-schoetz-ohmstal",
+        "einige Höfe an der Grenze zu Zell (nicht publiziert)": "lu-zell"
+      }
+    },
+    {
+      "bfs": 1151,
+      "how": "Grundsätzlich Willisau (inkl. Gettnau); einige Höfe gehören zu Zell.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Willisau, Gettnau": "lu-willisau",
+        "einige Höfe an der Grenze zu Zell (nicht publiziert)": "lu-zell"
+      }
+    },
+    {
+      "bfs": 1023,
+      "how": "Grundsätzlich Ballwil; einzelne Höfe/Weiler gehören zu Inwil.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Ballwil (übriges Gebiet)": "lu-ballwil",
+        "einzelne Höfe/Weiler gegen Inwil (nicht publiziert)": "lu-inwil"
+      }
+    },
+    {
+      "bfs": 1026,
+      "how": "Grundsätzlich Eschenbach; einzelne Höfe gehören zu Ballwil bzw. Inwil.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Eschenbach (übriges Gebiet)": "lu-eschenbach",
+        "einzelne Höfe gegen Ballwil (nicht publiziert)": "lu-ballwil",
+        "einzelne Höfe/Weiler gegen Inwil (nicht publiziert)": "lu-inwil"
+      }
+    },
+    {
+      "bfs": 1033,
+      "how": "Grundsätzlich Inwil; einzelne Höfe gehören zu Ballwil.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Inwil (übriges Gebiet)": "lu-inwil",
+        "einzelne Höfe gegen Ballwil (nicht publiziert)": "lu-ballwil"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Gebietsgrundlage: Die Kirchenverfassung (Anhang, Ausgabe 2002) nennt nur die Namen der Kirchgemeinden, keine Gebiete. Die Hauptzuordnung je Gemeinde stammt aus den Steuereinheiten 2026 der Dienststelle Steuern (eine Kirchgemeinde je Gemeinde); Abweichungen (Ortsteile, Weiler, Höfe) aus den Selbstbeschreibungen der Kirchgemeinden. Wo eine Gemeinde laut Kirchgemeinde auch nur einzelne Höfe an eine andere Kirchgemeinde abgibt, ist sie als geteilt erfasst.",
+    "Viele Kirchgemeinden publizieren keine eigene Postadresse, nur Namen und Privatadressen von Behördenmitgliedern. Dort ist die Adresse des Pfarramts bzw. Pastoralraum-Sekretariats erfasst (address_type pfarramt/sekretariat), adressiert an den Kirchenrat. Das widerspricht dem Wunsch, die Pfarrei nicht zu informieren; vor Produktivsetzung klären.",
+    "Das Verzeichnis «Kirchgemeinden und Präsidien» der Landeskirche nennt je Kirchenrat eine Adresse, die meist die Privatadresse des Präsidiums ist; diese Strassenadressen wurden nicht übernommen.",
+    "Stadt Luzern: Der WFS «Einteilung katholischer Kirchgemeinden» (map.stadtluzern.ch) war am 28.10.2026 nicht erreichbar (TLS-Abbruch); die Ortsteil-Zuordnung beruht auf den Angaben der Kirchgemeinden Littau und Reussbühl. Die Fusion Luzern–Reussbühl ist angekündigt (Legislatur bis 31.12.2026 verlängert); Reussbühl-Adresse ab 2027 prüfen.",
+    "Gettnau: Kirchgemeinde Gettnau erscheint noch in den Finanzkennzahlen 2024, aber nicht mehr im Verzeichnis 2026 und nicht in den Steuereinheiten 2026; angenommen ist, dass sie in Willisau aufgegangen ist (nicht explizit bestätigt).",
+    "Region Willisau (Willisau, Menznau, Geiss, Menzberg, Hergiswil): Website prrw.ch liefert 404; Gebiete von Geiss und Menzberg und die Adressen nur aus dem Pfarreiverzeichnis.",
+    "Pastoralraum Baldeggersee (Hochdorf, Hohenrain, Kleinwangen, Römerswil): Website prbs.ch nur per JavaScript, nicht ausgewertet; Abgrenzung Hohenrain/Kleinwangen nicht publiziert.",
+    "Nicht publizierte Abgrenzungen: Teile von Wolhusen, Menznau und Romoos (→ Doppleschwand), Schachen (Werthenstein/Malters), der Sursee-Anteil in Beromünster, Mueshütten (Flühli), Perlen-Teil der Gemeinde Root, Altishofen-Ortschaft 6263 Richenthal.",
+    "Austritt: Die Kirchenverfassung verlangt die Erklärung, der Konfession nicht mehr anzugehören; das Bundesgericht (BGE 134 I 75, Luzern) hat den Austritt nur aus der staatskirchenrechtlichen Körperschaft für zulässig erklärt. Ab wann die Kirchensteuerpflicht endet, ist kantonal nicht auf den Seiten der Landeskirche publiziert (Hitzkirchertal: gültig mit Datum des Poststempels)."
+  ]
+}

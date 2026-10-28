@@ -1,0 +1,1750 @@
+{
+  "canton": "TG",
+  "body": {
+    "name": "Katholische Landeskirche des Kantons Thurgau",
+    "short": "Katholische Landeskirche Thurgau",
+    "website": "https://www.kath-tg.ch/",
+    "postal": [
+      "Katholische Landeskirche Thurgau",
+      "Franziskus-Weg 3",
+      "8570 Weinfelden"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchgemeinderat der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich, eigenhändig unterschrieben (Ehepartner je einzeln; ab 16 Jahren selbst); mit Personalien (Name, Wohnort, Geburtsdatum und -ort) und Taufort",
+    "beglaubigung": false,
+    "beglaubigung_note": "",
+    "wirkung": "Wirksam ab dem Tag nach Eingang des Schreibens; damit entfällt die Kirchensteuerpflicht (Kreisschreiben Kirchenrat/Bischofsvikariat vom 17.2.2010).",
+    "notes": "Die Erklärung muss den Willen ausdrücken, nicht mehr der katholischen Kirche oder der Kirchgemeinde angehören zu wollen (§ 6 Abs. 2 LKV); ein Vorbehalt «bleibe katholisch» macht sie nicht ungültig, löst aber das Verfahren des Bistums Basel zum «partiellen Kirchenaustritt» aus. Die Kirchgemeinde informiert laut Kreisschreiben in jedem Fall die Politische Gemeinde, das Wohnorts- und das Taufpfarramt.",
+    "source": "https://www.kath-tg.ch/sites/default/files/2022-01/188.21%20Landeskirchenverfassung.pdf"
+  },
+  "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.kath-tg.ch/sites/default/files/2022-01/188.21%20Landeskirchenverfassung.pdf",
+    "https://www.kath-tg.ch/sites/default/files/website_content/kathlktg/Landeskirche/Rechtssammlung/Landeskirchl.%20Recht/Kirchgemeinden/Kirchenaustritte/Kirchenaustritt_Kreisschreiben%202010.pdf",
+    "https://www.kath-tg.ch/de/ich-moechte/kircheneintritt-und-austritt",
+    "https://data.tg.ch/explore/dataset/sk-stat-162/",
+    "https://data.tg.ch/explore/dataset/sk-stat-72/",
+    "https://www.kath-tg.ch/sites/default/files/pdf_downloads/Rickenbach%20-%20Wil.pdf",
+    "https://www.kath-tg.ch/de/landeskirche/rechtssammlung/kirchgemeinden",
+    "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+    "https://pfarrei-berg-freidorf.ch/behoerden/kirchenverwaltungsrat/",
+    "https://kathwil.ch/ueber-uns/administration/",
+    "https://aadorf-taenikon.kath-tg.ch/de/kirchgemeinde-2/kirchgemeinderat",
+    "https://pra.kath-tg.ch/de/kontakt/sekretariat",
+    "https://www.kath-amriswil.ch/de/seelsorge-2/pfarreisekretariat-st-stefan",
+    "https://www.kath-arbon.ch/was-wir-tun/gremien/kirchgemeinderat",
+    "https://www.kath-berg.ch/de/kirchgemeinde-8/kirchgemeinderat",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/bettwiesen/kirchgemeinderat-bettwiesen",
+    "https://pastoralraum-bischofsberg.ch/kirchgemeinde-bischofszell/",
+    "https://www.kath-ermatingen.ch/de/kirchgemeinde-7/kirchgemeinderat",
+    "https://www.kath-fischingen.ch/de/gut-zu-wissen/sekretariat",
+    "https://www.kath-frauenfeldplus.ch/datenschutz",
+    "https://kath-hagenwil.ch/kontakt",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/kirchgemeindeverband/heiligkreuz/kirchgemeinderat-heiligkreuz-0",
+    "https://homburg.kath-tg.ch/de/kirchgemeinde-3/kirchgemeinderat",
+    "https://www.kath-horn.ch/impressum",
+    "https://www.kath-kreuzlingen.ch/de/kirchgemeinde-12/geschaefte/kirchgemeinde-organisation-kontakt-kirchgemeinderat",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/lommis/kirchgemeinderat-lommis-0",
+    "https://www.kath-muellheim.ch/de/kirchgemeinde-0/kirchgemeinderat",
+    "https://www.kath-pfyn.ch/de/kontakt-19/personenverzeichnis",
+    "https://www.kath-amseeundrhy.ch/de/neu-ab-112026-kirchgemeinde-rodenberg-rhy/kg-rodenberg-rhy-adresse",
+    "https://www.kathromanshorn.ch/fileadmin/user_upload/Dokumentation/Impressum_Website_20240311.pdf",
+    "https://www.pastoralraum-hinterthurgau.ch/sites/default/files/pdf_downloads/Botschaft_2026_Jahresrechnung_2025_0.pdf",
+    "https://www.kath-sommeri.ch/de/impressum",
+    "https://www.kath-steckborn.ch/de/kirchgemeinde-1/kirchgemeinderat",
+    "https://www.kath-steinebrunn.ch/de/kirchgemeinde-10/kirchgemeinderat",
+    "https://kathsulgen.ch/adressen/",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinderat-tobel-0",
+    "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-untersee-rhein/kirchgemeinde-untersee-rhein-adresse",
+    "https://www.katholisch-waengi.ch/de/kirchgemeinde-4/kirchgemeinderat",
+    "https://www.katholischweinfelden.ch/impressum",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/welfensberg/kirchgemeinderat-welfensberg-0",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/aufgabe-wertbuehl-bussnang/kirchgemeinderat-wertbuehl-bussnang-0",
+    "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/wuppenau/kirchgemeinderat-wuppenau-0"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "sg-berg-freidorf",
+      "name": "Katholische Kirchgemeinde Berg-Freidorf",
+      "postal": [
+        "Katholische Kirchgemeinde Berg-Freidorf",
+        "Kirchenverwaltungsrat, Geschäftsführung",
+        "Hauptstrasse 36",
+        "9323 Steinach"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://pfarrei-berg-freidorf.ch/",
+      "source": "https://pfarrei-berg-freidorf.ch/behoerden/kirchenverwaltungsrat/",
+      "confidence": "medium",
+      "note": "St. gallische KG Berg-Freidorf; umfasst den Ortsteil Freidorf der Gemeinde Roggwil TG (Siedlungsverzeichnis TG 2026, Geodatensatz SG00090). Für Mitglieder einer st. gallischen KG gilt voraussichtlich st. gallisches Recht (beglaubigte Unterschrift) – Vertrag nicht publiziert.",
+      "bfs": [],
+      "partial_bfs": [
+        4431
+      ]
+    },
+    {
+      "id": "sg-wil",
+      "name": "Katholische Kirchgemeinde Wil",
+      "postal": [
+        "Katholische Kirchgemeinde Wil",
+        "Administration Pfarreizentrum Wil",
+        "Lerchenfeldstrasse 3",
+        "9500 Wil"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kathwil.ch",
+      "website": "https://kathwil.ch/",
+      "source": "https://kathwil.ch/ueber-uns/administration/",
+      "confidence": "medium",
+      "note": "St. gallische KG Wil; die Katholiken von Rickenbach TG und Wilen TG sind vollberechtigte Mitglieder und unterstehen st. gallischem Recht (Vertrag Konfessionsteil SG – Landeskirche TG vom 9.12.2014, § 2–3): Austritt an den Kirchenverwaltungsrat Wil mit beglaubigter Unterschrift (Art. 6 Abs. 2 VKK).",
+      "bfs": [
+        4751,
+        4786
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "tg-aadorf-taenikon",
+      "name": "Katholische Kirchgemeinde Aadorf-Tänikon",
+      "postal": [
+        "Katholische Kirchgemeinde Aadorf-Tänikon",
+        "Kirchgemeinderat",
+        "Kirchplatz 4a",
+        "8355 Aadorf"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-aadorf.ch",
+      "website": "https://aadorf-taenikon.kath-tg.ch/de",
+      "source": "https://aadorf-taenikon.kath-tg.ch/de/kirchgemeinde-2/kirchgemeinderat",
+      "confidence": "high",
+      "note": "Kirchgemeinderat ist über Pfarramt St. Aurelia, Kirchplatz 4a, erreichbar (so auf der KGR-Seite publiziert).",
+      "bfs": [
+        4551
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "tg-altnau-guettingen-muensterlingen",
+      "name": "Katholische Kirchgemeinde Altnau-Güttingen-Münsterlingen",
+      "postal": [
+        "Katholische Kirchgemeinde Altnau-Güttingen-Münsterlingen",
+        "Kirchgemeinderat",
+        "Sommeristrasse 8",
+        "8594 Güttingen"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@kath-altnau.ch",
+      "website": "https://pra.kath-tg.ch/de",
+      "source": "https://pra.kath-tg.ch/de/kontakt/sekretariat",
+      "confidence": "medium",
+      "note": "Sekretariat Pastoralraum Region Altnau im Pfarrhaus Güttingen; KG hat gemäss https://pra.kath-tg.ch/de/kirchgemeinde/kirchgemeinde-agm Sitz in Güttingen (Fusion 2018).",
+      "bfs": [
+        4426,
+        4641,
+        4643,
+        4656,
+        4681,
+        4691
+      ],
+      "partial_bfs": [
+        4683,
+        4901
+      ]
+    },
+    {
+      "id": "tg-amriswil",
+      "name": "Katholische Kirchgemeinde St. Stefan Amriswil",
+      "postal": [
+        "Katholische Kirchgemeinde St. Stefan Amriswil",
+        "Kirchgemeinderat",
+        "Alleestrasse 17",
+        "8580 Amriswil"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-amriswil.ch",
+      "website": "https://www.kath-amriswil.ch/de",
+      "source": "https://www.kath-amriswil.ch/de/seelsorge-2/pfarreisekretariat-st-stefan",
+      "confidence": "medium",
+      "note": "Nur Adresse Kath. Pfarramt St. Stefan publiziert. Fusionsgespräche mit Hagenwil seit Juni 2026, Ziel Abschluss in Legislatur 2026–2030 (Protokoll KGV 7.5.2026).",
+      "bfs": [],
+      "partial_bfs": [
+        4416,
+        4461
+      ]
+    },
+    {
+      "id": "tg-arbon",
+      "name": "Katholische Kirchgemeinde Arbon",
+      "postal": [
+        "Katholische Kirchgemeinde Arbon",
+        "Kirchgemeinderat",
+        "Promenadenstrasse 5",
+        "9320 Arbon"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "kirchgemeinderat@kath-arbon.ch",
+      "website": "https://www.kath-arbon.ch",
+      "source": "https://www.kath-arbon.ch/was-wir-tun/gremien/kirchgemeinderat",
+      "confidence": "high",
+      "note": "Seite nennt «Kath. Kirchgemeinde St. Martin, Kirchgemeinderat, Promenadenstrasse 5»; Geschäftsstelle gleiche Adresse.",
+      "bfs": [
+        4401
+      ],
+      "partial_bfs": [
+        4431
+      ]
+    },
+    {
+      "id": "tg-berg-tg",
+      "name": "Katholische Kirchgemeinde Berg",
+      "postal": [
+        "Katholische Kirchgemeinde Berg",
+        "Kirchgemeinderat",
+        "Hauptstrasse 37a",
+        "8572 Berg TG"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-berg.ch",
+      "website": "https://www.kath-berg.ch/de",
+      "source": "https://www.kath-berg.ch/de/kirchgemeinde-8/kirchgemeinderat",
+      "confidence": "medium",
+      "note": "Nur Adresse Pfarramt St. Mauritius publiziert.",
+      "bfs": [
+        4891
+      ],
+      "partial_bfs": [
+        4666,
+        4901
+      ]
+    },
+    {
+      "id": "tg-bettwiesen-sedel",
+      "name": "Katholische Kirchgemeinde Bettwiesen",
+      "postal": [
+        "Katholische Kirchgemeinde Bettwiesen",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/bettwiesen/kirchgemeinderat-bettwiesen",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse. Offizieller Name auf der Website: Kirchgemeinde Bettwiesen (ohne «Sedel»).",
+      "bfs": [
+        4716
+      ],
+      "partial_bfs": [
+        4746,
+        4776
+      ]
+    },
+    {
+      "id": "tg-bischofszell",
+      "name": "Katholische Kirchgemeinde Bischofszell",
+      "postal": [
+        "Katholische Kirchgemeinde Bischofszell",
+        "Kirchgemeinderat",
+        "Schottengasse 7",
+        "9220 Bischofszell"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat.bischofszell@pastoralraum-bischofsberg.ch",
+      "website": "https://pastoralraum-bischofsberg.ch/",
+      "source": "https://pastoralraum-bischofsberg.ch/kirchgemeinde-bischofszell/",
+      "confidence": "high",
+      "note": "Kirchgemeindeverwaltung im Pastoralraumsekretariat Schottengasse 7 (https://pastoralraum-bischofsberg.ch/ueber-uns/). KG seit 1.1.2019 (Bischofszell+Sitterdorf).",
+      "bfs": [
+        4486,
+        4511
+      ],
+      "partial_bfs": [
+        4471,
+        4495
+      ]
+    },
+    {
+      "id": "tg-ermatingen",
+      "name": "Katholische Kirchgemeinde Ermatingen",
+      "postal": [
+        "Katholische Kirchgemeinde Ermatingen",
+        "Kirchgemeinderat",
+        "Poststrasse 12",
+        "8272 Ermatingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-ermatingen.ch",
+      "website": "https://www.kath-ermatingen.ch/de",
+      "source": "https://www.kath-ermatingen.ch/de/kirchgemeinde-7/kirchgemeinderat",
+      "confidence": "medium",
+      "note": "Nur Adresse Pfarrei St. Albin publiziert.",
+      "bfs": [
+        4646,
+        4851
+      ],
+      "partial_bfs": [
+        4701
+      ]
+    },
+    {
+      "id": "tg-fischingen",
+      "name": "Katholische Kirchgemeinde Fischingen",
+      "postal": [
+        "Katholische Kirchgemeinde Fischingen",
+        "Kirchgemeinderat",
+        "Kurhausstrasse 29a",
+        "8374 Dussnang"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-fischingen.ch",
+      "website": "https://www.kath-fischingen.ch/de",
+      "source": "https://www.kath-fischingen.ch/de/gut-zu-wissen/sekretariat",
+      "confidence": "medium",
+      "note": "Pfarreisekretariat St. Idda Fischingen in Dussnang; KG-Seite nennt keine eigene Adresse.",
+      "bfs": [
+        4721,
+        4726
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "tg-frauenfeldplus",
+      "name": "Katholische Kirchgemeinde FrauenfeldPLUS",
+      "postal": [
+        "Katholische Kirchgemeinde FrauenfeldPLUS",
+        "Kirchgemeinderat",
+        "St. Gallerstrasse 24",
+        "8500 Frauenfeld"
+      ],
+      "address_type": "sekretariat",
+      "email": "pfarramt@kath-frauenfeldplus.ch",
+      "website": "https://www.kath-frauenfeldplus.ch/",
+      "source": "https://www.kath-frauenfeldplus.ch/datenschutz",
+      "confidence": "high",
+      "note": "Verantwortliche Stelle der KG: Pfarreisekretariat, Pfarreizentrum Klösterli. Verwaltung (Tel. 052 725 01 67) ohne eigene publizierte Postadresse.",
+      "bfs": [
+        4561,
+        4566,
+        4571,
+        4601,
+        4616,
+        4621,
+        4821
+      ],
+      "partial_bfs": [
+        4611,
+        4811
+      ]
+    },
+    {
+      "id": "tg-hagenwil",
+      "name": "Katholische Kirchgemeinde Hagenwil bei Amriswil",
+      "postal": [
+        "Katholische Kirchgemeinde Hagenwil bei Amriswil",
+        "8580 Hagenwil b. Amriswil"
+      ],
+      "address_type": "praesidium",
+      "website": "https://kath-hagenwil.ch/",
+      "source": "https://kath-hagenwil.ch/kontakt",
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen: Website nennt keine Postadresse (nur E-Mail/Telefon des Kirchgemeinderats). Fusion mit Amriswil angestrebt (Kirchenrat-Vorbehalt «bis 2029», Protokoll 22.4.2026).",
+      "bfs": [],
+      "partial_bfs": [
+        4461
+      ]
+    },
+    {
+      "id": "tg-heiligkreuz",
+      "name": "Katholische Kirchgemeinde Heiligkreuz",
+      "postal": [
+        "Katholische Kirchgemeinde Heiligkreuz",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/kirchgemeindeverband/heiligkreuz/kirchgemeinderat-heiligkreuz-0",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse.",
+      "bfs": [],
+      "partial_bfs": [
+        4471,
+        4501,
+        4756,
+        4791
+      ]
+    },
+    {
+      "id": "tg-homburg",
+      "name": "Katholische Kirchgemeinde Homburg",
+      "postal": [
+        "Katholische Kirchgemeinde Homburg",
+        "Kirchgemeinderat",
+        "Städtli 20",
+        "8505 Pfyn"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat.kath-homburg@bluewin.ch",
+      "website": "https://homburg.kath-tg.ch/de",
+      "source": "https://homburg.kath-tg.ch/de/kirchgemeinde-3/kirchgemeinderat",
+      "confidence": "medium",
+      "note": "Sekretariat der Kath. Pfarrämter Homburg & Gündelhart befindet sich in Pfyn. Fusion Homburg+Pfyn+Müllheim zur KG «Seerücken-Thur» per 1.1.2027 geplant (Urnenabstimmung 29.11.2026; Verwaltung der neuen KG in Müllheim), Quelle: https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf",
+      "bfs": [],
+      "partial_bfs": [
+        4816,
+        4846
+      ]
+    },
+    {
+      "id": "tg-horn",
+      "name": "Katholische Kirchgemeinde Horn",
+      "postal": [
+        "Katholische Kirchgemeinde Horn",
+        "Kirchgemeinderat",
+        "Kirchstrasse 7",
+        "9326 Horn"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-horn.ch",
+      "website": "https://www.kath-horn.ch/",
+      "source": "https://www.kath-horn.ch/impressum",
+      "confidence": "high",
+      "note": "Impressum: Katholische Kirchgemeinde Horn, Kirchstrasse 7 (= Katholisches Pfarramt).",
+      "bfs": [
+        4421
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "tg-kreuzlingen-emmishofen",
+      "name": "Katholische Kirchgemeinde Kreuzlingen-Emmishofen",
+      "postal": [
+        "Katholische Kirchgemeinde Kreuzlingen-Emmishofen",
+        "Kirchgemeinderat",
+        "Gaissbergstrasse 1",
+        "8280 Kreuzlingen"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-kreuzlingen.ch",
+      "website": "https://www.kath-kreuzlingen.ch/de",
+      "source": "https://www.kath-kreuzlingen.ch/de/kirchgemeinde-12/geschaefte/kirchgemeinde-organisation-kontakt-kirchgemeinderat",
+      "confidence": "high",
+      "note": "Adresse der Kath. Pfarrämter St. Ulrich & St. Stefan (Footer der KG-Website, publiziert als «Gaissbergstr. 1»); Verwaltung: verwaltung@kath-kreuzlingen.ch, ohne eigene Postadresse.",
+      "bfs": [
+        4651,
+        4671,
+        4696
+      ],
+      "partial_bfs": [
+        4666,
+        4683,
+        4701
+      ]
+    },
+    {
+      "id": "tg-lommis",
+      "name": "Katholische Kirchgemeinde Lommis",
+      "postal": [
+        "Katholische Kirchgemeinde Lommis",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/lommis/kirchgemeinderat-lommis-0",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse.",
+      "bfs": [
+        4741
+      ],
+      "partial_bfs": [
+        4611
+      ]
+    },
+    {
+      "id": "tg-muellheim",
+      "name": "Katholische Kirchgemeinde Müllheim",
+      "postal": [
+        "Katholische Kirchgemeinde Müllheim",
+        "Kirchgemeinderat",
+        "Storenberg 4",
+        "8555 Müllheim"
+      ],
+      "address_type": "pfarramt",
+      "email": "kathpfarrei.muellheim@bluewin.ch",
+      "website": "https://www.kath-muellheim.ch/de",
+      "source": "https://www.kath-muellheim.ch/de/kirchgemeinde-0/kirchgemeinderat",
+      "confidence": "medium",
+      "note": "Nur Adresse Pfarrei Maria Himmelfahrt (Sekretariat) publiziert. Fusion Homburg+Pfyn+Müllheim zur KG «Seerücken-Thur» per 1.1.2027 geplant (Urnenabstimmung 29.11.2026; Verwaltung der neuen KG in Müllheim), Quelle: https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf",
+      "bfs": [
+        4831,
+        4951
+      ],
+      "partial_bfs": [
+        4590,
+        4701,
+        4846
+      ]
+    },
+    {
+      "id": "tg-pfyn",
+      "name": "Katholische Kirchgemeinde Pfyn",
+      "postal": [
+        "Katholische Kirchgemeinde Pfyn",
+        "Kirchgemeinderat",
+        "Städtli 20",
+        "8505 Pfyn"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarrei.pfyn@bluewin.ch",
+      "website": "https://www.kath-pfyn.ch/de",
+      "source": "https://www.kath-pfyn.ch/de/kontakt-19/personenverzeichnis",
+      "confidence": "medium",
+      "note": "Nur Adresse Katholisches Pfarramt publiziert; KGR-Seite zeigt noch Amtsdauer 2022–2026. Fusion Homburg+Pfyn+Müllheim zur KG «Seerücken-Thur» per 1.1.2027 geplant (Urnenabstimmung 29.11.2026; Verwaltung der neuen KG in Müllheim), Quelle: https://www.kath-pfyn.ch/sites/default/files/pdf_downloads/Fusionsvertrag%20final_1.pdf",
+      "bfs": [
+        4841
+      ],
+      "partial_bfs": [
+        4811,
+        4816
+      ]
+    },
+    {
+      "id": "tg-rodenberg-rhy",
+      "name": "Katholische Kirchgemeinde Rodenberg-Rhy",
+      "postal": [
+        "Katholische Kirchgemeinde Rodenberg-Rhy",
+        "Kirchgemeinderat",
+        "Schulstrasse 16",
+        "8253 Diessenhofen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.diessenhofen@kath-amseeundrhy.ch",
+      "website": "https://www.kath-amseeundrhy.ch/de",
+      "source": "https://www.kath-amseeundrhy.ch/de/neu-ab-112026-kirchgemeinde-rodenberg-rhy/kg-rodenberg-rhy-adresse",
+      "confidence": "high",
+      "note": "Neu seit 1.1.2026: Fusion der KG Diessenhofen, Basadingen und Paradies. Adresse = Sekretariat Diessenhofen.",
+      "bfs": [
+        4536,
+        4545,
+        4546
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "tg-romanshorn",
+      "name": "Katholische Kirchgemeinde Romanshorn",
+      "postal": [
+        "Katholische Kirchgemeinde Romanshorn",
+        "Kirchgemeinderat",
+        "Schlossbergstrasse 24",
+        "8590 Romanshorn"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kathromanshorn.ch",
+      "source": "https://www.kathromanshorn.ch/fileadmin/user_upload/Dokumentation/Impressum_Website_20240311.pdf",
+      "confidence": "high",
+      "note": "Impressum (11.3.2024): kath. Kirchgemeinde Romanshorn/Salmsach/Uttwil, Schlossbergstrasse 24 (= Kath. Pfarramt).",
+      "bfs": [
+        4436,
+        4441,
+        4451
+      ],
+      "partial_bfs": [
+        4416
+      ]
+    },
+    {
+      "id": "tg-sirnach",
+      "name": "Katholische Kirchgemeinde Sirnach",
+      "postal": [
+        "Katholische Kirchgemeinde Sirnach",
+        "Kirchgemeinderat",
+        "Wilerstrasse 1",
+        "8370 Sirnach"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@prhtg.ch",
+      "website": "https://www.pastoralraum-hinterthurgau.ch/de",
+      "source": "https://www.pastoralraum-hinterthurgau.ch/sites/default/files/pdf_downloads/Botschaft_2026_Jahresrechnung_2025_0.pdf",
+      "confidence": "high",
+      "note": "Botschaft 2026: Verwalter, Wilerstrasse 1, 8370 Sirnach (Pfarreizentrum St. Remigius, dort auch Pfarreisekretariat).",
+      "bfs": [
+        4724,
+        4761
+      ],
+      "partial_bfs": [
+        4746
+      ]
+    },
+    {
+      "id": "tg-sommeri",
+      "name": "Katholische Kirchgemeinde Sommeri",
+      "postal": [
+        "Katholische Kirchgemeinde Sommeri",
+        "Kirchgemeinderat",
+        "Hefenhoferstrasse 2",
+        "8580 Sommeri"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-sommeri.ch",
+      "website": "https://www.kath-sommeri.ch/de",
+      "source": "https://www.kath-sommeri.ch/de/impressum",
+      "confidence": "high",
+      "bfs": [
+        4406,
+        4446
+      ],
+      "partial_bfs": [
+        4416,
+        4461,
+        4476
+      ]
+    },
+    {
+      "id": "tg-steckborn",
+      "name": "Katholische Kirchgemeinde Steckborn",
+      "postal": [
+        "Katholische Kirchgemeinde Steckborn",
+        "Kirchgemeinderat",
+        "Zelgistrasse 24",
+        "8266 Steckborn"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-steckborn.ch",
+      "website": "https://www.kath-steckborn.ch/de",
+      "source": "https://www.kath-steckborn.ch/de/kirchgemeinde-1/kirchgemeinderat",
+      "confidence": "medium",
+      "note": "Nur Adresse Kath. Pfarramt publiziert.",
+      "bfs": [
+        4801,
+        4864
+      ],
+      "partial_bfs": [
+        4816
+      ]
+    },
+    {
+      "id": "tg-steinebrunn",
+      "name": "Katholische Kirchgemeinde Steinebrunn-Egnach",
+      "postal": [
+        "Katholische Kirchgemeinde Steinebrunn-Egnach",
+        "Kirchgemeinderat",
+        "Winzelnbergstrasse 15",
+        "9314 Steinebrunn"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-steinebrunn.ch",
+      "website": "https://www.kath-steinebrunn.ch/de",
+      "source": "https://www.kath-steinebrunn.ch/de/kirchgemeinde-10/kirchgemeinderat",
+      "confidence": "high",
+      "note": "KG nennt sich selbst «Steinebrunn-Egnach».",
+      "bfs": [
+        4411
+      ],
+      "partial_bfs": [
+        4461
+      ]
+    },
+    {
+      "id": "tg-sulgen",
+      "name": "Katholische Kirchgemeinde Sulgen",
+      "postal": [
+        "Katholische Kirchgemeinde Sulgen",
+        "Kirchgemeinderat",
+        "Rebbergstrasse 11",
+        "8583 Sulgen"
+      ],
+      "address_type": "pfarramt",
+      "email": "kath.pfarr.sulgen@bluewin.ch",
+      "website": "https://kathsulgen.ch/",
+      "source": "https://kathsulgen.ch/adressen/",
+      "confidence": "high",
+      "note": "Footer: Pfarrei St. Peter + Paul | Katholische Kirchgemeinde Sulgen | Rebbergstrasse 11 (Pfarramt/Sekretariat).",
+      "bfs": [
+        4506
+      ],
+      "partial_bfs": [
+        4471,
+        4476,
+        4495,
+        4501,
+        4901,
+        4911
+      ]
+    },
+    {
+      "id": "tg-tobel",
+      "name": "Katholische Kirchgemeinde Tobel",
+      "postal": [
+        "Katholische Kirchgemeinde Tobel",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinderat-tobel-0",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse.",
+      "bfs": [
+        4723
+      ],
+      "partial_bfs": [
+        4711,
+        4776,
+        4881
+      ]
+    },
+    {
+      "id": "tg-untersee-rhein",
+      "name": "Katholische Kirchgemeinde Untersee-Rhein",
+      "postal": [
+        "Katholische Kirchgemeinde Untersee-Rhein",
+        "Kirchgemeinderat",
+        "Frauenfelderstrasse 11",
+        "8264 Eschenz"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.eschenz@kath-amseeundrhy.ch",
+      "website": "https://www.kath-amseeundrhy.ch/de",
+      "source": "https://www.kath-amseeundrhy.ch/de/kirchgemeinden-kirchgemeinde-untersee-rhein/kirchgemeinde-untersee-rhein-adresse",
+      "confidence": "high",
+      "note": "Eigene Adress-Seite der KG; Adresse = Sekretariat Eschenz.",
+      "bfs": [
+        4806,
+        4826,
+        4871
+      ],
+      "partial_bfs": [
+        4811
+      ]
+    },
+    {
+      "id": "tg-waengi",
+      "name": "Katholische Kirchgemeinde Wängi",
+      "postal": [
+        "Katholische Kirchgemeinde Wängi",
+        "Kirchgemeinderat",
+        "Froheggstrasse 13",
+        "9545 Wängi"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kathwaengi.ch",
+      "website": "https://www.katholisch-waengi.ch/de",
+      "source": "https://www.katholisch-waengi.ch/de/kirchgemeinde-4/kirchgemeinderat",
+      "confidence": "high",
+      "note": "Kirchgemeinderat ist über Katholisches Pfarramt Wängi, Froheggstrasse 13, erreichbar (so auf der KGR-Seite publiziert).",
+      "bfs": [
+        4591,
+        4606,
+        4781
+      ],
+      "partial_bfs": []
+    },
+    {
+      "id": "tg-weinfelden",
+      "name": "Katholische Kirchgemeinde Weinfelden",
+      "postal": [
+        "Katholische Kirchgemeinde Weinfelden",
+        "Kirchgemeinderat",
+        "Freiestrasse 13",
+        "8570 Weinfelden"
+      ],
+      "address_type": "pfarramt",
+      "email": "pfarramt@katholischweinfelden.ch",
+      "website": "https://www.katholischweinfelden.ch/",
+      "source": "https://www.katholischweinfelden.ch/impressum",
+      "confidence": "high",
+      "note": "Impressum: Website der Katholischen Kirchgemeinde Weinfelden, Adresse Kath. Kirche St. Johannes/Pfarramt.",
+      "bfs": [
+        4941,
+        4946
+      ],
+      "partial_bfs": [
+        4911
+      ]
+    },
+    {
+      "id": "tg-welfensberg",
+      "name": "Katholische Kirchgemeinde Welfensberg",
+      "postal": [
+        "Katholische Kirchgemeinde Welfensberg",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/welfensberg/kirchgemeinderat-welfensberg-0",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse.",
+      "bfs": [],
+      "partial_bfs": [
+        4756,
+        4791
+      ]
+    },
+    {
+      "id": "tg-wertbuehl-bussnang",
+      "name": "Katholische Kirchgemeinde Wertbühl-Bussnang",
+      "postal": [
+        "Katholische Kirchgemeinde Wertbühl-Bussnang",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden-hauptrubrik/aufgabe-wertbuehl-bussnang/kirchgemeinderat-wertbuehl-bussnang-0",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse. KG seit 1.1.2023 (Fusion Bussnang, Leutmerken, Schönholzerswilen, Wertbühl).",
+      "bfs": [
+        4921
+      ],
+      "partial_bfs": [
+        4501,
+        4590,
+        4611,
+        4711,
+        4756,
+        4881,
+        4911
+      ]
+    },
+    {
+      "id": "tg-wuppenau",
+      "name": "Katholische Kirchgemeinde Wuppenau",
+      "postal": [
+        "Katholische Kirchgemeinde Wuppenau",
+        "Kirchgemeinderat",
+        "c/o Sekretariat Pastoralraum Nollen-Lauchetal-Thur",
+        "Kirchstrasse 7",
+        "9553 Bettwiesen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@pastoralraum.ch",
+      "website": "https://www.nollen-lauchetal-thur.ch/de",
+      "source": "https://www.nollen-lauchetal-thur.ch/de/kirchgemeinden/wuppenau/kirchgemeinderat-wuppenau-0",
+      "confidence": "medium",
+      "note": "Adresse = gemeinsames Sekretariat des Pastoralraums/Kirchgemeindeverbands Nollen-Lauchetal-Thur (Kirchstrasse 7, Bettwiesen); KG-Seite nennt keine eigene Postadresse.",
+      "bfs": [],
+      "partial_bfs": [
+        4756,
+        4791
+      ]
+    }
+  ],
+  "split": [
+    {
+      "bfs": 4416,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Sommeri. KG Romanshorn: Hatswil, Chressibuech, Tohueb. Geteilt zwischen KG St. Stefan Amriswil und KG Sommeri (strassenweise, bei der Kirchgemeinde nachfragen): Moos. KG St. Stefan Amriswil: Chällershof.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Auenhofen (8580 Hefenhofen)": "tg-sommeri",
+        "Hefenhofen (8580 Hefenhofen)": "tg-sommeri",
+        "Brüschwil (8580 Hefenhofen)": "tg-sommeri",
+        "Hamisfeld (8580 Hefenhofen)": "tg-sommeri",
+        "Chatzerüti (8580 Hefenhofen)": "tg-sommeri",
+        "Sonnenberg (8580 Hefenhofen)": "tg-sommeri",
+        "Mosmüli (8580 Hefenhofen)": "tg-sommeri",
+        "Gwand (8580 Hefenhofen)": "tg-sommeri",
+        "Chappehuse (8580 Hefenhofen)": "tg-sommeri",
+        "Chroobärg (8580 Hefenhofen)": "tg-sommeri",
+        "Hatswil (8580 Hefenhofen)": "tg-romanshorn",
+        "Chressibuech (8580 Hefenhofen)": "tg-romanshorn",
+        "Tohueb (8580 Hefenhofen)": "tg-romanshorn",
+        "Chällershof (8580 Hefenhofen)": "tg-amriswil"
+      }
+    },
+    {
+      "bfs": 4431,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Arbon. KG Berg-Freidorf: Freidorf, Neuwil, Haselacker, Hohenbühl, Watt, Habersack, Erchenwil, Lenggenhof, Jakobsberg, Ruggisberg, Tröstliwisen, Frohheim u. a. Laut Steuerfuss-Datensatz 2026 umfasst auch die st. gallische KG Häggenschwil Teile von Roggwil; im Siedlungsverzeichnis erscheint sie nicht.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "Roggwil (9325 Roggwil)": "tg-arbon",
+        "Steineloh (Gemeinde Roggwil) (9320 Frasnacht)": "tg-arbon",
+        "Esserswil (9325 Roggwil)": "tg-arbon",
+        "Falleten (9320 Frasnacht)": "tg-arbon",
+        "Riedern (9325 Roggwil)": "tg-arbon",
+        "Mallisdorf (9325 Roggwil)": "tg-arbon",
+        "Ebnet (Gemeinde Roggwil) (9315 Neukirch (Egnach))": "tg-arbon",
+        "Betenwil (9325 Roggwil)": "tg-arbon",
+        "Häuslen (9325 Roggwil)": "tg-arbon",
+        "Hofen (9325 Roggwil)": "tg-arbon",
+        "Rüti (9325 Roggwil)": "tg-arbon",
+        "Neuhaus (9325 Roggwil)": "tg-arbon",
+        "Bühlerzelg (9320 Stachen)": "tg-arbon",
+        "Erbel (9325 Roggwil)": "tg-arbon",
+        "Gätte (9325 Roggwil)": "tg-arbon",
+        "Waldhof (9325 Roggwil)": "tg-arbon",
+        "Bauhof (9325 Roggwil)": "tg-arbon",
+        "Baumühle (9325 Roggwil)": "tg-arbon",
+        "Holzerhof (9325 Roggwil)": "tg-arbon",
+        "Sonnenberg (9325 Roggwil)": "tg-arbon",
+        "Adlishaus (9315 Neukirch (Egnach))": "tg-arbon",
+        "Mammertshofen (Schloss) (9325 Roggwil)": "tg-arbon",
+        "Bühlhof (9320 Frasnacht)": "tg-arbon",
+        "Freidorf (9306 Freidorf)": "sg-berg-freidorf",
+        "Neuwil (9306 Freidorf)": "sg-berg-freidorf",
+        "Haselacker (9306 Freidorf)": "sg-berg-freidorf",
+        "Hohenbühl (9306 Freidorf)": "sg-berg-freidorf",
+        "Watt (9306 Freidorf)": "sg-berg-freidorf",
+        "Habersack (9306 Freidorf)": "sg-berg-freidorf",
+        "Erchenwil (9306 Freidorf)": "sg-berg-freidorf",
+        "Lenggenhof (9306 Freidorf)": "sg-berg-freidorf",
+        "Jakobsberg (9306 Freidorf)": "sg-berg-freidorf",
+        "Ruggisberg (9308 Lömmenschwil)": "sg-berg-freidorf",
+        "Tröstliwisen (9306 Freidorf)": "sg-berg-freidorf",
+        "Frohheim (9306 Freidorf)": "sg-berg-freidorf",
+        "Grossacker (9306 Freidorf)": "sg-berg-freidorf",
+        "Näsler (9306 Freidorf)": "sg-berg-freidorf",
+        "Roggenbühl (9306 Freidorf)": "sg-berg-freidorf"
+      }
+    },
+    {
+      "bfs": 4461,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG St. Stefan Amriswil. Geteilt zwischen KG St. Stefan Amriswil und KG Hagenwil bei Amriswil und KG Sommeri (strassenweise, bei der Kirchgemeinde nachfragen): Amriswil. KG Sommeri: Oberaach (nördlich der Aach), Kronberg, Niederaach, Lampersbüel, Neuguet, Bismetwis, Wachthütte, Ebnet (Niederaach). KG Hagenwil bei Amriswil: Hagenwil, Räuchlisberg, Oberdorf, Spitzerüti, Underau, Oberau, Bergermüli, Roor. Geteilt zwischen KG St. Stefan Amriswil und KG Sommeri (strassenweise, bei der Kirchgemeinde nachfragen): Rüti. Geteilt zwischen KG St. Stefan Amriswil und KG Hagenwil bei Amriswil (strassenweise, bei der Kirchgemeinde nachfragen): Egg. KG Steinebrunn-Egnach: Almensberg.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Hemmerswil (8580 Amriswil)": "tg-amriswil",
+        "Mühlebach (8580 Amriswil)": "tg-amriswil",
+        "Oberaach (südlich der Aach) (8587 Oberaach)": "tg-amriswil",
+        "Hölzli (8580 Amriswil)": "tg-amriswil",
+        "Schocherswil (8581 Schocherswil)": "tg-amriswil",
+        "Chöpplishus (8580 Amriswil)": "tg-amriswil",
+        "Schrofe (8580 Amriswil)": "tg-amriswil",
+        "Biessenhofen (8580 Biessenhofen)": "tg-amriswil",
+        "Oberfeld (8580 Amriswil)": "tg-amriswil",
+        "Lochershaus (8581 Schocherswil)": "tg-amriswil",
+        "Rebhalde (8580 Amriswil)": "tg-amriswil",
+        "Hüsli (8587 Oberaach)": "tg-amriswil",
+        "Sandbreiti (8580 Amriswil)": "tg-amriswil",
+        "Ebnet (Schocherswil) (8581 Schocherswil)": "tg-amriswil",
+        "Obermühle (8580 Amriswil)": "tg-amriswil",
+        "Bilche (8580 Amriswil)": "tg-amriswil",
+        "Rank (8581 Schocherswil)": "tg-amriswil",
+        "Schäggishüsli (8581 Schocherswil)": "tg-amriswil",
+        "Büelhof (8587 Oberaach)": "tg-amriswil",
+        "Bühl (8581 Schocherswil)": "tg-amriswil",
+        "Eichmühle (8580 Amriswil)": "tg-amriswil",
+        "Gerisgarte (8581 Schocherswil)": "tg-amriswil",
+        "Neuhof (8580 Amriswil)": "tg-amriswil",
+        "Rebhüsli (8580 Biessenhofen)": "tg-amriswil",
+        "Huebhof (8580 Amriswil)": "tg-amriswil",
+        "Oberaach (nördlich der Aach) (8587 Oberaach)": "tg-sommeri",
+        "Kronberg (8580 Amriswil)": "tg-sommeri",
+        "Niederaach (8587 Oberaach)": "tg-sommeri",
+        "Lampersbüel (8587 Oberaach)": "tg-sommeri",
+        "Neuguet (8587 Oberaach)": "tg-sommeri",
+        "Bismetwis (8587 Oberaach)": "tg-sommeri",
+        "Wachthütte (8587 Oberaach)": "tg-sommeri",
+        "Ebnet (Niederaach) (8587 Oberaach)": "tg-sommeri",
+        "Hagenwil (8580 Hagenwil b. Amriswil)": "tg-hagenwil",
+        "Räuchlisberg (8580 Amriswil)": "tg-hagenwil",
+        "Oberdorf (8580 Amriswil)": "tg-hagenwil",
+        "Spitzerüti (8580 Amriswil)": "tg-hagenwil",
+        "Underau (8580 Hagenwil b. Amriswil)": "tg-hagenwil",
+        "Oberau (8580 Amriswil)": "tg-hagenwil",
+        "Bergermüli (8580 Amriswil)": "tg-hagenwil",
+        "Roor (8580 Amriswil)": "tg-hagenwil",
+        "Almensberg (8580 Amriswil)": "tg-steinebrunn"
+      }
+    },
+    {
+      "bfs": 4471,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Bischofszell. KG Heiligkreuz: Hasleren, Schönfeld, Kenzenau, Entetswil, Brugglen, Andrüti, Buchrüti, Ober Heuberg, Bärenwiesli, Sonnenhügel, Unter Heuberg, Waldruh. Geteilt zwischen KG Bischofszell und KG Heiligkreuz (strassenweise, bei der Kirchgemeinde nachfragen): Schweizersholz, Waldplatz. KG Sulgen: Tümpfel, Friedberg.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Bischofszell Stadt (9220 Bischofszell)": "tg-bischofszell",
+        "Sittertal (9220 Bischofszell)": "tg-bischofszell",
+        "Bisrüti (9220 Bischofszell)": "tg-bischofszell",
+        "Halden (9223 Halden)": "tg-bischofszell",
+        "Berg (9220 Bischofszell)": "tg-bischofszell",
+        "Stocken (9220 Bischofszell)": "tg-bischofszell",
+        "Letten (9220 Bischofszell)": "tg-bischofszell",
+        "Gihl (9220 Bischofszell)": "tg-bischofszell",
+        "Sattelbogen (9220 Bischofszell)": "tg-bischofszell",
+        "Bruggwiesen (9220 Bischofszell)": "tg-bischofszell",
+        "Türkei (9220 Bischofszell)": "tg-bischofszell",
+        "Rietwiese (9220 Bischofszell)": "tg-bischofszell",
+        "Stich (9220 Bischofszell)": "tg-bischofszell",
+        "Hauswiese (9220 Bischofszell)": "tg-bischofszell",
+        "Dörfli (9223 Schweizersholz)": "tg-bischofszell",
+        "Thurfeld (9220 Bischofszell)": "tg-bischofszell",
+        "Chueweid (9220 Bischofszell)": "tg-bischofszell",
+        "Gigershüsli (9220 Bischofszell)": "tg-bischofszell",
+        "Hackborn (9223 Schweizersholz)": "tg-bischofszell",
+        "Ober Ghögg (9220 Bischofszell)": "tg-bischofszell",
+        "Städeli (9220 Bischofszell)": "tg-bischofszell",
+        "Katzensteig (9220 Bischofszell)": "tg-bischofszell",
+        "Ober Leuenhaus (9223 Schweizersholz)": "tg-bischofszell",
+        "Muggensturm (9220 Bischofszell)": "tg-bischofszell",
+        "Rengishalden (9220 Bischofszell)": "tg-bischofszell",
+        "Gwand (9223 Schweizersholz)": "tg-bischofszell",
+        "Junkersbühl (9223 Schweizersholz)": "tg-bischofszell",
+        "Waldbach (9223 Schweizersholz)": "tg-bischofszell",
+        "Gloggershaus (9223 Schweizersholz)": "tg-bischofszell",
+        "Tannen (9223 Schweizersholz)": "tg-bischofszell",
+        "Unter Ghögg (9220 Bischofszell)": "tg-bischofszell",
+        "Waldegg (9220 Bischofszell)": "tg-bischofszell",
+        "Winkeln (9220 Bischofszell)": "tg-bischofszell",
+        "Buch (9223 Schweizersholz)": "tg-bischofszell",
+        "Riederen (9220 Bischofszell)": "tg-bischofszell",
+        "Unter Leuenhaus (9223 Schweizersholz)": "tg-bischofszell",
+        "Hasleren (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Schönfeld (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Kenzenau (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Entetswil (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Brugglen (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Andrüti (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Buchrüti (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Ober Heuberg (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Bärenwiesli (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Sonnenhügel (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Unter Heuberg (9223 Schweizersholz)": "tg-heiligkreuz",
+        "Waldruh (9223 Halden)": "tg-heiligkreuz",
+        "Tümpfel (9223 Schweizersholz)": "tg-sulgen",
+        "Friedberg (9223 Schweizersholz)": "tg-sulgen"
+      }
+    },
+    {
+      "bfs": 4476,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Sulgen. KG Sommeri: Kümmertshausen, Engishofen, Unterlöwenhaus, Pulvershaus, Kratz, Sandbohl.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Erlen (8586 Erlen)": "tg-sulgen",
+        "Riedt (8586 Riedt b. Erlen)": "tg-sulgen",
+        "Ennetaach (8586 Ennetaach)": "tg-sulgen",
+        "Unterriedt (8586 Riedt b. Erlen)": "tg-sulgen",
+        "Buchackern (8586 Buchackern)": "tg-sulgen",
+        "Eppishausen (8586 Erlen)": "tg-sulgen",
+        "Eestäge (8586 Erlen)": "tg-sulgen",
+        "Oberriedt (8586 Riedt b. Erlen)": "tg-sulgen",
+        "Holzplatz (8586 Erlen)": "tg-sulgen",
+        "Cholwis (8586 Erlen)": "tg-sulgen",
+        "Kaltenbrunnen (Gemeinde Erlen) (9216 Heldswil)": "tg-sulgen",
+        "Talacker (8586 Buchackern)": "tg-sulgen",
+        "Kümmertshausen (8586 Kümmertshausen)": "tg-sommeri",
+        "Engishofen (8586 Engishofen)": "tg-sommeri",
+        "Unterlöwenhaus (8586 Kümmertshausen)": "tg-sommeri",
+        "Pulvershaus (8586 Kümmertshausen)": "tg-sommeri",
+        "Kratz (8586 Kümmertshausen)": "tg-sommeri",
+        "Sandbohl (8586 Engishofen)": "tg-sommeri"
+      }
+    },
+    {
+      "bfs": 4495,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Bischofszell. KG Sulgen: Heldswil, Hüttenswil, Bernhausen, Neubuch, Holzergeten, Sonnenhof, Neurüti, Egg, Höhenzelg, Buchmoos, Sonnenberg, Altbuch u. a.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Hohentannen (9216 Hohentannen)": "tg-bischofszell",
+        "Hummelberg (9216 Hohentannen)": "tg-bischofszell",
+        "Oetlishausen (Schloss) (9216 Hohentannen)": "tg-bischofszell",
+        "Heidelberg (9216 Hohentannen)": "tg-bischofszell",
+        "Mittel-Tellen (9216 Hohentannen)": "tg-bischofszell",
+        "Unter-Tellen (9216 Hohentannen)": "tg-bischofszell",
+        "Torkel (9216 Hohentannen)": "tg-bischofszell",
+        "Grüneck (9216 Hohentannen)": "tg-bischofszell",
+        "Birkenhof (9216 Hohentannen)": "tg-bischofszell",
+        "Burghalde (9216 Hohentannen)": "tg-bischofszell",
+        "Kalchofen (9216 Hohentannen)": "tg-bischofszell",
+        "Merzenkopf (9216 Hohentannen)": "tg-bischofszell",
+        "Rank (9216 Hohentannen)": "tg-bischofszell",
+        "Waidli (9216 Hohentannen)": "tg-bischofszell",
+        "Bellevue (9216 Heldswil)": "tg-bischofszell",
+        "Kistenmühle (9216 Hohentannen)": "tg-bischofszell",
+        "Neugrüt (9216 Hohentannen)": "tg-bischofszell",
+        "Ober-Tellen (9216 Hohentannen)": "tg-bischofszell",
+        "Wiesengatter (9216 Hohentannen)": "tg-bischofszell",
+        "Heldswil (9216 Heldswil)": "tg-sulgen",
+        "Hüttenswil (9216 Heldswil)": "tg-sulgen",
+        "Bernhausen (9216 Heldswil)": "tg-sulgen",
+        "Neubuch (9216 Heldswil)": "tg-sulgen",
+        "Holzergeten (9216 Heldswil)": "tg-sulgen",
+        "Sonnenhof (9216 Heldswil)": "tg-sulgen",
+        "Neurüti (9216 Heldswil)": "tg-sulgen",
+        "Egg (9216 Heldswil)": "tg-sulgen",
+        "Höhenzelg (9216 Heldswil)": "tg-sulgen",
+        "Buchmoos (9216 Heldswil)": "tg-sulgen",
+        "Sonnenberg (9216 Heldswil)": "tg-sulgen",
+        "Altbuch (9216 Heldswil)": "tg-sulgen",
+        "Bruderwil (9216 Heldswil)": "tg-sulgen",
+        "Kaltenbrunnen (Gemeinde Hohentannen) (9216 Heldswil)": "tg-sulgen",
+        "Neuwilen (9216 Heldswil)": "tg-sulgen"
+      }
+    },
+    {
+      "bfs": 4501,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Sulgen. KG Wertbühl-Bussnang: Neukirch, Buhwil, Bötschimühle, Bühl, Rothen, Hinterbach, Rüti, Sonnenbühl, Kuderacker, Hard, Hörmoos, Ebnet u. a. KG Heiligkreuz: Buchzelg, Aspenrüti, Langhalden, Anwachs, Mühletobel, Olmerswil, Käserei, Neuhof, Sunneblick, Hueb.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Kradolf (9214 Kradolf)": "tg-sulgen",
+        "Schönenberg (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Oberfeld (9214 Kradolf)": "tg-sulgen",
+        "Hohreuti (9214 Kradolf)": "tg-sulgen",
+        "Störehuus (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Unterau (9214 Kradolf)": "tg-sulgen",
+        "Wiesental (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Waldhof (Schönenberg) (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Last (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Roore (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Schlössli (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Städeli (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Wiigarte (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Schluuch (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Untermühle (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Auwiesen (9214 Kradolf)": "tg-sulgen",
+        "Oberhof (9215 Schönenberg an der Thur)": "tg-sulgen",
+        "Rohrenberg (9214 Kradolf)": "tg-sulgen",
+        "Neukirch (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Buhwil (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Bötschimühle (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Bühl (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Rothen (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Hinterbach (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Rüti (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Sonnenbühl (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Kuderacker (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Hard (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Hörmoos (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Ebnet (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Heiligbrunnen (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Egg (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Faarhus (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Ruhberg (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Waldhof (Neukirch) (9217 Neukirch an der Thur)": "tg-wertbuehl-bussnang",
+        "Hintermühle (9215 Buhwil)": "tg-wertbuehl-bussnang",
+        "Buchzelg (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Aspenrüti (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Langhalden (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Anwachs (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Mühletobel (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Olmerswil (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Käserei (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Neuhof (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Sunneblick (9217 Neukirch an der Thur)": "tg-heiligkreuz",
+        "Hueb (9217 Neukirch an der Thur)": "tg-heiligkreuz"
+      }
+    },
+    {
+      "bfs": 4590,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Müllheim. KG Wertbühl-Bussnang: Harenwilen, Burghof, Chrattenhof, Buchschoren, Burg, Geere, Neuhof.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Mettendorf (8553 Mettendorf)": "tg-muellheim",
+        "Hüttlingen Dorf (8553 Hüttlingen)": "tg-muellheim",
+        "Eschikofen (8553 Eschikofen)": "tg-muellheim",
+        "Geigenhof (8553 Hüttlingen)": "tg-muellheim",
+        "Grosswies (8553 Mettendorf)": "tg-muellheim",
+        "Wärterhaus (8553 Mettendorf)": "tg-muellheim",
+        "Langacker (8553 Mettendorf)": "tg-muellheim",
+        "Neuwies (8553 Hüttlingen)": "tg-muellheim",
+        "Haameli (8553 Mettendorf)": "tg-muellheim",
+        "Thurhof (8553 Mettendorf)": "tg-muellheim",
+        "Harenwilen (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Burghof (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Chrattenhof (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Buchschoren (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Burg (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Geere (8553 Harenwilen)": "tg-wertbuehl-bussnang",
+        "Neuhof (8553 Harenwilen)": "tg-wertbuehl-bussnang"
+      }
+    },
+    {
+      "bfs": 4611,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG FrauenfeldPLUS. KG Wertbühl-Bussnang: Lustdorf, Hessenbohl, Homberg, Grubhof, Guggenbühl, Grüenenstein, Gertschhausen, Heldhof, Stelze. KG Lommis: Wetzikon, Gass, Spiegelberg, Steinwies, Matishalde.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Thundorf (8512 Thundorf)": "tg-frauenfeldplus",
+        "Aufhofen (8512 Thundorf)": "tg-frauenfeldplus",
+        "Kirchberg (8512 Thundorf)": "tg-frauenfeldplus",
+        "Oberrüti (8500 Frauenfeld)": "tg-frauenfeldplus",
+        "Friedberg (8512 Thundorf)": "tg-frauenfeldplus",
+        "Unterrüti (8500 Frauenfeld)": "tg-frauenfeldplus",
+        "Dietlismühle (8512 Thundorf)": "tg-frauenfeldplus",
+        "Freiberg (8512 Thundorf)": "tg-frauenfeldplus",
+        "Pfeien (8512 Thundorf)": "tg-frauenfeldplus",
+        "Rohracker (8512 Thundorf)": "tg-frauenfeldplus",
+        "Grund (8512 Thundorf)": "tg-frauenfeldplus",
+        "Lusthalden (8512 Thundorf)": "tg-frauenfeldplus",
+        "Waldegg (8500 Frauenfeld)": "tg-frauenfeldplus",
+        "Dreibrunnen (8512 Thundorf)": "tg-frauenfeldplus",
+        "Lustdorf (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Hessenbohl (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Homberg (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Grubhof (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Guggenbühl (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Grüenenstein (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Gertschhausen (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Heldhof (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Stelze (8512 Lustdorf)": "tg-wertbuehl-bussnang",
+        "Wetzikon (8512 Wetzikon)": "tg-lommis",
+        "Gass (8512 Wetzikon)": "tg-lommis",
+        "Spiegelberg (8512 Wetzikon)": "tg-lommis",
+        "Steinwies (8512 Wetzikon)": "tg-lommis",
+        "Matishalde (8512 Wetzikon)": "tg-lommis"
+      }
+    },
+    {
+      "bfs": 4666,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Kreuzlingen-Emmishofen. KG Berg: Hugelshofen, Altishausen, Dotnacht, Engelswilen, Schlatt, Aufhäusern, Mannenmühle, Breitewiese, Altshof, Dütschenmühle, Wachtersberg, Haspel u. a.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Siegershausen (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Oberneuwilen (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Alterswilen (8573 Alterswilen)": "tg-kreuzlingen-emmishofen",
+        "Unterneuwilen (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Schwaderloh (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Bätershausen (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Ellighausen (8566 Ellighausen)": "tg-kreuzlingen-emmishofen",
+        "Lippoldswilen (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Oftershausen (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Unterstöcken (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Geboltshausen (8566 Ellighausen)": "tg-kreuzlingen-emmishofen",
+        "Bommen (8573 Alterswilen)": "tg-kreuzlingen-emmishofen",
+        "Oberstöcken (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Neumühle (8566 Ellighausen)": "tg-kreuzlingen-emmishofen",
+        "Bohrenweg (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Halden (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Dippishausen (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Erlenacker (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Krachenburg (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Oberbächi (8566 Ellighausen)": "tg-kreuzlingen-emmishofen",
+        "Scheidbach (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Mühlehof (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Rank (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Sonnenhof (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Castell (8566 Neuwilen)": "tg-kreuzlingen-emmishofen",
+        "Gaisbühl (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Holzmannshaus (8566 Lippoldswilen)": "tg-kreuzlingen-emmishofen",
+        "Luggen (8573 Siegershausen)": "tg-kreuzlingen-emmishofen",
+        "Unterbächi (8566 Ellighausen)": "tg-kreuzlingen-emmishofen",
+        "Hugelshofen (8565 Hugelshofen)": "tg-berg-tg",
+        "Altishausen (8573 Altishausen)": "tg-berg-tg",
+        "Dotnacht (8566 Dotnacht)": "tg-berg-tg",
+        "Engelswilen (8566 Dotnacht)": "tg-berg-tg",
+        "Schlatt (8565 Hugelshofen)": "tg-berg-tg",
+        "Aufhäusern (8566 Dotnacht)": "tg-berg-tg",
+        "Mannenmühle (8565 Hugelshofen)": "tg-berg-tg",
+        "Breitewiese (8565 Hugelshofen)": "tg-berg-tg",
+        "Altshof (8566 Dotnacht)": "tg-berg-tg",
+        "Dütschenmühle (8566 Dotnacht)": "tg-berg-tg",
+        "Wachtersberg (8565 Hugelshofen)": "tg-berg-tg",
+        "Haspel (8573 Altishausen)": "tg-berg-tg",
+        "Sperbersholz (8566 Dotnacht)": "tg-berg-tg",
+        "Schulhaus (8573 Altishausen)": "tg-berg-tg",
+        "Baltshausen (8566 Dotnacht)": "tg-berg-tg",
+        "Tanklager Altishausen (8566 Dotnacht)": "tg-berg-tg",
+        "Birkenhof (8566 Dotnacht)": "tg-berg-tg",
+        "Breitagger (8565 Hugelshofen)": "tg-berg-tg",
+        "Kemmen (8566 Dotnacht)": "tg-berg-tg",
+        "Lehmgrube (8566 Dotnacht)": "tg-berg-tg",
+        "Lindenhof (8573 Altishausen)": "tg-berg-tg",
+        "Lohmühle (8565 Hugelshofen)": "tg-berg-tg",
+        "Wiesental (8565 Hugelshofen)": "tg-berg-tg",
+        "Mohnshaus (8565 Hugelshofen)": "tg-berg-tg",
+        "Pilgerhof (8565 Hugelshofen)": "tg-berg-tg",
+        "Bolägete (8573 Altishausen)": "tg-berg-tg"
+      }
+    },
+    {
+      "bfs": 4683,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Kreuzlingen-Emmishofen. KG Altnau-Güttingen-Münsterlingen: Illighausen, Wilen, Emmerzholz, Birkenhof, Emmerzen, Lindenhof, Lochmühle, Neugüttingen.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Oberhofen (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Lengwil (8574 Lengwil)": "tg-kreuzlingen-emmishofen",
+        "Dettighofen (8574 Dettighofen (Lengwil))": "tg-kreuzlingen-emmishofen",
+        "Oberwies (8574 Lengwil)": "tg-kreuzlingen-emmishofen",
+        "Ekkharthof (8574 Lengwil)": "tg-kreuzlingen-emmishofen",
+        "Hohenegg (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Liebburg (8574 Dettighofen (Lengwil))": "tg-kreuzlingen-emmishofen",
+        "Reuthof (8574 Lengwil)": "tg-kreuzlingen-emmishofen",
+        "Hüsli (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Güetli (8574 Lengwil)": "tg-kreuzlingen-emmishofen",
+        "Blatten (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Forch (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Städeli (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Sährhof (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Spitz (8574 Oberhofen)": "tg-kreuzlingen-emmishofen",
+        "Illighausen (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Wilen (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Emmerzholz (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Birkenhof (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Emmerzen (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Lindenhof (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Lochmühle (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen",
+        "Neugüttingen (8574 Illighausen)": "tg-altnau-guettingen-muensterlingen"
+      }
+    },
+    {
+      "bfs": 4701,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Müllheim. KG Ermatingen: Wäldi, Gunterswilen, Schmidholz, Hohenrain, Waldhof, Kreuzstrasse, Tannenhof. KG Kreuzlingen-Emmishofen: Engwilen, Stockwies, Weierhüsli, Wolfsbüel, Mooswies, Weierhof.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Sonterswil (8564 Sonterswil)": "tg-muellheim",
+        "Lipperswil (8564 Lipperswil/Hefenhausen)": "tg-muellheim",
+        "Hefenhausen (8564 Hefenhausen)": "tg-muellheim",
+        "Hattenhausen (8564 Hattenhausen)": "tg-muellheim",
+        "Golfpanorama (8564 Lipperswil)": "tg-muellheim",
+        "Holzhäusern (8558 Raperswilen)": "tg-muellheim",
+        "Schmeckwies (8564 Wäldi)": "tg-muellheim",
+        "Feldgarten (8564 Lipperswil)": "tg-muellheim",
+        "Chrutgärtli (8564 Hattenhausen)": "tg-muellheim",
+        "Fischerhüsli (8564 Lipperswil)": "tg-muellheim",
+        "Hoi (8564 Hattenhausen)": "tg-muellheim",
+        "Häglishag (8564 Hefenhausen)": "tg-muellheim",
+        "Wäldi (8564 Wäldi)": "tg-ermatingen",
+        "Gunterswilen (8564 Gunterswilen)": "tg-ermatingen",
+        "Schmidholz (8564 Wäldi)": "tg-ermatingen",
+        "Hohenrain (8564 Wäldi)": "tg-ermatingen",
+        "Waldhof (8564 Wäldi)": "tg-ermatingen",
+        "Kreuzstrasse (8564 Wäldi)": "tg-ermatingen",
+        "Tannenhof (8564 Wäldi)": "tg-ermatingen",
+        "Engwilen (8564 Engwilen)": "tg-kreuzlingen-emmishofen",
+        "Stockwies (8564 Engwilen)": "tg-kreuzlingen-emmishofen",
+        "Weierhüsli (8564 Engwilen)": "tg-kreuzlingen-emmishofen",
+        "Wolfsbüel (8564 Engwilen)": "tg-kreuzlingen-emmishofen",
+        "Mooswies (8564 Engwilen)": "tg-kreuzlingen-emmishofen",
+        "Weierhof (8564 Engwilen)": "tg-kreuzlingen-emmishofen"
+      }
+    },
+    {
+      "bfs": 4711,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Tobel. KG Wertbühl-Bussnang: Bohl, Towag.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Affeltrangen (9556 Affeltrangen)": "tg-tobel",
+        "Märwil (9562 Märwil)": "tg-tobel",
+        "Zezikon (9556 Zezikon)": "tg-tobel",
+        "Himmenreich (9562 Märwil)": "tg-tobel",
+        "Unterlangnau (9562 Märwil)": "tg-tobel",
+        "Bollsteg (9556 Affeltrangen)": "tg-tobel",
+        "Buch (9562 Buch b. Märwil)": "tg-tobel",
+        "Kaltenbrunnen (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Oberisenegg (9555 Tobel)": "tg-tobel",
+        "Maltbach (Gemeinde Affeltrangen) (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Ghürst (9562 Märwil)": "tg-tobel",
+        "Oberlangnau (9562 Märwil)": "tg-tobel",
+        "Azenwilen (9562 Buch b. Märwil)": "tg-tobel",
+        "Breite (9562 Märwil)": "tg-tobel",
+        "Wahrenberg (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Unterisenegg (9555 Tobel)": "tg-tobel",
+        "Haghof (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Kreuzegg (9556 Affeltrangen)": "tg-tobel",
+        "Nägelishueb (9562 Märwil)": "tg-tobel",
+        "Battlehausen (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Rüti (9562 Märwil)": "tg-tobel",
+        "Riethof (9556 Zezikon)": "tg-tobel",
+        "Grossenegg (9556 Affeltrangen)": "tg-tobel",
+        "Wildern (9556 Zezikon)": "tg-tobel",
+        "Berghof (9556 Affeltrangen)": "tg-tobel",
+        "Rütihof (9562 Buch b. Märwil)": "tg-tobel",
+        "Flurhof (9562 Märwil)": "tg-tobel",
+        "Rietwis (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Wyden (9556 Zezikon)": "tg-tobel",
+        "Brunnenwies (9562 Märwil)": "tg-tobel",
+        "Schlatt (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Sonnenhof (Märwil) (9562 Märwil)": "tg-tobel",
+        "Käserei (9562 Buch b. Märwil)": "tg-tobel",
+        "Sonnenhof (Affeltrangen) (9556 Affeltrangen)": "tg-tobel",
+        "Bohl (9562 Märwil)": "tg-wertbuehl-bussnang",
+        "Towag (9562 Märwil)": "tg-wertbuehl-bussnang"
+      }
+    },
+    {
+      "bfs": 4746,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Sirnach. KG Bettwiesen: Sedel.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Münchwilen (9542 Münchwilen)": "tg-sirnach",
+        "Mezikon (9542 Münchwilen)": "tg-sirnach",
+        "Oberhofen (9542 Münchwilen)": "tg-sirnach",
+        "St. Margarethen (9543 St. Margarethen)": "tg-sirnach",
+        "Holzmannshaus (8360 Eschlikon)": "tg-sirnach",
+        "Freudenberg (9542 Münchwilen)": "tg-sirnach",
+        "Weierhof (9542 Münchwilen)": "tg-sirnach",
+        "Murgtal (9542 Münchwilen)": "tg-sirnach",
+        "Säntisblick (Gemeinde Münchwilen) (8360 Eschlikon)": "tg-sirnach",
+        "Pfannenstil (8360 Eschlikon)": "tg-sirnach",
+        "Mörikon (9543 St. Margarethen)": "tg-sirnach",
+        "Dohlenhof (9542 Münchwilen)": "tg-sirnach",
+        "Sigensee (9542 Münchwilen)": "tg-sirnach",
+        "Frieden (9543 St. Margarethen)": "tg-sirnach",
+        "Schweizerhof (9542 Münchwilen)": "tg-sirnach",
+        "Subomm (9543 St. Margarethen)": "tg-sirnach",
+        "Braati (9542 Münchwilen)": "tg-sirnach",
+        "Tannhof (8360 Eschlikon)": "tg-sirnach",
+        "Sedel (9543 St. Margarethen)": "tg-bettwiesen-sedel"
+      }
+    },
+    {
+      "bfs": 4756,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Wertbühl-Bussnang. KG Wuppenau: Hagenwil, Habisreuti, Vordertoos. KG Heiligkreuz: Leutenegg. KG Welfensberg: Grobenbach.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Schönholzerswilen (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Weiblingen (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Toos (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Hagenbuch (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Laachen (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Klingen (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Ritzisbuhwil (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Metzgersbuhwil (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Wiedenhub (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Rohren (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Wartenwil (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Wieden (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Häusern (Gemeinde Schönholzerswilen) (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Haslen (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Unterleutenegg (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Buchen (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Nollenberg (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Freihof (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Neuhaus (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Feldhof (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Immenberg (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Lautenbreite (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Waldi (8577 Schönholzerswilen)": "tg-wertbuehl-bussnang",
+        "Hagenwil (8577 Schönholzerswilen)": "tg-wuppenau",
+        "Habisreuti (8577 Schönholzerswilen)": "tg-wuppenau",
+        "Vordertoos (8577 Schönholzerswilen)": "tg-wuppenau",
+        "Leutenegg (8577 Schönholzerswilen)": "tg-heiligkreuz",
+        "Grobenbach (8577 Schönholzerswilen)": "tg-welfensberg"
+      }
+    },
+    {
+      "bfs": 4776,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Tobel. KG Bettwiesen: Thürn.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Tobel (9555 Tobel)": "tg-tobel",
+        "Tägerschen (9554 Tägerschen)": "tg-tobel",
+        "Erikon (9555 Tobel)": "tg-tobel",
+        "Karlishub (9554 Tägerschen)": "tg-tobel",
+        "Thor (9555 Tobel)": "tg-tobel",
+        "Fliegenegg (9555 Tobel)": "tg-tobel",
+        "Egg (9555 Tobel)": "tg-tobel",
+        "Mühle (9555 Tobel)": "tg-tobel",
+        "Himmelrich (9554 Tägerschen)": "tg-tobel",
+        "Haslen (9554 Tägerschen)": "tg-tobel",
+        "Michelsegg (9554 Tägerschen)": "tg-tobel",
+        "Waldhof (9554 Tägerschen)": "tg-tobel",
+        "Waadt (9555 Tobel)": "tg-tobel",
+        "Bühl (9555 Tobel)": "tg-tobel",
+        "Thürn (9554 Tägerschen)": "tg-bettwiesen-sedel"
+      }
+    },
+    {
+      "bfs": 4791,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Wuppenau. KG Welfensberg: Hosenruck, Welfensberg, Waldwies, Leuberg, Befang, Wiedenholz, Nollen, Sommerau. KG Heiligkreuz: Rudenwil, Gabris, Oberheimen, Heiligkreuz, Scheidweg, Langfuri, Alterswil, Büelmösli, Petersburg.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Wuppenau (9514 Wuppenau)": "tg-wuppenau",
+        "Greutensberg (9514 Wuppenau)": "tg-wuppenau",
+        "Hinterdorf (9514 Wuppenau)": "tg-wuppenau",
+        "Mörenau, Obere (9514 Wuppenau)": "tg-wuppenau",
+        "Remensberg (9514 Wuppenau)": "tg-wuppenau",
+        "Secki (9514 Wuppenau)": "tg-wuppenau",
+        "Mörenau, Untere (9514 Wuppenau)": "tg-wuppenau",
+        "Gärtensberg (9514 Wuppenau)": "tg-wuppenau",
+        "Grub (9515 Hosenruck)": "tg-wuppenau",
+        "Almensberg (9514 Wuppenau)": "tg-wuppenau",
+        "Brunnriet (9514 Wuppenau)": "tg-wuppenau",
+        "Weid (9514 Wuppenau)": "tg-wuppenau",
+        "Vorrüti (9514 Wuppenau)": "tg-wuppenau",
+        "Flurhof (9514 Wuppenau)": "tg-wuppenau",
+        "Buchhalde (9514 Wuppenau)": "tg-wuppenau",
+        "Hugentobel (9514 Wuppenau)": "tg-wuppenau",
+        "Neuhaus (9514 Wuppenau)": "tg-wuppenau",
+        "Alber (9514 Wuppenau)": "tg-wuppenau",
+        "Bantle (9515 Hosenruck)": "tg-wuppenau",
+        "Bödeli (9514 Wuppenau)": "tg-wuppenau",
+        "Bühl (9514 Wuppenau)": "tg-wuppenau",
+        "Geftenau (9514 Wuppenau)": "tg-wuppenau",
+        "Bergli (9514 Wuppenau)": "tg-wuppenau",
+        "Freihof (9514 Wuppenau)": "tg-wuppenau",
+        "Hosenruck (9515 Hosenruck)": "tg-welfensberg",
+        "Welfensberg (9515 Hosenruck)": "tg-welfensberg",
+        "Waldwies (9515 Hosenruck)": "tg-welfensberg",
+        "Leuberg (9515 Hosenruck)": "tg-welfensberg",
+        "Befang (9514 Wuppenau)": "tg-welfensberg",
+        "Wiedenholz (9515 Hosenruck)": "tg-welfensberg",
+        "Nollen (9515 Hosenruck)": "tg-welfensberg",
+        "Sommerau (9515 Hosenruck)": "tg-welfensberg",
+        "Rudenwil (9515 Hosenruck)": "tg-heiligkreuz",
+        "Gabris (9515 Hosenruck)": "tg-heiligkreuz",
+        "Oberheimen (9515 Hosenruck)": "tg-heiligkreuz",
+        "Heiligkreuz (9515 Hosenruck)": "tg-heiligkreuz",
+        "Scheidweg (9515 Hosenruck)": "tg-heiligkreuz",
+        "Langfuri (9515 Hosenruck)": "tg-heiligkreuz",
+        "Alterswil (9515 Hosenruck)": "tg-heiligkreuz",
+        "Büelmösli (9515 Hosenruck)": "tg-heiligkreuz",
+        "Petersburg (9515 Hosenruck)": "tg-heiligkreuz"
+      }
+    },
+    {
+      "bfs": 4811,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG FrauenfeldPLUS. KG Pfyn: Lanzenneunforn, Kugelshofen, Schweikhof, Im Sulz, Villa Mendaris, Wiesengrund, Im Bick, Weidhof. KG Untersee-Rhein: Ammenhausen, Liebenfels, Meienberg, Eggmühle, Reutershaus, Sonnenbühl.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Herdern (8535 Herdern)": "tg-frauenfeldplus",
+        "Steig (8535 Herdern)": "tg-frauenfeldplus",
+        "Wilen (8535 Herdern)": "tg-frauenfeldplus",
+        "Tiefenmühle (8532 Weiningen)": "tg-frauenfeldplus",
+        "Tal (8535 Herdern)": "tg-frauenfeldplus",
+        "Wiesental (8535 Herdern)": "tg-frauenfeldplus",
+        "Rauspfeife (8536 Hüttwilen)": "tg-frauenfeldplus",
+        "Sunnematt (8536 Hüttwilen)": "tg-frauenfeldplus",
+        "Berghof (8535 Herdern)": "tg-frauenfeldplus",
+        "Debrunnen (8535 Herdern)": "tg-frauenfeldplus",
+        "Lanzenneunforn (8506 Lanzenneunforn)": "tg-pfyn",
+        "Kugelshofen (8506 Lanzenneunforn)": "tg-pfyn",
+        "Schweikhof (8506 Lanzenneunforn)": "tg-pfyn",
+        "Im Sulz (8506 Lanzenneunforn)": "tg-pfyn",
+        "Villa Mendaris (8506 Lanzenneunforn)": "tg-pfyn",
+        "Wiesengrund (8506 Lanzenneunforn)": "tg-pfyn",
+        "Im Bick (8506 Lanzenneunforn)": "tg-pfyn",
+        "Weidhof (8506 Lanzenneunforn)": "tg-pfyn",
+        "Ammenhausen (8506 Lanzenneunforn)": "tg-untersee-rhein",
+        "Liebenfels (8506 Lanzenneunforn)": "tg-untersee-rhein",
+        "Meienberg (8506 Lanzenneunforn)": "tg-untersee-rhein",
+        "Eggmühle (8506 Lanzenneunforn)": "tg-untersee-rhein",
+        "Reutershaus (8506 Lanzenneunforn)": "tg-untersee-rhein",
+        "Sonnenbühl (8506 Lanzenneunforn)": "tg-untersee-rhein"
+      }
+    },
+    {
+      "bfs": 4816,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Homburg. KG Pfyn: Unterhörstetten, Oberhörstetten, Halden (Hörstetten), Bethlehem, Hasenreute, Hungerbühl (Gemeinde Homburg), Reuti (Gemeinde Homburg), Aspi, Bleiche, Rank, Essenholz. KG Steckborn: Tägermoos, Untersalen, Obersalen, Bulgen, Sassenloh, Mauren, Haidenhaus, Waldhof, Rolli, Uhwilen. Geteilt zwischen KG Homburg und KG Steckborn (strassenweise, bei der Kirchgemeinde nachfragen): Reutenen.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Hörhausen (8507 Hörhausen)": "tg-homburg",
+        "Homburg (8508 Homburg)": "tg-homburg",
+        "Reckenwil (8508 Homburg)": "tg-homburg",
+        "Hinterhomburg (8508 Homburg)": "tg-homburg",
+        "Gündelhart (8507 Hörhausen)": "tg-homburg",
+        "Sonnenberg (Homburg) (8508 Homburg)": "tg-homburg",
+        "Hirten (8508 Homburg)": "tg-homburg",
+        "Eugerswil (8508 Homburg)": "tg-homburg",
+        "Klingenberg (8508 Homburg)": "tg-homburg",
+        "Degenhart (8508 Homburg)": "tg-homburg",
+        "Helmetshausen (8507 Hörhausen)": "tg-homburg",
+        "Seelwiesen (8507 Hörhausen)": "tg-homburg",
+        "Unterkappel (8508 Homburg)": "tg-homburg",
+        "Sägi (8508 Homburg)": "tg-homburg",
+        "Flurhof (8507 Hörhausen)": "tg-homburg",
+        "Oberhelmetshausen (8507 Hörhausen)": "tg-homburg",
+        "Oberkappel (8508 Homburg)": "tg-homburg",
+        "Brathaus (8508 Homburg)": "tg-homburg",
+        "Bühl (8508 Homburg)": "tg-homburg",
+        "Freieck (8507 Hörhausen)": "tg-homburg",
+        "Friedberg (8507 Hörhausen)": "tg-homburg",
+        "Götschenhäusli (8507 Hörhausen)": "tg-homburg",
+        "Halden (Hinterhomburg) (8508 Homburg)": "tg-homburg",
+        "Hochstrasse (8507 Hörhausen)": "tg-homburg",
+        "Lindenhof (8507 Hörhausen)": "tg-homburg",
+        "Maltbach (8508 Homburg)": "tg-homburg",
+        "Mühle (8507 Hörhausen)": "tg-homburg",
+        "Rittbrunnen (8507 Hörhausen)": "tg-homburg",
+        "Schwerzi (Hörhausen) (8507 Hörhausen)": "tg-homburg",
+        "Schwärzi (Homburg) (8508 Homburg)": "tg-homburg",
+        "Sonnenberg (Hörhausen) (8507 Hörhausen)": "tg-homburg",
+        "Freihof (8507 Hörhausen)": "tg-homburg",
+        "Geisshaus (8508 Homburg)": "tg-homburg",
+        "Hagenbuch (8507 Hörhausen)": "tg-homburg",
+        "Löhren (8508 Homburg)": "tg-homburg",
+        "Neuhof (8507 Hörhausen)": "tg-homburg",
+        "Riet (8508 Homburg)": "tg-homburg",
+        "Rosenberg (8507 Hörhausen)": "tg-homburg",
+        "Altenhausen (8508 Homburg)": "tg-homburg",
+        "Felsenbach (8507 Hörhausen)": "tg-homburg",
+        "Freudenberg (8507 Hörhausen)": "tg-homburg",
+        "Kreuzmoos (8507 Hörhausen)": "tg-homburg",
+        "Maxenhof (8507 Hörhausen)": "tg-homburg",
+        "Unterhörstetten (8508 Homburg)": "tg-pfyn",
+        "Oberhörstetten (8508 Homburg)": "tg-pfyn",
+        "Halden (Hörstetten) (8508 Homburg)": "tg-pfyn",
+        "Bethlehem (8508 Homburg)": "tg-pfyn",
+        "Hasenreute (8508 Homburg)": "tg-pfyn",
+        "Hungerbühl (Gemeinde Homburg) (8508 Homburg)": "tg-pfyn",
+        "Reuti (Gemeinde Homburg) (8508 Homburg)": "tg-pfyn",
+        "Aspi (8508 Homburg)": "tg-pfyn",
+        "Bleiche (8508 Homburg)": "tg-pfyn",
+        "Rank (8508 Homburg)": "tg-pfyn",
+        "Essenholz (8508 Homburg)": "tg-pfyn",
+        "Tägermoos (8507 Hörhausen)": "tg-steckborn",
+        "Untersalen (8507 Hörhausen)": "tg-steckborn",
+        "Obersalen (8507 Hörhausen)": "tg-steckborn",
+        "Bulgen (8507 Hörhausen)": "tg-steckborn",
+        "Sassenloh (8507 Hörhausen)": "tg-steckborn",
+        "Mauren (8507 Hörhausen)": "tg-steckborn",
+        "Haidenhaus (8507 Hörhausen)": "tg-steckborn",
+        "Waldhof (8507 Hörhausen)": "tg-steckborn",
+        "Rolli (8508 Homburg)": "tg-steckborn",
+        "Uhwilen (8507 Hörhausen)": "tg-steckborn"
+      }
+    },
+    {
+      "bfs": 4846,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Homburg. KG Müllheim: Kodenreuti.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Raperswilen (8558 Raperswilen)": "tg-homburg",
+        "Helsighausen (8558 Raperswilen)": "tg-homburg",
+        "Fischbach (8558 Raperswilen)": "tg-homburg",
+        "Büren (8558 Raperswilen)": "tg-homburg",
+        "Müllberg (8558 Raperswilen)": "tg-homburg",
+        "Ifang (8558 Raperswilen)": "tg-homburg",
+        "Oberfischbach (8558 Raperswilen)": "tg-homburg",
+        "Blumenau (8558 Raperswilen)": "tg-homburg",
+        "Wiel (8558 Raperswilen)": "tg-homburg",
+        "Birkenhof (8558 Raperswilen)": "tg-homburg",
+        "Rennental (8558 Raperswilen)": "tg-homburg",
+        "Eichhof (8558 Raperswilen)": "tg-homburg",
+        "Sonnenberg (8558 Raperswilen)": "tg-homburg",
+        "Erlengrund (8558 Raperswilen)": "tg-homburg",
+        "Neuhof (8558 Raperswilen)": "tg-homburg",
+        "Waldhof (8558 Raperswilen)": "tg-homburg",
+        "Kodenreuti (8558 Raperswilen)": "tg-muellheim"
+      }
+    },
+    {
+      "bfs": 4881,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Wertbühl-Bussnang. KG Tobel: Eutenberg, Maltbach (Gemeinde Amlikon-Bissegg).",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Amlikon (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Junkholz (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Bänikon (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Strohwilen (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Bissegg (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Wolfikon (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Fimmelsberg (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Holzhäusern (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Hub (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Hünikon (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Vogelsang (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Leutmerken (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Griesenberg (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Hofen (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Kreuz (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Holzhof (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Tümpfel (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Wiesental (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Weierhaus (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Altenburg (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Blatten (8514 Amlikon-Bissegg)": "tg-wertbuehl-bussnang",
+        "Zollhaus (8554 Bonau)": "tg-wertbuehl-bussnang",
+        "Eutenberg (8514 Amlikon-Bissegg)": "tg-tobel",
+        "Maltbach (Gemeinde Amlikon-Bissegg) (8514 Amlikon-Bissegg)": "tg-tobel"
+      }
+    },
+    {
+      "bfs": 4901,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Berg. KG Sulgen: Andwil, Heimenhofen, Lenzenhaus, Guggenbühl, Oberandwil, Eckartshausen, Mairüti, Blumenau, Säge, Rebhaus. KG Altnau-Güttingen-Münsterlingen: Happerswil, Klarsreuti, Buch, Neuhof.",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Mattwil (8585 Mattwil)": "tg-berg-tg",
+        "Birwinken (8585 Birwinken)": "tg-berg-tg",
+        "Scherrersholz (8585 Birwinken)": "tg-berg-tg",
+        "Altighofen (8585 Mattwil)": "tg-berg-tg",
+        "Rietwies (8585 Mattwil)": "tg-berg-tg",
+        "Andwil (8586 Andwil)": "tg-sulgen",
+        "Heimenhofen (8586 Andwil)": "tg-sulgen",
+        "Lenzenhaus (8586 Andwil)": "tg-sulgen",
+        "Guggenbühl (8586 Andwil)": "tg-sulgen",
+        "Oberandwil (8586 Andwil)": "tg-sulgen",
+        "Eckartshausen (8586 Andwil)": "tg-sulgen",
+        "Mairüti (8586 Andwil)": "tg-sulgen",
+        "Blumenau (8586 Andwil)": "tg-sulgen",
+        "Säge (8586 Andwil)": "tg-sulgen",
+        "Rebhaus (8586 Andwil)": "tg-sulgen",
+        "Happerswil (8585 Happerswil)": "tg-altnau-guettingen-muensterlingen",
+        "Klarsreuti (8585 Klarsreuti)": "tg-altnau-guettingen-muensterlingen",
+        "Buch (8586 Buch b. Kümmertshausen)": "tg-altnau-guettingen-muensterlingen",
+        "Neuhof (8585 Klarsreuti)": "tg-altnau-guettingen-muensterlingen"
+      }
+    },
+    {
+      "bfs": 4911,
+      "how": "Massgebend ist die Siedlung (Weiler/Ortsteil) laut kantonalem Siedlungsverzeichnis 2026. Grösster Teil: KG Sulgen. KG Wertbühl-Bussnang: Istighofen, Moos, Moosrüti, Neuhof, Waldau, Neuwies, Lärchenhof. KG Weinfelden: Sonnenhof (Gemeinde Bürglen).",
+      "finder": "https://data.tg.ch/explore/dataset/sk-stat-162/",
+      "geodata": null,
+      "ortsteile": {
+        "Bürglen (8575 Bürglen)": "tg-sulgen",
+        "Leimbach (8584 Leimbach)": "tg-sulgen",
+        "Wiessler (8584 Leimbach)": "tg-sulgen",
+        "Opfershofen (Gemeinde Bürglen) (8584 Opfershofen)": "tg-sulgen",
+        "Oberopfershofen (Gemeinde Bürglen) (8584 Opfershofen)": "tg-sulgen",
+        "Chrummbach (8584 Opfershofen)": "tg-sulgen",
+        "Oberholz (8584 Leimbach)": "tg-sulgen",
+        "Flurhof (8584 Opfershofen)": "tg-sulgen",
+        "Geisswiesen (8584 Leimbach)": "tg-sulgen",
+        "Aspe (8584 Leimbach)": "tg-sulgen",
+        "Haldenhof (8575 Bürglen)": "tg-sulgen",
+        "Riedere (8575 Bürglen)": "tg-sulgen",
+        "Guntersried (8584 Leimbach)": "tg-sulgen",
+        "Stögge (8584 Leimbach)": "tg-sulgen",
+        "Istighofen (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Moos (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Moosrüti (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Neuhof (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Waldau (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Neuwies (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Lärchenhof (8575 Istighofen)": "tg-wertbuehl-bussnang",
+        "Sonnenhof (Gemeinde Bürglen) (8575 Bürglen)": "tg-weinfelden"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Zuordnung Gemeinde ↔ KG aus dem kantonalen Siedlungsverzeichnis 2026 (data.tg.ch sk-stat-162, Feld kath_kirchgemeinde) und dem Steuerfuss-Datensatz 2026 (sk-stat-72); öffentliche Geodaten der KG-Grenzen gibt es im Thurgau nicht (Geodienst nur mit Login). Siedlungen mit zwei oder drei KG (u. a. Amriswil Stadt, Moos/Hefenhofen, Schweizersholz, Reutenen) sind nur strassenweise bestimmbar.",
+    "Siedlungsverzeichnis 2026 nennt noch die KG Basadingen, Diessenhofen und Paradies; diese sind seit 1.1.2026 zur KG Rodenberg-Rhy fusioniert (kath-amseeundrhy.ch) und hier entsprechend zusammengefasst.",
+    "Geplante Fusionen: Homburg, Pfyn und Müllheim zur KG «Seerücken-Thur» per 1.1.2027 (Urnenabstimmung 29.11.2026, nur bei Zustimmung aller drei); Amriswil und Hagenwil in Fusionsgesprächen (Ziel bis 2029/2030).",
+    "Rickenbach TG und Wilen TG gehören vertraglich zur st. gallischen KG Wil (Vertrag 9.12.2014): dort gilt st. gallisches Recht mit beglaubigter Unterschrift. Freidorf (Roggwil TG) gehört zur st. gallischen KG Berg-Freidorf; ein Vertrag dazu ist nicht publiziert. Die st. gallische KG Häggenschwil erscheint im Steuerfuss-Datensatz bei Roggwil, im Siedlungsverzeichnis nicht.",
+    "Das Austrittsformular der Landeskirche ist an «Katholisches Pfarramt» adressiert und nimmt keine E-Mail-Austritte an; § 6 Abs. 2 LKV nennt den Kirchgemeinderat, das Kreisschreiben 2010 lässt Eingang bei Kirchgemeinderat oder Pfarramt genügen.",
+    "Viele KG publizieren nur die Adresse von Pfarramt oder Pastoralraum-Sekretariat (medium); Hagenwil ohne Postadresse (low). Die Seite «Meine Pfarrei finden» auf kath-tg.ch ist ein Pfarrei-, kein KG-Finder."
+  ]
+}

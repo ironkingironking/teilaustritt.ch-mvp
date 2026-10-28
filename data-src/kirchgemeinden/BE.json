@@ -1,0 +1,1232 @@
+{
+ "canton": "BE",
+ "body": {
+  "name": "Römisch-katholische Landeskirche des Kantons Bern",
+  "short": "Katholische Kirche Kanton Bern (kathbern)",
+  "website": "https://www.kathbern.ch",
+  "postal": [
+   "Römisch-katholische Landeskirche des Kantons Bern",
+   "Zähringerstrasse 25",
+   "3012 Bern"
+  ]
+ },
+ "austritt": {
+  "recipient": "Kirchgemeinderat der Wohnsitz-Kirchgemeinde oder die von ihm bezeichnete Stelle (Art. 14 Abs. 2 LKV)",
+  "recipient_level": "kirchgemeinde",
+  "form": "schriftlich, handschriftlich unterzeichnet (Art. 14 Abs. 1 LKV); für Kinder unter 16 Jahren erklären die Inhaber der elterlichen Sorge den Austritt",
+  "beglaubigung": false,
+  "wirkung": "Vollzogen mit Übergabe der Erklärung an die zuständige Stelle, an die Schweizerische Post oder an eine schweizerische Vertretung (Art. 16 LKV); die Kirchensteuerpflicht erlischt mit der rechtsverbindlichen Austrittserklärung (Art. 3 Abs. 2 KStG, BSG 415.0).",
+  "notes": "Der Kirchgemeinderat meldet den Austritt innert 30 Tagen der Einwohnergemeinde (Art. 17 LKV). Die Kirchgemeinde-Grenzen sind in kantonalen Geodaten rechtsverbindlich festgelegt (Art. 19 LKV).",
+  "source": "https://www.belex.sites.be.ch/app/de/texts_of_law/410.111"
+ },
+ "finder": "https://www.kathbern.ch/ueber-uns/kirchgemeinden",
+ "stand": "2026-10-28",
+ "sources": [
+  "https://www.belex.sites.be.ch/app/de/texts_of_law/410.111",
+  "https://www.belex.sites.be.ch/app/de/texts_of_law/410.11",
+  "https://www.belex.sites.be.ch/app/de/texts_of_law/415.0",
+  "https://www.lexfind.ch/tolv/118370/de",
+  "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+  "https://geofiles.be.ch/geoportal/pub/download/ADMGDE/admgde.gpkg.zip",
+  "https://www.kathbern.ch/ueber-uns/kirchgemeinden",
+  "https://kathbe.tlex.ch/app/de/texts_of_law/1.1-1",
+  "https://www.lexfind.ch/tolv/253916/fr",
+  "https://www.jurapastoral.ch/vallee-de-delemont-moutier/annuaire/"
+ ],
+ "kirchgemeinden": [
+  {
+   "id": "be-bern-dreifaltigkeit",
+   "name": "Römisch-katholische Kirchgemeinde Dreifaltigkeit Bern",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Dreifaltigkeit Bern",
+    "Kirchgemeinderat",
+    "c/o Pfarrei Dreifaltigkeit",
+    "Taubenstrasse 4",
+    "3011 Bern"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-dreifaltigkeit-bern/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-dreifaltigkeit-bern/ueber-uns/kirchgemeinde",
+   "bfs": [],
+   "partial_bfs": [
+    351
+   ],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite nennt als Kontakt nur das Pfarreisekretariat. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-bern-st-marien",
+   "name": "Römisch-katholische Kirchgemeinde St. Marien Bern",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Marien Bern",
+    "Kirchgemeinderat",
+    "c/o Pfarrei St. Marien",
+    "Wylerstrasse 24",
+    "3014 Bern"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-st-marien-bern/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-st-marien-bern/ueber-uns/kirchgemeinde",
+   "bfs": [],
+   "partial_bfs": [
+    351
+   ],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite nennt als Kontakt nur das Pfarreisekretariat. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-bern-west",
+   "name": "Römisch-katholische Kirchgemeinde Bern-West",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Bern-West",
+    "Kirchgemeinderat",
+    "c/o Pfarreien Bern-West",
+    "Burgunderstrasse 124",
+    "3018 Bern"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/pfarreien-bern-west/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarreien-bern-west/ueber-uns/kirchgemeinde",
+   "bfs": [
+    662,
+    663,
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671
+   ],
+   "partial_bfs": [
+    304,
+    351,
+    355,
+    360
+   ],
+   "confidence": "medium",
+   "note": "Seit 1.1.2023 Fusion der Kirchgemeinden St. Antonius (Bümpliz) und St. Mauritius (Bethlehem). Umfasst auch Ferenbalm, Frauenkappelen, Gurbrü, Kriechenwil, Laupen, Mühleberg, Münchenwiler, Neuenegg, Wileroltigen sowie Teile von Bern, Köniz (Wangental), Wohlen und Kallnach (Golaten). Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-bern-bruder-klaus",
+   "name": "Römisch-katholische Kirchgemeinde Bruder Klaus Bern",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Bruder Klaus Bern",
+    "Kirchgemeinderat",
+    "c/o Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung",
+    "Frohbergweg 4",
+    "3012 Bern"
+   ],
+   "address_type": "verwaltung",
+   "email": "gkgbern@kathbern.ch",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-bruder-klaus-bern/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-bruder-klaus-bern/ueber-uns/kirchgemeinde",
+   "bfs": [
+    356
+   ],
+   "partial_bfs": [
+    351
+   ],
+   "confidence": "high",
+   "note": "Die Kirchgemeinde-Seite nennt als Kontakt die Geschäftsstelle der Gesamtkirchgemeinde. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-heiligkreuz",
+   "name": "Römisch-katholische Kirchgemeinde Heiligkreuz Bern",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Heiligkreuz",
+    "Kirchgemeinderat",
+    "c/o Pfarrei Heiligkreuz",
+    "Johanniterstrasse 30",
+    "3047 Bremgarten b. Bern"
+   ],
+   "address_type": "sekretariat",
+   "email": "heiligkreuz.bremgarten@kathbern.ch",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-heiligkreuz-bremgarten/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-heiligkreuz-bremgarten/ueber-uns/kirchgemeinde",
+   "bfs": [
+    307,
+    353
+   ],
+   "partial_bfs": [
+    351,
+    354,
+    360,
+    362
+   ],
+   "confidence": "high",
+   "note": "Laut Kirchgemeinde-Seite ist der Kirchgemeinderat über das Pfarreisekretariat erreichbar. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-ostermundigen-guthirt",
+   "name": "Römisch-katholische Kirchgemeinde Guthirt Ostermundigen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Guthirt Ostermundigen",
+    "Kirchgemeinderat",
+    "c/o Pfarrei Guthirt",
+    "Obere Zollgasse 31",
+    "3072 Ostermundigen"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-guthirt-ostermundigen/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-guthirt-ostermundigen/ueber-uns/kirchgemeinde",
+   "bfs": [
+    352,
+    358,
+    363
+   ],
+   "partial_bfs": [
+    351,
+    362
+   ],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite nennt als Kontakt nur das Pfarreisekretariat. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-worb-st-martin",
+   "name": "Römisch-katholische Kirchgemeinde St. Martin Worb",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Martin Worb",
+    "Kirchgemeinderat",
+    "c/o Pfarrei St. Martin",
+    "Bernstrasse 16",
+    "3076 Worb"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-st-martin-worb/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-st-martin-worb/ueber-uns/kirchgemeinde",
+   "bfs": [
+    359,
+    627
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite nennt als Kontakt nur das Pfarreisekretariat. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-zollikofen-st-franziskus",
+   "name": "Römisch-katholische Kirchgemeinde St. Franziskus Zollikofen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Franziskus Zollikofen",
+    "Kirchgemeinderat",
+    "c/o Pfarrei St. Franziskus",
+    "Stämpflistrasse 26",
+    "3052 Zollikofen"
+   ],
+   "address_type": "sekretariat",
+   "email": "franziskus.zollikofen@kathbern.ch",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-st-franziskus-zollikofen/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-st-franziskus-zollikofen/ueber-uns/kirchgemeinde",
+   "bfs": [
+    310,
+    361,
+    535,
+    540,
+    541,
+    543,
+    544,
+    546,
+    551,
+    553,
+    557
+   ],
+   "partial_bfs": [
+    354
+   ],
+   "confidence": "high",
+   "note": "Laut Kirchgemeinde-Seite ist der Kirchgemeinderat über das Pfarreisekretariat erreichbar. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-koeniz-st-josef",
+   "name": "Römisch-katholische Kirchgemeinde St. Josef Köniz",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Josef Köniz",
+    "Kirchgemeinderat",
+    "c/o Seelsorgeraum Bern-Süd",
+    "Stapfenstrasse 25",
+    "3098 Köniz"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued/ueber-uns/kirchgemeinde",
+   "bfs": [
+    357,
+    852,
+    853,
+    855
+   ],
+   "partial_bfs": [
+    355
+   ],
+   "confidence": "medium",
+   "note": "Fusioniert laut Kirchgemeinde-Seite per 1.1.2027 mit St. Michael Wabern zur Kirchgemeinde Bern-Süd. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-wabern-st-michael",
+   "name": "Römisch-katholische Kirchgemeinde St. Michael Wabern",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde St. Michael Wabern",
+    "Kirchgemeinderat",
+    "c/o Pfarreizentrum St. Michael",
+    "Gossetstrasse 8",
+    "3084 Wabern"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/seelsorgeraum-bern-sued",
+   "bfs": [
+    861,
+    869,
+    870,
+    877,
+    884,
+    888
+   ],
+   "partial_bfs": [
+    351,
+    355,
+    872,
+    879,
+    889
+   ],
+   "confidence": "medium",
+   "note": "Umfasst Belp, Kaufdorf, Kehrsatz, Niedermuhlern, Toffen, Wald sowie Teile von Köniz (Wabern), Bern, Kirchdorf (Gelterfingen), Riggisberg (Rümligen) und Thurnen (Kirchenthurnen). Fusioniert laut Kirchgemeinde-Seite per 1.1.2027 mit St. Josef Köniz zur Kirchgemeinde Bern-Süd. Gehört zur Röm.-kath. Gesamtkirchgemeinde Bern und Umgebung, die das Mitgliederverzeichnis führt (Geschäftsstelle Frohbergweg 4, 3012 Bern). Französischsprachige Mitglieder können stattdessen der Paroisse catholique de langue française de Berne et environs angehören (Rainmattstrasse 20, 3011 Bern)."
+  },
+  {
+   "id": "be-konolfingen",
+   "name": "Römisch-katholische Kirchgemeinde Konolfingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Konolfingen",
+    "Kirchgemeinderat",
+    "c/o Pfarrei Auferstehung",
+    "Inselistrasse 11",
+    "3510 Konolfingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "auferstehung.konolfingen@kathbern.ch",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-auferstehung-konolfingen/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-auferstehung-konolfingen/ueber-uns/kirchgemeinde",
+   "bfs": [
+    602,
+    603,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    612,
+    613,
+    614,
+    615,
+    617,
+    619,
+    620,
+    622,
+    626,
+    628,
+    629
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Sekretariat für Kirchgemeinderat und Pfarrei gemeinsam."
+  },
+  {
+   "id": "be-muensingen",
+   "name": "Römisch-katholische Kirchgemeinde Münsingen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Münsingen",
+    "Kirchgemeinderat",
+    "Löwenmattweg 10",
+    "3110 Münsingen"
+   ],
+   "address_type": "sekretariat",
+   "email": "johannes.muensingen@kathbern.ch",
+   "website": "https://www.kathbern.ch/region-bern/pfarrei-st-johannes-muensingen/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/region-bern/pfarrei-st-johannes-muensingen/ueber-uns/kirchgemeinde",
+   "bfs": [
+    611,
+    616,
+    623,
+    630,
+    632
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-biel",
+   "name": "Römisch-katholische Kirchgemeinde Biel und Umgebung",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Biel und Umgebung",
+    "Verwaltung",
+    "Villa Choisy, Juravorstadt 41",
+    "2502 Biel/Bienne"
+   ],
+   "address_type": "verwaltung",
+   "email": "admin.gkg@kathbielbienne.ch",
+   "website": "https://www.kathbern.ch/region-biel/pfarreien-biel/ueber-uns/kirchgemeinde-biel-und-umgebung",
+   "source": "https://www.kathbern.ch/region-biel/pfarreien-biel/ueber-uns/kirchgemeinde-biel-und-umgebung",
+   "bfs": [
+    371,
+    372,
+    438,
+    442,
+    449,
+    450,
+    732,
+    733,
+    739,
+    740,
+    743,
+    744,
+    745,
+    746,
+    750,
+    756
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Zweisprachige Kirchgemeinde; umfasst auch Evilard, Orvin, Péry-La Heutte, Romont und Sauge."
+  },
+  {
+   "id": "be-pieterlen",
+   "name": "Römisch-katholische Kirchgemeinde Pieterlen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Pieterlen",
+    "Kirchgemeinderat",
+    "Bassbeltweg 26",
+    "2542 Pieterlen"
+   ],
+   "address_type": "sekretariat",
+   "email": "kirchgemeinde@kathpieterlen.ch",
+   "website": "https://www.kathbern.ch/region-biel/pfarrei-st-martin-pieterlen/ueber-uns/kirchgemeinde-st-martin-pieterlen",
+   "source": "https://www.kathbern.ch/region-biel/pfarrei-st-martin-pieterlen/ueber-uns/kirchgemeinde-st-martin-pieterlen",
+   "bfs": [
+    387,
+    390,
+    392
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Strasse ist die Adresse der Pfarrei St. Martin; das Kirchgemeindesekretariat nutzt dieselbe Telefonnummer."
+  },
+  {
+   "id": "be-la-neuveville",
+   "name": "Paroisse catholique romaine de La Neuveville",
+   "postal": [
+    "Paroisse catholique romaine de La Neuveville",
+    "Conseil de paroisse",
+    "c/o Unité pastorale / Cure Sainte-Marie",
+    "Faubourg du Jura 47",
+    "2502 Bienne"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.cathberne.ch/region-de-bienne/unite-pastorale-bienne-la-neuveville/a-propos-de-nous/administration",
+   "source": "https://www.cathberne.ch/region-de-bienne/unite-pastorale-bienne-la-neuveville/a-propos-de-nous/paroisse-de-la-neuveville/conseil-de-paroisse",
+   "bfs": [
+    723,
+    724,
+    726
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Die Seite der Paroisse nennt nur die Adresse der Unité pastorale Bienne – La Neuveville in Biel. Postadresse auf der Website prüfen."
+  },
+  {
+   "id": "be-seeland-lyss",
+   "name": "Römisch-katholische Kirchgemeinde Seeland-Lyss",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Seeland-Lyss",
+    "Kirchgemeindeverwaltung",
+    "Oberfeldweg 26",
+    "3250 Lyss"
+   ],
+   "address_type": "verwaltung",
+   "email": "verwaltung@kathseeland.ch",
+   "website": "https://www.kathbern.ch/seeland/pastoralraum-seeland-lyss/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/seeland/pastoralraum-seeland-lyss/ich-moechte/aus-der-kirche-austreten",
+   "bfs": [
+    301,
+    302,
+    303,
+    305,
+    306,
+    309,
+    311,
+    312,
+    381,
+    382,
+    383,
+    385,
+    386,
+    388,
+    389,
+    391,
+    393,
+    394,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    731,
+    734,
+    735,
+    736,
+    737,
+    738,
+    741,
+    742,
+    747,
+    748,
+    749,
+    751,
+    754,
+    755
+   ],
+   "partial_bfs": [
+    304
+   ],
+   "confidence": "high",
+   "note": "Die Austrittsseite der Kirchgemeinde nennt diese Adresse ausdrücklich."
+  },
+  {
+   "id": "be-langenthal",
+   "name": "Römisch-katholische Kirchgemeinde Langenthal",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Langenthal",
+    "Kirchgemeinderat",
+    "Hasenmattstrasse 36",
+    "4900 Langenthal"
+   ],
+   "address_type": "verwaltung",
+   "email": "info@kathlangenthal.ch",
+   "website": "https://www.kathbern.ch/oberaargau/pastoralraum-oberaargau/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/oberaargau/pastoralraum-oberaargau/ueber-uns/kirchgemeinde",
+   "bfs": [
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    329,
+    331,
+    332,
+    333,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    344,
+    345,
+    951,
+    952,
+    953,
+    954,
+    957,
+    958,
+    959,
+    960,
+    971,
+    972,
+    973,
+    975,
+    976,
+    977,
+    979,
+    980,
+    981,
+    982,
+    983,
+    985,
+    987,
+    988,
+    989,
+    990,
+    991,
+    992,
+    995
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Kirchgemeinde für den ganzen Verwaltungskreis Oberaargau sowie Affoltern i.E., Dürrenroth, Eriswil, Huttwil, Sumiswald, Trachselwald, Walterswil und Wyssachen (Pastoralraum Oberaargau)."
+  },
+  {
+   "id": "be-burgdorf",
+   "name": "Römisch-katholische Kirchgemeinde Burgdorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Burgdorf",
+    "Kirchgemeinderat",
+    "Friedeggstrasse 12",
+    "3400 Burgdorf"
+   ],
+   "address_type": "kirchenpflege",
+   "website": "https://www.kath-burgdorf.ch/kirchgemeinde",
+   "source": "https://www.kath-burgdorf.ch/kirchgemeinde/kirchgemeinderat",
+   "bfs": [
+    403,
+    404,
+    406,
+    407,
+    409,
+    414,
+    415,
+    418,
+    421,
+    422,
+    424,
+    955,
+    956
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Adresse des Kirchgemeinderats laut Website (zugleich Pfarrei Maria Himmelfahrt)."
+  },
+  {
+   "id": "be-utzenstorf",
+   "name": "Römisch-katholische Kirchgemeinde Utzenstorf",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Utzenstorf",
+    "Kirchgemeinderat",
+    "Landshutstrasse 41",
+    "3427 Utzenstorf"
+   ],
+   "address_type": "kirchenpflege",
+   "email": "kgr-sekretariat@kathutzenstorf.ch",
+   "website": "https://www.kathutzenstorf.ch/kirchgemeinde",
+   "source": "https://www.kathutzenstorf.ch/kirchgemeinderat",
+   "bfs": [
+    401,
+    402,
+    405,
+    408,
+    410,
+    411,
+    412,
+    413,
+    420,
+    423,
+    533,
+    538,
+    552,
+    554,
+    556
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-langnau",
+   "name": "Römisch-katholische Kirchgemeinde Langnau im Emmental",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Langnau im Emmental",
+    "Kirchgemeinderat",
+    "c/o Pfarrei Heilig Kreuz",
+    "Oberfeldstrasse 8",
+    "3550 Langnau im Emmental"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/emmental/pfarrei-heilig-kreuz-langnau/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/emmental/pfarrei-heilig-kreuz-langnau/ueber-uns/kirchgemeinde",
+   "bfs": [
+    901,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    908,
+    909
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite nennt als Kontakt nur das Pfarreisekretariat."
+  },
+  {
+   "id": "be-thun",
+   "name": "Römisch-katholische Kirchgemeinde Thun",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Thun",
+    "Verwaltung",
+    "Kapellenweg 7",
+    "3600 Thun"
+   ],
+   "address_type": "verwaltung",
+   "email": "verwaltung@kath-thun.ch",
+   "website": "https://www.kathbern.ch/berner-oberland/pfarreien-st-marien-und-st-martin-thun/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/berner-oberland/pfarreien-st-marien-und-st-martin-thun/ueber-uns/kirchgemeinde",
+   "bfs": [
+    863,
+    866,
+    867,
+    868,
+    880,
+    883,
+    885,
+    886,
+    921,
+    922,
+    923,
+    924,
+    925,
+    927,
+    928,
+    929,
+    931,
+    932,
+    934,
+    935,
+    936,
+    938,
+    939,
+    940,
+    941,
+    942,
+    943,
+    944,
+    945,
+    946,
+    948
+   ],
+   "partial_bfs": [
+    767,
+    770,
+    872,
+    879,
+    889
+   ],
+   "confidence": "high",
+   "note": "Umfasst auch zahlreiche Gemeinden des Gürbetals/Längenbergs (u. a. Gerzensee, Riggisberg, Rüeggisberg) sowie Teile von Kirchdorf, Thurnen, Reutigen (Zwieselberg) und Stocken-Höfe (Höfen)."
+  },
+  {
+   "id": "be-gstaad",
+   "name": "Römisch-katholische Kirchgemeinde Gstaad",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Gstaad",
+    "Kirchgemeinderat",
+    "c/o Röm.-kath. Pfarramt Gstaad",
+    "Gschwendmatteweg 23",
+    "3780 Gstaad"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.kathbern.ch/berner-oberland/pfarrei-st-josef-gstaad/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/berner-oberland/pfarrei-st-josef-gstaad/ueber-uns/kirchgemeinde",
+   "bfs": [
+    791,
+    792,
+    793,
+    794,
+    841,
+    842,
+    843
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Kirchgemeinde-Seite nennt als Postadresse das Pfarramt; Gebiet: Verwaltungskreis Obersimmental-Saanen."
+  },
+  {
+   "id": "be-frutigen",
+   "name": "Römisch-katholische Kirchgemeinde Frutigen",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Frutigen",
+    "Kirchgemeinderat",
+    "c/o Pfarrei St. Mauritius",
+    "Gufergasse 1",
+    "3714 Frutigen"
+   ],
+   "address_type": "pfarramt",
+   "email": "kirchgemeinde@kath-frutigen.ch",
+   "website": "https://www.kathbern.ch/berner-oberland/pfarrei-st-mauritius-frutigen/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/berner-oberland/pfarrei-st-mauritius-frutigen/ueber-uns/kirchgemeinde",
+   "bfs": [
+    561,
+    563,
+    564,
+    565,
+    567
+   ],
+   "partial_bfs": [],
+   "confidence": "medium"
+  },
+  {
+   "id": "be-spiez",
+   "name": "Römisch-katholische Kirchgemeinde Spiez",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Spiez",
+    "Kirchgemeinderat",
+    "c/o Pfarrei Bruder Klaus",
+    "Belvédèrestrasse 6",
+    "3700 Spiez"
+   ],
+   "address_type": "pfarramt",
+   "email": "kirchgemeinderat.spiez@kathbern.ch",
+   "website": "https://www.kathbern.ch/berner-oberland/pfarrei-bruder-klaus-spiez/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/berner-oberland/pfarrei-bruder-klaus-spiez/ueber-uns/kirchgemeinde",
+   "bfs": [
+    562,
+    566,
+    761,
+    762,
+    763,
+    766,
+    768,
+    769
+   ],
+   "partial_bfs": [
+    767,
+    770
+   ],
+   "confidence": "medium",
+   "note": "Postadresse ist die der Pfarrei; für den Kirchgemeinderat publiziert die Seite nur die E-Mail-Adresse."
+  },
+  {
+   "id": "be-interlaken",
+   "name": "Römisch-katholische Kirchgemeinde Interlaken",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Interlaken",
+    "Kirchgemeinderat",
+    "Schloss-Strasse 4",
+    "3800 Interlaken"
+   ],
+   "address_type": "kirchenpflege",
+   "email": "verwaltung@kath-interlaken.ch",
+   "website": "https://www.kath-interlaken.ch/Kirchgemeinde/",
+   "source": "https://www.kath-interlaken.ch/Kirchgemeinde/",
+   "bfs": [
+    571,
+    572,
+    575,
+    576,
+    577,
+    578,
+    579,
+    581,
+    582,
+    584,
+    585,
+    586,
+    587,
+    588,
+    590,
+    591,
+    593,
+    594
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-oberhasli-brienz",
+   "name": "Römisch-katholische Kirchgemeinde Oberhasli-Brienz",
+   "postal": [
+    "Römisch-katholische Kirchgemeinde Oberhasli-Brienz",
+    "Sekretariat",
+    "Hauptstrasse 26",
+    "3860 Meiringen"
+   ],
+   "address_type": "sekretariat",
+   "website": "https://www.kathbern.ch/berner-oberland/pfarrei-guthirt-meiringen/ueber-uns/kirchgemeinde",
+   "source": "https://www.kathbern.ch/berner-oberland/pfarrei-guthirt-meiringen/ueber-uns/kirchgemeinde",
+   "bfs": [
+    573,
+    574,
+    580,
+    589,
+    592,
+    782,
+    783,
+    784,
+    785,
+    786
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-malleray-bevilard",
+   "name": "Paroisse catholique romaine de Malleray-Bévilard",
+   "postal": [
+    "Paroisse catholique romaine de Malleray-Bévilard",
+    "Conseil de paroisse",
+    "Grand-Rue 16",
+    "2735 Malleray-Bévilard"
+   ],
+   "address_type": "sekretariat",
+   "email": "par.cath.mall.bev@bluewin.ch",
+   "website": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-de-malleray-bevilard",
+   "source": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-de-malleray-bevilard",
+   "bfs": [
+    683,
+    690,
+    711,
+    717
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-vallon-de-saint-imier",
+   "name": "Paroisse catholique romaine du Vallon de Saint-Imier",
+   "postal": [
+    "Paroisse catholique romaine du Vallon de Saint-Imier",
+    "Conseil de paroisse",
+    "Rue de Beau Site 6",
+    "2610 Saint-Imier"
+   ],
+   "address_type": "sekretariat",
+   "email": "catholiqueromaine@bluewin.ch",
+   "website": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-du-vallon-de-saint-imier",
+   "source": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-du-vallon-de-saint-imier",
+   "bfs": [
+    431,
+    432,
+    433,
+    434,
+    441,
+    443,
+    444,
+    445,
+    448
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-tavannes",
+   "name": "Paroisse catholique romaine de Tavannes",
+   "postal": [
+    "Paroisse catholique romaine de Tavannes",
+    "Conseil de paroisse",
+    "Route de Tramelan 10",
+    "2710 Tavannes"
+   ],
+   "address_type": "sekretariat",
+   "email": "paroisse-tav@bluewin.ch",
+   "website": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-de-tavannes-reconvilier",
+   "source": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-de-tavannes-reconvilier",
+   "bfs": [
+    696,
+    703,
+    706,
+    707,
+    713
+   ],
+   "partial_bfs": [],
+   "confidence": "high",
+   "note": "Auftritt als «Paroisse de Tavannes – Reconvilier»; amtlicher Name laut LKV: Tavannes."
+  },
+  {
+   "id": "be-tramelan",
+   "name": "Paroisse catholique romaine de Tramelan",
+   "postal": [
+    "Paroisse catholique romaine de Tramelan",
+    "Conseil de paroisse",
+    "Grand-Rue 110",
+    "2720 Tramelan"
+   ],
+   "address_type": "sekretariat",
+   "email": "paroisse-tramelan@bluewin.ch",
+   "website": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-de-tramelan",
+   "source": "https://www.cathberne.ch/region-du-jura-bernois/paroisse-de-tramelan",
+   "bfs": [
+    437,
+    446
+   ],
+   "partial_bfs": [],
+   "confidence": "high"
+  },
+  {
+   "id": "be-moutier",
+   "name": "Commune ecclésiastique catholique romaine de Moutier",
+   "postal": [
+    "Commune ecclésiastique catholique romaine de Moutier",
+    "Conseil de la commune ecclésiastique",
+    "Place du Marché 3",
+    "2740 Moutier"
+   ],
+   "address_type": "pfarramt",
+   "website": "https://www.jurapastoral.ch/vallee-de-delemont-moutier/paroisses/paroisse-de-moutier/communes-ecclesiastiques/",
+   "source": "https://web.archive.org/web/20260721192922/https://www.jurapastoral.ch/vallee-de-delemont-prevote/paroisses/paroisse-de-moutier/contacts/",
+   "bfs": [
+    681,
+    687,
+    691,
+    692,
+    694,
+    701,
+    704
+   ],
+   "partial_bfs": [],
+   "confidence": "medium",
+   "note": "Seit 1.1.2026 kantonsübergreifende Kirchgemeinde unter jurassischem Recht (Accord d’exécution n° 2, BSG 105.235.1-2); umfasst Moutier (JU) und die Berner Gemeinden Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches. Adresse = «Secrétariat Paroisse catholique romaine de Moutier» (Cure) laut archivierter Kontaktseite von jurapastoral.ch (Juli 2026); Live-Seite nicht abrufbar."
+  },
+  {
+   "id": "be-ju-undervelier",
+   "name": "Commune ecclésiastique catholique romaine d’Undervelier",
+   "postal": [
+    "Commune ecclésiastique catholique romaine d’Undervelier",
+    "c/o Secrétariat de la commune ecclésiastique Bassecourt",
+    "Rue de Prayé 6",
+    "2854 Bassecourt"
+   ],
+   "address_type": "sekretariat",
+   "website": "https://www.jurapastoral.ch/communes/undervelier/",
+   "source": "https://web.archive.org/web/20260515175020/https://www.jurapastoral.ch/communes/undervelier/",
+   "bfs": [],
+   "partial_bfs": [
+    716
+   ],
+   "confidence": "medium",
+   "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Adresse aus archivierter Seite von jurapastoral.ch (Mai 2026), Live-Seite nicht abrufbar."
+  },
+  {
+   "id": "be-ju-lajoux",
+   "name": "Commune ecclésiastique catholique romaine de Lajoux",
+   "postal": [
+    "Commune ecclésiastique catholique romaine de Lajoux",
+    "2718 Lajoux"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.belex.sites.be.ch/app/de/texts_of_law/410.111",
+   "bfs": [
+    715
+   ],
+   "partial_bfs": [
+    716
+   ],
+   "confidence": "low",
+   "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Postadresse auf der Website prüfen (jurapastoral.ch nicht abrufbar)."
+  },
+  {
+   "id": "be-ju-mervelier",
+   "name": "Commune ecclésiastique catholique romaine de Mervelier",
+   "postal": [
+    "Commune ecclésiastique catholique romaine de Mervelier",
+    "2827 Mervelier"
+   ],
+   "address_type": "praesidium",
+   "source": "https://web.archive.org/web/20260618114621/https://www.jurapastoral.ch/communes/mervelier/",
+   "bfs": [
+    708
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Nur Privatadressen von Sekretariat und Präsidium publiziert. Postadresse auf der Website prüfen."
+  },
+  {
+   "id": "be-ju-vermes",
+   "name": "Commune ecclésiastique catholique romaine de Vermes",
+   "postal": [
+    "Commune ecclésiastique catholique romaine de Vermes",
+    "2829 Vermes"
+   ],
+   "address_type": "praesidium",
+   "source": "https://web.archive.org/web/20260116032511/https://www.jurapastoral.ch/communes/vermes/",
+   "bfs": [
+    709
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Publiziert sind nur Adressen von Sekretärin und Präsidentin. Postadresse auf der Website prüfen."
+  },
+  {
+   "id": "be-ju-les-bois",
+   "name": "Commune ecclésiastique catholique romaine des Bois",
+   "postal": [
+    "Commune ecclésiastique catholique romaine des Bois",
+    "2336 Les Bois"
+   ],
+   "address_type": "praesidium",
+   "source": "https://www.belex.sites.be.ch/app/de/texts_of_law/410.111",
+   "bfs": [
+    435
+   ],
+   "partial_bfs": [],
+   "confidence": "low",
+   "note": "Jurassische Kirchgemeinde (commune ecclésiastique) mit Berner Gebiet, LKV Anhang 2 Art. A2-6. Postadresse auf der Website prüfen (jurapastoral.ch nicht abrufbar)."
+  }
+ ],
+ "split": [
+  {
+   "bfs": 304,
+   "how": "Kallnach umfasst seit der Fusion 2019 die frühere Gemeinde Golaten. Das Gebiet der früheren Gemeinde Golaten gehört zur Kirchgemeinde Bern-West, das übrige Gemeindegebiet (Kallnach, Niederried b. Kallnach) zu Seeland-Lyss.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Golaten": "be-bern-west",
+    "Kallnach": "be-seeland-lyss",
+    "Niederried bei Kallnach": "be-seeland-lyss"
+   }
+  },
+  {
+   "bfs": 351,
+   "how": "Die Stadt Bern ist auf sieben Kirchgemeinden verteilt. Grob: Bümpliz/Bethlehem und der Westen → Bern-West; Engehalbinsel nördlich Stauwehr–Studerstrasse–Seftausteg → Heiligkreuz; Nordquartier rechts der Aare (Lorraine, Breitenrain, bis Papiermühlestrasse) → St. Marien; Stadtgebiet nördlich der Ostermundigenstrasse zwischen Pulverweg und Gemeindegrenze → Guthirt Ostermundigen; übriges Gebiet rechts der Aare (Kirchenfeld ohne unteres Kirchenfeld, Schosshalde) → Bruder Klaus; Innere Stadt, Länggasse, Mattenhof und unteres Kirchenfeld → Dreifaltigkeit; ein kleines Gebiet links der Aare südlich der Linie Aare–Dorngasse–Roschistrasse–Seftigenstrasse → St. Michael Wabern. Verbindlich sind die kantonalen Geodaten (LKV Art. 19).",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Bümpliz": "be-bern-west",
+    "Bethlehem": "be-bern-west",
+    "Engehalbinsel nördlich Stauwehr–Studerstrasse–Seftausteg": "be-heiligkreuz",
+    "Nordquartier rechts der Aare (Lorraine, Breitenrain)": "be-bern-st-marien",
+    "nördlich Ostermundigenstrasse zwischen Pulverweg und Gemeindegrenze": "be-ostermundigen-guthirt",
+    "Kirchenfeld (ohne unteres Kirchenfeld) und Schosshalde": "be-bern-bruder-klaus",
+    "Innere Stadt": "be-bern-dreifaltigkeit",
+    "Länggasse (südlich Studerstrasse)": "be-bern-dreifaltigkeit",
+    "Mattenhof": "be-bern-dreifaltigkeit",
+    "unteres Kirchenfeld": "be-bern-dreifaltigkeit",
+    "links der Aare südlich Dorngasse–Roschistrasse–Seftigenstrasse": "be-wabern-st-michael"
+   }
+  },
+  {
+   "bfs": 354,
+   "how": "Herrenschwanden und Stuckishaus (inkl. Halensiedlung) gehören zur Kirchgemeinde Heiligkreuz, das übrige Gemeindegebiet (Kirchlindach, Ortschwaben) zu St. Franziskus Zollikofen.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Herrenschwanden": "be-heiligkreuz",
+    "Stuckishaus": "be-heiligkreuz",
+    "Kirchlindach": "be-zollikofen-st-franziskus",
+    "Ortschwaben": "be-zollikofen-st-franziskus"
+   }
+  },
+  {
+   "bfs": 355,
+   "how": "Wangental (Niederwangen, Oberwangen, Thörishaus, Liebewil) → Bern-West; Wabern und der östliche Teil des Spiegels (Grenze Bellevuestrasse–Spiegelstrasse–Chaumontweg–Gurtentalstrasse) → St. Michael Wabern; übriges Gemeindegebiet (Köniz, Liebefeld, Schliern, Niederscherli, Gasel, Mittelhäusern, übriger Spiegel) → St. Josef Köniz.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Niederwangen": "be-bern-west",
+    "Oberwangen": "be-bern-west",
+    "Thörishaus": "be-bern-west",
+    "Liebewil": "be-bern-west",
+    "Wabern": "be-wabern-st-michael",
+    "Köniz": "be-koeniz-st-josef",
+    "Liebefeld": "be-koeniz-st-josef",
+    "Schliern": "be-koeniz-st-josef",
+    "Niederscherli": "be-koeniz-st-josef",
+    "Gasel": "be-koeniz-st-josef",
+    "Mittelhäusern": "be-koeniz-st-josef"
+   }
+  },
+  {
+   "bfs": 360,
+   "how": "Uettligen und Oberdettigen gehören zur Kirchgemeinde Heiligkreuz, das übrige Gemeindegebiet (u. a. Hinterkappelen, Wohlen, Murzelen, Innerberg, Säriswil) zu Bern-West.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Uettligen": "be-heiligkreuz",
+    "Oberdettigen": "be-heiligkreuz",
+    "Hinterkappelen": "be-bern-west",
+    "Wohlen bei Bern": "be-bern-west",
+    "Murzelen": "be-bern-west",
+    "Innerberg": "be-bern-west",
+    "Säriswil": "be-bern-west"
+   }
+  },
+  {
+   "bfs": 362,
+   "how": "Worblaufen (Gebiet westlich der Autobahn A1) gehört zur Kirchgemeinde Heiligkreuz, das übrige Gemeindegebiet zu Guthirt Ostermundigen.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Worblaufen": "be-heiligkreuz",
+    "Ittigen": "be-ostermundigen-guthirt"
+   }
+  },
+  {
+   "bfs": 716,
+   "how": "Petit-Val wird von zwei jurassischen Kirchgemeinden betreut: das Gebiet um Fornet-Dessous gehört zu Lajoux, das übrige Gemeindegebiet (Châtelat, Monible, Sornetan, Souboz, Les Ecorcheresses) zu Undervelier.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Fornet-Dessous": "be-ju-lajoux",
+    "Châtelat": "be-ju-undervelier",
+    "Monible": "be-ju-undervelier",
+    "Sornetan": "be-ju-undervelier",
+    "Souboz": "be-ju-undervelier",
+    "Les Ecorcheresses": "be-ju-undervelier"
+   }
+  },
+  {
+   "bfs": 767,
+   "how": "Reutigen umfasst seit der Fusion die frühere Gemeinde Zwieselberg. Zwieselberg gehört zur Kirchgemeinde Thun, Reutigen zu Spiez.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Zwieselberg": "be-thun",
+    "Reutigen": "be-spiez"
+   }
+  },
+  {
+   "bfs": 770,
+   "how": "Höfen (b. Thun) gehört zur Kirchgemeinde Thun, Niederstocken und Oberstocken gehören zu Spiez.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Höfen b. Thun": "be-thun",
+    "Niederstocken": "be-spiez",
+    "Oberstocken": "be-spiez"
+   }
+  },
+  {
+   "bfs": 872,
+   "how": "Das Gebiet der früheren Gemeinde Gelterfingen gehört zur Kirchgemeinde St. Michael Wabern, das übrige Gemeindegebiet (Kirchdorf, Mühledorf, Noflen) zu Thun.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Gelterfingen": "be-wabern-st-michael",
+    "Kirchdorf": "be-thun",
+    "Mühledorf": "be-thun",
+    "Noflen": "be-thun"
+   }
+  },
+  {
+   "bfs": 879,
+   "how": "Das Gebiet der früheren Gemeinde Rümligen gehört zur Kirchgemeinde St. Michael Wabern, das übrige Gemeindegebiet (Riggisberg, Rüti b. Riggisberg) zu Thun.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Rümligen": "be-wabern-st-michael",
+    "Riggisberg": "be-thun",
+    "Rüti b. Riggisberg": "be-thun"
+   }
+  },
+  {
+   "bfs": 889,
+   "how": "Das Gebiet der früheren Gemeinde Kirchenthurnen gehört zur Kirchgemeinde St. Michael Wabern, Mühlethurnen und Lohnstorf gehören zu Thun.",
+   "finder": null,
+   "geodata": "https://geofiles.be.ch/geoportal/pub/download/ADMKG/admkg.gpkg.zip",
+   "ortsteile": {
+    "Kirchenthurnen": "be-wabern-st-michael",
+    "Mühlethurnen": "be-thun",
+    "Lohnstorf": "be-thun"
+   }
+  }
+ ],
+ "unmapped_bfs": [],
+ "issues": [
+  "Zuordnung Gemeinde → Kirchgemeinde aus den rechtsverbindlichen Geodaten ADMKG (Nachführung 1.1.2026) per Flächenverschnitt mit den Gemeindegrenzen ADMGDE berechnet; Splitter unter 0,2 % Fläche (Grenzungenauigkeiten) ignoriert.",
+  "Kirchgemeinde-Postadressen: Die meisten Kirchgemeinden publizieren keine eigene Verwaltungsadresse, sondern das Pfarrei-/Pfarramtssekretariat (address_type pfarramt).",
+  "Gesamtkirchgemeinde Bern und Umgebung: führt das Mitgliederverzeichnis zentral (Organisationsreglement Art. 10 Abs. 2); ob sie als «bezeichnete Stelle» für Austritte gilt, ist nicht publiziert. Adressiert wird deshalb der Kirchgemeinderat der jeweiligen Kirchgemeinde.",
+  "Paroisse catholique de langue française de Berne et environs (Rainmattstrasse 20, 3011 Bern): Personalpfarrei/-kirchgemeinde für französischsprachige Mitglieder im Gebiet der Gesamtkirchgemeinde (Wahlrecht nach Art. 24 LKV); ohne eigenes Gebiet, daher kein eigener Eintrag. Wer ihr angehört, richtet den Austritt an sie.",
+  "St. Josef Köniz und St. Michael Wabern fusionieren per 1.1.2027 zur Kirchgemeinde Bern-Süd; Einträge dann zusammenführen.",
+  "Moutier (seit 1.1.2026 JU): Die Commune ecclésiastique de Moutier umfasst weiterhin Belprahon, Corcelles, Crémines, Eschert, Grandval, Perrefitte und Roches (BE); seit dem Transfer gilt für Austritte jurassisches Recht (Accord d’exécution n° 2, Art. 8). Adresse (Cure, Place du Marché 3) nur über das Internet Archive bestätigt.",
+  "Die Berner Gemeinden La Ferrière (Les Bois), Rebévelier (Lajoux), Schelten (Mervelier), Seehof (Vermes) und Petit-Val (Undervelier/Lajoux) gehören zu jurassischen Kirchgemeinden; jurapastoral.ch war nicht abrufbar (TLS-Abbruch), Adressen nur teilweise über das Internet Archive. Für Lajoux, Mervelier, Vermes und Les Bois fehlt eine Postadresse ohne Privatperson.",
+  "La Neuveville: Die Paroisse publiziert nur die Adresse der Unité pastorale in Biel (Cure Sainte-Marie); eigene Postadresse unklar.",
+  "Bern-Stadt: Die Ortsteil-Zuordnung in split ist nur eine grobe Orientierung nach dem Grossratsbeschluss 2012; massgebend sind die Geodaten ADMKG."
+ ]
+}

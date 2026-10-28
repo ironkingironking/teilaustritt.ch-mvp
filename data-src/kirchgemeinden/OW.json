@@ -1,0 +1,118 @@
+{
+  "canton": "OW",
+  "body": {
+    "name": "Verband der römisch-katholischen Kirchgemeinden des Kantons Obwalden (KGV-OW)",
+    "short": "Kirche Obwalden",
+    "website": "https://www.kirche-obwalden.ch/",
+    "postal": ["Verband der römisch-katholischen Kirchgemeinden des Kantons Obwalden", "Bergstrasse 2", "6060 Sarnen"]
+  },
+  "austritt": {
+    "recipient": "Römisch-katholische Kirchgemeinde des Wohnsitzes (Kirchgemeinderat)",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftliche Erklärung mit eigenhändiger Unterschrift; bei gemeinsamer Erklärung muss jede Person über 16 Jahren selbst unterschreiben, stellvertretende Erklärungen sind ungültig; normaler Brief genügt",
+    "beglaubigung": false,
+    "beglaubigung_note": "",
+    "wirkung": "",
+    "notes": "Die Kirchgemeinde bestätigt den Austritt schriftlich und informiert Einwohnergemeinde und Steueramt; Sarnen schickt vorher ein Schreiben zur Unterzeichnung zurück. Kantonsweit einheitliche Austrittsregeln wurden nicht gefunden, die Angaben stammen von den Kirchgemeinden Sarnen und Alpnach.",
+    "source": "https://www.seelsorgeraum-sarnen.ch/organisation/kirchgemeinderat/mitgliedschaft"
+  },
+  "finder": "https://www.kirche-obwalden.ch/verband",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.kirche-obwalden.ch/verband",
+    "https://gdb.ow.ch/app/de/texts_of_law/101.0",
+    "https://gdb.ow.ch/app/de/texts_of_law/641.4",
+    "https://www.seelsorgeraum-sarnen.ch/organisation/kirchgemeinderat/mitgliedschaft",
+    "https://www.seelsorgeraum-sarnen.ch/personen-und-kontakte/verwaltung",
+    "https://www.pfarrei-alpnach.ch/ueber-uns/kirchgemeinde/mitgliedschaft",
+    "https://www.pfarrei-alpnach.ch/quicklinks/impressum",
+    "https://www.pfarrei-giswil.ch/mitglieder/",
+    "https://www.kirche-kerns.ch/kontakt",
+    "https://www.pfarrei-lungern.ch/kirchenrat/",
+    "https://www.pfarrei-sachseln.ch/pfarrei-und-kirchgemeinde/kirchgemeinde/"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "ow-alpnach",
+      "name": "Katholische Kirchgemeinde Alpnach",
+      "postal": ["Kath. Kirchgemeinde Alpnach", "Kirchgemeinderat", "Brünigstrasse 23", "6055 Alpnach Dorf"],
+      "address_type": "verwaltung",
+      "email": "kirchgemeinderat@pfarrei-alpnach.ch",
+      "website": "https://www.pfarrei-alpnach.ch/",
+      "source": "https://www.pfarrei-alpnach.ch/ueber-uns/kirchgemeinde/mitgliedschaft",
+      "bfs": [1401],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Die Kirchgemeinde nennt diese Adresse ausdrücklich als Empfängerin des Kirchenaustritts; Impressum: Kath. Kirchgemeinde Alpnach, 6055 Alpnach Dorf."
+    },
+    {
+      "id": "ow-giswil",
+      "name": "Katholische Kirchgemeinde Giswil",
+      "postal": ["Kath. Kirchgemeinde Giswil", "c/o Finanzverwaltung Giswil", "Bahnhofplatz 1", "Postfach 167", "6074 Giswil"],
+      "address_type": "verwaltung",
+      "email": "kirchenrat@kg-giswil.ch",
+      "website": "https://www.pfarrei-giswil.ch/",
+      "source": "https://www.pfarrei-giswil.ch/mitglieder/",
+      "bfs": [1403],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Von der Kirchgemeinde als «Kath. Kirchgemeinde / Rechnungsadresse» publiziert."
+    },
+    {
+      "id": "ow-kerns",
+      "name": "Römisch-katholische Kirchgemeinde Kerns",
+      "postal": ["Römisch-katholische Kirchgemeinde Kerns", "Kirchgemeinderat", "Stanserstrasse 2", "6064 Kerns"],
+      "address_type": "pfarramt",
+      "website": "https://www.kirche-kerns.ch/",
+      "source": "https://www.kirche-kerns.ch/kontakt",
+      "bfs": [1404],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Die Kontaktseite der Kirchgemeinde nennt als Adresse das Kath. Pfarramt Stanserstrasse 2; eine eigene Verwaltungsadresse ist nicht publiziert."
+    },
+    {
+      "id": "ow-lungern",
+      "name": "Römisch-katholische Kirchgemeinde Lungern",
+      "postal": ["Römisch-katholische Kirchgemeinde Lungern", "Kirchgemeinderat", "Gräbliweg 2", "6078 Lungern"],
+      "address_type": "kirchenrat",
+      "website": "https://www.pfarrei-lungern.ch/",
+      "source": "https://www.pfarrei-lungern.ch/kirchenrat/",
+      "bfs": [1405],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Adresse so als «Kirchgemeinderat Lungern» publiziert; umfasst auch Bürglen OW."
+    },
+    {
+      "id": "ow-sachseln",
+      "name": "Römisch-katholische Kirchgemeinde Sachseln",
+      "postal": ["Römisch-katholische Kirchgemeinde Sachseln", "Kirchenverwaltung", "Pilatusstrasse 3", "6072 Sachseln"],
+      "address_type": "verwaltung",
+      "website": "https://www.pfarrei-sachseln.ch/",
+      "source": "https://www.pfarrei-sachseln.ch/pfarrei-und-kirchgemeinde/kirchgemeinde/",
+      "bfs": [1406],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Kirchenverwaltung im selben Haus wie das Pfarramt (Pilatusstrasse 3); umfasst auch Flüeli-Ranft."
+    },
+    {
+      "id": "ow-sarnen",
+      "name": "Römisch-katholische Kirchgemeinde Sarnen",
+      "postal": ["Röm.-kath. Kirchgemeinde Sarnen", "Verwaltung", "Pfarrgässli 4", "6060 Sarnen"],
+      "address_type": "verwaltung",
+      "website": "https://www.seelsorgeraum-sarnen.ch/",
+      "source": "https://www.seelsorgeraum-sarnen.ch/organisation/kirchgemeinderat/mitgliedschaft",
+      "bfs": [1407],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst die Pfarreien Sarnen, Schwendi und Kägiswil (Seelsorgeraum Sarnen)."
+    }
+  ],
+  "split": [],
+  "unmapped_bfs": [1402],
+  "issues": [
+    "Engelberg (BFS 1402): Engelberg ist Klosterpfarrei und gehört dem Kirchgemeindeverband nicht an. Das Steuergesetz OW (Anhang Steuerstrategieausgleich) führt für Engelberg nur die Einwohnergemeinde, aber keine römisch-katholische Kirchgemeinde. Nach Art. 101 KV OW bilden die Katholiken der Einwohnergemeinde die Kirchgemeinde, eine selbständige mit eigenem Rat besteht in Engelberg offenbar nicht. Wer dort den Austritt entgegennimmt, ist nicht belegt; die Website der Gemeinde Engelberg war am 28.10.2026 nicht erreichbar (TLS-Fehler). Deshalb ist Engelberg nicht zugeordnet.",
+    "Gebietszuordnung nach Art. 103 KV OW: Der Sprengel einer katholischen Kirchgemeinde deckt sich grundsätzlich mit dem Gebiet der Einwohnergemeinde; Teilungen oder Vereinigungen sind nicht bekannt.",
+    "Austrittsregeln stammen von den Websites der Kirchgemeinden Sarnen und Alpnach; eine kantonale Regel (Gesetz oder Verbandsstatut) zum Austritt wurde nicht gefunden.",
+    "Kerns: Als Postadresse ist nur das Pfarramt publiziert."
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "canton": "AR",
+  "body": {
+    "name": "Verband römisch-katholischer Kirchgemeinden des Kantons Appenzell Ausserrhoden",
+    "short": "Katholische Kirche Appenzell Ausserrhoden",
+    "website": "https://www.kath-kirche-ar.ch/",
+    "postal": []
+  },
+  "austritt": {
+    "recipient": "Präsidium des Kirchenverwaltungsrates der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich, eigenhändig unterschrieben, Unterschrift amtlich beglaubigt (ab 16 Jahren selbst)",
+    "beglaubigung": true,
+    "beglaubigung_note": "Beglaubigung durch eine öffentliche Urkundsperson: Gemeindeschreiberin/Gemeindeschreiber (bzw. bezeichnete Sekretariatsperson) oder registrierte Anwältin/registrierter Anwalt (Art. 2 und 20 Beurkundungsgesetz, bGS 211.2).",
+    "wirkung": "Entbindet ab dem folgenden Monat von der Steuerpflicht (Art. 3 Abs. 2 Ordnung des Verbands).",
+    "notes": "Art. 3 Abs. 2 der Ordnung (in Kraft seit 1.1.2026): «schriftliche und amtlich beglaubigte Austrittserklärung» an den Präsidenten des Kirchenverwaltungsrates. Für Schönengrund, Stein Süd, Teile von Wolfhalden/Lutzenberg/Heiden und Reute gelten Recht und Adresse der ausserkantonalen Kirchgemeinde (SG bzw. AI).",
+    "source": "https://www.kath-kirche-ar.ch/_files/ugd/24dfd3_e9545b376ae841aeabc6c40cce23f226.pdf"
+  },
+  "finder": "https://www.kath-kirche-ar.ch/unsere-kirchgemeinden",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.kath-kirche-ar.ch/_files/ugd/24dfd3_e9545b376ae841aeabc6c40cce23f226.pdf",
+    "https://www.kath-kirche-ar.ch/unsere-kirchgemeinden",
+    "https://www.kath-kirche-ar.ch/",
+    "https://ar.clex.ch/app/de/texts_of_law/111.1",
+    "https://ar.clex.ch/app/de/texts_of_law/162.1",
+    "https://ar.clex.ch/app/de/texts_of_law/211.2",
+    "https://www.kath-herisau.ch/impressum",
+    "https://www.kathkirche-urnaesch.ch/sekretariat",
+    "https://kath-rotbachtal.ch/unsere-kirche/kirchenverwaltung",
+    "https://pauluspfarrei.ch/kontakt/kirchenverwaltung/",
+    "https://se-ueb.ch/pfarreien/heiden/",
+    "https://se-ueb.ch/pfarreien/walzenhausen/",
+    "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+    "https://public.madd.bfs.admin.ch/ar.zip"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "ar-herisau-waldstatt-schwellbrunn",
+      "name": "Katholische Kirchgemeinde Herisau-Waldstatt-Schwellbrunn",
+      "postal": [
+        "Katholische Kirchgemeinde Herisau-Waldstatt-Schwellbrunn",
+        "Präsidium des Kirchenverwaltungsrates",
+        "Gossauerstrasse 62a",
+        "9100 Herisau"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kath-herisau.ch",
+      "website": "https://www.kath-herisau.ch/",
+      "source": "https://www.kath-herisau.ch/impressum",
+      "bfs": [
+        3001,
+        3004,
+        3007
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gossauerstrasse 62a ist das Pfarreisekretariat (Impressum, auch Verbandsseite); das KVR-Präsidium ist nur mit Privatadresse publiziert."
+    },
+    {
+      "id": "ar-urnaesch-hundwil",
+      "name": "Katholische Kirchgemeinde Urnäsch-Hundwil",
+      "postal": [
+        "Katholische Kirchgemeinde Urnäsch-Hundwil",
+        "Präsidium des Kirchenverwaltungsrates",
+        "Postfach 140",
+        "9107 Urnäsch"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@kathkirche-urnaesch.ch",
+      "website": "https://www.kathkirche-urnaesch.ch/",
+      "source": "https://www.kathkirche-urnaesch.ch/sekretariat",
+      "bfs": [
+        3002,
+        3006
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Postfach des Pfarreisekretariats laut KG-Website; die Verbandsseite nennt «Postfach 40»."
+    },
+    {
+      "id": "ar-rotbachtal",
+      "name": "Katholische Kirchgemeinde Rotbachtal",
+      "postal": [
+        "Katholische Kirchgemeinde Rotbachtal",
+        "Präsidium Kirchenverwaltungsrat",
+        "Stofelweid 1b",
+        "9053 Teufen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-teufen.ch",
+      "website": "https://kath-rotbachtal.ch/",
+      "source": "https://kath-rotbachtal.ch/unsere-kirche/kirchenverwaltung",
+      "bfs": [
+        3021,
+        3022,
+        3024
+      ],
+      "partial_bfs": [
+        3005
+      ],
+      "confidence": "high",
+      "note": "KG Rotbachtal (Teufen, Bühler, nördlicher Teil von Stein, Gais), KVR seit 29.11.2025 konstituiert; Ordnung Art. 20 Abs. 1 nennt noch «Teufen-Bühler-Stein Nord» und «Gais» getrennt. Kontaktadresse des Präsidiums laut KG-Website."
+    },
+    {
+      "id": "ar-speicher-trogen-wald",
+      "name": "Katholische Kirchgemeinde Speicher-Trogen-Wald",
+      "postal": [
+        "Katholische Kirchgemeinde Speicher-Trogen-Wald",
+        "Kirchenverwaltungsrat",
+        "Bruggmoos 29",
+        "9042 Speicher"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@pauluspfarrei.ch",
+      "website": "https://pauluspfarrei.ch/",
+      "source": "https://pauluspfarrei.ch/kontakt/kirchenverwaltung/",
+      "bfs": [
+        3023,
+        3025,
+        3036
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Bruggmoos 29 ist das Sekretariat der Pauluspfarrei; auf der Seite «Kirchenverwaltung» als Kontakt angegeben."
+    },
+    {
+      "id": "ar-heiden-rehetobel",
+      "name": "Katholische Kirchgemeinde Heiden-Rehetobel",
+      "postal": [
+        "Katholische Kirchgemeinde Heiden-Rehetobel",
+        "Präsidium der Kirchenverwaltung",
+        "Rosenweg 3",
+        "9410 Heiden"
+      ],
+      "address_type": "pfarramt",
+      "email": "info.kath-heiden@se-ueb.ch",
+      "website": "https://se-ueb.ch/pfarreien/heiden/",
+      "source": "https://se-ueb.ch/pfarreien/heiden/",
+      "bfs": [
+        3031,
+        3034
+      ],
+      "partial_bfs": [
+        3032,
+        3038
+      ],
+      "confidence": "medium",
+      "note": "Rosenweg 3 ist das Pfarreisekretariat; die Kirchenverwaltung ist nur mit Privatadressen publiziert. Umfasst Heiden, Rehetobel, Grub AR und den südlichen Teil von Wolfhalden (se-ueb.ch)."
+    },
+    {
+      "id": "ar-walzenhausen",
+      "name": "Katholische Kirchgemeinde Walzenhausen",
+      "postal": [
+        "Katholische Kirchgemeinde Walzenhausen",
+        "Kirchenverwaltungsrat",
+        "Platz 249",
+        "9428 Walzenhausen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://se-ueb.ch/pfarreien/walzenhausen/",
+      "source": "https://se-ueb.ch/pfarreien/walzenhausen/",
+      "bfs": [
+        3037
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Platz 249 ist das Pfarreisekretariat Walzenhausen (auch Verbandsseite)."
+    },
+    {
+      "id": "ar-wienacht-tobel",
+      "name": "Katholische Kirchgemeinde Wienacht-Tobel",
+      "postal": [
+        "Katholische Kirchgemeinde Wienacht-Tobel",
+        "9405 Wienacht-Tobel"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.kath-buechberg.ch/",
+      "source": "https://www.kath-kirche-ar.ch/unsere-kirchgemeinden",
+      "bfs": [],
+      "partial_bfs": [
+        3033
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen (nur Privatadresse des Präsidiums publiziert). Seelsorgeeinheit Buechberg."
+    },
+    {
+      "id": "sg-st-peterzell",
+      "name": "Katholische Kirchgemeinde St. Peterzell",
+      "postal": [
+        "Katholische Kirchgemeinde St. Peterzell",
+        "Kirchenverwaltungsrat",
+        "c/o Sekretariat Seelsorgeeinheit Neutoggenburg",
+        "Grüenauweg 8",
+        "9630 Wattwil"
+      ],
+      "address_type": "sekretariat",
+      "email": "kvr.st.peterzell@neutoggenburg.ch",
+      "website": "https://neutoggenburg.ch/",
+      "source": "https://neutoggenburg.ch/ueber-uns/kontakte-verwaltung/",
+      "confidence": "medium",
+      "bfs": [
+        3003
+      ],
+      "partial_bfs": [],
+      "note": "St. gallische KG; umfasst vertraglich die Katholiken von Schönengrund (Ordnung Art. 20 Abs. 4); es gilt st. gallisches Recht (beglaubigte Unterschrift, Art. 6 Abs. 2 VKK)."
+    },
+    {
+      "id": "ai-haslen",
+      "name": "Römisch-katholische Kirchgemeinde Haslen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Haslen",
+        "Kirchenrat",
+        "Dorfstrasse 53",
+        "9054 Haslen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kath-haslen.ch/",
+      "source": "https://kath-haslen.ch/kontakte",
+      "confidence": "medium",
+      "bfs": [],
+      "partial_bfs": [
+        3005
+      ],
+      "note": "Innerrhoder KG; umfasst vertraglich die Katholiken im südlichen Teil von Stein (Ordnung Art. 20 Abs. 4; Konkordat bGS 162.1); es gilt Innerrhoder Recht."
+    },
+    {
+      "id": "sg-thal",
+      "name": "Katholische Kirchgemeinde Thal",
+      "postal": [
+        "Katholische Kirchgemeinde Thal",
+        "Sekretariat der Kirchenverwaltung",
+        "Kirchstrasse 9",
+        "9423 Altenrhein"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-thal.ch",
+      "source": "https://www.kath-buechberg.ch/uploads/69f46538a73c20d3e0987144/-/Amtsbericht%202025.pdf",
+      "confidence": "medium",
+      "bfs": [],
+      "partial_bfs": [
+        3032,
+        3033,
+        3038
+      ],
+      "note": "St. gallische KG; umfasst vertraglich die Weiler Boden, Hasle, Hinterlochen, Lüchli, Bühel, Tobelmühle und Aussertobel von Wolfhalden sowie den östlichen Teil von Lutzenberg (Ordnung Art. 20 Abs. 4); es gilt st. gallisches Recht (beglaubigte Unterschrift)."
+    },
+    {
+      "id": "ai-oberegg",
+      "name": "Römisch-katholische Kirchgemeinde Oberegg",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Oberegg",
+        "Kirchenrat",
+        "Kirchplatz 10",
+        "9413 Oberegg"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kath-oberegg.ch/",
+      "source": "https://kath-oberegg.ch/Raete-und-Sekretariat/Kirchverwaltung/",
+      "confidence": "medium",
+      "bfs": [],
+      "partial_bfs": [
+        3035
+      ],
+      "note": "Innerrhoder KG; umfasst vertraglich die Katholiken von Reute (Ordnung Art. 20 Abs. 4); es gilt Innerrhoder Recht."
+    },
+    {
+      "id": "sg-marbach",
+      "name": "Katholische Kirchgemeinde Marbach",
+      "postal": [
+        "Katholische Kirchgemeinde Marbach",
+        "c/o Pfarreisekretariat Marbach",
+        "Kirchweg 7a",
+        "9450 Lüchingen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kirche-marbach.ch",
+      "source": "https://kirche-marbach.ch/impressum/",
+      "confidence": "low",
+      "bfs": [],
+      "partial_bfs": [
+        3035
+      ],
+      "note": "St. gallische KG; laut Ordnung Art. 20 Abs. 4 zuständig für den Weiler Mohren (Reute), den dieselbe Bestimmung auch Oberegg zuweist. Zuordnung unsicher."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 3005,
+      "how": "Nördlicher Teil von Stein: KG Rotbachtal. Südlicher Teil von Stein: KG Haslen (AI) (Ordnung Art. 20). Die Grenze ist nicht publiziert und in keinem Geodatensatz verfügbar – beim Pfarramt Teufen (KG Rotbachtal) nachfragen.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {}
+    },
+    {
+      "bfs": 3032,
+      "how": "Gemeinde Heiden: KG Heiden-Rehetobel. Einzelne Häuser in Hinterlochen und Gehrn (PLZ 9427 Wolfhalden) auf Heidener Gemeindegebiet gehören laut kantonalem Geodatensatz SG00090 zur KG Thal (SG).",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0&E=2752000&N=1254000&zoom=6",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "Heiden (9410)": "ar-heiden-rehetobel",
+        "Hinterlochen (9427 Wolfhalden)": "sg-thal",
+        "Gehrn (9427 Wolfhalden)": "sg-thal"
+      }
+    },
+    {
+      "bfs": 3033,
+      "how": "Dorf Wienacht und Tobel (Wienacht, Unterwienacht, Kapf, Unterer Kapf, Tolen, Tan, Grund): KG Wienacht-Tobel. Östlicher Teil der Gemeinde (Haufen, Brenden, Oberbrenden, Hof, Hellbüchel, Dorfhalde, Engelgass, Gstell, Fuchsacker, Gitzbüchel, Blatten): KG Thal (SG) (Ordnung Art. 20). Für Häuser an der Strasse «Tobel» (9405) widersprechen sich die Ordnung (Wienacht-Tobel) und der Geodatensatz SG00090 (Thal) – nachfragen.",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0&E=2752000&N=1254000&zoom=6",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "Wienacht": "ar-wienacht-tobel",
+        "Unterwienacht": "ar-wienacht-tobel",
+        "Kapf": "ar-wienacht-tobel",
+        "Unterer Kapf": "ar-wienacht-tobel",
+        "Tolen": "ar-wienacht-tobel",
+        "Tan": "ar-wienacht-tobel",
+        "Haufen": "sg-thal",
+        "Brenden": "sg-thal",
+        "Oberbrenden": "sg-thal",
+        "Vorderbrenden": "sg-thal",
+        "Hof": "sg-thal",
+        "Hellbüchel": "sg-thal",
+        "Dorfhalde": "sg-thal",
+        "Engelgass": "sg-thal",
+        "Gstell": "sg-thal",
+        "Fuchsacker": "sg-thal",
+        "Gitzbüchel": "sg-thal"
+      }
+    },
+    {
+      "bfs": 3035,
+      "how": "Gemeinde Reute (Reute AR, Schachen b. Reute): KG Oberegg (AI). Für den Weiler Mohren nennt die Ordnung (Art. 20 Abs. 4) sowohl Oberegg als auch Marbach (SG); der Geodatensatz SG00090 rechnet Mohren nicht zu Marbach – bei der KG Oberegg nachfragen.",
+      "finder": null,
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "Reute AR (9411), ohne Mohren": "ai-oberegg",
+        "Schachen b. Reute (9411)": "ai-oberegg"
+      }
+    },
+    {
+      "bfs": 3038,
+      "how": "Südlicher Teil mit Dorf (u. a. Hinterergeten, Luchten, Alte Landstrasse, Schönenbühl, Hinteregg, Lippenrüti, Oberdorf, Friedberg, Tanne, Wüschbach, Kronenstrasse): KG Heiden-Rehetobel. Nördlicher Teil mit den Weilern Boden, Hasle, Hinterlochen, Lüchli, Bühel, Tobelmühle, Aussertobel (laut Geodatensatz SG00090 u. a. auch Mühltobel, Hinterbühle, Vorder-/Hinterhasli, Augsti, Hueb, Zelg, Höhe, Plätzli, Lehn, Högli): KG Thal (SG). Bleichestrasse und Unterwolfhalden sind geteilt – im Zweifel im Geoportal prüfen.",
+      "finder": "https://map.geo.admin.ch/?topic=ech&lang=de&bgLayer=ch.swisstopo.pixelkarte-grau&layers=WMS%7C%7Ckath_Kirchgemeinden%7C%7Chttps:%2F%2Fservices.geo.sg.ch%2Fwss%2Fservice%2FSG00090_WMS%2Fguest%7C%7Ckath_Kirchgemeinden%7C%7C1.3.0&E=2752000&N=1254000&zoom=6",
+      "geodata": "https://services.geo.sg.ch/wss/service/SG00090_WFS/guest?service=WFS&version=2.0.0&request=GetFeature&typeNames=SG00090:kath_Kirchgemeinden&outputFormat=geojson&srsName=EPSG:4326",
+      "ortsteile": {
+        "Dorf (9427)": "ar-heiden-rehetobel",
+        "Hinterergeten": "ar-heiden-rehetobel",
+        "Luchten": "ar-heiden-rehetobel",
+        "Schönenbühl": "ar-heiden-rehetobel",
+        "Lippenrüti": "ar-heiden-rehetobel",
+        "Oberdorf (9427)": "ar-heiden-rehetobel",
+        "Mühltobel": "sg-thal",
+        "Hinterbühle": "sg-thal",
+        "Vorderhasli": "sg-thal",
+        "Hinterhasli": "sg-thal",
+        "Hinterlochen": "sg-thal",
+        "Augsti": "sg-thal",
+        "Tobelmühle": "sg-thal",
+        "Lüchli": "sg-thal",
+        "Bühel": "sg-thal",
+        "Boden": "sg-thal"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Beglaubigung bestätigt: Art. 3 Abs. 2 der Ordnung des Verbands (Teilrevision in Kraft seit 1.1.2026) verlangt eine «schriftliche und amtlich beglaubigte Austrittserklärung».",
+    "Ordnung Art. 20 ist intern widersprüchlich: Abs. 1 listet 8 KG (Teufen-Bühler-Stein Nord und Gais getrennt), Abs. 2 nur 7 (Rotbachtal). Rehetobel fehlt in Abs. 2 lit. e; die Zuordnung zu Heiden-Rehetobel stützt sich auf den Namen der KG und se-ueb.ch.",
+    "Weiler Mohren (Reute) wird in Art. 20 Abs. 4 sowohl Oberegg (AI) als auch Marbach (SG) zugewiesen; der Geodatensatz SG00090 rechnet ihn nicht zu Marbach.",
+    "Lutzenberg: Für die Strasse «Tobel» (9405) widersprechen sich Ordnung (KG Wienacht-Tobel) und Geodatensatz SG00090 (KG Thal).",
+    "Stein AR: Grenze zwischen Stein Nord (Rotbachtal) und Stein Süd (Haslen AI) nicht publiziert.",
+    "Kein KG publiziert eine Postadresse des KVR-Präsidiums ausser über Privatadressen; verwendet sind Pfarrei-/Sekretariatsadressen (medium). Wienacht-Tobel: nur Privatadresse → ohne Strasse (low). Verband ohne Geschäftsstelle (body.postal leer).",
+    "Zuordnungen in Wolfhalden, Lutzenberg, Heiden und Schönengrund aus Ordnung Art. 20 und dem Geodatensatz SG00090 (enthält «angrenzende Gebiete») mit GWR-Gebäudeeingängen abgeleitet."
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "canton": "UR",
+  "body": {
+    "name": "Römisch-Katholische Landeskirche Uri",
+    "short": "Katholische Kirche Uri",
+    "website": "https://kath-uri.ch/",
+    "postal": [
+      "Römisch-Katholische Landeskirche Uri",
+      "Tellsgasse 18",
+      "6460 Altdorf"
+    ]
+  },
+  "austritt": {
+    "recipient": "Präsidium des Kirchenrates der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich (einfacher Brief) mit Personalien und Wohnadresse, unterschrieben",
+    "beglaubigung": false,
+    "beglaubigung_note": "",
+    "wirkung": "Massgebend ist der Eingangsstempel auf dem Schreiben; mit dem Austritt entfällt die Kirchensteuer.",
+    "notes": "Der Austritt aus der Kirchgemeinde gilt zugleich als Austritt aus der Landeskirche (Art. 3 Abs. 2 Verfassung). Kinder bis 16 Jahre können im Schreiben der Eltern erwähnt werden, ältere erklären den Austritt selbst; die Kirchgemeinde bestätigt schriftlich und informiert die Wohngemeinde.",
+    "source": "https://kath-uri.ch/ueber-uns/kirchenmitgliedschaft/"
+  },
+  "finder": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://kath-uri.ch/ueber-uns/kirchenmitgliedschaft/",
+    "https://kath-uri.ch/ueber-uns/landeskirche/",
+    "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+    "https://www.kath-uri.ch/fileadmin/dateien/dokumente/landeskirchenrat/dokumente/verfassung_lku.pdf",
+    "https://www.ur.ch/_docn/280642/5.03_Aufteilung_Gewinnsteuer_2022_2026.pdf",
+    "https://hls-dhs-dss.ch/de/articles/007470/2001-07-09/",
+    "https://hls-dhs-dss.ch/de/articles/000698/2007-03-13/",
+    "https://www.kg-altdorf.ch/kontakt",
+    "https://www.pfarreien-ambrisi.ch/kontakte-kirchenraumlte.html",
+    "https://www.gemeinde-andermatt.ch/dorfleben/kirchen/kath-kirche.html/94",
+    "https://www.attinghausen.ch/index.php/politik/behoerden-und-kommissionen/kirchenrat",
+    "https://sebais.ch/",
+    "https://www.pfarrei-buerglen.ch/",
+    "https://kath-erstfeld.ch/impressum/",
+    "https://www.flueelen.ch/impressum",
+    "https://www.hospental.ch/kirche.html/22",
+    "https://isenthal.ch/politik/kirchenrat/",
+    "https://realp.ch/politik/behoerdliche-einrichtungen/kirchenrat",
+    "https://www.pfarrei-schattdorf.ch/about/",
+    "https://kirche-seelisberg.ch/kontakte-oeffnungszeiten/",
+    "https://www.sisikon.ch/religionkirche",
+    "https://www.kg-spiringen.ch/Impressum/",
+    "https://www.unterschaechen.ch/leben/kirche",
+    "https://www.goeschenen.ch/leben/kirche"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "ur-altdorf",
+      "name": "Kirchgemeinde Altdorf",
+      "postal": [
+        "Kirchgemeinde Altdorf",
+        "Kirchenrat",
+        "Kirchplatz 7",
+        "6460 Altdorf"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kg-altdorf.ch",
+      "website": "https://www.kg-altdorf.ch/",
+      "source": "https://www.kg-altdorf.ch/kontakt",
+      "bfs": [
+        1201
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Eine Kirchgemeinde mit den Pfarreien St. Martin und Bruder Klaus."
+    },
+    {
+      "id": "ur-amsteg",
+      "name": "Römisch-katholische Kirchgemeinde Amsteg",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Amsteg",
+        "6474 Amsteg"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.pfarreien-ambrisi.ch/",
+      "source": "https://www.pfarreien-ambrisi.ch/kirchenrat-amsteg.html",
+      "bfs": [],
+      "partial_bfs": [
+        1216,
+        1209
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen. Liegt in der politischen Gemeinde Silenen; laut HLS gehören auch Ried und Intschi (Gemeinde Gurtnellen) dazu."
+    },
+    {
+      "id": "ur-andermatt",
+      "name": "Römisch-katholische Kirchgemeinde Andermatt",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Andermatt",
+        "Kirchenrat",
+        "Kirchgasse 7",
+        "6490 Andermatt"
+      ],
+      "address_type": "kirchenrat",
+      "website": "https://www.gemeinde-andermatt.ch/dorfleben/kirchen/kath-kirche.html/94",
+      "source": "https://www.gemeinde-andermatt.ch/dorfleben/kirchen/kath-kirche.html/94",
+      "bfs": [
+        1202
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Die Gemeinde Andermatt führt den Kath. Kirchenrat Andermatt unter Kirchgasse 7; dort ist auch das Pfarreisekretariat der Seelsorge Ursern."
+    },
+    {
+      "id": "ur-attinghausen",
+      "name": "Römisch-katholische Kirchgemeinde Attinghausen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Attinghausen",
+        "6468 Attinghausen"
+      ],
+      "address_type": "praesidium",
+      "email": "praesident@kath-attinghausen.ch",
+      "website": "https://www.attinghausen.ch/index.php/politik/behoerden-und-kommissionen/kirchenrat",
+      "source": "https://www.attinghausen.ch/index.php/politik/behoerden-und-kommissionen/kirchenrat",
+      "bfs": [
+        1203
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen; Funktionsadresse des Präsidiums vorhanden."
+    },
+    {
+      "id": "ur-bauen",
+      "name": "Römisch-katholische Kirchgemeinde Bauen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bauen",
+        "6466 Bauen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://sebais.ch/",
+      "source": "https://sebais.ch/pfarrei-bauen/ueber-uns/",
+      "bfs": [],
+      "partial_bfs": [
+        1214
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Keine Postadresse publiziert. Die politische Gemeinde Bauen ist heute Teil von Seedorf, die Kirchgemeinde Bauen besteht weiter (Kirchenrat Bauen 2026)."
+    },
+    {
+      "id": "ur-bristen",
+      "name": "Römisch-katholische Kirchgemeinde Bristen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bristen",
+        "6475 Bristen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.pfarreien-ambrisi.ch/",
+      "source": "https://www.pfarreien-ambrisi.ch/kirchenrat-bristen.html",
+      "bfs": [],
+      "partial_bfs": [
+        1216
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen. Liegt in der politischen Gemeinde Silenen (Bristen/Maderanertal)."
+    },
+    {
+      "id": "ur-buerglen",
+      "name": "Römisch-katholische Kirchgemeinde Bürglen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Bürglen",
+        "Kirchenrat",
+        "Klausenstrasse 138",
+        "6463 Bürglen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-buerglen.ch/",
+      "source": "https://www.pfarrei-buerglen.ch/",
+      "bfs": [
+        1205
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Gemeinsame Website von Pfarrei und Kirchgemeinde; einzige publizierte Postadresse ist das Katholische Pfarramt Klausenstrasse 138. Die Kirchenrat-Seite war am 28.10.2026 nicht erreichbar (404)."
+    },
+    {
+      "id": "ur-erstfeld",
+      "name": "Römisch-katholische Kirchgemeinde Erstfeld",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Erstfeld",
+        "Kirchenrat",
+        "Kirchstrasse 10",
+        "6472 Erstfeld"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://kath-erstfeld.ch/",
+      "source": "https://kath-erstfeld.ch/impressum/",
+      "bfs": [
+        1206
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Website der Kirchgemeinde (vertreten durch den Kirchenrat) nennt als Adresse das Röm.-kath. Pfarramt St. Ambrosius, Kirchstrasse 10."
+    },
+    {
+      "id": "ur-flueelen",
+      "name": "Römisch-katholische Kirchgemeinde Flüelen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Flüelen",
+        "Kirchenrat",
+        "Kirchstrasse 39",
+        "6454 Flüelen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.flueelen.ch/portrait-kirche/kirchengemeinde",
+      "source": "https://www.flueelen.ch/impressum",
+      "bfs": [
+        1207
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Die Website (Gemeinde, Schule, Kirche) nennt als Kontaktadresse «Kirche Flüelen, Kirchstrasse 39»; der Kirchenrat selbst ist nur mit Privatadressen aufgeführt."
+    },
+    {
+      "id": "ur-goeschenen",
+      "name": "Römisch-katholische Kirchgemeinde Göschenen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Göschenen",
+        "6487 Göschenen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.goeschenen.ch/leben/kirche",
+      "source": "https://www.goeschenen.ch/leben/kirche",
+      "bfs": [
+        1208
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Keine Postadresse gefunden; die Website des Seelsorgeraums Urner Oberland (pfarreien.ch) war am 28.10.2026 nicht erreichbar."
+    },
+    {
+      "id": "ur-gurtnellen-dorf",
+      "name": "Römisch-katholische Kirchgemeinde Gurtnellen Dorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Gurtnellen Dorf",
+        "6482 Gurtnellen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.pfarreien.ch/",
+      "source": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+      "bfs": [],
+      "partial_bfs": [
+        1209
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Keine Postadresse gefunden; pfarreien.ch war am 28.10.2026 nicht erreichbar."
+    },
+    {
+      "id": "ur-gurtnellen-wiler",
+      "name": "Römisch-katholische Kirchgemeinde Gurtnellen Wiler",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Gurtnellen Wiler",
+        "6482 Gurtnellen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.pfarreien.ch/",
+      "source": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+      "bfs": [],
+      "partial_bfs": [
+        1209
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Keine Postadresse gefunden; pfarreien.ch war am 28.10.2026 nicht erreichbar."
+    },
+    {
+      "id": "ur-hospental",
+      "name": "Römisch-katholische Kirchgemeinde Hospental",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Hospental",
+        "6493 Hospental"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.hospental.ch/kirche.html/22",
+      "source": "https://www.hospental.ch/kirche.html/22",
+      "bfs": [
+        1210
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen und Telefonnummern publiziert."
+    },
+    {
+      "id": "ur-isenthal",
+      "name": "Römisch-katholische Kirchgemeinde Isenthal",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Isenthal",
+        "6461 Isenthal"
+      ],
+      "address_type": "praesidium",
+      "website": "https://isenthal.ch/politik/kirchenrat/",
+      "source": "https://isenthal.ch/politik/kirchenrat/",
+      "bfs": [
+        1211
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen publiziert."
+    },
+    {
+      "id": "ur-realp",
+      "name": "Römisch-katholische Kirchgemeinde Realp",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Realp",
+        "6491 Realp"
+      ],
+      "address_type": "praesidium",
+      "website": "https://realp.ch/politik/behoerdliche-einrichtungen/kirchenrat",
+      "source": "https://realp.ch/politik/behoerdliche-einrichtungen/kirchenrat",
+      "bfs": [
+        1212
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen publiziert (Co-Präsidium)."
+    },
+    {
+      "id": "ur-schattdorf",
+      "name": "Kirchgemeinde Schattdorf",
+      "postal": [
+        "Kirchgemeinde Schattdorf",
+        "Kirchenrat",
+        "Pfarrhofstrasse 2",
+        "6467 Schattdorf"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-schattdorf.ch/",
+      "source": "https://www.pfarrei-schattdorf.ch/about/",
+      "bfs": [
+        1213
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Impressum nennt «Kirchgemeinde Schattdorf, Pfarrhofstrasse 2» (Adresse des Pfarrhauses)."
+    },
+    {
+      "id": "ur-seedorf",
+      "name": "Römisch-katholische Kirchgemeinde Seedorf",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Seedorf",
+        "6462 Seedorf UR"
+      ],
+      "address_type": "praesidium",
+      "website": "https://sebais.ch/",
+      "source": "https://sebais.ch/pfarrei-seedorf/ueber-uns/",
+      "bfs": [],
+      "partial_bfs": [
+        1214
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat nur mit Namen publiziert."
+    },
+    {
+      "id": "ur-seelisberg",
+      "name": "Römisch-katholische Kirchgemeinde Seelisberg",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Seelisberg",
+        "Kirchenrat",
+        "Pfarrhaus 1",
+        "6377 Seelisberg"
+      ],
+      "address_type": "pfarramt",
+      "email": "kirchenrat@kirche-seelisberg.ch",
+      "website": "https://kirche-seelisberg.ch/",
+      "source": "https://kirche-seelisberg.ch/kontakte-oeffnungszeiten/",
+      "bfs": [
+        1215
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kirchenrat mit Funktionsadresse kirchenrat@kirche-seelisberg.ch; als Postadresse ist nur die Pfarrei (Pfarrhaus 1, laut Impressum) publiziert."
+    },
+    {
+      "id": "ur-silenen",
+      "name": "Römisch-katholische Kirchgemeinde Silenen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Silenen",
+        "6473 Silenen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.pfarreien-ambrisi.ch/",
+      "source": "https://www.pfarreien-ambrisi.ch/kirchenrat-silenen.html",
+      "bfs": [],
+      "partial_bfs": [
+        1216
+      ],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen."
+    },
+    {
+      "id": "ur-sisikon",
+      "name": "Katholische Kirchgemeinde Sisikon",
+      "postal": [
+        "Katholische Kirchgemeinde Sisikon",
+        "6452 Sisikon"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.sisikon.ch/religionkirche",
+      "source": "https://www.sisikon.ch/religionkirche",
+      "bfs": [
+        1217
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Kirchenrat publiziert nur Privatadressen."
+    },
+    {
+      "id": "ur-spiringen",
+      "name": "Katholische Kirchgemeinde Spiringen",
+      "postal": [
+        "Katholische Kirchgemeinde St. Michael Spiringen",
+        "Kirchenrat",
+        "Dorf 13",
+        "6464 Spiringen"
+      ],
+      "address_type": "kirchenrat",
+      "email": "kirchenrat@kg-spiringen.ch",
+      "website": "https://www.kg-spiringen.ch/",
+      "source": "https://www.kg-spiringen.ch/Impressum/",
+      "bfs": [
+        1218
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst laut Kirchgemeinde auch die Kirche St. Erhard auf dem Urnerboden. Adresse identisch mit dem Pfarramt."
+    },
+    {
+      "id": "ur-unterschaechen",
+      "name": "Römisch-katholische Kirchgemeinde Unterschächen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Unterschächen",
+        "6465 Unterschächen"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.unterschaechen.ch/leben/kirche",
+      "source": "https://www.unterschaechen.ch/leben/kirche",
+      "bfs": [
+        1219
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Keine Kirchgemeinde-Adresse gefunden."
+    },
+    {
+      "id": "ur-wassen",
+      "name": "Römisch-katholische Kirchgemeinde Wassen",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Wassen",
+        "6484 Wassen UR"
+      ],
+      "address_type": "praesidium",
+      "website": "https://www.pfarreien.ch/",
+      "source": "https://kath-uri.ch/seelsorge-und-diakonie/pfarreien-und-seelsorgeraeume/",
+      "bfs": [
+        1220
+      ],
+      "partial_bfs": [],
+      "confidence": "low",
+      "note": "Postadresse auf der Website prüfen. Umfasst vermutlich auch Meien (keine eigene Kirchgemeinde laut Verfassung). Keine Postadresse gefunden; pfarreien.ch war am 28.10.2026 nicht erreichbar."
+    }
+  ],
+  "split": [
+    {
+      "bfs": 1209,
+      "how": "Die politische Gemeinde Gurtnellen ist auf die Kirchgemeinden Gurtnellen Dorf, Gurtnellen Wiler und (für Intschi) Amsteg verteilt. Massgebend ist der Ortsteil; bei Arni und dem Gebiet links der Reuss bei Amsteg/Silenen bei der Landeskirche Uri nachfragen.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Gurtnellen Dorf": "ur-gurtnellen-dorf",
+        "Gurtnellen Wiler": "ur-gurtnellen-wiler",
+        "Intschi": "ur-amsteg"
+      }
+    },
+    {
+      "bfs": 1214,
+      "how": "Seit der Fusion der politischen Gemeinden Seedorf und Bauen bestehen die Kirchgemeinden Seedorf und Bauen weiter. Massgebend ist der Ortsteil (PLZ 6462 Seedorf bzw. 6466 Bauen).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Seedorf UR": "ur-seedorf",
+        "Bauen": "ur-bauen"
+      }
+    },
+    {
+      "bfs": 1216,
+      "how": "Die politische Gemeinde Silenen umfasst die Kirchgemeinden Silenen, Amsteg und Bristen. Massgebend ist das Dorf (Silenen, Amsteg mit Ried, Bristen/Maderanertal).",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "Silenen": "ur-silenen",
+        "Amsteg": "ur-amsteg",
+        "Ried": "ur-amsteg",
+        "Bristen": "ur-bristen",
+        "Maderanertal": "ur-bristen"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Die 23 Kirchgemeinden stehen in Art. 2 der Verfassung der Landeskirche Uri (2004); die Gebietsgrenzen sind dort nicht beschrieben (Art. 20: bisherige Gebietseinteilung gewährleistet). Die Zuordnung folgt der Aussage der Landeskirche, die Pfarreien seien weitgehend identisch mit den politischen Gemeinden, mit den Ausnahmen Altdorf, Silenen und Gurtnellen.",
+    "Kirchgemeinde Amsteg reicht laut Historischem Lexikon der Schweiz (Artikel Amsteg, 2001) bis Ried und Intschi; Intschi liegt in der politischen Gemeinde Gurtnellen. Eine aktuelle amtliche Gebietsumschreibung (Strassen/Ortsteile) für Silenen und Gurtnellen fehlt, ebenso die Zuordnung von Arni und des Gurtneller Gebiets links der Reuss.",
+    "Bauen/Seedorf: Die politischen Gemeinden sind fusioniert (Gemeindeliste 30.09.2026), die Kirchgemeinden Bauen und Seedorf bestehen laut sebais.ch weiter. Falls die Kirchgemeinden inzwischen auch fusioniert haben, sind ur-bauen und ur-seedorf zusammenzulegen.",
+    "15 Kirchgemeinden (Amsteg, Attinghausen, Bauen, Bristen, Göschenen, Gurtnellen Dorf, Gurtnellen Wiler, Hospental, Isenthal, Realp, Seedorf, Silenen, Sisikon, Unterschächen, Wassen) publizieren keine Postadresse ausser Privatadressen der Ratsmitglieder; dort steht nur Name + PLZ Ort. Vor Versand Adresse bei der Landeskirche Uri (Tellsgasse 18, Altdorf) erfragen.",
+    "Die Website des Seelsorgeraums Urner Oberland (pfarreien.ch: Göschenen, Gurtnellen, Wassen) war am 28.10.2026 nicht erreichbar (TLS-Fehler); dort stehen eventuell Kirchgemeinde-Adressen."
+  ]
+}

@@ -1,0 +1,1646 @@
+{
+  "canton": "ZH",
+  "body": {
+    "name": "Römisch-katholische Körperschaft des Kantons Zürich",
+    "short": "Katholische Kirche im Kanton Zürich",
+    "website": "https://www.zhkath.ch",
+    "postal": [
+      "Katholische Kirche im Kanton Zürich",
+      "Synodalrat",
+      "Hirschengraben 66",
+      "8001 Zürich"
+    ]
+  },
+  "austritt": {
+    "recipient": "Kirchenpflege der Wohnsitz-Kirchgemeinde",
+    "recipient_level": "kirchgemeinde",
+    "form": "schriftlich, datiert und eigenhändig unterschrieben, mit Personalien und Wohnadresse; E-Mail genügt nicht",
+    "beglaubigung": false,
+    "wirkung": "Wirksam an dem Tag, an dem die unterzeichnete Erklärung bei der Kirchenpflege (oder Pfarrei, Eingangsstempel) eintrifft; kein rückwirkender Austritt; ab dann keine Kirchensteuer.",
+    "notes": "Kinder bis 16 Jahre nur, wenn sie mit Personalien ausdrücklich aufgeführt sind; ab 16 geben sie den Austritt selbst. Die Kirchenpflege bestätigt den Austritt schriftlich und meldet ihn der Wohngemeinde.",
+    "source": "https://www.zhkath.ch/ueber-uns/mitgliedschaft/kirchenaustritt"
+  },
+  "finder": "https://www.zhkath.ch/ueber-uns/pfarreien",
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.zhkath.ch/ueber-uns/mitgliedschaft/kirchenaustritt",
+    "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-182_10-2009_01_29-2010_01_01-134.html",
+    "https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/D0565C7777D2C918C1258E3D001BB440/$File/182.10_29.1.09_134.pdf",
+    "https://zhkath.ch/ueber-uns/organisation/rekurskommission/rekursentscheide/rekursentscheide-1/2022-1/entscheid-r-102-22-vom-19-mai-2022-betr-kirchenaustritt.pdf",
+    "https://www.zh.ch/bin/zhweb/publish/regierungsratsbeschluss-unterlagen./2016/988/RRB-2016-988.pdf",
+    "https://www.zhkath.ch/ueber-uns/pfarreien",
+    "https://www.zhkath.ch/ueber-uns/kontakt",
+    "https://data.stadt-zuerich.ch/dataset/geo_gebietseinteilung_der_roemisch_katholischen_kirchgemeinden",
+    "https://opendata.swiss/de/dataset/gebietseinteilung-der-romisch-katholischen-kirchgemeinden",
+    "https://data.stadt-zuerich.ch/dataset/geo_statistische_quartiere"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "zh-adliswil",
+      "name": "Röm.-kath. Kirchgemeinde Adliswil",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Adliswil",
+        "Kirchenpflege",
+        "Rellstenstrasse 2",
+        "8134 Adliswil"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://adliswil-kath.ch",
+      "source": "https://adliswil-kath.ch/ueber-uns/kirchgemeinde-behoerde/",
+      "bfs": [
+        131
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Adliswil» – Adliswil]"
+    },
+    {
+      "id": "zh-affoltern",
+      "name": "Röm.-kath. Kirchgemeinde Affoltern am Albis",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Affoltern am Albis",
+        "Kirchenpflege",
+        "Seewadelstrasse 13",
+        "8910 Affoltern am Albis"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.affoltern@kath-affoltern.ch",
+      "website": "https://www.kath-affoltern.ch",
+      "source": "https://www.kath-affoltern.ch/sekretariat",
+      "bfs": [
+        1,
+        2,
+        5,
+        10,
+        11
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse des Sekretariats Pfarrei St. Josef (zuständig «in allen Belangen»); eine eigene Kirchenpflege-Adresse ist nicht publiziert. Zweites Sekretariat in Obfelden. [Kirchenordnung (LS 182.10), Anhang: «Affoltern a. A.» – Aeugst a. A., Affoltern a. A., Hedingen, Obfelden, Ottenbach]"
+    },
+    {
+      "id": "zh-andelfingen-feuerthalen",
+      "name": "Röm.-kath. Kirchgemeinde Andelfingen-Feuerthalen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Andelfingen-Feuerthalen",
+        "Kirchenpflege",
+        "Forbüelstrasse 11",
+        "8245 Feuerthalen"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://kath-weinland.ch",
+      "source": "https://kath-weinland.ch/impressum/",
+      "bfs": [
+        22,
+        25,
+        27,
+        29,
+        33,
+        34,
+        35,
+        37,
+        40,
+        41,
+        291,
+        292
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Website nennt «Postanschrift Forbüelstrasse 11, 8245 Feuerthalen» (Pfarramt Feuerthalen); zweites Pfarramt in Kleinandelfingen, Schaffhauserstrasse 61. [Kirchenordnung (LS 182.10), Anhang: «Andelfingen-Feuerthalen» – Andelfingen, Benken, Dachsen, Feuerthalen, Flurlingen, Kleinandelfingen, Laufen-Uhwiesen, Marthalen, Ossingen, Stammheim, Trüllikon, Truttikon]"
+    },
+    {
+      "id": "zh-bauma",
+      "name": "Katholische Kirchgemeinde Bauma",
+      "postal": [
+        "Katholische Kirchgemeinde Bauma",
+        "Sekretariat Kirchgemeinde",
+        "Heinrich Gujer-Strasse 30",
+        "8494 Bauma"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-bauma.ch",
+      "website": "https://www.kath-bauma.ch",
+      "source": "https://www.kath-bauma.ch/impressum/",
+      "bfs": [
+        111,
+        114,
+        297
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Bauma» – Bäretswil, Bauma, Fischenthal]"
+    },
+    {
+      "id": "zh-birmensdorf",
+      "name": "Röm.-kath. Kirchgemeinde Birmensdorf",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Birmensdorf",
+        "Kirchenpflege",
+        "Am Wasser 11",
+        "8903 Birmensdorf"
+      ],
+      "address_type": "kirchenpflege",
+      "website": "https://www.kath-birmensdorf.ch",
+      "source": "https://www.kath-birmensdorf.ch/kontakte-kirchenpflege/",
+      "bfs": [
+        241,
+        242,
+        248
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst Aesch, Birmensdorf und Uitikon (in der zhkath-Datenbank «Aesch-Birmensdorf-Uitikon»). [Kirchenordnung (LS 182.10), Anhang: «Birmensdorf» – Aesch, Birmensdorf, Uitikon]"
+    },
+    {
+      "id": "zh-bonstetten",
+      "name": "Röm.-kath. Kirchgemeinde Bonstetten",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Bonstetten",
+        "Kirchenpflege",
+        "Stallikerstrasse 2",
+        "8906 Bonstetten"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-bonstetten.ch",
+      "website": "https://www.kath-bonstetten.ch",
+      "source": "https://www.kath-bonstetten.ch/kirchenpflege2",
+      "bfs": [
+        3,
+        13,
+        14
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Website nennt Pfarrei St. Mauritius, Stallikerstrasse 2; zhkath-Datenbank nennt Stallikerstrasse 10. [Kirchenordnung (LS 182.10), Anhang: «Bonstetten» – Bonstetten, Stallikon, Wettswil a. A.]"
+    },
+    {
+      "id": "zh-buelach",
+      "name": "Röm.-kath. Kirchgemeinde Bülach",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Bülach",
+        "Kirchenpflege",
+        "Scheuchzerstrasse 1",
+        "8180 Bülach"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "sekretariat@kath-buelach.ch",
+      "website": "https://www.kath-buelach.ch",
+      "source": "https://www.kath-buelach.ch/behoerden",
+      "bfs": [
+        51,
+        53,
+        59,
+        60,
+        72
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Bülach» – Bachenbülach, Bülach, Hochfelden, Höri, Winkel]"
+    },
+    {
+      "id": "zh-dielsdorf",
+      "name": "Kath. Kirchgemeinde Dielsdorf",
+      "postal": [
+        "Kath. Kirchgemeinde Dielsdorf",
+        "Kirchenpflege",
+        "Buchserstrasse 12",
+        "8157 Dielsdorf"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "kirchenpflege.dielsdorf@zh.kath.ch",
+      "website": "https://kath-dini.ch",
+      "source": "https://kath-dini.ch/kirchgemeinde-2/",
+      "bfs": [
+        81,
+        86,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        95,
+        98,
+        99,
+        101
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Dielsdorf» – Bachs, Dielsdorf, Neerach, Niederglatt, Niederhasli, Niederweningen, Oberglatt, Oberweningen, Regensberg, Schleinikon, Schöfflisdorf, Steinmaur]"
+    },
+    {
+      "id": "zh-dietikon",
+      "name": "Röm.-kath. Kirchgemeinde Dietikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Dietikon",
+        "Kirchgemeinde-Sekretariat",
+        "Bahnhofplatz 3",
+        "8953 Dietikon"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-dietikon.ch",
+      "source": "https://www.kath-dietikon.ch/kg-sekretariat",
+      "bfs": [
+        243
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Dietikon» – Dietikon]"
+    },
+    {
+      "id": "zh-duebendorf",
+      "name": "Röm.-kath. Kirchgemeinde Dübendorf",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Dübendorf",
+        "Verwaltung Kirchgemeinde",
+        "Leepüntstrasse 14",
+        "8600 Dübendorf"
+      ],
+      "address_type": "verwaltung",
+      "email": "kirchgemeinde@kath-dfs.ch",
+      "website": "https://www.kath-dfs.ch",
+      "source": "https://www.kath-dfs.ch/kirchgemeinde-kontakt",
+      "bfs": [
+        191,
+        193,
+        197
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst Dübendorf, Fällanden, Schwerzenbach. [Kirchenordnung (LS 182.10), Anhang: «Dübendorf» – Dübendorf, Fällanden, Schwerzenbach]"
+    },
+    {
+      "id": "zh-egg",
+      "name": "Römisch-katholische Kirchgemeinde Egg-Maur",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Egg-Maur",
+        "Kirchenpflege",
+        "Flurstrasse 10",
+        "8132 Egg"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat.egg@kath-egg-maur.ch",
+      "website": "https://www.kath-egg-maur.ch",
+      "source": "https://www.kath-egg-maur.ch/de/impressum/",
+      "bfs": [
+        157,
+        192,
+        195,
+        196
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Im Verzeichnis der Kirchenordnung «Egg». Die Kirchgemeinde verlangt eine handschriftlich unterschriebene Erklärung per Post, keine E-Mail. [Kirchenordnung (LS 182.10), Anhang: «Egg» – Egg, Maur, Mönchaltorf, Oetwil a. S.]"
+    },
+    {
+      "id": "zh-elgg",
+      "name": "Röm.-kath. Kirchgemeinde Elgg",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Elgg",
+        "Kirchenpflege",
+        "Winterthurerstrasse 5",
+        "8353 Elgg"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kathelgg.ch",
+      "website": "https://kathelgg.ch",
+      "source": "https://kathelgg.ch/kirchgemeinde/kirchenpflege/",
+      "bfs": [
+        220,
+        294
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Sekretariat im Pfarramt St. Georg. [Kirchenordnung (LS 182.10), Anhang: «Elgg» – Elgg, Hagenbuch]"
+    },
+    {
+      "id": "zh-geroldswil",
+      "name": "Katholische Kirchgemeinde St. Johannes Geroldswil",
+      "postal": [
+        "Katholische Kirchgemeinde St. Johannes Geroldswil",
+        "Kirchenpflege",
+        "Poststrasse 5B",
+        "8954 Geroldswil"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@kath-geroldswil.ch",
+      "website": "https://kath-geroldswil.ch",
+      "source": "https://kath-geroldswil.ch/telefonbuch/sekretariat/",
+      "bfs": [
+        244,
+        246,
+        251
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Im Verzeichnis der Kirchenordnung «Geroldswil» (Geroldswil, Oetwil a. d. L., Weiningen). Adresse des Sekretariats der Pfarrei St. Johannes. [Kirchenordnung (LS 182.10), Anhang: «Geroldswil» – Geroldswil, Oetwil a. d. L., Weiningen]"
+    },
+    {
+      "id": "zh-glattfelden-eglisau-rafz",
+      "name": "Röm.-kath. Kirchgemeinde Glattfelden-Eglisau-Rafz",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Glattfelden-Eglisau-Rafz",
+        "Kirchenpflege",
+        "Salomon Landolt-Weg 1",
+        "8193 Eglisau"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@glegra.ch",
+      "website": "https://glegra.ch",
+      "source": "https://glegra.ch/portrait/kirchgemeinde",
+      "bfs": [
+        55,
+        58,
+        61,
+        67,
+        70,
+        71,
+        100,
+        102
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse der Katholischen Pfarrei Glattfelden-Eglisau-Rafz, auf den Kirchgemeinde-Seiten publiziert. [Kirchenordnung (LS 182.10), Anhang: «Glattfelden-Eglisau-Rafz» – Eglisau, Glattfelden, Hüntwangen, Rafz, Stadel, Wasterkingen, Weiach, Wil]"
+    },
+    {
+      "id": "zh-hausen-mettmenstetten",
+      "name": "Röm.-kath. Kirchgemeinde Hausen-Mettmenstetten",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Hausen-Mettmenstetten",
+        "Kirchenpflege",
+        "Rüteliweg 4",
+        "8932 Mettmenstetten"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@kath-mettmenstetten.ch",
+      "website": "https://www.kath-hausen-mettmenstetten.ch",
+      "source": "https://www.kath-hausen-mettmenstetten.ch/impressum",
+      "bfs": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Website: «Als Anschrift für die Kirchgemeinde gilt» diese Adresse. Sie bittet zugleich, Austrittserklärungen an das für die Wohngemeinde zuständige Pfarramt zu richten (Herz Jesu Hausen, Bifangstrasse 4, 8915 Hausen am Albis, bzw. St. Burkard Mettmenstetten); Korrespondenz wird intern weitergeleitet. [Kirchenordnung (LS 182.10), Anhang: «Hausen-Mettmenstetten» – Hausen a. A., Kappel a. A., Knonau, Maschwanden, Mettmenstetten, Rifferswil]"
+    },
+    {
+      "id": "zh-herrliberg",
+      "name": "Katholische Kirchgemeinde Herrliberg",
+      "postal": [
+        "Katholische Kirchgemeinde Herrliberg",
+        "Kirchenpflege",
+        "Rennweg 35",
+        "8704 Herrliberg"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-herrliberg.ch",
+      "source": "https://www.kath-herrliberg.ch/adresse",
+      "bfs": [
+        152
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse der Kath. Pfarrei St. Marien; keine separate Kirchenpflege-Adresse publiziert. [Kirchenordnung (LS 182.10), Anhang: «Herrliberg» – Herrliberg]"
+    },
+    {
+      "id": "zh-hinwil",
+      "name": "Röm.-kath. Kirchgemeinde Hinwil",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Hinwil",
+        "Kirchenpflege",
+        "Untere Bahnhofstrasse 17",
+        "8340 Hinwil"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-hinwil.ch",
+      "source": "https://www.kath-hinwil.ch/impressum/",
+      "bfs": [
+        117
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kontaktadresse der Kath. Pfarrei Hinwil (Impressum). Die Domain kath-pfarrei-hinwil.ch aus der zhkath-Datenbank ist nicht erreichbar. [Kirchenordnung (LS 182.10), Anhang: «Hinwil» – Hinwil]"
+    },
+    {
+      "id": "zh-hombrechtikon",
+      "name": "Röm.-kath. Kirchgemeinde Hombrechtikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Hombrechtikon",
+        "Kirchenpflege",
+        "Rütistrasse 24",
+        "8634 Hombrechtikon"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "praesidium@pfarreistniklaus.ch",
+      "website": "https://www.pfarreistniklaus.ch",
+      "source": "https://www.pfarreistniklaus.ch/kirchenpflegemitglieder",
+      "bfs": [
+        116,
+        153
+      ],
+      "partial_bfs": [
+        112
+      ],
+      "confidence": "high",
+      "note": "Umfasst Grüningen, Hombrechtikon und von Bubikon den Gemeindeteil Wolfhausen. [Kirchenordnung (LS 182.10), Anhang: «Hombrechtikon» – Grüningen, Hombrechtikon]"
+    },
+    {
+      "id": "zh-horgen",
+      "name": "Röm.-kath. Kirchgemeinde Horgen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Horgen",
+        "Kirchenpflege",
+        "Burghaldenstrasse 5",
+        "8810 Horgen"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kath-horgen.ch",
+      "source": "https://www.kath-horgen.ch/impressum/",
+      "bfs": [
+        295
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Betreiberin der Website ist das Kath. Pfarramt St. Josef; umfasst seit 2020 auch Hirzel (Pfarrei St. Antonius). [Kirchenordnung (LS 182.10), Anhang: «Horgen» – Horgen]"
+    },
+    {
+      "id": "zh-illnau-effretikon",
+      "name": "Röm.-kath. Kirchgemeinde Illnau-Effretikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Illnau-Effretikon",
+        "Kirchenpflege",
+        "Birchstrasse 20",
+        "8307 Effretikon"
+      ],
+      "address_type": "verwaltung",
+      "email": "kirchenpflege@pfarrei-effretikon.ch",
+      "website": "https://www.pfarrei-effretikon.ch",
+      "source": "https://www.pfarrei-effretikon.ch/ueber-uns/kirchgemeinde/copy_of_kirchenpflege",
+      "bfs": [
+        176,
+        180,
+        213,
+        296
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Briefadresse der Kirchgemeinde. Seit 1.1.2025 inkl. Weisslingen und Ortsteil Kyburg. [Kirchenordnung (LS 182.10), Anhang: «Illnau-Effretikon» – Brütten, Illnau-Effretikon, Lindau, Weisslingen]"
+    },
+    {
+      "id": "zh-kilchberg",
+      "name": "Röm.-kath. Kirchgemeinde Kilchberg",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Kilchberg",
+        "Kirchenpflege",
+        "Schützenmattstrasse 25",
+        "8802 Kilchberg"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@st-elisabeth-kilchberg.ch",
+      "website": "https://www.st-elisabeth-kilchberg.ch",
+      "source": "https://www.st-elisabeth-kilchberg.ch/",
+      "bfs": [
+        135
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse der Pfarrei St. Elisabeth. [Kirchenordnung (LS 182.10), Anhang: «Kilchberg» – Kilchberg]"
+    },
+    {
+      "id": "zh-kloten",
+      "name": "Römisch-katholische Kirchgemeinde Kloten",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Kloten",
+        "Kirchenpflege",
+        "Rosenweg 7",
+        "8302 Kloten"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "praesidium@kathkirchekloten.ch",
+      "website": "https://pfarrei-christkoenig.ch",
+      "source": "https://pfarrei-christkoenig.ch/ueber-uns/kirchgemeinde/kath-kirchenpflege-kloten-mit-bassersdorf-nuerensdorf-2018-2022/",
+      "bfs": [
+        52,
+        62,
+        64
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst Kloten, Bassersdorf, Nürensdorf. [Kirchenordnung (LS 182.10), Anhang: «Kloten» – Bassersdorf, Kloten, Nürensdorf]"
+    },
+    {
+      "id": "zh-kuesnacht-erlenbach",
+      "name": "Röm.-kath. Kirchgemeinde Küsnacht-Erlenbach",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Küsnacht-Erlenbach",
+        "Kirchenpflege",
+        "Heinrich-Wettstein-Strasse 14",
+        "8700 Küsnacht"
+      ],
+      "address_type": "verwaltung",
+      "email": "kath.admin@kuesnacht.ch",
+      "website": "https://www.kath-kuesnacht-erlenbach.ch",
+      "source": "https://www.kath-kuesnacht-erlenbach.ch/lebenslagen/kirchenaustritt/",
+      "bfs": [
+        151,
+        154
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Die Kirchgemeinde nennt diese Adresse ausdrücklich für Austrittserklärungen. [Kirchenordnung (LS 182.10), Anhang: «Küsnacht-Erlenbach» – Erlenbach, Küsnacht]"
+    },
+    {
+      "id": "zh-langnau",
+      "name": "Röm.-kath. Kirchgemeinde Langnau am Albis",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Langnau am Albis",
+        "Sekretariat Kirchenpflege",
+        "Berghaldenweg 1",
+        "8135 Langnau am Albis"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "kirchenpflege.langnau@zh.kath.ch",
+      "website": "https://www.langnau-gattikon.ch",
+      "source": "https://www.langnau-gattikon.ch/unsere-kirchgemeinde/kirchenpflege-2-2/",
+      "bfs": [
+        136
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Langnau a. A.» – Langnau a. A.]"
+    },
+    {
+      "id": "zh-maennedorf-uetikon",
+      "name": "Röm.-kath. Kirchgemeinde Männedorf-Uetikon am See",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Männedorf-Uetikon am See",
+        "Kirchenpflege",
+        "Hasenackerstrasse 19",
+        "8708 Männedorf"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-maennedorf-uetikon.ch",
+      "website": "https://kath-maennedorf-uetikon.ch",
+      "source": "https://kath-maennedorf-uetikon.ch/kontakte/",
+      "bfs": [
+        155,
+        159
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Pfarreisekretariat St. Stephan (zuständig auch für Mitgliederverwaltung). [Kirchenordnung (LS 182.10), Anhang: «Männedorf-Uetikon a. S.» – Männedorf, Uetikon a. S.]"
+    },
+    {
+      "id": "zh-meilen",
+      "name": "Röm.-kath. Kirchgemeinde Meilen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Meilen",
+        "Kirchenpflege",
+        "Stelzenstrasse 27",
+        "8706 Meilen"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-meilen.ch",
+      "website": "https://kath-meilen.ch",
+      "source": "https://kath-meilen.ch/impressum/",
+      "bfs": [
+        156
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Impressum: Kath. Kirche St. Martin Meilen. [Kirchenordnung (LS 182.10), Anhang: «Meilen» – Meilen]"
+    },
+    {
+      "id": "zh-oberengstringen",
+      "name": "Katholische Kirchgemeinde Engstringen",
+      "postal": [
+        "Katholische Kirchgemeinde Engstringen",
+        "Verwaltung",
+        "Dorfstrasse 59",
+        "8102 Oberengstringen"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat@kath-kirche-engstringen.ch",
+      "website": "https://www.kath-kirche-engstringen.ch",
+      "source": "https://www.kath-kirche-engstringen.ch/sekretariat-3/",
+      "bfs": [
+        245,
+        249
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Im Verzeichnis der Kirchenordnung «Oberengstringen» (Ober- und Unterengstringen). [Kirchenordnung (LS 182.10), Anhang: «Oberengstringen» – Oberengstringen, Unterengstringen]"
+    },
+    {
+      "id": "zh-oberrieden",
+      "name": "Röm.-kath. Kirchgemeinde Oberrieden",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Oberrieden",
+        "Kirchenpflege",
+        "Alte Landstrasse 46",
+        "8942 Oberrieden"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@hlchruez.ch",
+      "website": "https://www.kath-oberrieden.ch",
+      "source": "https://www.kath-oberrieden.ch/ueber-uns/mitarbeitende/sekretariat/",
+      "bfs": [
+        137
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat der Pfarrei Heilig Chrüz. [Kirchenordnung (LS 182.10), Anhang: «Oberrieden» – Oberrieden]"
+    },
+    {
+      "id": "zh-opfikon",
+      "name": "Röm.-kath. Kirchgemeinde Opfikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Opfikon",
+        "Kirchenpflege",
+        "Wallisellerstrasse 20",
+        "8152 Glattbrugg"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@sankt-anna.ch",
+      "website": "https://www.sankt-anna.ch",
+      "source": "https://www.sankt-anna.ch/",
+      "bfs": [
+        66
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kath. Pfarramt St. Anna. [Kirchenordnung (LS 182.10), Anhang: «Opfikon» – Opfikon]"
+    },
+    {
+      "id": "zh-pfaeffikon",
+      "name": "Katholische Kirchgemeinde Pfäffikon ZH",
+      "postal": [
+        "Katholische Kirchgemeinde Pfäffikon ZH",
+        "Kirchenpflege",
+        "Schärackerstrasse 14",
+        "8330 Pfäffikon ZH"
+      ],
+      "address_type": "verwaltung",
+      "email": "administration@benignus.ch",
+      "website": "https://benignus.ch",
+      "source": "https://benignus.ch/kirchgemeinde/kirchenpflege/",
+      "bfs": [
+        172,
+        173,
+        177,
+        178
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Geschäftsadresse der Kirchgemeinde; umfasst Fehraltorf, Hittnau, Pfäffikon, Russikon. [Kirchenordnung (LS 182.10), Anhang: «Pfäffikon» – Fehraltorf, Hittnau, Pfäffikon, Russikon]"
+    },
+    {
+      "id": "zh-regensdorf",
+      "name": "Röm.-kath. Kirchgemeinde Regensdorf",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Regensdorf",
+        "Kirchenpflege",
+        "Schulstrasse 112",
+        "8105 Regensdorf"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@st-mauritius.ch",
+      "website": "https://st-mauritius.ch",
+      "source": "https://st-mauritius.ch/kirchgemeinde/",
+      "bfs": [
+        82,
+        83,
+        84,
+        85,
+        87,
+        94,
+        96
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Regensdorf» – Boppelsen, Buchs, Dällikon, Dänikon, Hüttikon, Otelfingen, Regensdorf]"
+    },
+    {
+      "id": "zh-rheinau",
+      "name": "Röm.-kath. Kirchgemeinde Rheinau",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Rheinau",
+        "Kirchenpflege",
+        "Untere Steig 2",
+        "8462 Rheinau"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.kathrheinau.ch",
+      "source": "https://www.zhkath.ch/ueber-uns/pfarreien?&pfarreiid=1301&la=d",
+      "bfs": [
+        38
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Website nennt keine Postadresse; Adresse des Kath. Pfarramts aus der Adressdatenbank der Katholischen Kirche im Kanton Zürich. [Kirchenordnung (LS 182.10), Anhang: «Rheinau» – Rheinau]"
+    },
+    {
+      "id": "zh-richterswil",
+      "name": "Röm.-kath. Kirchgemeinde Richterswil",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Richterswil",
+        "Kirchenpflege",
+        "Erlenstrasse 32",
+        "8805 Richterswil"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://kath-richterswil.ch",
+      "source": "https://kath-richterswil.ch/ueber-uns/pfarreiteam/sekretariat/",
+      "bfs": [
+        138
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Das Sekretariat ist laut Website erste Anlaufstelle der Kirchgemeinde und steht der Kirchenpflege zur Verfügung. [Kirchenordnung (LS 182.10), Anhang: «Richterswil» – Richterswil]"
+    },
+    {
+      "id": "zh-rickenbach-seuzach",
+      "name": "Röm.-kath. Kirchgemeinde Rickenbach-Seuzach",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Rickenbach-Seuzach",
+        "Kirchenpflege",
+        "Reutlingerstrasse 52",
+        "8472 Seuzach"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.martin-stefan.ch",
+      "source": "https://www.martin-stefan.ch/datenschutz/",
+      "bfs": [
+        39,
+        211,
+        214,
+        216,
+        218,
+        219,
+        221,
+        225,
+        227,
+        298
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Die Kirchgemeinde nennt das Kath. Pfarramt St. Martin als ihre Adresse. [Kirchenordnung (LS 182.10), Anhang: «Rickenbach-Seuzach» – Altikon, Dägerlen, Dinhard, Ellikon a. d. Th., Elsau, Hettlingen, Rickenbach, Seuzach, Thalheim a. d. Th., Wiesendangen]"
+    },
+    {
+      "id": "zh-ruemlang",
+      "name": "Röm.-kath. Kirchgemeinde Rümlang",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Rümlang",
+        "Kirchenpflege",
+        "Rümelbachstrasse 40",
+        "8153 Rümlang"
+      ],
+      "address_type": "kirchenpflege",
+      "website": "https://www.kath-ruemlang.ch",
+      "source": "https://www.kath-ruemlang.ch/kirchenpflege",
+      "bfs": [
+        97
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Rümlang» – Rümlang]"
+    },
+    {
+      "id": "zh-rueti",
+      "name": "Römisch-katholische Kirchgemeinde Rüti",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Rüti",
+        "Kirchenpflege",
+        "Kirchenrainstrasse 4",
+        "8632 Tann"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege@kirche-tann.ch",
+      "website": "https://www.kirche-tann.ch",
+      "source": "https://www.kirche-tann.ch/",
+      "bfs": [
+        113,
+        118
+      ],
+      "partial_bfs": [
+        112
+      ],
+      "confidence": "medium",
+      "note": "Pfarramtssekretariat Tann; umfasst Rüti, Dürnten und Bubikon-Dorf. [Kirchenordnung (LS 182.10), Anhang: «Rüti» – Dürnten, Rüti]"
+    },
+    {
+      "id": "zh-schlieren",
+      "name": "Röm.-kath. Kirchgemeinde Schlieren",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Schlieren",
+        "Kirchenpflege",
+        "Uitikonerstrasse 39",
+        "8952 Schlieren"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-schlieren.ch",
+      "source": "https://www.pfarrei-schlieren.ch/pfarramt",
+      "bfs": [
+        247
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kath. Pfarramt (Sekretariat der Pfarrei). [Kirchenordnung (LS 182.10), Anhang: «Schlieren» – Schlieren]"
+    },
+    {
+      "id": "zh-embrachertal",
+      "name": "Röm.-kath. Kirchgemeinde St. Petrus Embrachertal",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde St. Petrus Embrachertal",
+        "Kirchenpflege",
+        "Steinackerweg 22",
+        "8424 Embrach"
+      ],
+      "address_type": "verwaltung",
+      "email": "info@kath-embrachertal.ch",
+      "website": "https://www.kath-embrachertal.ch",
+      "source": "https://www.kath-embrachertal.ch/ueber-uns/behoerden-gremien/",
+      "bfs": [
+        56,
+        57,
+        63,
+        65,
+        68
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Geschäftsadresse der Kirchgemeinde. [Kirchenordnung (LS 182.10), Anhang: «St. Petrus Embrachertal» – Embrach, Freienstein-Teufen, Lufingen, Oberembrach, Rorbas]"
+    },
+    {
+      "id": "zh-pfungen",
+      "name": "Röm.-kath. Kirchgemeinde St. Pirminius Pfungen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde St. Pirminius Pfungen",
+        "Kirchenpflege",
+        "Dorfstrasse 4",
+        "8422 Pfungen"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://pirminius.ch",
+      "source": "https://pirminius.ch/kirchgemeinde/kirchenpflege-synodale/",
+      "bfs": [
+        23,
+        24,
+        26,
+        28,
+        31,
+        43,
+        215,
+        223,
+        224
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat im Röm.-kath. Pfarramt St. Pirminius, auf der Kirchenpflege-Seite angegeben. [Kirchenordnung (LS 182.10), Anhang: «St. Pirminius Pfungen» – Berg a. I., Buch a. I., Dättlikon, Dorf, Flaach, Henggart, Neftenbach, Pfungen, Volken]"
+    },
+    {
+      "id": "zh-staefa",
+      "name": "Katholische Kirchgemeinde Stäfa",
+      "postal": [
+        "Katholische Kirchgemeinde Stäfa",
+        "Kirchenpflege",
+        "Kreuzstrasse 15",
+        "8712 Stäfa"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.pfarreistaefa.ch",
+      "source": "https://www.pfarreistaefa.ch/oeffnungszeiten",
+      "bfs": [
+        158
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Korrespondenz- und Rechnungsadresse der Kirchgemeinde. [Kirchenordnung (LS 182.10), Anhang: «Stäfa» – Stäfa]"
+    },
+    {
+      "id": "zh-thalwil-rueschlikon",
+      "name": "Röm.-kath. Kirchgemeinde Thalwil-Rüschlikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Thalwil-Rüschlikon",
+        "Sekretariat Kirchenpflege",
+        "Seehaldenstrasse 9",
+        "8800 Thalwil"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kath-thalwil.ch",
+      "source": "https://www.kath-thalwil.ch/kirchenpflege",
+      "bfs": [
+        139,
+        141
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Kirche und Pfarreizentrum St. Felix und Regula. [Kirchenordnung (LS 182.10), Anhang: «Thalwil-Rüschlikon» – Rüschlikon, Thalwil]"
+    },
+    {
+      "id": "zh-turbenthal",
+      "name": "Kath. Kirchgemeinde Herz Jesu Turbenthal",
+      "postal": [
+        "Kath. Kirchgemeinde Herz Jesu Turbenthal",
+        "Kirchenpflege",
+        "Schulstrasse 8",
+        "8488 Turbenthal"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@herzjesu-turbenthal.ch",
+      "website": "https://www.herzjesu-turbenthal.ch",
+      "source": "https://www.herzjesu-turbenthal.ch/kirchenpflege2",
+      "bfs": [
+        181,
+        182,
+        228
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst Turbenthal, Wila, Wildberg. [Kirchenordnung (LS 182.10), Anhang: «Turbenthal» – Turbenthal, Wila, Wildberg]"
+    },
+    {
+      "id": "zh-urdorf",
+      "name": "Röm.-kath. Kirchgemeinde Hl. Bruder Klaus Urdorf",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Hl. Bruder Klaus Urdorf",
+        "Kirchenpflege",
+        "Im Baurenacker 28",
+        "8902 Urdorf"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-urdorf.ch",
+      "website": "https://www.kath-urdorf.ch",
+      "source": "https://www.kath-urdorf.ch/impressum_datenschutz.html",
+      "bfs": [
+        250
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Urdorf» – Urdorf]"
+    },
+    {
+      "id": "zh-uster",
+      "name": "Röm.-kath. Kirchgemeinde Uster",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Uster",
+        "Sekretariat der Kirchgemeinde",
+        "Neuwiesenstrasse 17a",
+        "8610 Uster"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.pfarrei-uster.ch",
+      "source": "https://www.pfarrei-uster.ch/blog/2026/10/08/kirchgemeindeversammlung-3/",
+      "bfs": [
+        194,
+        198,
+        199
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Umfasst Uster, Greifensee, Volketswil. [Kirchenordnung (LS 182.10), Anhang: «Uster» – Greifensee, Uster, Volketswil]"
+    },
+    {
+      "id": "zh-waedenswil",
+      "name": "Röm.-kath. Kirchgemeinde Wädenswil",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Wädenswil",
+        "Kirchenpflege",
+        "Etzelstrasse 3",
+        "8820 Wädenswil"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.kath-waedenswil.ch",
+      "source": "https://www.kath-waedenswil.ch/sekretariat",
+      "bfs": [
+        293
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Sekretariat im Röm.-kath. Pfarramt; umfasst seit 2020 auch Schönenberg und Hütten. [Kirchenordnung (LS 182.10), Anhang: «Wädenswil» – Wädenswil]"
+    },
+    {
+      "id": "zh-wald",
+      "name": "Röm.-kath. Kirchgemeinde Wald",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Wald",
+        "Kirchenpflege",
+        "Rütistrasse 31",
+        "8636 Wald ZH"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.pfarrei-wald.ch",
+      "source": "https://www.pfarrei-wald.ch/ueber-uns/kirchenpflege",
+      "bfs": [
+        120
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse der Katholischen Pfarrei St. Margarethen. [Kirchenordnung (LS 182.10), Anhang: «Wald» – Wald]"
+    },
+    {
+      "id": "zh-wallisellen",
+      "name": "Röm.-kath. Kirchgemeinde Wallisellen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Wallisellen",
+        "Kirchenpflege",
+        "Alpenstrasse 5",
+        "8304 Wallisellen"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@kath-wallisellen.ch",
+      "website": "https://kath-wallisellen.ch",
+      "source": "https://kath-wallisellen.ch/",
+      "bfs": [
+        54,
+        69,
+        200
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Adresse der Kath. Pfarrei St. Antonius; die Kirchgemeinde umfasst auch Dietlikon und Wangen-Brüttisellen (Pfarrei St. Michael Dietlikon). [Kirchenordnung (LS 182.10), Anhang: «Wallisellen» – Dietlikon, Wallisellen, Wangen-Brüttisellen]"
+    },
+    {
+      "id": "zh-wetzikon",
+      "name": "Röm.-kath. Kirchgemeinde Wetzikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Wetzikon",
+        "Kirchenpflege",
+        "Langfurrenstrasse 10",
+        "8623 Wetzikon"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@kath-wetzikon.ch",
+      "website": "https://www.kath-wetzikon.ch",
+      "source": "https://www.kath-wetzikon.ch/sekretariat1",
+      "bfs": [
+        115,
+        119,
+        121
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Website nennt Langfurrenstrasse 10; die zhkath-Datenbank noch Messikommerstrasse 14. Umfasst Wetzikon, Gossau, Seegräben. [Kirchenordnung (LS 182.10), Anhang: «Wetzikon» – Gossau, Seegräben, Wetzikon]"
+    },
+    {
+      "id": "zh-winterthur",
+      "name": "Römisch-katholische Kirchgemeinde Winterthur",
+      "postal": [
+        "Römisch-katholische Kirchgemeinde Winterthur",
+        "Kirchenpflege",
+        "Laboratoriumstrasse 5",
+        "8400 Winterthur"
+      ],
+      "address_type": "verwaltung",
+      "website": "https://www.kath-winterthur.ch",
+      "source": "https://www.kath-winterthur.ch/kgw/behoerden",
+      "bfs": [
+        230
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Eine Kirchgemeinde für die ganze Stadt Winterthur (mehrere Pfarreien). [Kirchenordnung (LS 182.10), Anhang: «Winterthur» – Winterthur]"
+    },
+    {
+      "id": "zh-zell",
+      "name": "Röm.-kath. Kirchgemeinde Zell",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zell",
+        "Kirchenpflege",
+        "Bahnhofstrasse 9a",
+        "8483 Kollbrunn"
+      ],
+      "address_type": "pfarramt",
+      "email": "sekretariat@st-antonius-kollbrunn.ch",
+      "website": "https://www.st-antonius-kollbrunn.ch",
+      "source": "https://www.st-antonius-kollbrunn.ch/kontakt.html",
+      "bfs": [
+        226,
+        231
+      ],
+      "partial_bfs": [],
+      "confidence": "medium",
+      "note": "Röm.-kath. Pfarramt St. Antonius Kollbrunn; umfasst Zell und Schlatt. [Kirchenordnung (LS 182.10), Anhang: «Zell» – Schlatt, Zell]"
+    },
+    {
+      "id": "zh-zollikon-zumikon",
+      "name": "Röm.-kath. Kirchgemeinde Zollikon-Zumikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zollikon-Zumikon",
+        "Kirchenpflege",
+        "Neuweg 4",
+        "8125 Zollikerberg"
+      ],
+      "address_type": "verwaltung",
+      "email": "sekretariat-berg@kath-zollikon.ch",
+      "website": "https://www.kath-zollikon-zumikon.ch",
+      "source": "https://www.kath-zollikon-zumikon.ch/rechnungsadresse",
+      "bfs": [
+        160,
+        161
+      ],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Zollikon-Zumikon» – Zollikon, Zumikon]"
+    },
+    {
+      "id": "zh-zuerich-allerheiligen",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Allerheiligen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Allerheiligen",
+        "Kirchenpflege",
+        "Wehntalerstrasse 224",
+        "8057 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.allerheiligen-zh.ch",
+      "source": "https://www.allerheiligen-zh.ch/footer/impressum",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Kath. Pfarramt Allerheiligen (Neuaffoltern). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Allerheiligen»]"
+    },
+    {
+      "id": "zh-zuerich-bruder-klaus",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Bruder Klaus",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Bruder Klaus",
+        "Kirchenpflege",
+        "Milchbuckstrasse 73",
+        "8057 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@bruderklauszuerich.ch",
+      "website": "https://www.bruderklaus-zh.ch",
+      "source": "https://bruderklaus-zh.ch/kontakt.html",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "high",
+      "note": "[Kirchenordnung (LS 182.10), Anhang: «Zürich-Bruder Klaus»]"
+    },
+    {
+      "id": "zh-zuerich-dreikoenigen",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Dreikönigen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Dreikönigen",
+        "Kirchenpflege",
+        "Schulhausstrasse 22",
+        "8002 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@dreikoenigen.ch",
+      "website": "https://dreikoenigen.ch",
+      "source": "https://dreikoenigen.ch/ueber-uns/unser-team/sekretariat/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Sekretariat des Kath. Pfarramts Dreikönigen (Enge). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Dreikönigen»]"
+    },
+    {
+      "id": "zh-zuerich-erloeser",
+      "name": "Römisch-Katholische Kirchgemeinde Erlöser-Zürich",
+      "postal": [
+        "Römisch-Katholische Kirchgemeinde Erlöser-Zürich",
+        "Kirchenpflege",
+        "Zollikerstrasse 160",
+        "8008 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://erloeser.ch",
+      "source": "https://erloeser.ch/impressum/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "high",
+      "note": "Im Verzeichnis der Kirchenordnung «Zürich-Erlöser». [Kirchenordnung (LS 182.10), Anhang: «Zürich-Erlöser»]"
+    },
+    {
+      "id": "zh-zuerich-guthirt",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Guthirt",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Guthirt",
+        "Kirchenpflege",
+        "Guthirtstrasse 3-7",
+        "8037 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege@guthirt.ch",
+      "website": "https://guthirt.ch",
+      "source": "https://guthirt.ch/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Sekretariat der Pfarrei Guthirt (Wipkingen). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Guthirt»]"
+    },
+    {
+      "id": "zh-zuerich-heilig-geist",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Heilig Geist",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Heilig Geist",
+        "Kirchenpflege",
+        "Limmattalstrasse 146",
+        "8049 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@kathhoengg.ch",
+      "website": "https://kathhoengg.ch",
+      "source": "https://kathhoengg.ch/wir/informationen-aus-der-kirchenpflege/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Pfarrei Heilig Geist (Höngg); die Kirchenpflege-Seite verweist auf diese Adresse. [Kirchenordnung (LS 182.10), Anhang: «Zürich-Heilig Geist»]"
+    },
+    {
+      "id": "zh-zuerich-heilig-kreuz",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Heilig Kreuz",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Heilig Kreuz",
+        "Kirchenpflege",
+        "Saumackerstrasse 83",
+        "8048 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://heilig-kreuz.ch",
+      "source": "https://www.zhkath.ch/ueber-uns/pfarreien?&pfarreiid=1887&la=d",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Adresse des Kath. Pfarramts (Altstetten) aus der Adressdatenbank der Katholischen Kirche im Kanton Zürich; Website konnte nicht abgerufen werden (TLS-Fehler). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Heilig Kreuz»]"
+    },
+    {
+      "id": "zh-zuerich-oerlikon",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Oerlikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Oerlikon",
+        "Kirchenpflege",
+        "Schwamendingenstrasse 55",
+        "8050 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@herz-jesu.ch",
+      "website": "https://herz-jesu.ch",
+      "source": "https://herz-jesu.ch/naechste-schritte/kontakt/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Röm.-kath. Pfarrei Herz Jesu Oerlikon. [Kirchenordnung (LS 182.10), Anhang: «Zürich-Oerlikon»]"
+    },
+    {
+      "id": "zh-zuerich-wiedikon",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Wiedikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Wiedikon",
+        "Kirchenpflege",
+        "Gertrudstrasse 59",
+        "8003 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.herzjesu-wiedikon.ch",
+      "source": "https://www.herzjesu-wiedikon.ch/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Kath. Pfarramt Herz Jesu Wiedikon. [Kirchenordnung (LS 182.10), Anhang: «Zürich-Wiedikon»]"
+    },
+    {
+      "id": "zh-zuerich-liebfrauen",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Liebfrauen",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Liebfrauen",
+        "Kirchenpflege",
+        "Zehnderweg 9",
+        "8006 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@liebfrauen.ch",
+      "website": "https://liebfrauen.ch",
+      "source": "https://liebfrauen.ch/datenschutz/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Website-Betreiberin «Katholische Kirche Liebfrauen»; Kath. Pfarramt Liebfrauen. [Kirchenordnung (LS 182.10), Anhang: «Zürich-Liebfrauen»]"
+    },
+    {
+      "id": "zh-zuerich-witikon",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Witikon",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Witikon",
+        "Kirchenpflege",
+        "Carl-Spitteler-Strasse 44",
+        "8053 Zürich"
+      ],
+      "address_type": "kirchenpflege",
+      "email": "kirchenpflege@kath-kg-witikon.ch",
+      "website": "https://maria-kroenung.ch",
+      "source": "https://maria-kroenung.ch/kirchgemeinde/kirchenpflege/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "high",
+      "note": "Postadresse der Kirchenpflege (Pfarrei Maria Krönung). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Witikon»]"
+    },
+    {
+      "id": "zh-zuerich-maria-hilf",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Maria-Hilf",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Maria-Hilf",
+        "Kirchenpflege",
+        "Leimbachstrasse 64",
+        "8041 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@maria-hilf.ch",
+      "website": "https://maria-hilf.ch",
+      "source": "https://maria-hilf.ch/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Kath. Kirche Maria-Hilf (Leimbach). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Maria-Hilf»]"
+    },
+    {
+      "id": "zh-zuerich-maria-lourdes",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-Maria Lourdes",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-Maria Lourdes",
+        "Kirchenpflege",
+        "Seebacherstrasse 3",
+        "8052 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://pfarrei-maria-lourdes.ch",
+      "source": "https://pfarrei-maria-lourdes.ch/impressum",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Pfarramt Maria Lourdes (Seebach). [Kirchenordnung (LS 182.10), Anhang: «Zürich-Maria Lourdes»]"
+    },
+    {
+      "id": "zh-zuerich-st-anton",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Anton",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Anton",
+        "Kirchenpflege",
+        "Neptunstrasse 70",
+        "8032 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://st-anton-zuerich.ch",
+      "source": "https://st-anton-zuerich.ch/wir-uber-uns/kirchgemeinde/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Pfarrei-Sekretariat St. Anton, auf der Kirchgemeinde-Seite angegeben. [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Anton»]"
+    },
+    {
+      "id": "zh-zuerich-st-felix-und-regula",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Felix und Regula",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Felix und Regula",
+        "Kirchenpflege",
+        "Hardstrasse 76",
+        "8004 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "kirchenpflege@felixundregula.ch",
+      "website": "https://felixundregula.ch",
+      "source": "https://felixundregula.ch/ueber-uns/behoerde/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Röm.-kath. Pfarrei St. Felix und Regula (Hard). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Felix und Regula»]"
+    },
+    {
+      "id": "zh-zuerich-st-franziskus",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Franziskus",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Franziskus",
+        "Kirchenpflege",
+        "Kilchbergstrasse 1",
+        "8038 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "info@st-franziskus.ch",
+      "website": "https://st-franziskus.ch",
+      "source": "https://st-franziskus.ch/organisation/pfarreiteam/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "high",
+      "note": "Sekretariat für Pfarramt und Kirchenpflege (Wollishofen). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Franziskus»]"
+    },
+    {
+      "id": "zh-zuerich-st-gallus",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Gallus",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Gallus",
+        "Kirchenpflege",
+        "Dübendorfstrasse 60",
+        "8051 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@sanktgallus.ch",
+      "website": "https://sanktgallus.ch",
+      "source": "https://sanktgallus.ch/ueber-uns/sekretariat/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Pfarrei St. Gallus (Schwamendingen). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Gallus»]"
+    },
+    {
+      "id": "zh-zuerich-st-josef",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Josef",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Josef",
+        "Kirchenpflege",
+        "Röntgenstrasse 80",
+        "8005 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.stjosef-zuerich.ch",
+      "source": "https://www.stjosef-zuerich.ch/impressum",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Pfarrei St. Josef (Industriequartier). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Josef»]"
+    },
+    {
+      "id": "zh-zuerich-st-katharina",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Katharina",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Katharina",
+        "Kirchenpflege",
+        "Wehntalerstrasse 451",
+        "8046 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "email": "sekretariat@st-katharina.ch",
+      "website": "https://www.st-katharina.ch",
+      "source": "https://www.st-katharina.ch/impressum/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "St. Katharina (Affoltern). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Katharina»]"
+    },
+    {
+      "id": "zh-zuerich-st-konrad",
+      "name": "Röm.-kath. Kirchgemeinde St. Konrad",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde St. Konrad",
+        "Kirchenpflege",
+        "Fellenbergstrasse 231",
+        "8047 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://www.st-konrad.ch",
+      "source": "https://www.st-konrad.ch/ueber-uns/kirchenstiftung/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "high",
+      "note": "Im Verzeichnis der Kirchenordnung «Zürich-St. Konrad» (Albisrieden). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Konrad»]"
+    },
+    {
+      "id": "zh-zuerich-st-martin",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Martin",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Martin",
+        "Kirchenpflege",
+        "Krähbühlstrasse 50",
+        "8044 Zürich"
+      ],
+      "address_type": "sekretariat",
+      "website": "https://st-martin.ch",
+      "source": "https://st-martin.ch/impressum/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Impressum: Katholische Kirche St. Martin Zürich (Fluntern). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Martin»]"
+    },
+    {
+      "id": "zh-zuerich-st-peter-und-paul",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Peter und Paul",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Peter und Paul",
+        "Kirchenpflege",
+        "Werdgässchen 26",
+        "8004 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "email": "info@mutterkirche.ch",
+      "website": "https://mutterkirche.ch",
+      "source": "https://mutterkirche.ch/impressum/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Pfarramt St. Peter und Paul (Aussersihl). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Peter und Paul»]"
+    },
+    {
+      "id": "zh-zuerich-st-theresia",
+      "name": "Röm.-kath. Kirchgemeinde Zürich-St. Theresia",
+      "postal": [
+        "Röm.-kath. Kirchgemeinde Zürich-St. Theresia",
+        "Kirchenpflege",
+        "Borrweg 80",
+        "8055 Zürich"
+      ],
+      "address_type": "pfarramt",
+      "website": "https://www.st-theresia.ch",
+      "source": "https://www.st-theresia.ch/impressum/",
+      "bfs": [],
+      "partial_bfs": [
+        261
+      ],
+      "confidence": "medium",
+      "note": "Kath. Pfarramt St. Theresia (Friesenberg). [Kirchenordnung (LS 182.10), Anhang: «Zürich-St. Theresia»]"
+    }
+  ],
+  "split": [
+    {
+      "bfs": 261,
+      "how": "Die Stadt Zürich ist in 23 Kirchgemeinden geteilt; die Grenzen folgen Quartierteilen, nicht Postleitzahlen. Massgebend ist das Polygon, in dem die Wohnadresse liegt (offene Geodaten der Stadt Zürich, Attribut «bezeichnung», z. B. «St. Josef», «Witikon»; id = «zh-zuerich-» + bezeichnung klein, Umlaute als ae/oe/ue, «St. » als «st-», übrige Zeichen als Bindestrich). Die Ortsteil-Liste nennt nur statistische Quartiere, die nach einem Abgleich mit den Polygonen (Rasterstichprobe) vollständig in einer Kirchgemeinde liegen; alle anderen Quartiere (u. a. Affoltern, Oerlikon, Seebach, Ober-/Unterstrass, Hottingen, Fluntern, Alt-Wiedikon, Sihlfeld, Hard, Langstrasse, Hochschulen, Mühlebach, Seefeld, Weinegg, Saatlen, Schwamendingen-Mitte, Albisrieden, Wollishofen, Witikon, Hirslanden) sind geteilt.",
+      "finder": null,
+      "geodata": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Gebietseinteilung_der_roemisch_katholischen_Kirchgemeinden?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=kirchgemeinde_roem_kath_a&OUTPUTFORMAT=application/vnd.geo%2Bjson&SRSNAME=EPSG:4326",
+      "ortsteile": {
+        "Altstetten": "zh-zuerich-heilig-kreuz",
+        "City": "zh-zuerich-st-peter-und-paul",
+        "Lindenhof": "zh-zuerich-st-peter-und-paul",
+        "Werd": "zh-zuerich-st-peter-und-paul",
+        "Rathaus": "zh-zuerich-liebfrauen",
+        "Enge": "zh-zuerich-dreikoenigen",
+        "Escher Wyss": "zh-zuerich-st-josef",
+        "Gewerbeschule": "zh-zuerich-st-josef",
+        "Friesenberg": "zh-zuerich-st-theresia",
+        "Hirzenbach": "zh-zuerich-st-gallus",
+        "Höngg": "zh-zuerich-heilig-geist",
+        "Leimbach": "zh-zuerich-maria-hilf",
+        "Wipkingen": "zh-zuerich-guthirt"
+      },
+      "public_how": "Die Stadt Zürich hat 23 Kirchgemeinden. Ihre Grenzen folgen Quartierteilen, nicht den Postleitzahlen. Mit deiner Strasse und Hausnummer bestimmen wir die Kirchgemeinde genau."
+    },
+    {
+      "bfs": 112,
+      "how": "Bubikon ist geteilt: Gemeindeteil Bubikon (Bubikon-Dorf) gehört zur Kirchgemeinde Rüti, Gemeindeteil Wolfhausen zur Kirchgemeinde Hombrechtikon (Kirchenordnung, Anhang; RRB 2016/988). Die Zuordnung nach Ortschaft/PLZ ist eine Näherung an diese Gemeindeteile.",
+      "finder": null,
+      "geodata": null,
+      "ortsteile": {
+        "8608 Bubikon": "zh-rueti",
+        "8633 Wolfhausen": "zh-hombrechtikon"
+      }
+    }
+  ],
+  "unmapped_bfs": [],
+  "issues": [
+    "Gebietszuordnung aus dem Anhang der Kirchenordnung (LS 182.10, Nachtrag 134, Stand 1.10.2026). Die 2023 angenommene neue Kirchenordnung ist in der Gesetzessammlung noch nicht als geltende Fassung publiziert.",
+    "Viele Kirchgemeinden publizieren keine eigene Postadresse der Kirchenpflege; dort ist die Adresse von Pfarramt oder Sekretariat eingetragen (address_type pfarramt/sekretariat, confidence medium). Laut zhkath zählt der Eingang bei Kirchenpflege oder Pfarrei.",
+    "Kirchgemeinde Hausen-Mettmenstetten bittet, Austritte an das Pfarramt der Wohngemeinde zu senden; eingetragen ist die offizielle Kirchgemeinde-Anschrift in Mettmenstetten.",
+    "Rheinau und Zürich-Heilig Kreuz: Adresse nur aus der zhkath-Adressdatenbank (Website ohne Adresse bzw. nicht abrufbar).",
+    "Abweichungen Website vs. zhkath-Datenbank: Bonstetten (Stallikerstrasse 2 vs. 10), Wetzikon (Langfurrenstrasse 10 vs. Messikommerstrasse 14), Hinwil (Domain kath-pfarrei-hinwil.ch nicht erreichbar, neu kath-hinwil.ch). Website-Angabe übernommen.",
+    "Stadt Zürich: Ortsteil-Liste nur für 13 vollständig enthaltene statistische Quartiere; die Grenzen der übrigen Quartiere stimmen nicht mit den Kirchgemeindegrenzen überein. Für eine sichere Zuordnung braucht es die Geokodierung der Wohnadresse gegen die Polygone.",
+    "Bubikon: Zuordnung per PLZ 8608/8633 ist eine Näherung an die Gemeindeteile Bubikon-Dorf und Wolfhausen.",
+    "opendata.swiss blockiert automatische Abrufe (HTTP 403); die GeoJSON-Ressource «geojson_link» der Stadt Zürich liefert eine HTML-Seite. Als direkte Download-URL ist der WFS-GetFeature-Aufruf (GeoJSON, WGS84) eingetragen."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "canton": "BS",
+  "body": {
+    "name": "Römisch-Katholische Kirche des Kantons Basel-Stadt",
+    "short": "RKK Basel-Stadt",
+    "website": "https://www.rkk-bs.ch",
+    "postal": ["Römisch-Katholische Kirche Basel-Stadt", "Lindenberg 10", "4058 Basel"]
+  },
+  "austritt": {
+    "recipient": "Römisch-Katholische Kirche des Kantons Basel-Stadt, Mitgliederverwaltung",
+    "recipient_level": "kanton",
+    "form": "schriftlich, rechtsgültig (eigenhändig) unterzeichnetes Schreiben; nicht per E-Mail oder elektronisch",
+    "beglaubigung": false,
+    "beglaubigung_note": "",
+    "wirkung": "Die Kirchensteuerpflicht endet am letzten Tag der dem Austritt vorangehenden Steuerperiode (Steuerordnung § 33).",
+    "notes": "Die Mitgliederverwaltung bestätigt den Austritt innerhalb von 2-4 Wochen; Kosten (Einschreiben, gekaufte Formulare) sind nicht nötig. Die Kantonalkirche umfasst alle Kantonseinwohner, also auch Riehen und Bettingen (Pfarrei St. Franziskus).",
+    "source": "https://www.rkk-bs.ch/kantonalkirche/verwaltung/Mitgliederverwaltung"
+  },
+  "finder": null,
+  "stand": "2026-10-28",
+  "sources": [
+    "https://www.rkk-bs.ch/kantonalkirche/verwaltung/Mitgliederverwaltung",
+    "https://www.rkk-bs.ch/kontakte",
+    "https://www.rkk-bs.ch/media/files/58U2MB74/1.0_Verfassung_RKK_Basel-Stadt.pdf",
+    "https://www.rkk-bs.ch/media/files/8AR4L98T/6.10_Steuerordnung.pdf",
+    "https://www.rkk-bs.ch/pastoralraum/st.-franziskus"
+  ],
+  "kirchgemeinden": [
+    {
+      "id": "bs-rkk",
+      "name": "Römisch-Katholische Kirche des Kantons Basel-Stadt",
+      "postal": ["Römisch-Katholische Kirche des Kantons Basel-Stadt", "Mitgliederverwaltung", "Lindenberg 10", "4058 Basel"],
+      "address_type": "kanton",
+      "email": "mitgliederverwaltung@rkk-bs.ch",
+      "website": "https://www.rkk-bs.ch",
+      "source": "https://www.rkk-bs.ch/kantonalkirche/verwaltung/Mitgliederverwaltung",
+      "bfs": [2701, 2702, 2703],
+      "partial_bfs": [],
+      "confidence": "high",
+      "note": "Verfassung § 2: Mitglied der Kantonalkirche ist jede/r röm.-kath. Kantonseinwohner/in; Austritt aus der Kantonalkirche schriftlich (§ 2 Abs. 3). Austrittserklärungen bearbeitet laut RKK BS die Mitgliederverwaltung. Riehen und Bettingen gehören zur Pfarrei St. Franziskus."
+    }
+  ],
+  "split": [],
+  "unmapped_bfs": [],
+  "issues": []
+}

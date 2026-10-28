@@ -1,738 +1,375 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de-CH">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>teilaustritt.ch – Neutraler Formular-Generator für den Austritt aus der Kirchgemeinde und der Landeskirche</title>
-
-  <!-- Favicons (für Root-Domain / User-Page). Für GitHub Project Pages: "/assets/..." -> "assets/..." -->
-  <link rel="icon" href="/assets/favicons/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png" sizes="180x180">
-  <link rel="manifest" href="/assets/favicons/site.webmanifest">
-  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#0b3a7a">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>teilaustritt.ch – Austritt aus Kirchgemeinde und Landeskirche</title>
+  <meta name="description" content="Kostenloser, neutraler Formular-Generator: Austrittsschreiben aus der römisch-katholischen Kirchgemeinde und Landeskirche (Teilaustritt). Zuständige Kirchgemeinde per PLZ finden, Brief als PDF oder Word herunterladen.">
+  <link rel="canonical" href="https://www.teilaustritt.ch/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="teilaustritt.ch – Austritt aus Kirchgemeinde und Landeskirche">
+  <meta property="og:description" content="Zuständige römisch-katholische Kirchgemeinde per PLZ finden und das Austrittsschreiben in drei Schritten erstellen.">
+  <meta property="og:url" content="https://www.teilaustritt.ch/">
+  <meta property="og:locale" content="de_CH">
   <meta name="theme-color" content="#0b3a7a">
-
-  <style>
-    :root{
-      --bg:#f7f8fa; --card:#ffffff; --text:#101828; --muted:#475467; --line:#e4e7ec;
-      --accent:#1f4f99; --accent2:#0b3a7a; --warn:#b42318; --ok:#067647;
-      --shadow:0 1px 2px rgba(16,24,40,.06), 0 8px 24px rgba(16,24,40,.06);
-      --radius:14px;
-      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-    }
-    *{box-sizing:border-box}
-    body{margin:0; font-family:var(--sans); color:var(--text); background:linear-gradient(180deg,#eef2f9, var(--bg) 22%);}
-    a{color:var(--accent); text-decoration:none}
-    a:hover{text-decoration:underline}
-    header{
-      position:sticky; top:0; z-index:5;
-      backdrop-filter:saturate(180%) blur(10px);
-      background:rgba(247,248,250,.82);
-      border-bottom:1px solid var(--line);
-    }
-    .wrap{max-width:1100px; margin:0 auto; padding:18px 18px;}
-    .brand{display:flex; align-items:center; justify-content:space-between; gap:16px;}
-    .logo{display:flex; align-items:center; gap:12px;}
-    .mark{
-      width:38px; height:38px; border-radius:10px;
-      background:linear-gradient(135deg, var(--accent), #4f9cf9);
-      box-shadow:var(--shadow);
-    }
-    .title h1{margin:0; font-size:18px; letter-spacing:.2px}
-    .title p{margin:2px 0 0; color:var(--muted); font-size:13px}
-    nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end}
-    nav a{font-size:13px; color:var(--muted)}
-    nav a:hover{color:var(--accent2)}
-    main{padding:26px 0 48px}
-    .grid{display:grid; grid-template-columns: 1.15fr .85fr; gap:18px;}
-    @media (max-width: 920px){
-      .grid{grid-template-columns:1fr}
-      nav{justify-content:flex-start}
-    }
-    .card{
-      background:var(--card); border:1px solid var(--line);
-      border-radius:var(--radius); box-shadow:var(--shadow);
-      padding:18px;
-    }
-    .card h2{margin:0 0 10px; font-size:16px}
-    .card h3{margin:16px 0 8px; font-size:14px}
-    .card p{margin:8px 0; color:var(--muted); line-height:1.5}
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      font-size:12px; color:#344054; background:#f2f4f7;
-      border:1px solid var(--line); border-radius:999px; padding:6px 10px;
-    }
-    .pill .dot{width:8px; height:8px; border-radius:999px; background:var(--accent)}
-    .two{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
-    @media (max-width: 620px){ .two{grid-template-columns:1fr} }
-    label{display:block; font-size:12px; color:#344054; margin:10px 0 6px}
-    input, select, textarea{
-      width:100%; border:1px solid var(--line); border-radius:12px;
-      padding:10px 12px; font-size:14px; background:#fff; color:var(--text);
-      outline:none;
-    }
-    input:focus, select:focus, textarea:focus{border-color:rgba(31,79,153,.55); box-shadow:0 0 0 4px rgba(31,79,153,.12)}
-    textarea{min-height:210px; font-family:var(--mono); font-size:12.5px; line-height:1.45}
-    .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
-    .btn{
-      appearance:none; border:1px solid rgba(31,79,153,.25);
-      background:linear-gradient(180deg, #2a62b8, var(--accent2));
-      color:#fff; padding:10px 12px; border-radius:12px;
-      font-size:14px; cursor:pointer;
-      box-shadow:0 6px 18px rgba(31,79,153,.18);
-    }
-    .btn:hover{filter:brightness(1.02)}
-    .btn.secondary{
-      background:#fff; color:var(--accent2); border:1px solid var(--line); box-shadow:none;
-    }
-    .btn.secondary:hover{background:#f8fafc}
-    .hint{font-size:12px; color:var(--muted)}
-    .alert{
-      border-radius:12px; padding:10px 12px; border:1px solid var(--line); background:#f9fafb;
-      color:#344054; font-size:13px; line-height:1.4;
-    }
-    .alert.warn{border-color:rgba(180,35,24,.25); background:rgba(180,35,24,.05); color:#7a271a}
-    .alert.ok{border-color:rgba(6,118,71,.25); background:rgba(6,118,71,.06); color:#054f31}
-    .kv{display:grid; grid-template-columns: 150px 1fr; gap:8px 10px; font-size:13px; color:#344054;}
-    .kv div:nth-child(odd){color:#667085}
-    .list{margin:8px 0 0; padding-left:18px; color:var(--muted); line-height:1.5}
-    .small{font-size:12px}
-    footer{margin-top:14px; color:var(--muted); font-size:12px}
-    .sugg{position:relative;}
-    .sugglist{
-      position:absolute; inset:auto 0 0 0;
-      transform: translateY(calc(100% + 6px));
-      background:#fff; border:1px solid var(--line); border-radius:12px;
-      box-shadow:var(--shadow); overflow:hidden; z-index:10;
-      max-height:260px; overflow:auto;
-      display:none;
-    }
-    .sugglist button{
-      width:100%; text-align:left; border:0; background:#fff; padding:10px 12px;
-      cursor:pointer; font-size:13px; color:#344054;
-      border-bottom:1px solid var(--line);
-    }
-    .sugglist button:last-child{border-bottom:0}
-    .sugglist button:hover{background:#f9fafb}
-    .mono{font-family:var(--mono)}
-  </style>
-
-  <!-- DOCX (Word) -->
-  <script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
-  <!-- PDF -->
-  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3a7a'/%3E%3Cpath d='M10 9h12v3h-4.5v12h-3V12H10z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/site.css?v=20261028">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Was ist ein Teilaustritt?",
+       "acceptedAnswer": {"@type": "Answer", "text": "Ein Teilaustritt ist der Austritt aus der öffentlich-rechtlichen Körperschaft (Kirchgemeinde und Landeskirche), die unter anderem die Kirchensteuer erhebt. Er bedeutet nicht zwingend einen Bruch mit der römisch-katholischen Kirche als Glaubensgemeinschaft."}},
+      {"@type": "Question", "name": "Kann ich nach dem Austritt aus Kirchgemeinde und Landeskirche noch Sakramente empfangen oder Pate werden?",
+       "acceptedAnswer": {"@type": "Answer", "text": "Ja. Der Austritt aus Kirchgemeinde und Landeskirche ist losgelöst von der Mitgliedschaft in der römisch-katholischen Kirche. Nur wenn die austretende Person gleichzeitig zu erkennen gibt, dass sie zentrale Glaubensinhalte nicht mehr anerkennt, könnten allenfalls kirchenrechtliche Sanktionen folgen."}},
+      {"@type": "Question", "name": "Ab wann muss ich nach dem Austritt keine Kirchensteuer mehr zahlen?",
+       "acceptedAnswer": {"@type": "Answer", "text": "Nach dem Bundesgericht endet die Kirchensteuerpflicht, sobald die Austrittserklärung bei der zuständigen Stelle eingegangen ist. In ZH, BE, LU, UR, SZ, OW, FR, SO, SG, VS, NE und JU sofort mit dem Eingang, in AR ab dem Folgemonat; in NW, GL, ZG, BS, BL, SH, AI, GR, AG und TG entfällt sie bei einem Austritt im Laufe des Jahres bereits für das ganze Austrittsjahr (Quellen: SSK/ESTV, Stand 2022; AR: Ordnung seit 2026)."}},
+      {"@type": "Question", "name": "An wen schicke ich die Austrittserklärung?",
+       "acceptedAnswer": {"@type": "Answer", "text": "In der Deutschschweiz und im Jura schriftlich an die Kirchgemeinde am Wohnsitz, aus Beweisgründen per Einschreiben oder A-Post Plus. In einigen Kantonen ist eine amtlich beglaubigte Unterschrift nötig."}}
+    ]
+  }
+  </script>
+  <script type="module" src="assets/js/app.js?v=20261028"></script>
 </head>
-
 <body>
-  <header>
-    <div class="wrap brand">
-      <div class="logo">
-        <div class="mark" aria-hidden="true"></div>
-        <div class="title">
-          <h1>teilaustritt.ch</h1>
-          <p>Orientierungshilfe & Formular-Generator (Deutschschweiz + Jura)</p>
-        </div>
-      </div>
-      <nav>
-        <a href="#ueberblick">Überblick</a>
-        <a href="#rechtslage">Rechtslage</a>
-        <a href="#generator">Generator</a>
-        <a href="#quellen">Quellen</a>
-        <a href="#impressum">Impressum & Datenschutz</a>
+  <a class="skip" href="#tool">Zum Formular springen</a>
+
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="teilaustritt.ch, zum Seitenanfang">
+        <span class="brand-mark" aria-hidden="true">t</span>
+        <span><strong>teilaustritt.ch</strong><span>Neutraler Formular-Generator</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a class="opt-sm" href="#tool">Schreiben</a>
+        <a class="opt" href="#kirchensteuer">Kirchensteuer</a>
+        <a href="#fragen">Fragen</a>
+        <a class="opt" href="#quellen">Quellen</a>
+        <a href="#impressum">Impressum</a>
       </nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <div class="grid">
-      <section class="card" id="ueberblick">
-        <div class="row">
-          <span class="pill"><span class="dot"></span>Informationsportal</span>
-          <span class="pill"><span class="dot" style="background:#0b3a7a"></span>Formular-Generator</span>
-          <span class="pill"><span class="dot" style="background:#667085"></span>Keine Rechtsberatung</span>
-        </div>
+  <main id="main" class="wrap">
+    <section class="intro" id="top">
+      <h1>Austritt aus Kirchgemeinde und Landeskirche</h1>
+      <p>Finde die zuständige römisch-katholische Kirchgemeinde und erstelle dein Austrittsschreiben in drei Schritten. Für die Deutschschweiz und den Jura.</p>
+      <ul class="facts">
+        <li>Kostenlos, ohne Registrierung</li>
+        <li>Deine Angaben bleiben in deinem Browser</li>
+        <li>Keine Rechtsberatung</li>
+      </ul>
+    </section>
 
-        <h2 style="margin-top:14px">Worum geht es bei „Teilaustritt“?</h2>
-        <p>
-          In der Schweiz existiert in vielen Kantonen ein <strong>duales System</strong>: neben der
-          römisch-katholischen Kirche als Religionsgemeinschaft bestehen <strong>staatskirchenrechtliche Körperschaften</strong>
-          (Landeskirchen/Kirchgemeinden) mit öffentlich-rechtlicher Organisation und Finanzierung (u. a. Kirchensteuer).
-          Ein „Teilaustritt“ zielt typischerweise auf den <strong>Austritt aus der öffentlich-rechtlichen Körperschaft</strong>,
-          nicht zwingend auf einen Bruch mit der Glaubensgemeinschaft.
-        </p>
-        <div class="alert warn">
-          Wichtig: Je nach Kanton und Landeskirche unterscheiden sich Begriffe, Zuständigkeiten, Meldewege und Rechtsfolgen.
-          Dieses Tool hilft beim Erstellen eines sachlichen Schreibens – die definitive Beurteilung liegt bei den zuständigen Stellen.
-        </div>
+    <section id="tool" class="tool" aria-label="Austrittsschreiben erstellen">
+      <div class="steps">
 
-        <h3>Was macht diese Seite konkret?</h3>
-        <ul class="list">
-          <li>Erklärt die Grundstruktur (duales System) und typische Rechtsfragen (Mitgliedschaft, Register, Kirchensteuer).</li>
-          <li>Ermittelt aus der Adresse <span class="mono">Kanton</span> und <span class="mono">politische Gemeinde</span> (über geo.admin.ch).</li>
-          <li>Erstellt ein neutrales Austrittsschreiben (Vorlage), inkl. Bitte um schriftliche Bestätigung.</li>
-          <li>„Kirchgemeinde-Lookup“: technisch vorbereitet; vollständige automatische Zuordnung erfordert ein vollständiges Kirchgemeinde-Register je Kanton, dies ist in Planung!.</li>
-        </ul>
-
-        <footer>
-          Datenschutz-Hinweis: Die Adresse wird für die Geokodierung an geo.admin.ch übermittelt (öffentlicher Dienst von swisstopo).
-          Das Formular speichert lokal im Browser; es sendet keine Daten an teilaustritt.ch (sofern nicht anders implementiert).
-        </footer>
-      </section>
-
-      <aside class="card" id="rechtslage">
-        <h2>Rechtslage – Kurz & nüchtern</h2>
-        <p>
-          Die Fachdebatte unterscheidet sorgfältig zwischen <strong>staatlichem Religionsrecht</strong> (z. B. Mitgliedschaft in einer
-          öffentlich-rechtlichen Körperschaft, Steuerpflicht) und <strong>kirchlichem Recht</strong> (kanonisches Recht, Sakramentenordnung).
-        </p>
-
-        <div class="alert">
-          <strong>Typische Kernfrage:</strong><br/>
-        
-          <p><b>
-            Kann jemand der aus der Kirchgemeinde und der Landeskirche ausgetreten ist immer noch Sakramente erhalten oder eine Patenschaft übernehmen?
-          </b></p>
-        
-          <p style="margin-top: 8px;">
-            – Ja, der Austritt aus der Kirchgemeinde und der Landeskirche ist losgelöst von der Frage nach der Mitgliedschaft in der römisch-katholischen Kirche. Einzig wenn die austretende Person gleichzeitig zu erkennen gibt, dass sie zentrale Glaubensinhalte nicht mehr anerkennt, könnte ggf. kirchenrechtliche Sanktionen gegen sie verhängt werden.
-          </p>
-        </div>
-
-        <h3>Praxisnahe Punkte</h3>
-        <ul class="list">
-          <li><strong>Territorialprinzip:</strong> In fast allen Fällen ist ein Kirchensteuerzahler automatisch Mitglied der Kirchgemeinde an seinem Wohnsitz.</li>
-          <li><strong>Form:</strong> in der Deutschschweiz und dem Jura hat die Austrittserklärung schriftlich zu Handen der Kirchgemeinde am Wohnsitz zu erfolgen, aus Beweisgründen idealerweise mit A+ oder Einschreiben. In den Kantonen St. Gallen und den beiden Appenzell ist zudem die Beurkundung der Unteschrift durch die Gemeinde oder den Notar notwendig.</li>
-          <li><strong>Bestätigung:</strong> sinnvoll ist eine schriftliche Bestätigung (Datum der Wirksamkeit / Steuerpflicht-Ende). Jedoch genügt für die Beendigung der Mitgliedschaft die nachweisliche Zustellung der Austrittserklärung an die korrekte Stelle.</li>
-          <li><strong>Register & Daten:</strong> Datenschutz-/Registerfragen sind zentral (Eintrag, Korrektur, Löschung, Auskunft).</li>
-        </ul>
-
-        <p class="small">
-          Für vertiefte Argumentation und kantonale Dokumentation siehe „Quellen“ (RKZ-Papiere, universitäre Gutachten, kirchliche Merkblätter).
-        </p>
-      </aside>
-    </div>
-
-    <section class="card" id="generator" style="margin-top:18px">
-      <h2>Formular-Generator</h2>
-      <p>Gib deine Angaben ein. Das Tool generiert ein sachliches Schreiben. Die automatische Zuordnung zur zuständigen Kirchgemeinde ist – je nach Kanton – noch begrenzt.</p>
-
-      <div class="two">
-        <div>
-          <label for="fullName">Vollständiger Name</label>
-          <input id="fullName" placeholder="Vorname Nachname" autocomplete="name" />
-
-          <div class="two">
+        <section class="card step" id="step-ort" aria-labelledby="h-ort">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">1</span>
             <div>
-              <label for="dob">Geburtsdatum (optional)</label>
-              <input id="dob" placeholder="TT.MM.JJJJ" inputmode="numeric" />
-            </div>
-            <div>
-              <label for="confession">Konfession (für Zuordnung)</label>
-              <select id="confession">
-                <option value="rk">Römisch-katholisch</option>
-                <option value="ref">Evangelisch-reformiert</option>
-                <option value="ck">Christkatholisch</option>
-                <option value="other">Andere / keine Angabe</option>
-              </select>
+              <h2 id="h-ort">Wo wohnst du?</h2>
+              <p>Wir suchen die zuständige Kirchgemeinde.</p>
             </div>
           </div>
-
-          <label for="address">Wohnadresse (Schweiz) – Suche</label>
-          <div class="sugg">
-            <input id="address" placeholder="Strasse Nr, PLZ Ort" autocomplete="street-address" />
-            <div id="sugglist" class="sugglist" role="listbox" aria-label="Adressvorschläge"></div>
+          <label for="ort">PLZ oder Ort</label>
+          <div class="combo">
+            <input id="ort" type="text" autocomplete="off" spellcheck="false" placeholder="z. B. 8400 oder Winterthur"
+                   role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ort-list" aria-describedby="ort-help">
+            <ul id="ort-list" class="combo-list" role="listbox" aria-label="Passende Orte" hidden></ul>
           </div>
-          <p class="hint">Adresse wird über den offiziellen Suchdienst (geo.admin.ch) gesucht. Wähle dann einen Treffer aus der Liste.</p>
+          <p class="help" id="ort-help">Die Suche läuft in deinem Browser. Es wird nichts verschickt.</p>
+          <div id="kg-result" class="result" aria-live="polite"></div>
+        </section>
 
-          <div class="two">
+        <section class="card step" id="step-person" aria-labelledby="h-person">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">2</span>
             <div>
-              <label for="email">E-Mail (optional)</label>
-              <input id="email" placeholder="für Kopie / Notiz" autocomplete="email" inputmode="email" />
-            </div>
-            <div>
-              <label for="effectiveDate">Gewünschtes Datum (optional)</label>
-              <input id="effectiveDate" placeholder="z. B. per sofort / 31.12.2026" />
+              <h2 id="h-person">Deine Angaben</h2>
+              <p>Damit dich die Kirchgemeinde im Register findet.</p>
             </div>
           </div>
+          <form id="person" novalidate autocomplete="on">
+            <div class="grid-2">
+              <div>
+                <label for="vorname">Vorname</label>
+                <input id="vorname" name="given-name" autocomplete="given-name" required>
+              </div>
+              <div>
+                <label for="nachname">Nachname</label>
+                <input id="nachname" name="family-name" autocomplete="family-name" required>
+              </div>
+            </div>
+            <label for="strasse">Strasse und Hausnummer</label>
+            <input id="strasse" name="street-address" autocomplete="street-address" required>
+            <div class="grid-plz">
+              <div>
+                <label for="plz">PLZ</label>
+                <input id="plz" name="postal-code" autocomplete="postal-code" inputmode="numeric" maxlength="4" required>
+              </div>
+              <div>
+                <label for="wohnort">Ort</label>
+                <input id="wohnort" name="address-level2" autocomplete="address-level2" required>
+              </div>
+            </div>
+            <div class="grid-2">
+              <div>
+                <label for="geburtsdatum">Geburtsdatum <span class="opt-tag">(empfohlen)</span></label>
+                <input id="geburtsdatum" name="bday" autocomplete="bday" inputmode="numeric" placeholder="TT.MM.JJJJ" aria-describedby="geb-help">
+                <p class="help" id="geb-help">Hilft bei Namensgleichheit.</p>
+              </div>
+              <div>
+                <label for="email">E-Mail <span class="opt-tag">(optional)</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" aria-describedby="mail-help">
+                <p class="help" id="mail-help">Erscheint im Absender, für die Bestätigung.</p>
+              </div>
+            </div>
+            <fieldset>
+              <legend class="label">Austritt per</legend>
+              <label class="choice"><input type="radio" name="per" value="sofort" checked> <span>nächstmöglichem Zeitpunkt <small>nach kantonalem Recht</small></span></label>
+              <label class="choice"><input type="radio" name="per" value="datum"> <span>bestimmtem Datum</span></label>
+              <div id="per-datum-wrap" hidden>
+                <label for="per-datum" class="sr-only">Datum</label>
+                <input id="per-datum" type="date">
+              </div>
+            </fieldset>
+            <label for="zusatz">Zusatz <span class="opt-tag">(optional)</span></label>
+            <input id="zusatz" placeholder="z. B. Bitte um Korrektur meines Registereintrags">
+          </form>
+        </section>
 
-          <label for="note">Zusatz (optional)</label>
-          <input id="note" placeholder="z. B. Bitte Bestätigung bis … / Bitte Korrektur Registereintrag" />
+        <section class="card step checklist-card" id="step-versand" aria-labelledby="h-versand">
+          <div class="step-head">
+            <span class="step-num" aria-hidden="true">3</span>
+            <div>
+              <h2 id="h-versand">Unterschreiben und senden</h2>
+              <p>So wird der Austritt wirksam.</p>
+            </div>
+          </div>
+          <ol class="checklist" id="checklist"></ol>
+          <p class="small">Je nach Kanton unterscheiden sich Begriffe, Zuständigkeiten und Rechtsfolgen. Die definitive Beurteilung liegt bei den zuständigen Stellen.</p>
+        </section>
+      </div>
 
-          <div class="row" style="margin-top:12px">
-            <button class="btn" id="btnGenerate" type="button">Schreiben generieren</button>
-            <button class="btn secondary" id="btnDownloadDocx" type="button">Als .docx herunterladen</button>
-            <button class="btn secondary" id="btnDownloadPdf" type="button">Als .pdf herunterladen</button>
-            <span class="hint" id="status"></span>
+      <div class="letter-col">
+        <div class="letter-tools">
+          <h2>Dein Schreiben</h2>
+          <div class="actions" style="margin:0">
+            <button class="btn" id="btn-pdf" type="button">PDF herunterladen</button>
+            <button class="btn secondary" id="btn-docx" type="button">Word</button>
+            <button class="btn secondary" id="btn-print" type="button">Drucken</button>
           </div>
         </div>
-
-        <div>
-          <div class="alert" id="geoBox">
-            <div class="kv">
-              <div>Kanton</div><div id="kantonOut">–</div>
-              <div>Gemeinde</div><div id="gemeindeOut">–</div>
-              <div>PLZ/Ort</div><div id="plzOut">–</div>
-              <div>Koordinaten</div><div id="coordOut" class="mono">–</div>
-              <div>Kirchgemeinde</div><div id="kirchgemeindeOut">–</div>
-            </div>
-            <p class="small" style="margin-top:10px">
-              Hinweis: Kirchgemeinde-Zuordnung braucht kantonale Geodaten/Verzeichnisse.
-              Dieses MVP zeigt eine <em>technische</em> Pipeline (Adresse → Gemeinde/Kanton → Lookup). Für vollständige Abdeckung müssen Daten je Kanton integriert werden.
-            </p>
+        <p class="status" id="status" role="status"></p>
+        <article class="paper" id="paper" aria-label="Vorschau des Schreibens">
+          <div class="sender" id="l-sender"></div>
+          <div class="recipient-wrap">
+            <div class="registered">Einschreiben</div>
+            <div class="recipient" id="l-recipient"></div>
           </div>
-
-          <label for="letter">Vorschau Schreiben</label>
-          <textarea id="letter"></textarea>
-          <p class="hint">Tipp: Versand per Einschreiben; Kopie/Scan aufbewahren. Bei Rückfragen: schriftliche Bestätigung verlangen (Wirksamkeitsdatum / Steuerpflicht).</p>
-        </div>
+          <div class="date" id="l-date"></div>
+          <div class="subject" id="l-subject"></div>
+          <div class="body" id="l-body"></div>
+          <div class="sign" id="l-sign"></div>
+        </article>
+        <details class="edit no-print" id="edit">
+          <summary>Brieftext anpassen</summary>
+          <textarea id="body-edit" aria-label="Brieftext"></textarea>
+          <p class="help" id="edit-help">Absender, Empfänger und Datum füllen sich weiter automatisch aus.
+            <button type="button" class="linkbtn" id="body-reset" hidden>Text auf Vorlage zurücksetzen</button></p>
+        </details>
       </div>
     </section>
 
-    <section class="card" id="quellen" style="margin-top:18px">
-      <h2>Öffentliche Quellen & Literatur (Auswahl)</h2>
-      <p>Diese Links sind als Einstieg gedacht (offizielle Dokumente / akademische Gutachten / Praxismerkblätter).</p>
+    <section class="section" id="kirchensteuer" aria-labelledby="h-steuer">
+      <h2 id="h-steuer">Kirchensteuer: das Wichtigste</h2>
+      <p class="lead">Kirchensteuer zahlen nur Mitglieder einer anerkannten Kirche. Das folgt aus der Glaubens- und Gewissensfreiheit (Art. 15 BV). Jeder Kanton regelt die Einzelheiten selbst, deshalb gibt es 26 verschiedene Systeme.</p>
 
-      <ul class="list">
-        <li><strong>RKZ</strong> – Erklärung zum Kirchenaustritt (rechtliche Konsequenzen), PDF:
-          <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20030531_Erklaerung_Kirchenaustritt_-_rechtliche_Konsequenzen_d.pdf" target="_blank" rel="noopener">rkz.ch</a>
-        </li>
-        <li><strong>RKZ</strong> – Kirchenzugehörigkeit & Kirchenaustrittserklärung (Positionspapier 2003), PDF:
-          <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.1_Postitions-_Strategiepapiere/3.1.20031029_Kirchenzugehoerigkeit_Kirchenaustritt.pdf" target="_blank" rel="noopener">rkz.ch</a>
-        </li>
-        <li><strong>RKZ</strong> – Dokumentation kantonaler/landeskirchlicher Erlasse zu Zugehörigkeit & Austritt (2008), PDF:
-          <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20080801_Zugehoerigkeit_und_Austritt__Dok_IRR__d.pdf" target="_blank" rel="noopener">rkz.ch</a>
-        </li>
-        <li><strong>Universität Freiburg (CH), Religionsrecht</strong> – Gutachten „Die Erklärung des (partiellen) Austritts …“, PDF:
-          <a href="https://www.unifr.ch/ius/religionsrecht/fr/assets/public/documents/Gutachten%20und%20Studien/GutachtenAustritt.pdf" target="_blank" rel="noopener">unifr.ch</a>
-        </li>
-        <li><strong>Andreas Kley (UZH)</strong> – Besprechung BGer-Urteil (BGE 134 I 75), PDF:
-          <a href="https://www.ius.uzh.ch/dam/jcr%3A92b85bcb-80a5-442a-88dd-bb32461f4df3/bger_bespr_kirchenaustritt_Recht%202008.pdf" target="_blank" rel="noopener">ius.uzh.ch</a>
-        </li>
-        <li><strong>Bistum Basel / Praxismerkblatt</strong> (Beispiel Bern) – Austritt aus staatskirchenrechtlicher Körperschaft, PDF:
-          <a href="https://www.kathbern.ch/fileadmin/user_upload/Pfarreien/koeniz-wabern/Dokumente/Informationen/K-austritt_Bistum_staatskirchenrechtl_Koerperschaft_10.2021.pdf" target="_blank" rel="noopener">kathbern.ch</a>
-        </li>
-        <li><strong>Eidgenössische Steuerverwaltung (ESTV) </strong> SSK Steuerinformation zum Thema Kirchensteuer, PDF:
-          <a href=https://www.estv2.admin.ch/stp/ds/d-kirchensteuern-de.pdf target="_blank" rel="noopener">estv2.admin.ch</a>
-        </li>
-      </ul>
-
-      <p class="small">
-        Ergänzend können kantonale Vollzugshinweise, Steuerpraxis und die einschlägigen Kantonsverfassungen / Kirchengesetze relevant sein.
-      </p>
-    </section>
-
-    <section class="card" id="impressum" style="margin-top:18px">
-      <h2>Impressum, Kontakt & Datenschutzerklärung</h2>
-
-      <h3>Impressum</h3>
-      <div class="kv">
-        <div>Anbieter</div><div><strong>Verein Vera Fides</strong></div>
-        <div>Adresse</div><div><span class="mono">Neufeldstrasse 3</span></div>
-        <div>Sitz</div><div><span class="mono">CH-3012 Bern</span></div>
-        <div>E-Mail</div><div><a href="mailto:[redaktion@verafides.ch]">redaktion@verafides.ch</a></div>
+      <div class="card tax-end">
+        <h3>Ab wann zahlst du keine Kirchensteuer mehr?</h3>
+        <p class="small">Nach dem Bundesgericht endet die Steuerpflicht, sobald deine Austrittserklärung bei der zuständigen Stelle eingegangen ist. Die Kantone setzen das unterschiedlich um:</p>
+        <p class="tax-mine" id="tax-mine" hidden></p>
+        <div class="tax-groups">
+          <div>
+            <h4>Sofort mit dem Eingang</h4>
+            <ul class="chips" data-ende="sofort"></ul>
+          </div>
+          <div>
+            <h4>Für das ganze Austrittsjahr</h4>
+            <p class="help">Trittst du im Lauf des Jahres aus, endet die Pflicht rückwirkend per 31. Dezember des Vorjahres.</p>
+            <ul class="chips" data-ende="jahr"></ul>
+          </div>
+          <div>
+            <h4>Anderes System</h4>
+            <p class="help">Keine Kirchensteuer, freiwillige Zahlung oder nur in einzelnen Gemeinden.</p>
+            <ul class="chips" data-ende="anders"></ul>
+          </div>
+        </div>
       </div>
 
-      <h3>Kontakt</h3>
-      <p>
-        Für Rückfragen, Korrekturhinweise oder Meldungen zu kantonalen Besonderheiten schreibe bitte an die Vereins-E-Mailadresse.
-        Wir antworten nach Möglichkeit schriftlich und sachlich; diese Website bietet keine individuelle Rechtsberatung.
-      </p>
+      <div class="faq" style="margin-top:12px">
+        <details>
+          <summary>Wie wird die Kirchensteuer berechnet?</summary>
+          <div class="a">
+            <p>Meist als Prozentsatz der einfachen Kantonssteuer, in einigen Kantonen als Vielfaches davon oder als Anteil der geschuldeten Kantonssteuer. Grundlage sind Einkommen und Vermögen, in manchen Kantonen auch Grundstückgewinne.</p>
+            <p>Den Steuerfuss legt in der Regel die Kirchgemeindeversammlung jedes Jahr fest. Er ist deshalb von Kirchgemeinde zu Kirchgemeinde verschieden.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Ich trete aus, mein Partner oder meine Partnerin bleibt Mitglied</summary>
+          <div class="a">
+            <p>Verheiratete und eingetragene Paare werden zwar gemeinsam besteuert, die Kirchensteuer wird aber aufgeteilt. Nach deinem Austritt wird nur noch der Anteil der Person besteuert, die Mitglied bleibt, meist zum halben Satz ihrer Konfession.</p>
+            <p>Einige Kantone beziehen dabei auch die Kinder und deren Konfession ein (Aufteilung nach Köpfen oder in Dritteln).</p>
+          </div>
+        </details>
+        <details>
+          <summary>Ich zahle Quellensteuer</summary>
+          <div class="a">
+            <p>In den meisten Kantonen ist die Kirchensteuer in der Quellensteuer enthalten. Nach dem Austritt kannst du beim kantonalen Steueramt die Rückerstattung des Kirchensteueranteils verlangen. Im Kanton St. Gallen gilt dafür eine Frist bis zum 31. März des Folgejahres.</p>
+            <p>In den Kantonen Tessin und Genf ist die Kirchensteuer nicht in der Quellensteuer enthalten.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Ich habe eine eigene Firma (AG, GmbH)</summary>
+          <div class="a">
+            <p>Dein persönlicher Austritt ändert nichts an der Kirchensteuer deiner Firma. Juristische Personen können sich laut Bundesgericht nicht auf die Glaubens- und Gewissensfreiheit berufen und deshalb nicht austreten. Ausgenommen sind nur Organisationen, die selbst religiöse Zwecke verfolgen.</p>
+            <p>Keine Kirchensteuer für Firmen erheben Basel-Stadt, Schaffhausen, Appenzell Ausserrhoden, Aargau und Genf. In Solothurn und St. Gallen fliesst stattdessen ein Teil der Firmensteuern in den Finanzausgleich der Kirchgemeinden.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Auf meiner Steuerrechnung steht trotzdem Kirchensteuer</summary>
+          <div class="a">
+            <p>Prüfe nach dem Austritt die nächste Veranlagung. Ist sie noch nicht rechtskräftig, kannst du innert Frist Einsprache erheben. Lege die Austrittsbestätigung oder den Einlieferungsbeleg bei.</p>
+            <p>Bei bereits rechtskräftigen Veranlagungen ist eine Rückzahlung nur eingeschränkt möglich. Ausdrücklich gesetzlich vorgesehen ist sie in Nidwalden, Graubünden und im Jura. In Zürich, Basel-Stadt und St. Gallen geht es über eine Revision oder Berichtigung.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Waadt, Neuenburg, Genf, Tessin, Wallis: hier ist es anders</summary>
+          <div class="a">
+            <p><strong>Waadt:</strong> Es gibt keine Kirchensteuer. Die Kirchen werden aus den allgemeinen Steuern finanziert. Wer keiner anerkannten Kirche angehört, kann auf Anfrage den Kirchenanteil der Gemeindesteuer zurückfordern, jede Steuerperiode neu.</p>
+            <p><strong>Neuenburg und Genf:</strong> Die Kirchensteuer wird in Rechnung gestellt, die Bezahlung ist aber freiwillig.</p>
+            <p><strong>Tessin:</strong> Nur ein Teil der Kirchgemeinden erhebt Kirchensteuer. Wer im Kirchensteuerregister eingetragen wird, kann innert 30 Tagen schriftlich die Befreiung verlangen. Später wirkt eine Erklärung auf das folgende Jahr.</p>
+            <p><strong>Wallis:</strong> Die Kultuskosten tragen die Gemeinden. Nur wenige Gemeinden, u. a. Sitten, erheben eine eigene Kultussteuer.</p>
+          </div>
+        </details>
+      </div>
+      <p class="small" style="margin-top:12px">Zusammengefasst aus: Schweizerische Steuerkonferenz / ESTV, <a href="https://www.estv2.admin.ch/stp/ds/d-kirchensteuern-de.pdf" target="_blank" rel="noopener">Steuerinformationen «Die Kirchensteuern»</a>, Stand der Gesetzgebung 1. Januar 2022. Appenzell Ausserrhoden: Ordnung des Verbands der Kirchgemeinden, seit 1. Januar 2026. Einzelne Kantone können ihre Regeln seither geändert haben.</p>
+    </section>
 
-      <h3>Datenschutzerklärung (kurz)</h3>
-      <p class="small">
-        Stand: <span id="privacyDate"></span>
-      </p>
+    <section class="section" id="fragen" aria-labelledby="h-fragen">
+      <h2 id="h-fragen">Fragen und Antworten</h2>
+      <p class="lead">Kurz und nüchtern. Die Fachdebatte unterscheidet zwischen staatlichem Religionsrecht (Mitgliedschaft in einer öffentlich-rechtlichen Körperschaft, Steuerpflicht) und kirchlichem Recht (kanonisches Recht, Sakramentenordnung).</p>
+      <div class="faq">
+        <details>
+          <summary>Was ist ein Teilaustritt?</summary>
+          <div class="a">
+            <p>In vielen Kantonen gibt es ein duales System: Neben der römisch-katholischen Kirche als Religionsgemeinschaft bestehen staatskirchenrechtliche Körperschaften (Landeskirchen und Kirchgemeinden). Sie sind öffentlich-rechtlich organisiert und finanzieren sich unter anderem über die Kirchensteuer.</p>
+            <p>Ein Teilaustritt zielt auf den Austritt aus dieser öffentlich-rechtlichen Körperschaft. Er bedeutet nicht zwingend einen Bruch mit der Glaubensgemeinschaft.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Kann ich danach noch Sakramente empfangen oder Pate werden?</summary>
+          <div class="a">
+            <p>Ja. Der Austritt aus Kirchgemeinde und Landeskirche ist losgelöst von der Frage nach der Mitgliedschaft in der römisch-katholischen Kirche. Nur wenn die austretende Person gleichzeitig zu erkennen gibt, dass sie zentrale Glaubensinhalte nicht mehr anerkennt, könnten allenfalls kirchenrechtliche Sanktionen gegen sie verhängt werden.</p>
+          </div>
+        </details>
+        <details>
+          <summary>An wen schicke ich das Schreiben?</summary>
+          <div class="a">
+            <p>An die Kirchgemeinde an deinem Wohnsitz. Es gilt das Territorialprinzip: Wer Kirchensteuer zahlt, ist in fast allen Fällen automatisch Mitglied der Kirchgemeinde am Wohnsitz. In Schritt 1 findest du die zuständige Kirchgemeinde mit Postadresse.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Welche Form braucht es?</summary>
+          <div class="a">
+            <p>In der Deutschschweiz und im Jura muss die Austrittserklärung schriftlich an die Kirchgemeinde am Wohnsitz gehen. Aus Beweisgründen am besten per Einschreiben oder A-Post Plus.</p>
+            <p id="faq-beglaubigung">In einigen Kantonen muss die Unterschrift zusätzlich amtlich beglaubigt werden, durch die Gemeinde oder ein Notariat. Schritt 3 zeigt dir, ob das für deinen Wohnort gilt.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Brauche ich eine Bestätigung?</summary>
+          <div class="a">
+            <p>Eine schriftliche Bestätigung ist sinnvoll, mit dem Datum der Wirksamkeit und dem Ende der Steuerpflicht. Für die Beendigung der Mitgliedschaft genügt aber die nachweisliche Zustellung der Austrittserklärung an die richtige Stelle.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Was passiert mit meinen Daten im Register?</summary>
+          <div class="a">
+            <p>Datenschutz- und Registerfragen sind zentral: Eintrag, Korrektur, Löschung, Auskunft. Wünsche dazu kannst du im Feld «Zusatz» ergänzen.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Wie zuverlässig ist die Kirchgemeinde-Suche?</summary>
+          <div class="a">
+            <p>Die Zuordnung Wohnort → Gemeinde stammt aus dem amtlichen Ortschaftenverzeichnis von swisstopo. Die Kirchgemeinden und ihre Postadressen haben wir aus den Verzeichnissen der Landeskirchen und Kirchgemeinden zusammengetragen. Jede Angabe nennt ihre Quelle und ihren Stand.</p>
+            <p>Adressen ändern sich. Prüfe die Adresse vor dem Versand kurz auf der Website der Kirchgemeinde. Fehler meldest du an <a href="mailto:redaktion@verafides.ch?subject=Korrektur%20teilaustritt.ch">redaktion@verafides.ch</a>.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Gilt das auch für reformierte oder christkatholische Mitglieder?</summary>
+          <div class="a">
+            <p>Die Kirchgemeinde-Suche kennt nur römisch-katholische Kirchgemeinden. Die Rechtsfragen auf dieser Seite betreffen die römisch-katholische Kirche. Für andere Landeskirchen gelten eigene Regeln.</p>
+          </div>
+        </details>
+      </div>
+    </section>
 
-      <h4 style="margin:10px 0 6px; font-size:13px">1. Verantwortlicher</h4>
-      <p class="small">
-        Verantwortlich für die Datenbearbeitung im Zusammenhang mit dieser Website ist der <strong>Verein Vera Fides</strong>
-        (Kontakt siehe Impressum).
-      </p>
-
-      <h4 style="margin:10px 0 6px; font-size:13px">2. Zweck und Umfang</h4>
-      <ul class="list">
-        <li><strong>Formular-Generator:</strong> Die von dir eingegebenen Felder werden im Browser verarbeitet, um das Schreiben zu erstellen. Es findet keine automatische Übermittlung dieser Inhalte an den Betreiber statt (sofern du sie nicht selbst per E-Mail versendest).</li>
-        <li><strong>Adresssuche / Gemeinde-Ermittlung:</strong> Wenn du die Suchfunktion verwendest, wird der Suchtext (Adresse) an den öffentlichen Such-/Geodienst <strong>geo.admin.ch</strong> übermittelt, damit Treffer angezeigt und Kanton/Gemeinde ermittelt werden können.</li>
-        <li><strong>Server-Logfiles:</strong> Beim Aufruf der Website fallen technisch bedingt Logdaten beim Hosting-Anbieter an (z. B. IP-Adresse, Zeitpunkt, aufgerufene Ressource, User-Agent). Diese Daten dienen dem sicheren Betrieb und der Fehleranalyse.</li>
+    <section class="section" id="quellen" aria-labelledby="h-quellen">
+      <h2 id="h-quellen">Quellen und Literatur</h2>
+      <p class="lead">Als Einstieg: offizielle Dokumente, akademische Gutachten und Praxismerkblätter.</p>
+      <ul class="sources">
+        <li><strong>RKZ</strong>, Erklärung zum Kirchenaustritt (rechtliche Konsequenzen), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20030531_Erklaerung_Kirchenaustritt_-_rechtliche_Konsequenzen_d.pdf" target="_blank" rel="noopener">PDF auf rkz.ch</a></li>
+        <li><strong>RKZ</strong>, Kirchenzugehörigkeit und Kirchenaustrittserklärung (Positionspapier 2003), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.1_Postitions-_Strategiepapiere/3.1.20031029_Kirchenzugehoerigkeit_Kirchenaustritt.pdf" target="_blank" rel="noopener">PDF auf rkz.ch</a></li>
+        <li><strong>RKZ</strong>, Dokumentation kantonaler und landeskirchlicher Erlasse zu Zugehörigkeit und Austritt (2008), <a href="https://www.rkz.ch/fileadmin/user_upload/Dokumente/3._Kirche_und_Recht/3.2_Gutachten_Dokumentation/3.2.20080801_Zugehoerigkeit_und_Austritt__Dok_IRR__d.pdf" target="_blank" rel="noopener">PDF auf rkz.ch</a></li>
+        <li><strong>Universität Freiburg (CH), Religionsrecht</strong>, Gutachten «Die Erklärung des (partiellen) Austritts …», <a href="https://www.unifr.ch/ius/religionsrecht/fr/assets/public/documents/Gutachten%20und%20Studien/GutachtenAustritt.pdf" target="_blank" rel="noopener">PDF auf unifr.ch</a></li>
+        <li><strong>Andreas Kley (UZH)</strong>, Besprechung BGer-Urteil BGE 134 I 75, <a href="https://www.ius.uzh.ch/dam/jcr%3A92b85bcb-80a5-442a-88dd-bb32461f4df3/bger_bespr_kirchenaustritt_Recht%202008.pdf" target="_blank" rel="noopener">PDF auf ius.uzh.ch</a></li>
+        <li><strong>Bistum Basel, Praxismerkblatt</strong> (Beispiel Bern), Austritt aus der staatskirchenrechtlichen Körperschaft, <a href="https://www.kathbern.ch/fileadmin/user_upload/Pfarreien/koeniz-wabern/Dokumente/Informationen/K-austritt_Bistum_staatskirchenrechtl_Koerperschaft_10.2021.pdf" target="_blank" rel="noopener">PDF auf kathbern.ch</a></li>
+        <li><strong>Eidgenössische Steuerverwaltung (ESTV)</strong>, SSK-Steuerinformation Kirchensteuern, <a href="https://www.estv2.admin.ch/stp/ds/d-kirchensteuern-de.pdf" target="_blank" rel="noopener">PDF auf estv2.admin.ch</a></li>
       </ul>
+      <p class="small">Ergänzend können kantonale Vollzugshinweise, die Steuerpraxis und die einschlägigen Kantonsverfassungen und Kirchengesetze relevant sein.</p>
+      <h3 style="font-size:16px; margin:20px 0 6px">Daten der Kirchgemeinde-Suche</h3>
+      <ul class="sources" id="data-sources">
+        <li>Ortschaften, PLZ und Gemeinden: swisstopo, <a href="https://www.swisstopo.admin.ch/de/amtliches-ortschaftenverzeichnis" target="_blank" rel="noopener">Amtliches Ortschaftenverzeichnis</a>, Stand <span id="orte-stand">30.09.2026</span></li>
+        <li>Kirchgemeinden und Postadressen: Verzeichnisse der kantonalen Landeskirchen und der Kirchgemeinden. Die Quelle steht bei jedem Treffer.</li>
+      </ul>
+    </section>
 
-      <h4 style="margin:10px 0 6px; font-size:13px">3. Cookies und Tracking</h4>
-      <p class="small">
-        Diese Seite setzt keine Werbe- oder Tracking-Cookies ein. Es können technisch notwendige Cookies/Cache-Mechanismen des Browsers bzw. des Hosting-Anbieters wirken.
-      </p>
-
-      <h4 style="margin:10px 0 6px; font-size:13px">4. Weitergabe und Drittanbieter</h4>
-      <p class="small">
-        Eine aktive Weitergabe deiner Formularinhalte durch den Betreiber erfolgt nicht. Drittanbieter kommen nur ins Spiel, wenn du Funktionen nutzt, die externe Dienste aufrufen (derzeit: geo.admin.ch für die Adresssuche).
-      </p>
-
-      <h4 style="margin:10px 0 6px; font-size:13px">5. Aufbewahrung und Löschung</h4>
-      <p class="small">
-        Die Formularinhalte werden nicht serverseitig gespeichert. Server-Logdaten werden nach den üblichen Fristen des Hosting-Anbieters aufbewahrt und anschließend gelöscht bzw. anonymisiert.
-      </p>
-
-      <h4 style="margin:10px 0 6px; font-size:13px">6. Rechte</h4>
-      <p class="small">
-        Du kannst im Rahmen des anwendbaren Datenschutzrechts (insb. Schweizer DSG) Auskunft, Berichtigung oder Löschung von dich betreffenden Daten verlangen, soweit solche Daten beim Betreiber anfallen. Kontaktiere uns dazu via E-Mail (siehe Impressum).
-      </p>
+    <section class="section" id="impressum" aria-labelledby="h-impressum">
+      <h2 id="h-impressum">Impressum, Kontakt und Datenschutz</h2>
+      <div class="cols">
+        <div class="card">
+          <h3 style="margin-top:0">Impressum</h3>
+          <dl class="kv">
+            <dt>Anbieter</dt><dd><strong>Verein Vera Fides</strong></dd>
+            <dt>Adresse</dt><dd>Neufeldstrasse 3<br>3012 Bern</dd>
+            <dt>E-Mail</dt><dd><a href="mailto:redaktion@verafides.ch">redaktion@verafides.ch</a></dd>
+          </dl>
+          <h3>Kontakt</h3>
+          <p class="small">Für Rückfragen, Korrekturhinweise oder Meldungen zu kantonalen Besonderheiten schreibe bitte an die Vereins-E-Mail-Adresse. Wir antworten nach Möglichkeit schriftlich und sachlich. Diese Website bietet keine individuelle Rechtsberatung.</p>
+        </div>
+        <div class="card privacy">
+          <h3 style="margin-top:0">Datenschutzerklärung (kurz)</h3>
+          <p class="small">Stand: 28. Oktober 2026</p>
+          <h3>1. Verantwortlicher</h3>
+          <p>Verantwortlich für die Datenbearbeitung im Zusammenhang mit dieser Website ist der Verein Vera Fides (Kontakt siehe Impressum).</p>
+          <h3>2. Formular und Kirchgemeinde-Suche</h3>
+          <p>Deine Eingaben werden nur in deinem Browser verarbeitet, um das Schreiben zu erstellen. Sie werden nicht an den Betreiber übermittelt und nicht gespeichert. Die Suche nach PLZ und Ort läuft mit Daten, die mit der Seite geladen werden.</p>
+          <p>Nur in Gemeinden mit mehreren Kirchgemeinden kannst du zusätzlich deine Strasse suchen lassen. Dann geht der Suchtext an den öffentlichen Geodienst <strong>geo.admin.ch</strong> von swisstopo. Das geschieht nur, wenn du die Strassensuche auslöst.</p>
+          <h3>3. Server-Logfiles</h3>
+          <p>Beim Aufruf der Website fallen technisch bedingt Logdaten an (z. B. IP-Adresse, Zeitpunkt, aufgerufene Ressource, User-Agent). Sie dienen dem sicheren Betrieb und der Fehleranalyse und werden nach den üblichen Fristen gelöscht oder anonymisiert.</p>
+          <h3>4. Cookies und Tracking</h3>
+          <p>Diese Seite setzt keine Cookies und kein Tracking ein. Alle Skripte liegen auf diesem Server; es werden keine Inhalte von Drittanbietern nachgeladen.</p>
+          <h3>5. Rechte</h3>
+          <p>Du kannst im Rahmen des Schweizer Datenschutzgesetzes Auskunft, Berichtigung oder Löschung von dich betreffenden Daten verlangen, soweit solche Daten beim Betreiber anfallen. Kontaktiere uns dazu per E-Mail (siehe Impressum).</p>
+        </div>
+      </div>
     </section>
   </main>
 
-  <script>
-    const $ = (id) => document.getElementById(id);
-
-    const state = {
-      chosen: null,
-      x: null, y: null,
-      canton: null,
-      municipality: null,
-      zipPlace: null,
-      kirchgemeinde: null
-    };
-
-    // TODO: später durch JSON-Registry ersetzen
-    const KIRCHGEMEINDE_REGISTRY = {
-      AG: [
-        { name: "Röm.-kath. Kirchgemeinde Musterstadt", confession: "rk", municipalities: ["Musterstadt"], zip: ["5000"], contact: "Sekretariat, Musterstrasse 1, 5000 Musterstadt", email: "sekretariat@example.org" }
-      ],
-      BS: [
-        { name: "Röm.-kath. Kirche Basel (Beispiel)", confession: "rk", municipalities: ["Basel"], zip: ["4000","4051","4052"], contact: "Beispieladresse, 4000 Basel", email: "info@example.org" }
-      ]
-    };
-
-    function stripHtml(s){
-      const div = document.createElement("div");
-      div.innerHTML = s || "";
-      return (div.textContent || div.innerText || "").trim();
-    }
-
-    function parseZipPlace(label){
-      const m = label.match(/\b(\d{4})\s+([^\n,]+)\b/);
-      if(!m) return null;
-      return { zip: m[1], place: m[2].trim() };
-    }
-
-    async function searchAddresses(q){
-      const url = new URL("https://api3.geo.admin.ch/rest/services/ech/SearchServer");
-      url.searchParams.set("type","locations");
-      url.searchParams.set("searchText", q);
-      url.searchParams.set("origins","address");
-      url.searchParams.set("limit","8");
-      url.searchParams.set("sr","2056");
-      const res = await fetch(url.toString());
-      if(!res.ok) throw new Error("Adresssuche fehlgeschlagen");
-      return await res.json();
-    }
-
-    async function identifyGemeindeKanton(x,y){
-      const url = new URL("https://api3.geo.admin.ch/rest/services/ech/MapServer/identify");
-      url.searchParams.set("geometry", `${x},${y}`);
-      url.searchParams.set("geometryType","esriGeometryPoint");
-      url.searchParams.set("tolerance","0");
-      url.searchParams.set("layers","all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill,ch.swisstopo.swissboundaries3d-kanton-flaeche.fill");
-      url.searchParams.set("sr","2056");
-      url.searchParams.set("returnGeometry","false");
-      const res = await fetch(url.toString());
-      if(!res.ok) throw new Error("Gemeinde/Kanton-Identifikation fehlgeschlagen");
-      return await res.json();
-    }
-
-    function extractGemeindeKanton(identifyJson){
-      const results = identifyJson?.results || [];
-      const gemeinde = results.find(r => (r.layerBodId||"").includes("gemeinde"));
-      const kanton   = results.find(r => (r.layerBodId||"").includes("kanton"));
-      const gProps = gemeinde?.properties || {};
-      const kProps = kanton?.properties || {};
-
-      const municipalityName =
-        gProps.name || gProps.gem_name || gProps.gemeinde || gProps.label || gProps.GEMEINDENAME || "—";
-
-      const cantonCode =
-        kProps.abk || kProps.kurzzeichen || kProps.kanton || kProps.kt || kProps.label || null;
-
-      const cantonName = kProps.name || kProps.kanton || kProps.label || "—";
-
-      return { municipalityName, cantonCode, cantonName };
-    }
-
-    function lookupKirchgemeinde(cantonCode, municipalityName, zip, confession){
-      const list = KIRCHGEMEINDE_REGISTRY[cantonCode] || [];
-      let hits = list.filter(e => e.confession === confession && e.zip?.includes(zip));
-      if(hits.length === 0){
-        hits = list.filter(e => e.confession === confession && (e.municipalities||[]).map(x=>x.toLowerCase()).includes((municipalityName||"").toLowerCase()));
-      }
-      if(hits.length === 1) return hits[0];
-      if(hits.length > 1) return { name: hits[0].name + " (mehrere Treffer – bitte prüfen)", contact: hits[0].contact, email: hits[0].email };
-      return null;
-    }
-
-    function setStatus(msg, kind=""){
-      const el = $("status");
-      el.textContent = msg || "";
-      el.style.color = kind==="ok" ? "var(--ok)" : kind==="warn" ? "var(--warn)" : "var(--muted)";
-    }
-
-    function updateGeoBox(){
-      $("kantonOut").textContent = state.canton ? (state.canton.code ? `${state.canton.code} – ${state.canton.name}` : state.canton.name) : "–";
-      $("gemeindeOut").textContent = state.municipality || "–";
-      $("plzOut").textContent = state.zipPlace ? `${state.zipPlace.zip} ${state.zipPlace.place}` : "–";
-      $("coordOut").textContent = (state.x && state.y) ? `${Math.round(state.x)}, ${Math.round(state.y)} (LV95)` : "–";
-
-      if(state.kirchgemeinde){
-        const kg = state.kirchgemeinde;
-        let txt = kg.name;
-        if(kg.contact) txt += `; ${kg.contact}`;
-        if(kg.email) txt += `; ${kg.email}`;
-        $("kirchgemeindeOut").textContent = txt;
-      }else{
-        $("kirchgemeindeOut").textContent = "– (noch nicht eindeutig / Register fehlt)";
-      }
-    }
-
-    function buildLetter(){
-      const name = ($("fullName").value || "").trim();
-      const dob = ($("dob").value || "").trim();
-      const address = ($("address").value || "").trim();
-      const effective = ($("effectiveDate").value || "").trim();
-      const note = ($("note").value || "").trim();
-
-      const kg = state.kirchgemeinde;
-      const toLine = kg ? kg.name : "Zuständige Kirchgemeinde / Landeskirche (bitte einsetzen)";
-      const contactLine = kg?.contact ? kg.contact : "(Adresse der zuständigen Stelle ergänzen)";
-
-      const today = new Date();
-      const dateStr = today.toLocaleDateString("de-CH", { year:"numeric", month:"2-digit", day:"2-digit" });
-
-      const subject = "Austrittserklärung aus der staatskirchenrechtlichen Körperschaft (Kirchensteuer)";
-      const effectiveSentence = effective ? `Ich ersuche um Wirksamkeit per ${effective}.` : "Ich ersuche um Wirksamkeit per nächstmöglichem Zeitpunkt nach kantonalem Recht.";
-      const dobLine = dob ? `Geburtsdatum: ${dob}\n` : "";
-      const extra = note ? `\nZusatz:\n${note}\n` : "";
-
-      const letter =
-`${toLine}
-${contactLine}
-
-${dateStr}
-
-Betreff: ${subject}
-
-Sehr geehrte Damen und Herren
-
-Hiermit erkläre ich – soweit nach kantonalem Recht vorgesehen – meinen Austritt aus der öffentlich-rechtlichen Körperschaft der Landeskirche und Kirchgemeinde an meinem Wohnort.
-
-Person:
-Name: ${name || "(Name eintragen)"}
-${dobLine}Adresse: ${address || "(Adresse eintragen)"}
-
-${effectiveSentence}
-
-Ich bitte um schriftliche Bestätigung des Austritts (inkl. Datum der Wirksamkeit). Ferner bitte ich Sie, dieses Schreiben vertraulich zu behandeln und den Inhalt nicht an Dritte, inkl. Pfarrei und Bistum, zu kommunizieren.
-
-Freundliche Grüsse
-
-
-${name || "(Unterschrift)"}${extra}
-`;
-
-      $("letter").value = letter;
-    }
-
-    // --- DOCX Download (echtes Word) ---
-    async function downloadDocx(){
-      const content = $("letter").value || "";
-      const lines = content.replace(/\r\n/g, "\n").split("\n");
-
-      const paragraphs = lines.map(line =>
-        new docx.Paragraph({
-          text: line === "" ? " " : line,
-          spacing: { after: 120 }
-        })
-      );
-
-      const doc = new docx.Document({
-        sections: [{ properties: {}, children: paragraphs }]
-      });
-
-      const blob = await docx.Packer.toBlob(doc);
-      const url = URL.createObjectURL(blob);
-
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "teilaustritt_schreiben.docx";
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      URL.revokeObjectURL(url);
-    }
-
-    // --- PDF Download (jsPDF) ---
-    function downloadPdf(){
-      const { jsPDF } = window.jspdf;
-      const doc = new jsPDF({ unit: "pt", format: "a4" });
-
-      const margin = 56;          // ~2cm
-      const fontSize = 11;
-      const lineHeight = 15;
-
-      doc.setFont("times", "normal");
-      doc.setFontSize(fontSize);
-
-      const pageWidth = doc.internal.pageSize.getWidth();
-      const pageHeight = doc.internal.pageSize.getHeight();
-      const maxWidth = pageWidth - margin * 2;
-
-      const text = ($("letter").value || "").replace(/\r\n/g, "\n");
-      const paragraphs = text.split("\n");
-
-      let y = margin;
-
-      for (const para of paragraphs) {
-        // Leere Zeile = Abstand
-        if (para.trim() === "") {
-          y += lineHeight;
-          if (y > pageHeight - margin) { doc.addPage(); y = margin; }
-          continue;
-        }
-
-        // Automatisches Wrapping
-        const wrapped = doc.splitTextToSize(para, maxWidth);
-        for (const line of wrapped) {
-          doc.text(line, margin, y);
-          y += lineHeight;
-          if (y > pageHeight - margin) {
-            doc.addPage();
-            y = margin;
-          }
-        }
-      }
-
-      doc.save("teilaustritt_schreiben.pdf");
-    }
-
-    // Address search wiring
-    let debounceTimer = null;
-    $("address").addEventListener("input", () => {
-      clearTimeout(debounceTimer);
-      const q = $("address").value.trim();
-      if(q.length < 4){
-        $("sugglist").style.display = "none";
-        return;
-      }
-      debounceTimer = setTimeout(async () => {
-        try{
-          setStatus("Suche Adresse …");
-          const data = await searchAddresses(q);
-          const results = data?.results || [];
-          const list = $("sugglist");
-          list.innerHTML = "";
-          if(results.length === 0){
-            list.style.display = "none";
-            setStatus("Keine Treffer.");
-            return;
-          }
-          results.forEach((r) => {
-            const btn = document.createElement("button");
-            const label = stripHtml(r.label || r.attrs?.label || r.attrs?.origin || "");
-            btn.textContent = label || "Treffer";
-            btn.addEventListener("click", async () => {
-              list.style.display = "none";
-              $("address").value = label;
-              state.chosen = r;
-              state.x = Number(r.attrs?.x);
-              state.y = Number(r.attrs?.y);
-              state.zipPlace = parseZipPlace(label);
-              setStatus("Ermittle Kanton/Gemeinde …");
-              try{
-                const ident = await identifyGemeindeKanton(state.x, state.y);
-                const ex = extractGemeindeKanton(ident);
-                state.municipality = ex.municipalityName;
-                state.canton = { code: ex.cantonCode, name: ex.cantonName };
-
-                const confession = $("confession").value;
-                const zip = state.zipPlace?.zip || null;
-                state.kirchgemeinde = ex.cantonCode ? lookupKirchgemeinde(ex.cantonCode, state.municipality, zip, confession) : null;
-
-                updateGeoBox();
-                buildLetter();
-                setStatus("Adresse übernommen.", "ok");
-              }catch(e){
-                updateGeoBox();
-                buildLetter();
-                setStatus("Kanton/Gemeinde konnte nicht automatisch ermittelt werden.", "warn");
-              }
-            });
-            list.appendChild(btn);
-          });
-          list.style.display = "block";
-          setStatus("Adresse auswählen.");
-        }catch(e){
-          $("sugglist").style.display = "none";
-          setStatus("Adresssuche fehlgeschlagen.", "warn");
-        }
-      }, 240);
-    });
-
-    document.addEventListener("click", (ev) => {
-      const list = $("sugglist");
-      if(!list.contains(ev.target) && ev.target !== $("address")){
-        list.style.display = "none";
-      }
-    });
-
-    ["fullName","dob","address","effectiveDate","note","confession"].forEach(id => {
-      $(id).addEventListener("change", () => {
-        if(id === "confession" && state.canton?.code){
-          const zip = state.zipPlace?.zip || null;
-          state.kirchgemeinde = lookupKirchgemeinde(state.canton.code, state.municipality, zip, $("confession").value);
-          updateGeoBox();
-        }
-        buildLetter();
-      });
-    });
-
-    $("btnGenerate").addEventListener("click", () => {
-      buildLetter();
-      setStatus("Schreiben aktualisiert.", "ok");
-    });
-
-    $("btnDownloadDocx").addEventListener("click", async () => {
-      if(!($("letter").value || "").trim()) buildLetter();
-      setStatus("Erstelle .docx …");
-      try{
-        await downloadDocx();
-        setStatus(".docx erstellt.", "ok");
-      }catch(e){
-        setStatus("DOCX-Erstellung fehlgeschlagen (CDN blockiert?).", "warn");
-      }
-    });
-
-    $("btnDownloadPdf").addEventListener("click", () => {
-      if(!($("letter").value || "").trim()) buildLetter();
-      setStatus("Erstelle .pdf …");
-      try{
-        downloadPdf();
-        setStatus(".pdf erstellt.", "ok");
-      }catch(e){
-        setStatus("PDF-Erstellung fehlgeschlagen (CDN blockiert?).", "warn");
-      }
-    });
-
-    updateGeoBox();
-    buildLetter();
-
-    // Datenschutz-Stand (lokal)
-    try {
-      const el = document.getElementById("privacyDate");
-      if (el) {
-        const today = new Date();
-        el.textContent = today.toLocaleDateString("de-CH", { year:"numeric", month:"long", day:"2-digit" });
-      }
-    } catch(e) {}
-
-    setStatus("Bereit.");
-  </script>
+  <footer class="site-foot">
+    <div class="wrap">teilaustritt.ch · Verein Vera Fides · Keine Rechtsberatung</div>
+  </footer>
 </body>
 </html>
