@@ -23,8 +23,9 @@ a:hover{color:var(--accent-strong)}
 .wrap{max-width:1080px; margin:0 auto; padding:0 16px}
 .site-head .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:64px}
 .brand{display:flex; align-items:center; gap:10px; color:var(--text); text-decoration:none}
-.brand-mark{width:32px; height:32px; border-radius:8px; background:var(--accent-strong); display:grid; place-items:center; color:#fff; font-weight:700; font-size:15px}
-.brand strong{display:block; font-size:16px}
+.brand-mark{width:34px; height:34px; flex:none; display:block}
+.brand-teil{font-style:normal; color:var(--accent)}
+.brand strong{display:block; font-size:16px; color:var(--text)}
 .brand span{display:block; font-size:12px; color:var(--soft)}
 .site-nav{display:flex; gap:4px; flex-wrap:wrap}
 .site-nav a{font-size:14px; color:var(--muted); text-decoration:none; padding:8px 10px; border-radius:8px}
