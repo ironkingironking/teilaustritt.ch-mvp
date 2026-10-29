@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029e";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029f";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -680,7 +680,7 @@ function addrBox() {
     box = document.createElement("div");
     box.id = "addr-check";
     box.setAttribute("aria-live", "polite");
-    $("wohnort").closest(".grid-plz").after(box);
+    ($("strasse").closest(".combo") || $("strasse")).after(box);
   }
   return box;
 }
@@ -762,6 +762,7 @@ function wireStreetCombo() {
     .forEach(([k, v]) => input.setAttribute(k, v));
   input.addEventListener("input", () => {
     $("addr-check").innerHTML = "";
+    input.classList.remove("addr-valid");
     clearTimeout(streetCombo.timer);
     streetCombo.timer = setTimeout(suggestStreets, 250);
     // mit Hausnummer gleich prüfen (etwas später als die Liste, damit nicht jede Ziffer aufblinkt)
@@ -791,6 +792,7 @@ function wireStreetCombo() {
 
 async function checkAddress() {
   const box = addrBox();
+  $("strasse").classList.remove("addr-valid");
   const street = val("strasse"), plz = val("plz"), ort = val("wohnort");
   const key = [street, plz, ort].join("|");
   const seq = ++addr.seq;
@@ -813,6 +815,7 @@ async function checkAddress() {
       // gültig; weicht nur die Schreibweise ab (z. B. «Bahnhofstr», «Zurich»), die amtliche anbieten
       const official = exact.street === street && exact.ort === ort ? "" : `${exact.street}, ${exact.plz} ${exact.ort}`;
       addr.hit = exact;
+      $("strasse").classList.add("addr-valid");
       box.innerHTML = `<p class="help addr-ok">✓ ${esc(t("addrOk"))}${official ? ` ${esc(t("addrOfficial", official))}
         <button type="button" class="linkbtn" data-addr="use">${esc(t("addrUse"))}</button>` : ""}</p>`;
     } else if (close) {
@@ -831,8 +834,8 @@ async function checkAddress() {
 }
 
 function wireAddressCheck() {
-  addrBox();
   wireStreetCombo();
+  addrBox();
   for (const id of ["strasse", "plz", "wohnort"]) $(id).addEventListener("change", scheduleAddressCheck);
   addrBox().addEventListener("click", (ev) => {
     const action = ev.target.dataset.addr;
