@@ -105,6 +105,13 @@ nicht. Abweichung zum ESTV-Rechner in Stichproben unter 3 %. Antworten liegen in
 `data-src/steuer/estv-cache.json`; ein neues Steuerjahr holt man mit
 `python3 -I tools/build-steuer.py 2027` (rund 4'500 Abfragen, 4 parallel).
 
+## Server (ALT)
+
+`ops/alt-setup.sh` richtet Nginx für teilaustritt.ch und verafides.ch ein (Sicherheits-Header, Komprimierung
+für JSON/JS/CSS, Caching, teilaustritt.ch → www.teilaustritt.ch) und gibt den Webroot alexadmin, damit
+`tools/deploy.sh --apply` ohne sudo-rsync deployt. Einmalig mit sudo auf ALT, mit Backup, `nginx -t` und
+`--rollback`. Die Snippets liegen in `ops/nginx/`. `tools/deploy.sh --verify` prüft Header und Komprimierung mit.
+
 ## Lokale Vorschau
 
 ```bash
