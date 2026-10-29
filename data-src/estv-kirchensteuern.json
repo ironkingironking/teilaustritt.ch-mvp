@@ -134,10 +134,10 @@
       "ende": "tessin",
       "system": "teilweise",
       "firmen": "wahl",
-      "tipp": "Nur ein Teil der Kirchgemeinden erhebt Kirchensteuer. Wer im Kirchensteuerregister eingetragen wird, kann innert 30 Tagen schriftlich die Befreiung verlangen; später wirkt eine Erklärung auf das folgende Jahr.",
-      "tipp_fr": "Seule une partie des paroisses perçoit un impôt ecclésiastique. Les personnes inscrites au registre peuvent demander l'exonération par écrit dans les 30 jours ; plus tard, une déclaration prend effet l'année suivante.",
-      "tipp_it": "Solo una parte delle parrocchie riscuote l'imposta di culto. Chi viene iscritto nel catalogo può chiedere l'esenzione per iscritto entro 30 giorni; in seguito una dichiarazione ha effetto per l'anno successivo.",
-      "tipp_en": "Only some parishes levy church tax. If you are entered in the church tax register, you can request exemption in writing within 30 days; later, a declaration takes effect for the following year."
+      "tipp": "Nur ein Teil der Pfarreien erhebt eine Kultussteuer (imposta di culto). Wer im Steuerkatalog der Pfarrei eingetragen wird, kann innert eines Monats schriftlich die Befreiung verlangen; später wirkt eine Erklärung auf das folgende Jahr.",
+      "tipp_fr": "Seule une partie des paroisses prélève un impôt de culte (imposta di culto). Les personnes inscrites au rôle fiscal de la paroisse peuvent demander l'exonération par écrit dans le mois ; plus tard, une déclaration prend effet l'année suivante.",
+      "tipp_it": "Solo una parte delle parrocchie preleva l'imposta di culto. Chi viene iscritto nel catalogo tributario della parrocchia può chiedere l'esenzione per iscritto entro un mese; in seguito una dichiarazione ha effetto dall'anno successivo.",
+      "tipp_en": "Only some parishes levy a worship tax (imposta di culto). If you are entered in the parish tax register, you can request exemption in writing within a month; later, a declaration takes effect from the following year."
     },
     "VD": {
       "ende": "keine",

@@ -220,3 +220,16 @@ details.edit textarea{min-height:240px; margin-top:8px; font-family:var(--serif)
   .paper .recipient-wrap{margin:8mm 0 16mm 95mm; width:auto}
   .paper .ph{background:none; color:#000}
 }
+
+/* Kantonsseiten (tools/build-seo.mjs) */
+.seo-page{padding-top:16px}
+.seo-page h1{font-size:30px; line-height:1.2; margin:8px 0 12px}
+.seo-page > .lead{font-size:17px; color:var(--muted); max-width:760px}
+.seo-page .section > h2{font-size:20px}
+.crumbs a{color:var(--soft)}
+.seo-facts{padding-left:20px; max-width:760px}
+.seo-facts li{margin:6px 0}
+.kg-list{list-style:none; padding:0; margin:12px 0 0; display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:10px}
+.kg-list li{border:1px solid var(--line); border-radius:var(--radius-sm); background:var(--card); padding:10px 12px; font-size:14px; line-height:1.45}
+.canton-list{list-style:none; padding:0; columns:3 220px; column-gap:24px}
+.canton-list li{margin:0 0 8px; break-inside:avoid}

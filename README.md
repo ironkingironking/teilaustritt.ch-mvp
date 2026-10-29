@@ -63,6 +63,7 @@ python3 -I tools/build-orte.py AMTOVZ_CSV_LV95.csv 2026-09-30
 
 # Kirchgemeinden: data-src/kirchgemeinden/<KT>.json bearbeiten, dann
 python3 -I tools/build-registry.py
+node tools/build-seo.mjs
 ```
 
 Jeder Eintrag in `data-src/kirchgemeinden/` braucht eine Quellen-URL und eine `confidence`
@@ -104,6 +105,15 @@ Kirchensteuer / einfache Kantonssteuer. Die Seite rechnet daraus im Browser; Ein
 nicht. Abweichung zum ESTV-Rechner in Stichproben unter 3 %. Antworten liegen in
 `data-src/steuer/estv-cache.json`; ein neues Steuerjahr holt man mit
 `python3 -I tools/build-steuer.py 2027` (rund 4'500 Abfragen, 4 parallel).
+
+## Suchmaschinen und KI-Suchen
+
+`node tools/build-seo.mjs` erzeugt aus `data/` und den Texten in `assets/js/i18n.js` je Kanton und Sprache
+eine statische Seite (`kanton/`, `fr/canton/`, `it/cantone/`, `en/canton/`) mit Regeln, Ende der
+Kirchensteuer und allen Kirchgemeinden, dazu `sitemap.xml` (mit hreflang) und `llms.txt` (Kurzbeschreibung
+für KI-Suchen). **Nach jeder Datenänderung** nach `build-registry.py` ausführen. `robots.txt` lässt
+Suchmaschinen und KI-Crawler ausdrücklich zu. Nach einem Deploy mit neuen Seiten meldet `tools/indexnow.sh`
+alle URLs an IndexNow (Bing u. a.; die Schlüsseldatei `<key>.txt` im Wurzelverzeichnis ist öffentlich).
 
 ## Server (ALT)
 

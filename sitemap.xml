@@ -36,4 +36,976 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/"/>
   </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/aargau/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/argovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/argovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/argovie/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/argovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/argovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/argovia/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/argovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/argovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/aargau/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/argovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/argovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/aargau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/aargau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-interieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-interno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-interieures/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-interieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-interno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/appenzello-interno/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-interieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-interno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/appenzell-innerrhoden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-interieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-interno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-innerrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-exterieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-esterno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-exterieures/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-exterieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-esterno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/appenzello-esterno/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-exterieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-esterno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/appenzell-ausserrhoden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/appenzell-rhodes-exterieures/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/appenzello-esterno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/appenzell-ausserrhoden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/bern/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/berne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/berna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/bern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/berne/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/berne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/berna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/bern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/berna/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/berne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/berna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/bern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/bern/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/berne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/berna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/bern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/bern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/basel-landschaft/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-campagne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-campagna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/bale-campagne/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-campagne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-campagna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/basilea-campagna/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-campagne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-campagna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/basel-landschaft/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-campagne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-campagna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-landschaft/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-landschaft/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/basel-stadt/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-ville/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-citta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/bale-ville/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-ville/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-citta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/basilea-citta/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-ville/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-citta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/basel-stadt/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/bale-ville/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/basilea-citta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/basel-stadt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/basel-stadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/freiburg/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/friburgo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/fribourg/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/friburgo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/friburgo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/friburgo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/fribourg/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/friburgo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/fribourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/freiburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/genf/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/genf/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/geneve/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ginevra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/geneva/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/genf/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/geneve/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/genf/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/geneve/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ginevra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/geneva/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/genf/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/ginevra/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/genf/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/geneve/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ginevra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/geneva/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/genf/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/geneva/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/genf/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/geneve/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ginevra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/geneva/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/genf/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/glarus/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/glaris/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/glarona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/glaris/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/glaris/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/glarona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/glarona/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/glaris/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/glarona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/glarus/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/glaris/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/glarona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/glarus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/glarus/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/graubuenden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/grisons/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/grigioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/grisons/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/grisons/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/grigioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/grigioni/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/grisons/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/grigioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/graubuenden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/grisons/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/grigioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/graubuenden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/graubuenden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/jura/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/giura/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/jura/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/jura/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/giura/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/jura/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/giura/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/giura/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/jura/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/jura/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/giura/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/jura/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/jura/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/luzern/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/lucerna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/lucerne/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/lucerna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/lucerna/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/lucerna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/lucerne/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/lucerna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/lucerne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/luzern/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/neuenburg/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/neuchatel/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/neuchatel/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/neuchatel/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/neuchatel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/neuenburg/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/nidwalden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/nidwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/nidvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/nidwald/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/nidwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/nidvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/nidvaldo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/nidwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/nidvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/nidwalden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/nidwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/nidvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/nidwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/nidwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/obwalden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/obwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/obvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/obwald/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/obwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/obvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/obvaldo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/obwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/obvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/obwalden/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/obwald/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/obvaldo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/obwalden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/obwalden/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/st-gallen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/saint-gall/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/san-gallo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/saint-gall/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/saint-gall/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/san-gallo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/san-gallo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/saint-gall/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/san-gallo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/st-gallen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/saint-gall/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/san-gallo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/st-gallen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/st-gallen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/schaffhausen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schaffhouse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/sciaffusa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/schaffhouse/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schaffhouse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/sciaffusa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/sciaffusa/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schaffhouse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/sciaffusa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/schaffhausen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schaffhouse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/sciaffusa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schaffhausen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schaffhausen/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/solothurn/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/soleure/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/soletta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/soleure/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/soleure/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/soletta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/soletta/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/soleure/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/soletta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/solothurn/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/soleure/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/soletta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/solothurn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/solothurn/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/schwyz/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/svitto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/schwyz/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/svitto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/svitto/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/svitto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/schwyz/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/svitto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/schwyz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/schwyz/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/thurgau/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/thurgovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/turgovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/thurgovie/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/thurgovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/turgovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/turgovia/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/thurgovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/turgovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/thurgau/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/thurgovie/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/turgovia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/thurgau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/thurgau/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/tessin/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/tessin/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/ticino/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/ticino/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/tessin/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/ticino/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/tessin/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/uri/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/uri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/uri/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/uri/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/uri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/uri/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/uri/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/uri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/uri/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/uri/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/uri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/uri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/uri/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/waadt/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/vaud/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/vaud/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/vaud/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/vaud/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/waadt/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/wallis/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vallese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/valais/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vallese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/vallese/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vallese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/valais/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/vallese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/valais/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/wallis/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/zug/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zoug/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zugo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zug/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/zoug/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zoug/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zugo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zug/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/zugo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zoug/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zugo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zug/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/zug/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zoug/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zugo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zug/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zug/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/kanton/zuerich/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zurigo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/fr/canton/zurich/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zurigo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/it/cantone/zurigo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zurigo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+  </url>
+  <url>
+    <loc>https://www.teilaustritt.ch/en/canton/zurich/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.teilaustritt.ch/fr/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.teilaustritt.ch/it/cantone/zurigo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.teilaustritt.ch/en/canton/zurich/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.teilaustritt.ch/kanton/zuerich/"/>
+  </url>
 </urlset>

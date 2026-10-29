@@ -1,0 +1,44 @@
+# teilaustritt.ch
+
+> Kostenloser, neutraler Formular-Generator des Vereins Vera Fides: Er findet zu jeder Schweizer Postleitzahl die zuständige römisch-katholische Kirchgemeinde mit Postadresse und erstellt das Schreiben für den Austritt aus Kirchgemeinde und Landeskirche (Teilaustritt, staatskirchenrechtliche Körperschaft, Kirchensteuer). Deutsch, Französisch, Italienisch, Englisch.
+
+Wichtig:
+- Ein Teilaustritt ist der Austritt aus der öffentlich-rechtlichen Körperschaft (Kirchgemeinde und Landeskirche), die die Kirchensteuer erhebt; er bedeutet nicht zwingend einen Bruch mit der römisch-katholischen Kirche als Glaubensgemeinschaft.
+- Zuständig ist die Kirchgemeinde am Wohnsitz (FR: Pfarreirat, TI: Consiglio parrocchiale); die Erklärung muss schriftlich und von Hand unterschrieben sein. In Appenzell Ausserrhoden und St. Gallen muss die Unterschrift amtlich beglaubigt werden.
+- Die Kirchensteuerpflicht endet je nach Kanton sofort mit dem Eingang der Erklärung, ab dem Folgemonat oder für das ganze Austrittsjahr. In Waadt, Neuenburg, Genf, Wallis und Tessin gilt ein anderes System.
+- Die Seite enthält einen Kirchensteuer-Schätzer je Gemeinde (Werte aus dem Steuerrechner der ESTV) und prüft Adressen gegen das amtliche Gebäudeadressverzeichnis. Die Angaben verlassen den Browser nicht. Keine Rechtsberatung.
+
+## Generator
+- [teilaustritt.ch (Deutsch)](https://www.teilaustritt.ch/): Kirchgemeinde per PLZ finden, Austrittsschreiben als PDF oder Word
+- [Français](https://www.teilaustritt.ch/fr/) · [Italiano](https://www.teilaustritt.ch/it/) · [English](https://www.teilaustritt.ch/en/)
+
+## Kirchenaustritt nach Kanton
+- [Kirchenaustritt im Kanton Aargau](https://www.teilaustritt.ch/kanton/aargau/): 88 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Appenzell Innerrhoden](https://www.teilaustritt.ch/kanton/appenzell-innerrhoden/): 9 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Appenzell Ausserrhoden](https://www.teilaustritt.ch/kanton/appenzell-ausserrhoden/): 12 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Bern](https://www.teilaustritt.ch/kanton/bern/): 37 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Basel-Landschaft](https://www.teilaustritt.ch/kanton/basel-landschaft/): 32 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Basel-Stadt](https://www.teilaustritt.ch/kanton/basel-stadt/): 1 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Freiburg](https://www.teilaustritt.ch/kanton/freiburg/): 105 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Genf](https://www.teilaustritt.ch/kanton/genf/): anderes System, Kirchensteuer und zuständige Stellen
+- [Kirchenaustritt im Kanton Glarus](https://www.teilaustritt.ch/kanton/glarus/): 6 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Graubünden](https://www.teilaustritt.ch/kanton/graubuenden/): 81 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Jura](https://www.teilaustritt.ch/kanton/jura/): 50 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Luzern](https://www.teilaustritt.ch/kanton/luzern/): 83 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Neuenburg](https://www.teilaustritt.ch/kanton/neuenburg/): anderes System, Kirchensteuer und zuständige Stellen
+- [Kirchenaustritt im Kanton Nidwalden](https://www.teilaustritt.ch/kanton/nidwalden/): 14 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Obwalden](https://www.teilaustritt.ch/kanton/obwalden/): 7 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton St. Gallen](https://www.teilaustritt.ch/kanton/st-gallen/): 93 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Schaffhausen](https://www.teilaustritt.ch/kanton/schaffhausen/): 6 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Solothurn](https://www.teilaustritt.ch/kanton/solothurn/): 72 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Schwyz](https://www.teilaustritt.ch/kanton/schwyz/): 36 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Thurgau](https://www.teilaustritt.ch/kanton/thurgau/): 36 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Tessin](https://www.teilaustritt.ch/kanton/tessin/): anderes System, Kirchensteuer und zuständige Stellen
+- [Kirchenaustritt im Kanton Uri](https://www.teilaustritt.ch/kanton/uri/): 23 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Waadt](https://www.teilaustritt.ch/kanton/waadt/): anderes System, Kirchensteuer und zuständige Stellen
+- [Kirchenaustritt im Kanton Wallis](https://www.teilaustritt.ch/kanton/wallis/): anderes System, Kirchensteuer und zuständige Stellen
+- [Kirchenaustritt im Kanton Zug](https://www.teilaustritt.ch/kanton/zug/): 10 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+- [Kirchenaustritt im Kanton Zürich](https://www.teilaustritt.ch/kanton/zuerich/): 74 Kirchgemeinden mit Adresse, Regeln, Ende der Kirchensteuer
+
+## Betreiber
+- [Verein Vera Fides](https://verafides.ch/): Herausgeber, Kontakt redaktion@verafides.ch
