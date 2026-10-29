@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029d";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029e";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -764,6 +764,9 @@ function wireStreetCombo() {
     $("addr-check").innerHTML = "";
     clearTimeout(streetCombo.timer);
     streetCombo.timer = setTimeout(suggestStreets, 250);
+    // mit Hausnummer gleich prüfen (etwas später als die Liste, damit nicht jede Ziffer aufblinkt)
+    clearTimeout(addr.timer);
+    if (/\d\s*[a-zA-Z]?\s*$/.test(input.value) && /^\d{4}$/.test(val("plz"))) addr.timer = setTimeout(checkAddress, 700);
   });
   input.addEventListener("keydown", (ev) => {
     const open = !streetList().hidden;
@@ -796,10 +799,17 @@ async function checkAddress() {
   try {
     const hits = await searchAddresses(`${street} ${plz} ${ort}`, 5);
     if (seq !== addr.seq) return;
-    const exact = hits.find((h) => h.plz === plz && normStreet(h.street) === normStreet(street));
-    const close = exact || hits.find((h) => h.plz === plz && houseNo(h.street) === houseNo(street)
+    const typedNo = (street.match(/(\d+\s?[a-zA-Z]?)\s*$/) || [])[1];
+    const sameStreet = hits.filter((h) => h.plz === plz && similarStreet(streetName(h.street), streetName(street)));
+    const exact = hits.find((h) => h.plz === plz && normStreet(h.street) === normStreet(street) && (typedNo ? !h.noNumber : true));
+    const close = exact || hits.find((h) => h.plz === plz && !h.noNumber && houseNo(h.street) === houseNo(street)
       && similarStreet(streetName(h.street), streetName(street)));
-    if (exact && norm(exact.ort) === norm(ort)) {
+    const keep = `<button type="button" class="linkbtn" data-addr="keep">${esc(t("addrKeep"))}</button>`;
+    const label = (h) => `${streetName(h.street) === normStreet(h.street) ? h.street : h.street.replace(/\s*\d+\s?[a-zA-Z]?$/, "")}, ${h.plz} ${h.ort}`;
+    if (!typedNo && sameStreet.some((h) => !h.noNumber)) {
+      // Strasse ohne Hausnummer, obwohl die Strasse nummerierte Häuser hat
+      box.innerHTML = `<div class="notice"><p>${esc(t("addrNumberMissing", label(sameStreet[0])))}</p><p>${keep}</p></div>`;
+    } else if (exact && norm(exact.ort) === norm(ort)) {
       // gültig; weicht nur die Schreibweise ab (z. B. «Bahnhofstr», «Zurich»), die amtliche anbieten
       const official = exact.street === street && exact.ort === ort ? "" : `${exact.street}, ${exact.plz} ${exact.ort}`;
       addr.hit = exact;
@@ -809,9 +819,11 @@ async function checkAddress() {
       addr.hit = close;
       box.innerHTML = `<div class="notice info"><p>${esc(t("addrSuggest", `${close.street}, ${close.plz} ${close.ort}`))}</p>
         <p><button type="button" class="linkbtn" data-addr="use">${esc(t("addrUse"))}</button> · <button type="button" class="linkbtn" data-addr="keep">${esc(t("addrKeep"))}</button></p></div>`;
+    } else if (typedNo && sameStreet.length) {
+      // Strasse stimmt, Nummer nicht: eigener Hinweis
+      box.innerHTML = `<div class="notice"><p>${esc(t("addrBadNumber", typedNo, label(sameStreet[0])))}</p><p>${keep}</p></div>`;
     } else {
-      box.innerHTML = `<div class="notice"><p>${esc(t("addrNotFound"))}</p>
-        <p><button type="button" class="linkbtn" data-addr="keep">${esc(t("addrKeep"))}</button></p></div>`;
+      box.innerHTML = `<div class="notice"><p>${esc(t("addrNotFound"))}</p><p>${keep}</p></div>`;
     }
   } catch (e) {
     box.innerHTML = "";  // Dienst nicht erreichbar: keine Prüfung, kein Hindernis

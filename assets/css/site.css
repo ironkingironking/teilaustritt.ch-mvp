@@ -210,7 +210,9 @@ details.edit textarea{min-height:240px; margin-top:8px; font-family:var(--serif)
 @media print{
   @page{size:A4; margin:20mm 20mm 20mm 25mm}
   body{background:#fff}
-  body > *:not(main), main > *:not(#tool), .steps, .letter-tools, details.edit, .checklist-card, .no-print{display:none !important}
+  body > *:not(main), main > *:not(#tool), .steps, details.edit, .checklist-card, .no-print{display:none !important}
+  /* in der Briefspalte nur das Briefpapier (keine Bereitschaftsanzeige, Statuszeile, Werkzeuge) */
+  .letter-col > *:not(.paper){display:none !important}
   #tool, .tool{display:block; margin:0}
   .letter-col{position:static}
   .paper{border:0; box-shadow:none; padding:0; font-size:11pt}
