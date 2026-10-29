@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029a";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029b";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -654,6 +654,95 @@ function wireResult() {
   });
 }
 
+// ---------- Absenderadresse prüfen (amtliches Gebäudeadressverzeichnis über geo.admin.ch) ----------
+// Nur ein Vorschlag: Jede Adresse lässt sich so verwenden, wie sie eingegeben ist.
+
+const addr = { seq: 0, kept: "", timer: null };
+const normStreet = (s) => norm(s).replace(/str\.?(?=\s|\d|$)/g, "strasse").replace(/(\d+)\s+([a-z])\b/g, "$1$2").replace(/\s+/g, " ").trim();
+const houseNo = (s) => (normStreet(s).match(/(\d+[a-z]?)$/) || [])[1] || "";
+const streetName = (s) => normStreet(s).replace(/\s*\d+[a-z]?$/, "");
+
+function editDistance(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    }
+  }
+  return d[a.length][b.length];
+}
+const similarStreet = (a, b) => a === b || (b.length >= 5 && a.startsWith(b)) || editDistance(a, b) <= Math.max(2, Math.floor(a.length / 5));
+
+function addrBox() {
+  let box = $("addr-check");
+  if (!box) {
+    box = document.createElement("div");
+    box.id = "addr-check";
+    box.setAttribute("aria-live", "polite");
+    $("wohnort").closest(".grid-plz").after(box);
+  }
+  return box;
+}
+
+function scheduleAddressCheck() {
+  clearTimeout(addr.timer);
+  addr.timer = setTimeout(checkAddress, 350);
+}
+
+async function checkAddress() {
+  const box = addrBox();
+  const street = val("strasse"), plz = val("plz"), ort = val("wohnort");
+  const key = [street, plz, ort].join("|");
+  const seq = ++addr.seq;
+  if (!street || !/^\d{4}$/.test(plz) || !ort || key === addr.kept
+    || /postfach|case postale|casella postale|p\.?\s?o\.?\s?box/i.test(street)) { box.innerHTML = ""; return; }
+  try {
+    const url = new URL("https://api3.geo.admin.ch/rest/services/ech/SearchServer");
+    url.search = new URLSearchParams({ searchText: `${street} ${plz} ${ort}`, type: "locations", origins: "address", limit: "5" });
+    const data = await (await fetch(url)).json();
+    if (seq !== addr.seq) return;
+    const hits = (data.results || []).map((r) => String(r.attrs?.label || "").match(/^(.*?)\s*<b>(\d{4}) (.*)<\/b>$/))
+      .filter(Boolean).map(([, s, p, o]) => ({ street: s.trim(), plz: p, ort: o.trim() }));
+    const exact = hits.find((h) => h.plz === plz && normStreet(h.street) === normStreet(street));
+    const close = exact || hits.find((h) => h.plz === plz && houseNo(h.street) === houseNo(street)
+      && similarStreet(streetName(h.street), streetName(street)));
+    if (exact && norm(exact.ort) === norm(ort)) {
+      // gültig; weicht nur die Schreibweise ab (z. B. «Bahnhofstr», «Zurich»), die amtliche anbieten
+      const official = exact.street === street && exact.ort === ort ? "" : `${exact.street}, ${exact.plz} ${exact.ort}`;
+      addr.hit = exact;
+      box.innerHTML = `<p class="help addr-ok">✓ ${esc(t("addrOk"))}${official ? ` ${esc(t("addrOfficial", official))}
+        <button type="button" class="linkbtn" data-addr="use">${esc(t("addrUse"))}</button>` : ""}</p>`;
+    } else if (close) {
+      addr.hit = close;
+      box.innerHTML = `<div class="notice info"><p>${esc(t("addrSuggest", `${close.street}, ${close.plz} ${close.ort}`))}</p>
+        <p><button type="button" class="linkbtn" data-addr="use">${esc(t("addrUse"))}</button> · <button type="button" class="linkbtn" data-addr="keep">${esc(t("addrKeep"))}</button></p></div>`;
+    } else {
+      box.innerHTML = `<div class="notice"><p>${esc(t("addrNotFound"))}</p>
+        <p><button type="button" class="linkbtn" data-addr="keep">${esc(t("addrKeep"))}</button></p></div>`;
+    }
+  } catch (e) {
+    box.innerHTML = "";  // Dienst nicht erreichbar: keine Prüfung, kein Hindernis
+  }
+}
+
+function wireAddressCheck() {
+  for (const id of ["strasse", "plz", "wohnort"]) $(id).addEventListener("change", scheduleAddressCheck);
+  addrBox().addEventListener("click", (ev) => {
+    const action = ev.target.dataset.addr;
+    if (action === "use" && addr.hit) {
+      $("strasse").value = addr.hit.street;
+      $("plz").value = addr.hit.plz;
+      $("wohnort").value = addr.hit.ort;
+      $("strasse").dispatchEvent(new Event("input", { bubbles: true }));
+      checkAddress();
+    } else if (action === "keep") {
+      addr.kept = ["strasse", "plz", "wohnort"].map(val).join("|");
+      addrBox().innerHTML = "";
+    }
+  });
+}
+
 // ---------- Brief ----------
 
 const val = (id) => $(id).value.trim();
@@ -931,3 +1020,4 @@ wireResult();
 wireLetter();
 renderLetter();
 initTaxSection();
+wireAddressCheck();

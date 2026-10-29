@@ -74,6 +74,8 @@ label .opt-tag{font-weight:400; color:var(--soft)}
 input, select, textarea{width:100%; font:inherit; font-size:16px; color:var(--text); background:#fff; border:1px solid var(--line-strong); border-radius:var(--radius-sm); padding:10px 12px}
 input:focus, select:focus, textarea:focus{outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(31,79,153,.18)}
 input[aria-invalid="true"]{border-color:var(--err)}
+.addr-ok{color:var(--ok)}
+#addr-check .notice{margin-top:10px}
 .field-error{color:var(--err); font-size:13px; margin:6px 0 0}
 .help{font-size:13px; color:var(--soft); margin:6px 0 0}
 .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:0 12px}
