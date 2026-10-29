@@ -8,6 +8,8 @@
 # 2. verafides.ch: Sicherheits-Header (ohne CSP) und Komprimierung.
 # 3. Webroot /var/www/teilaustritt.ch gehört alexadmin (Gruppe www-data): tools/deploy.sh --apply
 #    schreibt danach direkt, ohne sudo-rsync.
+# 4. verafides-api neu starten, damit Server-Änderungen aus dem Repo verafides-site aktiv werden
+#    (der Deploy dort baut nur die Seite neu, startet die API aber nicht).
 # Vorher Backup nach /etc/nginx/backup-teilaustritt-<Zeit>/; scheitert «nginx -t», wird es zurückgespielt.
 set -euo pipefail
 [[ $EUID -eq 0 ]] || { echo "Bitte mit sudo ausführen." >&2; exit 1; }
@@ -76,4 +78,10 @@ echo "Nginx neu geladen."
 chown -R alexadmin:www-data "$WEB"
 chmod -R u=rwX,g=rX,o=rX "$WEB"
 echo "Webroot $WEB gehört jetzt alexadmin:www-data."
+
+if systemctl cat verafides-api.service >/dev/null 2>&1; then
+  systemctl restart verafides-api && echo "verafides-api neu gestartet: $(systemctl is-active verafides-api)"
+else
+  echo "Dienst verafides-api nicht gefunden: die Vera-Fides-API bitte von Hand neu starten."
+fi
 echo "Prüfen: curl -sI https://www.teilaustritt.ch/ ; curl -sI https://teilaustritt.ch/ ; curl -sI https://verafides.ch/"
