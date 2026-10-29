@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029c";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029d";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -690,6 +690,102 @@ function scheduleAddressCheck() {
   addr.timer = setTimeout(checkAddress, 350);
 }
 
+async function searchAddresses(text, limit) {
+  const url = new URL("https://api3.geo.admin.ch/rest/services/ech/SearchServer");
+  url.search = new URLSearchParams({ searchText: text, type: "locations", origins: "address", limit: String(limit) });
+  const data = await (await fetch(url)).json();
+  return (data.results || []).map((r) => String(r.attrs?.label || "").match(/^(.*?)\s*<b>(\d{4}) (.*)<\/b>$/))
+    .filter(Boolean).map(([, s, p, o]) => ({ street: s.replace(/\s*#\s*$/, "").trim(), plz: p, ort: o.trim(), noNumber: /#\s*$/.test(s) }))
+    // Einträge ohne Hausnummer («Via Nassa #») nur einmal je Strasse und PLZ
+    .filter((h, i, all) => all.findIndex((x) => x.street === h.street && x.plz === h.plz) === i);
+}
+
+// Vorschläge schon beim Tippen (wie die Ortssuche in Schritt 1); Auswahl füllt Strasse, PLZ und Ort
+const streetCombo = { items: [], active: -1, seq: 0, timer: null };
+
+function streetList() { return $("strasse-list"); }
+function closeStreetList() {
+  streetList().hidden = true;
+  streetList().innerHTML = "";
+  $("strasse").setAttribute("aria-expanded", "false");
+  $("strasse").removeAttribute("aria-activedescendant");
+  streetCombo.active = -1;
+}
+function renderStreetList() {
+  const list = streetList();
+  if (!streetCombo.items.length) { closeStreetList(); return; }
+  list.innerHTML = streetCombo.items.map((h, i) => `<li id="strasse-opt-${i}" role="option" aria-selected="${i === streetCombo.active}" data-i="${i}">
+    <span>${esc(h.street)}</span><small>${esc(h.plz)} ${esc(h.ort)}</small></li>`).join("");
+  list.hidden = false;
+  $("strasse").setAttribute("aria-expanded", "true");
+  if (streetCombo.active >= 0) $("strasse").setAttribute("aria-activedescendant", `strasse-opt-${streetCombo.active}`);
+}
+function chooseStreet(h) {
+  closeStreetList();
+  $("strasse").value = h.noNumber ? `${h.street} ` : h.street;
+  $("plz").value = h.plz;
+  $("wohnort").value = h.ort;
+  $("strasse").dispatchEvent(new Event("input", { bubbles: true }));
+  clearTimeout(streetCombo.timer);
+  addr.kept = "";
+  // Strasse ohne Nummer: Cursor bleibt im Feld für die Hausnummer
+  if (h.noNumber) $("strasse").focus();
+  else checkAddress();
+}
+async function suggestStreets() {
+  const street = val("strasse"), plz = val("plz"), ort = val("wohnort");
+  const seq = ++streetCombo.seq;
+  if (street.length < 3 || /postfach|case postale|casella postale/i.test(street)) { streetCombo.items = []; closeStreetList(); return; }
+  try {
+    const hits = await searchAddresses([street, /^\d{4}$/.test(plz) ? plz : "", ort].filter(Boolean).join(" "), 8);
+    if (seq !== streetCombo.seq || document.activeElement !== $("strasse")) return;
+    // gleiche PLZ zuerst; eine exakt passende Adresse braucht keine Liste mehr
+    const same = hits.filter((h) => h.plz === plz);
+    streetCombo.items = (same.length ? same : hits).slice(0, 6);
+    if (streetCombo.items.some((h) => normStreet(h.street) === normStreet(street) && h.plz === plz)) streetCombo.items = [];
+    streetCombo.active = -1;
+    renderStreetList();
+  } catch (e) {
+    closeStreetList();
+  }
+}
+
+function wireStreetCombo() {
+  const input = $("strasse");
+  const wrap = document.createElement("div");
+  wrap.className = "combo";
+  input.before(wrap);
+  wrap.append(input);
+  wrap.insertAdjacentHTML("beforeend", `<ul id="strasse-list" class="combo-list" role="listbox" aria-label="${esc(t("addrListLabel"))}" hidden></ul>`);
+  wrap.insertAdjacentHTML("afterend", `<p class="help">${esc(t("addrHelp"))}</p>`);
+  Object.entries({ role: "combobox", "aria-autocomplete": "list", "aria-expanded": "false", "aria-controls": "strasse-list", autocomplete: "off", spellcheck: "false" })
+    .forEach(([k, v]) => input.setAttribute(k, v));
+  input.addEventListener("input", () => {
+    $("addr-check").innerHTML = "";
+    clearTimeout(streetCombo.timer);
+    streetCombo.timer = setTimeout(suggestStreets, 250);
+  });
+  input.addEventListener("keydown", (ev) => {
+    const open = !streetList().hidden;
+    if (open && (ev.key === "ArrowDown" || ev.key === "ArrowUp")) {
+      ev.preventDefault();
+      const n = streetCombo.items.length;
+      streetCombo.active = (streetCombo.active + (ev.key === "ArrowDown" ? 1 : -1) + n) % n;
+      renderStreetList();
+    } else if (open && ev.key === "Enter" && streetCombo.active >= 0) {
+      ev.preventDefault();
+      chooseStreet(streetCombo.items[streetCombo.active]);
+    } else if (ev.key === "Escape") {
+      closeStreetList();
+    }
+  });
+  input.addEventListener("blur", () => setTimeout(closeStreetList, 120));
+  streetList().addEventListener("mousedown", (ev) => {
+    const li = ev.target.closest("li[data-i]");
+    if (li) { ev.preventDefault(); chooseStreet(streetCombo.items[Number(li.dataset.i)]); }
+  });
+}
+
 async function checkAddress() {
   const box = addrBox();
   const street = val("strasse"), plz = val("plz"), ort = val("wohnort");
@@ -698,12 +794,8 @@ async function checkAddress() {
   if (!street || !/^\d{4}$/.test(plz) || !ort || key === addr.kept
     || /postfach|case postale|casella postale|p\.?\s?o\.?\s?box/i.test(street)) { box.innerHTML = ""; return; }
   try {
-    const url = new URL("https://api3.geo.admin.ch/rest/services/ech/SearchServer");
-    url.search = new URLSearchParams({ searchText: `${street} ${plz} ${ort}`, type: "locations", origins: "address", limit: "5" });
-    const data = await (await fetch(url)).json();
+    const hits = await searchAddresses(`${street} ${plz} ${ort}`, 5);
     if (seq !== addr.seq) return;
-    const hits = (data.results || []).map((r) => String(r.attrs?.label || "").match(/^(.*?)\s*<b>(\d{4}) (.*)<\/b>$/))
-      .filter(Boolean).map(([, s, p, o]) => ({ street: s.trim(), plz: p, ort: o.trim() }));
     const exact = hits.find((h) => h.plz === plz && normStreet(h.street) === normStreet(street));
     const close = exact || hits.find((h) => h.plz === plz && houseNo(h.street) === houseNo(street)
       && similarStreet(streetName(h.street), streetName(street)));
@@ -727,6 +819,8 @@ async function checkAddress() {
 }
 
 function wireAddressCheck() {
+  addrBox();
+  wireStreetCombo();
   for (const id of ["strasse", "plz", "wohnort"]) $(id).addEventListener("change", scheduleAddressCheck);
   addrBox().addEventListener("click", (ev) => {
     const action = ev.target.dataset.addr;
