@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261028g";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029a";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -197,6 +197,7 @@ async function resolveMunicipality(bfs) {
     if (!state.kantone) state.kantone = await fetchJSON("data/kantone.json");
     const canton = state.kantone[kt];
     if (canton?.register && !state.registries[kt]) state.registries[kt] = await fetchJSON(`data/kg/${kt}.json`);
+    if (canton?.imposta && !state.imposta) state.imposta = await fetchJSON(canton.imposta);
   } catch (e) {
     setStatus(t("loadKgErr"), "err");
   }
@@ -502,6 +503,23 @@ function addressNotice(kg, hint) {
   return `<div class="notice"><strong>${esc(title)}</strong>${text.map((p) => `<p>${esc(p)}</p>`).join("")}</div>`;
 }
 
+// Tessin: Pfarreien der Gemeinde, die eine Imposta di culto erheben (Liste der Kurie 2022, teils neuer belegt)
+const sameLines = (a, b) => Boolean(a && b) && a.join("\n") === b.join("\n");
+function impostaBlock(canton, bfs, gname) {
+  if (!canton?.imposta || !state.imposta) return "";
+  const list = state.imposta.bfs[bfs] || [];
+  if (!list.length) return `<p>${esc(t("tiNoTax", gname))}</p>`;
+  return `<h4 class="ti-head">${esc(t("tiWithTax", gname, list.length))}</h4>`
+    + list.map((p, i) => `<div class="ti-parish">
+        <strong>${esc(p.n)}</strong>${p.z ? ` <span class="small">· ${esc(p.z)}</span>` : ""}
+        <address>${p.p.slice(1).map(esc).join("<br>")}</address>
+        ${p.c === "low" ? `<p class="small">${esc(t("tiOld"))}</p>` : ""}${p.ns ? `<p class="small">${esc(t("tiNoStreet"))}</p>` : ""}
+        ${sameLines(state.manualRecipient, p.p) ? `<p class="small"><strong>${esc(t("tiUsed"))}</strong></p>`
+          : `<button type="button" class="linkbtn" data-action="use-parish" data-i="${i}">${esc(t("tiUse"))}</button>`}
+      </div>`).join("")
+    + `<p class="small">${esc(t("tiOthers"))}</p>`;
+}
+
 function recipientEditor() {
   const lines = (state.manualRecipient || state.kg?.p || []).join("\n");
   return `<label for="recipient-edit">${esc(t("recipient"))} <span class="opt-tag">${esc(t("recipientHint"))}</span></label>
@@ -538,6 +556,7 @@ function render() {
     html += `<div class="kg warn"><p class="kg-kicker">${esc(t("cantonOf", gname, cname(kt)))}</p>
       <h3>${esc(t("otherSystem"))}</h3>
       <p>${esc(loc(canton, "summary") || taxText(canton) || t("noData"))}</p>
+      ${impostaBlock(canton, bfs, gname)}
       <p class="small"><a href="#kirchensteuer">${esc(t("moreTax"))}</a></p>
       ${safeUrl(canton.body?.website) ? `<p><a href="${esc(canton.body.website)}" target="_blank" rel="noopener">${esc(canton.body.short || canton.body.name)}</a></p>` : ""}
       <p><button type="button" class="linkbtn" data-action="edit-recipient">${esc(t("enterRecipient"))}</button></p>
@@ -619,6 +638,10 @@ function wireResult() {
       state.showMuniSelect = true;
       render();
       $("muni-select")?.focus();
+    }
+    if (ev.target.dataset.action === "use-parish") {
+      const p = state.imposta?.bfs[state.bfs]?.[Number(ev.target.dataset.i)];
+      if (p) { state.manualRecipient = [...p.p]; state.editingRecipient = false; render(); }
     }
     if (ev.target.dataset.action === "edit-recipient") {
       state.editingRecipient = !state.editingRecipient;

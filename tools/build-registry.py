@@ -222,6 +222,20 @@ def main():
         st.update(st.pop("aktuell", {}))  # neuere kantonale Regel geht der ESTV-Angabe von 2022 vor
         entry["steuer"] = st
     kantone["_steuerquelle"] = {"quelle": estv["quelle"], "url": estv["url"], "stand": estv["stand"]}
+    # Tessin: Pfarreien mit Imposta di culto je Gemeinde; die Seite lädt die Datei nur für Tessiner Orte
+    ti = os.path.join(SRC, "ti-imposta-di-culto.json")
+    if os.path.exists(ti):
+        src = load(ti)
+        by_bfs = {}
+        for e in src["parrocchie"]:
+            entry = {key: val for key, val in {
+                "n": e["name"], "p": compact_postal(e["postal"]), "c": e["confidence"], "z": e.get("zona"),
+                "ns": True if not has_street(e["postal"]) else None,
+            }.items() if val not in (None, "")}
+            for b in e["bfs"]:
+                by_bfs.setdefault(str(b), []).append(entry)
+        dump(os.path.join(OUT, "ti-imposta.json"), {"stand": src["stand"], "bfs": dict(sorted(by_bfs.items()))})
+        kantone["TI"]["imposta"] = "data/ti-imposta.json"
     dump(os.path.join(OUT, "kantone.json"), dict(sorted(kantone.items())))
     print("\n".join(stats))
     missing = sorted(set(CANTONS) - set(kantone))
