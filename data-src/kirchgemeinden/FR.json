@@ -1503,9 +1503,10 @@
       "postal": [
         "Paroisse Saint-François d'Orsens",
         "Conseil paroissial",
+        "Route de Gletterens 58",
         "1568 Portalban"
       ],
-      "address_type": "praesidium",
+      "address_type": "verwaltung",
       "website": "https://upnotredamedetours.ch/2025/02/03/paroisse-de-st-francois-dorsens/",
       "source": "https://upnotredamedetours.ch/2025/02/03/paroisse-de-st-francois-dorsens/",
       "bfs": [
@@ -1514,8 +1515,8 @@
         2045
       ],
       "partial_bfs": [],
-      "confidence": "low",
-      "note": "Postadresse auf der Website prüfen. Fusion 1.1.2025 aus Carignan-Vallon, Gletterens und Delley-Portalban. Weder UP-Seite noch Gemeinde-Websites (Vallon, Delley-Portalban, Gletterens) noch Wochenblatt nennen eine Postadresse oder Case postale, nur Personen; Ort = Wohnort des Präsidiums laut UP-Seite. Alte Verzeichniseinträge: p.a. UP Notre-Dame de Tours (bearbeitet keine Austritte). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/ | Nachrecherche 28.10.2026: UP-Seite (Stand 17.02.2025) erneut geprüft: nur Namen, Mail und Telefon des Conseil, keine Postadresse. UID CHE-239.675.670 nur mit PLZ/Ort (1568 Portalban). Das UP-Sekretariat (Cure Montagny) bearbeitet laut UP keine Austritte, deshalb kein Ersatz über das Pfarramt."
+      "confidence": "medium",
+      "note": "Postadresse auf der Website prüfen. Fusion 1.1.2025 aus Carignan-Vallon, Gletterens und Delley-Portalban. Weder UP-Seite noch Gemeinde-Websites (Vallon, Delley-Portalban, Gletterens) noch Wochenblatt nennen eine Postadresse oder Case postale, nur Personen; Ort = Wohnort des Präsidiums laut UP-Seite. Alte Verzeichniseinträge: p.a. UP Notre-Dame de Tours (bearbeitet keine Austritte). Hinweis zu Austritten: Sekretariat der UP Notre-Dame de Tours bearbeitet keine Kirchenaustritte; Austritte direkt an die Pfarrei senden, per A-Post und nicht eingeschrieben: https://upnotredamedetours.ch/2017/10/02/up-notre-dame-de-tours-et-secteur-de-montagny/ | Nachrecherche 28.10.2026: UP-Seite (Stand 17.02.2025) erneut geprüft: nur Namen, Mail und Telefon des Conseil, keine Postadresse. UID CHE-239.675.670 nur mit PLZ/Ort (1568 Portalban). Das UP-Sekretariat (Cure Montagny) bearbeitet laut UP keine Austritte, deshalb kein Ersatz über das Pfarramt. | Owner-Entscheid 29.10.2026: Postadresse Route de Gletterens 58, 1568 Portalban (vom Verein angegeben; im amtlichen Gebäudeadressverzeichnis vorhanden)."
     },
     {
       "id": "fr-saint-martin",
@@ -2462,7 +2463,6 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Ohne Postadresse bleibt Saint-François d'Orsens (Gletterens, Vallon, Delley, Portalban): Pfarreiseite, UP und Gemeinden nennen nur Namen, Mail und Telefon des Conseil, das UID nur «1568 Portalban». Fehlt: eine Postadresse der Pfarrei (Anfrage beim Conseil).",
     "Plasselb: Postfach 12 nur im Pfarrblatt bei der Pfarreiverwaltung; ob es ein Postfach der Pfarrei ist, ist unbestätigt (low).",
     "Châtonnaye: Adresse c/o kantonale Körperschaft (CEC) aus den CEC-Kontaktdaten der Commission administrative abgeleitet; Bestätigung durch die CEC fehlt.",
     "Fusionsprojekt Chapelle-Gillarens: an der Pfarreiversammlung vom 24.3.2026 traktandiert; kein Beschluss und kein Stichtag publiziert (cath-fr-Fusionsliste ohne Eintrag für 2027, Stand 28.10.2026). Fehlt: Beschluss bzw. Bischofsdekret mit Datum."

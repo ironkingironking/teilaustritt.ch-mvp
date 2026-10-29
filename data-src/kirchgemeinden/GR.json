@@ -1860,7 +1860,6 @@
   ],
   "unmapped_bfs": [],
   "issues": [
-    "Ohne Strasse/Postfach (nur Name + PLZ Ort): Ardez, Martina, Maladers, Arvigo, Landarenca, Braggio, Cauco, Selma, Augio, Rossa, Sta. Domenica, Buseno, Leggia, Verdabbio, Soazza, Campocologno, Viano, Medel/Lucmagn. Adressliste 2026 nennt nur Präsidien mit Privatadresse, UID-Einträge ohne Strasse. Zustelladressen bei der Landeskirche erfragen.",
     "Vals (Mura 153) und Rueun-Ruschein-Siat-Pigniu (Vegna 9): UID-Sitzadressen, Zustellbarkeit laut UID nicht bestätigt.",
     "Mutten (Gemeinde Thusis): Kirchgemeinde nicht belegt. Verfassung KG Thusis (1998) nennt Mutten nicht, der Verfassungsentwurf der KG Albula vermerkt «Mutten?»; kath. 15 % wie beide. Vorläufig Thusis. Klärung bei der Landeskirche.",
     "Rongellen: Verfassung KG Thusis (1998) zählt Rongellen zu Thusis, die Steuerfussliste 2026 nennt aber kath. 16 % (Thusis 15 %, Schams-Avers-Rheinwald 16 %). Vorläufig Thusis.",
@@ -1889,6 +1888,7 @@
     "Poschiavo: Comune parrocchiale 2019 fusioniert (Poschiavo, Cologna, San Carlo/Aino, Angeli Custodi, Pagnoncini); der Jahresbericht 2025/26 führt nur noch Poschiavo.",
     "Tujetsch: Cadruvi 4, 7188 Sedrun laut Adressliste und UID; die Website nennt zusätzlich das Sekretariat in Disentis (Via Sogn Gions 8).",
     "Sumvitg: Secretariat/Administraziun laut Kontaktseite der Pleiv; Pfarrhaus (Casa pervenda) Via Surrein 11, 7172 Rabius als Alternative.",
-    "Brusio: Ginetto 469C ist die Adresse des Präsidiums laut Adressliste der Landeskirche; der UID-Sitz «496c» ist ein Zahlendreher (Owner-Entscheid 28.10.2026)."
+    "Brusio: Ginetto 469C ist die Adresse des Präsidiums laut Adressliste der Landeskirche; der UID-Sitz «496c» ist ein Zahlendreher (Owner-Entscheid 28.10.2026).",
+    "Kirchgemeinden ohne publizierte Strasse: Der Brief geht an Name, PLZ und Ort (Owner-Entscheid 29.10.2026); die Seite weist nur darauf hin, dass man die Adresse ergänzen kann."
   ]
 }

@@ -2,7 +2,7 @@
 // Läuft komplett im Browser. Nur die optionale Strassensuche fragt geo.admin.ch an.
 // Sprache der Oberfläche aus <html lang>, Sprache des Briefs separat (Amtssprache am Wohnort).
 
-import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029f";
+import { UI, LETTER, CANTON_NAMES } from "./i18n.js?v=20261029g";
 
 const $ = (id) => document.getElementById(id);
 const LANG = (document.documentElement.lang || "de").slice(0, 2);
@@ -232,8 +232,6 @@ function setKg(kt, id) {
   id = current(reg, id);
   const kg = reg?.kg?.[id];
   state.kg = kg ? { ...kg, id, kt, stand: reg.stand } : null;
-  // Ohne Strasse direkt den Editor öffnen, damit die Adresse vervollständigt wird
-  if (state.kg && needsStreet(state.kg)) state.editingRecipient = true;
 }
 
 // ---------- Strassensuche (nur geteilte Gemeinden) ----------
@@ -983,7 +981,6 @@ function missingFields(mark = true) {
     if (empty) missing.push({ id, label });
   }
   if (!state.manualRecipient && !state.kg) missing.unshift({ id: "ort", label: t("needRecipient") });
-  else if (!state.manualRecipient && needsStreet(state.kg)) missing.unshift({ id: "recipient-edit", label: t("needKgStreet") });
   if (document.querySelector('input[name="per"]:checked')?.value === "datum" && !$("per-datum").value) missing.push({ id: "per-datum", label: t("needDate") });
   return missing;
 }
